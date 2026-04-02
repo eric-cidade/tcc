@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import meilisearch
 import chromadb
+from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 
 # --- 1. Configurações Iniciais ---
@@ -11,7 +12,13 @@ model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
 print("Modelo carregado com sucesso!")
 # Inicialização dos Clientes
 print("Conectando ao Meilisearch e ChromaDB...")
-meili_client = meilisearch.Client('http://localhost:7700', 'teste123-teste123-teste123-teste123')
+load_dotenv()
+MEILI_KEY = os.getenv('MEILI_MASTER_KEY')
+MEILI_URL = os.getenv('MEILI_URL', 'http://localhost:7700')
+if not MEILI_KEY:
+    print("❌ Erro: MEILI_MASTER_KEY não encontrada no arquivo .env")
+    exit(1)
+meili_client = meilisearch.Client(MEILI_URL, MEILI_KEY)
 meili_index = meili_client.index('corpop_saude_ht')
 print("Conexões meili estabelecidas com sucesso!")
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
