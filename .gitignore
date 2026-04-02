@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Databases and Search Engines (Crucial para o seu projeto)
+meili_data/
+chroma_db/
+*.local
+
+# Secrets and local configs
+.env
+.flaskenv
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# Data (Opcional: descomente se não quiser subir seus .txt)
+# /csv/ht/original/
+# /csv/ht/simplificada/

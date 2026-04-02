@@ -1,62 +1,76 @@
 import os
-import re
-import uuid
+import pandas as pd
 import meilisearch
 import chromadb
 from sentence_transformers import SentenceTransformer
 
-# --- Configurações Iniciais ---
+# --- 1. Configurações Iniciais ---
+# Usando o modelo multilingue recomendado para português
+print("Carregando modelo de embedding...")
 model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
-meili_index = meilisearch.Client('http://localhost:7700', 'masterKey').index('corpop_saude')
-chroma_coll = chromadb.PersistentClient(path="./chroma_db").get_or_create_collection("corpop_saude")
+print("Modelo carregado com sucesso!")
+# Inicialização dos Clientes
+print("Conectando ao Meilisearch e ChromaDB...")
+meili_client = meilisearch.Client('http://localhost:7700', 'teste123-teste123-teste123-teste123')
+meili_index = meili_client.index('corpop_saude_ht')
+print("Conexões meili estabelecidas com sucesso!")
+chroma_client = chromadb.PersistentClient(path="./chroma_db")
+chroma_coll = chroma_client.get_or_create_collection(name="corpop_saude_ht")
+print("Conexões chroma estabelecidas com sucesso!")
+# Caminhos das pastas (ajuste se forem caminhos absolutos)
+PATH_ORIGINAL = './csv/ht/original'
+PATH_SIMPLIFICADA = './csv/ht/simplificada'
+PATH_CSV_MAP = './remedios_ht_map.csv'
 
-# Regex para identificar títulos de bulas (ex: "1. O QUE É...", "COMO USAR", etc.)
-# Ajuste este padrão de acordo com o formato dos seus .txt
-SECTION_PATTERN = r'(\n[0-9]+\.\s[A-ZÇÁÉÍÓÚ\s\?]+|\n[A-ZÇÁÉÍÓÚ\s]{5,}:)'
+# --- 2. Carregar Mapeamento ---
+# Forçamos o ID como string para evitar problemas com zeros à esquerda
+df_map = pd.read_csv(PATH_CSV_MAP, dtype={'id': str})
+mapa_remedios = dict(zip(df_map['id'], df_map['nome']))
+print(f"Mapeamento carregado com {len(mapa_remedios)} medicamentos.")
 
-def processar_bulas(diretorio_txt):
-    for filename in os.listdir(diretorio_txt):
-        if not filename.endswith(".txt"): continue
+def realizar_indexacao():
+    print(f"Iniciando indexação de {len(mapa_remedios)} medicamentos...")
+
+    for n_id, nome_remedio in mapa_remedios.items():
+        # Construção dos nomes de arquivo conforme seu padrão
+        file_orig = f"{n_id}_original_limpo.txt"
+        file_simp = f"{n_id}_validada_limpo.txt"
         
-        nome_remedio = filename.replace(".txt", "").replace("_", " ").title()
-        caminho_completo = os.path.join(diretorio_txt, filename)
-        
-        with open(caminho_completo, 'r', encoding='utf-8') as f:
-            conteudo_total = f.read()
+        path_o = os.path.join(PATH_ORIGINAL, file_orig)
+        path_s = os.path.join(PATH_SIMPLIFICADA, file_simp)
 
-        # 1. QUEBRA AUTOMÁTICA EM SEÇÕES (CHUNKING)
-        # O split vai gerar uma lista alternando entre títulos e conteúdos
-        partes = re.split(SECTION_PATTERN, conteudo_total)
-        
-        # Reconstruir os chunks unindo título + conteúdo
-        chunks = []
-        for i in range(1, len(partes), 2):
-            titulo_secao = partes[i].strip()
-            texto_secao = partes[i+1].strip() if i+1 < len(partes) else ""
-            chunks.append(f"{titulo_secao}\n{texto_secao}")
+        if os.path.exists(path_o) and os.path.exists(path_s):
+            with open(path_o, 'r', encoding='utf-8') as f_o, \
+                 open(path_s, 'r', encoding='utf-8') as f_s:
+                
+                texto_orig = f_o.read().strip()
+                texto_simp = f_s.read().strip()
 
-        # 2. INDEXAÇÃO EM LOTE (BATCH)
-        for idx, texto_chunk in enumerate(chunks):
-            chunk_id = f"{filename}_{idx}"
-            
-            # --- Enviar para o Meilisearch (Palavra-Chave) ---
-            meili_index.add_documents([{
-                "id": chunk_id.replace(".", "_"), # IDs não podem ter pontos
-                "remedio": nome_remedio,
-                "secao": texto_chunk[:100], # Preview do título
-                "conteudo": texto_chunk
-            }])
-            
-            # --- Enviar para o ChromaDB (Vetorial) ---
-            embedding = model.encode(texto_chunk).tolist()
-            chroma_coll.add(
-                embeddings=[embedding],
-                documents=[texto_chunk],
-                metadatas=[{"remedio": nome_remedio, "fonte": filename}],
-                ids=[chunk_id]
-            )
+                # --- Lógica da Busca Híbrida ---
+                # Criamos um texto combinado para o embedding. Isso faz o vetor 
+                # "entender" a relação entre o termo técnico e o simples.
+                texto_hibrido = f"Medicamento: {nome_remedio}\nOriginal: {texto_orig}\nSimplificado: {texto_simp}"
+                embedding = model.encode(texto_hibrido).tolist()
 
-    print(f"Processamento concluído para o diretório: {diretorio_txt}")
+                # --- A. Indexar no ChromaDB (Busca Semântica/Sentido) ---
+                chroma_coll.add(
+                    embeddings=[embedding],
+                    documents=[texto_simp], # O que será retornado na busca semântica
+                    metadatas=[{"id": n_id, "nome": nome_remedio, "tipo": "hipertensao"}],
+                    ids=[n_id]
+                )
 
-# Chame a função passando sua pasta
-# processar_bulas('./meus_textos_validados')
+                # --- B. Indexar no Meilisearch (Busca Léxica/Palavra-Chave) ---
+                meili_index.add_documents([{
+                    "id": n_id,
+                    "nome": nome_remedio,
+                    "conteudo_original": texto_orig,
+                    "conteudo_simplificado": texto_simp
+                }])
+
+                print(f" [OK] ID {n_id}: {nome_remedio} indexado.")
+        else:
+            print(f" [ERRO] Arquivos para o ID {n_id} ({nome_remedio}) não encontrados.")
+
+if __name__ == "__main__":
+    realizar_indexacao()
