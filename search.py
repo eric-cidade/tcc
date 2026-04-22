@@ -6,7 +6,8 @@ from sentence_transformers import SentenceTransformer
 
 # --- 1. Inicialização ---
 print("Conectando aos motores de busca...", file=sys.stderr)
-model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+model = SentenceTransformer('BAAI/bge-m3')
+model.max_seq_length = 8192
 
 meili_client = meilisearch.Client('http://localhost:7700', 'teste123-teste123-teste123-teste123')
 meili_index = meili_client.index('corpop_saude_ht')

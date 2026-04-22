@@ -8,7 +8,8 @@ from sentence_transformers import SentenceTransformer
 # --- 1. Configurações Iniciais ---
 # Usando o modelo multilingue recomendado para português
 print("Carregando modelo de embedding...")
-model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2') # pesquisar se esse é o modelo adequado
+model = SentenceTransformer('BAAI/bge-m3')
+model.max_seq_length = 8192
 print("Modelo carregado com sucesso!")
 # Inicialização dos Clientes
 print("Conectando ao Meilisearch e ChromaDB...")
@@ -35,7 +36,14 @@ mapa_remedios = dict(zip(df_map['id'], df_map['nome']))
 print(f"Mapeamento carregado com {len(mapa_remedios)} medicamentos.")
 
 def realizar_indexacao():
+    global chroma_coll
     print(f"Iniciando indexação de {len(mapa_remedios)} medicamentos...")
+
+    try:
+        chroma_client.delete_collection(name="corpop_saude_ht")
+    except Exception:
+        pass
+    chroma_coll = chroma_client.get_or_create_collection(name="corpop_saude_ht")
 
     for n_id, nome_remedio in mapa_remedios.items():
         file_orig = f"{n_id}_original_limpo.txt"
@@ -51,22 +59,22 @@ def realizar_indexacao():
                 texto_orig = f_o.read().strip()
                 texto_simp = f_s.read().strip()
 
-                # --- Lógica da Busca Híbrida ---
-                # Criamos um texto combinado para o embedding. Isso faz o vetor 
-                # "entender" a relação entre o termo técnico e o simples.
-                texto_hibrido = f"Medicamento: {nome_remedio}\nOriginal: {texto_orig}\nSimplificado: {texto_simp}"
-                embedding = model.encode(texto_hibrido).tolist()
-
                 # --- A. Indexar no ChromaDB (Busca Semântica/Sentido) ---
-                # no momento esta truncando o texto devido a um limite de tokens do modelo
-                # isso deve ser ajustado utilizando chunking ou outro modelo de embedding que aceite mais tokens
-                chroma_coll.add(
-                    embeddings=[embedding],
-                    documents=[texto_simp], # O que será retornado na busca semântica
-                    metadatas=[{"id": n_id, "nome": nome_remedio, "tipo": "hipertensao"}],
-                    ids=[n_id]
-                )
+                # Uma entrada por registro (técnico e simplificado) para permitir
+                # que a busca case com o registro mais próximo da linguagem do usuário.
+                emb_orig, emb_simp = model.encode([texto_orig, texto_simp]).tolist()
 
+                #TODO : adicionar metadados de laboratorio/fabricante etc.
+                chroma_coll.add( 
+                    embeddings=[emb_orig, emb_simp],
+                    documents=[texto_orig, texto_simp],
+                    metadatas=[
+                        {"id": n_id, "nome": nome_remedio, "tipo": "hipertensao", "registro": "original"},
+                        {"id": n_id, "nome": nome_remedio, "tipo": "hipertensao", "registro": "simplificada"},
+                    ],
+                    ids=[f"{n_id}_orig", f"{n_id}_simp"],
+                )
+                
                 # --- B. Indexar no Meilisearch (Busca Léxica/Palavra-Chave) ---
                 meili_index.add_documents([{
                     "id": n_id,
