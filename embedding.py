@@ -23,7 +23,10 @@ meili_client = meilisearch.Client(MEILI_URL, MEILI_KEY)
 meili_index = meili_client.index('corpop_saude_ht')
 print("Conexões meili estabelecidas com sucesso!")
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
-chroma_coll = chroma_client.get_or_create_collection(name="corpop_saude_ht")
+chroma_coll = chroma_client.get_or_create_collection(
+    name="corpop_saude_ht",
+    metadata={"hnsw:space": "cosine"},
+)
 print("Conexões chroma estabelecidas com sucesso!")
 
 PATH_ORIGINAL = './csv/ht/original'
@@ -43,7 +46,10 @@ def realizar_indexacao():
         chroma_client.delete_collection(name="corpop_saude_ht")
     except Exception:
         pass
-    chroma_coll = chroma_client.get_or_create_collection(name="corpop_saude_ht")
+    chroma_coll = chroma_client.get_or_create_collection(
+        name="corpop_saude_ht",
+        metadata={"hnsw:space": "cosine"},
+    )
 
     for n_id, nome_remedio in mapa_remedios.items():
         file_orig = f"{n_id}_original_limpo.txt"
