@@ -1,0 +1,289 @@
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Sutent® (malato de sunitinibe) é indicado para o tratamento de tumor estromal gastrintestinal (GIST, do inglês Gastrointestinal Stromal Tumor – um tipo de câncer de estômago e intestino) após falha do tratamento com mesilato de imatinibe devido à resistência ou intolerância.
+
+Sutent® é indicado para o tratamento de carcinoma metastático de células renais (CCRm – um tipo de câncer nos rins) avançado.
+
+Sutent® é indicado para o tratamento de tumores neuroendócrinos pancreáticos (um tipo de câncer no pâncreas) não ressecáveis (que não podem ser operados).
+
+Sutent® também é indicado para o tratamento adjuvante de pacientes adultos com alto risco de carcinoma de células renais (CCR) recorrente após remoção cirúrgica conhecida como nefrectomia.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+Sutent® é um medicamento usado no tratamento do câncer.
+
+Sutent® demonstrou ser capaz de inibir o crescimento do tumor, causar diminuição do tumor, e/ou inibir a progressão do câncer metastático (que se propaga para outros locais do corpo) em alguns modelos experimentais de câncer. Sutent® é capaz de inibir vários receptores (estruturas presentes na parede da célula tumoral e dos vasos sanguíneos do tumor, nas quais o medicamento se liga) envolvidos no processo de crescimento tumoral, impedindo diretamente o crescimento das células de tumores específicos e inibindo a angiogênese tumoral (formação de novos vasos sanguíneos ao redor do tumor).
+
+As concentrações sanguíneas máximas de Sutent® são observadas geralmente entre 6 e 12 horas após administração oral.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Sutent® é contraindicado a pacientes com hipersensibilidade (alergia) ao malato de sunitinibe ou a qualquer outro componente da fórmula.
+
+Uso contraindicado no aleitamento ou na doação de leite humano.
+
+Este medicamento é contraindicado durante o aleitamento ou doação de leite, pois é excretado no leite humano e pode causar reações indesejáveis no bebê. Seu médico ou cirurgião-dentista deve apresentar alternativas para o seu tratamento ou para a alimentação do bebê.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Pele e Tecidos A alteração da cor da pele, possivelmente, devido à coloração do medicamento (amarelo), foi uma reação adversa muito comum relatada em estudos clínicos. A despigmentação (perda de cor) dos cabelos ou a coloração da pele pode acontecer com o uso de Sutent®. Outros efeitos dermatológicos possíveis de ocorrer incluem secura, espessamento ou rachadura da pele, bolhas ou exantema (erupção cutânea) ocasional na palma das mãos e na planta dos pés. Esses eventos não são cumulativos, foram tipicamente reversíveis e geralmente não necessitam de descontinuação do tratamento.
+
+Reações cutâneas graves foram relatadas, incluindo casos de eritema multiforme (EM) e casos que sugerem síndrome de Stevens-Johnson (SJS), alguns dos quais fatais. Se os sinais ou sintomas de SJS ou EM (por exemplo, erupções cutâneas progressivas, frequentemente com bolhas ou lesões da mucosa) estiverem presentes, o tratamento com Sutent® deve ser descontinuado. Se o diagnóstico de SJS for confirmado, o tratamento não deve ser reiniciado. Em alguns casos de suspeita de EM, os pacientes toleraram a reintrodução do tratamento com Sutent® em uma dose mais baixa depois da resolução da reação; alguns desses pacientes também receberam tratamento concomitante com corticosteroides ou anti-histamínicos.
+
+Eventos Hemorrágicos Eventos hemorrágicos relatados através da experiência pós-comercialização, alguns dos quais foram fatais, incluíram hemorragias (sangramento) gastrintestinais, respiratórias, tumorais, do trato urinário e cerebrais.
+
+Hemorragia tumoral (do tumor) ocorreu em aproximadamente 2% dos pacientes com tumor estromal gastrintestinal (GIST). Houve casos de sangramento no pulmão nos pacientes dos estudos clínicos e em pacientes que usaram o medicamento após sua aprovação. No estudo em pacientes com GIST houve sangramento em 18% dos pacientes recebendo Sutent® e em 17% dos pacientes recebendo placebo. No estudo em primeira linha de câncer de rim, houve sangramento em 39% dos pacientes recebendo Sutent® e em 11% de pacientes recebendo interferon-α. Nos pacientes que receberam sunitinibe para o tratamento adjuvante do CCR, 30,7% dos pacientes apresentaram sangramento, em comparação com 8,2% dos pacientes que receberam placebo.
+
+21,7% dos pacientes que receberam Sutent® em um estudo de tumores neuroendócrinos pancreáticos apresentaram algum sangramento (exceto pelo nariz).
+
+A avaliação de rotina deste evento deve incluir hemograma completo (tipo de exame de sangue) e exame físico.
+
+Trato Gastrintestinal Complicações gastrintestinais (do estômago e do intestino) graves, algumas vezes fatais, incluindo perfuração gastrintestinal, ocorreram em pacientes com tumores intra-abdominais tratados com Sutent®.
+
+Eventos Gastrintestinais Náusea, diarreia, estomatite (inflamação da mucosa da boca), dispepsia (má digestão) e vômito foram os eventos gastrintestinais mais comuns relatados relacionados ao tratamento. As medidas de suporte para eventos adversos gastrintestinais podem incluir medicação antiemética (para inibir o vômito) ou antidiarreica (para inibir a diarreia).
+
+Pancreatite A pancreatite foi relatada em estudos clínicos do Sutent®. Aumentos na lipase sérica e amilase (enzimas do pâncreas) foram observados em pacientes com diversos tumores sólidos malignos que receberam Sutent®.
+
+Aumentos nos níveis de lipase foram transitórios e geralmente não acompanhados de sinais e sintomas de pancreatite (inflamação no pâncreas) em indivíduos com vários tumores sólidos. Se aparecerem sintomas de pancreatite, os pacientes devem ter o tratamento com Sutent® interrompido e devem ser prestados cuidados de suporte adequado.
+
+Hepatotoxicidade Hepatotoxicidade (toxicidade no fígado) foi observada em pacientes tratados com Sutent®. Casos de insuficiência hepática (o fígado não funciona perfeitamente), alguns causando morte, foram observados em < 1% dos pacientes com tumores sólidos tratados com Sutent®. Devem ser realizados exames laboratoriais para avaliar como está a função do fígado antes do início do tratamento, durante cada ciclo de tratamento ou como clinicamente indicado. Sutent® deve ser interrompido em casos de eventos adversos relacionados ao fígado de Grau 3 ou 4 (graves) e descontinuado se não houver resolução. Na presença de sintomas de pancreatite (dor abdominal, náuseas e vômitos) ou insuficiência hepática, seu médico deve avaliá-lo adequadamente.
+
+Este medicamento pode causar danos ao fígado. Por isso, seu uso requer acompanhamento médico estrito e exames laboratoriais periódicos para controle.
+
+Alterações Sanguíneas Foi relatada diminuição na contagem absoluta de neutrófilos e de plaquetas (células do sangue) em estudos clínicos. Estes eventos não foram cumulativos, foram tipicamente reversíveis e geralmente não resultaram na descontinuação do tratamento. Além disto, alguns casos de hemorragia fatal associados com trombocitopenia (diminuição das células de coagulação do sangue: plaquetas) foram relatados na experiência póscomercialização. Hematimetria completa (exame de sangue completo) deve ser realizada no início de cada ciclo de tratamento com Sutent®.
+
+Cardiovascular Eventos cardiovasculares, incluindo insuficiência cardíaca (incapacidade do coração bombear a quantidade adequada de sangue), cardiomiopatia (doença do músculo do coração), isquemia miocárdica (diminuição do fluxo de sangue para o músculo do coração) e infarto do miocárdio (morte das células do músculo do coração devido à falta de sangue/oxigênio), alguns dos quais fatais, foram relatados na experiência pós-comercialização.
+
+Ocorreram alterações no funcionamento do coração (envolvendo alterações na fração de ejeção, que é a quantidade de sangue bombeada pelo ventrículo esquerdo, que é parte do coração) em aproximadamente 2% dos pacientes com GIST tratados com Sutent®, 4% dos pacientes com CCRm (carcinoma metastático de células renais – tipo de câncer dos rins) refratário (não responsivo) a citocinas (tipo de tratamento) e 2% dos pacientes tratados com placebo (substância que não contém o princípio ativo responsável pela ação do medicamento).
+
+Estas alterações frequentemente melhoram com a continuidade do tratamento.
+
+Em estudos de CCRm em pacientes virgens de tratamento, 27% e 15% dos pacientes tratados com Sutent® e interferon-α, respectivamente, apresentaram diminuição da força do coração (diminuição da fração de ejeção).
+
+Dois (<1%) dos pacientes que receberam Sutent® foram diagnosticados com insuficiência cardíaca congestiva.
+
+No tratamento adjuvante do estudo de CCR, a diminuição da força do coração (fração de ejeção) foi relatada para 1,3% dos pacientes que utilizaram Sutent® e para 2,0% dos pacientes que receberam placebo. Nenhum paciente que recebeu Sutent® foi diagnosticado com ICC (insuficiência cardíaca congestiva).
+
+Alterações no Eletrocardiograma (Prolongamento do Intervalo QT) Sutent® prolongou o intervalo QTcF (que são as ondas elétricas responsáveis pela contração cardíaca) quando suas concentrações foram o dobro da concentração terapêutica. O prolongamento do intervalo QT pode levar a um aumento do risco de arritmia ventricular (alteração no ritmo dos batimentos cardíacos). Sutent® deve ser usado com cautela em pacientes com conhecida história de prolongamento do intervalo QT, em pacientes que estejam tomando antiarrítmicos (medicamentos para arritmia cardíaca) ou em pacientes com doença cardíaca relevante preexistente, bradicardia (diminuição dos batimentos cardíacos) ou distúrbios eletrolíticos (de alguns componentes do sangue). Alguns medicamentos que inibem a metabolização do Sutent® devem ser utilizados com cautela, e a dose de Sutent® deve ser reduzida.
+
+Este medicamento pode aumentar o risco de alteração grave nos batimentos cardíacos, que pode ser potencialmente fatal (morte súbita).
+
+Não tome este medicamento se você tiver uma alteração no coração chamada síndrome congênita de prolongamento do intervalo QT (ou síndrome do QT longo), ou se você já teve algum episódio de ritmo cardíaco anormal, porque pode ser perigoso e provocar alterações do ritmo do coração, inclusive com risco de morte.
+
+Avise seu médico se você tiver bradicardia (diminuição da frequência cardíaca), insuficiência cardíaca ou outras doenças do coração, ou se você souber que tem baixo nível de potássio ou de magnésio no sangue.
+
+Avise seu médico se você estiver utilizando outros medicamentos, especialmente medicamentos que causam prolongamento do intervalo QT (alteração do ritmo do coração no eletrocardiograma), medicamentos para arritmia (para corrigir o ritmo do coração) ou medicamentos diuréticos (remédios para eliminar água do corpo).
+
+Hipertensão A hipertensão (pressão alta) foi uma reação adversa muito comum relatada em estudos clínicos com pacientes com tumores sólidos, incluindo principalmente GIST e CCR refratário a citocinas. A dose de Sutent® foi reduzida ou o tratamento temporariamente adiado em aproximadamente 2,7% dessa população de pacientes.
+
+Nenhum destes pacientes teve que parar o tratamento com Sutent®. Hipertensão grave (pressão sistólica – a maior medida da pressão – >200 mmHg ou pressão diastólica – a menor medida da pressão – >110 mmHg) ocorreu em 4,7% desta população de pacientes. A hipertensão foi relatada em aproximadamente 33,9% dos pacientes previamente virgens de tratamento e recebendo Sutent® para CCRm em comparação a 3,6% dos pacientes recebendo interferon-α. Foi relatada hipertensão em 36,9% dos pacientes que receberam Sutent® e em 11,8% dos pacientes tratados com placebo no tratamento adjuvante do estudo com CCR. Hipertensão grave ocorreu em 12% dos pacientes previamente virgens de tratamento e recebendo Sutent® e em < 1% dos pacientes com interferon-α. A hipertensão foi relatada em 26,5% dos pacientes que receberam Sutent® em um estudo de tumores neuroendócrinos pancreáticos comparado a 4,9% dos pacientes que receberam placebo. Hipertensão grave ocorreu em 10% dos pacientes de tumores neuroendócrinos pancreáticos com Sutent® e em 3% dos pacientes com placebo. Seu médico deve submetê-lo a exames para verificar a sua pressão arterial, tomando as medidas adequadas para o controle da mesma. A suspensão temporária é recomendada caso você apresente
+
+hipertensão grave não controlada com medicação. O tratamento pode ser reiniciado assim que a hipertensão estiver adequadamente controlada.
+
+Aneurismas e Dissecções arteriais O uso de medicações pertencentes à mesma classe do sunitinibe pode acarretar na formação de aneurismas e/ou dissecções arteriais, em pacientes com ou sem hipertensão arterial. Antes de iniciar o tratamento com Sutent®, o risco deve ser cuidadosamente considerado pelo médico, em pacientes com fatores de risco como hipertensão ou histórico de aneurisma.
+
+Disfunção da Tireoide Recomenda-se avaliação laboratorial pré-tratamento da função tireoidiana (da tireoide) e pacientes com hipotireoidismo (diminuição da função da glândula tireoide) ou hipertireoidismo (aumento da função da tireoide) devem ser tratados de acordo com a prática médica padrão antes do início do tratamento com Sutent®. Todos os pacientes devem ser rigorosamente observados quanto a sinais e sintomas de disfunção da tireoide durante o tratamento com Sutent®. Os pacientes com sinais e/ou sintomas sugestivos de disfunção da tireoide devem receber monitoramento laboratorial da função tireoidiana e devem ser tratados de acordo com a prática médica padrão.
+
+Hipotireoidismo adquirido foi observado em 6,2% dos pacientes com GIST tratados com Sutent® versus 1% dos tratados com placebo. Hipotireoidismo foi relatado como um evento adverso em 16% dos pacientes recebendo Sutent® que participaram do estudo de CCRm em pacientes virgens de tratamento e três pacientes (< 1%) no braço interferon-α, e em 4% dos pacientes que participaram de 2 estudos de CCRm refratário a citocinas.
+
+Adicionalmente, foram relatadas elevações de TSH (hormônio relacionado à tireoide) em 2% dos pacientes de CCRm refratário a citocinas. No geral, 7% da população com CCRm refratário a citocinas apresentaram tanto evidências clínicas como laboratoriais de hipotireoidismo decorrente do tratamento. No tratamento adjuvante do estudo de CCR, o hipotiroidismo foi notificado como um evento adverso em 18,0% dos pacientes que receberam Sutent® e em 1,3% dos pacientes que receberam placebo. Hipotireoidismo foi relatado em 7,2% dos pacientes recebendo Sutent® e em 1,2% recebendo placebo.
+
+Em estudos clínicos e experiências pós-comercialização foram relatados raros casos de hipertireoidismo, alguns seguidos por hipotireoidismo.
+
+Convulsões Nos estudos clínicos com Sutent®, foram observadas convulsões nos indivíduos com evidências radiológicas (por meio de exames de imagens) de metástases cerebrais (no cérebro). Além disso, houve raros relatos (< 1%) alguns fatais, de indivíduos apresentando convulsões e evidências radiológicas de Síndrome de Leucoencefalopatia Posterior Reversível (SLPR – síndrome caracterizada por dor de cabeça, alteração do estado mental, crises convulsivas e distúrbios visuais). Os pacientes com convulsões e sinais/sintomas consistentes com SLPR, como hipertensão, cefaleia (dor de cabeça), diminuição do estado de alerta, funcionamento mental alterado e perda visual, incluindo cegueira, devem ser controlados com tratamento médico, incluindo controle da hipertensão. Recomenda-se a suspensão temporária de Sutent®; após a resolução, o tratamento pode ser reiniciado a critério do médico responsável pelo tratamento.
+
+Procedimentos Cirúrgicos Casos de debilidade na cicatrização de feridas foram relatados durante a terapia com Sutent®. A interrupção temporária da terapia com Sutent® é recomendada por precaução em pacientes submetidos a procedimentos cirúrgicos de grande porte. Há experiência clínica limitada com relação ao tempo de reinício da terapia seguida de intervenção cirúrgica. Entretanto, a decisão de retomar a terapia com Sutent® após essas intervenções cirúrgicas deve ser baseada no julgamento clínico da recuperação da cirurgia.
+
+Osteonecrose da mandíbula (ONM) ONM é uma condição na qual o tecido ósseo na mandíbula não cicatriza após lesões grandes ou pequenas, como a extração de um dente, fazendo com que o osso fique exposto.
+
+ONM tem sido relatada em pacientes tratados com Sutent®. A maioria dos casos ocorreu em pacientes que haviam recebido tratamento prévio ou concomitante com bisfosfonatos IV, para o qual ONM é um risco identificado. Cuidado deve ser tomado quando Sutent® e bisfosfonatos IV são utilizados simultaneamente ou sequencialmente.
+
+Procedimentos dentários invasivos são também um fator de risco identificado para ONM. Antes do tratamento com Sutent®, um exame dentário e odontologia preventiva apropriada devem ser considerados. Em pacientes em tratamento com Sutent®, que já receberam ou estão recebendo bisfosfonatos IV, procedimentos dentários invasivos devem ser evitados, se possível.
+
+Síndrome de lise tumoral (SLT) Casos de SLT, alguns fatais, foram raramente observados em estudos clínicos e foram relatados na experiência pós-comercialização em pacientes tratados com Sutent®. Os pacientes geralmente em risco de SLT são aqueles que apresentam carga tumoral elevada antes do tratamento. Estes pacientes devem ser cuidadosamente monitorizados e tratados como clinicamente indicado.
+
+Fascite necrosante Raros casos de fascite necrosante, incluindo casos com acometimento do períneo, foram relatados, algumas vezes fatais. A terapia com Sutent® deve ser descontinuada nos pacientes que desenvolvem fascite necrosante e o tratamento adequado deve ser iniciado imediatamente.
+
+Microangiopatia trombótica Microangiopatia trombótica (TMA, grupo de condições caracterizadas por anemia e distúrbios da coagulação do sangue), incluindo púrpura trombocitopênica trombótica (TTP, caracterizada por anemia, distúrbios da coagulação, febre, distúrbios neurológicos e dos rins) e síndrome hemolítico-urêmica (SHU, caracterizada por anemia, distúrbios da coagulação e do funcionamento dos rins), às vezes levando à insuficiência renal (parada do funcionamento dos rins) ou um desfecho fatal (morte) foi relatado com Sutent® sozinho ou em combinação com outra droga chamada bevacizumabe. Sutent® deve ser descontinuado em pacientes que desenvolvam TMA. Foi observada a reversão dos efeitos de TMA após a descontinuação do tratamento.
+
+Proteinúria Foram relatados casos de proteinúria (proteína aumentada na urina) e síndrome nefrótica (doença dos rins).
+
+Recomenda-se uma avaliação laboratorial basal da urina e os pacientes devem ser monitorados quanto ao desenvolvimento ou piora da proteinúria. A segurança do tratamento contínuo com Sutent® em pacientes com proteinúria moderada a grave não foi sistematicamente avaliada. Sutent® deve ser descontinuado em pacientes com síndrome nefrótica.
+
+Hipoglicemia Reduções na taxa de açúcar no sangue, em alguns casos com sintomas, foram relatadas durante o tratamento com Sutent®. Os níveis de açúcar no sangue em pacientes diabéticos devem ser verificados regularmente para avaliar se a dosagem do medicamento para diabetes precisa ser ajustada para minimizar o risco de hipoglicemia (nível baixo de açúcar no sangue).
+
+Uso Durante a Gravidez Não foram conduzidos estudos em mulheres grávidas usando Sutent®.
+
+Sutent® não deve ser utilizado durante a gravidez ou se você não estiver utilizando um método contraceptivo (para evitar gravidez) adequado, a não ser que o potencial benefício justifique o potencial risco para o feto. Se o medicamento for utilizado durante a gravidez, ou se você engravidar enquanto estiver utilizando este medicamento, seu médico deve informá-la do potencial risco para o feto. Caso você apresente potencial para engravidar aconselha-se a não engravidar enquanto estiver sob tratamento com Sutent®.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica. Informe imediatamente seu médico em caso de suspeita de gravidez.
+
+Fertilidade A fertilidade pode ser comprometida pelo tratamento com Sutent®.
+
+Uso Durante a Lactação
+
+Ainda é desconhecido se Sutent® ou seu principal metabólito (derivado) ativo é excretado no leite humano. Uma vez que os medicamentos são comumente excretados no leite humano e pelo potencial de reações adversas graves nos bebês, não amamente durante o tratamento com Sutent®.
+
+Efeitos na Habilidade de Dirigir e Operar Máquinas Não foram feitos estudos para avaliar a habilidade de dirigir ou operar máquinas. Você pode apresentar tontura durante o tratamento com Sutent®.
+
+Interações Medicamentosas Medicamentos que podem aumentar a concentração plasmática (no sangue) de Sutent®: cetoconazol, ritonavir, itraconazol, eritromicina, claritromicina, suco de toranja (grapefruit), além de outros inibidores da família CYP3A4.
+
+Medicamentos que podem diminuir a concentração plasmática de Sutent®: rifampicina, dexametasona, fenitoína, carbamazepina, fenobarbital ou Hypericum perforatum (conhecida como erva de São-João), além de outros indutores da família CYP3A4.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para a sua saúde.
+
+Excipientes Sutent® 12,5 mg:
+
+Atenção: contém os corantes dióxido de titânio e óxido de ferro vermelho.
+
+Sutent® 25 mg e Sutent® 50 mg:
+
+Atenção: contém os corantes dióxido de titânio, óxido de ferro vermelho, óxido de ferro amarelo e óxido de ferro preto.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Sutent® deve ser armazenado em temperatura ambiente (de 15 °C a 30 °C). Proteger da umidade.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+Todo medicamento deve ser mantido fora do alcance das crianças.
+
+Características do produto:
+
+Sutent® 12,5 mg: cápsula de gelatina dura, na cor laranja, com impresso opaco contendo grânulos de amarelo à laranja.
+
+Sutent® 25 mg: cápsula de gelatina dura, com corpo na cor laranja e tampa na cor caramelo, com impresso opaco contendo grânulos de amarelo à laranja.
+
+Sutent® 50 mg: cápsula de gelatina dura, na cor caramelo, com impresso opaco contendo grânulos de amarelo à laranja.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Para GIST ou CCRm, a dose recomendada de Sutent® é de 50 mg por via oral, administrada em dose única diária durante 4 semanas consecutivas, seguidas por um período de descanso de 2 semanas (esquema 4/2), totalizando um ciclo completo de 6 semanas. Para o tratamento adjuvante do CCR, a dose recomendada de sunitinib é de 50 mg por via oral, uma vez por dia, no esquema 4/2, durante nove ciclos de 6 semanas (aproximadamente 1 ano).
+
+Para tratamento de tumores neuroendócrinos pancreáticos, a dose recomendada de Sutent® é de 37,5 mg, tomada por via oral em dose única diária sem um período de descanso programado.
+
+Sutent® deve ser utilizado por via oral, com ou sem alimentos.
+
+Modificações de Dose A modificação da dose, em aumentos ou reduções de 12,5 mg, é recomendada com base na segurança e tolerabilidade individuais; as doses não devem ser superiores a 75 mg ou inferiores a 25 mg, diariamente.
+
+Para o tratamento adjuvante do CCR podem ser aplicadas modificações na dose em reduções de 12,5 mg, com base na segurança e tolerabilidade individuais até 37,5 mg. A dose máxima administrada no estudo de CCR adjuvante de fase 3 foi de 50 mg por dia.
+
+Para tratamento de tumores neuroendócrinos pancreáticos, a modificação da dose em aumentos ou reduções de 12,5 mg pode ser aplicada baseado na segurança e tolerabilidade individuais.
+
+A interrupção da dose pode ser necessária com base na segurança e tolerabilidade individuais.
+
+Informe ao seu médico sobre qualquer medicamento que esteja usando antes do início ou durante o tratamento com Sutent®, pois pode ser necessário ajuste da dose.
+
+Uso em Pacientes Pediátricos (crianças) A segurança e eficácia de Sutent® em pacientes pediátricos ainda não foram estabelecidas.
+
+Uso em Pacientes Idosos Não é necessário ajuste de dose para pacientes idosos. Aproximadamente 34% dos pacientes nos estudos clínicos de Sutent® tinham 65 anos de idade ou mais. Não foram observadas diferenças significativas na segurança ou eficácia entre pacientes jovens e idosos.
+
+Uso na Insuficiência Hepática (falência da função do fígado) Não é necessário ajuste de dose para pacientes com insuficiência hepática (do fígado) leve ou moderada. Sutent® não foi estudado em indivíduos com insuficiência hepática grave.
+
+Uso na Insuficiência Renal (diminuição da função dos rins) Não é necessário ajuste da dose inicial para pacientes com insuficiência renal (leve a grave) ou em hemodiálise.
+
+Ajustes de doses subsequentes devem ser baseados na segurança e tolerabilidade individual.
+
+Siga a orientação de seu médico, respeitando sempre os horários, as doses e a duração do tratamento.
+
+Não interrompa o tratamento sem o conhecimento do seu médico.
+
+Este medicamento não deve ser partido, aberto ou mastigado.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Caso você esqueça de tomar Sutent® no horário estabelecido pelo seu médico, não tome uma dose adicional.
+
+Neste caso, tome a dose recomendada no dia seguinte, como faria habitualmente.
+
+O esquecimento de dose pode comprometer a eficácia do tratamento.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico, ou cirurgião-dentista.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+As frequências de reações adversas apresentadas nesta seção representam as frequências do evento ocorridas em indivíduos tratados com Sutent® e independentemente da avaliação de causalidade.
+
+As reações adversas graves mais importantes relacionadas ao tratamento com Sutent® para tumores sólidos foram: embolia pulmonar (presença de coágulo no pulmão), trombocitopenia (diminuição das células de coagulação do sangue: plaquetas), hemorragia no local do tumor, neutropenia (diminuição de um tipo de células de defesa no sangue: neutrófilos) febril e hipertensão (pressão alta).
+
+Frequências de reações adversas ao medicamento, por todas as causas, geradas pelo tratamento relatadas em pacientes que receberam Sutent® em estudos e a partir da experiência pós-comercialização encontram-se listadas a seguir por frequência:
+
+Reações muito comum (ocorrem em 10% ou mais dos pacientes que utilizam esse medicamento): infecções*, neutropenia (diminuição de um tipo de células de defesa no sangue: neutrófilos), leucopenia (redução de células de defesa no sangue), trombocitopenia (diminuição da quantidade de plaquetas do sangue), anemia (diminuição da quantidade de células vermelhas do sangue: hemácias), hipotireoidismo (diminuição da função da tireoide), diminuição do apetite, insônia (dificuldade para dormir), cefaleia (dor de cabeça), disgeusia (alteração do paladar), hipertensão, dispneia (falta de ar), epistaxe (sangramento nasal), dor abdominalh, diarreia, vômito, náusea (enjoo), dispepsia (má digestão), estomatitei (inflamação da mucosa oral), constipação (prisão de ventre), exantemal (erupção cutânea), síndrome de eritrodisestesia palmar-plantar (inflamação com alteração da
+
+sensibilidade da palma das mãos e planta dos pés), alteração na cor da pelem, alteração na cor do cabelo, pele seca, dor nas extremidades (mãos e pés), artralgia (dor nas articulações), fadigan (cansaço), inflamação das mucosas, edemao (inchaço), pirexia (febre).
+
+Reações comum (ocorrem entre 1% e 10% dos pacientes que utilizam esse medicamento): linfopenia (redução de um tipo de célula de defesa: linfócito), desidratação** (perda excessiva de água e sais minerais do organismo), hipoglicemia (diminuição da glicose do sangue), depressão, tontura, parestesia (dormência e formigamento), edema periorbital (inchaço ao redor dos olhos), edema de pálpebra (inchaço da pálpebra), aumento do lacrimejamento, isquemia miocárdicab** (falta de sangue no coração), diminuição da fração de ejeçãoc (força com que o sangue é bombeado pelo coração), trombose venosa profunda (entupimento de uma veia profunda por um coágulo, em geral nas pernas), embolismo pulmonar** (entupimento de uma artéria do pulmão por um coágulo) hemoptiseg** (tosse com sangue), efusão pleural (acúmulo de líquido no espaço pleural, localizado entre o pulmão e a parede do tórax), dor orofaríngeaf (garganta), hemorragia gastrintestinal**, esofagite (inflamação do esôfago), distensão abdominal (inchaço do abdômen), doença do refluxo gastroesofágico (refluxo do conteúdo do estômago para o esôfago, gerando dor e azia), dor oral, glossodinia (queimação na língua), sangramento gengival, boca seca, flatulência (excesso de gases no estômago ou intestinos), reação na pele, lesão na pele, eritema (vermelhidão), prurido (coceira), esfoliação cutânea (da pele), bolhas, alopecia (perda de cabelo), alterações na unha, mialgia (dor muscular), insuficiência renal** (perda da função dos rins), proteinúria (proteína aumentada na urina), cromatúria (coloração anormal da urina), calafrios, síndrome gripal, diminuição da hemoglobina (anemia), contagem de plaquetas diminuída, diminuição na contagem de glóbulos brancos (células de defesa), lipase aumentada (enzima do pâncreas envolvida no processo de digestão), ácido úrico aumentado no sangue, amilase aumentadap (enzima do pâncreas envolvida na digestão), diminuição de peso.
+
+Reações incomum (ocorrem entre 0,1% e 1% dos pacientes que utilizam esse medicamento): hipersensibilidade (alergia), hipertireoidismo (aumento da função da tireoide), hemorragia cerebral** (no cérebro), acidente vascular cerebral** (derrame no cérebro), ataque isquêmico transitório (defeito neurológico causado por uma diminuição do suprimento sanguíneo em algum local do cérebro), infarto do miocárdiod** (morte das células do músculo cardíaco devido à diminuição da quantidade de sangue/oxigênio), insuficiência cardíaca** (diminuição da função do coração), cardiomiopatia** (doença do músculo do coração), insuficiência cardíaca congestiva (incapacidade do coração de bombear a quantidade adequada de sangue), prolongamento do intervalo QT no eletrocardiograma (alteração do ritmo do coração), aneurismas e dissecções arteriaise,**, hemorragia tumoral** (do tumor), perfuração gastrintestinalj,** (perfuração de órgão do aparelho digestivo), pancreatite (inflamação do pâncreas), insuficiência hepática** (incapacidade do fígado de funcionar adequadamente), colecistitek (inflamação da vesícula biliar), dermatite esfoliativa (descamação da pele), formação de fístulas** (canal de comunicação entre dois órgãos que não se comunicam normalmente), osteonecrose da mandíbula (morte do osso da mandíbula), comprometimento renal (perda da função dos rins), hemorragia do trato urinário (sangramento do sistema urinário), aumento da creatina fosfoquinase sérica (enzima presente em vários tecidos do nosso organismo), hormônio estimulante da tireoide aumentado no sangue.
+
+Reações rara (ocorrem entre 0,01% e 0,1% dos pacientes que utilizam esse medicamento): microangiopatia trombóticaa** (formação de coágulos nos pequenos vasos sanguíneos), angioedema (inchaço das partes mais profundas da pele ou da mucosa, geralmente de origem alérgica), tireoidite (inflamação da tireoide), síndrome da lise tumoral** (complicações causadas pela destruição das células cancerígenas que morrem com o tratamento, levando a um aumento da quantidade de algumas substâncias no organismo, o que pode causar doença aguda no rim, diminuindo sua função), infarto cerebral (derrame), síndrome de encefalopatia posterior reversível (SLPRalteração neurológica que pode apresentar dor de cabeça, convulsão, sonolência, confusão, cegueira e outras alterações visuais e neurológicas), ageusia (falta de paladar), insuficiência ventricular esquerda** (incapacidade de uma parte específica do coração de bombear a quantidade adequada de sangue), Torsade de Pointes (um tipo de arritmia cardíaca – alteração no ritmo nos batimentos do coração), síndrome de Stevens-Johnson** (reação alérgica grave com bolhas na pele e mucosas), eritema multiforme** (manchas vermelhas, bolhas e ulcerações em todo o corpo), pioderma gangrenoso (feridas que vão ficando pretas, com infecção e pus, e exigem tratamento agressivo), rabdomiólise** (destruição das células musculares), miopatia (doença muscular), síndrome nefrótica (doença dos rins).
+
+* Infecções e infestações são descritas na subseção Descrição de Reações Adversas Selecionadas.
+
+** O evento pode ser fatal.
+
+a.  Microangiopatia trombótica: os seguintes termos foram combinados: microangiopatia trombótica, púrpura trombocitopênica trombótica, síndrome hemolítica urêmica.
+
+b.  Isquemia miocárdica: Os seguintes termos foram combinados: síndrome coronária aguda, angina de peito, angina instável, oclusão da artéria coronária, isquemia miocárdica.
+
+c.  Fração de ejeção diminuída: Os seguintes termos foram combinados: fração de ejeção diminuída e fração de ejeção anormal.
+
+d.  Infarto do miocárdio: Os seguintes termos foram combinados: infarto agudo do miocárdio, infarto do miocárdio, infarto do miocárdio silencioso.
+
+e.  Aneurismas e dissecções arteriais: os seguintes termos foram combinados: ruptura do aneurisma, aneurisma da aorta, ruptura do aneurisma da aorta e dissecção arterial.
+
+f.  Dor orofaríngea: Os seguintes termos foram combinados: dor faringolaríngea e dor orofaríngea.
+
+g.  Hemoptise: Os seguintes termos foram combinados: hemoptise e hemorragia pulmonar.
+
+h.  Dor abdominal: Os seguintes termos foram combinados: dor abdominal, dor abdominal superior e dor abdominal inferior.
+
+i.  Estomatite: Os seguintes termos foram combinados: estomatite e estomatite aftosa.
+
+j.  Perfuração gastrintestinal: Os seguintes termos foram combinados: perfuração gastrintestinal e perfuração intestinal.
+
+k.  Colecistite: Os seguintes termos foram combinados: colecistite e colecistite calculosa.
+
+l.  Erupção cutânea: Os seguintes termos foram combinados: dermatite psoriaforme, erupção cutânea esfoliativa, erupção cutânea, erupção cutânea eritematosa, erupção cutânea folicular, erupção cutânea generalizado, erupção cutânea macular, erupção cutânea maculopapular, erupção cutânea papular e exantema pruriginoso.
+
+m.  Descoloração da pele: Os seguintes termos foram combinados: descoloração da pele, pele amarelada, distúrbio da pigmentação.
+
+n.  Fadiga: Os seguintes termos foram combinados: fadiga e astenia.
+
+o.  Edema: Os seguintes termos foram combinados: edema facial, edema, edema periférico.
+
+p.  Amilase aumentada: Os seguintes termos foram combinados: amilase, amilase aumentada.
+
+Descrição de reações adversas selecionadas Infecção e infestações: casos graves de infecção (com ou sem neutropenia), e em alguns casos com desfecho fatal. As infecções mais comumente observadas durante o tratamento com Sutent® são aquelas típicas em pacientes com câncer, por exemplo: infecções respiratórias (por exemplo, pneumonia, bronquite), infecções do trato urinário, da pele (por exemplo, celulite), choque séptico/ sepse e abscessos (por exemplo, oral, genital, anorretal, pele, membro, visceral).
+
+As infecções podem ser de origem bacteriana, viral ou fúngica.
+
+Raros casos de fascite necrosante, incluindo o períneo, foram relatados, algumas vezes fatais.
+
+Sangue e Sistema Linfático: raros casos de microangiopatia trombótica, em alguns casos com desfecho fatal.
+
+Distúrbios Musculoesqueléticos e do Tecido Conjuntivo: casos raros de miopatia e/ou rabdomiólise, com ou sem falência renal (dos rins) aguda, em alguns casos com desfecho fatal. A maioria destes pacientes apresentava fatores de risco preexistentes e/ou estava recebendo medicação concomitante sabidamente associada a estas reações adversas.
+
+Distúrbios Vasculares: casos de eventos de tromboembolismo arterial, às vezes fatais, foram relatados em pacientes tratados com Sutent®. Os eventos mais frequentes incluíram acidente vascular cerebral, ataque isquêmico transitório e infarto cerebral. Fatores de risco associados com eventos de tromboembolismo arterial, além de doença maligna anterior e idade igual ou acima de 65 anos, incluindo hipertensão, diabetes mellitus e doença tromboembólica anterior.
+
+Segurança a longo prazo no CCR A segurança a longo prazo do sunitinibe em pacientes com CCR metastático foi analisada por meio de 9 estudos clínicos completos conduzidos em primeira linha, e nas configurações de tratamento refratário de citocina e refratário de bevacizumabe. As análises incluíram 5.739 pacientes, dos quais 807 (14%) foram tratados por ≥ 2
+
+anos até 6 anos. O tratamento prolongado com sunitinibe não foi associado a novos tipos ou aumentos na gravidade dos eventos adversos relacionados ao tratamento e exceto pelo hipotireoidismo, a toxicidade não foi cumulativa.
+
+Informe ao seu médico, cirurgião-dentista ou farmacêutico o aparecimento de reações indesejáveis pelo uso do medicamento. Informe também à empresa através do seu serviço de atendimento.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE
+
+MEDICAMENTO?
+
+Não existe um antídoto específico para o tratamento da superdosagem com Sutent® e este deve consistir em medidas gerais de suporte. Se indicado, a eliminação do medicamento não absorvido pode ser obtida por emese (vômito) ou lavagem gástrica.
+
+Foram relatados casos de superdosagem. Em alguns destes casos, as reações adversas foram compatíveis com as reações descritas no perfil de segurança de Sutent®.
+
+Em caso de uso de grande quantidade deste medicamento, procure rapidamente socorro médico e leve a embalagem ou bula do medicamento, se possível. Ligue para 0800 722 6001 se você precisar de mais orientações.

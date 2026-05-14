@@ -20,78 +20,115 @@ if not MEILI_KEY:
     print("❌ Erro: MEILI_MASTER_KEY não encontrada no arquivo .env")
     exit(1)
 meili_client = meilisearch.Client(MEILI_URL, MEILI_KEY)
-meili_index = meili_client.index('corpop_saude_ht')
+meili_index = meili_client.index('corpop_saude')
+
+# Stop words: palavras ignoradas no casamento léxico. Com matchingStrategy="all"
+# (em search.py) isso permite que "cloridrato DE propranolol" case com bulas que
+# só dizem "propranolol", exigindo apenas as palavras de conteúdo.
+STOP_WORDS_PT = [
+    "de", "da", "do", "das", "dos", "e", "a", "o", "as", "os",
+    "para", "por", "em", "no", "na", "nos", "nas",
+    "com", "sem", "um", "uma", "uns", "umas", "ao", "aos",
+]
+meili_index.update_stop_words(STOP_WORDS_PT)
 print("Conexões meili estabelecidas com sucesso!")
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
 chroma_coll = chroma_client.get_or_create_collection(
-    name="corpop_saude_ht",
+    name="corpop_saude",
     metadata={"hnsw:space": "cosine"},
 )
 print("Conexões chroma estabelecidas com sucesso!")
 
-PATH_ORIGINAL = './csv/ht/original'
-PATH_SIMPLIFICADA = './csv/ht/simplificada'
-PATH_CSV_MAP = './remedios_ht_map.csv'
+# Cada tipo de bula vive numa pasta própria, mas todos compartilham a mesma
+# coleção/índice. O `tipo` entra como prefixo do id para evitar colisão entre
+# mapas (ex.: ht_1 vs onco_1) e como metadado para filtragem futura.
+TIPOS = [
+    {
+        "tipo": "hipertensao",
+        "map_csv": "./remedios_ht_map.csv",
+        "path_original": "./csv/ht/original",
+        "path_simplificada": "./csv/ht/simplificada",
+        "suffix_orig": "_original_limpo.txt",
+        "suffix_simp": "_validada_limpo.txt",
+    },
+    {
+        "tipo": "oncologia",
+        "map_csv": "./remedios_onco_map.csv",
+        "path_original": "./csv/onco/original",
+        "path_simplificada": "./csv/onco/simplificada",
+        "suffix_orig": "_original_limpo.txt",
+        "suffix_simp": "_simplificada_limpo.txt",
+    },
+]
 
-# --- 2. Carregar Mapeamento ---
-df_map = pd.read_csv(PATH_CSV_MAP, dtype={'id': str})
-mapa_remedios = dict(zip(df_map['id'], df_map['nome']))
-print(f"Mapeamento carregado com {len(mapa_remedios)} medicamentos.")
+
+def _ids_existentes():
+    """IDs base (sem sufixo _orig/_simp) já presentes na coleção do Chroma."""
+    existentes = set(chroma_coll.get(include=[]).get("ids", []))
+    bases = set()
+    for cid in existentes:
+        if cid.endswith("_orig") or cid.endswith("_simp"):
+            bases.add(cid.rsplit("_", 1)[0])
+    return bases
+
 
 def realizar_indexacao():
-    global chroma_coll
-    print(f"Iniciando indexação de {len(mapa_remedios)} medicamentos...")
+    ja_indexados = _ids_existentes()
+    print(f"Já indexados: {len(ja_indexados)} medicamentos. Verificando novos...")
 
-    try:
-        chroma_client.delete_collection(name="corpop_saude_ht")
-    except Exception:
-        pass
-    chroma_coll = chroma_client.get_or_create_collection(
-        name="corpop_saude_ht",
-        metadata={"hnsw:space": "cosine"},
-    )
+    total_novos = 0
+    for cfg in TIPOS:
+        tipo = cfg["tipo"]
+        if not os.path.exists(cfg["map_csv"]):
+            print(f" [SKIP] Mapa não encontrado: {cfg['map_csv']}")
+            continue
 
-    for n_id, nome_remedio in mapa_remedios.items():
-        file_orig = f"{n_id}_original_limpo.txt"
-        file_simp = f"{n_id}_validada_limpo.txt"
-        
-        path_o = os.path.join(PATH_ORIGINAL, file_orig)
-        path_s = os.path.join(PATH_SIMPLIFICADA, file_simp)
+        df_map = pd.read_csv(cfg["map_csv"], dtype={"id": str})
+        mapa = dict(zip(df_map["id"], df_map["nome"]))
+        print(f"[{tipo}] {len(mapa)} medicamentos no mapa.")
 
-        if os.path.exists(path_o) and os.path.exists(path_s):
-            with open(path_o, 'r', encoding='utf-8') as f_o, \
-                 open(path_s, 'r', encoding='utf-8') as f_s:
-                
+        for n_id, nome_remedio in mapa.items():
+            base_id = f"{tipo}_{n_id}"
+            if base_id in ja_indexados:
+                continue
+
+            path_o = os.path.join(cfg["path_original"], f"{n_id}{cfg['suffix_orig']}")
+            path_s = os.path.join(cfg["path_simplificada"], f"{n_id}{cfg['suffix_simp']}")
+            if not (os.path.exists(path_o) and os.path.exists(path_s)):
+                print(f" [ERRO] Arquivos para {base_id} ({nome_remedio}) não encontrados.")
+                continue
+
+            with open(path_o, "r", encoding="utf-8") as f_o, \
+                 open(path_s, "r", encoding="utf-8") as f_s:
                 texto_orig = f_o.read().strip()
                 texto_simp = f_s.read().strip()
 
-                # --- A. Indexar no ChromaDB (Busca Semântica/Sentido) ---
-                # Uma entrada por registro (técnico e simplificado) para permitir
-                # que a busca case com o registro mais próximo da linguagem do usuário.
-                emb_orig, emb_simp = model.encode([texto_orig, texto_simp]).tolist()
+            emb_orig, emb_simp = model.encode([texto_orig, texto_simp]).tolist()
 
-                #TODO : adicionar metadados de laboratorio/fabricante etc.
-                chroma_coll.add( 
-                    embeddings=[emb_orig, emb_simp],
-                    documents=[texto_orig, texto_simp],
-                    metadatas=[
-                        {"id": n_id, "nome": nome_remedio, "tipo": "hipertensao", "registro": "original"},
-                        {"id": n_id, "nome": nome_remedio, "tipo": "hipertensao", "registro": "simplificada"},
-                    ],
-                    ids=[f"{n_id}_orig", f"{n_id}_simp"],
-                )
-                
-                # --- B. Indexar no Meilisearch (Busca Léxica/Palavra-Chave) ---
-                meili_index.add_documents([{
-                    "id": n_id,
-                    "nome": nome_remedio,
-                    "conteudo_original": texto_orig,
-                    "conteudo_simplificado": texto_simp
-                }])
+            #TODO : adicionar metadados de laboratorio/fabricante etc.
+            chroma_coll.add(
+                embeddings=[emb_orig, emb_simp],
+                documents=[texto_orig, texto_simp],
+                metadatas=[
+                    {"id": base_id, "nome": nome_remedio, "tipo": tipo, "registro": "original"},
+                    {"id": base_id, "nome": nome_remedio, "tipo": tipo, "registro": "simplificada"},
+                ],
+                ids=[f"{base_id}_orig", f"{base_id}_simp"],
+            )
 
-                print(f" [OK] ID {n_id}: {nome_remedio} indexado.")
-        else:
-            print(f" [ERRO] Arquivos para o ID {n_id} ({nome_remedio}) não encontrados.")
+            meili_index.add_documents([{
+                "id": base_id,
+                "nome": nome_remedio,
+                "tipo": tipo,
+                "conteudo_original": texto_orig,
+                "conteudo_simplificado": texto_simp,
+            }])
+
+            total_novos += 1
+            print(f" [OK] {base_id}: {nome_remedio} indexado.")
+
+    print(f"Indexação concluída. Novos: {total_novos}.")
+
 
 if __name__ == "__main__":
     realizar_indexacao()
