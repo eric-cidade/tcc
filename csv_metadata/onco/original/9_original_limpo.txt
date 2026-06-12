@@ -1,0 +1,275 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> morfina Cap LC </id>
+
+    <doenca>dor intensa e cronica</doenca>
+    <nome medicamento>morfina</nome medicamento>
+    <nome_comercial>Dimorf</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>capsula dura de liberacao prolongada</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Dimorf® LC cápsulas duras de liberação prolongada é indicado para o alívio da dor intensa e crônica.
+
+A morfina age sobre o sistema nervoso central e em outros órgãos do corpo. Seu principal efeito é o alívio das dores intensas.
+
+O início do efeito é rápido e o alívio da dor, quando se utilizam as cápsulas LC (liberação cronogramada), pode chegar a até 12 horas. O medicamento é eliminado principalmente pelos rins.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Se você apresenta algum dos quadros abaixo, fale para seu médico, pois Dimorf® LC cápsulas pode ser contraindicado em casos de: sensibilidade à morfina ou a algum componente da fórmula; insuficiência ou depressão respiratória; depressão do sistema nervoso central; insuficiência cardíaca secundária; crise de asma brônquica; arritmia cardíaca; doença pulmonar obstrutiva crônica; hipercabia, aumento da pressão intracraniana e do líquido cérebro-espinhal; lesões cerebrais; tumor cerebral; alcoolismo crônico; tremores; doenças que causam convulsão; pós-cirúrgico de cirurgia de vesícula biliar ou de abdômen, anastomose cirúrgica, administração conjunta com inibidores da MAO ou após um período de 14 dias com este tratamento.
+
+Dimorf® LC está contraindicado em pacientes que apresentem obstrução gastrintestinal e íleo-paralítico.
+
+Dimorf® LC está apenas indicado para o uso pós-operatório se o paciente já fazia uso previamente à cirurgia, ou se a dor no período pós-operatório for de moderada a intensa e persistir por um longo período de tempo e a dose adequada de Dimorf® LC estiver titulada.
+
+Este medicamento é contraindicado para uso por pacientes que apresentam obstrução gastrintestinal e íleoparalítico.
+
+Este medicamento é contraindicado para menores de 18 anos.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Os pacientes que utilizam opioides com benzodiazepínicos, outros medicamentos depressores do SNC (Sistema Nervoso Central) ou álcool devem procurar atendimento médico imediatamente se apresentarem sintomas de tontura ou mal-estar, sonolência extrema, respiração lenta ou difícil, ou ausência de resposta. A ausência de resposta significa que a pessoa não responde ou reage normalmente ou você não pode acordá-la.
+
+Fale com seu profissional de saúde se tiver dúvidas ou preocupações sobre a ingestão de opioides ou benzodiazepínicos.
+
+Dependência A morfina pode causar dependência física ou psíquica, caracterizada por alguns ou todos os seguintes sintomas:
+
+inquietação, lacrimejamento, rinorreia, bocejos, sudorese, tremores, piloereção, mialgia, midríase, irritabilidade, ansiedade, dores nas costas, dor nas articulações, fraqueza, cólicas abdominais, insônia, náuseas, anorexia, vômitos, diarreia, aumento da pressão arterial, frequência respiratória, ou frequência cardíaca.
+
+Evitar o uso de analgésicos agonista/antagonista mistos (ex: pentazocina, nalbufina e butorfanol) ou agonista parcial (buprenorfina) se você faz tratamento com opioide, incluindo sulfato de morfina.
+
+Não descontinuar abruptamente Dimorf® LC cápsulas, reduzir a dose gradualmente.
+
+Atenção: pode causar dependência física ou psíquica.
+
+Uso indevido, abuso e uso recreativo de opioides O sulfato de morfina é uma substância controlada procurada por usuários de drogas e pessoas com distúrbios viciosos. Seu uso recreativo é um ato sujeito a sanção penal.
+
+Pode ocorrer abuso do sulfato de morfina por esmagar, mastigar, inalar ou injetar o produto. Estas práticas podem resultar em superdose e morte. Riscos são maiores em pacientes com histórico familiar de abuso de substâncias (incluindo drogas ou dependência de álcool) ou doença mental (ex: depressão).
+
+Considerando que os produtos de liberação modificada, tais como Dimorf® LC cápsulas de liberação prolongada, permitem que a substância ativa seja liberada gradualmente em um período de tempo prolongado, há um maior risco de superdose e morte devido à maior quantidade de morfina presente.
+
+Preocupações sobre abuso, dependência, e o uso recreativo não devem impedir o manejo correto da dor. Os profissionais de saúde devem obter informações sobre como prevenir e detectar o abuso ou uso recreativo deste fármaco.
+
+Dimorf® LC cápsulas é destinado apenas para uso oral. Abuso de sulfato de morfina representa um risco de superdose e morte. O risco é aumentado com o uso concomitante de álcool e outras substâncias.
+
+Interação com álcool, outros depressores do sistema nervoso central e drogas de abuso A morfina pode ter efeitos aditivos quando usada simultaneamente com outros analgésicos opioides, anestésicos gerais, fenotiazinas, outros tranquilizantes, hipnóticos-sedativos, antidepressivos tricíclios e outros depressores do SNC como o álcool e drogas ilícitas. Em pacientes que fazem o uso de depressores do SNC, a morfina deve ser usada com cautela e em doses reduzidas. Pode ocorrer depressão respiratória, hipotensão e sedação profunda, coma e morte.
+
+Os pacientes não devem consumir bebidas alcoólicas ou produtos que contenham álcool durante o tratamento com Dimorf® LC cápsulas.
+
+Efeito ao dirigir veículos e operar máquinas O sulfato de morfina pode prejudicar as habilidades mentais e/ou físicas necessárias para realizar atividades potencialmente perigosas, como dirigir veículos ou operar máquinas.
+
+Você não deve dirigir veículos ou operar máquinas até que sua suscetibilidade individual seja conhecida pois sua habilidade e capacidade de reação podem estar prejudicadas.
+
+O uso deste medicamento pode causar tontura, desmaios ou perda da consciência, expondo o paciente a quedas ou acidentes.
+
+Carcinogenicidade Não foram conduzidos estudos em animais que demonstrem a potencial carcinogenicidade da morfina.
+
+Mutagenicidade Não há estudos formais para avaliar o potencial mutagênico da morfina.
+
+Diminuição da Fertilidade Não foram realizados estudos formais para avaliar o potencial de morfina na diminuição da fertilidade.
+
+Vários estudos não clínicos da literatura demonstraram efeitos adversos sobre a fertilidade masculina no rato devido a exposição à morfina, incluindo a redução das gravidezes totais, maior incidência de pseudogravidezes, e redução nos locais de implantação. Estudos da literatura também relataram alterações nos níveis hormonais (ex:
+
+testosterona, hormônio luteinizante, corticosterona) após o tratamento com morfina.
+
+Efeitos Teratogênicos Não foram conduzidos estudos para avaliar os efeitos teratogênicos da morfina em animais. Também não se sabe se a morfina pode causar danos fetais quando administrada a mulheres grávidas ou se pode afetar a capacidade reprodutiva.
+
+O sulfato de morfina deve ser administrado em pacientes grávidas somente se a necessidade de analgesia por opioides claramente ultrapassar os riscos potenciais ao feto.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica ou do cirurgiãodentista.
+
+Trabalho de Parto e Parto Opioides atravessam a placenta e podem produzir depressão respiratória e efeitos psico-fisiológicos em recémnascidos. O sulfato de morfina não é recomendado para uso em mulheres durante e imediatamente antes do parto.
+
+Ocasionalmente, os analgésicos opioides podem prolongar o trabalho de parto por meio de ações que reduzam temporariamente a força, a duração e a frequência das contrações uterinas. No entanto, este efeito não é consistente e pode ser compensado por um aumento da taxa de dilatação cervical, o que tende a encurtar trabalho.
+
+Amamentação A morfina é excretada no leite humano. Devido ao potencial do sulfato de morfina causar reações adversas graves em lactentes, incluindo depressão respiratória, sedação e, possivelmente, sintomas de abstinência, deve haver muito cuidado na administração e descontinuação do fármaco a pacientes que estejam amamentando.
+
+O uso deste medicamento no período da lactação depende da avaliação e acompanhamento do seu médico ou cirurgião-dentista. Uso criterioso no aleitamento ou na doação de leite humano.
+
+Síndrome de Abstinência Neonatal Os recém-nascidos de mães que receberam morfina cronicamente podem apresentar síndrome de abstinência neonatal. Manifestações desta síndrome incluem irritabilidade, hiperatividade, padrão de sono anormal, choro estridente, tremor, vômitos, diarreia, perda de peso, e incapacidade de ganhar peso. O tempo e a quantidade de última dose ingerida pela mãe e a taxa de eliminação do fármaco do recém-nascido pode afetar o início de ação,
+
+duração, e a gravidade da desordem. Quando ocorrem sintomas graves, a intervenção farmacológica pode ser necessária.
+
+Uso em idosos, crianças e outros grupos de risco Uso em idosos Os pacientes idosos (com 65 anos ou mais) podem ter maior sensibilidade ao sulfato de morfina. Desta forma, devem ingerir a menor dose possível de sulfato de morfina.
+
+Uso Pediátrico A segurança e a eficácia em crianças com menos de 18 anos de idade ainda não foram definitivamente estabelecidas.
+
+Gênero Alguns estudos mostraram um aumento da sensibilidade aos efeitos adversos de sulfato de morfina, incluindo depressão respiratória, em mulheres em comparação com homens.
+
+Pacientes com Risco Especial A morfina deve ser administrada com precaução e a dose inicial deve ser reduzida em pacientes idosos ou debilitados e naqueles com graves danos na função hepática ou renal, hipotireoidismo, doença de Addison, hipertrofia prostática ou estreitamento uretral. Administrar sulfato de morfina com cautela em pacientes com incapacidade de deglutição, depressão do SNC, psicose tóxica, alcoolismo agudo e delirium tremens.
+
+O sulfato de morfina pode agravar convulsões em pacientes com distúrbios convulsivos, e pode induzir ou agravar as crises em alguns aspectos clínicos.
+
+Mantenha os comprimidos de sulfato de morfina fora do alcance das crianças. Em caso de ingestão acidental, procurar ajuda médica emergencial imediatamente.
+
+Pressão Intracraniana Elevada ou Trauma Craniano O sulfato de morfina deve ser usado com extrema cautela em pacientes com enxaqueca ou pressão intracraniana elevada. Podem ocorrer variações pupilares e possível aumento da pressão do líquido cefalorraquidiano e dos efeitos depressores respiratórios de sulfato de morfina.
+
+Insuficiência Renal ou Hepática Pacientes com cirrose e/ou falência renal devem iniciar o tratamento com doses mais baixas de morfina, acompanhados de lenta titulação e monitoramento dos efeitos adversos.
+
+Cirurgia ou Doença do Trato Biliar/Pancreático Deve ser usado com cautela em pacientes com doença do trato biliar, incluindo pancreatite aguda, já que a morfina pode causar espasmo do esfincter de Oddi e diminuir as secreções biliares e pancreáticas.
+
+Desordens do Sistema Urinário São fundamentais o reconhecimento precoce da dificuldade de micção e a intervenção imediata nos casos de retenção urinária.
+
+Depressão Respiratória Sulfato de morfina deve ser usado com extrema precaução em idosos ou pacientes debilitados e em pessoas que sofrem de doenças acompanhadas de hipoxia, hipercapnia, ou obstrução das vias aéreas superiores, doença pulmonar obstrutiva crônica, crise aguda de asma ou cor pulmonale e em doentes que tem uma reserva respiratória substancialmente diminuída (por exemplo, cifoescoliose grave), ou depressão respiratória pré-existente. Nestes pacientes, até doses terapêuticas moderadas podem diminuir significativamente a ventilação pulmonar.
+
+A depressão respiratória, se não imediatamente reconhecida e tratada, pode levar à parada respiratória e morte.
+
+Os pacientes de risco devem utilizar sulfato de morfina somente sob supervisão médica e na menor dose eficaz.
+
+Para reduzir o risco de depressão respiratória, é essencial que seja administrado a dose adequada e haja titulação do sulfato de morfina.
+
+Efeito Hipotensivo A administração de morfina pode resultar em hipotensão grave incluindo hipotensão ortostática e síncope em pacientes ambulatoriais e em pacientes que tenham alteração da pressão arterial, pela depleção do volume sanguíneo ou administração conjunta de fármacos como fenotiazinas ou certos anestésicos. Evitar o uso de sulfato de morfina em pacientes com choque circulatório.
+
+Insuficiência Adrenal Pode ocorrer insuficiência adrenal com o uso de opioides. Se a insuficiência adrenal é diagnosticada, tratar com corticosteroides. Descontinuar o opioide para permitir que a função adrenal se recupere e continuar o tratamento com corticosteroides até que a função adrenal esteja recuperada. Não há nenhum opioide específico que é mais provável de ser associado com insuficiência adrenal.
+
+Efeitos gastrointestinais Dimorf® LC cápsulas é contraindicado em pacientes com íleo paralítico ou com outra obstrução gastrointestinal.
+
+Pacientes com doença do trato biliar, incluindo pancreatite aguda, devem ser monitorados. A administração de morfina ou outros opioides podem mascarar o diagnóstico ou curso clínico em pacientes com condições agudas abdominais.
+
+Feocromocitoma A morfina e outros opioides podem induzir a liberação de histamina endógena e, desse modo, estimular a liberação de catecolamina tornando-os inadequados para pacientes com feocromocitoma.
+
+Interações medicamentosas A morfina deve ser administrada com cautela e em doses reduzidas em pacientes que recebem concomitantemente medicamentos inibidores do SNC (sedativos, hipnóticos, anestésicos em geral, antieméticos, fenotiazínicos, outros tranquilizantes e álcool), relaxantes musculares, benzodiazepínicos, cisaprida, metoclopramida clomipramida, amitriptilina, e inibidores da glicoproteína P (ex: quinidina). Nestas situações, a ação da morfina pode ser potencializada. A morfina não deve ser administrada em pacientes que fazem uso de inibidores da monoaminoxidase (MAO).
+
+A associação de analgésicos agonistas/antagonistas ou rifampicina com morfina pode reduzir seu efeito analgésico. A morfina pode reduzir a eficácia de diuréticos. O uso de fármacos serotoninérgicos com opioides podem resultar na síndrome serotoninérgica.
+
+Em relato isolado, a administração concomitante de sulfato de morfina e cimetidina causou apneia, confusão, e espasmo muscular. Os pacientes devem ser monitorados em relação ao aumento da depressão respiratória e depressão do SNC.
+
+Anticolinérgicos ou outros medicamentos com atividade anticolinérgica, quando usados concomitantemente com analgésicos opiáceos podem resultar num risco aumentado de retenção urinária e / ou constipação grave, o que pode levar a íleo paralítico.
+
+Informe ao médico o aparecimento de reações indesejáveis.
+
+O medicamento deve ser administrado sob supervisão médica, porque seu uso abusivo pode levar à dependência.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para a sua saúde.
+
+Este medicamento pode causar doping.
+
+Este medicamento não deve ser usado por pessoas com síndrome de má-absorção de glicose-galactose e por pessoas com insuficiência de sacarose-isomaltase.
+
+Atenção: Contém lactose e sacarose (tipos de açúcar) abaixo de 0,25g/cápsula dura de liberação prolongada.
+
+Atenção: Deve ser usado com cautela por portadores de Diabetes.
+
+Dimorf ® LC 30 mg: Atenção: Contém o corante dióxido de titânio.
+
+Dimorf ® LC 60 mg: Atenção: Contém os corantes azul brilhante, vermelho de eritrosina dissódica e dióxido de titânio.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Cuidados de conservação Armazenar em temperatura ambiente (de 15 ºC a 30 ºC). Proteger da luz e umidade.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+Características físicas e organolépticas:
+
+Dimorf® LC cápsulas é composto de grânulos de cor branca a creme.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+Todo medicamento deve ser mantido fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Como usar:
+
+Dimorf® LC cápsulas é preparado especialmente para que a substância ativa seja liberada aos poucos (a liberação dura 12 horas).
+
+Você deve tomar este medicamento por via oral, com ingestão de quantidade suficiente de líquido.
+
+Dose:
+
+Adultos Uma cápsula de 30 mg, 60 mg ou 100 mg a cada 12 horas ou conforme recomendação de seu médico.
+
+A dose máxima diária recomendada depende do estado clínico do paciente e da sua tolerância ao fármaco. Para a maioria dos pacientes, esta dose se situa em torno de 200 mg/dia. O ajuste crescente desta dose depende de uma avaliação médica criteriosa. Doses não recomendadas podem levar a ocorrência de eventos adversos.
+
+Os pacientes que estão tomando morfina em comprimidos normais podem passar a tomar as cápsulas de Dimorf® LC cápsulas na mesma dose diária (24 horas), levando-se em consideração que a dose varia para cada pessoa e deve obedecer a recomendação do seu médico.
+
+Utilizar a menor dose eficaz possível.
+
+A dose deve ser ajustada de acordo com a resposta individual do paciente até que seja obtido um nível aceitável de analgesia, levando em consideração a melhoria da intensidade da dor e a tolerabilidade da morfina pelo paciente, sem a ocorrência de efeitos adversos intoleráveis.
+
+Manutenção do Tratamento: é importante que haja uma contínua reavaliação do paciente que recebe sulfato de morfina, com especial atenção para a manutenção do controle da dor e a incidência relativa dos efeitos adversos associados com o tratamento.
+
+Redução da Dose de Morfina e Descontinuação do Tratamento: gradualmente reduzir a dose para prevenir os sinais e sintomas de abstinência no paciente fisicamente dependente. Não descontinuar abruptamente Dimorf® LC cápsulas.
+
+Abuso e Dependência do Fármaco: assim como com outros opioides, alguns pacientes podem desenvolver dependência física e psíquica em relação à morfina. O fármaco deve ser retirado gradualmente em qualquer paciente que faça o uso de doses excessivas por longos períodos. Não aumente a dose sem consultar seu médico.
+
+No tratamento de pacientes com doenças terminais, o benefício do alívio da dor pode ter mais valor do que a possibilidade de dependência do fármaco.
+
+Pacientes idosos: deve haver cautela na escolha da dose inicial em pacientes idosos, assim como em pacientes debilitados e com intolerância, usualmente iniciando pela dose mínima. O tratamento não deve exceder o tempo necessário para melhora dos sintomas.
+
+Siga a orientação do seu médico, respeitando sempre os horários, as doses e a duração do tratamento. Não interrompa o tratamento sem o conhecimento do seu médico.
+
+Este medicamento não deve ser partido, aberto ou mastigado.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Caso esqueça de alguma dose, você deve tomá-la assim que possível. Entretanto, se estiver perto do horário da próxima dose, não tome o medicamento. Aguarde o horário e tome uma dose normal. Não tome doses seguidas.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico, ou cirurgião-dentista.
+
+8. QUAIS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Reação muito comum (ocorre em mais de 10% dos pacientes que utilizam este medicamento).
+
+Reação comum (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento).
+
+Reação incomum (ocorre entre 0,1% e 1% dos pacientes que utilizam este medicamento).
+
+Reação rara (ocorre entre 0,01% e 0,1% dos pacientes que utilizam este medicamento).
+
+Reação muito rara (ocorre em menos de 0,01% dos pacientes que utilizam este medicamento).
+
+Reação desconhecida (não pode ser estimada a partir dos dados disponíveis).
+
+Os maiores riscos com a morfina, assim como com os outros analgésicos opioides são, depressão respiratória e, em menor grau, depressão circulatória, parada respiratória, choque e parada cardíaca. As reações adversas mais comuns observadas incluem tonturas, vertigem, sedação, náusea, vômito e transpiração.
+
+Sistema Nervoso Central: euforia, desconforto, fraqueza, dor de cabeça, insônia, sonolência, agitação, desorientação e distúrbios visuais.
+
+Gastrintestinal: boca seca, diminuição do apetite, náusea, vômito, constipação e cólica no abdômen.
+
+Cardiovascular: rubor na face, diminuição do batimento cardíaco, palpitação e desmaio.
+
+Geniturinário: dificuldade para urinar e redução da libido e/ou impotência.
+
+Alérgico: coceira, inchaço, placas vermelhas na pele ou outras alterações na pele.
+
+Informe ao seu médico, cirurgião-dentista ou farmacêutico o aparecimento de reações indesejáveis pelo uso do medicamento. Informe também à empresa através do seu serviço de atendimento.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE
+
+MEDICAMENTO?
+
+Sinais e Sintomas:
+
+A superdose é caracterizada por dificuldade respiratória com ou sem depressão concomitante do sistema nervoso central, muita sonolência progredindo para entorpecimento ou coma, miose, flacidez muscular esquelética, pele fria ou úmida, pupilas contraidas, e em alguns casos edema pulmonar, bradicardia, hipotensão, parada cardíaca.e óbito.
+
+Tratamento:
+
+A primeira atenção deve ser dada para o restabelecimento da troca respiratória adequada, através de desobstrução respiratória e instituição de ventilação assistida ou controlada. Utilizar medidas de suporte (incluindo oxigênio e vasopressores) no manejo de choque circulatório e do edema pulmonar que acompanham a superdose, como indicado. Parada cardíaca ou arritmias podem necessitar de massagem cardíaca ou desfibrilação.
+
+O antagonista opioide naloxona é o antídoto específico contra a depressão respiratória que pode resultar da superdose ou sensibilidade não usual aos opioides, incluindo-se a morfina.
+
+Um antagonista não deve ser administrado na ausência de depressão respiratória ou cardiovascular clinicamente significativa.
+
+Oxigênio, fluidos intravenosos, vasopressores e outras medidas de suporte devem ser empregados conforme indicados.
+
+Em caso de uso de grande quantidade deste medicamento, procure rapidamente socorro médico e leve a embalagem ou a bula do medicamento, se possível. Ligue para 0800 722 6001, se você precisar de mais orientações.
+</text>

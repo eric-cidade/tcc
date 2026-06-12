@@ -1,0 +1,203 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> acido zoledronico Sol inj 4mg </id>
+
+    <doenca>metastase ossea, hipercalcemia induzida por tumor</doenca>
+    <nome medicamento>ácido zoledrônico</nome medicamento>
+    <nome_comercial>NA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>solucao injetavel 4 mg</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. Para que este medicamento é indicado?
+
+O ácido zoledrônico é usado para:
+
+- tratar metástase óssea (câncer que se espalhou para os ossos);
+
+- reduzir o cálcio no sangue em pacientes com hipercalcemia induzida por tumor (HIT) (cálcio alto causado pelo tumor);
+
+- prevenir problemas nos ossos em pessoas com câncer com metástase óssea, como fraturas (inclusive fraturas “patológicas”, causadas pela fraqueza do osso), compressão da medula, necessidade de radioterapia, necessidade de cirurgia ortopédica, novos episódios de hipercalcemia induzida por tumor (HIT).
+
+2. Como este medicamento funciona?
+
+O ácido zoledrônico pertence aos bisfosfonatos (medicamentos que agem nos ossos). Ele age principalmente nos ossos e reduz a perda de osso (reduz a “reabsorção” do osso).
+
+Os bisfosfonatos se ligam com facilidade ao osso. Por isso, eles atuam de forma mais “direta” no tecido ósseo. O mecanismo exato ainda não é totalmente conhecido, mas o medicamento reduz a atividade das células que desgastam o osso (osteoclastos).
+
+O ácido zoledrônico também pode ter efeitos contra o tumor, o que pode ajudar no tratamento da doença óssea causada pelo câncer.
+
+3. Quando não devo usar este medicamento?
+
+Não use ácido zoledrônico se:
+
+- você tem alergia ao ácido zoledrônico, a outros bisfosfonatos ou a qualquer componente da fórmula;
+
+- você está grávida;
+
+- você está amamentando (inclui aleitamento e doação de leite humano);
+
+- o paciente é criança.
+
+4. O que devo saber antes de usar este medicamento?
+
+Não use na gravidez. Avise o médico se você estiver grávida ou suspeitar de gravidez.
+
+Não use na amamentação ou doação de leite humano. Avise o médico se você estiver amamentando.
+
+Pessoas idosas podem usar ácido zoledrônico. Em geral, não há necessidade de cuidados extras só por causa da idade.
+
+Para dirigir e operar máquinas, não há estudos específicos. Tenha cautela com atividades que exigem atenção.
+
+Avise seu médico antes de iniciar o tratamento se você:
+
+- já usa outro medicamento à base de ácido zoledrônico;
+
+- usa outros medicamentos (com ou sem receita);
+
+- tem ou já teve problemas nos rins, fígado ou coração;
+
+- vai fazer ou está fazendo tratamento odontológico, ou tem histórico de problemas nos dentes e na gengiva;
+
+- tem histórico de fraturas;
+
+- tem outras doenças importantes, como anemia, problemas de coagulação, infecções e câncer.
+
+Cuidado com a boca e os dentes . Mantenha boa higiene oral e faça acompanhamento odontológico regular; avise o dentista que você usa ácido zoledrônico; evite procedimentos odontológicos invasivos, quando possível.
+
+Antes de receber o ácido zoledrônico, beba líquidos suficientes, conforme orientação do médico, para evitar desidratação.
+
+Avise o médico sobre todos os medicamentos que você usa.
+
+Aminoglicosídeos (antibióticos para infecções graves): junto com ácido zoledrônico podem deixar o cálcio no sangue muito baixo.
+
+Medicamentos antiangiogênicos (usados em alguns tratamentos de câncer): junto com ácido zoledrônico podem aumentar o risco de osteonecrose da mandíbula (dano no osso da mandíbula).
+
+Não use medicamento sem orientação médica.
+
+5. Onde, como e por quanto tempo posso guardar este medicamento?
+
+Guarde em temperatura ambiente (15°C a 30°C) e proteja da luz. Coloque a solução reconstituída na bolsa de infusão logo após a reconstituição. Após preparar a solução, mantenha refrigerado entre 2°C e 8°C por no máximo 24 horas; antes de aplicar, deixe a solução voltar à temperatura ambiente (15°C a 30°C). Descarte o restante do frasco-ampola em local apropriado.
+
+Aspecto:
+
+- antes de preparar: pó branco;
+
+- depois de preparar: solução transparente, incolor, quase sem partículas.
+
+Mantenha fora do alcance das crianças.
+
+6. Como devo usar este medicamento?
+
+Uso intravenoso (na veia), em hospital ou clínica com estrutura adequada. Um profissional de saúde deve preparar e aplicar.
+
+A infusão deve ser única e durar no mínimo 15 minutos, em cateter separado de outros medicamentos.
+
+Preparação (feita pelo profissional): reconstituir com 5 mL de água para injeção (concentração 0,8 mg/mL); depois, diluir em 100 mL de cloreto de sódio 0,9% ou glicose 5%.
+
+Não misture com soluções que contenham cálcio (ex.: Ringer lactato).
+
+A frequência e o esquema dependem do seu caso e serão definidos pelo médico.
+
+Para prevenir eventos relacionados ao esqueleto (câncer avançado com comprometimento ósseo): 4 mg (1 dose por infusão) a cada 3 a 4 semanas.
+
+Suplementos recomendados (desde o início do tratamento): cálcio 500 mg por dia (via oral) e vitamina D 400 UI por dia (via oral) Para HIT (hipercalcemia induzida por tumor): 4 mg (1 dose por infusão). O médico deve confirmar que você está bem hidratado antes da infusão.
+
+Não interrompa o tratamento sem orientação médica.
+
+7. O que devo fazer quando eu me esquecer de usar este medicamento?
+
+Este medicamento é de uso hospitalar, então o paciente não aplica sozinho. Se tiver dúvidas sobre faltas/atrasos, fale com a equipe de saúde.
+
+8. Quais os males que este medicamento pode me causar?
+
+Avise o médico imediatamente se aparecerem sintomas importantes.
+
+Reações comuns no começo (tipo “gripe”):
+
+- febre,
+
+- dor de cabeça,
+
+- cansaço, fraqueza, sonolência,
+
+- calafrios,
+
+- dor nos ossos, músculos e articulações.
+
+Esses sintomas costumam melhorar em horas ou dias.
+
+Dores fortes (muito raro): dor intensa e às vezes incapacitante nos ossos, músculos e/ou articulações.
+
+Osteonecrose da mandíbula (dano na mandíbula - incomum): Pode causar
+
+- dor na boca, nos dentes ou na mandíbula,
+
+- feridas ou inchaço dentro da boca,
+
+- dormência, sensação de “mandíbula pesada”,
+
+- dente mole.
+
+Se isso ocorrer, avise o oncologista e o dentista imediatamente.
+
+Outras reações possíveis:
+
+- náusea, vômito, perda de apetite;
+
+- diarreia;
+
+- tontura, distúrbio do sono, formigamento/dormência nas mãos e pés;
+
+- falta de ar;
+
+- pressão alta ou pressão baixa (raramente com desmaio);
+
+- coceira, manchas vermelhas na pele (rash), dor no peito;
+
+- batimento cardíaco lento e confusão (raros);
+
+- conjuntivite (irritação nos olhos).
+
+- anemia Podem aparecer alterações na função dos rins (ex.: creatinina mais alta);
+
+Podem cair os níveis de cálcio, fosfato, magnésio e potássio no sangue (às vezes sem sintomas). O médico deve monitorar.
+
+As reações adversas de acordo com a frequência estão listadas abaixo:
+
+Muito comum: hipofosfatemia (fosfato baixo).
+
+Comum: anemia; dor óssea/muscular/articular; febre e síndrome tipo gripe; náusea/vômito/perda de apetite; insuficiência renal; aumento de creatinina e ureia; hipocalcemia (cálcio baixo).
+
+Pouco comum: plaquetas baixas e leucócitos baixos; tontura, sonolência e formigamento; ansiedade e alteração do sono; visão turva; diarreia/constipação/dor abdominal/má digestão/feridas na boca/boca seca; falta de ar/tosse/broncoespasmo; coceira e erupção cutânea; espasmo muscular; osteonecrose da mandíbula; pressão alta ou baixa e fibrilação atrial; insuficiência renal aguda, sangue/proteína na urina; reação alérgica; inchaço e reações no local da aplicação.
+
+Raro / muito raro: convulsões e tetania por cálcio baixo; uveíte (inflamação no olho); doença pulmonar intersticial; edema angioneurótico (inchaço alérgico); arritmias por cálcio baixo; síndrome de Fanconi adquirida e outras inflamações renais; reações alérgicas graves.
+
+Fibrilação atrial: Já foi observada em pacientes que receberam ácido zoledrônico para osteoporose. Ainda não está claro se o medicamento causa isso. Informe o médico se sentir palpitações ou batimentos irregulares.
+
+Atenção: outros bisfosfonatos podem causar falta de ar em pessoas com asma alérgicas à aspirina, embora isso não tenha sido observado com ácido zoledrônico; pode ocorrer fratura incomum do fêmur em tratamentos longos para osteoporose. Procure o médico se sentir dor, fraqueza ou desconforto no quadril, coxa ou virilha.
+
+9. O que fazer se alguém usar uma quantidade maior do que a indicada?
+
+Se você receber dose maior que a recomendada, um médico deve monitorar. Podem ocorrer:
+
+- problemas nos rins, incluindo falência renal;
+
+- alterações de sais do sangue (cálcio, fósforo e magnésio).
+
+O médico pode precisar fazer infusão de cálcio.
+
+Em caso de uso de grande quantidade, procure socorro médico e leve a embalagem ou bula.
+
+Ligue para 0800 722 6001 se precisar de mais orientações.
+</text>

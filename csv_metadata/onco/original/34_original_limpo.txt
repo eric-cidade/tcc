@@ -1,0 +1,425 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> dabrafenibe Cap </id>
+
+    <doenca>melanoma com mutacao BRAF V600, cancer de pulmao de celulas nao pequenas com mutacao BRAF V600E, cancer anaplasico de tireoide com mutacao BRAF V600E, tumores solidos com mutacao BRAF</doenca>
+    <nome medicamento>dabrafenibe</nome medicamento>
+    <nome_comercial>Tafinlar</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>capsula</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Tafinlar® como monoterapia ou em combinação com dimetilsulfóxido de trametinibe é indicado para o tratamento de pacientes adultos com melanoma, um tipo de câncer de pele, quando este se espalhou pelo corpo e não pode ser removido por cirurgia e para pacientes com mutação no gene BRAF V600.
+
+Tafinlar® em combinação com dimetilsulfóxido de trametinibe é usado para prevenir que o melanoma volte após ter sido removido por cirurgia.
+
+Tafinlar® também pode ser utilizado em combinação com dimetilsulfóxido de trametinibe para o tratamento de pessoas adultas com um tipo de câncer chamado câncer de pulmão de células não pequenas (CPCNP) com mutação
+
+BRAF V600E.
+
+Tafinlar® em combinação com dimetilsulfóxido de trametinibe também pode ser utilizado para o tratamento de pessoas adultas com um tipo de câncer de tireoide denominado câncer anaplásico de tireoide (CAT) com mutação BRAF V600E, que se espalhou para outras partes do corpo ou não pode ser removido por cirurgia.
+
+Tafinlar® somente pode ser usado para tratar melanomas ou câncer de pulmão de células não pequenas ou câncer anaplásico de tireoide com uma alteração (mutação) no gene BRAF, portanto seu médico deve coletar amostras do tecido tumoral primeiro para testar se Tafinlar® é adequado para você.
+
+Tafinlar® em combinação com dimetilsulfóxido de trametinibe é utilizado para tratar adultos e crianças com 6 anos ou mais com um tumor sólido (massa) que não respondeu a outros tratamentos e que não possui opções de tratamento alternativas, incluindo cirurgia, disponíveis.
+
+Tafinlar® só pode ser usado para tratar cânceres com uma alteração (mutação) no gene BRAF, portanto seu médico deve coletar amostras de tecido tumoral primeiro para testar se Tafinlar® é adequado para você.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+O dabrafenibe, composto presente em Tafinlar®, é um inibidor de alguns tipos de enzimas BRAF. As mutações oncogênicas em BRAF levam a estimulação do crescimento das células tumorais e têm sido identificadas em uma
+
+alta frequência em cânceres específicos, incluindo aproximadamente 50% dos melanomas. O dabrafenibe inibe o crescimento celular de melanoma mutante BRAF V600 in vitro e in vivo.
+
+O melanoma, câncer de pulmão de células não pequenas, câncer anaplásico de tireoide e tumores sólidos possuem uma alteração (mutação) particular em um gene chamado BRAF. Essa mutação no gene pode causar o desenvolvimento do câncer. Tafinlar® atinge as proteínas feitas a partir desses genes mudados (mutados) diminuindo ou parando o desenvolvimento do seu câncer.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Tafinlar® é contraindicado para pacientes com hipersensibilidade (alergia) a qualquer componente da formulação.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Siga todas as instruções do seu médico cuidadosamente. Elas podem ser diferentes das informações gerais contidas nesta bula.
+
+Seu médico pode decidir tratar seu câncer com a combinação de Tafinlar® e dimetilsulfóxido de trametinibe. Se você está tomando esses dois medicamentos, leia também a bula de dimetilsulfóxido de trametinibe. Se você tiver dúvidas no uso deste medicamento, converse com seu médico.
+
+Advertências e precauções Se algum desses itens se aplicar a você, converse com seu médico, farmacêutico ou profissional de saúde antes de iniciar Tafinlar®:
+
+− tem algum problema no fígado. Seu médico poderá solicitar exames de sangue para avaliar a função do seu fígado durante seu tratamento com Tafinlar®;
+
+− tem ou teve algum problema nos rins.
+
+Informe seu médico, farmacêutico ou profissional de saúde imediatamente se você tiver alguns desses efeitos adversos durante o tratamento com Tafinlar®:
+
+Febre Foi relatada febre em alguns pacientes fazendo uso de Tafinlar® (ver “Quais os males este medicamento pode me causar?”). Em uma minoria de casos, a febre foi acompanhada por enrijecimentos musculares graves, desidratação, hipotensão (pressão sanguínea baixa) que em alguns casos levaram à insuficiência renal (dos rins) aguda. O seu médico irá solicitar exames de sangue para avaliar a função dos rins durante e após eventos de febre. Ele poderá também recomendar a interrupção do tratamento e/ou a redução da dose de Tafinlar®, ou o uso de outros medicamentos concomitantes e fará um acompanhamento para avaliar a presença de sintomas ou sinais de infecção. Informe seu médico imediatamente se você apresentar febre ou sentir que pode vir a febre durante o tratamento com Tafinlar®.
+
+Carcinoma de células escamosas cutâneo (cuSCC) Casos de carcinoma de células escamosas cutâneo, um tipo de tumor em que a superfície da pele fica crostosa e descamativa, têm sido relatados em pacientes tratados com Tafinlar® (ver “Quais os males que esse medicamento pode me causar?”) Normalmente as lesões permanecem locais, podem ser removidas com cirurgia e os pacientes podem continuar o tratamento. Exame de pele deve ser realizado antes do início de Tafinlar® e durante o tratamento com Tafinlar®, a cada 2 meses durante a terapia e a cada 2 ou 3 meses por até 6 meses após a descontinuação de Tafinlar®. O seu médico irá recomendar o melhor tratamento para você e Tafinlar® deve ser continuado sem qualquer ajuste de dose. Você deve informar imediatamente ao seu médico se desenvolver novas lesões.
+
+Novo melanoma primário Novo melanoma primário (novas pintas ou pintas existentes mudando de cor ou tamanho) tem sido relatado em pacientes tratados com Tafinlar®. Em estudos clínicos em melanoma, estes foram identificados dentro dos 5 primeiros meses de terapia e não necessitaram de outra modificação no tratamento além da excisão. O monitoramento para lesões de pele deve ocorrer como descrito para carcinoma de células escamosas cutâneo.
+
+Malignidade não cutânea Pacientes tratados com Tafinlar® podem ter um risco aumentado de apresentar outros tipos de câncer que não os de pele. Seu médico fará o monitoramento de seus sintomas e avaliará os benefícios e riscos de continuar o tratamento com Tafinlar®. Ele poderá recomendar o monitoramento por até 6 meses após a interrupção do tratamento ou até o início de outra terapia antineoplásica.
+
+Pancreatite (inflamação no pâncreas) Em estudos clínicos em pacientes com melanoma irresecável ou metastático, pancreatite foi relatada em <1 % dos indivíduos tratados com Tafinlar®. Um dos eventos ocorreu no primeiro dia de dose e recorreu após reintrodução a uma dose reduzida. Caso apresente dores abdominais não explicáveis, consulte seu médico. Ele irá monitorar seus sintomas caso apresente pancreatite durante o tratamento com Tafinlar® e após o reinício deste.
+
+Reações oftalmológicas (nos olhos) Reações oftalmológicas, incluindo uveíte e irites, inflamações na região dos olhos, têm sido relatadas. Durante o tratamento, seu médico irá monitorá-lo para a presença de sinais ou sintomas visuais, como alterações na visão, fotofobia (sensibilidade à luz) e irritação e dor nos olhos.
+
+Tromboembolismo venoso (TEV) Tromboembolismo venoso (TEV), incluindo trombose venosa profunda (TVP) e embolia pulmonar (EP), pode ocorrer quando Tafinlar® for utilizado em combinação com dimetilsulfóxido de trametinibe. O seu médico irá aconselhá-lo a procurar cuidado médico imediatamente caso você tenha dor no peito, falta de ar súbita, dificuldade de respirar, dor nas pernas com ou sem inchaço, inchaço nos braços e pernas ou um braço ou perna fria e pálida, pois estes podem ser sinais de um coágulo sanguíneo nas veias do braço ou perna, no pulmão ou outras partes do corpo.
+
+Reações adversas graves cutâneas (na pele) Foram relatados casos de reações adversas cutâneas severas, incluindo síndrome de Stevens-Johnson, e reação medicamentosa com eosinofilia e sintomas sistêmicos. Antes de iniciar o tratamento, o seu médico irá aconselhálo quanto os possíveis sinais e sintomas e irá monitorá-lo de perto para verificar o aparecimento de reações cutâneas como:
+
+- erupção cutânea; pele avermelhada; bolhas nos lábios, olhos ou boca; descamação da pele, com ou sem febre, que podem ser possíveis sinais da síndrome de Stevens-Johnson;
+
+- erupção cutânea generalizada, febre e aumento dos gânglios linfáticos (que podem ser sinais de reação medicamentosa com eosinofilia e sintomas sistêmicos).
+
+•  se você tiver múltiplos sintomas como febre, glândulas inchadas, hematomas ou erupções cutâneas ao mesmo tempo, que podem ser sinais de linfohistiocitose hemofagocítica ou LHH, uma condição em que o sistema imune produz muitas células de combate a infecções, chamadas histiócitos e linfócitos, ou •  Se sentir vários sintomas, tais como batimentos cardíacos irregulares, diminuição da produção de urina, confusão, náuseas e vómitos intensos, falta de ar, cãibras musculares ou espasmos ao mesmo tempo, que podem ser sinais de síndrome de lise tumoral ou também chamado de SLT, uma condição resultante de uma rápida destruição das células tumorais.
+
+Doenças cardíacas (no coração) Tafinlar® pode causar problemas no coração ou causar piora dos problemas no coração pré-existentes.
+
+Populações especiais Crianças e adolescentes (abaixo de 6 anos de idade) Tafinlar® não é recomendado para crianças menores de 6 anos de idade, porque não se sabe se é seguro e eficaz..
+
+Insuficiência hepática (no fígado)
+
+Insuficiência hepática leve não teve efeito significativo sobre Tafinlar®. Não existem dados disponíveis em indivíduos com insuficiência hepática moderada a grave (ver “Como devo usar este medicamento?”).
+
+Insuficiência renal (nos rins) Insuficiência renal leve ou moderada não teve efeito significativo sobre Tafinlar®. Não existem dados disponíveis em indivíduos com insuficiência renal grave (ver “Como devo usar este medicamento?”).
+
+Idade Baseado em dados de estudos, a idade não tem nenhum efeito significativo sobre Tafinlar®.
+
+Peso corporal e Sexo Baseado em dados de estudos, sexo e peso corporal mostraram ter efeito sobre Tafinlar®. No entanto, eles não foram considerados clinicamente relevantes.
+
+Raça/Etnia A análise dos dados dos estudos com Tafinlar® não mostrou diferenças significativas na resposta de dabrafenibe entre pacientes asiáticos e caucasianos (brancos). Nenhum ajuste de dose é necessário em pacientes asiáticos.
+
+Não há dados suficientes para avaliar o potencial efeito da raça sobre Tafinlar®.
+
+Gravidez e Amamentação Se você está grávida ou amamentando, pensa que pode estar grávida ou está planejando engravidar, aconselhe-se com o seu médico antes de tomar este medicamento.
+
+O seu médico irá conversar com você sobre os riscos potenciais de tomar Tafinlar® durante a gravidez e amamentação.
+
+Informe seu médico imediatamente se você ficar grávida durante o tratamento com Tafinlar®.
+
+Mulheres com potencial de engravidar e pacientes do sexo masculino Tafinlar® pode causar danos ao feto quando administrado a uma mulher grávida. Estudos em animais têm demonstrado que Tafinlar® pode ser perigoso ao feto em desenvolvimento. Por isso, você deve evitar ficar grávida enquanto usar Tafinlar®. Para isso, utilize um método contraceptivo (uma forma de evitar a gravidez) confiável durante o tratamento com Tafinlar® e por, pelo menos, 2 semanas após a descontinuação do tratamento. Pergunte ao seu médico sobre as opções de métodos de contracepção eficazes. Se você está tomando Tafinlar® em combinação com o dimetilsulfóxido de trametinibe, você precisará usar um método contraceptivo eficaz por pelo menos 16 semanas após descontinuar o tratamento com a combinação.
+
+Tafinlar® pode diminuir a eficácia de contraceptivos hormonais (tais como pílulas, injeções ou adesivos) e um método alternativo de contracepção eficaz deve ser usado para que você não engravide enquanto estiver tomando Tafinlar®. Aconselhe-se com o seu médico.
+
+Pacientes do sexo masculino (incluindo aqueles que fizeram vasectomia) com companheiras que estão grávidas ou que possam engravidar devem usar preservativos durante a relação sexual enquanto estiverem em tratamento e por, pelo menos, 2 semanas após descontinuar o tratamento com Tafinlar®. Se estiverem tomando Tafinlar® em combinação com dimetilsulfóxido de trametinibe, os pacientes do sexo masculino devem usar preservativo durante a relação sexual e por, pelo menos, 16 semanas após descontinuar o tratamento com a combinação.
+
+Amamentação Não se recomenda amamentar durante o tratamento com Tafinlar®. Não há dados do efeito de Tafinlar® no lactente, e nem na produção de leite. Caso esteja amamentando ou planejando amamentar, informe seu médico.
+
+Ele irá decidir se você deve amamentar ou seguir com o tratamento.
+
+Uso contraindicado no aleitamento ou na doação de leite humano: Este medicamento é contraindicado durante o aleitamento ou doação de leite, pois pode ser excretado no leite humano e pode causar reações indesejáveis no bebê. Seu médico ou cirurgião-dentista deve apresentar alternativas para o seu tratamento ou para a alimentação do bebê.
+
+Infertilidade
+
+Feminina Não há dados em humanos. Pacientes do sexo feminino com potencial reprodutivo devem ser informadas que Tafinlar® pode prejudicar a fertilidade.
+
+Masculina Não há dados em humanos. Pacientes do sexo masculino fazendo tratamento com Tafinlar® devem ser informados que podem apresentar uma redução na contagem de espermatozoides. A contagem de espermatozoides pode não retornar aos níveis normais após a interrupção do tratamento.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica. Informe imediatamente seu médico em caso de suspeita de gravidez.
+
+Efeitos sobre a capacidade de dirigir e/ou operar máquinas Tafinlar® pode afetar a sua capacidade de dirigir e operar máquinas. Evite dirigir ou operar máquinas se estiver com problemas na sua visão ou estiver se sentindo cansado ou fraco. Converse com seu médico ou farmacêutico.
+
+Interações Medicamentosas e com Alimentos Certos medicamentos interagem com Tafinlar®, e pode ser que você não possa usá-los enquanto está em tratamento com Tafinlar®. São exemplos:
+
+− medicamentos usados para tratar infecções (antibióticos, como claritromicina e rifampicina e antimicóticos, como cetoconazol);
+
+− medicamentos usados no tratamento da AIDS, como ritonavir;
+
+− medicamentos usados para evitar a gravidez, tais como contraceptivos hormonais (pílulas, injeções ou adesivos) (ver “Gravidez e Amamentação”, acima);
+
+− medicamentos usados para reduzir a acidez do estômago, como inibidores de bomba de prótons, antagonistas H2 ou antiácidos, como rabeprazol;
+
+− medicamentos usados para reduzir os níveis de gorduras no sangue, como genfibrozila;
+
+− medicamentos usados para controle da saúde mental (antidepressivos, como nefazodona);
+
+− medicamentos usados para tratar convulsões (anticonvulsivantes, como fenitoína, fenobarbital e carbamazepina);
+
+− medicamentos usados para tratar asma ou inflamações crônicas (corticosteroides, como dexametasona);
+
+− medicamentos usados para dormir, como midazolam;
+
+− medicamentos anticoagulantes, como varfarina (usada para afinar o sangue);
+
+− medicamentos usados para tratar altos níveis de colesterol (como rosuvastatina);
+
+− medicamentos herbais, como Erva de São João.
+
+Por isso, se você toma ou tomou recentemente algum outro medicamento, informe isso a seu médico. Fale inclusive sobre os que você usa sem prescrição médica. Ele irá rever suas medicações para ter certeza de que você não utiliza algo que não poderia utilizar enquanto está em tratamento com Tafinlar®. Se você precisa de alguma dessas medicações e não há um substituto disponível, discuta isso com seu médico.
+
+Atenção: Contém os corantes óxido de ferro vermelho, dióxido de titânio e óxido de ferro preto.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para a sua saúde.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Cuidados de armazenamento Mantenha o produto na embalagem original e em temperatura ambiente (entre 15°C e 30°C). Não remover o dessecante.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+Aspectos físicos / Características organolépticas As cápsulas de 50 mg são opacas, compostas por um corpo vermelho escuro e uma tampa vermelha escura.
+
+São gravadas com ‘GS TEW’ em uma das faces e ‘50 mg’ na outra. O conteúdo da cápsula é um sólido branco a quase branco.
+
+As cápsulas de 75 mg são opacas, compostas por um corpo rosa escuro e uma tampa rosa escura. São gravadas com ‘GS LHF’ em uma das faces e ‘75 mg’ na outra. O conteúdo da cápsula é um sólido branco a quase branco.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+TODO MEDICAMENTO DEVE SER MANTIDO FORA DO ALCANCE DAS CRIANÇAS.
+
+6.  COMO  DEVO USAR ESTE MEDICAMENTO?
+
+O tratamento com Tafinlar® deve ser iniciado por um médico com experiência em terapias antineoplásicas.
+
+Tafinlar® só deve ser utilizado para o tratamento de melanomas com mutação no gene BRAF. Desta forma, antes do início do tratamento com Tafinlar®, seu médico irá solicitar exames para determinar se você possui mutação BRAF V600 ou V600E.
+
+Modo de uso de Tafinlar® Via oral.
+
+Sempre tome Tafinlar® exatamente conforme as instruções do seu médico. Não pare de tomar Tafinlar®, salvo se o seu médico aconselhar você a parar.
+
+Tafinlar® deve ser tomado duas vezes ao dia, com o estômago vazio (pelo menos uma hora antes, ou duas horas após as refeições), deixando um intervalo de aproximadamente 12 horas entre as doses. Tafinlar® deve ser tomado no mesmo horário todos os dias, o que pode ajudá-lo a lembrar-se de quando tomar o seu medicamento.
+
+Tafinlar® em monoterapia As cápsulas devem ser tomadas inteiras, com o auxílio de água, uma após a outra.
+
+Tafinlar® em combinação com dimetilsulfóxido de trametinibe Tomar Tafinlar® em combinação com dimetilsulfóxido de trametinibe exatamente como seu médico orientar. Não alterar a dose ou parar Tafinlar® a menos que orientado pelo seu médico.
+
+Tomar a primeira dose de Tafinlar® pela manhã, e a segunda dose de Tafinlar® separadamente à noite, aproximadamente 12 horas depois.
+
+Quando Tafinlar® e dimetilsulfóxido de trametinibe forem tomados em combinação, tome a dose diária única de dimetilsulfóxido de trametinibe no mesmo horário todos os dias junto com a dose matinal ou com a dose noturna de Tafinlar®.
+
+Não tome mais de uma dose de dimetilsulfóxido de trametinibe por dia e não tome as doses matinais e noturnas de Tafinlar® em uma única vez.
+
+Engolir as cápsulas de Tafinlar® e os comprimidos de dimetilsulfóxido de trametinibe com um copo cheio de água.
+
+Posologia Em adultos, dose recomendada de Tafinlar® é de 150 mg duas vezes ao dia (de 12 em 12 horas), correspondendo a uma dose diária total de 300 mg.
+
+Em crianças acima de 6 anos, a dose diária recomendada de Tafinlar® é baseada no peso corporal e é determinada pelo seu médico.
+
+Seu médico irá determinar, com base na progressão da doença e no desenvolvimento de toxicidade, a duração do tratamento. Continue a tomar Tafinlar® todos os dias pelo período que o seu médico recomendar.
+
+Este é um tratamento de longo prazo e pode durar meses ou anos. O seu médico irá regularmente monitorar sua condição para verificar se o tratamento está apresentando o efeito desejado.
+
+Se você tiver dúvidas sobre por quanto tempo deve tomar Tafinlar®, converse com o seu médico.
+
+Ajustes da dose
+
+De acordo com os sinais e sintomas desenvolvidos, como, por exemplo, febre (temperatura corpórea ≥ 38,5°C) ou uveíte (inflamação nos olhos), o médico poderá recomendar interrupções no tratamento, redução de dose ou descontinuação do tratamento com Tafinlar®.
+
+Populações Especiais Crianças e adolescentes (abaixo de 6 anos de idade) A eficácia e segurança de Tafinlar® não foram estabelecidas em crianças menores de 6 anos de idade. Tafinlar® não é recomendado para essa faixa etária.
+
+Idosos (65 anos de idade ou acima) Nenhum ajuste de dose é necessário para pacientes acima de 65 anos.
+
+Insuficiência renal (nos rins) Nenhum ajuste de dose é exigido para pacientes com comprometimento renal leve a moderado. Tafinlar® deve ser usado com cautela em pacientes com insuficiência renal grave.
+
+Insuficiência hepática (no fígado) Nenhum ajuste de dose é exigido para pacientes com comprometimento hepático leve. Tafinlar® deve ser usado com cautela em pacientes com comprometimento hepático moderado à grave.
+
+Se você tiver qualquer dúvida sobre o uso deste medicamento, pergunte ao seu médico.
+
+Siga a orientação de seu médico, respeitando sempre os horários, as doses e a duração do tratamento. Não interrompa o tratamento sem o conhecimento de seu médico.
+
+Este medicamento não deve ser partido, aberto ou mastigado.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Se você se esquecer de tomar o medicamento e se lembrar com até seis horas de atraso, tome assim que se lembrar.
+
+Se você se esquecer de tomar o medicamento e se lembrar com mais de seis horas, NÃO use uma dose duplicada para repor a dose esquecida. Apenas siga com o tratamento, tomando normalmente a medicação no dia seguinte.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico, ou cirurgião-dentista.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Como todo medicamento, Tafinlar® pode provocar efeitos indesejáveis.
+
+Os dados de segurança de Tafinlar® foram obtidos a partir de estudos clínicos de dabrafenibe em monoterapia em combinação com dimetilsulfóxido de trametinibe em pacientes com melanoma metastático ou irressecável com mutação de BRAF V600.
+
+Reações muito comuns (ocorrem em mais de 10% dos pacientes que utilizam este medicamento): papiloma (verrugas que aparecem na superfície da pele), diminuição do apetite, dor de cabeça, tosse, enjoo, vômitos, diarreia, reações na pele como erupções e espessamento (rash cutâneo, hiperqueratose), queda de cabelo (alopecia), palmas das mãos ou solas dos pés adormecidas, inchadas, doloridas ou avermelhadas; dores nas articulações (artralgia), dores musculares (mialgia), dor nas extremidades, cansaço e fraqueza ao acordar (astenia), calafrios, cansaço, febre.
+
+Reações comuns (ocorrem entre 1% e 10% dos pacientes que utilizam este medicamento): nasofaringite (inflamação no nariz e garganta), acrocórdon (protuberâncias na pele), carcinoma de células escamosas cutâneo (tipo de tumor que a pele fica crostosa e descamativa), protuberâncias pardas/marrons (queratose seborreica), diminuição nos níveis de fósforo no sangue (hipofosfatemia), hiperglicemia (aumento no nível de açúcar no sangue), prisão de ventre (constipação), efeitos de pele, incluindo manchas ásperas e descamativas, espessamento amarelado/amarronzado da pele, marcas na pele, pele seca e vermelhidão na pele (queratose actínica, lesão cutânea, pele seca, eritema, coceira), fotossensibilidade (sensibilidade à luz), doença semelhante à gripe, inflamações nos
+
+olhos (uveíte), problema nos nervos que pode causar dor, perda de sensibilidade ou formigamento nas mãos e pés/fraqueza muscular (neuropatia periférica).
+
+Reações incomuns (ocorrem entre 0,1% e 1% dos pacientes que utilizam este medicamento): novo melanoma primário, reações alérgicas (hipersensibilidade), inflamação no pâncreas (pancreatite), paniculite (inflamação da camada gordurosa embaixo da pele), insuficiência renal (nos rins), insuficiência renal aguda, nefrite tubulointersticial (uma inflamação nos rins), prolongamento do intervalo QT.
+
+Efeitos adversos adicionais possíveis quando Tafinlar® é usado em combinação com dimetilsulfóxido de trametinibe Alguns efeitos adversos podem ser sérios Se você tiver algum efeito adverso sério, pare de tomar este medicamento e informe imediatamente ao seu médico.
+
+Consulte também a bula completa de dimetilsulfóxido de trametinibe para informações sobres possíveis efeitos adversos.
+
+Muito comum: pode afetar mais de 1 em 10 pessoas •  Febre, calafrios, dor de garganta ou úlceras na boca devido a infecções como sinais de baixo nível de um tipo de células sanguíneas brancas (sinais de neutropenia);
+
+•  Dores de cabeça, tontura ou fraqueza, tosse com sangue ou coágulos sanguíneos, vômitos contendo sangue ou vômito que se parece com "borras de café", hemorragias no nariz, fezes vermelhas ou pretas (sinais de hemorragia);
+
+•  Inchaço generalizado (edema inclui edema generalizado e periférico);
+
+•  Febre, dor de garganta ou úlceras na boca devido a infecções (sinais de leucopenia);
+
+•  Cansaço, confusão, espasmos musculares, convulsões (hiponatremia).
+
+Comuns: pode afetar até 1 em 10 pessoas •  Dor no peito, falta de ar súbita, dificuldade para respirar, dor nas pernas com ou sem inchaço, inchaço nos braços e pernas ou um braço ou perna fria e pálida, estes podem ser sinais de um coágulo de sangue nas veias do braço ou perna, no pulmão ou em outras partes do corpo;
+
+•  Hemorragia ou contusões espontâneas (sinais de trombocitopenia);
+
+•  Sede, baixa produção de urina, perda de peso, pele seca, irritabilidade como sinais de baixo nível de fluidos no corpo (sinais de desidratação);
+
+•  Perda de visão (sinal de deficiência visual);
+
+•  Sensação de luz intermitente, perda de visão (sinais de descolamento de retina);
+
+•  Batimento cardíaco lento (sinal de bradicardia);
+
+•  Dor aguda grave do estômago superior (sinais de pancreatite aguda);
+
+•  Diminuição severa da produção de urina (sinal de insuficiência renal);
+
+•  Alto ou baixo nível de produção de urina, sonolência, confusão, náusea como sinal de rim inflamado (nefrite tubulointersticial);
+
+•  Fraqueza anormal do músculo causando dor, febre, urina avermelhada (sinais de rabdomiólise);
+
+•  Inchaço nos olhos por vazamento de fluido causando visão turva (sinais de corioretinopatia).
+
+•  Batimentos cardíacos irregulares (bloqueio atrioventricular ou bloqueio de ramo).
+
+Incomum: pode afetar até 1 em 100 pessoas •  Fadiga, sentir-se cheio ou inchado, palpitações cardíacas, perda de apetite, náuseas, diminuição da capacidade de exercício, falta de ar, inchaço como sinais de mudanças nos batimentos cardíacos (sinais de disfunção ventricular esquerda);
+
+•  Falta de ar, dificuldade em respirar quando deitado, inchaço dos pés ou pernas como sinais de que o músculo cardíaco não está bombeando sangue como deveria (sinais de insuficiência cardíaca);
+
+•  Tosse, respiração difícil ou dolorosa (doença pulmonar intersticial), chiado, dor no peito ao respirar, febre (sinais de pneumonite);
+
+•  Inflamação dos rins (nefrite);
+
+•  Dor de estômago grave, calafrios, febre, náusea e vômito como sinais de formação de um buraco por todo o estômago, intestino grosso ou intestino delgado (sinais de perfuração gastroinstestinal);
+
+•  Diarreia com ou sem sangue nas fezes, dor abdominal como sinais de uma inflamação do revestimento interno do cólon (colite);
+
+Não conhecido: a frequência não pode ser estimada a partir dos dados disponíveis • Sintomas múltiplos tais como febre, glândulas inchadas, hematomas ou erupção cutânea, ocorrendo ao mesmo tempo (linfohistiocitose hemofagocítica ou LHH) • Múltiplos sintomas, tais como batimentos cardíacos irregulares, diminuição da produção de urina, confusão, náuseas e vómitos graves, falta de ar, cãibras musculares ou espasmos, ocorrendo ao mesmo tempo (síndrome de lise tumoral ou SLT) Outros efeitos adversos adicionais possíveis quando Tafinlar® é usado em combinação com dimetilsulfóxido de trametinibe Outros efeitos adversos adicionais incluem os listados a seguir. Se esses efeitos adversos se tornarem graves, por favor, converse com seu médico, farmacêutico ou enfermeiro.
+
+Consulte também a bula completa de dimetilsulfóxido de trametinibe para informações sobre possíveis efeitos adversos.
+
+Muito comum: pode afetar mais que 1 em 10 pessoas •  Dor de garganta e coriza (nasofaringite);
+
+•  Infecção do trato urinário;
+
+•  Inchaço das mãos, joelhos e pés (edema periférico);
+
+•  Dor de estômago (dor abdominal);
+
+•  Vermelhidão, pele seca, coceira, problemas como acne (dermatite acneforme);
+
+•  Pele seca;
+
+•  Coceira (prurido);
+
+•  Espessamento das camadas externas da pele (hiperqueratose, incluindo também ceratose actínica (pele espessa e escamosa), queratose seborreica (crescimento de pele ceroso, "colado na pele") e queratose pilar (ásperas e ligeiramente vermelhas em pele clara e manchas marrons em pele mais escura));
+
+•  Dor de cabeça, tontura como sinal de pressão alta do sangue (hipertensão);
+
+•  Tontura;
+
+•  Dor de cabeça;
+
+•  Prisão de ventre;
+
+•  Vermelhidão na pele (eritema);
+
+•  Espasmos musculares;
+
+•  Tontura, delírio (hipotensão);
+
+•  Sensação de fraqueza, doença e cansaço (astenia incluindo mal-estar e fadiga);
+
+•  Cansaço, fadiga, pele pálida (anemia);
+
+•  Boca seca;
+
+•  Cansaço, calafrios, dor de garganta, dor nas articulações ou músculos doloridos (doença semelhante a gripe);
+
+•  Sede excessiva, alta produção de urina, urina escura, aumento do apetite com perda de peso, pele seca e irritada, irritabilidade, como sinais de alto nível de açúcar (glicose) no sangue (sinais de hiperglicemia).
+
+Durante o tratamento com Tafinlar®, você também pode ter efeitos colaterais verificados nos resultados dos testes sanguíneos anormais (muito comuns), o que pode dar ao seu médico informações sobre o funcionamento de algumas partes do seu corpo, por exemplo:
+
+•  níveis elevados das seguintes enzimas:
+
+− Fosfatase alcalina aumentada no sangue (função óssea);
+
+− Alanina aminotransferase (ALT) e / ou aspartato aminotransferase (AST) aumentadas (função hepática).
+
+Comuns: pode afetar até 1 a cada 10 pessoas •  Inflamação da pele causada por infecção (celulite);
+
+•  Inflamação dos folículos capilares que causam coceira (foliculite);
+
+•  Problemas nas unhas tais como mudanças na base das unhas, dor nas unhas, infecção e inchaço das cutículas (paroníquia);
+
+•  Erupção com bolha cheia de pus (erupção cutânea postular);
+
+•  Problemas de visão (visão turva);
+
+•  Cansaço, dor no tórax, delírio leve, palpitações (fração de ejeção reduzida);
+
+•  Inchaço duro e doloroso nos braços, pernas ou outra parte do corpo (linfedema);
+
+•  Falta de ar, respiração difícil (dispneia);
+
+•  Feridas bucais com inflamação das gengivas (estomatite);
+
+•  Suor noturno;
+
+•  Suor excessivo (hiperidrose);
+
+•  Fissuras de pele;
+
+•  Inchaço rígido e doloroso abaixo da superfície da pele (paniculite);
+
+•  Resultado anormal do exame de sangue para função renal como sinal de alteração da saúde muscular (aumento da creatina fosfoquinase no sangue);
+
+•  Inchaço do rosto (edema facial);
+
+•  Dor, feridas na boca, vermelhidão e inchaço das vias aéreas ou tubo de alimentação (inflamação da mucosa);
+
+•  Problema nos nervos que pode causar dor, perda de sensibilidade ou formigamento nas mãos e pés/fraqueza muscular (neuropatia periférica) Durante o tratamento com Tafinlar®, você também pode ter efeitos colaterais sobre os resultados anormais do exame de sangue (comum), que pode fornecer informações ao seu médico sobre o funcionamento de algumas partes do seu corpo, por exemplo:
+
+•  Níveis elevados das seguintes enzimas:
+
+− Gamaglutamil transferase (GGT) aumentada (função hepática) Incomum: pode afetar até 1 em cada 100 pessoas •  Inchaço das pálpebras e ao redor do olho (edema periorbital);
+
+•  Tosse, dificuldade de respirar, respiração dolorosa (doença pulmonar intersticial);
+
+•  Doença inflamatória que afeta principalmente a pele, pulmões e olhos (sarcoidose);
+
+•  Inflamação dos nervos que pode resultar em dor, dormência, fraqueza muscular e paralisia dos braços e pernas (síndrome de Guillain-Barré).
+
+Não conhecido: a frequência não pode ser estimada a partir dos dados disponíveis •  Manchas na pele com relevo, dolorosas, vermelhas a roxas avermelhadas escuras ou feridas que aparecem principalmente nos braços, pernas, rosto e pescoço, com febre (sinais de dermatose neutrofílica febril aguda ou síndrome de Sweet);
+
+•  Reação na pele associada à tatuagem.
+
+Possíveis efeitos colaterais em crianças quando Tafinlar® é tomado junto com dimetilsulfóxido de trametinibe Muito comum: pode afetar mais de 1 a cada 10 pessoas •  Peso aumentado Se você tiver qualquer efeito colateral não listado nesta bula, por favor informar seu médico, farmacêutico ou profissional de saúde.
+
+Avise seu médico imediatamente se você apresentar um ou mais desses sintomas. Eles podem persistir mesmo depois que você interromper o uso de Tafinlar®.
+
+Se um ou mais dos sintomas listados nesta bula se agravar ou se você observar algum sintoma que não tenha sido relacionado aqui, informe seu médico ou farmacêutico.
+
+Atenção: este produto é um medicamento que possui nova indicação terapêutica no país, e embora as pesquisas tenham indicado eficácia e segurança aceitáveis, mesmo que indicado e utilizado corretamente, podem ocorrer eventos adversos imprevisíveis ou desconhecidos. Nesse caso, informe seu médico.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE
+
+MEDICAMENTO?
+
+Não existe nenhum antídoto específico para superdosagem com Tafinlar®. Em caso de superdosagem, o tratamento com Tafinlar® deve ser suspenso até a resolução dos sintomas. Procedimentos adicionais devem ser realizados conforme indicação de seu médico.
+
+Se, acidentalmente, você tomar cápsulas de Tafinlar® a mais ou se alguém tomar o seu medicamento, fale com seu médico ou farmacêutico ou entre em contato com o departamento de emergência do hospital mais próximo para obter instruções.
+</text>

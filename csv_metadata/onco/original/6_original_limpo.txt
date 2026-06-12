@@ -1,0 +1,647 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> encorafenibe Cap </id>
+
+    <doenca>melanoma com mutacao BRAF, cancer de pulmao de nao pequenas celulas com mutacao BRAF, cancer colorretal com mutacao BRAF</doenca>
+    <nome medicamento>encorafenibe</nome medicamento>
+    <nome_comercial>Braftovi</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>capsula</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+O Braftovi® é um medicamento anticancerígeno que contém a substância ativa encorafenibe. É utilizado em adultos, em combinação com outro medicamento contendo binimetinibe (Mektovi®), para tratar um tipo de câncer de pele chamado melanoma ou para tratar câncer de pulmão de não pequenas células, quando este apresenta:
+
+- uma alteração específica (mutação) em um gene responsável pela produção de uma proteína chamada BRAF, e
+
+- espalhou-se para outras partes do corpo, ou quando não pode ser removido por cirurgia.
+
+O Braftovi® também é utilizado em combinação com outro medicamento cetuximabe ou em combinação com cetuximabe e mFOLFOX6, para tratar doentes adultos com um tipo de câncer do intestino grosso, quando este apresenta:
+
+- uma alteração específica (mutação) em um gene responsável pela produção de uma proteína chamada BRAF, e
+
+- espalhou-se para outras partes do corpo.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+No Melanoma ou no Câncer de pulmão de não pequenas células Mutações no gene BRAF podem produzir proteínas que causam o crescimento do melanoma. O Braftovi® tem como alvo proteínas feitas a partir deste gene BRAF alterado. Quando o Braftovi® é usado em combinação com o binimetinibe, que tem como alvo outra proteína que estimula o crescimento das células cancerosas, a combinação retarda ou interrompe o crescimento do seu câncer.
+
+No Câncer Colorretal Mutações no gene BRAF podem produzir proteínas que causam o crescimento câncer colorretal. Quando o Braftovi® é usado em combinação com cetuximabe (que se liga ao receptor do fator de crescimento epidérmico (EGFR), uma proteína na superfície de certas células cancerosas), a combinação retarda ou interrompe o crescimento do seu câncer.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Não tome o Braftovi®
+
+- se você tem alergia ao encorafenibe ou a qualquer outro componente deste medicamento (indicados na Composição).
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Antes de iniciar o tratamento, o seu médico irá verificar se há a mutação BRAF.
+
+Uma vez que Braftovi® deve ser usado em combinação com Mektovi® (binimetinibe) para o tratamento do melanoma ou no câncer de pulmão de não pequenas células, leia atentamente a bula de Mektovi®, bem como esta bula.
+
+Uma vez que o Braftovi® deve ser utilizado em combinação com o cetuximabe ou em associação com cetuximabe e mFOLFOX6 para o tratamento de câncer do intestino grosso, leia atentamente a bula do cetuximabe, fluorouracil, leucovorina ou oxaliplatina, bem como esta bula.
+
+Advertências e precauções Antes de tomar o Braftovi®, fale com o seu médico, farmacêutico ou enfermeiro, sobre todas as suas condições médicas, especialmente se tiver alguma das condições abaixo:
+
+- problemas cardíacos, incluindo alteração da atividade elétrica do seu coração (prolongamento do intervalo QT)
+
+- problemas de sangramento ou se estiver tomando medicamentos que possam causar hemorragia
+
+- problemas nos olhos
+
+- problemas no fígado ou nos rins Informe o seu médico se você já teve um tipo de câncer diferente do melanoma, câncer de pulmão ou câncer do intestino grosso, pois o Braftovi® pode piorar certos tipos de câncer.
+
+Informe o seu médico, farmacêutico ou enfermeiro imediatamente caso você tenha alguma das condições a seguir, enquanto estiver tomando este medicamento:
+
+- Problemas cardíacos: o Braftovi®, quando tomado junto com o Mektovi®, pode fazer com que o seu coração não funcione bem, pode alterar a atividade elétrica do seu coração, chamada de "prolongamento do intervalo QT" ou piorar os problemas cardíacos que já existirem. O seu médico verificará se o seu coração está funcionando adequadamente antes e durante o tratamento com estes medicamentos. Se você tiver qualquer sintoma de problemas cardíacos, como sentir tonturas, cansaço, vertigem, falta de ar, se sentir que seu coração está batendo forte, rápido, batendo de forma irregular, ou se tem inchaço nas pernas, fale com o seu médico imediatamente.
+
+Este medicamento pode aumentar o risco de alteração grave nos batimentos cardíacos.
+
+Não tome este medicamento se você tiver uma alteração no coração chamada síndrome congênita de prolongamento do intervalo QT (ou síndrome do QT longo), ou se você já teve algum episódio de ritmo cardíaco anormal, porque pode ser perigoso e provocar alterações do ritmo do coração, inclusive com risco de morte.
+
+Avise seu médico se você tiver bradicardia (diminuição da frequência cardíaca), insuficiência cardíaca ou outras doenças do coração, ou se você souber que tem baixo nível de potássio ou de magnésio no sangue.
+
+Avise seu médico se você estiver utilizando outros medicamentos, especialmente medicamentos que causam prolongamento do intervalo QT (alteração do ritmo do coração no eletrocardiograma), medicamentos para arritmia (para corrigir o ritmo do coração) ou medicamentos diuréticos (remédios para eliminar água do corpo).
+
+- Problemas de sangramento: o Braftovi®, pode causar problemas graves de sangramento. Se você tiver algum sintoma de problemas hemorrágicos como, por exemplo, tossir sangue, coágulos sanguíneos, vômito com sangue ou com aspecto de "borra de café", fezes vermelhas ou pretas que parecem alcatrão, sangue na urina, dor no estômago (abdominal), sangramento vaginal incomum, fale imediatamente com o seu médico. Se você tiver dor de cabeça, tontura ou fraqueza, também é necessário informar o seu médico.
+
+- Problemas oculares: o Braftovi®, quando tomado com o Mektovi®, pode causar problemas graves oculares. Fale imediatamente com o seu médico se você tiver visão turva, perda de visão ou outras alterações na visão (por exemplo, pontos coloridos na sua visão), halo (ver contorno desfocado ao redor dos objetos). O seu médico examinará os seus olhos em busca de problemas com a sua visão enquanto você estiver tomando o Braftovi®.
+
+- Alterações na pele: o Braftovi® pode causar outros tipos de câncer de pele, como o carcinoma cutâneo de células escamosas. Novos melanomas também podem ocorrer durante o tratamento com Braftovi®. O seu médico verificará a sua pele quanto a quaisquer novos tumores antes do tratamento, a cada dois meses durante o tratamento e por até seis meses após você parar de tomar o Braftovi®. Informe imediatamente o seu médico se detectar alterações na pele durante e após o tratamento, incluindo nova verruga, ferida na pele, inchaço avermelhado que sangra ou não cicatriza, ou alteração na cor ou no tamanho de uma verruga. Além disso, o seu médico precisa verificar se há carcinoma de células escamosas na cabeça, pescoço, boca e glândulas linfáticas, e você fará exames de tomografia regularmente. Esta é uma precaução no caso de um carcinoma de células escamosas se desenvolver dentro do seu corpo. Exames genitais (para mulheres) e anais também são recomendáveis antes e ao final do tratamento.
+
+- Problemas no fígado: o Braftovi® pode causar anormalidade nos resultados dos testes de sangue relacionados ao funcionamento do seu fígado (aumento dos níveis das enzimas hepáticas).
+
+Este medicamento pode causar danos ao fígado. Por isso, seu uso requer acompanhamento médico estrito e exames laboratoriais periódicos para controle.
+
+- Problemas nos rins: o Braftovi® pode alterar a atividade dos seus rins (frequentemente testes sanguíneos anormais, mas raramente desidratação e vômitos). O seu médico realizará testes no seu sangue para monitorar os seus rins antes e durante o tratamento. Beba muito líquido durante o tratamento. Informe imediatamente o seu médico se você vomitar e ficar desidratado.
+
+Se você apresentar os seguintes sintomas, contacte imediatamente o seu médico, uma vez que pode ser uma condição de risco à vida: náuseas, falta de ar, batimento cardíaco irregular, cãibras musculares, convulsões, turvação da urina, diminuição do débito urinário e cansaço. Estas podem ser causadas por um grupo de complicações metabólicas que podem ocorrer durante o tratamento do câncer que são causadas pela decomposição de células cancerígenas moribundas (Síndrome de lise tumoral (SLT)) e podem levar a alterações na função renal (vide também a questão 8. Quais os males que este medicamento pode me causar?).
+
+Crianças e adolescentes O Braftovi® não é recomendado para crianças e adolescentes menores de 18 anos. Este medicamento não foi estudado em pessoas desta idade.
+
+O Braftovi® e outros medicamentos Alguns medicamentos podem afetar o funcionamento do Braftovi® ou aumentar as chances de você ter efeitos colaterais.
+
+Em particular, informe o seu médico se estiver tomando algo desta lista ou qualquer outro medicamento:
+
+- alguns medicamentos para tratar infecções fúngicas (como itraconazol, posaconazol, fluconazol);
+
+- alguns medicamentos para tratar infecções bacterianas (tais como rifampicina, claritromicina, telitromicina, eritromicina, penicilina);
+
+- medicamentos tipicamente usados para tratar epilepsia (convulsões) (tais como fenitoína, carbamazepina);
+
+- medicamentos normalmente usados para tratar câncer (como o metotrexato, o imatinibe);
+
+- medicamentos normalmente usados para tratar o colesterol elevado (como rosuvastatina, atorvastatina);
+
+- um tratamento à base de plantas para a depressão: erva de São João;
+
+- alguns medicamentos para o tratamento de HIV, como o ritonavir, amprenavir, raltegravir, dolutegravir;
+
+- medicamentos anticoncepcionais contendo hormônios;
+
+- medicamentos normalmente usados no tratamento de pressão arterial alta (como diltiazem, bosentana, furosemida);
+
+- um medicamento usado para tratar o batimento cardíaco irregular: amiodarona.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para a sua saúde.
+
+O Braftovi® com comida e líquidos Não tome suco de toranja (grapefruit) durante o tratamento com Braftovi®. Isso porque esta fruta pode aumentar os efeitos colaterais do Braftovi®.
+
+Gravidez O Braftovi® não é recomendado durante a gravidez. Pode causar danos ou defeitos congênitos ao feto.
+
+Se você está grávida, acha que está grávida ou planeja engravidar, consulte o seu médico antes de tomar este medicamento.
+
+Se você é uma mulher que pode engravidar, deve usar um método de contracepção confiável enquanto estiver tomando o Braftovi® e deve continuar o método de contracepção por até um mês após tomar a última dose de Braftovi®. Medicamentos anticoncepcionais contendo hormônios (como pílulas, injeções, adesivos, implantes e certos dispositivos intrauterinos (DIUs) que liberam hormônios) podem não funcionar tão bem quanto o esperado enquanto você estiver tomando o Braftovi®. Você deve usar outro método anticoncepcional confiável, como um método de barreira (por exemplo, preservativo) para que você não engravide enquanto estiver tomando este medicamento. Busque aconselhamento com o seu médico, farmacêutico ou enfermeiro.
+
+Entre em contato com o seu médico imediatamente se ficar grávida enquanto estiver tomando o Braftovi®.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação do médico ou cirurgiãodentista.
+
+Informe imediatamente seu médico em caso de suspeita de gravidez.
+
+Amamentação O Braftovi® não é recomendado durante o aleitamento materno. Não se sabe se o Braftovi® passa para o leite materno. Se você está amamentando ou planeja amamentar, consulte o seu médico antes de tomar este medicamento.
+
+Uso criterioso no aleitamento ou na doação de leite humano.
+
+O uso deste medicamento no período da lactação depende da avaliação e acompanhamento do seu médico ou cirurgião-dentista.
+
+Fertilidade O Braftovi® pode diminuir a contagem de espermatozoides em homens. Isso pode afetar a capacidade de gerar um filho. Converse com o seu médico se isso for uma preocupação para você.
+
+Capacidade de dirigir e operar máquinas
+
+O Braftovi® pode afetar a sua capacidade de dirigir ou operar máquinas. Evite dirigir ou operar máquinas se tiver algum problema com a sua visão ou se tiver qualquer outro efeito colateral que possa afetar a sua capacidade de fazê-lo (veja 8. Quais os males que este medicamento pode me causar?) enquanto estiver tomando o Braftovi®.
+
+Converse com o seu médico se você não estiver seguro de que possa dirigir.
+
+Sensibilidade à luz solar Apesar do risco de fototoxicidade ser mínimo com encorafenibe é recomendado usar roupas adequadas para se proteger do sol e sempre aplicar filtro solar antes de sair ao ar livre.
+
+Atenção: Contém os corantes dióxido de titânio, óxido de ferro vermelho, óxido de ferro amarelo e óxido de ferro preto.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Não use este medicamento após o prazo de validade impresso na embalagem e no blister. A data de validade se refere ao último dia desse mês.
+
+Braftovi® deve ser armazenado em temperatura ambiente (de 15 °C a 30 °C). Proteger da umidade.
+
+Não jogue nenhum medicamento na rede de esgoto ou no lixo doméstico. Pergunte ao seu farmacêutico como descartar os medicamentos que já não utiliza. Essas medidas ajudarão a proteger o meio ambiente.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+Características físicas e organolépticas A cápsula dura (cápsula) tem uma tampa bege opaca e corpo branco opaco, com um "A" estilizado impresso na tampa e "LGX 75 mg" impresso no corpo.
+
+O Braftovi® 75 mg está disponível em embalagens de 42 cápsulas (7 blisters de 6 cápsulas cada).
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+Todo medicamento deve ser mantido fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+O quanto tomar Sempre tome este medicamento de acordo com as orientações do seu médico ou farmacêutico. Se tiver dúvidas, fale com o seu médico ou farmacêutico.
+
+Para o tratamento do Melanoma ou do câncer de pulmão de não pequenas células A dose recomendada de Braftovi® é de 6 cápsulas de 75 mg uma vez ao dia (correspondendo a uma dose diária de 450 mg). Você também receberá tratamento com um outro medicamento, o Mektovi®.
+
+Para tratamento de câncer de intestino grosso A dose recomendada de Braftovi® para tratar o câncer do intestino grosso é de 4 cápsulas de 75 mg uma vez ao dia (correspondendo a uma dose diária de 300 mg). Você também receberá tratamento com outros medicamentos cetuximabe e mFOLFOX6 (fluorouracil, leucovorina e oxaliplatina) ou outro medicamento cetuximabe.
+
+Ajuste de dose O seu médico poderá ajustar a dose para:
+
+- Melanoma e câncer de pulmão de não pequenas células: 3 cápsulas de 75 mg se a dose for de 225 mg e 4 cápsulas de 75 mg se a dose for de 300 mg.
+
+- Câncer de intestino grosso: 3 cápsulas de 75 mg se a dose for de 225 mg e 2 cápsulas de 75 mg se a dose for de 150 mg.
+
+Sempre converse com o seu médico sobre a dose e quantidade de cápsulas a serem tomadas diariamente por você.
+
+Se você tiver problemas no fígado ou nos rins, seu médico pode começar com uma dose menor.
+
+Se você tiver efeitos colaterais graves (como problemas de coração, olhos ou sangramentos), o seu médico poderá diminuir a dose ou interromper o tratamento temporária ou permanentemente.
+
+Como tomar o Braftovi® Engula as cápsulas inteiras com água. O Braftovi® pode ser tomado com a comida ou entre as refeições.
+
+Este medicamento não deve ser partido, aberto ou mastigado.
+
+Se você está enjoado Se você vomitar a qualquer momento após tomar o Braftovi®, não tome uma dose adicional. Tome a dose seguinte conforme programado.
+
+Se você parar de tomar o Braftovi® É importante tomar o Braftovi® pelo tempo que o seu médico prescreveu. Não pare de tomar este medicamento a menos que o seu médico lhe diga para fazer isso.
+
+Se você ainda tiver dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou enfermeiro.
+
+Siga a orientação de seu médico, respeitando sempre os horários, as doses e a duração do tratamento. Não interrompa o tratamento sem o conhecimento do seu médico.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Se você perder uma dose de Braftovi®, tome-a assim que se lembrar. Porém, se a dose tiver sido esquecida por mais de 12 horas, pule essa dose e tome a seguinte no horário habitual. Depois, continue tomando as cápsulas nos horários regulares, como de costume.
+
+Não tome uma dose dobrada para compensar uma dose esquecida.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico, ou cirurgião-dentista.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Como todos os medicamentos, o Braftovi® pode causar reações adversas (efeitos colaterais), embora nem todas as pessoas os apresentem.
+
+Fale imediatamente com o seu médico se você tiver qualquer uma das reações adversas graves descritas a seguir, seja pela primeira vez ou caso piorem:
+
+Reações adversas graves O Braftovi® pode causar reações adversas graves (ver também 3. Quando não devo usar este medicamento? e
+
+4. O que devo saber antes de usar este medicamento?):
+
+Problemas cardíacos: o Braftovi®, quando tomado com o Mektovi®, pode afetar o funcionamento do seu coração (diminuição da fração de ejeção do ventrículo esquerdo); os sinais e sintomas podem incluir:
+
+- sentir-se tonto, cansado ou com vertigem
+
+- falta de ar
+
+- sentir seu coração bater mais forte, rápido ou irregularmente
+
+- inchaço nas pernas Problemas oculares: o Braftovi®, quando tomado com o Mektovi®, pode causar problemas oculares graves, tais como o extravasamento de líquidos subjacente à retina no olho, levando ao descolamento de diferentes camadas do olho (descolamento do epitélio pigmentar da retina). Entre em contato com o seu médico se você tiver estes sintomas de problemas oculares:
+
+- visão turva, perda de visão ou outra alteração na visão (como pontos coloridos na sua visão)
+
+- halo (ver o contorno borrado em torno dos objetos)
+
+- dor nos olhos, inchaço ou vermelhidão Problemas de sangramento: o Braftovi® pode causar sérios problemas de sangramento. Informe o seu médico imediatamente se tiver algum sintoma anormal de sangramento, incluindo:
+
+- dores de cabeça, tontura ou fraqueza
+
+- tosse com sangue ou coágulo sanguíneo
+
+- vômito contendo sangue ou que se parecem com "borra de café"
+
+- fezes vermelhas ou pretas que parecem alcatrão
+
+- presença de sangue na urina
+
+- dor de estômago (abdominal)
+
+- sangramento vaginal incomum Problemas musculares: o Braftovi®, quando tomado com o Mektovi®, pode causar uma lesão dos músculos (rabdomiólise), que pode levar a danos nos rins e pode ser fatal; os sinais e sintomas podem incluir:
+
+- dor muscular, rigidez ou espasmo
+
+- urina escura Outros cânceres de pele: o tratamento com Braftovi® pode causar um tipo diferente de câncer de pele, como o carcinoma cutâneo de células escamosas. Geralmente, essas alterações na pele (ver também 4. O que devo saber antes de usar este medicamento) estão confinadas a uma pequena área e podem ser removidas com cirurgia, e o tratamento com Braftovi® (e Mektovi®) pode ser mantido sem interrupção. Algumas pessoas que tomam Braftovi® também podem notar o aparecimento de novos melanomas. Esses melanomas, geralmente, são removidos por cirurgia e o tratamento com Braftovi® (e Mektovi®) pode ser mantido sem interrupção.
+
+Outras reações adversas Apesar das reações adversas graves mencionadas acima, as pessoas que tomam o Braftovi® também podem apresentar outras reações adversas.
+
+Reações adversas quando o Braftovi® e o Mektovi® são tomados juntos Reação muito comum (pode afetar mais de uma a cada 10 pessoas).
+
+- contagem de células vermelhas sanguíneas reduzida (anemia)
+
+- problemas com os nervos resultando em dor, perda de sensibilidade ou formigamento nas mãos e pés
+
+- dor de cabeça
+
+- tontura
+
+- sangramento em vários locais do corpo
+
+- pressão sanguínea alta
+
+- problemas com a sua visão (deficiência visual)
+
+- dor de estômago
+
+- diarreia
+
+- vômito
+
+- sentir-se enjoado (náusea)
+
+- constipação
+
+- coceira
+
+- pele seca
+
+- queda ou diminuição de cabelo (alopecia)
+
+- erupção cutânea de vários tipos
+
+- espessamento das camadas externas da pele
+
+- dor nas articulações (artralgia)
+
+- dor muscular, fraqueza ou espasmo
+
+- dor nas costas
+
+- dor nas extremidades
+
+- febre
+
+- inchaço nas mãos ou pés (edema periférico), inchaço localizado
+
+- fadiga
+
+- resultados anormais nos testes sanguíneos para a função hepática
+
+- resultados anormais nos testes sanguíneos relacionados à creatinofosfoquinase do sangue, indicando danos ao coração e ao músculo.
+
+Reação comum (pode afetar até uma a cada 10 pessoas)
+
+- alguns tipos de tumores de pele, como o papiloma cutâneo e o carcinoma basocelular
+
+- reações alérgicas que podem incluir inchaço da face e dificuldade para respirar
+
+- alterações no sabor das coisas
+
+- inflamação do olho (uveíte)
+
+- coágulos de sangue
+
+- inflamação do cólon (colite)
+
+- vermelhidão, rachaduras ou fissuras na pele
+
+- inflamação da camada gordurosa sob a pele, os sintomas incluem nódulos da pele sensíveis
+
+- erupção da pele com uma área lisa descolorida ou inchaços elevados como acne (dermatite acneiforme)
+
+- vermelhidão, descamação da pele ou bolhas nas mãos e nos pés (eritrodisestesia palmo- plantar ou síndrome mão-pé)
+
+- falência renal
+
+- resultados anormais no teste renal (elevação da creatinina)
+
+- resultados anormais no teste sanguíneo para a função do fígado (fosfatase alcalina do sangue)
+
+- resultados anormais no teste sanguíneo para a função do pâncreas (amilase, lipase)
+
+- aumento da sensibilidade da pele à luz solar Reação incomum (pode afetar até uma a cada 100 pessoas)
+
+- fraqueza e paralisia dos músculos da face
+
+- inflamação do pâncreas (pancreatite) causando dor abdominal intensa Reação de frequência desconhecida (não pode ser estimada a partir dos dados disponíveis): Síndrome da lise tumoral (sintomas provocados pela destruição maciça das células do câncer).
+
+Reações adversas observadas no estudo clínico da indicação para câncer de pulmão de não pequenas células Reação muito comum (pode afetar mais de uma a cada 10 pessoas).
+
+- anemia
+
+- tontura
+
+- dor de cabeça
+
+- neuropatia periférica
+
+- deficiência visual
+
+- disfunção ventricular esquerda
+
+- hemorragia
+
+- diarreia
+
+- vômito
+
+- dor abdominal
+
+- náusea
+
+- constipação
+
+- erupção cutânea
+
+- alopecia
+
+- prurido
+
+- pele seca
+
+- artralgia
+
+- miopatia
+
+- dor nas costas
+
+- dor nas extremidades
+
+- pirexia
+
+- fadiga
+
+- edema periférico
+
+- transaminases aumentadas
+
+- aumento da creatina fosfoquinase no sangue
+
+- lipase aumentada
+
+- fosfatase alcalina no sangue aumentada Reação comum (pode afetar até uma a cada 10 pessoas)
+
+- carcinoma de células escamosas da pele
+
+- papiloma cutâneo
+
+- hipersensibilidade a medicamentos
+
+- paresia facial
+
+- disgeusia
+
+- descolamento do epitélio pigmentar da retina (ou retinopatia serosa)
+
+- uveíte
+
+- hipertensão
+
+- tromboembolismo venoso
+
+- pancreatite
+
+- colite
+
+- hiperqueratose
+
+- síndrome de eritrodisestesia palmar-plantar
+
+- dermatite acneiforme
+
+- eritema
+
+- amilase aumentada Quando o Braftovi® foi usado sozinho nos ensaios clínicos Se você continuar a usar o Braftovi® sozinho enquanto o outro medicamento (Mektovi®) é temporariamente interrompido, com base na decisão do seu médico, você pode apresentar algumas das reações adversas já citadas, porém a frequência pode mudar (aumentar ou diminuir).
+
+Reação muito comum (pode afetar mais de uma a cada 10 pessoas)
+
+- fadiga
+
+- sentir-se enjoado (náusea)
+
+- vômito
+
+- constipação
+
+- erupção da pele de vários tipos
+
+- vermelhidão, descamação da pele ou bolhas nas mãos e nos pés (eritrodisestesia palmo- plantar ou síndrome mão-pé)
+
+- espessamento das camadas externas da pele (hiperqueratose)
+
+- pele seca
+
+- coceira
+
+- queda ou diminuição de cabelo (alopecia)
+
+- vermelhidão, rachaduras ou fissuras na pele
+
+- escurecimento da pele
+
+- perda de apetite
+
+- dificuldade para dormir (insônia)
+
+- dor de cabeça
+
+- problemas com os nervos resultando em dor, perda de sensibilidade ou formigamento nas mãos e pés
+
+- alteração no sabor das coisas
+
+- dor nas articulações (artralgia)
+
+- dor muscular, espasmo ou fraqueza
+
+- dor nas extremidades
+
+- dor nas costas
+
+- febre
+
+- alguns tipos de tumores benignos da pele, como nevo melanocítico e papiloma cutâneo
+
+- resultados anormais nos testes sanguíneos relacionados ao fígado Reação comum (pode afetar até uma a cada 10 pessoas)
+
+- reações alérgicas que podem incluir inchaço da face e dificuldade para respirar
+
+- fraqueza e paralisia dos músculos da face
+
+- batimento cardíaco acelerado
+
+- erupção da pele com uma área lisa descolorida ou inchaços elevados como acne (dermatite acneiforme)
+
+- descamação ou pele escamosa
+
+- inflamação das articulações (artrite)
+
+- falência renal
+
+- resultados anormais no teste renal (elevação da creatinina)
+
+- aumento da sensibilidade da pele à luz solar
+
+- resultado anormal no teste sanguíneo para a função do pâncreas (lipase)
+
+Reação incomum (pode afetar até uma a cada 100 pessoas)
+
+- tipos de câncer de pele, como o carcinoma basocelular
+
+- inflamação do olho (uveíte)
+
+- inflamação do pâncreas (pancreatite), causando dor abdominal intensa
+
+- resultado anormal no teste sanguíneo para a função do pâncreas (amilase) Reações adversas quando o Braftovi® e o cetuximabe são tomados juntos Reação muito comum (pode afetar mais de uma a cada 10 pessoas)
+
+- novas topeiras chamadas “nevo melanocítico”
+
+- perda do apetite
+
+- dificuldade para dormir (insônia)
+
+- problemas com os nervos resultando em dor, perda de sensibilidade ou formigamento nas mãos e pés
+
+- dor de cabeça
+
+- sangramento em várias partes do corpo
+
+- diarreia
+
+- dor de estômago
+
+- náusea
+
+- vômito
+
+- constipação
+
+- erupção da pele com uma área lisa descolorida ou inchaços elevados como acne (dermatite acneiforme)
+
+- vários tipos de erupção de pele
+
+- pele seca
+
+- coceira
+
+- dor nas articulações (artralgia) e dor muscular e/ou nos ossos (dor musculoesquelética)
+
+- dor muscular, fraqueza ou espasmo
+
+- dor nas extremidades
+
+- dor nas costas
+
+- fadiga
+
+- febre Reação comum (pode afetar até uma a cada 10 pessoas)
+
+- alguns tipos de tumores da pele, como papiloma cutâneo
+
+- reações alérgicas que podem incluir inchaço da face e dificuldade para respirar
+
+- tontura
+
+- alteração no sabor das coisas
+
+- batimento cardíaco acelerado
+
+- escurecimento da pele
+
+- vermelhidão, descamação da pele ou bolhas nas mãos e nos pés (eritrodisestesia palmo- plantar ou síndrome mão-pé)
+
+- espessamento das camadas externas da pele (hiperceratose)
+
+- vermelhidão, rachaduras ou fissuras na pele
+
+- queda ou diminuição de cabelo (alopecia)
+
+- falência renal
+
+- resultados anormais no teste renal (elevação da creatinina)
+
+- resultado anormal no teste sanguíneo para a função do fígado Reação incomum (pode afetar até uma a cada 100 pessoas)
+
+- alguns tipos de câncer de pele, como o carcinoma basocelular
+
+- inflamação do pâncreas (pancreatite) causando grave dor abdominal
+
+- descamação de pele
+
+- resultado anormal no teste sanguíneo para a função do pâncreas (amilase, lipase) Reações adversas quando o Braftovi®, cetuximabe e mFOLFOX6 são tomados juntos Reação muito comum (pode afetar mais de uma a cada 10 pessoas)
+
+- neuropatia periférica
+
+- dor de cabeça
+
+- náusea
+
+- diarreia
+
+- vômito
+
+- dor abdominal
+
+- constipação
+
+- fadiga
+
+- febre
+
+- anemia
+
+- aumento da lipase
+
+- diminuição do apetite
+
+- artralgia
+
+- miopatia
+
+- erupção cutânea
+
+- alopecia
+
+- pele seca
+
+- dermatite acneiforme
+
+- hiperpigmentação cutânea
+
+- coceira
+
+- hemorragia
+
+- insônia
+
+- anormalidades nos exames laboratoriais: tempo de tromboplastina parcial ativado prolongado, anemia, RNI aumentada, diminuição da contagem de neutrófilos, diminuição da contagem de plaquetas, diminuição de leucócitos, aumento da alanina aminotransferase, aumento da fosfatase alcalina, aumento da aspartato aminotransferase, aumento da bilirrubina sérica, aumento da creatinina, hiperglicemia, hipercalemia, hipoalbuminemia, hipocalcemia, hipoglicemia, hipocalemia, hipomagnesemia, hiponatremia, aumento da lipase Atenção: este produto é um medicamento novo e, embora as pesquisas tenham indicado eficácia e segurança aceitáveis, mesmo que indicado e utilizado corretamente, podem ocorrer eventos adversos imprevisíveis ou desconhecidos. Nesse caso, informe seu médico ou cirurgião-dentista.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE
+
+MEDICAMENTO?
+
+Se você tomar mais cápsulas do que deveria, entre em contato com o seu médico, farmacêutico ou enfermeiro imediatamente. Os efeitos colaterais do Braftovi®, como náuseas, vômitos, desidratação e visão turva, podem aparecer ou piorar. Se possível, mostre ao seu médico, farmacêutico ou enfermeiro esta bula e a embalagem deste medicamento.
+
+Em caso de uso de grande quantidade deste medicamento, procure rapidamente socorro médico e leve a embalagem ou bula do medicamento se possível. Ligue para 0800-722-6001 se você precisar de mais orientações.
+</text>

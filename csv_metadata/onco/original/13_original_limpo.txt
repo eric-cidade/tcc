@@ -1,0 +1,213 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> vincristina Sol inj </id>
+
+    <doenca>leucemia aguda, doenca de Hodgkin, linfomas nao Hodgkin, rabdomiossarcoma, neuroblastoma, tumor de Wilms, sarcoma osteogenico, micose fungoide, sarcoma de Ewing, cancer de colo do utero, cancer de mama, melanoma maligno, cancer de pulmao de pequenas celulas</doenca>
+    <nome medicamento>vincristina</nome medicamento>
+    <nome_comercial>Fauldvincri</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>solucao injetavel</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Fauldvincri® pode ser utilizado como quimioterapia combinada no tratamento de: leucemia aguda (proliferação anormal de leucócitos), Doença de Hodgkin (tumor maligno que atinge os linfonodos), linfomas malignos não Hodgkin (tipos linfocíticos, de células mistas, histiocíticos, não diferenciados, nodulares e difusos), rabdomiossarcoma (tumor maligno formado de fibras musculares), neuroblastoma (tumor maligno formado por células precursoras dos neurônios), tumor de Wilms (tumor maligno presente nos rins), sarcoma osteogênico (tumor maligno com produção anormal de tecido ósseo), micose fungoide (tumores fungosos presentes na pele), sarcoma de Ewing (tumor maligno presente frequentemente em ossos), carcinoma de cervix uterino (câncer de colo do útero), câncer de mama, melanoma maligno (câncer de pele), carcinoma “oat cell” de pulmão (câncer de pulmão de pequenas células) e de tumores ginecológicos de infância (tumores localizados na genitália feminina).
+
+Pacientes com púrpura trombocitopênica idiopática verdadeira (manchas vermelhas ou violetas na pele de origem desconhecida), que não apresentem melhora com o tratamento convencional, podem ser beneficiados com o uso desse medicamento.
+
+Fauldvincri® também poderá ser utilizado em conjunto com outros medicamentos para o tratamento de algumas neoplasias (tumores) pediátricas, tais como: neuroblastoma (tumor maligno formado por células precursoras dos neurônios), sarcoma osteogênico (tumor maligno com produção anormal de tecido ósseo), sarcoma de Ewing (tumor maligno presente frequentemente em ossos), rabdomiossarcoma (tumor maligno formado de fibras musculares), tumor de Wilms (tumor maligno presente nos rins), doença de Hodgkin (tumor maligno que atinge os linfonodos), linfoma não Hodgkin, carcinoma embrionário de ovário (câncer de ovário) e rabdomiossarcoma de útero (tumor maligno formado de fibras musculares presente no útero).
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+Fauldvincri® é um medicamento usado para combater o câncer. Sua ação deve-se principalmente à inibição da multiplicação das células. O tratamento de neoplasias (tumores) envolve o uso em conjunto de diversos medicamentos.
+
+Assim, o sulfato de vincristina (Fauldvincri®) é frequentemente escolhido como parte do tratamento.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Você não deve usar Fauldvincri® se apresentar uma das situações abaixo:
+
+- Alergia ao sulfato de vincristina ou qualquer outro componente da fórmula;
+
+- Síndrome de Charcot-Marie-Tooth na forma desmielinizante (atrofia muscular hereditária, frequentemente no pé, com a destruição da mielina das fibras nervosas).
+
+Não há contraindicação relativa a faixas etárias.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+ADVERTÊNCIAS E PRECAUÇÕES Fauldvincri® deve ser administrado exclusivamente por via intravenosa, não deve ser administrado por via intramuscular, subcutânea ou intratecal (intrarraquiana, na cavidade vertebral). A administração intratecal de Fauldvincri® é fatal.
+
+Fauldvincri® deve ser administrado por profissional experiente e é extremamente importante que a agulha ou catéter esteja corretamente colocado na veia antes que qualquer quantidade de Fauldvincri® seja administrada.
+
+Seu médico terá cuidado de usar Fauldvincri® em você nas situações abaixo:
+
+- Após o uso de outros medicamentos para o câncer (antineoplásicos), pois existe o risco de ocorrer nefropatia úrica aguda;
+
+- Leucopenia (diminuição dos glóbulos brancos circulantes no sangue) ou infecção com complicações, neste caso deverá ser feito hemograma completo antes da administração da próxima dose;
+
+- Alterações neurológicas e uso de medicamentos neurotóxicos (como, por exemplo, dissulfiram), para evitar possíveis reações adversas;
+
+- Insuficiência hepática (problemas no fígado) e icterícia (coloração amarelada da pele) ou recebendo radiações no fígado;
+
+- Doença neuromuscular;
+
+- Problemas pulmonares.
+
+Este medicamento pode causar danos ao fígado. Por isso, seu uso requer acompanhamento médico estrito e exames laboratoriais periódicos para controle.
+
+Fauldvincri® parece não atravessar a barreira hematoencefálica (membrana que protege o cérebro) em concentrações adequadas para tratamento de câncer desta região.
+
+O contato acidental de Fauldvincri® com os olhos pode causar irritação grave e ulceração de córnea. Neste caso você deve lavar o olho atingido imediatamente e vigorosamente com água.
+
+Também pode ocorrer aumento do ácido úrico durante o tratamento com Fauldvincri®.
+
+Fauldvincri® pode causar danos fetais quando administrado em mulheres grávidas. Informe imediatamente ao seu médico se estiver grávida.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica. Informe imediatamente seu médico em caso de suspeita de gravidez.
+
+Uso durante a amamentação: Não é conhecido que Fauldvincri® seja excretado no leite humano. Devido a muitos medicamentos serem excretados no leite humano e ao potencial do Fauldvincri® em causar reações adversas graves em lactentes, deve-se decidir entre descontinuar a amamentação ou o tratamento, levando-se em consideração a importância do tratamento para a mãe.
+
+Uso criterioso no aleitamento ou na doação de leite humano: O uso deste medicamento no período da lactação depende da avaliação e acompanhamento do seu médico ou cirurgião-dentista.
+
+Populações especiais O médico deve avaliar riscos e benefícios para a utilização de Fauldvincri® em idosos.
+
+Você não deve dirigir veículos ou operar máquinas até que esteja razoavelmente certo de que o tratamento com o Fauldvincri® não o afeta desfavoravelmente, pois sua habilidade e capacidade de reação podem estar prejudicadas.
+
+INTERAÇÕES MEDICAMENTOSAS O uso de Fauldvincri® com os medicamentos abaixo deve ser realizado com muito cuidado, por esta razão informe ao seu médico se estiver tomando algum deles:
+
+- mitomicina C: Pois poderá ocorrer broncoespasmo e dificuldade de respirar aguda;
+
+- itraconazol: Pois poderá adiantar ou aumentar a gravidade dos efeitos adversos neuromusculares;
+
+- nifedipino, carbamazepina, isoniazida, digoxina, varfarina;
+
+- fenitoína: Poderá ocorrer redução dos níveis da fenitoína no seu sangue;
+
+- alopurinol, colchicina, probenecida, sulfimpirazona: Pois poderá ocorrer aumento da concentração sérica de ácido úrico;
+
+- asparaginase: Pode ocorrer neurotoxicidade;
+
+- bleomicina: O Fauldvincri® facilita a ação da bleomicina;
+
+- medicamentos que produzem discrasia sanguínea (causam alterações na coagulação do sangue), medicamentos depressores da medula óssea (causam diminuição do funcionamento da medula óssea) e radioterapia: O uso conjunto com Fauldvincri® pode aumentar a depressão na medula óssea;
+
+- medicamentos neurotóxicos (como, por exemplo, dissulfiram) e irradiação da medula: Pode ocasionar neurotoxicidade auditiva.
+
+Não é aconselhável o uso de Fauldvincri® em conjunto com doxorrubicina e prednisona, pois acarreta maior depressão da medula óssea.
+
+A administração de vacinas com vírus vivos pode causar infecção pelos micro-organismos presentes na vacina. Deve-se dar um intervalo de pelo menos 3 meses entre a interrupção do tratamento e a vacinação. Você só pode vacinar-se com a autorização do seu médico oncologista.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento de seu médico. Pode ser perigoso para sua saúde.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Armazenar em geladeira (de 2 ºC a 8 ºC). Proteger da luz.
+
+O medicamento não contém qualquer agente conservante, por isso, para evitar a possibilidade de contaminação microbiana, deve-se iniciar a administração da infusão logo após a sua preparação. Todos os resíduos devem ser descartados.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+Características do medicamento
+
+A solução injetável de Fauldvincri® apresenta-se como solução límpida, incolor a levemente amarelada, isenta de partículas visíveis.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+Todo medicamento deve ser mantido fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Fauldvincri® deve ser administrado em hospitais exclusivamente por via intravenosa em intervalos semanais. O esquema de dosagem e o plano de tratamento serão determinados pelo seu médico, de acordo com sua necessidade.
+
+As especificações da agulha para administração do medicamento devem ser estabelecidas de acordo com a avaliação do profissional de saúde, baseadas nas necessidades do paciente.
+
+A aplicação de Fauldvincri® deve ser realizada apenas por profissionais experientes no uso de medicamentos citostáticos.
+
+O cálculo da dose é feito de acordo com a doença e a necessidade de medicamentos associados.
+
+As doses usuais de Fauldvincri® são:
+
+Adultos: Dose de 0,4 a 1,4 mg/m2/semana ou 0,01 a 0,03 mg por kg de peso como dose única a cada sete dias. Para adultos com bilirrubina acima de 3 mg/mL as doses devem ser reduzidas em 50%. A dose máxima por dia de aplicação não deve exceder 2 mg.
+
+Crianças: Dose de 1,5 a 2 mg/m2/semana. Para crianças com 10 kg ou menos a dose é de 0,05 mg/kg/semana. Para crianças com bilirrubina acima de 3 mg/mL as doses devem ser reduzidas em 50%.
+
+Pacientes com insuficiência hepática: A dose inicial deve ser de 0,05 a 1 mg/m2. As doses seguintes serão ajustadas de acordo com a tolerância do paciente.
+
+Idosos: Apresentam maior probabilidade de efeitos neurotóxicos.
+
+Quando usado em conjunto com a L-asparginase, a dose de Fauldvincri® deverá ser administrada entre 12 e 24 horas antes da enzima L-asparginase.
+
+Fauldvincri® também pode ser diluído em água destilada ou soro fisiológico em concentrações de 0,01 a 1 mg/mL.
+
+Fauldvincri® não deve ser misturado no mesmo recipiente com qualquer outra medicação antes ou durante sua aplicação.
+
+Não se deve utilizar soluções que alterem o pH (3,5 a 5,5) para mais ou para menos.
+
+Siga a orientação de seu médico, respeitando sempre os horários, as doses e a duração do tratamento. Não interrompa o tratamento sem o conhecimento do seu médico.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico, ou cirurgião-dentista.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Fauldvincri® pode causar reações adversas reversíveis e dependentes da dose. O evento adverso mais frequente é a alopecia (queda de cabelo) e os mais desagradáveis são os distúrbios neuromusculares (relativo aos nervos e músculos).
+
+Quando são utilizadas doses únicas semanais, as reações adversas tipo leucopenia (diminuição do número de glóbulos brancos no sangue), dor neurítica (dor causada por inflamação de um nervo), obstipação (prisão de ventre) e dificuldade para caminhar são geralmente de curta duração (duram menos do que sete dias). Quando a dose é reduzida, estas reações diminuem de intensidade ou desaparecem. Elas parecem aumentar quando todo o medicamento é administrado em divididas doses.
+
+Outras reações como perda de cabelo, parestesia (formigamento), descoordenação motora, diminuição das sensações, diminuição dos reflexos tendinosos profundos (reflexos dos tendões) e cansaço muscular podem persistir durante todo o período de tratamento. A alteração generalizada do sistema motor e dos sentidos pode agravar-se progressivamente com a continuação do tratamento. Há relatos de paralisia das cordas vocais (paralisia do nervo laríngeo) após tratamento com vincristina em criança. Toxicidade ocular, com diplopia (visão dupla) e outros sintomas causados pela paralisia dos nervos cranianos também foram reportados em outros estudos. Ptose (posição baixa da pálpebra superior, com impossibilidade de levantá-la devido a paralisia dos nervos) e complicações da musculatura ocular também foram relatadas, com um caso de cegueira noturna. Dor maxilar, na faringe, nas glândulas parótidas, nos ossos, nas costas, nos membros inferiores (pernas) e superiores (braços) e mialgias (dores musculares) foram relatadas, podendo ser graves as dores dessas áreas. Foram relatadas convulsões, frequentemente com hipertensão (pressão alta), em poucos pacientes que receberam vincristina. Em crianças foram observadas convulsões, seguidas de coma. Foram relatadas também cegueira cortical transitória e atrofia óptica (problemas nos olhos) com cegueira. Há relatos de perda auditiva (surdez) em idosos.
+
+Na maioria dos casos as reações adversas desaparecem por volta da sexta semana após a suspensão do tratamento, porém, em alguns pacientes, as dificuldades neuromusculares podem persistir por períodos mais prolongados. O cabelo pode voltar a crescer durante a terapia de manutenção.
+
+Hipersensibilidade: Podem ocorrer casos raros de reações tipo alérgicas, como anafilaxia (reação alérgica grave), erupção cutânea e edema (erupções na pele e inchaço).
+
+Gastrointestinal: Pode ocorrer obstipação (prisão de ventre), cólicas abdominais, perda de peso, náuseas, vômitos, ulcerações orais (úlceras na região da boca), diarreia, íleo paralítico (paralização da porção terminal do intestino delgado), necrose e/ou perfuração intestinal e anorexia (diminuição ou perda do apetite).
+
+Renais: Foram relatados poliúria (aumento do volume urinário), disúria (dificuldade de urinar) e retenção urinária devido à atonia (relaxamento) da bexiga. Outros medicamentos que também causam retenção urinária (particularmente em idosos) devem, se possível, ser temporariamente suspensos durante os primeiros dias após a administração de Fauldvincri®.
+
+Alterações hepáticas: Pode ocorrer hepatotoxicidade (toxicidade do fígado) e aparecimento de doença veno-oclusiva (obstrução das veias) do fígado.
+
+Hematológicas (alterações no sangue): Fauldvincri® parece não exercer qualquer efeito constante ou significativo sobre as plaquetas ou hemácias. Foram relatadas anemia, leucopenia (diminuição do número de glóbulos brancos no sangue), e trombocitopenia (diminuição do número de plaquetas). A trombocitopenia pode melhorar antes do aparecimento da remissão da medula.
+
+Cardiovasculares (alterações em coração e vasos sanguíneos): Hipertensão (pressão alta) e hipotensão (pressão baixa) foram relatados. Pacientes tratados com radioterapia do mediastino (espaço entre os dois pulmões) e vincristina, apresentaram doenças coronárias (artérias que irrigam o coração) e infarto do miocárdio (necrose de uma parte do coração).
+
+A relação entre estes efeitos adversos e o uso de vincristina não foi estabelecida. Também pode ocorrer o aparecimento de angina pectoris (dor no peito).
+
+Endócrinas (alterações nas glândulas e hormônios): Existem relatos raros de secreção inadequada de hormônio antidiurético. Essa síndrome é caracterizada por uma alta eliminação de sódio na urina, na presença de hiponatremia (diminuição de sódio no sangue), e na ausência de doença renal ou adrenal (doença dos rins e glândula adrenal), hipotensão (pressão baixa), desidratação, azotemia (excesso de ureia no sangue) e edema clínico (inchaço). Com a diminuição da ingestão de líquidos ocorre melhora na hiponatremia e na perda renal de sódio.
+
+Alterações respiratórias: Síndrome do desconforto respiratório (falta de ar e broncoespasmo). Ocasionalmente este efeito tóxico respiratório pode ser fatal.
+
+Alterações do sistema reprodutor masculino: Pode ocorrer azoospermia (diminuição do número de espermatozoides).
+
+Existem dados sobre a possibilidade do aparecimento de leucemia após tratamento com vincristina.
+
+Informe ao seu médico, cirurgião-dentista ou farmacêutico o aparecimento de reações indesejáveis pelo uso do medicamento. Informe também à empresa através do seu serviço de atendimento.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE
+
+MEDICAMENTO?
+
+A superdose de Fauldvincri® pode causar um agravamento, às vezes fatal, das reações mencionadas anteriormente, uma vez que estas reações tóxicas são relacionadas com a dose de Fauldvincri®.
+
+Os sintomas relacionados ao sistema nervoso central incluem delírio progressivo a inconsciência, convulsões e morte.
+
+Dentro de 24 horas da superdose pode ocorrer náusea, vômito e febre. Outros efeitos incluem supressão grave da medula óssea (diminuição do funcionamento da medula óssea), hiponatremia (diminuição de sódio no sangue), hipocalemia (diminuição de potássio no sangue) e síndrome de secreção inadequada de hormônio antidiurético.
+
+Neuropatias (problemas no sistema nervoso central ou periférico), perda profunda dos reflexos dos tendões, delírios (confusão mental), alucinações, coma, convulsões e morte podem ocorrer durante a primeira semana após a intoxicação.
+
+Os serviços especializados de oncologia sabem como proceder em casos de reações adversas.
+</text>

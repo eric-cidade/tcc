@@ -1,0 +1,241 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> temozolomida Cap </id>
+
+    <doenca>glioblastoma multiforme, glioma maligno, astrocitoma anaplasico, melanoma maligno metastatico</doenca>
+    <nome medicamento>temozolomida</nome medicamento>
+    <nome_comercial>NA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>capsula</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+A temozolomida é indicada para o tratamento de pacientes com:
+
+− Um tipo de tumor cerebral chamado glioblastoma multiforme, recém-diagnosticado, em tratamento combinado com radioterapia, seguido de tratamento com temozolomida isoladamente (monoterapia).
+
+− Tumores cerebrais como glioma maligno, glioblastoma multiforme ou astrocitoma anaplásico, que apresentam recidiva ou progressão após tratamento padrão.
+
+A temozolomida também é indicada no tratamento de pacientes com melanoma maligno metastático.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+A temozolomida é um medicamento que age contra tumores e sua atividade se inicia logo após as primeiras doses administradas.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Este medicamento é contraindicado para uso por pacientes com histórico de hipersensibilidade a seus componentes, bem como para pacientes com histórico de hipersensibilidade à dacarbazina.
+
+Este medicamento é contraindicado para uso por mulheres grávidas e que estejam amamentando (veja “Gravidez e amamentação”).
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica.
+
+Informe imediatamente seu médico em caso de suspeita de gravidez.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Advertências e Precauções Precauções − Se você estiver tomando temozolomida no esquema de 42 dias, em combinação com radioterapia, o seu médico também deve ter receitado um medicamento para ajudar a prevenir a pneumonia por Pneumocystis carinii (PCP). Pode haver maior ocorrência de PCP quando o tratamento com temozolomida é administrado durante esquemas de tratamento prolongados. Entretanto, todos os pacientes tratados com temozolomida, particularmente aqueles em tratamento com corticosteroides, devem ser observados rigorosamente com relação ao aparecimento da PCP, independentemente do esquema de doses recomendado.
+
+− Você deve ser observado de perto se tiver anemia, baixa contagem de células brancas do sangue ou de plaquetas, problemas de coagulação antes do tratamento com temozolomida, ou ainda se apresentar qualquer um desses problemas durante o tratamento. Seu médico poderá precisar reduzir a dose do seu medicamento, ou mesmo interromper o tratamento, ou ainda, você poderá precisar de outro tratamento. Nesse caso seu médico decidirá qual será a melhor conduta a ser adotada. Em algumas situações, poderá ser necessário suspender o tratamento com temozolomida.
+
+Você será submetido a exames de sangue frequentes para verificar suas condições.
+
+Alguns pacientes tratados com temozolomida podem ter mielossupressão, incluindo pancitopenia prolongada, que pode resultar em anemia aplástica, a qual em alguns casos resulta em um desfecho
+
+fatal. É importante informar seu médico sobre qualquer medicamento que estiver tomando, uma vez que estes podem complicar a avaliação dessa doença.
+
+− Enjoos e vômitos são comumente associados ao tratamento com temozolomida. Se você estiver tomando temozolomida em combinação com radioterapia (pacientes recém-diagnosticados) seu médico receitará um medicamento para combater os vômitos antes da dose inicial de temozolomida. Na fase de tratamento com temozolomida isoladamente (pacientes recémdiagnosticados), seu médico também poderá receitar um medicamento para ajudar a combater os vômitos.
+
+Se você estiver tomando apenas temozolomida (paciente com recidiva ou glioma maligno progressivo) e tiver apresentado vômitos graves, seu médico também poderá receitar um medicamento para controlar os vômitos. Se você vomitar frequentemente, antes ou durante o tratamento, pergunte ao seu médico como controlar os vômitos e qual é o melhor momento para tomar temozolomida, até que os vômitos sejam controlados. Se você vomitar depois de ter tomado a sua dose do dia, não tome uma segunda dose no mesmo dia.
+
+− Se você apresentar febre ou sintomas de alguma infecção, contate o seu médico imediatamente.
+
+− Não abra as cápsulas. Se a cápsula for danificada, evite o contato do pó com sua pele, olhos ou nariz. Evite inalar o pó. Se seus olhos ou narinas forem atingidos acidentalmente pelo pó, lave a área com água.
+
+− Não há experiência com o uso de temozolomida em crianças com menos de 3 anos de idade.
+
+− Pacientes idosos: Se você tem mais de 70 anos, você poderá apresentar risco de alterações na contagem das células do sangue que podem causar sensibilidade aumentada para infecções ou manchas roxas na pele e sangramentos.
+
+− Problemas hepáticos ou renais: Se você tem problemas no fígado ou nos rins, sua dose de temozolomida poderá necessitar de um ajuste. Seu médico precisará verificar o funcionamento do seu fígado e/ou rins para ter certeza de que você pode tolerar o tratamento com temozolomida.
+
+Gravidez e amamentação:
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica.
+
+Informe imediatamente seu médico em caso de suspeita de gravidez.
+
+Uso contraindicado no aleitamento ou na doação de leite humano. Este medicamento é contraindicado durante o aleitamento ou doação de leite, pois é excretado no leite humano e pode causar reações indesejáveis no bebê. Seu médico ou cirurgião-dentista deve apresentar alternativas para o seu tratamento ou para a alimentação do bebê.
+
+Não tome temozolomida se estiver grávida ou amamentando. Pacientes (homens e mulheres) tomando temozolomida devem usar métodos contraceptivos eficientes. Pacientes do sexo feminino que podem engravidar devem usar métodos contraceptivos eficientes durante o tratamento com temozolomida e por pelo menos 6 meses após a dose final. Para os homens, recomenda-se não tentar ter filhos durante período de até 3 meses depois de suspender o tratamento. Pacientes homens não devem doar sêmen durante o tratamento com temozolomida e por pelo menos 3 meses até a dose final. Por causa da possibilidade de se tornar estéril depois do tratamento com temozolomida, recomenda-se que os
+
+homens que desejarem ter filho procurem uma clínica especializada em armazenamento e conservação de esperma antes de iniciar o tratamento com temozolomida.
+
+Dirigir veículos e operar máquinas: Quando tomar temozolomida, você poderá sentir cansaço e sonolência. Neste caso, não dirija nem opere máquinas.
+
+Informações importantes sobre alguns componentes de temozolomida: Cada cápsula contém uma pequena quantidade de lactose. Assim, se você foi informado por seu médico que é intolerante à lactose, contate-o antes de tomar este medicamento.
+
+Atenção: Contém lactose (tipo de açúcar) abaixo de 0,25 g/cápsula dura. Este medicamento não deve ser usado por pessoas com síndrome de má-absorção de glicose-galactose.
+
+Interações medicamentosas, inclusive com alimentos e testes laboratoriais: a temozolomida deve ser administrada em jejum; porém, pode ser utilizado independentemente das refeições. A utilização uma hora antes da refeição pode ajudar a reduzir enjoos.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para a sua saúde.
+
+Este medicamento pode causar danos ao fígado. Por isso, seu uso requer acompanhamento médico estrito e exames laboratoriais periódicos para controle.
+
+Temozolomida 5 mg: Atenção: Contém os corantes dióxido de titânio, óxido de ferro amarelo e azul brilhante laca de alumínio.
+
+Temozolomida 20 mg: Atenção: Contém os corantes dióxido de titânio e óxido de ferro amarelo.
+
+Temozolomida 100 mg: Atenção: Contém os corantes óxido de ferro vermelho, óxido de ferro amarelo e dióxido de titânio.
+
+Temozolomida 140 mg: Atenção: Contém os corantes dióxido de titânio e azul brilhante laca de alumínio.
+
+Temozolomida 250 mg: Atenção: Contém os corantes dióxido de titânio e óxido de ferro preto.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Armazenar em temperatura ambiente (de 15 °C a 30 °C). Proteger da luz e da umidade.
+
+Após aberto, válido por 5 dias.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+Características físicas e organolépticas:
+
+Temozolomida 5 mg: cápsulas gelatinosas duras, de tamanho “4”, com corpo e tampa de cor branco opaco, com impressões em tinta verde. A tampa possui a impressão “890” e o corpo a impressão “5 mg” e duas listras. A cápsula é preenchida com pó branco à castanho claro/ rosa claro.
+
+Temozolomida 20 mg: cápsulas gelatinosas duras, de tamanho “4”, com corpo e tampa de cor branco opaco, com impressões em tinta amarela. A tampa possui a impressão “891” e o corpo a impressão “20 mg” e duas listras. A cápsula é preenchida com pó branco à castanho claro/ rosa claro.
+
+Temozolomida 100 mg: cápsulas gelatinosas duras, de tamanho “3”, com corpo e tampa de cor branco opaco, com impressões em tinta rosa. A tampa possui a impressão “892” e o corpo a impressão “100 mg” e duas listras. A cápsula é preenchida com pó branco à castanho claro/ rosa claro.
+
+Temozolomida 140 mg: cápsulas gelatinosas duras, de tamanho “2”, com corpo e tampa de cor branco opaco, com impressões em tinta azul. A tampa possui a impressão “929” e o corpo a impressão “140 mg” e duas listras. A cápsula é preenchida com pó branco à castanho claro/ rosa claro.
+
+Temozolomida 250 mg: cápsulas gelatinosas duras, de tamanho “0”, com corpo e tampa de cor branco opaco, com impressões em tinta preta. A tampa possui a impressão “893” e o corpo a impressão “250 mg” e duas listras. A cápsula é preenchida com pó branco à castanho claro/ rosa claro.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+Todo medicamento deve ser mantido fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Modo de usar:
+
+Tome as cápsulas inteiras com um copo de água, sem abrir, nem mastigar, com o estômago vazio, de preferência uma hora antes do café da manhã.
+
+A temozolomida deve ser tomada uma vez ao dia.
+
+Dose:
+
+Se você precisar tomar temozolomida em combinação com radioterapia (pacientes recémdiagnosticados), o tratamento ocorrerá em duas fases: a fase concomitante e, em seguida, a fase de temozolomida isoladamente.
+
+Fase concomitante: é quando a temozolomida é tomada durante o período de radioterapia.
+
+Seu médico iniciará o tratamento com a dose de 75 mg/m2 e a dose diária vai depender de seu peso e altura. Você deverá receber essa dose durante 42 dias (até 49 dias) em combinação com a radioterapia.
+
+Com base nos resultados do seu exame de sangue e/ou de como você está tolerando o medicamento durante a fase concomitante, a dose de temozolomida poderá ser retardada ou descontinuada.
+
+Uma vez completada a radioterapia, você interromperá o tratamento por 4 semanas para que seu organismo possa se recuperar. Então, passará a iniciar a fase de tratamento com temozolomida isoladamente (fase de monoterapia).
+
+Fase de monoterapia:
+
+A dose e o modo de tomar temozolomida nesta fase serão diferentes daqueles que você usou na fase concomitante. Poderá haver até 6 ciclos de tratamento, e cada um deles terá a duração de 28 dias. A
+
+nova dose de temozolomida Cápsulas inicialmente será de 150 mg/m2, uma vez ao dia, pelos primeiros cinco dias (“dias de dose”) de cada ciclo, seguidos por 23 dias sem temozolomida; isto corresponde a um ciclo de tratamento de até 28 dias. Após o 28º dia, começará o próximo ciclo, no qual você tomará novamente o medicamento uma vez ao dia, durante cinco dias, seguido por um intervalo de 23 dias sem temozolomida. Antes de cada novo ciclo de tratamento, você será submetido a exame de sangue para verificar se a dose de temozolomida precisa ser ajustada.
+
+Se você não recebeu quimioterapia anteriormente, tomará a sua primeira dose de temozolomida na quantidade de 200 mg/m2, uma vez ao dia, pelos primeiros cinco dias (“dias de dose”) seguidos por 23 dias sem temozolomida. Se você foi tratado anteriormente com quimioterapia, você receberá sua primeira dose de temozolomida na quantidade de 150 mg/m2 pelos primeiros cinco dias (“dias de dose”) seguidos por 23 dias sem temozolomida. A partir do 2° ciclo a dose poderá ser aumentada para 200 mg/m2.
+
+Dependendo dos resultados do seu exame de sangue, seu médico poderá ajustar a dose para o próximo ciclo. Cada vez que você começar um novo ciclo de tratamento, esteja certo que compreendeu exatamente quantas cápsulas de cada dosagem você precisa tomar em cada dia e durante quantos dias você deve tomar essa dose.
+
+Todos os pacientes A temozolomida existe em cápsulas de diferentes dosagens [mostradas no rótulo de cada embalagem em miligramas (mg)]. Cada dosagem apresenta cápsulas de cores diferentes.
+
+Dependendo da dose de temozolomida que seu médico receitar, você poderá precisar tomar vários tipos de cápsulas em cada “dia de dose” do ciclo de tratamento.
+
+− Assegure-se de que compreendeu exatamente quais e quantas cápsulas você precisa tomar de cada dosagem. Peça ao seu médico ou farmacêutico para escrever o número de cápsulas de cada dosagem (incluindo a cor da cápsula) que você precisa tomar em cada “dia de dose”.
+
+− Assegure-se de que você sabe exatamente quais são os “dias de dose” do seu tratamento.
+
+− Faça a verificação da dose com seu cuidador ou com uma pessoa próxima, cada vez que iniciar um novo ciclo. Algumas vezes, a dose ou o conjunto de cápsulas que você precisa tomar é diferente daquele do último ciclo.
+
+− Considerando que você toma o medicamento em casa, se estiver confuso ou inseguro sobre como tomar a sua dose, peça nova orientação do seu médico ou farmacêutico antes de iniciar o ciclo de tratamento. Erros na administração deste medicamento podem ter graves consequências para a sua saúde.
+
+Siga a orientação de seu médico, respeitando sempre os horários, as doses e a duração do tratamento. Não interrompa o tratamento sem o conhecimento do seu médico.
+
+Este medicamento não deve ser partido, aberto ou mastigado.
+
+Esta bula é atualizada com frequência. Entretanto, a bula disponível através do QR Code corresponde à versão mais atual.
+
+7. O  QUE  DEVO  FAZER  QUANDO   EU  ME  ESQUECER   DE  USAR  ESTE
+
+MEDICAMENTO?
+
+Se você se esquecer de tomar as cápsulas no horário recomendado, tome-as assim que se lembrar. Se passou um dia inteiro, converse com o seu médico para receber orientação. Não tome a dose em dobro no mesmo dia, a menos que seu médico tenha recomendado essa conduta.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico, ou cirurgiãodentista.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Assim como outros medicamentos, temozolomida pode causar efeitos indesejáveis, embora nem todas as pessoas os apresentem. Pacientes tratados com temozolomida em combinação com radioterapia podem apresentar reações adversas diferentes daquelas apresentadas por pacientes que tomam temozolomida isoladamente.
+
+Contate o seu médico imediatamente se apresentar reação alérgica intensa [urticária, chiado no peito (asma) ou outras dificuldades respiratórias], sangramento incontrolável, convulsões, febre ou dor de cabeça intensa e persistente.
+
+O tratamento com temozolomida pode causar redução na contagem de determinados tipos de células sanguíneas. Isto pode ocasionar manchas roxas na pele ou hemorragias, anemia, febre e/ou baixa resistência a infecções. A diminuição na contagem de células sanguíneas geralmente é transitória, mas, em alguns casos, pode ser prolongada e pode levar a uma forma de anemia muito grave (anemia aplástica), que em alguns casos resultou em um desfecho fatal. Seu médico fará a monitoração de seu exame de sangue regularmente e, ao constatar qualquer alteração, decidirá se é necessário algum tratamento específico. Em alguns casos, a dose de temozolomida poderá ser diminuída ou suspensa.
+
+A frequência das reações adversas é definida da seguinte maneira: Muito comuns (mais de 1 em cada 10 pacientes); Comuns (menos de 1 em cada 10 pacientes, mas mais de 1 em cada 100 pacientes);
+
+Incomuns (menos de 1 em cada 100 pacientes, mas mais de 1 em cada 1.000 pacientes; Raras (menos de 1 em cada 1.000 pacientes, mas mais do que 1 em cada 10.000 pacientes; Muito raras (menos de 1 em cada 10.000 pacientes).
+
+As seguintes reações adversas podem ocorrer se você estiver tomando temozolomida em combinação com radioterapia (pacientes recém-diagnosticados) e podem requerer atenção médica:
+
+Muito comuns: perda de apetite, dor de cabeça, constipação, enjoos, vômitos, vermelhidão na pele, queda de cabelos, cansaço.
+
+Comuns: infecções na boca, infecções em ferimentos, alterações na contagem das células sanguíneas [diminuição das células brancas do sangue (leucócitos), ou de determinados tipos de células brancas do sangue (neutrófilos, linfócitos), diminuição de plaquetas (trombocitopenia)], aumento de açúcar no sangue, perda de peso, alteração do estado mental ou de alerta, ansiedade/depressão, sonolência, dificuldade de fala, alteração do equilíbrio, tontura, confusão, esquecimento, dificuldade de concentração, dificuldade para acordar ou permanecer acordado, sensação de formigamento, manchas roxas na pele, tremores, visão borrada ou anormal, visão dupla, audição alterada, respiração curta, tosse, coágulos de sangue nas pernas, retenção de líquidos, pernas inchadas, diarreia, dores
+
+abdominais ou de estômago, queimação, mal-estar gástrico, dificuldade para engolir, boca seca, irritação ou pele avermelhada, pele seca, coceira, fraqueza muscular, dores nas articulações, dores musculares, aumento da frequência urinária, dificuldade para segurar a urina, reação alérgica, febre, danos da radiação, inchaço no rosto, alteração do paladar, resultados anormais nos exames de função hepática.
+
+Incomuns: sintomas gripais, manchas vermelhas sob a pele, aparência de rosto inchado, aparecimento de fraqueza muscular, níveis baixos de potássio no sangue, ganho de peso, mudanças de humor, alucinações e alterações da memória, paralisia parcial, alteração da coordenação motora, dificuldade para engolir, sentidos alterados, perda parcial da visão, olhos secos ou doloridos, surdez, infecções do ouvido, zumbidos no ouvido, dor de ouvido, palpitações, coágulos de sangue nos pulmões, pressão arterial elevada, pneumonia, sinusite, bronquite, resfriado ou gripe, distensão do estômago, dificuldade para controlar os movimentos intestinais, hemorroidas, descamação da pele, aumento da sensibilidade da pele ao sol, alterações na coloração da pele, sudorese, danos musculares, dores nas costas, dificuldade para urinar, sangramento vaginal, impotência sexual, menstruações ausentes ou muito intensas, irritação vaginal, dores no peito, ondas de calor, calafrios, alterações na coloração da língua, alteração do olfato, sede, distúrbios nos dentes.
+
+As seguintes reações adversas podem ocorrer se você estiver tomando apenas temozolomida (pacientes tratados para tumor cerebral recorrente ou em progressão) e requerem atenção médica:
+
+Muito comuns: alterações na contagem das células sanguíneas [diminuição das células brancas do sangue (leucócitos), ou de determinados tipos de células brancas do sangue (neutrófilos, linfócitos), diminuição de plaquetas (trombocitopenia)], perda de apetite, dor de cabeça, vômitos, enjoos, constipação.
+
+Comuns: perda de peso, cansaço, tontura, sensação de formigamento, respiração curta, diarreia, dor abdominal, mal estar gástrico, pele avermelhada, coceira, perda de cabelos, fraqueza, calafrios, sensação de mal estar, dor, alteração do paladar.
+
+Incomuns: alterações na contagem das células sanguíneas [diminuição de todos os tipos de células (pancitopenia), diminuição de células vermelhas do sangue (anemia), diminuição de células brancas do sangue (leucopenia)].
+
+Raras: tosse, infecções incluindo microrganismos causadores de pneumonia.
+
+Muito raras: pele avermelhada, urticária, manchas na pele, reações alérgicas.
+
+Foram relatados casos muito raros de vermelhidão na pele com pele inchada, incluindo a palma das mãos e a planta dos pés, ou pele avermelhada e dolorida e/ou bolhas no corpo ou na boca.
+
+Contate o seu médico se isto ocorrer com você.
+
+Muito raramente, pacientes tomando temozolomida e outros medicamentos do mesmo tipo podem apresentar um pequeno risco de outras alterações nas células do sangue, incluindo leucemia.
+
+Se alguma das reações mencionadas acima se tornar mais intensa ou se você notar qualquer efeito indesejável não citado nesta bula, contate o seu médico.
+
+Houve casos de efeitos adversos hepáticos, incluindo elevação de enzimas hepáticas, aumento de bilirrubina, problemas com fluxo de bile (colestase) e hepatite.
+
+Informe ao seu médico, cirurgião-dentista ou farmacêutico o aparecimento de reações indesejáveis pelo uso do medicamento. Informe também à empresa através do seu serviço de atendimento.
+
+9. O QUE FAZER  SE ALGUÉM  USAR  UMA  QUANTIDADE  MAIOR  DO QUE  A
+
+INDICADA DESTE MEDICAMENTO?
+
+Em caso de ingestão acidental ou intencional de grande quantidade de cápsulas de temozolomida de uma só vez, ou de ingestão do medicamento por tempo prolongado, acima do que foi recomendado pelo médico, podem ocorrer os efeitos indesejáveis descritos no item “8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME  CAUSAR?” com maior intensidade e de modo mais grave (especialmente as alterações da contagem das células do sangue), e as consequências também podem ser graves e até mesmo fatais. Nestes casos um médico deve ser consultado imediatamente.
+</text>

@@ -1,0 +1,141 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> psyllium Po </id>
+
+    <doenca>constipacao intestinal, auxiliar na reducao de colesterol e glicemia pos-prandial</doenca>
+    <nome medicamento>psyllium</nome medicamento>
+    <nome_comercial>Metamucil</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>po granulado</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Este medicamento é indicado para constipação intestinal, como regulador intestinal no caso de intestino solto e na normalização do bolo fecal. Pode ser utilizado para auxiliar na redução dos níveis séricos de colesterol e da glicemia pós-prandial (após a refeição) em conjunto a uma dieta hipocolesterolêmica (com baixa quantidade de colesterol). Também pode ser utilizado juntamente ao tratamento convencional da hiperlipemia (excesso de gordura no sangue) visando a diminuição de risco de doenças coronarianas.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+Metamucil® é composto por fibras vegetais que possuem grande capacidade de reter líquido, aumentando seu volume e diminuindo a consistência das fezes (facilitando a evacuação) e ajuda na regulação do intestino solto. Tem a capacidade de reduzir os níveis séricos de colesterol e da glicemia pós-prandial por retardar a absorção do colesterol e da glicose no trato gastrointestinal. Metamucil® geralmente produz efeito de 12 a 72 horas após ingestão.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Este  medicamento  é  contraindicado para menores  de  6  anos.
+
+Este medicamento é contraindicado a pessoas com conhecida hipersensibilidade ao Psyllium ou a qualquer um dos componentes da fórmula.
+
+Este medicamento não deve ser utilizado se você tem dificuldade de deglutição, obstrução ou bloqueio intestinal (por exemplo, impossibilidade da passagem das fezes, desconforto abdominal ou inchaço), impactação fecal, constipação crônica ou constipação associada a pós-operatório ou qualquer outra moléstia que interfira na progressão das fezes pelo trato gastrointestinal.
+
+A última dose do dia não deve ser tomada imediatamente antes de dormir, uma vez que a motilidade gástrica reduzida ou comprometida pode prejudicar a passagem intestinal e causar sub-obstrução.
+
+Em casos de sangramento retal, dor abdominal, náusea, vômito e/ou qualquer outro sintoma gastrointestinal, não use o produto antes de consultar um médico.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Metamucil® deve ser ingerido com um volume de água adequado para prevenir asfixia e obstrução intestinal. Se estiver usando alguma outra medicação, recomenda-se tomar Metamucil® 2 horas antes ou 2 horas após outros medicamentos, para prevenir a alteração da absorção destes.
+
+Consulte um médico se você for diabético e estiver utilizado Metamucil® para ajudar no controle dos níveis glicêmicos, uma vez que pode ser necessário o ajuste de dose dos medicamentos para diabetes.
+
+Atenção, diabéticos: este medicamento contém açúcar.
+
+Gravidez e lactação: Metamucil® é uma formulação de ação iminentemente local, não sendo digerível nem absorvível por seu alto conteúdo em fibras. No entanto, a fibra solúvel de Metamucil® adsorve substâncias orgânicas, inorgânicas e minerais.
+
+Assim, para evitar o risco de eliminação excessiva destas substâncias durante a gestação, não se recomenda ultrapassar as doses prescritas.
+
+Este medicamento não deve ser utilizado por mulheres grávidas, sem orientação médica ou do cirurgião-dentista.
+
+Interações medicamentosas: não se recomenda a utilização em pacientes que fazem uso de digitálicos (medicamentos usados no tratamento de algumas doenças cardíacas). Não administrar com antidiarreicos e/ou outros produtos inibidores da motilidade intestinal (como loperamida, difenoxilato, opiáceos etc.) sob o risco de alteração do trânsito intestinal, inclusive obstrução intestinal.
+
+Não existem recomendações especiais para pacientes idosos.
+
+Mantenha longe do alcance de crianças.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+5. ONDE,  COMO  E  POR  QUANTO   TEMPO  POSSO   GUARDAR   ESTE
+
+MEDICAMENTO?
+
+Conservar em lugar seco. Conservar em temperatura ambiente (entre 15 e 30 °C).
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+O produto consiste em um pó granulado de coloração bege.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+Todo medicamento deve ser mantido fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Modo de preparo:
+
+1. Adicione a dose recomendada em um copo vazio tamanho normal (240 mL).
+
+2. Complete o copo com água ou sua bebida favorita. É importante adicionar o suficiente para evitar obstrução da garganta e/ou esôfago e consequente asfixia.
+
+Obstrução intestinal pode ocorrer se o adequado fornecimento de água não for mantido.
+
+3. Misture com vigor e beba imediatamente. O efeito será melhor ainda tomando-se um copo adicional de água.
+
+Posologia:
+
+Adultos e crianças acima de 12 anos: 7 g ou uma colher de sobremesa em 240 mL de água ou outro líquido, de 1 a 3 vezes ao dia. Administrar o produto junto às refeições.
+
+Crianças de 6 a 12 anos: 3,5 g ou meia dose de adulto em 240 mL de água ou outro líquido, de 1 a 3 vezes ao dia. Administrar o produto junto às refeições.
+
+Crianças abaixo de 6 anos: consulte seu médico.
+
+Pacientes idosos: não existem recomendações especiais ou precauções sobre o uso do produto por pacientes idosos.
+
+Iniciar com 1 dose ao dia e progredir até 3 ao dia, conforme necessidade.
+
+Siga corretamente o modo de usar. Em caso de dúvidas sobre este medicamento, procure orientação do farmacêutico. Não desaparecendo os sintomas, procure orientação do seu médico ou cirurgião-dentista.
+
+7. O QUE  DEVO  FAZER QUANDO   EU ME  ESQUECER   DE USAR  ESTE
+
+MEDICAMENTO?
+
+Caso você tenha se esquecido de tomar a dose de Metamucil®, tome-a assim que possível, a menos que você tenha acabado de ingerir algum medicamento ou alimento, nesse caso espere 2 horas antes de tomar Metamucil®.
+
+Em caso de dúvidas procure orientação do farmacêutico ou de seu médico, ou cirurgião-dentista.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+As reações adversas mais frequentemente relatadas com o uso de Metamucil® são iguais às de outros laxantes de volume. Pode haver um aumento temporário de
+
+flatulências (gases) e distensão abdominal (inchaço abdominal) quando o produto é usado pela primeira vez.
+
+É incomum a  frequência de outros sintomas incluindo náuseas, diarreia e desconforto abdominal ou dor.
+
+A obstrução intestinal e impactação fecal podem ocorrer muito raramente especialmente se o produto é tomado com quantidade insuficiente de líquido.
+
+As reações alérgicas ou de hipersensibilidade associadas com a ingestão ou inalação de Psyllium têm sido relatadas. Os sintomas incluem erupções cutâneas (reações de pele), rinite (inflamação da mucosa nasal), urticária, broncoespasmo (espasmo da musculatura dos brônquios) e reações anafiláticas (reações alérgicas).
+
+Frequência das reações adversas:
+
+Classificação por Reação comum  Reação incomum  Reação rara (ocorre sistema ou órgão (ocorre entre 1% e (ocorre entre 0,1% entre 0,01% e 0,1% 10% dos pacientes e 1% dos pacientes dos pacientes que que utilizam este que utilizam este utilizam este medicamento):   medicamento):   medicamento):
+
+Distúrbios      Flatulência e   Náusea, diarreia, Impactação fecal e distensão abdominal desconforto obstrução gastrointestinais abdominal e dor gastrointestinal abdominal Distúrbios do                                   Urticária, reações cutâneas, rinite, sistema broncoespasmo e imunológico reações anafiláticas.
+
+Informe ao seu médico, cirurgião-dentista ou farmacêutico o aparecimento de reações indesejáveis pelo uso do medicamento. Informe também à empresa através do seu serviço de atendimento.
+
+9. O QUE FAZER SE ALGUÉM  USAR UMA QUANTIDADE  MAIOR DO  QUE A
+
+INDICADA DESTE MEDICAMENTO?
+
+Não foram descritos casos de intoxicação por superdose, uma vez que o produto não é absorvido. Em caso de ingestões acidentais deve-se buscar por ajuda médica. Deve-se ressaltar a importância de uma hidratação adequada, especialmente se o medicamento for ingerido sem adequada dissolução prévia.
+
+Em  caso de  uso de grande quantidade deste medicamento, procure rapidamente socorro médico e leve a embalagem ou bula do medicamento, se possível. Ligue para 0800 722 6001, se você precisar de mais orientações.
+</text>

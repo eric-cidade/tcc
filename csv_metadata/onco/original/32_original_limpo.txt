@@ -1,0 +1,165 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> sorbitol e manitol Sol irrig </id>
+
+    <doenca>irrigacao trans e pos-operatoria da bexiga em intervencoes urologicas</doenca>
+    <nome medicamento>sorbitol e manitol</nome medicamento>
+    <nome_comercial>NA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>solucao para irrigacao urologica</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Este medicamento é indicado em irrigações trans e pós-operatórias da bexiga por ocasião de intervenções urológicas, tais como ressecção transuretral.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+O sorbitol e manitol são álcoois não eletrolíticos. Esta solução é, portanto, adequada para irrigação urológica em procedimentos eletrocirúrgicos.
+
+Uma concentração total de aproximadamente 3% de sorbitol + manitol contém soluto suficiente para minimizar o risco de hemólise intravascular (destruição da membrana dos glóbulos vermelhos dentro da circulação sanguínea), que pode ocorrer durante a ressecção transuretral através da absorção de água nas veias prostáticas abertas. Qualquer solução que seja absorvida intravascularmente (dentro da circulação sanguínea) durante a cirurgia transuretral da próstata ou da bexiga, embora em quantidade variável dependendo principalmente da extensão da cirurgia, vai ser excretada pelos rins. Quando absorvido intravascularmente (dentro da circulação sanguínea), sorbitol e manitol agem como diuréticos osmóticos.
+
+A absorção intravascular de sorbitol demonstrou elevar os níveis séricos de lactato após a ressecção transuretral acima dos valores pré-operatórios, devido ao favorecimento do seu metabolismo para lactato a partir de piruvato. O aumento de lactato não foi suficiente para produzir evidências de acidose metabólica.
+
+Manitol é pouco metabolizado e rapidamente excretado pelos rins.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Este medicamento é contraindicado em casos de hipersensibilidade aos componentes da fórmula.
+
+Não deve ser usado em pacientes com anúria (diminuição e/ou a ausência da produção de urina).
+
+GRAVIDEZ: CATEGORIA DE RISCO C.
+
+ESTE MEDICAMENTO NÃO DEVE SER UTILIZADO POR MULHERES GRÁVIDAS SEM
+
+ORIENTAÇÃO MÉDICA OU DO CIRURGIÃO DENTISTA.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+- Advertências O sorbitol + manitol não deve ser utilizado como veículo de medicamento.
+
+A solução para irrigação urológica deve ser utilizada com cuidado em pacientes com disfunções renais (função inadequada dos rins) ou cardiopulmonares severas.
+
+Os fluidos utilizados para a irrigação durante a prostatectomia transuretral podem entrar na circulação sistêmica em volumes relativamente grandes, assim, sorbitol + manitol deve ser considerado uma droga sistêmica. A absorção de grandes quantidades de fluidos contendo sorbitol e manitol pode alterar significativamente a dinâmica renal e cardiopulmonar (coração e pulmão).
+
+Devido ao metabolismo de sorbitol, pode ocorrer hiperglicemia (aumento de açúcar no sangue) em pacientes com Diabetes mellitus.
+
+Em pacientes metabolicamente comprometidos, a hiperlactatemia (aumento da concentração de lactato), ocorrida devido ao metabolismo de sorbitol, pode causar uma significativa acidemia lática (acidez no sangue devido a maior concentração de lactato).
+
+O conteúdo do recipiente aberto deve ser utilizado imediatamente para minimizar a possibilidade de crescimento bacteriano ou formação de pirogênio.
+
+Descartar a porção não utilizada da solução de irrigação, uma vez que não contém conservantes. Não aqueça acima de 66 ° C.
+
+- Precauções A condição cardiovascular, especialmente dos pacientes com doença cardíaca, deve ser cuidadosamente observada antes e durante a ressecção transuretral da próstata, devido à quantidade de fluidos absorvidos, através da circulação sistêmica, pelas veias prostáticas abertas, o que pode causar significativa expansão do fluido extracelular e levar à insuficiência cardíaca congestiva fulminante.
+
+Passagem do sódio livre do fluido intracelular para o compartimento extracelular seguido de absorção sistêmica da solução pode diminuir a concentração sérica de sódio e agravar hiponatremia pré-existente.
+
+Perda excessiva de água e eletrólitos pode levar a sérios desequilíbrios. Com irrigação contínua, a perda de água pode acarretar em excesso de eletrólitos, levando à hipernatremia.
+
+Diurese sustentável que resulta da irrigação transuretral com sorbitol + manitol pode mascarar e, consequentemente, intensificar a hidratação inadequada ou hipovolemia (diminuição do volume de sangue).
+
+- Cuidados e advertências para populações especiais Crianças A segurança e eficácia de sorbitol + manitol não foram estabelecidas para pacientes pediátricos.
+
+Idosos O uso em pessoas idosas deve ser feito com precaução.
+
+Gravidez e lactação Não foram realizados estudos em animais e nem em mulheres grávidas. O sorbitol + manitol deve ser utilizado em mulheres grávidas e lactantes somente se necessário.
+
+GRAVIDEZ: CATEGORIA DE RISCO C.
+
+ESTE MEDICAMENTO NÃO DEVE SER UTILIZADO POR MULHERES GRÁVIDAS SEM
+
+ORIENTAÇÃO MÉDICA OU DO CIRURGIÃO DENTISTA.
+
+- Interações medicamentosas Pode aumentar a possibilidade de toxicidade digitálica dos glicosídeos digitálicos. Pode também potencializar os efeitos diuréticos e redutores da pressão intraocular de outros diuréticos.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para a sua saúde.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Conservar o produto em temperatura ambiente (entre 15°C e 30°C), protegido da luz e umidade.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+Após aberto, deve ser utilizado imediatamente devido ao risco de contaminação microbiológica.
+
+Características do medicamento: Liquido límpido, incolor e inodoro. Isento de partículas estranhas.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+Todo medicamento deve ser mantido fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+POSOLOGIA
+
+A técnica asséptica é fundamental para a utilização de soluções estéreis para irrigação. As porções não utilizadas devem ser descartadas e um recipiente limpo de tamanho adequado deve ser usado para iniciar cada ciclo ou repetir o procedimento.
+
+Não administrar a menos que a solução esteja clara, o lacre intacto e o recipiente sem danos.
+
+O USO DE MEDICAÇÃO ADITIVA SUPLEMENTAR NÃO É RECOMENDADO.
+
+O volume total de solução utilizada para a irrigação fica exclusivamente a critério do médico.
+
+A solução para irrigação de sorbitol + manitol deve ser administrada somente por instilação transuretral com a apropriada instrumentação urológica e com a utilização de instrumentos descartáveis.
+
+MODO DE USAR O sorbitol + manitol deve ser usado somente para irrigação urológica sob risco de danos de eficácia terapêutica.
+
+Não usar para infusão parenteral.
+
+Antes de administrar esta solução, você deve inspecioná-la visualmente para observar se há presença de partículas, turvação na solução, fissuras e quaisquer violações do recipiente.
+
+Não usar, se houver deposito, turvação ou violação do recipiente.
+
+A solução é acondicionada em bolsas, em SISTEMA FECHADO para irrigação urológica usando equipo estéril.
+
+NÃO PERFURAR EMBALAGEM, POIS HÁ COMPROMETIMENTO DA ESTERILIDADE DO
+
+PRODUTO E RISCO DE CONTAMINAÇÃO.
+
+Instrução para abertura das bolsas Verificar se existem vazamentos mínimos comprimindo a embalagem primária com firmeza. Se for observado vazamento de solução, descartar a embalagem, pois a sua esterilidade pode estar comprometida.
+
+1 – Fazer assepsia da embalagem primária utilizando álcool 70%;
+
+2 – Suspender a bolsa plástica pela alça de sustentação;
+
+3 – Conectar o equipo de infusão da solução no acesso de entrada. Consultar as instruções de uso do equipo;
+
+4 – Administrar a solução, por irrigação, conforme prescrição médica.
+
+Siga a orientação de seu médico, respeitando sempre os horários, as doses e a duração do tratamento.
+
+Não interrompa o tratamento sem o conhecimento do seu médico.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Este medicamento é de uso restrito a hospitais.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico, ou cirurgião dentista.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+As reações adversas podem ocorrer devido à absorção intravenosa de sorbitol e manitol. As reações incluem distúrbios eletrolíticos e de fluido tais como acidose (pH sanguíneo diminuído), perda eletrolítica, diurese (secreção abundante de urina), retenção urinária, edema (inchaço), boca seca, desidratação e sede, distúrbios cardiovasculares tais como hipotensão, taquicardia e dor tipo angina, distúrbios pulmonares tal como congestão pulmonar. Além disso, podem ocorrer: visão turva, convulsão, náusea, vômito, diarreia, rinite, calafrios, vertigem (tontura), dores nas costas e urticária (coceira). Reações alérgicas a sorbitol e manitol foram também relatadas.
+
+Informe ao seu médico, cirurgião-dentista ou farmacêutico o aparecimento de reações indesejáveis pelo uso do medicamento. Informe também à empresa através do seu serviço de atendimento.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA
+
+DESTE MEDICAMENTO?
+
+Descontinue o uso em casos de desidratação, sobrecarga de soluto ou fluido. Avalie o paciente e institua medidas corretivas.
+</text>

@@ -1,0 +1,215 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> dacarbazina Po liof inj </id>
+
+    <doenca>melanoma maligno metastatico, doenca de Hodgkin</doenca>
+    <nome medicamento>dacarbazina</nome medicamento>
+    <nome_comercial>NA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>po liofilizado para solucao injetavel</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Este medicamento é usado para tratar melanoma maligno metastático (câncer de pele que se espalhou para outras partes do corpo). A dacarbazina também é usada para tratar a doença de Hodgkin, como segunda opção de tratamento, quando usada junto com outros medicamentos.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+A dacarbazina é um medicamento de quimioterapia que danifica o DNA das células do tumor. Com isso, as células do câncer param de funcionar e morrem.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Não use este medicamento se você tem alergia à dacarbazina ou a qualquer componente da fórmula.
+
+Este medicamento é contraindicado para crianças menores de 2 anos. Este medicamento não deve ser usado por mulheres grávidas sem orientação médica. Avise o médico imediatamente se houver suspeita de gravidez.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Uso e aplicação Um médico com experiência em quimioterapia deve acompanhar o tratamento. Não use por via oral, subcutânea ou intramuscular, porque pode causar lesões e dor intensa.
+
+A aplicação deve ser somente por via intravenosa (IV) (na veia).
+
+Principal risco: queda das células do sangue (medula óssea) A dacarbazina pode diminuir a produção de células do sangue na medula óssea (parte do corpo que produz as células do sangue).
+
+Isso pode reduzir:
+
+- glóbulos brancos (defesa contra infecções),
+
+- plaquetas (ajudam na coagulação),
+
+- e às vezes glóbulos vermelhos (levam oxigênio).
+
+Essa queda pode ser muito grave e, em casos raros, pode levar à morte.
+
+Por isso, o médico deve pedir exames de sangue frequentes. Dependendo do resultado, o médico pode pausar ou interromper o tratamento.
+
+Risco raro de lesão grave no fígado: Foram relatados casos raros de lesão grave no fígado com:
+
+- trombose da veia do fígado (coágulo em uma veia do fígado),
+
+- e destruição de células do fígado, podendo causar morte.
+
+Esse risco foi baixo (aprox. 0,01%), mas existe. Pode acontecer mais quando a dacarbazina é usada junto com outras quimioterapias, mas também pode ocorrer quando usada sozinha.
+
+Reação alérgica: Pode ocorrer reação alérgica intensa após a aplicação. Avise a equipe de saúde imediatamente se aparecerem sinais de alergia.
+
+Vazamento do medicamento fora da veia: Se o medicamento vazar para fora da veia durante a infusão, pode causar dano ao tecido e dor forte. Compressa quente no local pode ajudar a aliviar a dor e a ardência.
+
+Gravidez e amamentação: A dacarbazina pode causar problemas no bebê em desenvolvimento. Use na gravidez somente se o benefício for maior que o risco, conforme decisão do médico. Não se sabe se a dacarbazina passa para o leite. O médico deve decidir entre parar de amamentar ou parar o medicamento, considerando a importância do tratamento.
+
+Dirigir e operar máquinas: A dacarbazina pode reduzir a capacidade de dirigir ou operar máquinas, principalmente por:
+
+- efeitos no sistema nervoso,
+
+- náuseas e vômitos.
+
+Interações com outros medicamentos. Avise o médico se você usa (ou usou recentemente):
+
+- digoxina,
+
+- anticoagulantes orais,
+
+- fenitoína,
+
+- suxametônio (relaxante muscular),
+
+- vacinas,
+
+- levodopa,
+
+- quimioterápicos como paclitaxel, teniposídeo, topotecana e vinorelbina.
+
+Evite erva de São João durante o tratamento, pois pode causar sensibilidade à luz.
+
+Exames de fígado e rins: Foram relatados poucos casos de alterações em exames de fígado e rins em humanos. O médico pode pedir exames.
+
+Idosos: Pessoas com 65 anos ou mais podem usar, seguindo os cuidados normais do tratamento.
+
+5. COMO GUARDAR ESTE MEDICAMENTO?
+
+Guardar em geladeira (2°C a 8°C). Proteger da luz. Não usar com prazo de validade vencido.
+
+Após reconstituição (mistura com água para injeção)
+
+- Estável por 8 horas em temperatura ambiente (15°C a 30°C).
+
+- Estável por 36 horas em geladeira (2°C a 8°C).
+
+- Sempre proteger da luz.
+
+Após diluição em soro (0,9% ou 5%)
+
+- Estável por 8 horas em temperatura ambiente (15°C a 30°C).
+
+- Estável por 24 horas em geladeira (2°C a 8°C).
+
+- Sempre proteger da luz.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+A aplicação é feita em hospital, com supervisão médica.
+
+Posologia (doses)
+
+Melanoma maligno:
+
+- Opção 1: 2 a 4,5 mg/kg/dia, IV, por 10 dias. Repetir a cada 4 semanas.
+
+- Opção 2: 250 mg/m²/dia, IV, por 5 dias. Repetir a cada 3 semanas.
+
+Doença de Hodgkin – adultos:
+
+- Opção 1: 150 mg/m² por 5 dias, junto com outros medicamentos. Repetir a cada 4 semanas.
+
+- Opção 2: 375 mg/m² nos dias 1 e 15 do tratamento, junto com outros medicamentos. Repetir a cada 4 semanas (contando a partir do dia 1).
+
+Doença de Hodgkin – pediátrico (acima de 2 anos):
+
+- 375 mg/m² nos dias 1 e 15, junto com outros medicamentos. Repetir a cada 4 semanas (contando a partir do dia 1).
+
+Modo de preparo e infusão (feito por profissional de saúde).
+
+- O frasco-ampola de 200 mg deve ser reconstituído com 19,7 mL de água para injeção (volume final 20 mL). A solução fica com concentração de 10 mg/mL.
+
+- A dose calculada é aplicada somente por via intravenosa (IV).
+
+- A solução reconstituída pode ser diluída depois em 500 mL de soro glicosado 5% ou soro fisiológico 0,9% e aplicar em infusão IV por 30 a 60 minutos. Infusão muito rápida pode irritar a veia.
+
+- A concentração da solução infundida não pode ser maior que 10 mg/mL.
+
+A reconstituição e o manuseio devem ser feitos por profissional treinado para quimioterápicos.
+
+7. O QUE FAZER SE EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+A aplicação ocorre em ambiente hospitalar, por profissionais de saúde. Por isso, normalmente não depende do paciente. Se tiver dúvidas, fale com o médico ou farmacêutico.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE CAUSAR?
+
+Os efeitos mais comuns são:
+
+- falta de apetite,
+
+- náuseas e vômitos.
+
+Outros efeitos que podem ocorrer:
+
+- sintomas parecidos com gripe (febre até 39°C, dor muscular, mal-estar),
+
+- queda de cabelo,
+
+- vermelhidão no rosto,
+
+- sensação de adormecimento ou formigamento no rosto,
+
+- manchas ou erupções na pele,
+
+- sensibilidade à luz (raro),
+
+- irritação no local da aplicação,
+
+- reações alérgicas graves,
+
+- diminuição das células do sangue (pode ser grave),
+
+- alterações no fígado (inclusive trombose da veia do fígado e lesão grave),
+
+- diarreia,
+
+- dor de cabeça, diminuição da visão, desânimo, convulsões (raros),
+
+- insuficiência renal (raro).
+
+Avise o médico se aparecer qualquer reação.
+
+9. O QUE FAZER SE ALGUÉM USAR MAIS DO QUE O INDICADO?
+
+A superdose pode causar os mesmos efeitos adversos, porém mais fortes, como:
+
+- alergia,
+
+- queda grave das células do sangue (medula óssea),
+
+- náuseas e vômitos,
+
+- diarreia,
+
+- falta de apetite,
+
+- queda de cabelo,
+
+- vermelhidão no rosto,
+
+- formigamento.
+
+O tratamento é de suporte (tratamento dos sintomas) e com monitoramento das células do sangue. O momento em que os glóbulos brancos e as plaquetas podem ficar mais baixos ocorre em torno de 4 semanas.
+</text>

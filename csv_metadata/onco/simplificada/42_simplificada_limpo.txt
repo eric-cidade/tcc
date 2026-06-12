@@ -1,0 +1,377 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> docetaxel Sol inj </id>
+
+    <doenca>cancer de mama, cancer de pulmao de nao pequenas celulas, cancer de ovario, cancer de prostata, adenocarcinoma gastrico, cancer de cabeca e pescoco</doenca>
+    <nome medicamento>docetaxel</nome medicamento>
+    <nome_comercial>NA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>solucao injetavel</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+O docetaxel é usado para tratar diferentes tipos de câncer.
+
+Câncer de mama Após cirurgia (tratamento adjuvante). Docetaxel pode ser usado junto com outros medicamentos como:
+
+- doxorrubicina
+
+- ciclofosfamida
+
+- trastuzumabe
+
+- carboplatina Esse tratamento é indicado para pacientes com câncer de mama operável:
+
+- com linfonodos positivos (quando o câncer já atingiu os linfonodos), ou
+
+- sem linfonodos afetados, mas com risco alto de recorrência, por exemplo:
+
+- tumor maior que 2 cm
+
+- idade menor que 35 anos
+
+- tumor sem receptor hormonal
+
+- tumor grau 2 ou 3.
+
+Também pode ser usado quando o tumor apresenta HER2 positivo (proteína que estimula o crescimento do tumor).
+
+Câncer de mama com metástase. Docetaxel pode ser usado:
+
+- com doxorrubicina em pacientes que não receberam quimioterapia antes para essa doença;
+
+- sozinho, quando tratamentos anteriores não funcionaram;
+
+- com capecitabina, quando a quimioterapia anterior com antraciclina não funcionou;
+
+- com trastuzumabe, em pacientes com tumor HER2 positivo.
+
+Câncer de pulmão de não pequenas células. Docetaxel é usado em pacientes com câncer de pulmão localmente avançado ou com metástase. Pode ser usado:
+
+- sozinho, após falha de quimioterapia anterior;
+
+- com cisplatina, em pacientes que ainda não receberam quimioterapia.
+
+Câncer de ovário. Docetaxel é usado para tratar câncer de ovário com metástase quando o tratamento anterior não funcionou.
+
+Câncer de próstata. Docetaxel pode ser usado:
+
+- com prednisona ou prednisolona em pacientes com câncer de próstata metastático resistente à castração;
+
+- com terapia hormonal (privação androgênica – ADT), com ou sem prednisona ou prednisolona, em pacientes com câncer de próstata metastático sensível a hormônios.
+
+Câncer de estômago. Docetaxel pode ser usado com cisplatina e fluoruracila para tratar câncer avançado de estômago, incluindo a região entre estômago e esôfago.
+
+Câncer de cabeça e pescoço. Docetaxel pode ser usado com cisplatina e fluoruracila para tratar câncer avançado da boca, garganta ou laringe.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+O docetaxel age dentro das células e impede que elas terminem o processo de divisão. Com isso, o medicamento diminui o crescimento e a multiplicação das células do tumor.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Não use docetaxel nos seguintes casos:
+
+- alergia grave ao docetaxel ou ao polissorbato 80;
+
+- número de neutrófilos menor que 1.500 células/mm³(neutrófilos são células do sangue que ajudam a combater infecções);
+
+- doença grave no fígado;
+
+- gravidez;
+
+- crianças.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+O docetaxel deve ser aplicado apenas por médicos experientes no tratamento do câncer. Durante o tratamento, o paciente deve ser monitorado cuidadosamente.
+
+Uso de corticoide antes do tratamento. Antes da aplicação, o médico pode prescrever dexametasona para reduzir efeitos colaterais. Exemplo comum:
+
+- 16 mg por dia por 3 dias, iniciando 1 dia antes da infusão.
+
+No câncer de próstata pode ser usado:
+
+- 8 mg de dexametasona
+
+- 12 horas, 3 horas e 1 hora antes da infusão.
+
+Redução das células do sangue. Docetaxel pode diminuir células do sangue. Isso pode aumentar o risco de:
+
+- infecções
+
+- sangramentos.
+
+Para reduzir esse risco:
+
+- evite contato com pessoas doentes;
+
+- lave as mãos com frequência;
+
+- evite esportes ou atividades que possam causar ferimentos;
+
+- escove os dentes com cuidado;
+
+- tenha cuidado ao usar objetos cortantes.
+
+Converse com o médico antes de tomar vacinas, inclusive a vacina da gripe.
+
+Durante o tratamento:
+
+- a vacina pode não funcionar bem ou pode causar infecções graves.
+
+Podem ocorrer reações alérgicas poucos minutos após o início da infusão. Sintomas podem incluir:
+
+- vermelhidão na pele
+
+- coceira
+
+- falta de ar
+
+- pressão baixa
+
+- aperto no peito.
+
+Se ocorrer reação grave, o tratamento deve ser interrompido imediatamente.
+
+Pacientes que tiveram alergia ao paclitaxel também podem apresentar reação ao docetaxel.
+
+Neutropenia (queda dos glóbulos brancos): A queda dos neutrófilos costuma ocorrer cerca de 7 dias após o tratamento. O médico fará exames de sangue frequentes. O tratamento só deve continuar quando os neutrófilos estiverem acima de 1.500 células/mm³. Em alguns casos, o médico pode usar G-CSF, um medicamento que estimula a produção de células de defesa.
+
+Problemas no intestino: Pode ocorrer inflamação grave no intestino (enterocolite), que pode ser fatal. Procure ajuda médica se tiver:
+
+- dor abdominal forte
+
+- diarreia grave
+
+- febre.
+
+- Reações na pele Podem ocorrer:
+
+- vermelhidão nas mãos e pés
+
+- inchaço
+
+- descamação da pele.
+
+Problemas no sistema nervoso. Alguns pacientes podem sentir:
+
+- formigamento
+
+- dormência
+
+- dor
+
+- alteração da sensibilidade.
+
+Se os sintomas forem graves, o médico pode reduzir a dose ou interromper o tratamento.
+
+Problemas no coração: Podem ocorrer problemas no coração, especialmente quando o docetaxel é usado com trastuzumabe. Também foram relatados:
+
+- arritmias (batimentos irregulares)
+
+- taquicardia ventricular.
+
+O médico pode solicitar exames do coração antes do tratamento.
+
+Problemas de visão: Pode ocorrer edema macular cistoide, um inchaço na retina que pode alterar a visão. Se ocorrer alteração visual, procure avaliação médica.
+
+Síndrome de lise tumoral: Pode ocorrer destruição rápida de células tumorais (síndrome de lise tumoral). Isso pode causar:
+
+- aumento do ácido úrico
+
+- problemas nos rins
+
+- alterações nos sais do sangue.
+
+Gravidez e fertilidade: Docetaxel pode causar danos ao bebê.
+
+Em Mulheres:
+
+- não engravidar durante o tratamento;
+
+- usar contracepção eficaz;
+
+- continuar contracepção por 2 meses após o tratamento.
+
+Em Homens:
+
+- evitar engravidar a parceira;
+
+- usar contracepção durante o tratamento;
+
+- continuar por 4 meses após o tratamento.
+
+- O medicamento pode afetar a fertilidade masculina.
+
+Amamentação: O medicamento pode passar para o leite. Não amamente durante o tratamento com docetaxel.
+
+Álcool na fórmula: Docetaxel contém etanol (álcool).  Isso pode:
+
+- afetar o sistema nervoso;
+
+- interferir com outros medicamentos;
+
+- prejudicar a capacidade de dirigir ou operar máquinas.
+
+Interações com outros medicamentos. Alguns medicamentos podem alterar o efeito do docetaxel, como:
+
+- cetoconazol
+
+- itraconazol
+
+- claritromicina
+
+- ritonavir
+
+- ciclosporina
+
+- eritromicina.
+
+Informe sempre ao médico todos os medicamentos que você usa.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Guardar:
+
+- na embalagem original
+
+- em temperatura abaixo de 25°C
+
+- protegido da luz.
+
+O prazo de validade é de 36 meses após a fabricação. Depois de preparada para infusão:
+
+- a solução deve ser usada em até 6 horas a 20–25°C
+
+- ou até 48 horas entre 2°C e 8°C, quando preparada em bolsas sem PVC.
+
+Se aparecerem cristais, a solução não deve ser utilizada.
+
+O medicamento é uma solução clara amarela ou amarelo-acastanhada.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Docetaxel é aplicado somente por profissionais de saúde. A aplicação é feita por infusão intravenosa (na veia).
+
+A dose depende de:
+
+- tipo de câncer
+
+- peso e altura do paciente
+
+- exames laboratoriais
+
+- medicamentos associados.
+
+Siga sempre as orientações do médico.
+
+7. O QUE DEVO FAZER SE EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Este medicamento é administrado em hospital. Se você achar que uma dose não foi aplicada, informe seu médico.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Docetaxel pode causar efeitos colaterais.
+
+Muito comuns
+
+- queda de cabelo
+
+- cansaço
+
+- fraqueza
+
+- náusea
+
+- vômito
+
+- diarreia
+
+- inflamação na boca
+
+- perda de apetite
+
+- alterações nas unhas
+
+- dor muscular
+
+- retenção de líquidos (inchaço)
+
+- diminuição das células do sangue
+
+- infecções.
+
+Comuns
+
+- reações alérgicas
+
+- pressão baixa
+
+- arritmias
+
+- dor nas articulações
+
+- falta de ar
+
+- alterações na pele
+
+- alteração do paladar
+
+- constipação.
+
+Reações raras ou graves
+
+- infecções graves
+
+- problemas cardíacos
+
+- problemas respiratórios
+
+- inflamação grave do intestino
+
+- problemas no fígado
+
+- convulsões
+
+- distúrbios da visão
+
+- problemas renais.
+
+Também foram relatados, raramente:
+
+- leucemia
+
+- síndrome mielodisplásica (tipos de câncer da medula óssea).
+
+Informe seu médico se notar qualquer efeito diferente.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+
+Casos de superdose são raros.
+
+Os principais problemas esperados são:
+
+- diminuição grave das células do sangue
+
+- lesão nos nervos
+
+- inflamação das mucosas.
+
+Não existe antídoto específico. O tratamento deve ocorrer em hospital com monitorização intensiva. O médico pode usar G-CSF e outros tratamentos para aliviar os sintomas.
+
+Em caso de superdose, procure socorro médico imediatamente e leve a bula ou embalagem do medicamento.
+</text>

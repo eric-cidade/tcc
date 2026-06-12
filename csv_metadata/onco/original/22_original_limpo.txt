@@ -1,0 +1,131 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> lactulose Xarope </id>
+
+    <doenca>constipacao intestinal, encefalopatia hepatica</doenca>
+    <nome medicamento>lactulose</nome medicamento>
+    <nome_comercial>LACTULONA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>xarope</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1.   PARA QUE ESTE MEDICAMENTO É INDICADO ?
+
+LACTULONA® está indicada para tratar os sintomas da constipação intestinal (prisão de ventre) e para a prevenção e o tratamento de encefalopatia hepática, incluindo as etapas de pré-coma e coma hepático.
+
+2.   COMO ESTE MEDICAMENTO FUNCIONA?
+
+A ação esperada da LACTULONA® é a de restabelecer a função regular do intestino, pois intensifica o acúmulo de água no bolo fecal. Os primeiros efeitos serão obtidos após a sua utilização por alguns dias seguidos (até quatro dias), especialmente em quem está substituindo um laxante pela LACTULONA®. Seu efeito pode ser desejável também em pessoas com mau funcionamento do fígado, numa condição específica chamada “encefalopatia hepática”, melhorando seu nível de consciência.
+
+3.   QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+LACTULONA® é contraindicada em:
+
+·    Pessoas alérgicas ou sensíveis a qualquer um dos componentes da fórmula;
+
+·    Casos de intolerância a açúcares como lactose, galactose e frutose;
+
+·    Casos de gastrite, úlceras pépticas, apendicite, sangramento ou obstrução intestinal, diverticulite etc.;
+
+·    Preparo intestinal de pessoas que serão submetidas a exames proctológicos (colonoscopia, retosigmoidoscopia) com o uso de eletrocautério.
+
+4.   O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Pressão alta: Pessoas com pressão alta e com desidratação devem ter cuidado na administração de LACTULONA®, pois tais condições podem ser agravadas com o uso desse medicamento.
+
+Diabetes: Além da lactulose, o medicamento contém pequenas quantidades de galactose e lactose. Isso deve ser levado em consideração especialmente ao se administrar a LACTULONA® a diabéticos, pelo fato de haver relatos de casos em que houve o aumento nos níveis sanguíneos de glicose (açúcar) com a administração do xarope. Os diabéticos devem consultar o médicoassistente para reavaliar o controle da glicemia.
+
+Atenção: Contém frutose (tipo de açúcar) abaixo de 0,25 g/mL.
+
+Atenção: Contém lactose (tipo de açúcar) abaixo de 0,25 g/mL.
+
+Atenção: Contém galactose (tipo de açúcar) abaixo de 0,25 g/mL.
+
+Este medicamento não deve ser usado por pessoas com síndrome de má-absorção de glicosegalactose.
+
+Este medicamento não deve ser usado por pessoas com insuficiência de sacarose-isomaltase.
+
+Encefalopatia hepática: Esses pacientes devem estar sob cuidados médicos constantes, pelo risco de acidose quando a LACTULONA® for usada em altas doses.
+
+Crianças e Idosos: O uso de LACTULONA® em crianças somente deve ser realizado com orientação médica, após a conclusão de que os sintomas intestinais não são decorrentes de outras
+
+doenças. Pacientes idosos debilitados em tratamento contínuo com LACTULONA® devem consultar periodicamente um médico para a avaliação dos sais do sangue (sódio, potássio, cloro e bicarbonato).
+
+Gestação: O uso de LACTULONA® em mulheres grávidas ou durante o aleitamento deve ser feito sob orientação médica.
+
+Informe ao seu médico se estiver grávida ou amamentando.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica ou do cirurgião-dentista.
+
+Uso criterioso no aleitamento ou na doação de leite humano. O uso deste medicamento no período da lactação depende da avaliação e acompanhamento do seu médico ou cirurgiãodentista.
+
+Exames laboratoriais: Informe o uso de LACTULONA® ao seu médico antes de se submeter a qualquer exame proctológico (colonoscopia, retosigmoidoscopia).
+
+Medicamentos: Os antibióticos podem diminuir a ação da LACTULONA® no intestino, reduzindo seus efeitos esperados. LACTULONA® não deve ser administrada juntamente com outros laxantes ou antiácidos, pois pode ocorrer aumento ou diminuição dos seus efeitos.
+
+Atenção: LACTULONA® xarope sabor ameixa contém o corante caramelo.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+5.   ONDE, COMO  E POR  QUANTO  TEMPO  POSSO GUARDAR  ESTE
+
+MEDICAMENTO?
+
+LACTULONA® deve ser armazenado em temperatura ambiente (entre 15°C e 30°C). Proteger da luz.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+LACTULONA® é um líquido viscoso límpido, incolor a amarelo-amarronzado, com odor e sabor característico de ameixa ou de frutas.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+Todo medicamento deve ser mantido fora do alcance das crianças.
+
+6.   COMO DEVO USAR ESTE MEDICAMENTO?
+
+LACTULONA® pode ser administrada preferencialmente em uma única tomada pela manhã ou à noite, sozinha ou com alimentos, ou ainda misturada a suco de fruta, leite, iogurte, água ou qualquer líquido, ou conforme orientação médica.
+
+Posologia
+
+CONSTIPAÇÃO INTESTINAL CRÔNICA Lactentes: 5 ml/dia Crianças de 1 a 5 anos: 5 a 10 mL/dia Crianças de 6 a 12 anos: 10 a 15 mL/dia Acima de 12 anos e adultos: 15 a 30 mL/dia A posologia pode ser ajustada para que se obtenham duas ou três evacuações por dia conforme orientação médica.
+
+ENCEFALOPATIA HEPÁTICA, PRÉ-COMA E COMA HEPÁTICO Iniciar com 60 mL ao dia, podendo chegar, em casos graves, a 150 mL ao dia.
+
+Siga corretamente o modo de usar. Em caso de dúvidas sobre este medicamento, procure orientação do farmacêutico. Não desaparecendo os sintomas, procure orientação de seu médico ou cirurgião-dentista.
+
+7.   O QUE DEVO FAZER  QUANDO EU ME  ESQUECER DE USAR  ESTE
+
+MEDICAMENTO?
+
+Se você se esquecer de tomar uma dose de LACTULONA®, deve tomá-la assim que possível, caso não esteja perto da próxima tomada. Se você já estiver perto do horário da próxima tomada deverá simplesmente continuar a administração no mesmo horário de costume, sem tomar duas doses para compensar aquela que foi esquecida.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico, ou cirurgiãodentista.
+
+8.   QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+O uso de LACTULONA® em diabéticos pode alterar o controle da glicemia (açúcar), pois pode haver discreta absorção dos açúcares que a compõem. Além disso, o uso de LACTULONA® por períodos prolongados pode causar alteração dos sais do sangue, especialmente em idosos.
+
+O uso de doses altas de LACTULONA® em encefalopatia hepática pode causar aumento dos gases intestinais, flatulência, ruídos, arrotos, aumento da sede, normalmente transitórios. Náuseas e vômito têm sido relatados com pouca frequência.
+
+Caso ocorra diarreia em resposta à LACTULONA®, você deve consultar o seu médico para reavaliar o uso de LACTULONA®.
+
+Informe ao seu médico, cirurgião-dentista ou farmacêutico o aparecimento de reações indesejáveis pelo uso do medicamento. Informe também à empresa através do seu serviço de atendimento.
+
+9.   O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A
+
+INDICADA DESTE MEDICAMENTO?
+
+Se alguém tomar uma quantidade maior do que a indicada deste medicamento, procure auxílio médico. Esperam-se sintomas como diarreia, espasmos e cólicas abdominais, sede, fraqueza, fadiga e vômito. Como pode ocorrer uma desidratação, recomenda-se a ingestão de bastante líquido, principalmente em pacientes idosos e crianças.
+</text>

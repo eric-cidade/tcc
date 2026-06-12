@@ -1,0 +1,295 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> acido zoledronico Sol inj 4mg </id>
+
+    <doenca>metastase ossea, hipercalcemia induzida por tumor, perda ossea por tratamento hormonal em cancer de prostata ou cancer de mama</doenca>
+    <nome medicamento>ácido zoledrônico</nome medicamento>
+    <nome_comercial>NA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>solucao concentrada para infusao 4 mg</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+O ácido zoledrônico é usado para tratar metástases ósseas e para reduzir a quantidade de cálcio no sangue de pacientes com hipercalcemia induzida por tumor (HIT). Este medicamento também é usado para prevenir complicações relacionadas ao esqueleto (como por exemplo: fraturas patológicas) em pacientes com tumor maligno avançado com metástases ósseas.
+
+O ácido zoledrônico também é indicado para prevenção da perda óssea decorrente do tratamento antineoplásico a base de hormônios em pacientes com câncer de próstata ou câncer de mama.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+O princípio ativo do medicamento é o ácido zoledrônico. Ele pertence a um grupo de medicamentos denominado bisfosfonatos, altamente potentes, que atuam especificamente no osso. É um dos mais potentes inibidores da reabsorção óssea osteoclástica conhecido até o momento.
+
+A ação seletiva dos bisfosfonatos no osso é baseada na sua elevada afinidade por osso mineralizado, mas o mecanismo molecular preciso que conduz à inibição da atividade osteoclástica é ainda desconhecido. Nos estudos de longo prazo em animais, o ácido zoledrônico inibe a reabsorção óssea sem afetar adversamente a formação, mineralização ou propriedades mecânicas do osso.
+
+O ácido zoledrônico é fornecido como solução concentrada para infusão. O ácido zoledrônico é administrado como uma infusão na veia.
+
+O ácido zoledrônico age ligando-se ao osso e diminuindo a taxa de reabsorção óssea. É usado para reduzir a quantidade de cálcio no sangue nos casos em que esta quantidade é muito alta devido à presença de um tumor.
+
+Os tumores podem acelerar a reabsorção óssea normal de modo que a liberação de cálcio do osso fique aumentada. Esta condição é conhecida como hipercalcemia induzida por tumor (HIT).
+
+Pergunte ao seu médico se você tiver qualquer dúvida sobre porque este medicamento está sendo prescrito para você.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Você não deve utilizar ácido zoledrônico nos seguintes casos:
+
+- Se você for alérgico (hipersensível) ao ácido zoledrônico ou a outro bisfosfonato (o grupo de substâncias ao qual o ácido zoledrônico pertence), ou quaisquer outros ingredientes do ácido zoledrônico listados no início dessa bula.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Siga cuidadosamente as instruções do seu médico. Elas podem diferir da informação geral contida nesta bula.
+
+Tome cuidado especial com ácido zoledrônico:
+
+- Se você tem problemas de fígado;
+
+- Se você teve ou tem problemas nos rins;
+
+- Se você teve ou tem problemas no coração;
+
+- Se você tem asma e também se for alérgico ao ácido acetilsalicílico;
+
+- Se você teve ou tem dor, tumefação ou entorpecimento de mandíbula ou uma sensação de mandíbula pesada, perda de um dente ou qualquer outro sintoma oral;
+
+- Se você estiver sob tratamento odontológico ou será submetido a uma cirurgia dental, avise seu dentista que está sendo tratado com ácido zoledrônico.
+
+- Se você teve ou tem rigidez articular, dores ou dificuldade de movimentos (especialmente no quadril ou coxa) ou dor ao redor do canal auditivo externo, informe o seu médico, pois pode ser sinal de um problema ósseo chamado osteonecrose (danos ao tecido ósseo devido à perda do fornecimento de sangue ao osso).
+
+É aconselhável que você seja avaliado por um dentista antes do tratamento com ácido zoledrônico e procedimentos odontológicos invasivos devem ser evitados durante o tratamento. Você deve estar ciente da importância de uma boa higiene oral, dos cuidados odontológicos de rotina e avaliações dentárias regulares.
+
+Comunique imediatamente quaisquer sintomas orais, tais como perda de um dente, dor, inchaço, feridas que não cicatrizam ou exsudação durante o período do tratamento com ácido zoledrônico.
+
+Seu médico irá avaliar sua resposta ao tratamento em intervalos regulares. Antes de iniciar seu tratamento com ácido zoledrônico, seu médico deve realizar exames de sangue.
+
+Antes das infusões certifique-se de que você ingeriu líquido suficiente, de acordo com instruções médicas para ajudar a prevenir desidratação.
+
+Se você está sendo tratado com algum outro medicamento que contenha a mesma substância ativa do ácido zoledrônico, ou com qualquer outro bisfosfonato (mesma classe de medicamento) você não deve ser tratado com ácido zoledrônico concomitantemente.
+
+Se alguma destas situações se aplicar a você, informe o seu médico antes de fazer uso de ácido zoledrônico.
+
+Níveis reduzidos de cálcio no sangue (hipocalcemia) às vezes levando a câimbras musculares, pele seca, sensação de queimação, têm sido reportados em pacientes tratados com ácido zoledrônico. Batimentos irregulares do coração (arritmia cardíaca), convulsões, espasmos e contrações (tetania) têm sido relatados como secundários a hipocalcemia grave. Em alguns casos a hipocalcemia pode ser fatal. Se você possui hipocalcemia pré-existente, esta deve ser corrigida antes de iniciar a primeira dose de ácido zoledrônico. Você deverá receber suplementação de cálcio e vitamina D.
+
+Se alguma dessas situações se aplicar a você, informe ao seu médico imediatamente.
+
+Uso em idosos (65 anos ou mais) O ácido zoledrônico pode ser usado em pacientes idosos. Não há evidências de necessidade de quaisquer precauções adicionais.
+
+Uso em crianças O uso de ácido zoledrônico em crianças e adolescentes não foi estudado e, portanto não é recomendado.
+
+Gravidez e lactação Avise seu médico se você está ou pensa que possa estar grávida. Você não deve utilizar ácido zoledrônico durante a gravidez.
+
+Converse com seu médico se você estiver amamentando. Não é conhecido se o ácido zoledrônico passa para o leite materno. Você não deve amamentar durante o tratamento com ácido zoledrônico.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica. Informe imediatamente seu médico em caso de suspeita de gravidez.
+
+Uso criterioso no aleitamento ou na doação de leite humano. O uso deste medicamento no período da lactação depende da avaliação e acompanhamento do seu médico ou cirurgião-dentista.
+
+Efeitos sobre a habilidade de dirigir veículos e/ou utilizar máquinas: os efeitos de ácido zoledrônico para atividades que necessitam de sua atenção não foram estudados. Portanto, recomenda-se cautela para dirigir veículos e/ou operar máquinas.
+
+Interações medicamentosas Avise seu médico, enfermeiro ou farmacêutico caso você esteja tomando ou tenha tomado recentemente qualquer outro medicamento, incluindo aqueles medicamentos que você tenha comprado sem prescrição.
+
+Em especial é importante para seu médico saber se você também estiver tomando aminoglicosídeos (um tipo de medicamento usado para tratar infecções graves), calcitonina (um tipo de medicamento usado para tratar osteoporose pós-menopausa e hipercalcemia), diuréticos de alça (um tipo de medicamento para tratar pressão alta e edema), outros medicamentos que diminuem cálcio, pois a combinação deles com bisfosfonatos pode fazer com que o nível de cálcio no sangue se torne muito baixo. Avise seu médico se você estiver tomando medicamentos conhecidos por serem prejudiciais para seus rins. Avise seu médico se você está utilizando medicamentos antiangiogênicos como parte do seu tratamento, pois a combinação desses medicamentos com bisfosfonatos pode aumentar o risco de dano ósseo da mandíbula (osteonecrose).
+
+Se alguma destas situações se aplica a você, informe o seu médico antes de fazer uso de ácido zoledrônico.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para a sua saúde.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Conservar o medicamento em temperatura ambiente entre 15°C e 30°C.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+A solução de infusão de ácido zoledrônico recém-preparada deve ser usada de preferência imediatamente. Se a solução não for usada imediatamente, a armazenagem antes do uso é de responsabilidade do profissional de saúde que a manipulou, e deve ser armazenada a temperatura de 2ºC a 8ºC. Deixar a solução refrigerada atingir a temperatura ambiente antes da administração.
+
+O tempo total entre a diluição, armazenagem no refrigerador e o final da administração não deve exceder 24 horas.
+
+O ácido zoledrônico deve ser preparado e administrado em ambiente hospitalar ou em clínicas com infraestrutura.
+
+Características do medicamento Solução injetável límpida, incolor a levemente amarelada e isenta de partículas visíveis.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+TODO MEDICAMENTO DEVE SER MANTIDO FORA DO ALCANCE DAS CRIANÇAS.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+O ácido zoledrônico apenas pode ser administrado por profissionais da área da saúde treinados em administração de bisfosfonatos intravenosos, ou seja, por uma veia. Siga cuidadosamente todas as instruções dadas a você pelo seu médico, enfermeira ou farmacêutico.
+
+Como usar o ácido zoledrônico: o ácido zoledrônico deve ser preparado por um profissional da saúde (enfermeiro ou farmacêutico) e deve ser administrado em ambiente hospitalar ou clínicas com infraestrutura adequada.
+
+O ácido zoledrônico 4 mg/ 5 mL solução concentrada para infusão é geralmente administrada via infusão intravenosa com duração de pelo menos 15 minutos e deve ser administrada como uma solução intravenosa única em um cateter separado de todos os outros medicamentos. Adicionalmente, se você não sofre de hipercalcemia, doses orais de suplemento de cálcio e vitamina D devem ser administradas diariamente.
+
+A duração do tratamento é conforme orientação médica.
+
+Quanto é administrado: a dose normal de ácido zoledrônico em adultos é de 4 mg. Se você tem problema nos rins, seu médico deve diminuir a dose, dependendo da gravidade de seu problema nos rins.
+
+Por quanto tempo usar ácido zoledrônico: se você estiver sendo tratado para prevenção de complicações relacionadas ao esqueleto, você deverá receber uma infusão de ácido zoledrônico a cada três a quatro semanas.
+
+Se você estiver sendo tratado para hipercalcemia induzida por tumor (HIT), receberá, normalmente, apenas uma infusão de ácido zoledrônico.
+
+Se você estiver sendo tratado para prevenção da perda de densidade óssea decorrente de tratamento antineoplásico a base de hormônios por câncer de próstata, você deverá receber uma infusão de ácido zoledrônico a cada três meses.
+
+Se você estiver sendo tratado para prevenção da perda de densidade óssea decorrente de tratamento antineoplásico a base de hormônios por câncer de mama, você deverá receber uma infusão de ácido zoledrônico a cada seis meses.
+
+Seu médico irá decidir com que frequência você deve receber as infusões.
+
+Siga a orientação de seu médico, respeitando sempre os horários, as doses e a duração do tratamento. Não interrompa o tratamento sem o conhecimento do seu médico.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+O ácido zoledrônico apenas pode ser utilizado por profissionais da área da saúde com experiência na administração de bisfosfonatos intravenosos.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico, ou cirurgião-dentista.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Como todos os medicamentos, alguns eventos adversos podem ocorrer durante o tratamento com ácido zoledrônico, embora nem todas as pessoas os apresentem. Os mais comuns são normalmente leves e provavelmente desaparecerão após um curto período de tempo. Os seguintes eventos adversos foram relatados.
+
+Se qualquer um dos eventos adversos se tornar grave, avise seu médico, enfermeiro ou farmacêutico.
+
+Reações muito comuns (ocorre em mais de 10% dos pacientes que utilizam este medicamento):
+
+- Nível baixo de fosfato no sangue.
+
+Reações comuns (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento):
+
+- Parestesia (formigamento ou dormência das mãos ou dos pés);
+
+- Hipertensão (pressão arterial elevada);
+
+- Edema periférico (inchaço das mãos, tornozelos ou pés);
+
+- Distúrbios do sono;
+
+- Dor de cabeça e sintomas de gripe como febre, fadiga, fraqueza, sonolência, calafrios e dores ósseas, musculares e nas juntas;
+
+- Reações gastrintestinais tais como náuseas, vômitos, constipação e perda de apetite;
+
+- Anemia (nível baixo de células vermelhas);
+
+- Hipocalcemia (nível baixo de cálcio no sangue);
+
+- Dores ósseas, musculares, nas juntas e generalizadas;
+
+- Rigidez das articulações;
+
+- Exames sanguíneos indicando alterações na função renal (níveis mais altos de creatinina);
+
+- Conjuntivite, como relatado com outros bisfosfonatos (o grupo de substâncias ao qual o ácido zoledrônico pertence);
+
+- Hiperidrose (sudorese excessiva).
+
+Reações incomuns (ocorre entre 0,1% e 1% dos pacientes que utilizam este medicamento):
+
+- Dor na boca, nos dentes e na mandíbula, feridas que cicatrizam ou não na boca ou exsudação, inchaço, boca seca, dormência ou “sensação de mandíbula pesada” ou perda de dente. Estes podem ser sinais de dano ósseo da mandíbula (osteonecrose). Se você sentir qualquer um destes sintomas, avise seu médico ou dentista imediatamente;
+
+- Alterações na função renal incluindo insuficiência renal grave. Tais alterações também são conhecidas por ocorrer com outros medicamentos deste tipo. Adicionalmente, casos de doença renal foram reportados;
+
+- Reações de hipersensibilidade;
+
+- Hipotensão (pressão arterial baixa);
+
+- Dor torácica (dor no peito);
+
+- Reações cutâneas (vermelhidão e inchaço) no local de injeção, rash (erupção cutânea), prurido (coceira);
+
+- Dispneia (dificuldade de respirar);
+
+- Tontura;
+
+- Diarreia;
+
+- Leucopenia e trombocitopenia (contagem baixa de células brancas e de plaquetas, respectivamente);
+
+- Hipomagnesemia e hipocalemia (nível baixo de magnésio e de potássio no sangue, respectivamente). Seu médico irá monitorá-lo e tomar as medidas necessárias;
+
+- Alterações do paladar;
+
+- Tremor;
+
+- Ansiedade;
+
+- Visão turva;
+
+- Dor abdominal;
+
+- Dispepsia (desconforto estomacal após refeições);
+
+- Aumento de peso.
+
+Reações raras (ocorre entre 0,01% e 0,1% dos pacientes que utilizam este medicamento):
+
+- Inchaço principalmente na face e garganta;
+
+- Hipercalemia (nível alto de potássio no sangue);
+
+- Bradicardia (batimento cardíaco lento);
+
+- Confusão;
+
+- Sintomas como gripe, incluindo artrite e inchaço nas articulações;
+
+- Doença intersticial pulmonar (doença pulmonar);
+
+- Uveíte (olhos vermelhos, doloridos e/ou inchados);
+
+- Distúrbio da função renal chamada de síndrome de Fanconi.
+
+Reações muito raras (ocorre em menos de 0,01% dos pacientes que utilizam este medicamento):
+
+- Desmaio devido à pressão arterial baixa;
+
+- Dores graves e ocasionalmente incapacitantes nos ossos, juntas e músculos;
+
+- Sonolência;
+
+- Batimento irregular do coração (arritmia cardíaca);
+
+- Convulsões. Avise seu médico imediatamente se você tiver esses sintomas;
+
+- Hipoestesia (dormência);
+
+- Espasmos e contração muscular (tetania). Avise seu médico imediatamente se você tiver esses sintomas;
+
+- Dificuldade de respirar com chiado ou tosse;
+
+- Reação alérgica grave;
+
+- Erupção cutânea (rash) com coceira.
+
+Também foi observado ritmo cardíaco irregular (fibrilação atrial) em pacientes recebendo ácido zoledrônico para osteoporose na pós-menopausa. Atualmente não está claro se o ácido zoledrônico causa este ritmo cardíaco irregular, mas você deve informar seu médico se sentir tais sintomas após ter recebido ácido zoledrônico.
+
+Outros bisfosfonatos podem causar dificuldades de respiração em pacientes com asma que são alérgicos à aspirina.
+
+Entretanto, nenhum destes casos foi relatado com o uso de ácido zoledrônico.
+
+Pode ocorrer fratura incomum irregular do fêmur, particularmente em pacientes em tratamento prolongado para a osteoporose.
+
+Contate o seu médico se sentir dor, fraqueza ou desconforto no quadril, coxa ou na virilha, pois isso pode ser um sinal precoce de uma possível fratura do fêmur.
+
+Informe ao seu médico, cirurgião-dentista ou farmacêutico o aparecimento de reações indesejáveis pelo uso do medicamento. Informe também à empresa através do seu serviço de atendimento.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE
+
+MEDICAMENTO?
+
+Você pode desenvolver anomalias eletrolíticas séricas e mudanças na função renal, incluindo insuficiência renal grave.
+
+Se você recebeu doses mais altas do que a recomendada, você deve ser cuidadosamente monitorado por um médico.
+
+Pode ser necessária uma infusão de suplemento de cálcio.
+</text>

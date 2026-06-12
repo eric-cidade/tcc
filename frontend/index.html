@@ -1,436 +1,840 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>CorPop-Saúde · Busca acessível de bulas</title>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,500&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
-<style>
-  :root {
-    --paper: #f6f1e7;
-    --paper-deep: #ece3d2;
-    --ink: #211d17;
-    --ink-soft: #5a5246;
-    --teal: #0c5f52;
-    --teal-bright: #148975;
-    --coral: #d6543b;
-    --line: #cdbfa6;
-    --shadow: 14px 14px 0 rgba(33, 29, 23, 0.08);
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
-  body {
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    background-color: var(--paper);
-    background-image:
-      radial-gradient(circle at 1px 1px, rgba(33,29,23,0.045) 1px, transparent 0);
-    background-size: 22px 22px;
-    color: var(--ink);
-    line-height: 1.6;
-    min-height: 100vh;
-    -webkit-font-smoothing: antialiased;
-  }
-  body.modal-open { overflow: hidden; }
-  ::selection { background: var(--coral); color: var(--paper); }
-
-  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
-
-  /* ---- Header ---- */
-  header {
-    border-bottom: 2px solid var(--ink);
-    padding: 22px 0 18px;
-    margin-bottom: 6px;
-  }
-  .topline {
-    display: flex; justify-content: space-between; align-items: baseline;
-    font-size: 0.78rem; letter-spacing: 0.18em; text-transform: uppercase;
-    color: var(--ink-soft);
-  }
-  .topline .dot { color: var(--coral); }
-
-  .hero { padding: 64px 0 48px; position: relative; }
-  .hero h1 {
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
-    font-size: clamp(2.8rem, 7.5vw, 6.2rem);
-    line-height: 0.98;
-    letter-spacing: -0.02em;
-    max-width: 16ch;
-  }
-  .hero h1 em { font-style: italic; font-weight: 500; color: var(--teal); }
-  .hero p.lead { margin-top: 22px; max-width: 52ch; font-size: 1.15rem; color: var(--ink-soft); }
-  .hero .stamp {
-    position: absolute; top: 56px; right: 0;
-    transform: rotate(7deg);
-    border: 2px solid var(--coral); color: var(--coral);
-    font-family: 'Fraunces', serif; font-style: italic; font-weight: 600;
-    padding: 8px 16px; font-size: 0.95rem;
-    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-  }
-  @media (max-width: 720px) { .hero .stamp { display: none; } }
-
-  /* ---- Search box ---- */
-  .searchbar {
-    display: flex; gap: 0; flex-wrap: wrap;
-    border: 2px solid var(--ink); background: #fffdf8; box-shadow: var(--shadow);
-  }
-  .searchbar input[type="text"] {
-    flex: 1 1 320px; border: none; outline: none; background: transparent;
-    font-family: 'Fraunces', serif; font-size: 1.5rem; padding: 20px 22px; color: var(--ink);
-  }
-  .searchbar input::placeholder { color: var(--line); font-style: italic; }
-  .searchbar button {
-    border: none; cursor: pointer; background: var(--ink); color: var(--paper);
-    font-family: 'Atkinson Hyperlegible', sans-serif; font-weight: 700;
-    text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.85rem;
-    padding: 0 34px; transition: background 0.18s ease;
-  }
-  .searchbar button:hover { background: var(--teal); }
-  .searchbar button:active { background: var(--coral); }
-
-  .controls {
-    display: flex; gap: 26px; align-items: center; flex-wrap: wrap;
-    margin-top: 16px; font-size: 0.9rem; color: var(--ink-soft);
-  }
-  .controls label { display: flex; align-items: center; gap: 8px; }
-  .controls input[type="number"], .controls input[type="range"] { accent-color: var(--teal); }
-  .controls input[type="number"] {
-    width: 64px; border: 1.5px solid var(--line); background: #fffdf8;
-    padding: 5px 8px; font-family: inherit; font-size: 0.9rem; color: var(--ink);
-  }
-  .examples { margin-top: 14px; font-size: 0.92rem; color: var(--ink-soft); }
-  .examples button {
-    background: none; border: none; cursor: pointer;
-    color: var(--teal); text-decoration: underline wavy var(--teal-bright);
-    text-underline-offset: 3px; font: inherit; padding: 2px 4px;
-  }
-  .examples button:hover { color: var(--coral); }
-  .api-note { margin-top: 10px; font-size: 0.78rem; color: var(--line); }
-  .api-note code { font-family: 'Fraunces', serif; font-style: italic; color: var(--ink-soft); }
-
-  /* ---- Results ---- */
-  main { padding: 50px 0 120px; }
-  .status {
-    font-family: 'Fraunces', serif; font-style: italic; font-size: 1.2rem;
-    color: var(--ink-soft); padding: 30px 0;
-  }
-  .status.error { color: var(--coral); font-style: normal; }
-
-  .lanes { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 2px solid var(--ink); }
-  @media (max-width: 880px) { .lanes { grid-template-columns: 1fr; } }
-  .lane { padding: 26px 26px 34px; }
-  .lane:first-child { border-right: 2px solid var(--ink); }
-  @media (max-width: 880px) { .lane:first-child { border-right: none; border-bottom: 2px solid var(--ink); } }
-
-  .lane-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 4px; }
-  .lane-head h2 { font-family: 'Fraunces', serif; font-weight: 900; font-size: 1.6rem; letter-spacing: -0.01em; }
-  .lane-head .kind {
-    font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase;
-    padding: 3px 8px; border: 1.5px solid currentColor;
-  }
-  .lane.lex .kind { color: var(--coral); }
-  .lane.sem .kind { color: var(--teal); }
-  .lane-sub { font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 22px; }
-
-  .card {
-    border-top: 1.5px dashed var(--line); padding: 20px 0 22px;
-    cursor: pointer; transition: background 0.16s ease;
-    animation: rise 0.5s cubic-bezier(.2,.7,.3,1) backwards;
-  }
-  .card:first-of-type { border-top: 2px solid var(--ink); }
-  .card:hover { background: rgba(20, 137, 117, 0.06); }
-  .card:focus-visible { outline: 2px solid var(--teal); outline-offset: 4px; }
-  @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
-
-  .card .meta-row {
-    display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 8px;
-  }
-  .card .name {
-    font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.35rem; text-transform: capitalize;
-  }
-  .card .id-tag { font-size: 0.78rem; color: var(--ink-soft); white-space: nowrap; }
-  .card .score {
-    font-family: 'Fraunces', serif; font-weight: 900; font-size: 1.1rem; color: var(--teal); white-space: nowrap;
-  }
-  .card .badge {
-    display: inline-block; font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase;
-    padding: 2px 7px; margin-left: 8px; border: 1px solid var(--line); color: var(--ink-soft); vertical-align: middle;
-  }
-  .card .badge.simp { border-color: var(--teal-bright); color: var(--teal); }
-  .card .preview {
-    font-size: 1rem; color: var(--ink-soft); margin-top: 4px;
-    border-left: 3px solid var(--paper-deep); padding-left: 14px;
-    display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-  }
-  .card .open-hint {
-    margin-top: 12px; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase;
-    color: var(--teal); display: inline-flex; align-items: center; gap: 6px;
-  }
-  .card:hover .open-hint { color: var(--coral); }
-  .empty-lane {
-    font-family: 'Fraunces', serif; font-style: italic; color: var(--line);
-    padding: 26px 0; border-top: 2px solid var(--ink);
-  }
-
-  /* ---- Modal: comparação lado a lado ---- */
-  .overlay {
-    position: fixed; inset: 0; z-index: 100;
-    background: rgba(20, 16, 10, 0.55); backdrop-filter: blur(3px);
-    display: flex; align-items: center; justify-content: center; padding: 4vh 3vw;
-    opacity: 0; pointer-events: none; transition: opacity 0.2s ease;
-  }
-  .overlay.show { opacity: 1; pointer-events: auto; }
-  .modal {
-    background: var(--paper); border: 2px solid var(--ink);
-    box-shadow: 22px 22px 0 rgba(33,29,23,0.18);
-    width: min(1100px, 100%); max-height: 92vh; display: flex; flex-direction: column;
-    transform: translateY(18px) scale(0.985); transition: transform 0.22s cubic-bezier(.2,.8,.3,1);
-  }
-  .overlay.show .modal { transform: none; }
-  .modal-head {
-    display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
-    padding: 22px 26px 18px; border-bottom: 2px solid var(--ink); flex-wrap: wrap;
-  }
-  .modal-head .title { font-family: 'Fraunces', serif; font-weight: 900; font-size: 2rem; line-height: 1.05; text-transform: capitalize; }
-  .modal-head .sub { font-size: 0.88rem; color: var(--ink-soft); margin-top: 4px; }
-  .modal-head .sub .badge {
-    display: inline-block; font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase;
-    padding: 2px 7px; margin-left: 6px; border: 1px solid var(--line); color: var(--ink-soft);
-  }
-  .modal-head .sub .badge.simp { border-color: var(--teal-bright); color: var(--teal); }
-  .modal-close {
-    flex: none; border: 2px solid var(--ink); background: var(--paper); cursor: pointer;
-    font-family: 'Fraunces', serif; font-size: 1.3rem; line-height: 1; width: 42px; height: 42px;
-    transition: background 0.16s ease, color 0.16s ease;
-  }
-  .modal-close:hover { background: var(--coral); color: var(--paper); }
-
-  .modal-body { display: grid; grid-template-columns: 1fr 1fr; overflow: hidden; flex: 1; min-height: 0; }
-  @media (max-width: 760px) { .modal-body { grid-template-columns: 1fr; } }
-  .col { display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
-  .col + .col { border-left: 2px solid var(--ink); }
-  @media (max-width: 760px) { .col + .col { border-left: none; border-top: 2px solid var(--ink); } }
-  .col-head {
-    padding: 14px 22px; border-bottom: 1.5px dashed var(--line);
-    font-size: 0.74rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-soft);
-    position: sticky; top: 0; background: var(--paper-deep);
-  }
-  .col.simp .col-head { color: var(--teal); }
-  .col-text {
-    padding: 22px; overflow-y: auto; white-space: pre-wrap;
-    font-size: 1.04rem; line-height: 1.7; color: var(--ink);
-  }
-  .col.simp .col-text { background: rgba(20, 137, 117, 0.045); }
-  .col-text.muted { color: var(--ink-soft); font-style: italic; }
-  .col-text::-webkit-scrollbar { width: 10px; }
-  .col-text::-webkit-scrollbar-thumb { background: var(--line); }
-
-  footer {
-    border-top: 2px solid var(--ink); padding: 26px 0 50px;
-    font-size: 0.82rem; color: var(--ink-soft);
-    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
-  }
-  .spinner {
-    display: inline-block; width: 14px; height: 14px; margin-right: 8px;
-    border: 2px solid var(--line); border-top-color: var(--teal);
-    border-radius: 50%; animation: spin 0.7s linear infinite; vertical-align: -2px;
-  }
-  @keyframes spin { to { transform: rotate(360deg); } }
-</style>
-</head>
-<body>
-
-<div class="wrap">
-  <header>
-    <div class="topline">
-      <span>CorPop-Saúde · UFRGS</span>
-      <span><span class="dot">●</span> Acessibilidade Textual e Terminológica</span>
-    </div>
-  </header>
-
-  <section class="hero">
-    <span class="stamp">bula sem<br>tradução</span>
-    <h1>Procure um remédio. Receba a bula <em>em português de gente.</em></h1>
-    <p class="lead">Esta página é um exemplo de como o site final consumiria a API de busca híbrida — combinando busca por palavra (Meilisearch) e busca por sentido (ChromaDB) para ligar termos médicos complexos às suas versões simplificadas e validadas.</p>
-  </section>
-
-  <section>
-    <form class="searchbar" id="form">
-      <input type="text" id="q" placeholder="ex.: remédio para pressão alta" autocomplete="off" />
-      <button type="submit" id="go">Buscar</button>
-    </form>
-    <div class="controls">
-      <label>Resultados por motor
-        <input type="number" id="n" value="5" min="1" max="20" />
-      </label>
-      <label>Similaridade mínima
-        <input type="range" id="min" min="0" max="1" step="0.05" value="0.4" />
-        <span id="minval">0.40</span>
-      </label>
-    </div>
-    <div class="examples">
-      Experimente:
-      <button data-q="Enalapril">Enalapril</button> ·
-      <button data-q="remédio para pressão alta">remédio para pressão alta</button> ·
-      <button data-q="dor de cabeça">dor de cabeça</button> ·
-      <button data-q="atenolol">atenolol</button>
-    </div>
-    <div class="api-note">Chamando <code id="endpoint">http://localhost:8000/buscar</code> — ajuste em <code>API_BASE</code> no &lt;script&gt; se necessário. A API precisa estar rodando (<code>uv run uvicorn api:app --port 8000</code>).</div>
-  </section>
-
-  <main>
-    <div class="status" id="status">Digite um termo acima para começar.</div>
-    <div id="results"></div>
-  </main>
-
-  <footer>
-    <span>Trabalho de conclusão de curso — Ciência da Computação · UFRGS</span>
-    <span>Exemplo de front-end · vanilla HTML/CSS/JS</span>
-  </footer>
-</div>
-
-<!-- Modal de comparação (preenchido via JS) -->
-<div class="overlay" id="overlay" aria-hidden="true">
-  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-    <div class="modal-head">
-      <div>
-        <div class="title" id="modal-title">—</div>
-        <div class="sub" id="modal-sub"></div>
-      </div>
-      <button class="modal-close" id="modal-close" aria-label="Fechar comparação">✕</button>
-    </div>
-    <div class="modal-body">
-      <div class="col">
-        <div class="col-head">Bula original — linguagem técnica</div>
-        <div class="col-text" id="col-original"></div>
-      </div>
-      <div class="col simp">
-        <div class="col-head">Versão simplificada — validada</div>
-        <div class="col-text" id="col-simplificada"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-  // Ajuste aqui se a API estiver em outro host/porta.
-  const API_BASE = "http://localhost:8000";
-  document.getElementById("endpoint").textContent = API_BASE + "/buscar";
-
-  const form = document.getElementById("form");
-  const qInput = document.getElementById("q");
-  const nInput = document.getElementById("n");
-  const minInput = document.getElementById("min");
-  const minVal = document.getElementById("minval");
-  const statusEl = document.getElementById("status");
-  const resultsEl = document.getElementById("results");
-  const goBtn = document.getElementById("go");
-
-  const overlay = document.getElementById("overlay");
-  const modalTitle = document.getElementById("modal-title");
-  const modalSub = document.getElementById("modal-sub");
-  const colOriginal = document.getElementById("col-original");
-  const colSimplificada = document.getElementById("col-simplificada");
-  const modalClose = document.getElementById("modal-close");
-
-  // Cada card renderizado guarda aqui os textos completos, indexados por chave.
-  let cardData = [];
-
-  minInput.addEventListener("input", () => { minVal.textContent = Number(minInput.value).toFixed(2); });
-  document.querySelectorAll(".examples button").forEach(b => {
-    b.addEventListener("click", () => { qInput.value = b.dataset.q; doSearch(); });
-  });
-  form.addEventListener("submit", e => { e.preventDefault(); doSearch(); });
-
-  function esc(s) {
-    return String(s ?? "").replace(/[&<>"']/g, c =>
-      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  }
-  function preview(s) {
-    return esc(String(s ?? "").replace(/\s+/g, " ").trim());
-  }
-
-  async function doSearch() {
-    const q = qInput.value.trim();
-    if (!q) { statusEl.textContent = "Digite um termo para buscar."; statusEl.className = "status"; return; }
-    const n = Math.max(1, Math.min(20, parseInt(nInput.value) || 5));
-    const min = Number(minInput.value);
-
-    goBtn.disabled = true;
-    statusEl.className = "status";
-    statusEl.innerHTML = '<span class="spinner"></span>Buscando "' + esc(q) + '"…';
-    resultsEl.innerHTML = "";
-
-    const url = `${API_BASE}/buscar?q=${encodeURIComponent(q)}&n=${n}&min_score=${min}`;
-    try {
-      const res = await fetch(url);
-      if (!res.ok) {
-        const body = await res.json().catch(() => ({}));
-        throw new Error(body.detail || `HTTP ${res.status}`);
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CorPop-Saúde · Busca acessível de bulas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,500&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --paper: #f6f1e7;
+        --paper-deep: #ece3d2;
+        --ink: #211d17;
+        --ink-soft: #5a5246;
+        --teal: #0c5f52;
+        --teal-bright: #148975;
+        --coral: #d6543b;
+        --line: #cdbfa6;
+        --shadow: 14px 14px 0 rgba(33, 29, 23, 0.08);
       }
-      const data = await res.json();
-      render(q, data);
-    } catch (err) {
-      statusEl.className = "status error";
-      statusEl.textContent = "Não foi possível buscar: " + err.message +
-        " — verifique se a API está rodando em " + API_BASE + ".";
-    } finally {
-      goBtn.disabled = false;
-    }
-  }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Atkinson Hyperlegible", sans-serif;
+        background-color: var(--paper);
+        background-image: radial-gradient(
+          circle at 1px 1px,
+          rgba(33, 29, 23, 0.045) 1px,
+          transparent 0
+        );
+        background-size: 22px 22px;
+        color: var(--ink);
+        line-height: 1.6;
+        min-height: 100vh;
+        -webkit-font-smoothing: antialiased;
+      }
+      body.modal-open {
+        overflow: hidden;
+      }
+      ::selection {
+        background: var(--coral);
+        color: var(--paper);
+      }
 
-  function render(q, data) {
-    const meili = data.meili || [];
-    const chroma = data.chroma || { ids: [], docs: [], metadatas: [], scores: [] };
-    const chromaIds = chroma.ids || [];
-    const total = meili.length + chromaIds.length;
-    statusEl.className = "status";
-    statusEl.textContent = total
-      ? `${total} resultado(s) para "${q}".`
-      : `Nada encontrado para "${q}". Tente outro termo ou abaixe a similaridade mínima.`;
+      .wrap {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 0 28px;
+      }
 
-    cardData = [];
+      /* ---- Header ---- */
+      header {
+        border-bottom: 2px solid var(--ink);
+        padding: 22px 0 18px;
+        margin-bottom: 6px;
+      }
+      .topline {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-size: 0.78rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--ink-soft);
+      }
+      .topline .dot {
+        color: var(--coral);
+      }
 
-    // --- Lane léxica (Meilisearch): traz original + simplificada ---
-    let lex = "";
-    if (meili.length) {
-      meili.forEach((hit, i) => {
-        const key = cardData.push({
-          name: hit.nome, id: hit.id, score: null, register: null, isSimp: false,
-          original: hit.conteudo_original, simplificada: hit.conteudo_simplificado,
-        }) - 1;
-        lex += cardHtml(key, i * 50);
+      .hero {
+        padding: 64px 0 48px;
+        position: relative;
+      }
+      .hero h1 {
+        font-family: "Fraunces", serif;
+        font-weight: 900;
+        font-size: clamp(2.8rem, 7.5vw, 6.2rem);
+        line-height: 0.98;
+        letter-spacing: -0.02em;
+        max-width: 16ch;
+      }
+      .hero h1 em {
+        font-style: italic;
+        font-weight: 500;
+        color: var(--teal);
+      }
+      .hero p.lead {
+        margin-top: 22px;
+        max-width: 52ch;
+        font-size: 1.15rem;
+        color: var(--ink-soft);
+      }
+
+      /* ---- Search box ---- */
+      .searchbar {
+        display: flex;
+        gap: 0;
+        flex-wrap: wrap;
+        border: 2px solid var(--ink);
+        background: #fffdf8;
+        box-shadow: var(--shadow);
+      }
+      .searchbar input[type="text"] {
+        flex: 1 1 320px;
+        border: none;
+        outline: none;
+        background: transparent;
+        font-family: "Fraunces", serif;
+        font-size: 1.5rem;
+        padding: 20px 22px;
+        color: var(--ink);
+      }
+      .searchbar input::placeholder {
+        color: var(--line);
+        font-style: italic;
+      }
+      .searchbar button {
+        border: none;
+        cursor: pointer;
+        background: var(--ink);
+        color: var(--paper);
+        font-family: "Atkinson Hyperlegible", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        font-size: 0.85rem;
+        padding: 0 34px;
+        transition: background 0.18s ease;
+      }
+      .searchbar button:hover {
+        background: var(--teal);
+      }
+      .searchbar button:active {
+        background: var(--coral);
+      }
+
+      .controls {
+        display: flex;
+        gap: 26px;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 16px;
+        font-size: 0.9rem;
+        color: var(--ink-soft);
+      }
+      .controls label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .controls input[type="number"],
+      .controls input[type="range"] {
+        accent-color: var(--teal);
+      }
+      .controls input[type="number"] {
+        width: 64px;
+        border: 1.5px solid var(--line);
+        background: #fffdf8;
+        padding: 5px 8px;
+        font-family: inherit;
+        font-size: 0.9rem;
+        color: var(--ink);
+      }
+      .examples {
+        margin-top: 14px;
+        font-size: 0.92rem;
+        color: var(--ink-soft);
+      }
+      .examples button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: var(--teal);
+        text-decoration: underline wavy var(--teal-bright);
+        text-underline-offset: 3px;
+        font: inherit;
+        padding: 2px 4px;
+      }
+      .examples button:hover {
+        color: var(--coral);
+      }
+      .api-note {
+        margin-top: 10px;
+        font-size: 0.78rem;
+        color: var(--line);
+      }
+      .api-note code {
+        font-family: "Fraunces", serif;
+        font-style: italic;
+        color: var(--ink-soft);
+      }
+
+      /* ---- Results ---- */
+      main {
+        padding: 50px 0 120px;
+      }
+      .status {
+        font-family: "Fraunces", serif;
+        font-style: italic;
+        font-size: 1.2rem;
+        color: var(--ink-soft);
+        padding: 30px 0;
+      }
+      .status.error {
+        color: var(--coral);
+        font-style: normal;
+      }
+
+      .lanes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        border: 2px solid var(--ink);
+      }
+      @media (max-width: 880px) {
+        .lanes {
+          grid-template-columns: 1fr;
+        }
+      }
+      .lane {
+        padding: 26px 26px 34px;
+      }
+      .lane:first-child {
+        border-right: 2px solid var(--ink);
+      }
+      @media (max-width: 880px) {
+        .lane:first-child {
+          border-right: none;
+          border-bottom: 2px solid var(--ink);
+        }
+      }
+
+      .lane-head {
+        display: flex;
+        align-items: baseline;
+        gap: 12px;
+        margin-bottom: 4px;
+      }
+      .lane-head h2 {
+        font-family: "Fraunces", serif;
+        font-weight: 900;
+        font-size: 1.6rem;
+        letter-spacing: -0.01em;
+      }
+      .lane-head .kind {
+        font-size: 0.7rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        padding: 3px 8px;
+        border: 1.5px solid currentColor;
+      }
+      .lane.lex .kind {
+        color: var(--coral);
+      }
+      .lane.sem .kind {
+        color: var(--teal);
+      }
+      .lane-sub {
+        font-size: 0.9rem;
+        color: var(--ink-soft);
+        margin-bottom: 22px;
+      }
+
+      .card {
+        border-top: 1.5px dashed var(--line);
+        padding: 20px 0 22px;
+        cursor: pointer;
+        transition: background 0.16s ease;
+        animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.3, 1) backwards;
+      }
+      .card:first-of-type {
+        border-top: 2px solid var(--ink);
+      }
+      .card:hover {
+        background: rgba(20, 137, 117, 0.06);
+      }
+      .card:focus-visible {
+        outline: 2px solid var(--teal);
+        outline-offset: 4px;
+      }
+      @keyframes rise {
+        from {
+          opacity: 0;
+          transform: translateY(14px);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      .card .meta-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+        margin-bottom: 8px;
+      }
+      .card .name {
+        font-family: "Fraunces", serif;
+        font-weight: 600;
+        font-size: 1.35rem;
+        text-transform: capitalize;
+      }
+      .card .id-tag {
+        font-size: 0.78rem;
+        color: var(--ink-soft);
+        white-space: nowrap;
+      }
+      .card .score {
+        font-family: "Fraunces", serif;
+        font-weight: 900;
+        font-size: 1.1rem;
+        color: var(--teal);
+        white-space: nowrap;
+      }
+      .card .badge {
+        display: inline-block;
+        font-size: 0.68rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        padding: 2px 7px;
+        margin-left: 8px;
+        border: 1px solid var(--line);
+        color: var(--ink-soft);
+        vertical-align: middle;
+      }
+      .card .badge.simp {
+        border-color: var(--teal-bright);
+        color: var(--teal);
+      }
+      .card .preview {
+        font-size: 1rem;
+        color: var(--ink-soft);
+        margin-top: 4px;
+        border-left: 3px solid var(--paper-deep);
+        padding-left: 14px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .card .open-hint {
+        margin-top: 12px;
+        font-size: 0.78rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--teal);
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .card:hover .open-hint {
+        color: var(--coral);
+      }
+      .empty-lane {
+        font-family: "Fraunces", serif;
+        font-style: italic;
+        color: var(--line);
+        padding: 26px 0;
+        border-top: 2px solid var(--ink);
+      }
+
+      /* ---- Modal: comparação lado a lado ---- */
+      .overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 100;
+        background: rgba(20, 16, 10, 0.55);
+        backdrop-filter: blur(3px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4vh 3vw;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s ease;
+      }
+      .overlay.show {
+        opacity: 1;
+        pointer-events: auto;
+      }
+      .modal {
+        background: var(--paper);
+        border: 2px solid var(--ink);
+        box-shadow: 22px 22px 0 rgba(33, 29, 23, 0.18);
+        width: min(1100px, 100%);
+        max-height: 92vh;
+        display: flex;
+        flex-direction: column;
+        transform: translateY(18px) scale(0.985);
+        transition: transform 0.22s cubic-bezier(0.2, 0.8, 0.3, 1);
+      }
+      .overlay.show .modal {
+        transform: none;
+      }
+      .modal-head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 22px 26px 18px;
+        border-bottom: 2px solid var(--ink);
+        flex-wrap: wrap;
+      }
+      .modal-head .title {
+        font-family: "Fraunces", serif;
+        font-weight: 900;
+        font-size: 2rem;
+        line-height: 1.05;
+        text-transform: capitalize;
+      }
+      .modal-head .sub {
+        font-size: 0.88rem;
+        color: var(--ink-soft);
+        margin-top: 4px;
+      }
+      .modal-head .sub .badge {
+        display: inline-block;
+        font-size: 0.66rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        padding: 2px 7px;
+        margin-left: 6px;
+        border: 1px solid var(--line);
+        color: var(--ink-soft);
+      }
+      .modal-head .sub .badge.simp {
+        border-color: var(--teal-bright);
+        color: var(--teal);
+      }
+      .modal-close {
+        flex: none;
+        border: 2px solid var(--ink);
+        background: var(--paper);
+        cursor: pointer;
+        font-family: "Fraunces", serif;
+        font-size: 1.3rem;
+        line-height: 1;
+        width: 42px;
+        height: 42px;
+        transition:
+          background 0.16s ease,
+          color 0.16s ease;
+      }
+      .modal-close:hover {
+        background: var(--coral);
+        color: var(--paper);
+      }
+
+      .modal-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+        flex: 1;
+        min-height: 0;
+      }
+      @media (max-width: 760px) {
+        .modal-body {
+          grid-template-columns: 1fr;
+        }
+      }
+      .col {
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        overflow: hidden;
+      }
+      .col + .col {
+        border-left: 2px solid var(--ink);
+      }
+      @media (max-width: 760px) {
+        .col + .col {
+          border-left: none;
+          border-top: 2px solid var(--ink);
+        }
+      }
+      .col-head {
+        padding: 14px 22px;
+        border-bottom: 1.5px dashed var(--line);
+        font-size: 0.74rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--ink-soft);
+        position: sticky;
+        top: 0;
+        background: var(--paper-deep);
+      }
+      .col.simp .col-head {
+        color: var(--teal);
+      }
+      .col-text {
+        padding: 22px;
+        overflow-y: auto;
+        white-space: pre-wrap;
+        font-size: 1.04rem;
+        line-height: 1.7;
+        color: var(--ink);
+      }
+      .col.simp .col-text {
+        background: rgba(20, 137, 117, 0.045);
+      }
+      .col-text.muted {
+        color: var(--ink-soft);
+        font-style: italic;
+      }
+      .col-text::-webkit-scrollbar {
+        width: 10px;
+      }
+      .col-text::-webkit-scrollbar-thumb {
+        background: var(--line);
+      }
+
+      footer {
+        border-top: 2px solid var(--ink);
+        padding: 26px 0 50px;
+        font-size: 0.82rem;
+        color: var(--ink-soft);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .spinner {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        margin-right: 8px;
+        border: 2px solid var(--line);
+        border-top-color: var(--teal);
+        border-radius: 50%;
+        animation: spin 0.7s linear infinite;
+        vertical-align: -2px;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="topline">
+          <span>CorPop-Saúde · UFRGS</span>
+          <span
+            ><span class="dot">●</span> Acessibilidade Textual e
+            Terminológica</span
+          >
+        </div>
+      </header>
+
+      <section class="hero">
+        <h1>
+          Procure um remédio. Receba a bula <em>em português de gente.</em>
+        </h1>
+        <p class="lead">
+          Esta página é um exemplo de como o site final consumiria a API de
+          busca híbrida — combinando busca por palavra (Meilisearch) e busca por
+          sentido (ChromaDB) para ligar termos médicos complexos às suas versões
+          simplificadas e validadas.
+        </p>
+      </section>
+
+      <section>
+        <form class="searchbar" id="form">
+          <input
+            type="text"
+            id="q"
+            placeholder="ex.: remédio para pressão alta"
+            autocomplete="off"
+          />
+          <button type="submit" id="go">Buscar</button>
+        </form>
+        <div class="controls">
+          <label
+            >Resultados por motor
+            <input type="number" id="n" value="5" min="1" max="20" />
+          </label>
+          <label
+            >Similaridade mínima
+            <input
+              type="range"
+              id="min"
+              min="0"
+              max="1"
+              step="0.05"
+              value="0.35"
+            />
+            <span id="minval">0.35</span>
+          </label>
+        </div>
+        <div class="examples">
+          Experimente:
+          <button data-q="Enalapril">Enalapril</button> ·
+          <button data-q="remédio para pressão alta">
+            remédio para pressão alta
+          </button>
+          · <button data-q="dor de cabeça">dor de cabeça</button> ·
+          <button data-q="atenolol">atenolol</button> ·
+          <button data-q="remédio para câncer de pele">
+            remédio para câncer de pele
+          </button>
+        </div>
+        <div class="api-note">
+          Chamando <code id="endpoint">http://localhost:8000/buscar</code> —
+          ajuste em <code>API_BASE</code> no &lt;script&gt; se necessário. A API
+          precisa estar rodando (<code>uv run uvicorn api:app --port 8000</code
+          >).
+        </div>
+      </section>
+
+      <main>
+        <div class="status" id="status">
+          Digite um termo acima para começar.
+        </div>
+        <div id="results"></div>
+      </main>
+
+      <footer>
+        <span
+          >Trabalho de conclusão de curso — Ciência da Computação · UFRGS</span
+        >
+        <span>Exemplo de front-end · vanilla HTML/CSS/JS</span>
+      </footer>
+    </div>
+
+    <!-- Modal de comparação (preenchido via JS) -->
+    <div class="overlay" id="overlay" aria-hidden="true">
+      <div
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <div class="modal-head">
+          <div>
+            <div class="title" id="modal-title">—</div>
+            <div class="sub" id="modal-sub"></div>
+          </div>
+          <button
+            class="modal-close"
+            id="modal-close"
+            aria-label="Fechar comparação"
+          >
+            ✕
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="col">
+            <div class="col-head">Bula original — linguagem técnica</div>
+            <div class="col-text" id="col-original"></div>
+          </div>
+          <div class="col simp">
+            <div class="col-head">Versão simplificada — validada</div>
+            <div class="col-text" id="col-simplificada"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Ajuste aqui se a API estiver em outro host/porta.
+      const API_BASE = "http://localhost:8000";
+      document.getElementById("endpoint").textContent = API_BASE + "/buscar";
+
+      const form = document.getElementById("form");
+      const qInput = document.getElementById("q");
+      const nInput = document.getElementById("n");
+      const minInput = document.getElementById("min");
+      const minVal = document.getElementById("minval");
+      const statusEl = document.getElementById("status");
+      const resultsEl = document.getElementById("results");
+      const goBtn = document.getElementById("go");
+
+      const overlay = document.getElementById("overlay");
+      const modalTitle = document.getElementById("modal-title");
+      const modalSub = document.getElementById("modal-sub");
+      const colOriginal = document.getElementById("col-original");
+      const colSimplificada = document.getElementById("col-simplificada");
+      const modalClose = document.getElementById("modal-close");
+
+      // Cada card renderizado guarda aqui os textos completos, indexados por chave.
+      let cardData = [];
+
+      minInput.addEventListener("input", () => {
+        minVal.textContent = Number(minInput.value).toFixed(2);
       });
-    } else {
-      lex = `<div class="empty-lane">Nenhum match exato de palavra.</div>`;
-    }
-
-    // --- Lane semântica (ChromaDB): só o documento que casou ---
-    let sem = "";
-    if (chromaIds.length) {
-      chromaIds.forEach((id, i) => {
-        const meta = (chroma.metadatas || [])[i] || {};
-        const doc = (chroma.docs || [])[i] || "";
-        const isSimp = String(meta.registro || "").startsWith("simplific");
-        // A API agora manda os dois registros completos; mantemos um fallback
-        // para o documento que casou caso algum venha vazio.
-        const original = (chroma.originais || [])[i] ?? (isSimp ? null : doc);
-        const simplificada = (chroma.simplificadas || [])[i] ?? (isSimp ? doc : null);
-        const key = cardData.push({
-          name: meta.nome, id: meta.id || id,
-          score: (chroma.scores || [])[i] ?? null,
-          register: meta.registro, isSimp,
-          original, simplificada,
-        }) - 1;
-        sem += cardHtml(key, i * 50);
+      document.querySelectorAll(".examples button").forEach((b) => {
+        b.addEventListener("click", () => {
+          qInput.value = b.dataset.q;
+          doSearch();
+        });
       });
-    } else {
-      sem = `<div class="empty-lane">Nenhuma relação semântica acima do limiar.</div>`;
-    }
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        doSearch();
+      });
 
-    resultsEl.innerHTML = `
+      function esc(s) {
+        return String(s ?? "").replace(
+          /[&<>"']/g,
+          (c) =>
+            ({
+              "&": "&amp;",
+              "<": "&lt;",
+              ">": "&gt;",
+              '"': "&quot;",
+              "'": "&#39;",
+            })[c],
+        );
+      }
+      function preview(s) {
+        return esc(
+          String(s ?? "")
+            .replace(/\s+/g, " ")
+            .trim(),
+        );
+      }
+
+      async function doSearch() {
+        const q = qInput.value.trim();
+        if (!q) {
+          statusEl.textContent = "Digite um termo para buscar.";
+          statusEl.className = "status";
+          return;
+        }
+        const n = Math.max(1, Math.min(20, parseInt(nInput.value) || 5));
+        const min = Number(minInput.value);
+
+        goBtn.disabled = true;
+        statusEl.className = "status";
+        statusEl.innerHTML =
+          '<span class="spinner"></span>Buscando "' + esc(q) + '"…';
+        resultsEl.innerHTML = "";
+
+        const url = `${API_BASE}/buscar?q=${encodeURIComponent(q)}&n=${n}&min_score=${min}`;
+        try {
+          const res = await fetch(url);
+          if (!res.ok) {
+            const body = await res.json().catch(() => ({}));
+            throw new Error(body.detail || `HTTP ${res.status}`);
+          }
+          const data = await res.json();
+          render(q, data);
+        } catch (err) {
+          statusEl.className = "status error";
+          statusEl.textContent =
+            "Não foi possível buscar: " +
+            err.message +
+            " — verifique se a API está rodando em " +
+            API_BASE +
+            ".";
+        } finally {
+          goBtn.disabled = false;
+        }
+      }
+
+      function render(q, data) {
+        const meili = data.meili || [];
+        const chroma = data.chroma || {
+          ids: [],
+          docs: [],
+          metadatas: [],
+          scores: [],
+        };
+        const chromaIds = chroma.ids || [];
+        const total = meili.length + chromaIds.length;
+        statusEl.className = "status";
+        statusEl.textContent = total
+          ? `${total} resultado(s) para "${q}".`
+          : `Nada encontrado para "${q}". Tente outro termo ou abaixe a similaridade mínima.`;
+
+        cardData = [];
+
+        // --- Lane léxica (Meilisearch): traz original + simplificada ---
+        let lex = "";
+        if (meili.length) {
+          meili.forEach((hit, i) => {
+            const key =
+              cardData.push({
+                name: hit.nome,
+                id: hit.id,
+                score: null,
+                register: null,
+                isSimp: false,
+                original: hit.conteudo_original,
+                simplificada: hit.conteudo_simplificado,
+              }) - 1;
+            lex += cardHtml(key, i * 50);
+          });
+        } else {
+          lex = `<div class="empty-lane">Nenhum match exato de palavra.</div>`;
+        }
+
+        // --- Lane semântica (ChromaDB): só o documento que casou ---
+        let sem = "";
+        if (chromaIds.length) {
+          chromaIds.forEach((id, i) => {
+            const meta = (chroma.metadatas || [])[i] || {};
+            const doc = (chroma.docs || [])[i] || "";
+            const isSimp = String(meta.registro || "").startsWith("simplific");
+            // A API agora manda os dois registros completos; mantemos um fallback
+            // para o documento que casou caso algum venha vazio.
+            const original =
+              (chroma.originais || [])[i] ?? (isSimp ? null : doc);
+            const simplificada =
+              (chroma.simplificadas || [])[i] ?? (isSimp ? doc : null);
+            const key =
+              cardData.push({
+                name: meta.nome,
+                id: meta.id || id,
+                score: (chroma.scores || [])[i] ?? null,
+                register: meta.registro,
+                isSimp,
+                original,
+                simplificada,
+              }) - 1;
+            sem += cardHtml(key, i * 50);
+          });
+        } else {
+          sem = `<div class="empty-lane">Nenhuma relação semântica acima do limiar.</div>`;
+        }
+
+        resultsEl.innerHTML = `
       <div class="lanes">
         <div class="lane lex">
           <div class="lane-head"><h2>Por palavra</h2><span class="kind">Meilisearch</span></div>
@@ -443,17 +847,20 @@
           ${sem}
         </div>
       </div>`;
-  }
+      }
 
-  function cardHtml(key, delay) {
-    const d = cardData[key];
-    const rightCol = d.score != null
-      ? `<span class="score">${d.score.toFixed(3)}</span>`
-      : `<span class="id-tag">id ${esc(d.id)}</span>`;
-    const badge = d.register ? `<span class="badge ${d.isSimp ? "simp" : ""}">${esc(d.register)}</span>` : "";
-    // Texto de prévia: prefere a versão simplificada quando existir.
-    const previewSrc = d.simplificada || d.original || "";
-    return `
+      function cardHtml(key, delay) {
+        const d = cardData[key];
+        const rightCol =
+          d.score != null
+            ? `<span class="score">${d.score.toFixed(3)}</span>`
+            : `<span class="id-tag">id ${esc(d.id)}</span>`;
+        const badge = d.register
+          ? `<span class="badge ${d.isSimp ? "simp" : ""}">${esc(d.register)}</span>`
+          : "";
+        // Texto de prévia: prefere a versão simplificada quando existir.
+        const previewSrc = d.simplificada || d.original || "";
+        return `
       <article class="card" tabindex="0" role="button" data-key="${key}"
                aria-label="Abrir comparação de ${esc(d.name || "medicamento")}" style="animation-delay:${delay}ms">
         <div class="meta-row">
@@ -463,47 +870,72 @@
         <div class="preview">${preview(previewSrc).slice(0, 260)}…</div>
         <span class="open-hint">▤ comparar original × simplificada</span>
       </article>`;
-  }
+      }
 
-  // ---- Modal ----
-  function openModal(key) {
-    const d = cardData[key];
-    if (!d) return;
-    modalTitle.textContent = d.name || "Medicamento";
-    let sub = `id ${d.id}`;
-    if (d.score != null) sub += ` · similaridade ${d.score.toFixed(3)}`;
-    modalSub.innerHTML = esc(sub) + (d.register ? ` <span class="badge ${d.isSimp ? "simp" : ""}">registro que casou: ${esc(d.register)}</span>` : "");
+      // ---- Modal ----
+      function openModal(key) {
+        const d = cardData[key];
+        if (!d) return;
+        modalTitle.textContent = d.name || "Medicamento";
+        let sub = `id ${d.id}`;
+        if (d.score != null) sub += ` · similaridade ${d.score.toFixed(3)}`;
+        modalSub.innerHTML =
+          esc(sub) +
+          (d.register
+            ? ` <span class="badge ${d.isSimp ? "simp" : ""}">registro que casou: ${esc(d.register)}</span>`
+            : "");
 
-    if (d.original) { colOriginal.textContent = d.original; colOriginal.classList.remove("muted"); }
-    else { colOriginal.textContent = "A API só retornou o registro simplificado para este resultado semântico — o texto técnico original não está disponível aqui."; colOriginal.classList.add("muted"); }
+        if (d.original) {
+          colOriginal.textContent = d.original;
+          colOriginal.classList.remove("muted");
+        } else {
+          colOriginal.textContent =
+            "A API só retornou o registro simplificado para este resultado semântico — o texto técnico original não está disponível aqui.";
+          colOriginal.classList.add("muted");
+        }
 
-    if (d.simplificada) { colSimplificada.textContent = d.simplificada; colSimplificada.classList.remove("muted"); }
-    else { colSimplificada.textContent = "A API só retornou o registro original para este resultado semântico — a versão simplificada não está disponível aqui."; colSimplificada.classList.add("muted"); }
+        if (d.simplificada) {
+          colSimplificada.textContent = d.simplificada;
+          colSimplificada.classList.remove("muted");
+        } else {
+          colSimplificada.textContent =
+            "A API só retornou o registro original para este resultado semântico — a versão simplificada não está disponível aqui.";
+          colSimplificada.classList.add("muted");
+        }
 
-    colOriginal.scrollTop = 0; colSimplificada.scrollTop = 0;
-    overlay.classList.add("show");
-    overlay.setAttribute("aria-hidden", "false");
-    document.body.classList.add("modal-open");
-    modalClose.focus();
-  }
-  function closeModal() {
-    overlay.classList.remove("show");
-    overlay.setAttribute("aria-hidden", "true");
-    document.body.classList.remove("modal-open");
-  }
+        colOriginal.scrollTop = 0;
+        colSimplificada.scrollTop = 0;
+        overlay.classList.add("show");
+        overlay.setAttribute("aria-hidden", "false");
+        document.body.classList.add("modal-open");
+        modalClose.focus();
+      }
+      function closeModal() {
+        overlay.classList.remove("show");
+        overlay.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("modal-open");
+      }
 
-  resultsEl.addEventListener("click", e => {
-    const c = e.target.closest(".card[data-key]");
-    if (c) openModal(Number(c.dataset.key));
-  });
-  resultsEl.addEventListener("keydown", e => {
-    if (e.key !== "Enter" && e.key !== " ") return;
-    const c = e.target.closest(".card[data-key]");
-    if (c) { e.preventDefault(); openModal(Number(c.dataset.key)); }
-  });
-  modalClose.addEventListener("click", closeModal);
-  overlay.addEventListener("click", e => { if (e.target === overlay) closeModal(); });
-  document.addEventListener("keydown", e => { if (e.key === "Escape" && overlay.classList.contains("show")) closeModal(); });
-</script>
-</body>
+      resultsEl.addEventListener("click", (e) => {
+        const c = e.target.closest(".card[data-key]");
+        if (c) openModal(Number(c.dataset.key));
+      });
+      resultsEl.addEventListener("keydown", (e) => {
+        if (e.key !== "Enter" && e.key !== " ") return;
+        const c = e.target.closest(".card[data-key]");
+        if (c) {
+          e.preventDefault();
+          openModal(Number(c.dataset.key));
+        }
+      });
+      modalClose.addEventListener("click", closeModal);
+      overlay.addEventListener("click", (e) => {
+        if (e.target === overlay) closeModal();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && overlay.classList.contains("show"))
+          closeModal();
+      });
+    </script>
+  </body>
 </html>

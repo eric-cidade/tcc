@@ -1,0 +1,305 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> digoxina Comp </id>
+
+    <doenca>insuficiencia cardiaca congestiva, arritmias</doenca>
+    <nome medicamento>digoxina</nome medicamento>
+    <nome_comercial>Digibind</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>comprimido</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Digoxina é um medicamento indicado para o tratamento da insuficiência cardíaca congestiva (um conjunto de sinais e sintomas decorrentes do mau funcionamento do coração, que não é capaz de bombear o sangue e suprir a necessidade de oxigênio e nutrientes do organismo) e de certas arritmias, nome que se dá às variações do ritmo dos batimentos do coração.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+A digoxina pertence a um grupo de medicamentos chamados glicosídeos cardíacos. Esses medicamentos aumentam a força de contração do músculo do coração e por isso são usados para tratar certos problemas, como insuficiência cardíaca e irregularidade do ritmo dos batimentos do coração.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Digoxina é contraindicada nos seguintes casos:
+
+  Alergia à digoxina, a outros glicosídeos ou a alguma das substâncias presentes no medicamento (ver o item Composição).
+
+  Bloqueio atrioventricular completo ou intermitente ou outros tipos de arritmia cardíaca (alterações do ritmo de batimentos do coração), como bloqueio atrioventricular de segundo grau (especialmente se houver história de síndrome de Stokes-Adams) e taquicardia ventricular (aumento do ritmo cardíaco) ou fibrilação ventricular.
+
+  Outros tipos de doenças cardíacas, como a chamada cardiomiopatia obstrutiva hipertrófica, a menos que haja também fibrilação atrial e insuficiência cardíaca, mas, mesmo nesse caso, deve-se tomar cuidado com o uso de digoxina.
+
+Digoxina não deve ser utilizada por pacientes com certos problemas de coração. O médico com certeza vai checar seu histórico antes de lhe receitar este medicamento. Se você tem alguma preocupação com relação a isso, converse com seu médico.
+
+Risco Categoria C durante a gravidez Não existem contraindicações relativas às faixas etárias.
+
+O médico deve considerar o uso de digoxina por mulheres grávidas apenas quando os benefícios clínicos esperados do tratamento da mãe superarem qualquer possível risco para o feto.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica ou do cirurgiãodentista.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Se você responder “sim” a alguma das perguntas abaixo, avise ao seu médico antes de usar este medicamento.
+
+Ele lhe dirá se este medicamento é adequado ou não para você.
+
+  Você tem, ou já teve problemas nos rins?
+
+  Você é idoso?
+
+  Você está usando diurético ou inibidores da ECA (Enzima Conversora de Angiotensina)?
+
+  Você tem o nível alterado de cálcio no sangue?
+
+  Você tem doença da tireoide?
+
+  Você tem o nível baixo de magnésio no sangue?
+
+  Você tem alguma doença no pulmão?
+
+  Você sente falta de ar?
+
+  Você tem problemas no intestino ou no estômago?
+
+  Você está grávida, amamentando ou pretende engravidar?
+
+  Você está usando ou usou um glicosídeo cardíaco nas últimas duas semanas?
+
+  Você sofreu algum infarto recentemente?
+
+  Você está sendo ou será submetido a tratamento de cardioversão de corrente contínua?
+
+  Você possui algum dos seguintes problemas cardíacos?
+
+Amiloidose cardíaca, miocardite, doença cardíaca por beribéri ou pericardite crônica.
+
+Idosos Os pacientes idosos têm tendência a apresentar problemas nos rins e diminuição da massa corporal, e isso faz com que os níveis altos de digoxina no sangue causem intoxicação rapidamente. Esse problema pode ser evitado com a redução das doses normais administradas a adultos. O médico deverá fazer o ajuste adequado da dose conforme o caso.
+
+Consulte seu médico, que indicará outros cuidados a serem tomados, como o acompanhamento dos níveis de eletrólitos no sangue, assim como de creatinina, que deve ser feito periodicamente. É também recomendável que o médico monitore a concentração de digoxina no sangue durante a suspensão temporária do tratamento.
+
+Efeitos na habilidade de dirigir e operar máquinas Pacientes que estão usando digoxina devem ter cuidado ao dirigir, operar máquinas ou participar de atividades perigosas.
+
+Gravidez Risco Categoria C. O médico deve considerar o uso de digoxina na gravidez apenas quando os benefícios clínicos esperados do tratamento da mãe superarem qualquer possível risco para o feto.
+
+Lactação Embora digoxina esteja presente no leite materno, as quantidades são mínimas, por isso o medicamento não é contraindicado durante a amamentação.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica ou do cirurgiãodentista.
+
+Principais interações com medicamentos, alimentos e testes laboratoriais Interações entre medicamento e alimento Digoxina pode ser ingerida com a maioria dos alimentos. Entretanto, você deve evitar tomá-la com alimentos ricos em fibras, que podem reduzir a quantidade de digoxina absorvida.
+
+Interações entre medicamento e exame laboratorial O uso de digoxina pode alterar o eletrocardiograma (gerando, por exemplo, resultados falso-positivos de alterações no exame); portanto, se fizer um eletrocardiograma, avise à pessoa que conduz o teste que você está tomando digoxina.
+
+Digoxina pode interagir com muitos outros medicamentos, incluindo aqueles adquiridos sem prescrição médica.
+
+Caso faça uso de algum medicamento verifique com seu médico a possibilidade dele interagir com a digoxina.
+
+Não use nenhum medicamento junto com digoxina sem orientação médica.
+
+Se você responder “sim” a alguma das questões abaixo, avise seu médico antes de usar este medicamento.
+
+•  Você usa medicamentos para tratar o câncer?
+
+•  Você usa medicamentos para tratar pressão alta?
+
+•  Você usa medicamentos para tratar epilepsia?
+
+•  Você usa medicamentos para problemas de ritmo cardíaco?
+
+•  Você usa medicamentos para tratar problemas de estômago ou intestino, incluindo laxantes ou outros para diarreia, indigestão ou vômito?
+
+•  Você usa drogas bloqueadoras de receptores beta-adrenérgicos ou bloqueadores de canais de cálcio?
+
+•    Você utiliza drogas que diminuem os níveis de potássio no sangue, como diuréticos, sais de lítio, corticosteróides, carbenoxolona?
+
+•  Você faz uso de cálcio? (especial atenção é necessária no caso dessa utilização ser por via intravenosa) •  Você utiliza inibidores da ECA, amiodarona, flecainida, prazosina, propafenona, quinidina, espironolactona, antibióticos macrolídeos, tetraciclina, gentamicina, itraconazol, quinina, trimetoprima, alprazolam, indometacina, propantelina, nefazodona, atorvastatina, ciclosporina, verapamil, epoprostenol, carvedilol, felodipina, nifedipina, diltiazem, inibidores da P-glicoproteína ou tiapamil?
+
+•    Você utiliza antiácidos, caolin-pectina, laxantes, colestiramina, acarbose, sulfasalazina, neomicina, rifampicina, citostáticos, fenitoína, metoclopramida, penicilamina, adrenalina, salbutamol ou Hypericum perforatum (erva de São João)?
+
+Este medicamento não deve ser usado por mulheres grávidas sem orientação médica. Informe imediatamente seu médico em caso de suspeita de gravidez.
+
+Não existem contraindicações relativas a faixas etárias.
+
+Informe ao seu médico o aparecimento de reações indesejáveis.
+
+Informe ao seu médico ou cirurgião dentista se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para sua saúde.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Mantenha o medicamento na embalagem original. Os comprimidos devem ser armazenados em temperatura ambiente (entre 15ºC e 30ºC) e protegidos da luz e da umidade. O prazo de validade do medicamento é de 24 meses a partir da data de fabricação, impressa na embalagem externa.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido.
+
+Para sua segurança, mantenha o medicamento na embalagem original.
+
+Características físicas e organolépticas Comprimido circular branco isento de material estranho.
+
+Antes de usar, observe o aspecto do medicamento.
+
+Caso você observe alguma mudança no aspecto do medicamento que ainda esteja no prazo de validade, consulte o médico ou o farmacêutico para saber se poderá utilizá-lo.
+
+TODO MEDICAMENTO DEVE SER MANTIDO FORA DO ALCANCE DAS CRIANÇAS.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Modo de usar Uso exclusivamente oral.
+
+Posologia Siga a orientação do seu médico, só ele saberá lhe indicar a melhor dose. A dose de digoxina deve ser ajustada individualmente pelo seu médico, de acordo com a sua idade, peso corporal e função renal. As doses sugeridas devem ser interpretadas somente como uma diretriz inicial.
+
+Você deve ingerir o medicamento sempre no mesmo horário, todos os dias. Siga à risca as instruções do seu médico.
+
+A UTILIZAÇÃO DE DOSES MAIORES QUE A PRESCRITA PELO MÉDICO PODE SER PERIGOSA.
+
+Controle Não há diretrizes rígidas quanto à faixa de concentração sérica mais eficaz, mas a maioria dos pacientes apresentará bons resultados, com baixo risco de desenvolver sinais e sintomas de intoxicação quando as concentrações de digoxina no sangue estiverem entre 0,8 ng/mL (1,02 nmol/L) a 2,0 ng/mL (2,56 nmol/L).
+
+Acima desta faixa tornam-se mais frequentes sinais e sintomas de intoxicação, sendo muito provável a ocorrência de intoxicação quando os níveis sanguíneos ultrapassarem a 3,0 ng/mL (3,84 nmol/L).
+
+Adultos e crianças com mais de 10 anos:
+
+Dose de ataque 750 a 1500 µg (0,75 a 1,5 mg) como dose única.
+
+Dose lenta de ataque Uma dose de 250 a 750 µg (0,25 a 0,75 mg) pode ser administrada diariamente, por 1 semana, seguida da uma dose de manutenção apropriada. Uma resposta clínica deve ser observada dentro de uma semana.
+
+Nota: a escolha entre a dose rápida ou lenta de ataque depende do estado clínico do paciente e da urgência da condição.
+
+Dose de Manutenção Seu médico deverá avaliar qual a dose mais adequada para seu caso. Na prática, isto significa que a maior parte dos pacientes terá doses de manutenção diárias entre 125 e 150 µg (0,125 – 0,75 mg) de digoxina. Entretanto para aqueles que demonstrarem aumento da sensibilidade aos eventos adversos da digoxina, uma dose diária de 62,5 µg (0, 0625 mg) ou menor poderá ser suficiente.
+
+Neonatos e crianças menores de 10 anos:
+
+Caso algum glicosídeo cardíaco tenha sido administrado num período de até 2 semanas antes do início da terapia com digoxina, deduz-se que a dose de ataque ótima de digoxina será inferior à recomendada. Em recémnascidos, particularmente em crianças prematuras, o clearence renal de digoxina é menor, logo deverão ser consideradas reduções nas doses recomendadas.
+
+Por outro lado, no período imediato após o nascimento, o bebê geralmente requer doses proporcionalmente mais altas que as calculadas para adultos, baseando-se na área de superfície corporal, como indicado na tabela abaixo.
+
+Crianças maiores de 10 anos requerem doses de adultos, proporcionais ao peso corporal.
+
+Dose de ataque oral Deve ser administrada de acordo com a seguinte tabela:
+
+Neonatos prematuros < 1,5 kg 25 µg/kg em 24 horas Neonatos prematuros 1,5 kg a 2,5 kg 30 µg/kg em 24 horas Neonatos termos até 2 anos 45 µg/kg em 24 horas 2 a 5 anos              35 µg/kg em 24 horas 5 a 10 anos             25 µg/kg em 24 horas A dose de ataque deve ser administrada em doses divididas, com aproximadamente metade da dose total na primeira tomada e o restante, fracionado em doses administradas a intervalos de 4 a 8 horas. A resposta clínica deverá se avaliada sempre antes da administração de cada dose adicional.
+
+Dose de Manutenção A dose de manutenção deve ser administrada de acordo com a tabela abaixo:
+
+Neonatos prematuros       Dose diária = 20% da dose de ataque de 24 horas Neonatos a termo e crianças até 10 anos Dose diária = 25% da dose de ataque de 24 horas Estes esquemas de dosagem são indicados por diretrizes e devem sofrer criteriosa avaliação clínica, devendo a monitoração dos níveis séricos de digoxina ser utilizada como base para ajustes na dosagem nos pacientes pediátricos.
+
+Pacientes idosos:
+
+A tendência de pacientes idosos apresentarem alterações da função renal ou pouca massa corporal influencia a farmacocinética da digoxina de tal forma que níveis altos de digoxina no plasma poderão causar toxicidade rapidamente, a menos que sejam usadas doses de digoxina, inferiores às de pacientes adultos. Os níveis de digoxina sérica devem ser checados regularmente, assim como os níveis de potássio, pois os idosos podem desenvolver aumento dos níveis sanguíneos de potássio durante o uso da digoxina.
+
+Siga a orientação de seu médico, respeitando sempre os horários, as doses e a duração do tratamento.
+
+Não interrompa o tratamento sem o conhecimento do seu médico.
+
+Não use o medicamento com o prazo de validade vencido.
+
+Antes de usar observe o aspecto do medicamento Este medicamento não deve ser partido, aberto ou mastigado.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Se você se esquecer de uma dose, tome-a assim que se lembrar e continue o tratamento como antes. Não tome doses duplas do medicamento para compensar as que você esqueceu. Caso se esqueça de tomar mais de uma dose, consulte o farmacêutico ou o médico para que eles possam orientar você.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico ou cirurgião-dentista.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Como qualquer medicamento, digoxina pode causar efeitos indesejáveis. Entretanto, muitos deles ocorrem porque a dose prescrita é mais alta do que o necessário, e seu médico pode precisar ajustá-la.
+
+Reações comuns (ocorrem entre 1% e 10% dos pacientes que utilizam este medicamento) •  Desorientação, vertigem (tontura) e problemas de visão (vista turva ou amarelada) •  Mudanças da frequência cardíaca ou dos batimentos cardíacos (seu coração pode bater mais devagar ou de forma irregular) •  Sensação de enjoo, diarreia •  Manifestações alérgicas da pele (inclusive vermelhidão e coceira) Reação incomum (ocorre entre 0,1% e 1% dos pacientes que utilizam este medicamento) •  Depressão Reações muito raras (ocorrem em menos de 0,01% dos pacientes que utilizam este medicamento) •   Diminuição da contagem de plaquetas (células que ajudam seu sangue a coagular), o que pode causar hematomas •  Perda de contato com a realidade, alucinações, desequilíbrio emocional •  Dor de estômago grave, perda de apetite, dor de cabeça, cansaço, fraqueza •  Sensação generalizada de mal-estar •  Alterações graves do músculo do coração •  Ginecomastia (crescimento das mamas) em homens após tratamento de longa duração Se algum dos efeitos indesejáveis se agravarem ou se você notar algum efeito não descrito nesta bula, avise seu médico ou farmacêutico.
+
+A primeira e mais frequente manifestação de superdosagem da digoxina em crianças e bebês é o aparecimento de arritmias cardíacas (alteração dos batimentos cardíacos). Procure imediatamente o médico se isto ocorrer.
+
+Informe ao seu médico, cirurgião-dentista ou farmacêutico o aparecimento de reações indesejáveis pelo uso do medicamento.
+
+Informe a empresa sobre o aparecimento de reações indesejáveis e problemas com este medicamento, entrando em contato através do Sistema de Atendimento ao Consumidor (SAC).
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE
+
+MEDICAMENTO?
+
+Sintomas e sinais ver item 8 (“Quais os males que este medicamento pode me causar?”).
+
+A maioria das manifestações de toxicidade em crianças ocorre durante ou logo após a administração da dose de ataque da digoxina.
+
+A superdosagem com digoxina pode ser fatal. Em caso de superdosagem ou de suspeita de superdosagem procure socorro médico imediatamente. A assistência médica deve ser rápida para adultos e crianças.
+
+A primeira e mais frequente manifestação de superdosagem da digoxina em adultos e crianças é o aparecimento de arritmias cardíacas (alteração dos batimentos cardíacos).
+
+Outros sintomas muito comuns incluem:
+
+- Sintomas gastrintestinais, como redução do apetite, náuseas e vômitos. Entretanto, náuseas e vômitos não são muito comuns em bebês e crianças.
+
+- Sintomas neurológicos, como tontura, fadiga e mal-estar.
+
+- Distúrbios visuais.
+
+Em casos de superdosagem outros sintomas também foram relatados como: dor abdominal, sonolência e distúrbios comportamentais.
+
+Adultos Em adultos sem doença cardíaca clinicamente observável, a ingestão de 10 a 15mg de digoxina resulta na morte em cerca da metade dos indivíduos. A ingestão de doses superiores a 25 mg, certamente resultará em morte, sendo a toxicidade progressiva, sensível somente ao tratamento com anticorpos (fração Fab) específicos para digoxina (Digibind®).
+
+Manifestações Cardíacas Manifestações cardíacas são os sinais mais frequentes e graves de intoxicação aguda e crônica. O pico dos efeitos cardiológicos geralmente ocorre 3 a 6 horas após a superdosagem e pode persistir pelas próximas 24h ou mais. A intoxicação por digoxina pode resultar em qualquer tipo de arritmia. Diversos transtornos no ritmo cardíaco em um mesmo paciente são comuns (ex.: taquicardia atrial paroxística, com bloqueio atrioventricular variável, aceleração do ritmo juncional, fibrilação atrial lenta, com variação muito discreta da frequência ventricular e taquicardia ventricular bidirecional).
+
+As arritmias mais frequentes são as contrações ventriculares prematuras, seguidas de bigeminismo e de trigeminismo.
+
+Bradicardia sinusal e outras bradicardias também são muito comuns.
+
+Também são comuns os bloqueios cardíacos de primeiro, segundo e terceiro graus, além da dissociação AV.
+
+Toxidade precoce pode se manifestar apenas por prolongamento do intervalo PR.
+
+Taquicardia ventricular também pode ser uma manifestação de toxicidade.
+
+Fibrilação ventricular ou assistolia, levando à parada cardíaca por toxicidade da digoxina são geralmente fatais.
+
+Uma superdosagem aguda pode resultar em hipercalemia leve ou pronunciada pela inibição da bomba de sódiopotássio. A hipocalemia pode contribuir para a toxicidade.
+
+Manifestações Não-cardíacas Sintomas gastrintestinais são muito comuns na intoxicação aguda ou crônica. Os sintomas precedem as manifestações cardíacas em aproximadamente metade dos pacientes, na maioria dos relatos da literatura.
+
+Anorexia, náusea e vômitos têm sido relatados com uma incidência de até 80%. Esses sintomas geralmente se apresentam logo no início de uma superdosagem.
+
+Manifestações neurológicas e visuais ocorrem na intoxicação aguda ou crônica. Vertigem e vários transtornos do sistema nervoso central, fadiga e mal-estar são muito comuns. A perturbação visual mais frequente é uma aberração no “colorido” da visão (predominância de verde-amarelo). Esses sintomas neurológicos e visuais persistem mesmo após a resolução de outros sinais de toxicidade.
+
+Crianças Em crianças de 1 a 3 anos de idade, sem doença cardíaca clinicamente observável, uma superdosagem de digoxina de 6-10 mg resulta em morte da metade dos pacientes e em evolução fatal em todos os pacientes no caso de doses superiores a 10 mg de digoxina, caso não seja administrado tratamento por fragmentos (região Fab) do anticorpo digoxina ligante (DIGIBIND®).
+
+A maioria das manifestações de toxicidade em crianças ocorre durante ou logo após a administração da dose de ataque com digoxina.
+
+Manifestações Cardíacas As mesmas arritmias ou combinação de arritmias que ocorrem em adultos podem ocorrer em crianças.
+
+Taquicardia sinusal, taquicardia supraventricular e fibrilação atrial rápida são vistas menos frequentemente na população pediátrica.
+
+Pacientes pediátricos são mais predispostos a apresentar transtorno da condução AV, ou bradicardia sinusal.
+
+Ectopia ventricular é menos comum, entretanto na superdosagem, foram relatadas ectopia ventricular, taquicardia ventricular e fibrilação ventricular.
+
+Em neonatos, bradicardia sinusal ou bloqueio sinusal e/ou prolongamento do intervalo PR, frequentemente são sinais de toxicidade. A bradicardia sinusal é comum em bebês e crianças. Em crianças maiores, o bloqueio AV é o transtorno de condução mais comum.
+
+Qualquer arritmia ou alteração da condução cardíaca que se desenvolva em uma criança medicada com digoxina, deve ser considerada como causada pela digoxina, até que se prove o contrário.
+
+Manifestações Não-cardíacas Como observado em adultos, as manifestações não-cardíacas mais frequentes são as gastrintestinais, as do SNC e as visuais. Entretanto, náusea e vômitos não são frequentes em bebês e crianças menores.
+
+Em casos de superdosagem os seguintes sintomas foram observados:
+
+Além dos efeitos indesejáveis, observados nas dosagens recomendadas, perda de peso em pacientes mais idosos e transtornos do crescimento em crianças, dor abdominal em virtude de isquemia mesentérica arterial, sonolência e distúrbios de comportamento, incluindo manifestações psicóticas, foram relatados na superdosagem.
+
+Tratamento Após ingestão recente, como envenenamento acidental ou deliberado, a sobrecarga disponível para absorção deve ser reduzida por lavagem gástrica.
+
+Pacientes com ingestão de grandes quantidades de digitálicos devem receber altas doses de carvão ativado, a fim de prevenir absorção e ligação da digoxina ao intestino durante recirculação enteroentérica.
+
+Caso ocorra hipocalemia, esta deve ser corrigida com suplementos de potássio, seja por via oral ou intravenosa, dependendo da urgência da situação. Nos casos de superdosagem de digoxina, pode ocorrer hipercalemia, decorrente da liberação de potássio a partir do músculo esquelético, devendo-se, portanto, conhecer o nível de potássio sérico antes de se administrar potássio em situação de superdosagem de digoxina.
+
+A bradiarritmia pode responder à atropina, mas pode ser necessário o uso de marcapasso cardíaco temporário.
+
+Arritmias ventriculares podem responder à lidocaína e fenitoína.
+
+Diálise não é particularmente eficaz na remoção de digoxina corporal em intoxicação que ameace a vida.
+
+DIGIBIND é um tratamento específico para intoxicação com digoxina e é muito efetivo. A administração intravenosa de anticorpos (fração Fab) específicos para digoxina, resulta em reversão rápida das complicações associadas ao envenenamento grave por digoxina, digitoxina e glicosídeos relacionados. Para maiores detalhes, consultar a literatura sobre o DIGIBIND.
+</text>

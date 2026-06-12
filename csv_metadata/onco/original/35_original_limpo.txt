@@ -1,0 +1,259 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> panitumumabe Sol inj </id>
+
+    <doenca>cancer colorretal metastatico</doenca>
+    <nome medicamento>panitumumabe</nome medicamento>
+    <nome_comercial>NA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>solucao injetavel</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+VECTIBIX contém o princípio ativo panitumumabe. VECTIBIX é usado no tratamento do câncer colorretal metastático (câncer do intestino) em pacientes adultos. Metastático significa que o câncer se espalhou para outras partes do corpo a partir de onde começou.
+
+Câncer colorretal metastático (CCRm) do tipo RAS selvagem:
+
+RAS é uma família de genes, incluindo KRAS e NRAS, que controlam o crescimento celular. Formas mutadas (modificadas) do gene RAS podem ser encontradas em alguns tipos de cânceres colorretais e podem fazer com que as células cancerosas cresçam e se espalhem pelo corpo. O Vectibix, isolado ou em combinação com quimioterapia (medicamentos para interromper o crescimento das células cancerosas), deve ser usado apenas em cânceres colorretais sem mutação RAS.
+
+Câncer colorretal metastático (CCRm) com mutação KRAS G12C:
+
+Vectibix é usado em combinação com sotorasibe para tratar adultos com câncer colorretal metastático:
+
+•  Se você tem câncer colorretal com um tipo de mutação conhecida como KRAS G12C e •  Se você recebeu tratamento com quimioterapia e ele não funcionou ou não está mais funcionando O profissional de saúde deve ter testado o seu câncer para a mutação KRAS G12C e ter certeza de que o Vectibix em combinação com o sotorasibe é adequado para você.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+O panitumumabe pertence a um grupo de medicamentos chamados anticorpos monoclonais. Os anticorpos monoclonais são proteínas que reconhecem e se agregam (ligam-se) especificamente a outras proteínas específicas no corpo. Panitumumabe reconhece e se liga especificamente a uma proteína conhecida como receptor do fator de crescimento epidérmico (EGFR), encontrado na superfície de algumas células cancerígenas. Quando os fatores de crescimento (outras proteínas do corpo) se ligam ao EGFR, a célula cancerígena é estimulada a crescer e se dividir. O panitumumabe se liga ao EGFR e evita que as células cancerígenas recebam as mensagens que necessitam para crescer e se dividirem.
+
+Estudos em laboratório e em humanos demonstraram que o uso do Vectibix em combinação com o sotorasibe é melhor no tratamento do câncer colorretal com mutação KRAS G12C do que o uso do Vectibix ou do sotorasibe isoladamente.
+
+Se tiver alguma dúvida sobre como o Vectibix funciona ou por que este medicamento foi prescrito para você, pergunte ao profissional de saúde.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Não utilize VECTIBIX:;
+
+  se você for alérgico ao panitumumabe ou a qualquer outro componente deste medicamento.
+
+1
+
+  se teve anteriormente ou tiver evidência de pneumonite intersticial (inchaço dos pulmões que causa tosse e dificuldade respiratória) ou fibrose pulmonar (cicatrização ou espessamento do tecido pulmonar com dificuldade respiratória);
+
+  por si só ou em combinação com quimioterapia, se seu teste RAS demonstrarem que você possui tumor RAS mutado, ou se o status de seu tumor RAS for desconhecido. Consulte um profissional de saúde se você não estiver certo sobre o status de seu tumor RAS.
+
+Este medicamento é contraindicado para menores de 18 anos, devido à insuficiência de dados de segurança e eficácia.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Advertências e precauções Converse com o profissional de saúde antes de receber Vectibix. O profissional de saúde pode fazer avaliações adicionais e decidir reduzir a dose de Vectibix ou interromper o tratamento se você tiver:
+
+  Reações cutâneas e danos aos tecidos. Você pode apresentar erupções cutâneas ou inchaço grave e danos aos tecidos. A erupção cutânea geralmente envolve o rosto, a parte superior do tórax e as costas, mas pode afetar qualquer área do corpo. Algumas erupções foram associadas à vermelhidão, coceira e descamação da pele. Essa reação cutânea pode se tornar grave. Em alguns casos, pode causar feridas infeccionadas que requerem tratamento médico e/ou cirúrgico, ou causar infecções graves na pele. Além disso, pele seca, fissuras (rachaduras na pele) nos dedos das mãos ou dos pés, infecção na pele ao redor da unha do pé ou da mão (paroníquia), ou inflamação foram relatadas. Recomenda-se usar protetor solar e chapéus e limitar a exposição ao sol enquanto estiver recebendo Vectibix, pois a luz solar pode piorar qualquer reação cutânea que possa ocorrer. Seu profissional de saúde também pode prescrever medicamentos adicionais. Se esses sintomas piorarem ou se tornarem intoleráveis, informe ao profissional de saúde imediatamente; ele poderá interromper o tratamento com Vectibix e controlar seu problema de pele conforme necessário. O profissional de saúde poderá encaminhá-lo a um especialista de pele para uma avaliação mais detalhada.
+
+  Dor e vermelhidão nos olhos. Informe ao profissional de saúde se você faz uso de lentes de contato e/ou se tem histórico de problemas oculares como, por exemplo, secura grave nos olhos, inflamação da parte frontal do olho (córnea) ou úlceras (feridas) envolvendo a parte frontal do olho. Se desenvolver vermelhidão e dor aguda nos olhos ou agravamento desses sintomas, aumento de lacrimejamento, visão turva e/ou sensibilidade à luz, informe ao profissional de saúde imediatamente, pois poderá precisar de tratamento urgente.
+
+  Reações à infusão. Durante ou após o tratamento, você poderá apresentar uma reação à infusão. Os sintomas podem incluir dor de cabeça, erupções na pele, coceira ou urticária, rubor, inchaço (face, lábios, boca, ao redor dos olhos e área da garganta), batimento cardíaco rápido e irregular, pulso acelerado, sudorese, náusea, vômitos, tontura, dificuldade de respirar ou engolir, ou diminuição da pressão arterial, que pode ser grave ou de risco à vida e, muito raramente, pode levar à morte. Se você apresentar qualquer um desses sintomas, notifique o profissional de saúde imediatamente.
+
+  Reações alérgicas. Muito raramente, reações alérgicas graves (hipersensibilidade) envolvendo sintomas semelhantes a uma reação à infusão (consulte “Reações à infusão”) ocorreram mais de 24 horas depois do tratamento e resultaram em um desfecho fatal. Procure ajuda médica imediatamente se você sentir sintomas de reação alérgica ao Vectibix, incluindo dentre outras, dificuldade de respirar, aperto no peito, sensação de asfixia, tontura ou desmaios.
+
+  Problemas pulmonares ou respiratórios. Informe ao profissional de saúde ou procure ajuda médica de emergência imediatamente, se você apresentar falta de ar, tosse ou febre novas ou agravadas.
+
+2
+
+  Distúrbios de eletrólitos. Alguns pacientes que tomaram Vectibix apresentaram níveis baixos de determinados eletrólitos, como magnésio, cálcio e potássio. O profissional de saúde verificará os níveis de eletrólitos no seu sangue antes de você iniciar o tratamento com Vectibix. O profissional de saúde também verificará os níveis de magnésio e cálcio no seu sangue periodicamente durante o tratamento, e por até 8 semanas após o término do seu tratamento. Se esses níveis estiverem muito baixos, o profissional de saúde poderá prescrever para você suplementos apropriados.
+
+  Insuficiência renal aguda. A insuficiência renal aguda ocorre quando os rins param de funcionar e o corpo retém quantidades excessivas de fluidos e resíduos nocivos porque eles não são filtrados do sangue. Isso tem sido associado a diarreia grave e desidratação. Se você tiver fezes líquidas com frequência, o que pode causar desidratação (diarreia grave), informe ao seu profissional de saúde imediatamente, pois você pode perder muita água do corpo (ficar desidratado) e isso pode danificar seus rins.
+
+Com base em sua idade ou em sua saúde geral, o profissional de saúde discutirá sua capacidade de tolerância ao Vectibix juntamente com seu tratamento quimioterápico.
+
+Outros medicamentos e Vectibix Informe ao profissional de saúde se estiver tomando, tiver tomado recentemente ou se planeja tomar qualquer outro medicamento. Isso inclui medicamentos obtidos sem receita médica, vitaminas e fitoterápicos.
+
+Vectibix não deve ser usado em combinação com bevacizumabe (outro anticorpo monoclonal usado para tratar câncer de intestino) ou com uma combinação de quimioterapia conhecida como “IFL”.
+
+O Vectibix não deve ser usado isolado ou em combinação com quimioterapia em pacientes cujo teste RAS mostra que eles têm tumor RAS mutante ou se o status do tumor RAS for desconhecido.
+
+Gravidez e amamentação Os efeitos do Vectibix em mulheres grávidas não são conhecidos.
+
+Informe ao profissional de saúde se você estiver gravida, achar que está grávida, ou se você pretende engravidar. VECTIBIX pode afetar seu feto ou sua capacidade de manter a gravidez.
+
+Se for uma mulher em idade fértil, deve utilizar métodos contraceptivos efetivos durante o tratamento com VECTIBIX e por 2 meses após a última dose.
+
+Informe ao profissional de saúde se estiver amamentando ou planejando amamentar. Não é recomendado amamentar seu bebê durante o tratamento com Vectibix e por até 2 meses após a última dose.
+
+Categoria C para gravidez:
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica ou do cirurgiãodentista.
+
+Uso criterioso no aleitamento ou na doação de leite humano:
+
+O uso deste medicamento no período da lactação depende da avaliação e acompanhamento do seu médico ou cirurgião-dentista.
+
+Fertilidade - É desconhecido se VECTIBIX afeta a fertilidade humana.
+
+Crianças e adolescentes Vectibix não foi estudado em crianças nem em adolescentes.
+
+Uso em idosos – O ajuste de dose não é necessário para pacientes idosos. Em estudos clínicos, não foram observadas diferenças globais de segurança ou eficácia entre pacientes de ≥ 65 anos e pacientes mais jovens tratados com VECTIBIX em monoterapia ou em combinação com sotorasibe.
+
+Condução e uso de máquinas – Você deve falar com seu médico antes de dirigir ou utilizar máquinas, pois alguns efeitos colaterais podem prejudicar sua capacidade de fazê-lo com segurança.
+
+Informações importantes sobre alguns dos ingredientes do VECTIBIX - Esse medicamento contém 3,45 mg de sódio (o principal componente do sal de mesa/de cozinha) em cada unidade de ml. Isso é equivalente a 0,17% da ingestão diária máxima de sódio recomendada para um adulto.
+
+3
+
+Informe ao seu médico se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para a sua saúde.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Armazenar em geladeira (2°C a 8°C). Não congelar. Manter na embalagem original para proteger da luz.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+Prazo de validade: 36 meses.
+
+VECTIBIX é um líquido incolor que pode conter partículas translúcidas a brancas visíveis. O Vectibix é fornecido em um frasco-ampola de vidro. Cada embalagem contém um frasco-ampola Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+Todo medicamento deve ser mantido fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+VECTIBIX é administrado em um estabelecimento de saúde, sob a supervisão de um profissional de saúde com experiência no uso de medicamentos contra o câncer.
+
+Vectibix é administrado por via intravenosa (em uma veia) com uma bomba de infusão (um dispositivo que permite uma infusão lenta).
+
+Câncer colorretal metastático (CCRm) do tipo RAS selvagem:
+
+A dose recomendada de VECTIBIX é de 6 mg/kg (miligramas por quilograma de peso corporal) administrada uma vez a cada duas semanas. O tratamento será geralmente administrado durante um período de aproximadamente 60 minutos.
+
+Câncer colorretal metastático (CCRm) com mutação KRAS G12C:
+
+A dose recomendada de VECTIBIX é de 6 mg/kg administrado a cada duas semanas em infusão intravenosa (IV) em combinação com sotorasibe.
+
+A primeira dose de sotorasibe é administrada antes da primeira infusão de Vectibix.
+
+Se você tomar sotorasibe em combinação com Vectibix para câncer colorretal, tome sotorasibe antes da primeira dose de Vectibix. Se você interromper o sotorasibe, também deve interromper o Vectibix.
+
+Como utilizar VECTIBIX é destinado apenas para uso único. Antes da infusão, VECTIBIX deve ser diluído em cloreto de sódio a 0,9% por um profissional de saúde utilizando técnica asséptica. O frasco não seve ser sacudido ou agitado vigorosamente. VECTIBIX deve ser inspecionado visualmente antes da administração. A solução deve ser incolor e pode conter partículas proteináceas, amorfas, translúcidas a brancas visíveis (as quais serão removidas por filtração em linha). Não administrar VECTIBIX se sua aparência não estiver conforme descrição acima.
+
+VECTIBIX deve ser administrado por via intravenosa (em uma veia) com uma bomba de infusão (um dispositivo que permite uma infusão lenta). É importante utilizar um filtro apropriado.
+
+Siga a orientação do seu médico, respeitando sempre os horários, as doses e a duração do tratamento.
+
+Não interrompa o tratamento sem o conhecimento do seu médico.
+
+4
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Se perder uma dose, converse com seu médico.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Como qualquer medicamento, VECTIBIX pode causar efeitos colaterais, embora possam não ocorrer em todas as pessoas.
+
+Possíveis efeitos colaterais de Vectibix em monoterapia ou em combinação com quimioterapia à base de oxaliplatina ou irinotecano, podem incluir:
+
+Muito comuns (podem afetar mais de 1 em 10 pessoas):
+
+  Baixos níveis de potássio no sangue (hipocalemia); baixos níveis de magnésio no sangue (hipomagnesemia);
+
+  Inflamação dos olhos (conjuntivite);
+
+  Infecção na pele ao redor da unha do pé ou da mão (paroníquia)   Sensação anormal, como formigamento (parestesia)   Erupção local ou generalizada que pode ser irregular (com ou sem manchas), causar coceira, vermelhidão ou ser escamosa;
+
+  Perda de cabelo (alopecia); bolhas/feridas na boca (úlceras bucais, estomatite, inflamação da mucosa)Diarreias; náuseas; vômitos; dor abdominal; constipação; diminuição de apetite; diminuição do peso;
+
+  Cansaço extremo (fadiga); febre ou temperatura elevada (pirexia); falta ou perda de força (astenia);
+
+acúmulo de fluidos nas extremidades (edema periférico);
+
+  Dor nas costas;
+
+  Dificuldade para dormir (insônia);
+
+  Tosse; dispnéia (dificuldades para respirar).
+
+Comuns (podem afetar até 1 em 10 pessoas):
+
+  Baixo número de glóbulos brancos (leucopenia);
+
+  Baixos níveis de magnésio no sangue (hipomagnesemia)   Baixos níveis de cálcio no sangue (hipocalcemia);
+
+  Baixos níveis de fosfato no sangue (hipofosfatemia)   Alto nível de glicose no sangue (hiperglicemia);
+
+  Crescimento dos cílios; fluxo de lágrimas (aumento do lacrimejamento); vermelhidão dos olhos (hiperemia ocular); olhos secos; coceira nos olhos (prurido nos olhos); irritação nos olhos; inflamação das pálpebras (blefarite);
+
+  Úlceras na pele; crosta de ferida; excesso de crescimento de pêlos (hipertricose); crescimento anormal de pelos; vermelhidão e inchaço das palmas das mãos ou solas dos pés (síndrome mão-pé); excesso de suor (hiperidrose); reação na pele (dermatite);
+
+  Infecção disseminada abaixo da pele (celulite); inflamação do folículo piloso (foliculite); infecção localizada; erupção cutânea com bolhas cheias de pus (erupção pustular); infecção do trato urinário;
+
+  Doença das unhas; quebra ou rachaduras nas unhas das mãos ou dos pés (onicoclase);
+
+  Desidratação;
+
+  Boca seca; indigestão (dispepsia); sangramento retal (hemorragia retal); inflamação dos lábios (queilite); azia (refluxo gastroesofágico); dor abdominal inferior.
+
+  Úlcera na boca (úlcera aftosa)   Dor; calafrios; dor nas extremidades; reação imune (hipersensibilidade).
+
+  Coágulo de sangue no pulmão (embolia pulmonar) cujos sintomas podem ser início repentino de falta de ar ou dor no peito; sangramento do nariz (epistaxe); coágulo sanguíneo em veia profunda (trombose venosa profunda)rubor;
+
+  Dor de cabeça; vertigem; ansiedade.
+
+Incomuns (podem afetar até 1 em 100 pessoas):
+
+  Morte de células da pele (necrose da pele) 5
+
+  Reação grave da pele com bolhas na pele, boca, olhos e genitais (síndrome de Stevens Johnson)   Reação grave da pele com bolhas na pele (necrólise epidérmica tóxica)   Uma condição grave de ulceração da parte frontal do olho (córnea) que requer tratamento urgente (ceratite ulcerativa);
+
+  Inflamação da parte frontal do olho (córnea)(ceratite);
+
+  Irritação das pálpebras; lábios rachados e/ou lábios secos; infecção dos olhos; infecção das pálpebras;
+
+secura nasal; crescimento piloso excessivo (hirsutismo).
+
+  Inflamação dos pulmões (doença intersticial pulmonar).
+
+  Distúrbios nas unhas, como unha encravada, unhas quebradas ou rachadas (onicólise) e infecção nas unhas   Os efeitos colaterais podem ocorrer durante ou após a administração do medicamento pela veia (Reações à infusão). Em geral, os sintomas podem incluir vermelhidão, sensibilidade ou dor, hematomas, calor, inchaço, coceira e/ou infecção no local da infusão   Síndrome colinérgica (um conjunto de sintomas que inclui, entre outros, salivação, cãibras, espasmos e fraqueza muscular, diarreia e visão embaçada)   Angioedema. O angioedema é quando uma parte do corpo fica subitamente inchada. Em geral, você terá uma erupção cutânea elevada e com coceira (urticária) se uma reação alérgica tiver causado o inchaço.
+
+As áreas do corpo comumente afetadas incluem: o rosto - especialmente os lábios, a língua e as pálpebras, as mãos ou os pés.
+
+Os possíveis efeitos colaterais do Vectibix, quando usado em combinação com o sotorasibe, podem incluir:
+
+Muito comuns (podem afetar mais de 1 em 10 pessoas):
+
+  Erupção cutânea, incluindo erupção cutânea semelhante à acne (dermatite acneiforme)   Pele seca:
+
+  Coceira   Distúrbio da unha incluindo pele infectada ou rachada ao redor da unha, unhas que se separam do leito ungueal e alterações na cor ou na textura das unhas   Aberturas na pele   Erupção cutânea, vermelhidão, dor, bolhas, sangramento ou inchaço nas palmas das mãos ou nas solas dos pés, chamados de reações cutâneas mão-pé (eritrodisestesia palmar-plantar [EPP])   Diarreia   Náusea   Vômitos   Úlceras na boca (estomatite)   Constipação   Dor no estômago   Sensação de cansaço (fadiga)    Dor de cabeça   Diminuição do apetite   Níveis baixos de magnésio no sangue   Níveis baixos de potássio no sangue Comuns (podem afetar até 1 em 10 pessoas):
+
+  Aberturas na pele (fissuras na pele)   Aumento das enzimas hepáticas   Baixos níveis de cálcio no sangue (hipocalcemia)   Inflamação do olho (conjuntivite).
+
+  Uma condição grave de ulceração da parte frontal do olho (córnea) que requer tratamento urgente (ceratite ulcerativa)   Inflamação da parte frontal do olho (córnea) (ceratite):
+
+6
+
+Relatório de efeitos colaterais Esses não são todos os possíveis efeitos colaterais do Vectibix quando usado isoladamente, em combinação com quimioterapia ou com sotorasibe. Informe ao seu profissional de saúde se você apresentar algum efeito colateral.
+
+Atenção: No caso de eventos adversos, notifique, por meio do Sistema VigiMed , disponível no portal da Anvisa.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA
+
+DESTE MEDICAMENTO?
+
+Sintomas – Doses até 9 mg/kg foram testadas em estudos clínicos. Houve relatos de sobredose com doses até, aproximadamente, duas vezes da dose terapêutica recomendada (12 mg/kg). Os eventos adversos observados incluem toxicidade cutânea, diarréia, desidratação e fadiga (cansaço extremo) e foram consistentes com o perfil de segurança na dose recomendada.
+</text>

@@ -1,0 +1,219 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> rituximabe Sol inj </id>
+
+    <doenca>linfoma nao Hodgkin, artrite reumatoide, leucemia linfoide cronica, granulomatose com poliangiite, poliangiite microscopica</doenca>
+    <nome medicamento>rituximabe</nome medicamento>
+    <nome_comercial>MabThera</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>solucao injetavel</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+MabThera é indicado para o tratamento de:
+
+Linfoma não Hodgkin
+
+- Pacientes adultos com linfoma não Hodgkin de células B, baixo grau ou folicular, CD20 positivo, recidivado ou resistente à quimioterapia;
+
+- Pacientes adultos com linfoma não Hodgkin difuso de grandes células B, CD20 positivo, em combinação à quimioterapia CHOP;
+
+- Pacientes adultos com linfoma não Hodgkin de células B, folicular, CD20 positivo, não tratados previamente, em combinação com quimioterapia;
+
+- Pacientes adultos com linfoma folicular, como tratamento de manutenção, após resposta à terapia de indução.
+
+MabThera® em combinação com quimioterapia é indicado para o tratamento de pacientes pediátricos (≥ 6 meses a < 18 anos de idade) CD20 positivo com linfoma difuso de grandes células B (LDGCB), linfoma de Burkitt (BL)/leucemia de Burkitt (leucemia aguda de células B maduras) (B-AL) ou linfoma semelhante ao Burkitt (BLL) em estágio avançado e não tratados anteriormente.
+
+Artrite reumatoide MabThera® em combinação com metotrexato está indicado para o tratamento de pacientes adultos com artrite reumatoide ativa que tiveram resposta inadequada ou intolerância a uma ou mais terapias de inibição do fator de necrose tumoral (TNF).
+
+Leucemia linfoide crônica MabThera® em combinação com quimioterapia é indicado para o tratamento de pacientes com leucemia linfoide crônica (LLC) não tratados previamente e com recaída / refratária ao tratamento.
+
+Granulomatose com poliangiite (Granulomatose de Wegener) e poliangiite microscópica (PAM)
+
+MabThera® em combinação com glicocorticoides é indicado para o tratamento das seguintes vasculites ativas graves: granulomatose com poliangiite (GPA, conhecida também como Granulomatose de Wegener) e poliangiite microscópica (PAM).
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+MabThera contém o ingrediente ativo rituximabe, um anticorpo produzido fora do corpo e que se liga a receptores nos linfócitos B, levando à destruição dessas células.
+
+O crescimento anormal de linfócitos B é responsável por doenças neoplásicas como linfoma (tumor do tecido linfático) e leucemia, ou autoimunes, como artrite reumatoide (AR - doença crônica que agride principalmente as juntas, levando a deformidades e incapacidade física) e algumas vasculites como Granulomatose com poliangiite (granulomatose de Wegener), Poliangiite microscópica (PAM) e pênfigo vulgar (PV). O tempo médio para saber se MabThera está sendo eficaz depende do tratamento prescrito pelo médico, das características do seu organismo e da doença.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Não use MabThera se você teve reação alérgica grave a esse medicamento, a algum excipiente do produto ou a qualquer proteína de origem de roedor. Reações alérgicas graves costumam ser placas avermelhadas na pele e sensação intensa de coceira e inchaço no rosto, lábios, boca ou garganta que causa dificuldade de engolir ou respirar. Em pacientes com linfoma não Hodgkin e leucemia linfoide crônica, MabThera não deve ser utilizado por pacientes com infecções ativas e graves ou que estejam com a imunidade gravemente comprometida.
+
+Em pacientes com artrite reumatoide, granulomatose com poliangiite, poliangiite microscópica e pênfigo vulgar, MabThera não deve ser utilizado por pacientes com infecções ativas e graves, que estejam com a imunidade gravemente comprometida ou que apresentem insuficiência cardíaca grave ou doença cardíaca não controlada grave.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+O tratamento com MabThera® não deve ser iniciado em pacientes com infecções graves ativas, por isso é importante avisar seu médico caso você apresente sintomas que possam sugerir infecção, como febre, calafrios, mal-estar intenso ou tosse prolongada antes de iniciar ou durante o tratamento com MabThera®. Informe ao médico se você tem alguma infecção ativa ou infecção recorrente crônica.
+
+MabThera® raramente pode causar uma infecção no cérebro séria chamada leucoencefalopatia multifocal progressiva ou LEMP, que pode ser fatal. Os sinais de LEMP incluem confusão, perda de memória, problemas de pensamento, perda de equilíbrio, mudança na maneira de andar ou falar, diminuição de força ou fraqueza em um dos lados do corpo, visão turva ou perda de visão. Se você apresentar algum desses sintomas, avise seu médico imediatamente. Informe seus parceiros ou cuidadores sobre seu tratamento, uma vez que eles podem reparar nesses sintomas e auxiliar na identificação.
+
+Foram relatados casos de meningoencefalites enterovirais (um tipo sério de infecção/inflamação do cérebro e meninge), incluindo casos fatais, após o uso de rituximabe. Os sinais de meningoencefalite incluem febre, dor de cabeça e rigidez na nuca, falta de coordenação, alteração de personalidade, alucinações, alteração da consciência, convulsões ou coma. Avise seu médico imediatamente se você apresentar algum desses sintomas.
+
+Informe seu médico se você tem alguma doença do coração, como angina (dor no peito), batimentos anormais do coração, insuficiência cardíaca ou teve infarto do miocárdio.
+
+Informe ao médico se está usando remédios para controlar a pressão arterial, pois MabThera pode causar diminuição da pressão arterial durante a infusão do medicamento. É possível que o médico peça para suspender o uso desses medicamentos pelo menos 12 horas antes da administração de MabThera.
+
+Informe seu médico se você é alérgico a outras medicações ou substâncias, a alimentos, conservantes ou corantes.
+
+Se você tem alguma doença pulmonar, a chance de ter problemas respiratórios durante a administração de MabTherapode ser maior.
+
+Durante o tratamento com MabThera, algumas vacinas não podem ser tomadas e outras poderão ser menos eficazes. Avise seu médico, caso necessite de alguma vacina durante ou antes do início do tratamento e também sobre o seu histórico de vacinações.
+
+Seu médico poderá recomendar tratamento preventivo para a síndrome de lise tumoral (alterações decorrentes da destruição tumoral).
+
+Seu médico poderá solicitar monitoramento da contagem de células sanguíneas. Durante o tratamento, você poderá apresentar alterações no exame de sangue, como diminuição de glóbulos vermelhos, glóbulos brancos e plaquetas (células que auxiliam na coagulação). Essas alterações costumam ser passageiras, e seu médico acompanhará os resultados. Pode ser necessário realizar exames sanguíneos regularmente para controle dessas alterações.
+
+Informe ao médico se você tem ou teve hepatite B. O tratamento com MabThera® não deve ser iniciado se você estiver com hepatite B em atividade.
+
+Informe seu médico se ocorrer graves reações de pele.
+
+Administração de MabThera® em pacientes com Linfoma não Hodgkin (LNH) pode ocasionar toxicidade renal severa, condição onde os rins acabam tendo seu funcionamento prejudicado, podendo inclusive ser fatal. Esta condição foi observada em pacientes com síndrome da lise tumoral (alterações decorrentes da destruição das células tumorais) e em pacientes com LNH em uso da combinação MabThera® e cisplatina, combinação esta que não é um regime de tratamento aprovado. Seu médico deve monitorar atentamente os sinais de falência renal e o tratamento com MabThera® deve ser descontinuado em caso de aumento da creatinina no sangue ou oligúria (baixa produção de urina).
+
+Pacientes pediátricos Linfoma não Hodgkin MabTherapode ser utilizado para o tratamento de crianças (≥ 6 meses até < 18 anos de idade) CD20 positivo com linfoma difuso de grandes células B (LDGCB), linfoma de Burkitt (BL)/leucemia de Burkitt (leucemia aguda de células B maduras) (B-AL) ou linfoma semelhante ao Burkitt (BLL) em estágio avançado e não tratados anteriormente.
+
+Fale com o seu médico antes de receber este medicamento se você, ou o seu filho, tem menos de 18 anos de idade.
+
+Granulomatose com poliangiite (GPA) e poliangiite microscópica (PAM) A segurança e a eficácia de MabThera em crianças (de ≥ 2 até < 18 anos de idade) ainda não foram estabelecidas em outras indicações além de GPA ou PAM ativas e graves.
+
+Foi observada uma pequena quantidade de casos espontâneos e na literatura de hipogamaglobulinemia em pacientes pediátricos tratados com MabThera, em alguns casos graves e com necessidade de terapia de reposição de imunoglobulina de longo prazo. São desconhecidas as consequências da depleção de células B de longo prazo em pacientes pediátricos.
+
+Efeitos sobre a capacidade de dirigir veículos ou operar máquinas Geralmente, pacientes que recebem MabThera não apresentam efeitos sobre a habilidade de dirigir veículos ou operar máquinas, mas MabThera pode causar tonturas em algumas pessoas. Porém, algumas medicações usadas antes da infusão para evitar as reações infusionais podem causar sonolência (antialérgicos). Caso você tenha dúvidas a respeito dos medicamentos usados antes da infusão, pergunte ao médico ou à enfermeira.
+
+Gravidez e amamentação Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica ou do cirurgião-dentista.
+
+Informe ao médico a ocorrência de gravidez na vigência do tratamento ou no prazo de 12 meses depois do seu término. Você deve utilizar métodos contraceptivos eficazes antes de receber MabThera, durante o tratamento e por 12 meses após seu término.
+
+MabThera® passa para o leite materno em pequenas quantidades. Uma vez que os efeitos a longo prazo nos bebês amamentados são desconhecidos, a amamentação não é recomendada durante o tratamento com MabThera e por 6 meses após o tratamento.
+
+Informe ao médico se estiver amamentando.
+
+Uso contraindicado no aleitamento ou na doação de leite humano.
+
+Este medicamento é contraindicado durante o aleitamento ou doação de leite, pois é excretado no leite humano e pode causar reações indesejáveis no bebê. Seu médico ou cirurgião-dentista deve apresentar alternativas para o seu tratamento ou para a alimentação do bebê.
+
+Principais interações medicamentosas Antes de iniciar o tratamento, certifique-se de que seu médico tenha conhecimento de que você está tomando outros medicamentos (incluindo aqueles que não foram prescritos por ele). Isso é importante, visto que o uso de mais de um medicamento ao mesmo tempo poderá reforçar ou diminuir os efeitos dos medicamentos.
+
+Em pacientes com leucemia linfoide crônica, a coadministração com rituximabe não mostrou ter efeito na farmacocinética de fludarabina ou ciclofosfamida. Além disso, não houve efeito aparente de fludarabina e ciclofosfamida sobre a farmacocinética de rituximabe.
+
+O metotrexato não tem efeito sobre a ação de MabThera® em pacientes com artrite reumatoide.
+
+MabThera® não interage com alimentos.
+
+Até o momento, não há informações de que MabThera® possa causar doping. Em caso de dúvida, consulte o seu médico.
+
+Informe ao seu médico ou cirurgião-dentista, se você estiver fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para a sua saúde.
+
+Este medicamento contém 5,3 mg de sódio/mL. Se você faz dieta de restrição de sal (sódio) ou toma medicamento para controlar a pressão arterial, consulte o médico antes de usar este medicamento.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+MabThera deve ser conservado sob refrigeração (entre 2 e 8 °C). Os frascos devem ser mantidos dentro da caixa para proteger da luz. O profissional da saúde saberá como armazenar o medicamento depois de aberto.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+MabThera é um líquido claro, incolor, fornecido em frascos estéreis, sem conservantes, de dose única, não pirogênico, e deve ser diluído por um profissional da saúde antes de ser aplicado.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+Descarte de medicamentos não utilizados e / ou com data de validade vencida O descarte de medicamentos no meio ambiente deve ser minimizado. Os medicamentos não devem ser descartados no esgoto, e o descarte em lixo doméstico deve ser evitado. Utilize o sistema de coleta local estabelecido, se disponível.
+
+Todo medicamento deve ser mantido fora do alcance de crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+O profissional da saúde saberá como preparar o medicamento.
+
+Pré-medicação, consistindo de analgésico / antipirético (por exemplo, paracetamol), anti-histamínico (por exemplo, difenidramina) e glicocorticoide, deverá ser sempre administrada antes de cada infusão de MabThera.
+
+A solução de MabThera deverá ser diluída em soro e será administrada lentamente na circulação sanguínea, por agulha ou cateter estéril colocado em uma veia. Esse tipo de aplicação é conhecido como intravenosa e deverá ser realizada por um profissional da saúde treinado e habilitado.
+
+O médico prescreverá a dose e o esquema de tratamento que julgar mais adequados para você. A dose será calculada de acordo com o seu peso e sua altura (superfície corpórea), se a indicação for linfoma, leucemia linfoide crônica, granulomatose com poliangiite ou poliangiite microscópica. Se a indicação for artrite reumatoide ou pênfigo vulgar, MabThera será administrado em duas doses fixas de 1.000 mg cada, com intervalo de 14 dias entre as doses (Dia 1 e Dia 15). Para a indicação de pênfigo vulgar, se o médico julgar adequado, doses fixas de 500 mg podem ser administradas a cada seis meses para o tratamento de manutenção, ou pode ser administrada dose de 1.000 mg em caso de recidiva da doença.
+
+Se você estiver em tratamento para granulomatose com poliangiite ou poliangiite microscópica, e responder bem ao tratamento, poderá receber doses fixas de MabThera como terapia de manutenção, que devem ser administradas em duas infusões IV de 500mg com intervalo de 2 semanas, seguidas de uma infusão IV de 500mg a cada 6 meses.
+
+Após a indução da remissão com MabThera, a terapia de manutenção deverá ser iniciada no mínimo 16 semanas após a última infusão de MabThera.
+
+Após a indução da remissão com outros imunossupressores padrão de tratamento, a terapia de manutenção com MabThera deverá ser iniciada durante o período de 4 semanas que se segue após a remissão da doença.
+
+Você deve receber MabThera durante pelo menos 24 meses após alcançar a remissão (ausência de sinais e sintomas clínicos). Caso você apresente maior risco de recidiva, os médicos devem considerar uma duração mais longa da terapia de manutenção com MabThera, por até 5 anos.
+
+A duração do tratamento com MabThera será estabelecida pelo médico, dependendo da doença, do seu organismo e da resposta ao tratamento.
+
+Caso você perca alguma das aplicações prescritas, seu médico deverá ser informado.
+
+MabThera não pode ser administrado por via oral ou intramuscular.
+
+MabThera não deve ser utilizado em pacientes pediátricos do nascimento até < 6 meses de vida com linfoma difuso de grandes células B positivo para CD20.
+
+MabThera não deve ser utilizado em pacientes pediátricos com menos de 2 anos de idade com granulomatose com poliangiite ou poliangiite microscópica ativas.
+
+Siga a orientação de seu médico, respeitando sempre os horários, as doses e a duração do tratamento.
+
+Não interrompa o tratamento sem o conhecimento do seu médico.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Seu médico saberá quando deverá ser aplicada a próxima dose de MabThera®.
+
+Em caso de dúvida, procure orientação do farmacêutico ou do seu médico ou do cirurgião-dentista.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Informe ao médico imediatamente, caso você não se sinta bem enquanto estiver recebendo MabThera.
+
+Experiência advinda dos estudos clínicos em Onco-hematologia Dentro de cada grupo de frequência, as reações adversas estão listadas em ordem decrescente de gravidade. As frequências são definidas como muito comum (ocorre em 10% dos pacientes que utilizam este medicamento),
+
+comum (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento) e incomum (ocorre entre 0,1% e 1% dos pacientes que utilizam este medicamento), rara (ocorre entre 0,01% e 0,1% dos pacientes que utilizam este medicamento), muito rara (ocorre em menos de 0,01% dos pacientes que utilizam este medicamento) e desconhecida.
+
+Tabela 1  Reações adversas observadas em estudos clínicos ou durante a vigilância póscomercialização em pacientes com linfoma não Hodgkin e leucemia linfoide crônica Classe de Sistemas de Muito Comum   Incomum  Rara  Muito rara Desconhecida Órgãos comum (MedDRA) Infecções e Infecções Sepse        Infecção leucoencefalo Meningoencef infestações por   (infecção        por vírus patia  alite bactéria, geral grave),  séria  multifocal enteroviral infecções pneumonia,     Pneumoc progressiva (Infecção/infla por vírus, infecção      ystis  (infecção mação do bronquite febril, herpes jirovecii causada por cérebro e zoster           (fungo vírus)    meninge) (infecção por    que causa vírus),          infecção), infecção do      Pneumon trato            ia respiratório, infecções por fungos, infecções de causa desconhecida , bronquite aguda, sinusite, hepatite B Distúrbios do Neutropeni Anemia Distúrbios Aumento  Neutropenia sangue e do a (redução (falta de de       temporário tardia sistema   de um dos glóbulos coagulação,  dos níveis linfático tipos de vermelhos no anemia    séricos de glóbulos sangue), aplásica      IgM (um tipo brancos no pancitopenia (produção de anticorpo) sangue), (redução de insuficiente leucopenia todas as de células (redução células do do sangue), dos     sangue), anemia glóbulos granulocitop hemolítica brancos do enia (redução (destruição sangue), de      de glóbulos neutropenia granulócitos vermelhos febril  do sangue) do sangue), (febre           linfadenopa associada a      tia baixo            (alteração número de        em neutrófilos)     tamanho e ,                consistência trombocito       de penia            linfonodos) (redução de
+
+Muito Comum   Incomum  Rara  Muito rara Desconhecida Órgãos comum (MedDRA) plaquetas no sangue) Distúrbios do Reações Hipersensibil Anafilaxi Síndrome de Trombocitopen sistema   relacionada idade (reação a (reação lise tumoral ia (redução de imunológico s à infusão, alérgica) alérgica (toxicidade plaquetas no angioedem                grave) causada pela sangue) a (inchaço                      destruição reversível da língua                       tumoral), aguda ou                              síndrome de relacionada à garganta)                       liberação de infusão citocinas, doença do soro (doença com comprometim ento do sangue) Distúrbios do     Hiperglicemi metabolismo e     a (aumento da nutrição       do açúcar no sangue), redução do peso, edema periférico (inchaço), edema na face, LDH elevado, hipocalcemia (quantidade reduzida de cálcio no sangue) Distúrbios                 Depressão, psiquiátricos              nervosismo Parestesia Distúrbios do              Disgeusia      Neuropatia Neuropatia (sensibilidad sistema                    (alteração     periférica craniana, perda e alterada de nervoso                    do paladar)    (lesão no de outros uma região nervo),   sentidos do corpo, paralisia dos geralmente nervos da face com formigament o ou dormência), hipoestesia (perda ou diminuição de sensibilidade em
+
+Muito Comum   Incomum  Rara  Muito rara Desconhecida Órgãos comum (MedDRA) determinada região do corpo), agitação, insônia, vasodilatação , tontura, ansiedade Distúrbios        Distúrbio da            Perda grave oculares          lacrimação              da visão (lágrimas), conjuntivite Distúrbios do     Zumbido,                          Perda da ouvido e do       dor no                            audição labirinto         ouvido Infarto do Distúrbios                 Insuficiênci Distúrbio Insuficiência miocárdio, cardíacos                  a do    s      cardíaca arritmia ventrículo cardíacos (alteração da esquerdo, graves frequência taquicardia dos supraventri batimentos cular, cardíacos), taquicardia fibrilação ventricular, atrial angina (dor (distúrbios no peito), do ritmo isquemia cardíaco), miocárdica taquicardia (diminuição (aumento da da irrigação frequência do cardíaca), coração), distúrbio bradicardia cardíaco (diminuição da frequência cardíaca) Distúrbios        Hipertensão             Vasculite vasculares        (pressão                (inflamação alta),                  de vaso hipotensão              sanguíneo) ortostática             predominante (pressão                mente cutânea baixa ao ficar          (na pele), em pé),                 vasculite hipotensão              leucocitoclást (pressão                ica (vasculite baixa)                  de pequenos vasos da pele)
+
+Muito Comum   Incomum  Rara  Muito rara Desconhecida Órgãos comum (MedDRA) Distúrbios        Broncoespas Asma, Doença Insuficiência Infiltração respiratórios,    mo       bronquiolite pulmonar respiratória pulmonar torácicos e do    (diminuição obliterante intersticia mediastino        do calibre (diminuição l dos      de fluxo brônquios), aéreo doença   pulmonar), respiratória, distúrbio dor no peito, pulmonar, dispneia hipóxia (falta de ar), (baixo teor aumento da de tosse, rinite oxigênio) Distúrbios Náusea Vômito,  Aumento        Perfuração gastrintestinai   diarreia, dor abdominal gastrintestinal s                 abdominal, disfagia (dificuldade de engolir), estomatite (inflamação na boca), constipação (prisão de ventre), dispepsia (dificuldade na digestão), anorexia, irritação na garganta Distúrbios Prurido Urticária              Reações cutâneos e do (coceira), (irritações de   cutâneas tecido    erupção pele),                  bolhosas subcutâneo cutânea, sudorese              graves, alopecia (eliminação            síndrome de (redução de de suor),           Stevenspelos ou suores                 Johnson, cabelos) noturnos,              necrólise distúrbio               epidérmica cutâneo                 tóxica (síndrome de Lyell) Distúrbios        Hipertonia musculoesquel     (aumento da éticos, do        rigidez tecido            muscular), conjuntivo e      mialgia (dor dos ossos         muscular), artralgia (dor nas articulações),
+
+Muito Comum   Incomum  Rara  Muito rara Desconhecida Órgãos comum (MedDRA) dor nas costas, dor no pescoço, dor Distúrbios                                Insuficiência renais e                                  dos rins urinários Distúrbios Febre, Dor do   Dor no gerais e  calafrios, tumor, rubor, local da condições no astenia mal-estar, aplicação local de  (fraqueza), síndrome do administração cefaleia frio, fadiga, (dor de calafrios, cabeça) falência múltipla de órgãos Investigações Níveis reduzidos de IgG (um tipo de anticorpo) Tabela 2  Resumo das reações adversas ao medicamento relatadas em estudos clínicos ou durante a vigilância pós-comercialização em pacientes com artrite reumatoide Classe de Muito   Comum    Incomum Rara   Muito rara Desconhecida Sistemas de comum Órgãos (MedDRA) Infecções e Infecção Bronquite,           leucoencefalo Infecção viral infestações do trato sinusite,            patia    séria respirató gastroenterite,       multifocal Meningoencefa rio    pé-de-atleta             progressiva lite enteroviral superior,                       (infecção (Infecção/infla infecções                       causada por mação do do trato                        vírus),  cérebro e urinário                        reativação de meninge) hepatite B Distúrbios do    Neutropenia       Neutrope Reação sangue e do      (redução de       nia tardia semelhante à sistema          um dos tipos             doença do linfático        de glóbulos              soro brancos no sangue) Distúrbios do Reações      Reações sistema   relaciona        relacionada imunológico das à          s à infusão Distúrbios infusão         [edema gerais e  (hiperten        generalizad condições no são –         o,
+
+Classe de Muito   Comum    Incomum Rara   Muito rara Desconhecida Sistemas de comum Órgãos (MedDRA) local de  pressão          broncoespa administração alta,        smo, sibilo náusea,          (chiado), erupção          edema na cutânea,         laringe, pirexia          edema (febre),         angioneurót prurido -        ico, prurido coceira,         generalizad urticária        o, (irritaçõe       anafilaxia, s de             reação pele),           anafilactoid irritação        e (reação na               alérgica)] garganta, rubor quente, hipotens ão – pressão baixa, rinite, tremores, taquicard ia, fadiga, dor orofaríng ea, edema periféric o, eritema) Distúrbios do    Hipercolesterol metabolismo e    emia da nutrição      (colesterol alto) Distúrbios       Depressão, psiquiátricos    ansiedade Distúrbios do Cefaleia Parestesia sistema   (dor de (sensibilidade nervoso   cabeça) alterada de uma região do corpo, geralmente com formigamento ou dormência), enxaqueca, tontura, ciática (dor que irradia ao longo do nervo ciático)
+
+Classe de Muito   Comum    Incomum Rara   Muito rara Desconhecida Sistemas de comum Órgãos (MedDRA) Distúrbios                         Angina Flutter atrial cardíacos                          pectoris (distúrbio do (dor no ritmo peito), cardíaco) fibrilação atrial, insuficiê ncia cardíaca, infarto do miocárdi o Distúrbios       Dispepsia, gastrintestinais diarreia, refluxo gastresofágico, úlcera oral, dor abdominal superior Distúrbios       Alopecia                 Necrólise cutâneos e do                             epidérmica tecido                                    tóxica subcutâneo                                (síndrome de Lyell), síndrome de StevensJohnson Distúrbios       Artralgia / dor musculoesquel    musculoesquel éticos e do      ética, tecido           osteoartrite conjuntivo       (doença degenerativa das articulações), bursite (inflamação das articulações) Investigações Níveis Níveis reduzido reduzidos de s de IgM IgG Tabela 3  Reações adversas ao medicamento que ocorreram em mais de 5% em pacientes adultos que receberam MabThera® para terapia de indução de remissão de granulomatose com poliangiite e poliangiite microscópica em estudos clínicos ou durante a vigilância póscomercialização Sistema de Órgãos             Frequência Evento adverso Distúrbios do sangue e do sistema linfático Trombocitopenia (redução de plaquetas no sangue) 7% Distúrbios gastrintestinais Diarreia                                      18%
+
+Sistema de Órgãos             Frequência Evento adverso Dispepsia (dificuldade na digestão)           6% Constipação (prisão de ventre)                5% Distúrbios gerais e condições no local de administração Edema periférico                              16% Distúrbios do sistema imunológico Síndrome de liberação de citocinas            5% Infecções e infestações Infecção do trato urinário                    7% Bronquite                                     5% Herpes zoster                                 5% Nasofaringite (infecção no nariz e na garganta) 5% Infecção viral séria                       Desconhecida Meningoencefalite enteroviral (Infecção/inflamação do cérebro e meninge) Desconhecida Investigações Hemoglobina reduzida                          6% Distúrbios do metabolismo e da nutrição Hipercalemia (alto nível de potássio no sangue) 5% Distúrbios musculoesqueléticos e do tecido conjuntivo Espasmos musculares (contração involuntária)  18% Artralgia                                     15% Dor nas costas                                10% Fraqueza muscular                             5% Dor musculoesquelética                        5% Dor nas extremidades                          5% Distúrbios do sistema nervoso Tontura                                       10% Tremores                                      10% Distúrbios psiquiátricos Insônia                                       14% Distúrbios respiratórios, torácicos e do mediastino Tosse                                         12% Dispneia (falta de ar)                        11% Epistaxe (sangramento pelo nariz)             11% Congestão nasal                               6% Distúrbios cutâneos e do tecido subcutâneo Acne                                          7% Distúrbios vasculares Hipertensão (pressão alta)                    12% Rubor                                         5% População pediátrica As reações adversas identificadas incluíram: infecções (17 pacientes [68%] na fase de indução da remissão; 23 pacientes [92%] no período total do estudo), reações relacionadas à infusão (15 pacientes [60%] na fase de indução da remissão; 17 pacientes [68%] no período total do estudo) e náusea (4 pacientes [16%] na fase de indução da remissão; 5 pacientes [20%] no período total do estudo).
+
+Tabela 4  Reações adversas ao medicamento que ocorreram em mais de 5% em pacientes que receberam MabThera® para terapia de manutenção de granulomatose com poliangiite e poliangiite microscópica em estudos clínicos ou durante a vigilância pós-comercialização Sistema de Órgãos              Rituximabe Reações adversas ao medicamento     (n = 57) Infecções e infestações Bronquite                                    14% Rinite                                        5%
+
+Sistema de Órgãos              Rituximabe Reações adversas ao medicamento     (n = 57) Infecção viral séria                       Desconhecida Meningoencefalite enteroviral (Infecção/inflamação do cérebro e meninge) Desconhecida Distúrbios gerais e condições no local de administração Febre                                         9% Sintoma semelhante à influenza                5% Edema periférico                              5% Distúrbios gastrintestinais Diarreia                                      7% Distúrbios respiratórios, torácicos e do mediastino Falta de ar                                   9% Lesões, envenenamento e complicações de procedimentos Reações relacionadas à infusão               12% Tabela 5  Reações adversas ao medicamento que ocorreram em pacientes com pênfigo vulgar tratados com Mabthera® no estudo 1 de PV até 24 meses e no estudo 2 de PV até 52 semanas ou durante a vigilância pós-comercialização Classe de Sistemas de Órgãos Muito comum Comum  Desconhecida (MedDRA) Infecções e infestações Infecção do trato Infecção pelo Infecção viral séria1,2 respiratório herpes-vírus Meningoencefalite superior  Herpes-zóster enteroviral1 Herpes oral  (Infecção/inflamação do Conjuntivite cérebro e meninge) Nasofaringite Candidíase oral Infecção do trato urinário Neoplasmas Benignas,          Papiloma cutâneo Malignas e Não Especificadas (incluindo cistos e pólipos) Transtornos psiquiátricos Transtorno Depressão maior depressivo Irritabilidade persistente Distúrbios do sistema nervoso Cefaleia Tontura Distúrbios cardíacos          Taquicardia Distúrbios gastrointestinais  Dor abdominal superior Distúrbios da pele e do tecido Alopecia Prurido subcutâneo                    Urticária Distúrbio de pele Distúrbios                    Dor musculoesqueléticos, do tecido musculoesquelética conjuntivo e ósseos           Artralgia Dor nas costas Distúrbios gerais e condições Fadiga no local da administração     Astenia Pirexia Lesão, Intoxicação e Reações Complicações do     relacionadas à Procedimento        infusão3 1 Observada durante a vigilância pós-comercialização.
+
+2Vide também a seção “Infecções” abaixo.
+
+3As reações relacionadas à infusão no Estudo 1 de PV incluíam sintomas coletados na visita programada seguinte após cada infusão e eventos adversos que ocorreram no dia da infusão ou um dia após a infusão. Os sintomas de reação relacionada à infusão/Termos Preferenciais mais comuns no Estudo 1 de PV incluíam cefaleias, calafrios, hipertensão arterial, náusea, astenia e dor.
+
+Os sintomas de reação relacionada à infusão/Termos Preferenciais mais comuns no Estudo 2 de PV foram dispneia, eritema, hiperidrose, rubor/fogacho, hipotensão/pressão arterial baixa e erupção cutânea/erupção cutânea prurítica.
+
+Tabela 6 – Reações adversas Grau 3 ou maiores (≥ 10%) em pacientes pediátricos tratados com MabThera® em combinação com quimioterapia ou quimioterapia isolada Reação Adversa            MabThera® +   Quimioterapia Quimioterapia N=153 N=162 (%) (%) Distúrbios do sangue e sistema linfático Neutropenia febril (febre associada a baixo número de 93 91 neutrófilos) Distúrbios gastrintestinais Estomatite (inflamação na boca)           80           75 Enterite (inflamação no intestino)        24           16 Investigações Aumento na alanina aminotransferase (ALT) 19           14 Aumento na aspartato aminotransferase (AST) 11          7 Infecções e infestações Sepse (infecção geral grave)             18*           13* Infecções relacionadas ao uso de dispositivos 13       12 Infecção pulmonar                         12            9 Enterocolite infecciosa                   9            12 Distúrbios do metabolismo e nutrição Hipocalemia (níveis baixos de potássio no sangue) 16   13 Diminuição no apetite                     11            5 * Incluindo reação adversa fatal Atenção: este produto é um medicamento que possui nova indicação terapêutica no país, e, embora as pesquisas tenham indicado eficácia e segurança aceitáveis, mesmo que indicado e utilizado corretamente, podem ocorrer reações adversas imprevisíveis ou desconhecidas. Nesse caso, informe ao seu médico.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA
+
+DESTE MEDICAMENTO?
+
+Há experiência limitada com superdosagem advinda dos estudos clínicos em pessoas. Como MabThera é administrado sob supervisão médica, é pouco provável que você receba mais medicação que o prescrito.
+</text>

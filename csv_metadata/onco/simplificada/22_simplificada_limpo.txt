@@ -1,0 +1,133 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> lactulose Xarope </id>
+
+    <doenca>constipacao intestinal, encefalopatia hepatica</doenca>
+    <nome medicamento>lactulose</nome medicamento>
+    <nome_comercial>LACTULONA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>xarope</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+LACTULONA® é indicada para:
+
+- aliviar constipação intestinal (prisão de ventre);
+
+- prevenir e tratar encefalopatia hepática (problema no cérebro causado por mau funcionamento do fígado), incluindo fases de pré-coma e coma hepático.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+A LACTULONA® ajuda o intestino a funcionar melhor porque puxa água para dentro das fezes, deixando as fezes mais macias e facilitando a evacuação. O efeito pode aparecer após alguns dias de uso seguido, podendo levar até 4 dias, principalmente em quem estava trocando outro laxante por LACTULONA®. Em pessoas com problemas no fígado e encefalopatia hepática, o medicamento pode ajudar a melhorar o nível de consciência.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Não use LACTULONA® nos casos abaixo:
+
+- alergia a qualquer componente da fórmula;
+
+- intolerância a açúcares como lactose, galactose e frutose;
+
+- problemas como gastrite, úlcera, apendicite, sangramento intestinal, obstrução intestinal, diverticulite e situações semelhantes;
+
+- preparo do intestino para exames como colonoscopia ou retossigmoidoscopia quando houver uso de eletrocautério (equipamento que usa corrente elétrica).
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Pressão alta e desidratação: Se você tem pressão alta e/ou está desidratado, use com cuidado, porque essas condições podem piorar.
+
+Diabetes: Além da lactulose, o xarope tem pequenas quantidades de galactose e lactose. Em pessoas com diabetes, isso pode aumentar a glicose (açúcar no sangue). Diabéticos devem conversar com o médico para revisar o controle da glicemia.
+
+Atenção: contém frutose abaixo de 0,25 g/mL.
+
+Atenção: contém lactose abaixo de 0,25 g/mL.
+
+Atenção: contém galactose abaixo de 0,25 g/mL.
+
+Não use este medicamento se você tem:
+
+- síndrome de má absorção de glicose-galactose;
+
+- deficiência de sacarose-isomaltase.
+
+- Encefalopatia hepática Quem usa LACTULONA® para encefalopatia hepática deve ficar em acompanhamento médico constante, principalmente em doses altas, pelo risco de acidose (aumento da acidez no sangue).
+
+Crianças: use apenas com orientação médica, depois que o médico confirmar que os sintomas não vêm de outra doença.
+
+Idosos debilitados em uso contínuo: precisam de avaliação médica periódica dos sais do sangue (sódio, potássio, cloro e bicarbonato).
+
+Gravidez e amamentação: Use na gravidez e na amamentação somente com orientação médica. Informe ao médico se você está grávida ou amamentando. Este medicamento não deve ser usado por mulheres grávidas sem orientação médica ou do cirurgião-dentista. Na lactação (ou doação de leite humano), o uso depende de avaliação e acompanhamento do médico ou cirurgião-dentista.
+
+Avise seu médico se você usa LACTULONA® antes de fazer colonoscopia ou retossigmoidoscopia.
+
+Antibióticos podem diminuir o efeito da LACTULONA®.
+
+Não use LACTULONA® junto com outros laxantes ou antiácidos, porque isso pode aumentar ou diminuir o efeito.
+
+Atenção: LACTULONA® xarope sabor ameixa contém corante caramelo.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Guardar em temperatura ambiente (15°C a 30°C). Proteger da luz. Não use com prazo de validade vencido. Guarde na embalagem original.
+
+Aspecto: líquido viscoso, limpo, incolor a amarelo-amarronzado, com cheiro e sabor de ameixa ou frutas.
+
+Mantenha fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Você pode tomar de preferência em uma dose única, de manhã ou à noite, sozinha ou com alimentos, ou misturada com suco, leite, iogurte, água ou outro líquido, conforme orientação médica.
+
+Posologia Constipação intestinal crônica:
+
+- Lactentes: 5 mL/dia
+
+- Crianças de 1 a 5 anos: 5 a 10 mL/dia
+
+- Crianças de 6 a 12 anos: 10 a 15 mL/dia
+
+- Acima de 12 anos e adultos: 15 a 30 mL/dia O médico pode ajustar a dose para conseguir 2 a 3 evacuações por dia.
+
+Encefalopatia hepática, pré-coma e coma hepático:
+
+- Começar com 60 mL/dia
+
+- Em casos graves, pode chegar a 150 mL/dia Se os sintomas não melhorarem, procure o médico.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Tome a dose assim que possível, se ainda estiver longe do horário da próxima. Se estiver perto da próxima dose, não tome dose dobrada. Apenas volte ao horário normal.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Em diabéticos, pode piorar o controle da glicemia, porque pode haver pequena absorção dos açúcares do xarope.
+
+Uso por muito tempo pode alterar os sais do sangue, principalmente em idosos.
+
+Em doses altas (especialmente na encefalopatia hepática), pode causar:
+
+- gases, flatulência, barulhos no intestino, arrotos, mais sede (geralmente passageiro);
+
+- náusea e vômito (menos comum).
+
+Se ocorrer diarreia, procure seu médico para reavaliar a dose e o uso.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+
+Procure ajuda médica.
+
+Pode ocorrer diarreia, cólicas/espasmos abdominais, sede, fraqueza, cansaço, vômito.
+
+Como pode causar desidratação, beba bastante líquido, principalmente em idosos e crianças.
+</text>

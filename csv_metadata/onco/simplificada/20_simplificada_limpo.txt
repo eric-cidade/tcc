@@ -1,0 +1,175 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> interferon alfa 2a Po liof inj </id>
+
+    <doenca>leucemia de celulas pilosas, mieloma multiplo, linfoma nao Hodgkin, leucemia mieloide cronica, hepatite B cronica, hepatite C, condiloma acuminado</doenca>
+    <nome medicamento>interferon alfa 2a</nome medicamento>
+    <nome_comercial>NA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>po liofilizado para solucao injetavel</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+O interferon alfa 2a humano recombinante é indicado para tratar:
+
+- leucemia de células pilosas
+
+- mieloma múltiplo
+
+- linfoma não-Hodgkin
+
+- leucemia mieloide crônica
+
+- hepatite B crônica
+
+- hepatite C aguda e crônica
+
+- condiloma acuminado (verrugas genitais)
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+Os médicos ainda não conhecem completamente como o interferon alfa 2a funciona.
+
+Mesmo assim, acredita-se que o medicamento:
+
+- diminui a multiplicação de células do tumor,
+
+- dificulta a multiplicação de vírus,
+
+- ajuda a regular a defesa do corpo (sistema imune).
+
+Essas ações ajudam no efeito contra tumores e contra vírus.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Não use este medicamento se você tem alergia ao interferon alfa 2a ou a qualquer componente da fórmula.
+
+Também não devem usar este medicamento, em geral, pessoas com:
+
+- doença grave no coração ou histórico importante de doença no coração, porque reações como febre e calafrios podem piorar problemas cardíacos já existentes;
+
+- doença grave nos rins ou doença grave no fígado;
+
+- problemas no sistema nervoso central;
+
+- cirrose e/ou fígado descompensado (fígado com função muito comprometida);
+
+- hepatite crônica em uso de remédios que baixam a imunidade;
+
+- leucemia mieloide crônica com imunidade baixa após transplante heterólogo (transplante de outra pessoa).
+
+Gravidez e amamentação: Não existem estudos adequados em gestantes. Em animais, doses muito altas foram associadas a maior risco de aborto. Não se sabe se o medicamento passa para o leite materno.
+
+O médico deve decidir entre parar de amamentar ou parar o tratamento, considerando a importância do tratamento para a mãe.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Use o interferon alfa 2a com supervisão médica.
+
+O médico deve acompanhar de perto pessoas com alterações nos rins, fígado ou medula óssea (onde o corpo produz células do sangue).
+
+O medicamento pode causar queda dos glóbulos brancos (células de defesa), principalmente em pessoas com mielossupressão (medula óssea “fraca”, com baixa produção de células do sangue).
+
+Por isso, o médico deve pedir exames de sangue completos:
+
+- antes de iniciar o tratamento;
+
+- e periodicamente durante o tratamento.
+
+- Informe ao seu médico ou cirurgião-dentista se você usa outros medicamentos.
+
+Não use medicamento sem orientação médica.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Guardar em geladeira (2 a 8 ºC). Não congelar. Proteger da luz.
+
+Validade: 36 meses a partir da data de fabricação. Depois de preparado, use imediatamente.
+
+Não use com prazo de validade vencido. Guarde na embalagem original.
+
+Mantenha fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+O medicamento vem como pó branco. Depois de dissolver, ele vira uma solução incolor e transparente.
+
+Como preparar (reconstituir):
+
+Coloque 1 mL de água para injeção lentamente no frasco. Agite suavemente até dissolver. Use apenas se a solução estiver incolor, transparente e sem partículas visíveis.
+
+Antes de aplicar, espere a solução ficar em temperatura ambiente. Aplique a injeção lentamente para reduzir desconforto no local.
+
+A via pode ser intramuscular ou subcutânea, conforme indicação.
+
+Doses por doença:
+
+- Leucemia de células pilosas: Dose diária: 3 MUI por 16 a 20 semanas, via intramuscular ou subcutânea. Manutenção sugerida: 3 MUI, 3 vezes por semana. O médico pode reduzir dose/frequência. Pode ser necessário reduzir à metade se houver reações adversas graves. O médico decide se continua após 6 meses de tratamento.
+
+- Mieloma múltiplo: 3 MUI, 3 vezes por semana, via intramuscular ou subcutânea. Se o paciente tolerar, o médico pode aumentar aos poucos até 9 MUI, 3 vezes por semana.
+
+- Linfoma não-Hodgkin: Pode iniciar 4 a 6 semanas após quimioterapia. Dose: 3 MUI, 3 vezes por semana, por pelo menos 12 semanas, via subcutânea. Se usado junto com quimioterapia (ciclofosfamida, prednisona, vincristina e adriamicina): 6 MUI/m², via subcutânea ou intramuscular, nos dias 22 a 26 do ciclo de quimioterapia.
+
+- Leucemia mieloide crônica: Aumentar gradualmente: 3 MUI diários por 3 dias, depois 6 MUI diários por 3 dias, depois dose-alvo de 9 MUI diários até o final do tratamento. Após 8 a 12 semanas, se houver resposta no sangue, o paciente pode continuar até resposta completa ou por 18 meses a 2 anos após iniciar. A duração ideal não foi definida.
+
+- Hepatite B crônica (adultos): 5 MUI, 3 vezes por semana, via subcutânea, por 6 meses. Se não houver resposta após 1 mês, o médico pode considerar aumentar a dose. Se não houver resposta após 3 meses, o médico pode considerar parar o tratamento.
+
+- Hepatite C aguda e crônica: 3 a 5 MUI, 3 vezes por semana, via subcutânea ou intramuscular, por 3 meses. Manutenção: 3 MUI, 3 vezes por semana, por 3 meses.
+
+- Condiloma acuminado (verrugas genitais): Injeção subcutânea ou intramuscular: 1 a 3 MUI, 3 vezes por semana, por 1 a 2 meses, ou 1 MUI aplicado na base da lesão, em dias alternados, por 3 semanas consecutivas.
+
+Siga a orientação do médico (horários, doses e duração). Não interrompa sem orientação.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Se você esquecer uma dose, retome o esquema normal assim que possível. Não use dose extra para compensar a dose esquecida. Em caso de dúvidas, procure o farmacêutico ou o médico.
+
+8. QUAIS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Reações frequentes (parecidas com gripe): cansaço, febre, calafrios, dor muscular, dor de cabeça, dor nas articulações, suor, entre outras.
+
+No estômago e intestino: perda de apetite, náusea, vômitos, alteração no paladar, perda de peso, diarreia, dor abdominal, prisão de ventre, gases.
+
+No fígado (em exames): alguns pacientes tiveram aumento de substâncias do fígado em exames (ex.: bilirrubina). Em geral, isso não exige ajuste de dose, mas o médico acompanha.
+
+Sistema nervoso central (raros): tontura, alteração da visão, perda de memória, depressão, sonolência, ansiedade, nervosismo, insônia.
+
+Nervos periféricos: formigamento, dormência, fraqueza.
+
+Coração e respiração: em alguns pacientes com câncer: pressão baixa passageira, pressão alta, inchaço, alteração do ritmo do coração, palpitações, dor no peito. Tosse e falta de ar ocorreram raramente. Essas reações são raras em pacientes com hepatite B.
+
+Pele: herpes, manchas/vermelhidão na pele, coceira, pele seca. Queda de cabelo foi observada em parte dos pacientes.
+
+Urina e sais do corpo: falência dos rins foi rara. alterações de sais do corpo podem ocorrer, especialmente com perda de apetite e desidratação.
+
+Sangue (medula óssea): queda de glóbulos brancos pode acontecer com frequência. queda de plaquetas e de hemoglobina pode acontecer em alguns casos, principalmente se a medula óssea já estiver deprimida. alterações graves do sangue costumam melhorar em 7 a 10 dias após parar o tratamento.
+
+Outros: aumento de açúcar no sangue e reações no local da injeção podem ocorrer em alguns pacientes.
+
+Avise o médico, dentista ou farmacêutico se aparecerem reações indesejáveis.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+
+Não há relatos confirmados de superdose, mas o uso repetido de doses muito altas pode causar:
+
+- sonolência,
+
+- astenia (fraqueza intensa),
+
+- sensação de “leveza”,
+
+- coma.
+
+Se isso acontecer, a pessoa deve ficar em observação no hospital e receber tratamento de suporte (cuidados para manter o corpo estável).
+</text>

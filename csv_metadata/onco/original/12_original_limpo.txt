@@ -1,0 +1,265 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> fluorouracil Sol inj </id>
+
+    <doenca>tumores malignos do reto, colon, mama, estomago, pancreas, figado, utero, ovario e bexiga</doenca>
+    <nome medicamento>fluorouracil</nome medicamento>
+    <nome_comercial>Fauldfluor</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>solucao injetavel</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Fauldfluor® é prescrito por médicos para tratamento paliativo de tumores malignos como os localizados no reto, cólon, mama, estômago, pâncreas, fígado (tumores primários), útero (especialmente colo do útero), ovário e bexiga. Fauldfluor® não substitui a cirurgia, ou outras formas reconhecidas de tratamento e deve ser utilizado apenas quando estas medidas não forem possíveis, ou tenham sido tentadas sem sucesso.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+Fauldfluor® é um medicamento quimioterápico que age inibindo a multiplicação da célula cancerígena.
+
+Os efeitos da fluoruracila sobre a multiplicação de células cancerígenas já foram demonstrados em animais de laboratório transplantados com vários tipos de tumores. Na prática clínica, remissões temporárias e parciais, associadas a uma melhora subjetiva e alívio da dor, podem ser alcançadas em certos tipos de tumores.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Você não deverá usar este medicamento em caso de alergia, ou hipersensibilidade conhecida à fluoruracila e/ou aos demais componentes da formulação.
+
+Pacientes com deficiência completa da enzima di-hidropirimidina desidrogenase, uma enzima que metaboliza a fluoruracila, tem risco aumentado para toxicidades agudas de início precoce e reações adversas graves, incluindo fatal (como: mucosites, diarreia, neutropenia e neurotoxicidade), relacionadas ao Fauldfluor®.
+
+Fauldfluor® não é recomendado para uso em pacientes sabidamente portadores de certas variantes no gene DPYD que resultem na ausência completa da atividade da DPD. Fauldfluor® deve ser suspenso ou descontinuado permanentemente baseado na avaliação clínica. Nenhuma dose de Fauldfluor® foi provada como segura em pacientes com ausência completa da atividade da DPD.
+
+A fluoruracila também é contraindicada em casos de doenças do fígado, ou dos rins; doenças da medula óssea; em pacientes apresentando comprometimento do estado nutricional; pacientes com problemas sanguíneos comprovados e graves; durante o primeiro trimestre de gravidez; em pacientes, com quadro grave de infecções; em pacientes submetidos a grandes cirurgias.
+
+A fluoruracila não deve ser administrada em combinação com brivudina, sorivudina e seus análogos.
+
+A brivudina, sorivudina e seus análogos são inibidores potentes da enzima metabolizadora de fluoruracila, a dihidropirimidina desidrogenase (DPD) (ver “4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?”).
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+A fluoruracila é uma substância irritante e o contato com pele e membranas mucosas deve ser evitado.
+
+Fauldfluor® é um medicamento de alta toxicidade, com uma pequena margem de segurança. Durante o tratamento com Fauldfluor®, seu médico solicitará exames para avaliar as contagens dos glóbulos brancos e plaquetas do sangue. Estes exames devem ser feitos diariamente, durante o tratamento, e este deve ser imediatamente interrompido se as contagens de glóbulos brancos atingirem um nível abaixo de 3.500 células/mm3, ou se a contagem de plaquetas atingir um nível abaixo de 100.000 células/mm3.
+
+Seu médico também interromperá o tratamento com Fauldfluor® se ocorrer algum dos seguintes sintomas: ao primeiro sinal de inflamação da mucosa oral (estomatite), ou da garganta e esôfago, vômitos constantes, diarreias persistentes, úlceras e/ou sangramentos gastrintestinais, ou sangramentos em outros locais.
+
+Se você tiver doenças do fígado, ou dos rins de leve à moderada intensidade, seu médico deverá fazer um acompanhamento mais cuidadoso.
+
+É possível que você apresente um quadro súbito de dor e inflamação nos punhos, mãos e pés após a administração de Fauldfluor®, uma situação conhecida como síndrome mão-pé, que melhora após a interrupção da medicação, dentro de cinco a sete dias.
+
+Pode ocorrer espasmo das artérias coronarianas, com episódios de angina, que se inicia desde alguns minutos até sete dias (em geral 6 horas) após a administração da terceira dose (variação de 1 a 13 doses). Se você tiver doença coronariana préexistente, existe risco aumentado de angina durante o tratamento com Fauldfluor®.
+
+Os efeitos da fluoruracila sobre a medula óssea podem resultar em aumento da incidência de infecções, retardo na cicatrização e sangramento gengival.
+
+Mesmo que seu médico julgue que você não pertence a um grupo de risco aumentado para eventos adversos, durante o uso de Fauldfluor® e que ajuste a dose adequadamente, podem ocorrer reações adversas graves e até óbito após tratamento com fluoruracila. Embora a toxicidade grave seja mais provável em pacientes de maior risco, foram observadas, ocasionalmente, fatalidades em pacientes em condições relativamente boas.
+
+Os agentes quimioterápicos empregados no tratamento do câncer devem apenas ser utilizados em casos nos quais o benefício apresentado compense o risco envolvido, pois imunossupressão e depressão da medula óssea são consequências possíveis. Se você tiver alguma infecção, este medicamento deverá ser suspenso. Há também indícios que a supressão prolongada do sistema imunológico pode vir a estimular o desenvolvimento de outros tumores; assim, seu médico deverá monitorizar por meio de consultas e exames específicos ao término do tratamento. A administração de fármacos quimioterápicos, incluindo a Fauldfluor® apenas deve ser feita sob a responsabilidade e o acompanhamento de médicos oncologistas habituados à terapia com estes compostos.
+
+Você deverá sempre estar advertido dos riscos, envolvendo a terapia com a fluoruracila, e seu médico deverá ter extrema precaução nos seguintes casos:
+
+- cobreiro (herpes zóster) (há risco de induzir a doença generalizada);
+
+- doenças do fígado (reduz a transformação do medicamento, sendo, neste caso, recomendado o uso de doses menores de Fauldfluor®);
+
+- doença dos rins (reduz a eliminação do medicamento, sendo, neste caso, recomendado o uso de doses menores de Fauldfluor®);
+
+- invasão da medula óssea pelas células cancerígenas;
+
+- extrema atenção deve ser tomada em pacientes que receberam previamente tratamento com quimioterápicos da classe dos agentes alquilantes, ou altas doses de radiação.
+
+Mutagenicidade/carcinogenicidade: níveis elevados de fluoruracila produzem alterações no material genético (mutações no DNA) de células embrionárias de ratos, de medula óssea de camundongos e de algumas células (fibroblastos) de hamster.
+
+Não foram realizados estudos de longo prazo em animais, com o intuito de determinar o potencial da fluoruracila, para formar tumores; no entanto, estudos com duração de até um ano não demonstraram formação de tumores em animais após administração oral, ou intravenosa da medicação. Não é conhecido o risco para formação de tumores em humanos.
+
+Teratogenicidade: a fluoruracila pode causar danos fetais quando administrada em gestantes. Foi demonstrado que a medicação causa malformações em animais de laboratório, em doses cerca de uma a três vezes maiores que a dose terapêutica máxima recomendada em humanos. As malformações fetais observadas incluíram: lábio leporino, defeitos no esqueleto, deformidades nos apêndices, patas e cauda.
+
+Toxicidade: A brivudina, sorivudina e seus análogos afetam a atividade da DPD, podem causar aumento das concentrações plasmáticas e aumento da toxicidade das fluoropirimidinas. Portanto, um intervalo de pelo menos 4 semanas entre a administração de fluoruracila e brivudina, sorivudina ou análogos deve ser mantido. No caso de administração acidental dos análogos de nucleosídeos em pacientes tratados com fluoruracila, devem ser tomadas medidas eficazes para reduzir a toxicidade da fluoruracila. Recomenda-se hospitalização imediata. Qualquer medida para prevenir infecções sistêmicas e desidratação deve ser iniciada.
+
+Efeitos sobre o desenvolvimento peri e pós-natal: Não foram realizados estudos com a fluoruracila para avaliar os efeitos peri e pós-natais deste medicamento. No entanto, a fluoruracila atravessa a placenta e penetra na circulação fetal em ratos. A administração da fluoruracila resultou em reabsorção e morte fetal em ratos. Em macacos, as doses maternas acima de 40 mg/kg resultaram em abortos de todos os embriões expostos à fluoruracila.
+
+Efeitos sobre a fertilidade e reprodução: Supressão da função dos ovários e testículos, resultando em interrupção dos ciclos menstruais e ausência de espermatozoides, respectivamente, pode ocorrer em pacientes que recebem terapêutica antitumoral, especialmente com agentes alquilantes. Geralmente estes efeitos parecem estar relacionados com as doses e duração da terapêutica e podem ser irreversíveis. A previsão do grau de insuficiência da função testicular, ou ovariana é dificultada pelo uso comum de combinações de vários agentes antitumorais, o que torna difícil determinar os efeitos dos agentes individualmente. A fluoruracila produz toxicidade reversível sobre os óvulos e espermatozoides.
+
+Efeitos sobre a dentição: Os efeitos depressores da fluoruracila sobre a medula óssea podem resultar no aumento da incidência de infecções microbianas, demora na cicatrização e hemorragia gengival.
+
+Se possível, seu tratamento dentário deve ser completado antes do início da terapêutica com fluoruracila, ou ser postergado até que as contagens de glóbulos, brancos, vermelhos e plaquetas retornem aos valores normais.
+
+Você deverá manter uma adequada higiene oral durante o tratamento com fluoruracila. Durante o tratamento, é possível que surjam feridas ulceradas na boca.
+
+Efeitos na habilidade de dirigir e operar máquinas: Você não deve dirigir veículos ou operar máquinas durante todo o tratamento, pois sua habilidade e capacidade de reação podem estar prejudicadas.
+
+Este medicamento pode causar danos ao fígado. Por isso, seu uso requer acompanhamento médico estrito e exames laboratoriais periódicos para controle.
+
+Grupos de risco Uso durante a gravidez: Não há estudos adequados, utilizando a fluoruracila em gestantes, e o fármaco apenas deve ser utilizado durante a gravidez, em situações de risco de vida, ou doenças graves para as quais medicações mais seguras não podem ser utilizadas, ou são ineficazes. Mulheres em idade fértil, com potencial para engravidar, não devem iniciar o tratamento com fluoruracila, antes de afastar a possibilidade de gravidez e devem ser advertidas sobre os riscos graves para o feto, no caso de engravidarem, durante o tratamento.
+
+Primeiro trimestre - é recomendado que o uso de antineoplásico, especialmente o uso combinado, seja evitado no primeiro trimestre de gravidez. Embora as informações sejam limitadas, os potenciais para causar mutações, malformações e induzir a formação de tumores devem ser considerados.
+
+O uso de contraceptivos é recomendado durante a terapia com drogas citotóxicas.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica. Informe imediatamente seu médico em caso de suspeita de gravidez.
+
+Uso durante a lactação: Não se sabe se a fluoruracila é excretada no leite humano. Considerando-se que a fluoruracila inibe a síntese de proteínas e do material genético das células (DNA), a amamentação deve ser evitada durante o tratamento, devido aos riscos para as crianças (vide item "Mutagenicidade/carcinogenicidade").
+
+Uso criterioso no aleitamento ou na doação de leite humano: O uso deste medicamento no período da lactação depende da avaliação e acompanhamento do seu médico ou cirurgião-dentista.
+
+Uso em pediatria: Não foram realizados estudos relacionados aos efeitos da fluoruracila na população pediátrica e, deste modo, a segurança e eficácia deste uso não está estabelecida.
+
+Uso em pacientes idosos: Não foram realizados estudos específicos dos efeitos da fluoruracila na população geriátrica;
+
+no entanto, pacientes idosos possuem maior probabilidade de apresentar disfunções renais relacionadas com a idade, necessitando, neste caso, redução da dose.
+
+Interações medicamentosas metotrexato: Os estudos experimentais indicam que o metotrexato, quando administrado conjuntamente com a fluoruracila, inibe o efeito antitumoral da fluoruracila. Esta interação, entretanto, não ocorre quando do emprego dos dois fármacos, em esquema sequencial.
+
+A administração concomitante de compostos que causem sobrecarga ao fígado, ou aos rins não deve ser efetuada, assim como administração conjunta com substâncias que induzam hemorragias, ou aumento do tempo de coagulação (analgésicos, anticoagulantes e outros).
+
+folinato de cálcio: O folinato de cálcio pode aumentar a toxicidade da fluoruracila. O uso concomitante de fluoruracila com folinato de cálcio pode resultar em aumento dos efeitos terapêuticos e, por isso, as duas drogas podem ser usadas concomitantemente, com vantagens terapêuticas, sendo, neste caso, necessário o ajuste das doses.
+
+Vacinas de vírus mortos: Considerando-se que o mecanismo de defesa normal pode ser suprimido pela fluoruracila, a resposta de anticorpos do paciente à vacina pode ser diminuída. O intervalo entre a descontinuação do tratamento que causa imunossupressão e a recuperação da capacidade de resposta do paciente à vacina depende da intensidade e do tipo de medicamento imunossupressor utilizado, da doença de base e de outros fatores. As estimativas variam de três meses a um ano.
+
+Vacinas de vírus vivos: Considerando-se que o mecanismo de defesa normal pode ser suprimido pela fluoruracila, o uso concomitante com vacinas de vírus vivos pode potencializar a replicação do vírus da vacina, pode aumentar os eventos adversos da vacina e/ou pode diminuir a resposta de anticorpos do paciente à vacina. A imunização desses pacientes deve ser considerada com extrema cautela, após cuidadosa revisão das condições hematológicas do paciente e apenas com o conhecimento e consentimento do médico que está controlando a administração da fluoruracila. O intervalo entre a descontinuação do tratamento que causa imunossupressão e a recuperação da capacidade do paciente em responder à vacina depende da intensidade e do tipo do medicamento imunossupressor utilizado, da doença de base e de outros fatores.
+
+As estimativas variam entre três meses a um ano.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para a sua saúde.
+
+Este medicamento contém 8,1 mg de sódio/mL. Se você faz dieta de restrição de sal (sódio) ou toma medicamento para controlar a pressão arterial, consulte o médico antes de usar este medicamento.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Armazenar abaixo de 25 °C. Não refrigerar. Se houver a formação de precipitado, como resultado de exposição a baixas temperaturas, pode-se aquecer a solução a 60 °C para dissolução do precipitado, sob agitação vigorosa. Deixar resfriar a temperatura ambiente antes de sua administração.
+
+Fauldfluor® pode ser administrado por infusão ou injeção intravenosa. Fauldfluor® solução injetável, quando diluído em soro fisiológico 0,9%, apresenta estabilidade físico-química por 7 (sete dias), quando armazenado em temperatura ambiente (até 25 °C) e na presença de luz fluorescente. Fauldfluor® solução injetável, quando diluído em soro glicosado 5%, apresenta estabilidade físico-química por cinco dias, quando armazenado em temperatura ambiente (até 25 °C) e na presença de luz fluorescente. Fauldfluor® não contém qualquer agente conservante, por isso, para evitar a possibilidade de contaminação microbiana, a infusão deve ser iniciada logo após a preparação da infusão ou injeção, e todos os resíduos devem ser descartados.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+Fauldfluor® 500 mg/10 mL: solução límpida, incolor a levemente amarelada e isenta de partículas visíveis.
+
+Fauldfluor® 2,5g/50 mL: solução límpida, incolor a levemente amarelada e isenta de partículas visíveis.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+Todo medicamento deve ser mantido fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+A administração de Fauldfluor® é exclusivamente intravenosa e em ambiente hospitalar, podendo ser aplicada por injeção, ou infusão.
+
+As especificações da agulha para administração do medicamento devem ser estabelecidas de acordo com a avaliação do profissional de saúde, baseadas nas necessidades do paciente.
+
+A dose diária total não deve exceder 1 g. A fluoruracila é um antineoplásico e, para seu manuseio, devem ser tomadas as seguintes precauções:
+
+− Somente deve ser manuseado por pessoal treinado e em local apropriado. Mulheres grávidas não devem manusear o produto.
+
+− É recomendado o uso de luvas, máscaras, roupas apropriadas e óculos de proteção.
+
+− Se a solução de fluoruracila entrar em contato com a pele, deve-se lavar a região com água e sabão, sem esfregar, imediata e completamente. Se houver o contato com membranas mucosas, deve-se enxaguar as mesmas com água ou soro fisiológico.
+
+− Todo material descartável, utilizado ou não, que tiver entrado em contato com o produto, deve ser descartado/incinerado apropriadamente.
+
+− A fluoruracila pode ser usada em combinação com outros antineoplásicos.
+
+− Pacientes em tratamento com fluoruracila que precisarem utilizar brivudina, sorivudina e seus análogos. Devem respeitar um intervalo mínimo de 4 semanas, entre a administração de fluoruracila e brivudina, sorivudina ou análogos.
+
+Obs.: As pessoas que preparam e administram os antineoplásicos estão sujeitas a alguns riscos em função do potencial da medicação, para causar alterações no material genético (mutações no DNA), induzir a formação de tumores e o aparecimento de malformações; portanto, devem ser tomadas medidas adequadas de segurança a fim de minimizar estes riscos. Quando ocorrerem sintomas de toxicidade resultantes da terapia inicial, a dose de manutenção deverá ser de 10 - 15 mg/kg/semana, não devendo exceder 1 g/semana.
+
+Posologia:
+
+A dose usualmente empregada é a de 12 mg/kg de peso corporal, até um máximo de 800 mg por dia, durante três a quatro dias. Se não ocorrer toxicidade, a dose de 6 mg/kg de peso é administrada por quatro dias alternados. A dose de manutenção geralmente varia entre 5 e 15 mg/kg de peso, administrada semanalmente. Caso seja utilizada a infusão, devese diluir o medicamento em 300 a 500 mL de soro glicosado a 5% ou solução de cloreto de sódio 0,9% (soro fisiológico 0,9%), este último especialmente no caso de pacientes diabéticos.
+
+− Estas doses são genéricas e deve-se lembrar de que a dose pode variar de paciente para paciente.
+
+− Cuidados devem ser tomados na aplicação, para evitar extravasamento.
+
+− Pacientes com comprometimento do estado nutricional devem iniciar o tratamento, utilizando uma dose de 6 mg/kg de peso durante os 3 (três) primeiros dias; se não ocorrer toxicidade, pode-se utilizar, durante 3 (três) dias alternados, 3 mg/kg de peso.
+
+A dose diária, nestes casos, não deve exceder 400 mg.
+
+− Se ocorrer desenvolvimento de sinais de toxicidade, o tratamento deverá ser suspenso, e uma revisão da terapêutica deverá ser efetuada pelo médico.
+
+− Manutenção. Pode-se seguir os seguintes esquemas:
+
+− Repetir a dose inicial, a cada 30 (trinta) dias contados, a partir do último dia do tratamento anterior.
+
+− Quando ocorrerem sintomas de toxicidade resultantes da terapia inicial, a dose de manutenção deverá ser de 10 a 15 mg/kg/semana, não devendo exceder 1 g/semana.
+
+Primeiros socorros:
+
+Contato com os olhos: lave imediatamente com água e entre em contato com um médico.
+
+Cuidado com a pele: lave com água e sabão e remova toda a roupa contaminada.
+
+Inalação e/ou ingestão: procure um médico imediatamente.
+
+Siga a orientação de seu médico, respeitando sempre os horários, as doses e a duração do tratamento.
+
+Não interrompa o tratamento sem o conhecimento do seu médico.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+A aplicação deste medicamento é realizada exclusivamente em ambiente hospitalar e sob supervisão médica.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico, ou cirurgião-dentista.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Muitos efeitos adversos do tratamento com Fauldfluor® são inevitáveis, pois representam a ação farmacológica da medicação e auxiliam na titulação individual das doses.
+
+As seguintes reações adversas foram agrupadas com base na frequência de aparecimento:
+
+Reação comum (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento):
+
+Trato gastrintestinal: perda de apetite, náusea, vômitos, inflamação das mucosas, diarreia.
+
+Pele: queda de cabelo Sistema hematopoiético: alteração exames de sangue como diminuição dos leucócitos, das hemácias e das plaquetas.
+
+Reação rara (ocorre entre 0,01% e 0,1% dos pacientes que utilizam este medicamento):
+
+Trato gastrintestinal: úlcera, sangramento, prejuízo hepatocelular.
+
+Pele: vermelhidão, aumento da pigmentação, sensibilidade à luz, coceira.
+
+Sistema nervoso central: dificuldade para se equilibrar, para falar, alteração visual, desorientação, confusão, euforia e inflamação do nervo óptico.
+
+Sistema hematopoiético: alteração exames de sangue como diminuição significativa das hemácias, plaquetas e leucócitos.
+
+Olhos: lacrimejamento (pode representar estenose do ducto lacrimal).
+
+Outras: Raros: Falta de ar (broncoespasmo), choque anafilático.
+
+Reação muito rara (ocorre em menos de 0,01% dos pacientes que utilizam este medicamento):
+
+Trato gastrintestinal: necrose do fígado fatal Pele: casos isolados de alterações nas unhas, incluindo perda das unhas, foram relatados.
+
+Sistema cardiovascular: dor no peito, arritmias cardíacas, infarto do miocárdio, insuficiência do coração, resultando em óbito em raros episódios.
+
+Sistema nervoso central: casos de alteração na função do cerebelo, e dos sistemas extrapiramidal e cortical, os quais são sempre reversíveis, foram relatados.
+
+Reações desconhecidas (a frequência não pode ser estimada a partir dos dados disponíveis):
+
+Metabolismo: hipertrigliceridemia, deficiência de vitamina B1.
+
+Sistema nervoso central: encefalopatia de Wernicke.
+
+Trato gastrintestinal: enterocolite.
+
+Distúrbios gerais: reação local causada por extravasamento (dor, inchaço, eritema).
+
+Informe ao seu médico, cirurgião-dentista ou farmacêutico o aparecimento de reações indesejáveis pelo uso do medicamento. Informe também à empresa através do seu serviço de atendimento.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE
+
+MEDICAMENTO?
+
+A possibilidade de superdose com Fauldfluor® é incomum, em virtude do modo de administração. Não obstante, as manifestações previstas poderiam ser náusea, vômito, diarreia, ulceração e sangramento gastrintestinal, depressão da medula óssea (incluindo redução do número de plaquetas, de glóbulos brancos e diminuição, ou ausência de granulócitos, um subtipo de glóbulo branco). Não existe nenhuma terapia com antídoto específico. Pacientes que foram expostos a superdose de fluoruracila devem ser monitorados hematologicamente por pelo menos quatro semanas. Se aparecerem anormalidades, deve-se instituir o tratamento apropriado.
+</text>

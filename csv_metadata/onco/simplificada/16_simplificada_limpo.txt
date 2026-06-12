@@ -1,0 +1,249 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> imatinibe Comp </id>
+
+    <doenca>leucemia mieloide cronica, leucemia linfoblastica aguda, tumores estromais gastrintestinais</doenca>
+    <nome medicamento>imatinibe</nome medicamento>
+    <nome_comercial>Glivec</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>comprimido</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Glivec® é usado para tratar:
+
+- Adultos e crianças (a partir de 2 anos) com Leucemia Mieloide Crônica (LMC) Ph+ recém-diagnosticada e sem tratamento anterior. A LMC é um câncer do sangue em que o corpo produz muitas células brancas anormais (“células mieloides”).
+
+- Adultos com LMC Ph+ em crise blástica, fase acelerada ou fase crônica quando houve falha ou intolerância ao tratamento com alfa-interferona.
+
+- Adultos e crianças (a partir de 1 ano) com Leucemia Linfoblástica Aguda (LLA) Ph+ recentemente diagnosticada, junto com quimioterapia. A LLA é um câncer do sangue em que o corpo produz muitas células brancas anormais (“linfoblastos”).
+
+- Adultos com Tumores Estromais Gastrintestinais (GIST) que não podem ser operados e/ou que já espalharam para outros órgãos (metástases).
+
+- Tratamento adjuvante em adultos após retirada cirúrgica de GIST primário (para reduzir o risco de o tumor voltar). GIST é um câncer do estômago/intestino que surge do crescimento descontrolado de células de sustentação desses órgãos.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+Glivec® é um medicamento contra o câncer. Ele contém imatinibe. O imatinibe ajuda a bloquear a formação e o crescimento de células anormais nas doenças listadas acima.
+
+Se você tiver dúvidas sobre o motivo do uso, pergunte ao seu médico.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Não use Glivec® se você tiver alergia ao imatinibe ou a qualquer componente da fórmula.
+
+Se você acha que pode ser alérgico, fale com o médico antes de tomar.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Um médico com experiência em tratamento de câncer deve prescrever e acompanhar o uso de Glivec®.
+
+Avise o médico antes de usar Glivec® se você:
+
+- tem ou já teve problemas no fígado, rim ou coração;
+
+- está grávida, suspeita de gravidez ou está amamentando;
+
+- usa levotiroxina (por retirada da tireoide);
+
+- usa outros medicamentos (veja “Interações”);
+
+- teve ou pode ter hepatite B. Glivec® pode fazer a hepatite B voltar a ficar ativa. O médico deve checar isso antes do tratamento.
+
+Avise o médico imediatamente se durante o tratamento você tiver:
+
+- ganho rápido de peso e inchaço nas pernas/tornozelos ou no corpo/rosto (retenção de líquido);
+
+- fraqueza, sangramento sem motivo, hematomas fáceis, ou infecções frequentes com febre, calafrios, dor de garganta, feridas na boca (pode indicar células do sangue baixas);
+
+- dor abdominal forte, vômito com sangue, sangue nas fezes ou fezes pretas (sinais de sangramento no estômago/intestino);
+
+- náusea, falta de ar, batimento irregular, urina turva, cansaço e dor/desconforto nas articulações com exames alterados (ex.: potássio, ácido úrico e cálcio altos; fósforo baixo);
+
+- febre, manchas na pele, dor/inchaço nas articulações, cansaço, falta de apetite, náuseas, pele amarela, dor do lado direito superior da barriga, fezes claras e urina escura (pode ser reativação de hepatite B).
+
+O médico fará acompanhamento regular e pedirá exames de sangue para avaliar:
+
+- células do sangue,
+
+- fígado,
+
+- tireoide,
+
+- rins.
+
+Você também deve medir o peso regularmente.
+
+Este medicamento pode causar danos ao fígado. Por isso, o médico deve acompanhar com consultas e exames periódicos.
+
+Idosos (65 anos ou mais): Em geral, podem usar a mesma dose dos adultos, conforme orientação médica.
+
+Crianças e adolescentes:
+
+- LMC: indicado, mas não há experiência abaixo de 2 anos.
+
+- LLA Ph+: indicado, mas não há experiência abaixo de 1 ano.
+
+Algumas crianças e adolescentes podem ter crescimento mais lento. O médico deve acompanhar o crescimento.
+
+Gravidez, amamentação e fertilidade:
+
+- Glivec® não é recomendado na gravidez, a menos que seja realmente necessário, pois pode prejudicar o bebê.
+
+- Não amamente durante o uso de Glivec® e por 15 dias após a última dose.
+
+- Uso contraindicado no aleitamento ou na doação de leite humano: o medicamento pode passar para o leite e causar reações no bebê. O médico deve orientar alternativas.
+
+Mulheres que podem engravidar devem usar método contraceptivo eficaz durante o tratamento e por 15 dias após o fim. Homens preocupados com fertilidade devem conversar com o médico.
+
+Dirigir e operar máquinas: Se você tiver tontura, sonolência ou visão turva, não dirija nem opere máquinas até melhorar.
+
+Interações com outros medicamentos (incluindo vacinas e biológicos). Glivec® pode interferir com outros remédios. Informe ao médico se você usa, por exemplo:
+
+- remédios para infecções: cetoconazol, itraconazol, eritromicina, claritromicina;
+
+- remédios para epilepsia: carbamazepina, oxcarbazepina, fenobarbital, fenitoína, fosfenitoína, primidona;
+
+- colesterol alto: sinvastatina;
+
+- alguns remédios psiquiátricos: benzodiazepínicos, pimozida;
+
+- pressão alta/coração: bloqueadores de canais de cálcio, metoprolol;
+
+- rifampicina (tuberculose);
+
+- Erva de São João (Hypericum perforatum);
+
+- dexametasona;
+
+- ciclosporina;
+
+- varfarina;
+
+- metotrexato.
+
+A bula orienta evitar esses medicamentos durante o tratamento com Glivec®. O médico pode trocar por alternativas.
+
+Atenção: contém os corantes óxido de ferro vermelho e óxido de ferro amarelo.
+
+Não use medicamentos sem orientação do médico.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Guarde em temperatura ambiente (15 a 30 ºC). Proteja da umidade.
+
+Não use após o vencimento. Guarde na embalagem original.
+
+Aspecto (resumo):
+
+- Comprimido 100 mg: redondo, amarelo escuro a marrom-alaranjado.
+
+- Comprimido 400 mg: oval, amarelo escuro a marrom-alaranjado.
+
+Mantenha fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Tome Glivec® com uma refeição para proteger o estômago. Engula com um copo grande de água.
+
+Se tiver dificuldade para engolir. Você pode dissolver em água ou suco de maçã:
+
+- 50 mL para 1 comprimido de 100 mg;
+
+- 200 mL para 1 comprimido de 400 mg.
+
+Mexa com colher até dissolver e beba tudo imediatamente.
+
+Se necessário, você pode partir o comprimido na linha (sulco) e engolir sem mastigar. O sulco é para ajudar a engolir, não para dividir em doses iguais.
+
+LMC: Dose inicial habitual:
+
+- 400 mg: 1 comprimido de 400 mg 1 vez ao dia, ou
+
+- 600 mg: 1 comprimido de 400 mg + 2 comprimidos de 100 mg 1 vez ao dia.
+
+Se a dose diária for 800 mg, 1 comprimido de 400 mg de manhã e 1 comprimido de 400 mg à noite.
+
+GIST: Dose inicial:
+
+- 400 mg: 1 comprimido de 400 mg 1 vez ao dia.
+
+- Se a dose diária for 800 mg: 400 mg de manhã e 400 mg à noite.
+
+LLA Ph+: Dose inicial:
+
+- 600 mg: 1 comprimido de 400 mg + 2 comprimidos de 100 mg 1 vez ao dia.
+
+Para crianças, o médico calcula a dose conforme peso e altura.
+
+Limites:
+
+- LMC: dose diária total não deve ultrapassar 800 mg.
+
+- LLA Ph+: dose diária total não deve ultrapassar 600 mg.
+
+A dose pode ser:
+
+- 1 vez ao dia, ou
+
+- dividida em 2 vezes ao dia (manhã e noite).
+
+Tome Glivec® todos os dias até o médico mandar parar.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Se você esquecer uma dose ou vomitar, não tome dose extra. Espere e tome a próxima dose no horário normal.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Glivec® pode causar efeitos colaterais. Muitos são leves a moderados, mas alguns podem ser graves.
+
+Procure o médico imediatamente se você tiver sinais como:
+
+- inchaço importante e ganho rápido de peso (retenção de líquido);
+
+- sinais de células do sangue baixas (fraqueza, hematomas, sangramentos, infecções frequentes);
+
+- sangramento no estômago/intestino (vômito com sangue, fezes pretas, sangue nas fezes);
+
+- dor no peito, falta de ar, batimento irregular;
+
+- sinais de problema no fígado (pele/olhos amarelos, urina escura, dor do lado direito da barriga);
+
+- convulsões, desmaio, dor de cabeça muito forte, fraqueza/paralisia, dificuldade para falar;
+
+- sinais de coágulo (inchaço e dor em uma parte do corpo);
+
+- reação alérgica grave (falta de ar, tontura intensa, erupção cutânea grave).
+
+Efeitos comuns podem incluir:
+
+- dor de cabeça, náusea, diarreia, vômitos, indigestão, dor abdominal;
+
+- coceira/vermelhidão/manchas na pele;
+
+- câimbras e dores musculares, dores nos ossos e articulações;
+
+- inchaço ao redor dos olhos;
+
+- cansaço e aumento de peso.
+
+Se qualquer efeito piorar, informe o médico.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+
+Se você tomar mais Glivec® do que o recomendado, podem ocorrer sintomas como enjoo, vômitos, diarreia, vermelhidão na pele, inchaço, cansaço, espasmos musculares, dor abdominal, dor de cabeça, fraqueza e alterações nos exames de sangue (incluindo queda de células do sangue). Em crianças, podem ocorrer vômitos, diarreia, falta de apetite e queda de células do sangue.
+
+Procure o médico imediatamente. Pode ser necessário acompanhamento médico.
+</text>

@@ -1,0 +1,211 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> acido zoledronico Sol inj 4mg </id>
+
+    <doenca>metastase ossea, hipercalcemia induzida por tumor</doenca>
+    <nome medicamento>ácido zoledrônico</nome medicamento>
+    <nome_comercial>NA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>solucao injetavel 4 mg</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. Para que este medicamento é indicado?
+
+O ácido zoledrônico é usado para:
+
+- Tratar metástase óssea (quando o câncer atinge os ossos).
+
+- Reduzir o excesso de cálcio no sangue causado pelo tumor (hipercalcemia induzida por tumor – HIT).
+
+Também ajuda a prevenir problemas nos ossos em pessoas com câncer que se espalhou para os ossos, como:
+
+- Fraturas (quebras dos ossos).
+
+- Compressão da medula espinhal.
+
+- Necessidade de radioterapia.
+
+- Necessidade de cirurgia ortopédica.
+
+- Hipercalcemia causada pelo tumor.
+
+2. Como este medicamento funciona?
+
+O ácido zoledrônico pertence ao grupo dos bisfosfonatos, medicamentos que agem diretamente nos ossos. Ele diminui a destruição óssea (perda de massa óssea) ao reduzir a atividade das células que “quebram” o osso (osteoclastos).
+
+Esse medicamento também pode ter efeito contra o tumor, ajudando no controle da doença nos ossos.
+
+3. Quando não devo usar este medicamento?
+
+Não use ácido zoledrônico se:
+
+- Você for alérgico ao ácido zoledrônico, a outros bisfosfonatos ou a qualquer componente da fórmula.
+
+- Você estiver grávida.
+
+- Você estiver amamentando.
+
+- O paciente for criança.
+
+4. O que devo saber antes de usar este medicamento?
+
+Gravidez: Não use este medicamento durante a gravidez. Avise o médico se estiver grávida ou suspeitar de gravidez.
+
+Amamentação: Não use durante a amamentação. Não se sabe se o medicamento passa para o leite materno.
+
+Idosos: Idosos podem usar o medicamento. Não são necessárias precauções extras apenas por causa da idade.
+
+Dirigir ou operar máquinas: Não há estudos específicos. Tenha cuidado ao dirigir ou operar máquinas.
+
+Precauções importantes: Antes de iniciar o tratamento, informe ao médico se você:
+
+- Usa outro medicamento com ácido zoledrônico.
+
+- Usa qualquer outro medicamento.
+
+- Tem ou já teve problemas nos rins.
+
+- Tem ou já teve problemas no fígado.
+
+- Tem ou já teve problemas no coração.
+
+Mantenha boa higiene bucal e faça acompanhamento com dentista regularmente. Informe ao dentista que você usa ácido zoledrônico. Evite procedimentos dentários invasivos (como extrações), se possível.
+
+Beba líquidos suficientes antes da aplicação para evitar desidratação.
+
+Interações medicamentosas: Informe ao médico todos os medicamentos que você usa. Avise especialmente se você usa:
+
+- Aminoglicosídeos (antibióticos para infecções graves), pois podem reduzir muito o cálcio no sangue.
+
+- Medicamentos antiangiogênicos (usados no tratamento do câncer), pois podem aumentar o risco de dano ósseo na mandíbula (osteonecrose).
+
+Não use medicamento sem orientação médica.
+
+5. Como guardar este medicamento?
+
+Guarde em temperatura ambiente (entre 15°C e 30°C). Proteja da luz. Mantenha na embalagem original. Validade: 24 meses após a fabricação.
+
+Após o preparo:
+
+- Manter refrigerado entre 2°C e 8°C por no máximo 24 horas.
+
+- Antes da aplicação, deixar atingir temperatura ambiente.
+
+- Descartar qualquer sobra.
+
+Aspecto esperado:
+
+- Antes do preparo: pó branco.
+
+- Após preparo e diluição: solução transparente e sem partículas visíveis.
+
+Não use se estiver vencido ou com aparência alterada. Mantenha fora do alcance das crianças.
+
+6. Como devo usar este medicamento?
+
+Apenas profissionais de saúde podem preparar e aplicar o medicamento, em hospital ou clínica adequada.  A aplicação é feita por infusão intravenosa (na veia) e dura pelo menos 15 minutos.
+
+Preparo: Reconstituir com 5 mL de água para injeção. Depois diluir em 100 mL de soro fisiológico 0,9% ou glicose 5%.
+
+Não misturar com soluções que contenham cálcio.
+
+Dose recomendada Para prevenção de complicações ósseas em câncer com metástase óssea:
+
+- 4 mg por infusão. Repetir a cada 3 a 4 semanas. Recomenda-se uso diário de Cálcio 500 mg e Vitamina D 400 UI.
+
+Para hipercalcemia induzida por tumor (HIT):
+
+- 4 mg por infusão.
+
+O médico define a frequência das aplicações. Não interrompa o tratamento sem falar com o médico.
+
+7. O que fazer se esquecer uma dose?
+
+O uso é hospitalar. Em caso de dúvida, fale com o médico ou farmacêutico.
+
+8. Quais os males que este medicamento pode causar?
+
+Avise o médico imediatamente se notar:
+
+- Febre.
+
+- Sintomas parecidos com gripe (cansaço, dor no corpo, calafrios).
+
+- Dor forte nos ossos, músculos ou articulações.
+
+Esses sintomas costumam melhorar em poucas horas ou dias.
+
+Reações importantes:
+
+- Osteonecrose da mandíbula (lesão no osso da mandíbula): dor na boca, feridas, inchaço, dormência ou dente mole.
+
+- Problemas nos rins.
+
+- Níveis muito baixos de cálcio no sangue.
+
+- Reações alérgicas.
+
+- Ritmo cardíaco irregular (fibrilação atrial).
+
+- Fratura incomum do fêmur (principalmente em uso prolongado).
+
+Reações mais comuns:
+
+- Anemia.
+
+- Dor de cabeça.
+
+- Náusea e vômito.
+
+- Perda de apetite.
+
+- Dor óssea, muscular ou nas articulações.
+
+- Febre.
+
+- Aumento da creatinina (alteração nos rins).
+
+- Baixo nível de cálcio ou fósforo no sangue.
+
+Outras reações podem incluir:
+
+- Tontura.
+
+- Diarreia ou constipação.
+
+- Falta de ar.
+
+- Pressão alta ou baixa.
+
+- Erupções na pele.
+
+- Alterações nos exames de sangue.
+
+- Problemas renais.
+
+O médico fará exames para acompanhar os níveis de cálcio, fósforo, magnésio e potássio. Informe qualquer reação indesejada ao médico.
+
+9. O que fazer em caso de dose maior que a indicada?
+
+Se você receber dose maior que a recomendada:
+
+- O médico deverá monitorar você.
+
+- Pode ocorrer problema nos rins.
+
+- Pode haver alteração nos níveis de cálcio, fósforo e magnésio.
+
+- Pode ser necessário aplicar cálcio pela veia.
+
+Se tiver dúvidas, procure seu médico, farmacêutico ou dentista.
+</text>

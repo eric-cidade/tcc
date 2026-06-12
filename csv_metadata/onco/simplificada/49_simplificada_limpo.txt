@@ -1,0 +1,143 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> tamarine Cap </id>
+
+    <doenca>constipacao intestinal, preparacao para exames radiologicos e endoscopicos</doenca>
+    <nome medicamento>tamarine</nome medicamento>
+    <nome_comercial>NA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>capsula dura</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. Para que este medicamento é indicado?
+
+Tamarine® cápsula dura é indicado para:
+
+- aliviar intestino preso (constipação), tanto primária (sem causa definida) quanto secundária (causada por outra condição);
+
+- ajudar na preparação para exames radiológicos e endoscópicos.
+
+2. Como este medicamento funciona?
+
+Tamarine® cápsula dura combina duas plantas medicinais (Senna alexandrina e Cassia fistula) com efeito laxativo. Esse laxativo estimula o intestino e aumenta as secreções naturais do aparelho digestivo, ajudando a evacuar. O efeito costuma aparecer em 8 a 10 horas.
+
+3. Quando não devo usar este medicamento?
+
+Não use Tamarine® cápsula dura se você:
+
+- tem retocolite (inflamação aguda do intestino) ou doença de Crohn (inflamação crônica do intestino);
+
+- tem dor abdominal sem causa conhecida;
+
+- tem alergia a qualquer componente da fórmula;
+
+- tem menos de 12 anos;
+
+- está com desidratação grave, com perda importante de água e sais do corpo (eletrólitos).
+
+4. O que devo saber antes de usar este medicamento?
+
+Menores de 12 anos: não podem usar. A partir de 12 anos: use somente com indicação médica.
+
+Idosos: devem começar com metade da dose de adulto.
+
+Gravidez: pode usar somente com prescrição do médico ou cirurgião-dentista.
+
+Amamentação / doação de leite humano: o uso é considerado compatível e não interfere na amamentação.
+
+Interações com outros medicamentos (use com cautela):
+
+Tenha cuidado se você usa remédios como:
+
+- antiarrítmicos (para arritmia do coração), como quinidina e amiodarona;
+
+- vincamina;
+
+- digitálicos (ex.: digoxina);
+
+- anfotericina B;
+
+- diuréticos que diminuem potássio (ex.: furosemida, hidroclorotiazida).
+
+Não há relatos de interação com alimentos. Informe ao médico/dentista todos os medicamentos que você usa.
+
+5. Onde, como e por quanto tempo posso guardar este medicamento?
+
+Guarde em temperatura ambiente (15°C a 30°C). Proteja da luz e da umidade. Não use se estiver vencido. Guarde na embalagem original. Antes de usar, observe o aspecto. Se houver mudança, fale com o farmacêutico.
+
+Mantenha fora do alcance das crianças.
+
+6. Como devo usar este medicamento?
+
+Uso oral (pela boca).
+
+Adultos e crianças acima de 12 anos: 1 a 2 cápsulas por dia, após a última refeição, ou conforme orientação médica.
+
+Limite máximo diário: 2 cápsulas (ou conforme orientação médica).
+
+Use laxantes estimulantes como este por pouco tempo, apenas até aliviar os sintomas.
+
+Não use por mais de 7 dias consecutivos.
+
+Use por mais de 7 dias somente com orientação médica.
+
+Não parta, não abra e não mastigue a cápsula.
+
+7. O que devo fazer quando eu me esquecer de usar este medicamento?
+
+Se você esquecer uma dose, não dobre a dose. Apenas volte a tomar a dose habitual para aliviar a constipação. Se tiver dúvidas, procure o farmacêutico ou o médico/dentista.
+
+8. Quais os males que este medicamento pode me causar?
+
+Por ser um laxante que estimula o intestino, é muito comum aparecer cólicas e gases. Também podem ocorrer:
+
+- diarreia
+
+- dor no estômago
+
+- refluxo
+
+- vômitos
+
+- irritação no estômago/intestino Procure um médico se aparecerem sinais como:
+
+- sangue nas fezes
+
+- cólicas muito fortes
+
+- fraqueza
+
+- sangramento pelo reto
+
+9. O que fazer se alguém usar uma quantidade maior do que a indicada?
+
+Doses altas podem causar:
+
+- diarreia
+
+- espasmos e cólicas abdominais
+
+- perda importante de potássio Se a pessoa tomar bem mais do que a dose recomendada, procure socorro médico.
+
+O médico pode indicar medidas como:
+
+- lavagem do estômago (em alguns casos);
+
+- reposição de líquidos e sais (eletrólitos);
+
+- antiespasmódicos para cólicas.
+
+Em caso de uso de grande quantidade, procure atendimento médico rapidamente e leve a embalagem ou a bula.
+
+Ligue para 0800 722 6001 se precisar de mais orientações.
+</text>

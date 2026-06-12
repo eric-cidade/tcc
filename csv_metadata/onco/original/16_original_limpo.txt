@@ -1,0 +1,471 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> imatinibe Comp </id>
+
+    <doenca>leucemia mieloide cronica, leucemia linfoblastica aguda, tumores estromais gastrintestinais</doenca>
+    <nome medicamento>imatinibe</nome medicamento>
+    <nome_comercial>Glivec</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>comprimido</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Glivec® é um tratamento para:
+
+- pacientes adultos e pediátricos (acima de 2 anos) com Leucemia Mieloide Crônica (LMC) cromossomo Philadelphia positivo (Ph+) recém-diagnosticada e sem tratamento anterior.
+
+- pacientes adultos com LMC cromossomo Philadelphia positivo em crise blástica, fase acelerada ou em fase crônica após falha ou intolerância à terapia com alfa-interferona. A LMC é um tipo de câncer das células do sangue na qual o corpo produz um número elevado de células brancas anormais no sangue (chamadas “células mieloides”).
+
+- pacientes adultos e pediátricos (acima de 1 ano) com Leucemia Linfoblástica Aguda (LLA Ph+) cromossomo Philadelphia positivo, recentemente diagnosticada, integrados com quimioterapia. Leucemia é um tipo de câncer das células brancas do sangue. Estas células brancas em geral ajudam o corpo a combater infecções. A LLA é um tipo de câncer do sangue na qual o corpo produz um número elevado de células brancas anormais no sangue (chamadas “linfoblastos”).
+
+- pacientes adultos com Tumores Estromais Gastrintestinais (GIST), não ressecáveis e/ou metastáticos.
+
+- tratamento adjuvante de pacientes adultos após ressecção de GIST primário. O GIST é um câncer do estômago e intestino. Ele surge do crescimento descontrolado das células do tecido de suporte destes órgãos.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+Glivec® é um medicamento para tratamento de câncer e contém a substância ativa imatinibe.
+
+Glivec® age interrompendo a produção de células anormais nas doenças citadas anteriormente.
+
+Se você tiver qualquer dúvida sobre como o Glivec® funciona ou porque este medicamento foi prescrito para você, pergunte ao seu médico.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Glivec® é contraindicado em pacientes com alergia (hipersensibilidade) ao imatinibe ou a qualquer um dos ingredientes do produto. Se este for o seu caso, converse com seu médico antes de tomar Glivec®.
+
+Se você suspeita que pode ser alérgico, converse com seu médico.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Seu tratamento com Glivec® será prescrito por um médico com experiência no uso de terapias anticâncer.
+
+Siga todas as instruções do médico cuidadosamente. Elas podem ser diferentes das informações gerais contidas nesta bula.
+
+Avisos e precauçõesSe alguma destas situações se aplicar a você, informe o seu médico antes de tomar Glivec®:
+
+- Se tiver ou se já teve problemas de fígado, rim ou coração;
+
+- Se você estiver grávida ou suspeita de gravidez ou se você estiver amamentando (vide “Gravidez e amamentação”);
+
+- Se você estiver tomando levotiroxina devido à retirada de sua tireoide;
+
+- Se você estiver recebendo tratamento com outros medicamentos, em particular aqueles listados na seção “Interações medicamentosas”;
+
+- Se você já teve ou possa ter agora uma infecção por hepatite B. Isso ocorre porque durante o tratamento com Glivec®, a hepatite B pode se tornar ativa novamente. O seu médico irá verificar se existem sinais dessa infecção antes de iniciar o tratamento com Glivec®.
+
+Informe seu médico imediatamente se tiver algum destes sintomas durante o tratamento com Glivec®.. Seu médico vai decidir se modifica ou descontinua o seu tratamento:
+
+- Ganho rápido de peso, inchaço das extremidades (panturrilhas, tornozelos), inchaço generalizado tal como inchaço da face (sinais de retenção de água);
+
+- Fraqueza, hemorragia espontânea ou hematomas, infecções frequentes com sinais como febre, calafrios, dor de garganta ou úlceras na boca (sinais de baixo nível de células sanguíneas).
+
+- Dor abdominal intensa, vômitos com sangue, presença de sangue nas fezes ou fezes pretas (sinais de sangramento gastrointestinais);
+
+- Náusea, falta de ar, batimentos cardíacos irregulares, turvação de urina, cansaço e/ou desconforto nas articulações associado à valores laboratoriais anormais (tais como níveis elevados de potássio, ácido úrico e cálcio e níveis baixos de fósforo no sangue).
+
+- Febre, erupção cutânea, dor e inflamação nas articulações, bem como cansaço, perda de apetite, náuseas, icterícia (amarelamento da pele), dor na parte superior direita do abdômen, fezes claras e urina escura (sinais potenciais de reativação da hepatite B).
+
+Monitoramento durante o seu tratamento com Glivec® Seu médico irá monitorar regularmente suas condições para verificar se Glivec® está tendo o efeito desejado. Você também fará testes de sangue regulares para ver como Glivec® é tolerado (por exemplo, células sanguíneas, função hepática, tireoidiana e renal).
+
+Você precisará ter seu peso medido regularmente.
+
+Este medicamento pode causar danos ao fígado. Por isso, seu uso requer acompanhamento médico estrito e exames laboratoriais periódicos para controle.
+
+Idosos (65 anos ou mais) Glivec® pode ser usado por pessoas acima de 65 anos na mesma dosagem usada para adultos.
+
+Crianças e adolescentes (abaixo de 18 anos) Glivec® é indicado para crianças e adolescentes com LMC. Não há experiência com o uso de Glivec® em crianças abaixo de 2 anos de idade para a indicação de LMC.
+
+Glivec® é indicado para crianças e adolescentes com LLA. Não há experiência com o uso de Glivec® em crianças abaixo de 1 ano de idade para a indicação de LLA.
+
+Algumas crianças e adolescentes que tomam Glivec® podem ter um crescimento mais lento do que o normal. O médico irá monitorar o crescimento durante as visitas regulares.
+
+Gravidez e amamentação Glivec® não é recomendado durante a gravidez a menos que claramente necessário, pois pode prejudicar o seu bebê. Se você está grávida ou acha que pode estar grávida, informe seu médico. Seu médico discutirá com você os potenciais riscos de tomar Glivec® durante a gravidez.
+
+Você não deve amamentar enquanto estiver usando Glivec® e durante 15 dias após a última dose, uma vez que pode prejudicar o seu bebê. Informe ao seu médico se você estiver amamentando.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica. Informe imediatamente seu médico em caso de suspeita de gravidez.
+
+Uso contraindicado no aleitamento ou na doação de leite humano: este medicamento é contraindicado durante o aleitamento ou doação de leite, pois pode ser excretado no leite humano e pode causar reações indesejáveis no bebê. Seu médico ou cirurgião-dentista deve apresentar alternativas para o seu tratamento ou para a alimentação do bebê.
+
+Mulheres com potencial para engravidar e pacientes homens Mulheres com potencial para engravidar devem usar um método contraceptivo eficaz durante o tratamento com Glivec® e durante 15 dias após o final do tratamento. Pacientes do sexo masculino preocupados com sua capacidade de gerar filhos durante o tratamento com Glivec® devem consultar seu médico.
+
+Efeitos sobre a habilidade de dirigir veículos e/ou utilizar máquinas Se você sentir tontura ou sonolência, ou se você apresentar visão turva durante o tratamento com Glivec®, você não deve dirigir veículos e/ou operar máquinas até que se sinta melhor novamente.
+
+Interações medicamentosas (incluindo vacinas ou produtos biológicos) Glivec® pode interferir com outros medicamentos.
+
+Informe ao seu médico ou farmacêutico caso você esteja tomando ou tenha tomado recentemente qualquer outro medicamento, mesmo aqueles que não tenham sido prescritos por ele.
+
+Isto inclui o seguinte:
+
+- alguns medicamentos para tratamento de infecções, tais como: cetoconazol, itraconazol, eritromicina ou claritromicina;
+
+- alguns medicamentos usados para tratamento de epilepsia, tais como: carbamazepina, oxcarbazepina, fenobarbital, fenitoína, fosfenitoína ou primidona;
+
+- alguns medicamentos para tratamento de colesterol alto, tais como: sinvastatina;
+
+- alguns medicamentos para tratamento de distúrbios mentais, tais como: benzodiazepínicos ou pimozida;
+
+- alguns medicamentos para tratamento de pressão sanguínea alta ou distúrbios do coração, tais como:
+
+bloqueadores de canais de cálcio ou metoprolol;
+
+- rifampicina, um medicamento para tratamento da tuberculose;
+
+- Erva de São João – um produto fitoterápico utilizado para tratamento da depressão e outras condições (também conhecida como Hypericum perforatum);
+
+- dexametasona – um medicamento anti-inflamatório;
+
+- ciclosporina – um medicamento imunossupressor;
+
+- varfarina – um medicamento utilizado no tratamento de distúrbios da coagulação sanguínea (tais como coágulos sanguíneos ou tromboses).
+
+- metotrexato, um medicamento usado para tratar câncer, inflamação reumática grave das articulações (artrite reumatóide) ou psoríase.
+
+Estes medicamentos devem ser evitados durante o tratamento com Glivec®.
+
+Se você estiver tomando alguns desses medicamentos, seu médico poderá prescrever um medicamento alternativo.
+
+Você também deve informar ao seu médico se você já está tomando Glivec® e se lhe foi prescrito algum novo medicamento, incluindo medicamentos obtidos sem prescrição médica, que você não tenha tomado anteriormente durante seu tratamento com Glivec®.
+
+Atenção: Contém os corantes óxido de ferro vermelho e óxido de ferro amarelo.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para a sua saúde.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Glivec® deve ser armazenado em temperatura ambiente (entre 15 e 30 ºC) e protegido da umidade.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+Aspecto físico Comprimido de 100 mg: comprimido revestido redondo de coloração amarela muito escura a marrom alaranjado, biconvexo com bordas chanfradas, com sulco e gravação “SA” de um lado e “NVR” do outro.
+
+Comprimido de 400 mg: comprimido revestido ovaloide de coloração amarela muito escura a marrom alaranjado, biconvexo com bordas chanfradas, com gravação ”400” em um lado e sulco no lado posterior, contendo “SL” gravado em cada lado do sulco.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+TODO MEDICAMENTO DEVE SER MANTIDO FORA DO ALCANCE DAS CRIANÇAS.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Siga as instruções do seu médico cuidadosamente e sempre tome Glivec® exatamente como seu médico orientou.
+
+Não exceda a dose recomendada.
+
+Quando e como tomar Glivec® Tome Glivec® com uma refeição para ajudar a proteger seu estômago. Engula o(s) comprimido(s) inteiro(s) junto com um copo grande de água.
+
+Método de administração Caso você tenha dificuldade para engolir os comprimidos revestidos inteiros, você pode dissolvê-los em um copo de água ou suco de maçã:
+
+- Coloque o número de comprimidos necessários em um volume apropriado de bebida (aproximadamente 50 mL para um comprimido de 100 mg, e 200 mL para um comprimido de 400 mg).
+
+- Misture com o auxílio de uma colher para dissolução completa do(s) comprimido(s).
+
+- Beber imediatamente todo o conteúdo do copo. Você pode deixar traços do comprimido desintegrado no copo após beber.
+
+Se necessário, os comprimidos revestidos de Glivec® também podem ser partidos ao meio, na linha de quebra (sulco) do comprimido e engolidos sem mastigar. A linha de quebra do comprimido não tem por objetivo a divisão do comprimido em doses iguais, mas pode ser utilizada para partir o comprimido a fim de facilitar a deglutição.
+
+Quanto tomar de Glivec® - pacientes adultos Seu médico lhe dirá exatamente quantos comprimidos de Glivec® você deve tomar.
+
+- Se você está sendo tratado para LMC: dependendo da sua condição, a dose inicial habitual é:
+
+•  400 mg para ser tomado em um único comprimido de 400 mg uma vez ao dia, •  Ou 600 mg para ser tomado como um comprimido de 400 mg mais 2 comprimidos de 100 mg uma vez ao dia.
+
+Seu médico pode prescrever uma dose maior ou menor dependendo de como você responder ao tratamento. Se sua dose diária é 800 mg, você deve tomar um comprimido de 400 mg pela manhã e um segundo comprimido de 400 mg a noite.
+
+- Se você está sendo tratado para GIST: a dose inicial é 400 mg, para ser tomada como um único comprimido de 400 mg uma vez ao dia.
+
+Seu médico pode prescrever uma dose maior ou menor dependendo de como você responder ao tratamento. Se sua dose diária é 800 mg, você deve tomar um comprimido de 400 mg pela manhã e um segundo comprimido de 400 mg a noite.
+
+- Se você está sendo tratado para LLA Ph+: a dose inicial é 600 mg para ser tomado como um comprimido de 400 mg mais 2 comprimidos de 100 mg uma vez ao dia.
+
+Quanto tomar de Glivec® - crianças Se seu filho está sendo tratado para LMC ou para LLA Ph+:
+
+O médico irá informar quantos comprimidos de Glivec® dar para seu filho. A quantidade de Glivec® irá depender da condição da criança bem como do seu peso e altura.
+
+A dose diária total em crianças não deve exceder 800 mg para LMC e 600 mg para LLA Ph+.
+
+O tratamento pode ser dado para seu filho tanto em uma única dose diária ou alternativamente a dose diária pode ser dividida em duas administrações (uma pela manhã e outra a noite).
+
+Por quanto tempo tomar Glivec® Tome Glivec® diariamente até seu médico pedir para você parar. Certifique-se de tomar Glivec® pelo tempo que foi prescrito.
+
+Pacientes idosos: nenhuma recomendação relativa à dose é necessária para pacientes idosos.
+
+Siga a orientação de seu médico, respeitando sempre os horários, as doses e a duração do tratamento. Não interrompa o tratamento sem o conhecimento do seu médico.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Se uma dose for esquecida ou ocorrer vômito, não compense a dose. Ao invés disso, aguarde até o horário para a próxima dose.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico, ou cirurgião-dentista.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Como todos os medicamentos, Glivec® pode causar o aparecimento de reações adversas, embora nem todas as pessoas as tenham. A maioria dessas reações são de leve a moderada gravidade.
+
+Não fique assustado com a lista de possíveis reações adversas. É possível que você não apresente nenhuma delas.
+
+Algumas reações podem ser sérias.
+
+Se você sentir quaisquer efeitos colaterais graves, pare de tomar este medicamento e informe seu médico imediatamente.
+
+Muito comuns (pode afetar mais de 1 em cada 10 pacientes) ou comuns (pode afetar até 1 em cada 10 pacientes):
+
+- Rápido aumento de peso, inchaço das extremidades (panturrilhas, tornozelos), inchaço generalizado como inchaço na face (sinais de retenção de líquido);
+
+- Fraqueza, sangramento ou contusão espontâneos, infecções frequentes com sinais como febre, calafrios, dor de garganta, úlceras na boca (sinais de baixo nível de células sanguíneas).
+
+Incomuns (pode afetar até 1 em cada 100 pacientes) ou raras (pode afetar até 1 em cada 1000 pacientes):
+
+- Palidez, cansaço, falta de ar, urina escura (sinais de destruição de células sanguíneas vermelhas);
+
+- Deficiência da visão, visão embaçada, sangramento no olho;
+
+- Aperto ou dor no peito, febre, cansaço, ritmo cardíaco irregular (sinais de problemas cardíacos, tais como ataque cardíaco, angina);
+
+- Náusea, diarreia, vômito, dor abdominal, febre (sinais de doença inflamatória do intestino);
+
+- Rash grave (erupção cutânea), vermelhidão na pele, empolamento dos lábios, olhos, pele ou boca, descamação da pele, febre, manchas vermelhas ou roxas na pele, prurido, queimadura, erupção pustular (sinais de distúrbios da pele);
+
+- Dor nos ossos ou articulações (sinais de osteonecrose);
+
+- Inflamação da pele causada por uma infecção (sinal de celulite);
+
+- Dor de cabeça intensa, fraqueza ou paralisia de membros ou da face, dificuldade para falar, perda repentina da consciência (sinais de distúrbios do sistema nervoso tais como sangramento ou inchaço intracraniano/cérebro);
+
+- Convulsões;
+
+- Vertigens, tonturas ou desmaio (podem ser sinais de pressão arterial baixa);
+
+- Dor abdominal intensa, vômito com sangue, sangue nas fezes, ou fezes escuras; inchaço no abdômen/líquido dentro do abdômen, constipação, dor de estômago (sinais de distúrbios gastrintestinais);
+
+- Náusea, perda de apetite, urina escura ou amarelamento da pele ou dos olhos (sinais de distúrbios no fígado);
+
+- Sede, perda de peso e diminuição grave da quantidade de urina (sinais de baixa ingestão de líquidos/fluidos);
+
+- Sangue na urina;
+
+- Inchaço e dor em alguma parte do corpo (sinais de coágulos nos vasos sanguíneos);
+
+- Tosse, dificuldade ou respiração dolorosa, chiado, dor no peito ao respirar (sinais de infecções/distúrbios pulmonares);
+
+- Fraqueza muscular, espasmos musculares, ritmo cardíaco anormal (sinais de mudanças no nível de potássio no sangue);
+
+- Espasmo muscular, febre, urina vermelho-amarronzada, distúrbios renais, dor ou fraqueza nos músculos (sinais de distúrbios musculares);
+
+- Náuseas, respiração curta, batimento cardíaco irregular, urina turva, cansaço e/ou desconforto nas articulações associado com valores laboratoriais anormais (tais como, níveis elevados de potássio, ácido úrico e cálcio e níveis baixos de fósforo no sangue);
+
+- Forte dor de cabeça, tonturas, visão turva (sinais de aumento de pressão dentro do crânio).
+
+Muito raras (pode afetar até 1 em cada 10.000 pacientes):
+
+- Dor pélvica, às vezes acompanhada por náusea e vômito, sangramento vaginal inesperado (sinais de distúrbio ginecológico);
+
+- Reação alérgica grave que pode resultar em dificuldade em respirar e tonturas (vertigem);
+
+Desconhecidas (a frequência não pode ser estimada a partir dos dados disponíveis)
+
+- Combinação de uma erupção cutânea generalizada grave, sensação de enjoo, febre, nível elevado de certas células brancas do sangue ou pele e olhos amarelados (sinais de icterícia) com falta de ar, dor no peito/desconforto, diminuição grave na eliminação de urina e sensação de sede (sinais de reação alérgica relacionada ao tratamento).
+
+- Reativação da infecção da hepatite B, quando você já teve hepatite B (uma infecção do fígado) no passado.
+
+Outras possíveis reações adversas Outros efeitos colaterais incluem os listados abaixo. Se esses efeitos colaterais se agravarem, informe seu médico.
+
+Muito comuns: pode afetar mais de 1 em cada 10 pacientes
+
+- Dor de cabeça, náusea;
+
+- Diarreia, vômito, indigestão, dor abdominal;
+
+- Prurido/vermelhidão/erupção cutânea com sensação de queimação;
+
+- Câimbras musculares, dores musculares, dor nos ossos, dor nas articulações, dor musculoesquelética após a descontinuação do tratamento com Glivec® (incluindo dor muscular, dor nos membros, dor nas articulações, dor óssea e dor nas costas);
+
+- Inchaço das pálpebras ou ao redor dos olhos;
+
+- Fadiga;
+
+- Aumento do peso.
+
+Comuns: pode afetar até 1 em cada 10 pacientes
+
+- Dificuldade para dormir;
+
+- Tontura, formigamento, dor ou dormência das mãos, pés, pernas ou ao redor do quadril;
+
+- Alterações no paladar;
+
+- Diminuição da sensibilidade da pele, olho com secreção e prurido, vermelhidão e inchaço dos olhos (conjuntivite), aumento da produção de lágrimas;
+
+- Olho seco;
+
+- Rubores;
+
+- Sangramentos nasais;
+
+- Boca seca;
+
+- Azia;
+
+- Inchaço abdominal, flatulência, diarreia, náusea e dor estomacal (sinal de gastrite);
+
+- Constipação;
+
+- Resultados anormais em exames laboratoriais de função hepática;
+
+- Prurido;
+
+- Pele seca;
+
+- Afinamento ou queda incomum de cabelo;
+
+- Suores noturnos;
+
+- Aumento da sensibilidade da pele ao sol (sinal de fotossensibilidade);
+
+- Inchaço das articulações;
+
+- Calafrios;
+
+- Perda de peso;
+
+- Diminuição do apetite;
+
+- Ulceração na boca;
+
+- Fraqueza;
+
+- Febre.
+
+Incomuns: pode afetar até 1 em cada 100 pacientes
+
+- Vermelhidão e/ou inchaço nas palmas das mãos e nas solas dos pés, que podem ser acompanhados de formigamento e queimação (também conhecido como síndrome mão-pé);
+
+- Nódulos vermelhos dolorosos na pele, dor na pele, vermelhidão da pele (inflamação do tecido adiposo sob a pele;
+
+sinais de paniculite);
+
+- Infecção das vias respiratórias superiores levando a tosse, nariz com prurido ou entupido, congestão nasal, espirros, dor de garganta, dor de cabeça, pressão facial ou espirros;
+
+- Dor de cabeça grave, muitas vezes acompanhada por náuseas, vômitos e sensibilidade à luz (sinais de enxaqueca), sintomas de gripe;
+
+- Infecção do trato urinário;
+
+- Inchaço/aumento dos gânglios linfáticos;
+
+- Dor e inchaço nas articulações;
+
+- Depressão;
+
+- Ansiedade;
+
+- Sonolência;
+
+- Tremores;
+
+- Distúrbios de memória;
+
+- Um impulso para mover uma parte do corpo (geralmente a perna) para aliviar as sensações de desconforto, irritação dos olhos;
+
+- Dor nos olhos ou vermelhidão, inchaço/coceira das pálpebras;
+
+- Sensação de vertigem/tontura;
+
+- Dificuldade de audição, ruídos (toque) nos ouvidos;
+
+- Aumento do ritmo cardíaco;
+
+- Aumento da pressão arterial;
+
+- Extremidades frias;
+
+- Arrotos;
+
+- Inflamação dos lábios;
+
+- Dificuldade para engolir;
+
+- Aumento da sudorese;
+
+- Descoloração da pele;
+
+- Unhas quebradiças, rompimento das unhas;
+
+- Inflamação dos folículos pilosos;
+
+- Áreas de pele espessada e com vermelhidão ao redor dos cotovelos e joelhos;
+
+- Escurecimento da pele;
+
+- A ampliação do peito em homens e mulheres;
+
+- Edema testicular;
+
+- Distúrbios de ereção;
+
+- Períodos menstruais intensos ou irregulares;
+
+- Disfunção sexual;
+
+- Diminuição do desejo sexual;
+
+- Dor no mamilo;
+
+- Dor no peito;
+
+- Mal-estar geral;
+
+- Infecção viral como herpes labial;
+
+- Infecção do trato respiratório superior, que envolve as passagens de ar do nariz (sinusite);
+
+- Dor na garganta;
+
+- Dedos dormentes ou frios (sinais de síndrome de Raynaud);
+
+- Dores nas costas decorrentes do distúrbio renal;
+
+- Aumento urinário;
+
+- Aumento de apetite;
+
+- Úlcera no estômago;
+
+- Rigidez articular e muscular;
+
+- Testes de resultados laboratoriais anormais.
+
+Raras: pode afetar até 1 em cada 1000 pacientes
+
+- Confusão, descoloração das unhas, bolhas na pele ou membranas mucosas (sinais de pênfigo).
+
+Desconhecidas: a frequência não pode ser estimada a partir dos dados disponíveis
+
+- Crescimento lento em crianças e adolescentes, lesões cutâneas dolorosas e/ou bolhas.
+
+Se você perceber qualquer uma das reações adversas não mencionadas nessa bula, informe ao médico, farmacêutico ou outro profissional da saúde.
+
+Informe ao seu médico, cirurgião-dentista ou farmacêutico o aparecimento de reações indesejáveis pelo uso do medicamento. Informe também à empresa através do seu serviço de atendimento.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE
+
+MEDICAMENTO?
+
+Se você tomou acidentalmente mais Glivec® do que o recomendado poderá ser observado, em pacientes adultos, os seguintes sinais e sintomas, dependendo da quantidade ingerida: enjoo, vômito, diarreia, vermelhidão em pele, inchaço, cansaço, espasmos musculares, diminuição na contagem de células do sangue, dor abdominal, dor de cabeça, redução do apetite, fraqueza, dor muscular, alteração em exames de sangue, dor gastrintestinal, febre, inchaço facial; em crianças, os sinais e sintomas podem ser: vômito, diarreia, diminuição de apetite e diminuição na contagem de células do sangue.
+
+Procure imediatamente seu médico. Um acompanhamento médico pode ser necessário.
+</text>

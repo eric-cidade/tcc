@@ -1,0 +1,237 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> vincristina Sol inj </id>
+
+    <doenca>leucemia aguda, doenca de Hodgkin, linfomas nao Hodgkin, rabdomiossarcoma, neuroblastoma, tumor de Wilms, sarcoma osteogenico, micose fungoide, sarcoma de Ewing, cancer de colo do utero, cancer de mama, melanoma maligno, cancer de pulmao de pequenas celulas</doenca>
+    <nome medicamento>vincristina</nome medicamento>
+    <nome_comercial>Fauldvincri</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>solucao injetavel</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Fauldvincri® pode fazer parte de quimioterapia combinada (uso junto com outros remédios) para tratar vários tipos de câncer, como:
+
+- Leucemia aguda (crescimento anormal de glóbulos brancos)
+
+- Doença de Hodgkin (câncer dos linfonodos)
+
+- Linfomas não Hodgkin (vários tipos de câncer do sistema linfático)
+
+- Rabdomiossarcoma (câncer do músculo)
+
+- Neuroblastoma (câncer de células que formam neurônios)
+
+- Tumor de Wilms (câncer nos rins)
+
+- Sarcoma osteogênico/osteossarcoma (câncer com formação anormal de osso)
+
+- Micose fungoide (tipo de linfoma que aparece na pele)
+
+- Sarcoma de Ewing (câncer que costuma aparecer nos ossos)
+
+- Câncer do colo do útero
+
+- Câncer de mama
+
+- Melanoma maligno (câncer de pele)
+
+- Câncer de pulmão de pequenas células (“oat cell”)
+
+- Alguns tumores ginecológicos na infância (tumores na genitália feminina)
+
+Fauldvincri® também pode ajudar pessoas com púrpura trombocitopênica idiopática verdadeira (manchas vermelhas/roxas na pele por queda de plaquetas, sem causa conhecida) quando o tratamento comum não funciona.
+
+Em crianças, Fauldvincri® pode ser usado junto com outros remédios para tratar, por exemplo: neuroblastoma, osteossarcoma, sarcoma de Ewing, rabdomiossarcoma, tumor de Wilms, doença de Hodgkin, linfoma não Hodgkin, câncer embrionário de ovário e rabdomiossarcoma do útero.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+Fauldvincri® é um medicamento para combater o câncer. Ele age principalmente impedindo que as células se multipliquem. O tratamento do câncer costuma usar vários medicamentos juntos, e a vincristina frequentemente faz parte desse esquema.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Você não deve usar Fauldvincri® se tiver:
+
+- Alergia ao sulfato de vincristina ou a qualquer componente da fórmula;
+
+- Síndrome de Charcot-Marie-Tooth (forma desmielinizante) (doença hereditária dos nervos, com perda da “mielina”, que é a capa protetora do nervo).
+
+Não há contraindicação específica por idade.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Importante: Fauldvincri® deve ser aplicado somente na veia (via intravenosa). Nunca aplique por via intramuscular, subcutânea ou intratecal (na coluna/“intrarraquiana”).
+
+Aplicação intratecal é fatal.
+
+Um profissional experiente deve aplicar. A agulha ou o cateter precisa estar bem colocado na veia antes de começar.
+
+O médico terá mais cuidado se você tiver:
+
+- uso recente de outros quimioterápicos (risco de nefropatia úrica aguda, um problema no rim ligado ao aumento de ácido úrico)
+
+- leucopenia (glóbulos brancos baixos) ou infecção com complicações (o médico pode pedir hemograma completo antes da próxima dose)
+
+- problemas neurológicos ou uso de remédios que fazem mal aos nervos (neurotóxicos), como dissulfiram
+
+- problemas no fígado, icterícia (pele amarelada) ou radioterapia no fígado
+
+- doença neuromuscular
+
+- problemas pulmonares Este medicamento pode causar dano ao fígado. Por isso, você precisa de acompanhamento médico e exames periódicos.
+
+Contato com os olhos: Se a solução cair nos olhos, pode causar irritação grave e ferida na córnea. Lave o olho imediatamente e com bastante água.
+
+Ácido úrico: Durante o tratamento, pode ocorrer aumento do ácido úrico.
+
+Gravidez e amamentação: Fauldvincri® pode causar dano ao feto. Avise o médico se você estiver grávida ou suspeitar de gravidez. Não use na gravidez sem orientação médica.
+
+Amamentação: não se sabe se o medicamento passa para o leite. O médico deve decidir entre parar de amamentar ou parar o tratamento, considerando a importância do tratamento para a mãe.
+
+Idosos: O médico deve avaliar riscos e benefícios em idosos. Idosos têm maior chance de efeitos nos nervos (neurotoxicidade).
+
+Dirigir e operar máquinas: Não dirija nem opere máquinas até ter certeza de que o tratamento não prejudica sua atenção e reflexos.
+
+Interações medicamentosas: Informe ao médico se você usa qualquer medicamento, inclusive sem receita. O uso junto com Fauldvincri® exige cuidado especial com:
+
+- mitomicina C (risco de broncoespasmo e falta de ar aguda)
+
+- itraconazol (pode aumentar efeitos neuromusculares)
+
+- nifedipino, carbamazepina, isoniazida, digoxina, varfarina
+
+- fenitoína (pode diminuir o nível de fenitoína no sangue)
+
+- alopurinol, colchicina, probenecida, sulfimpirazona (podem aumentar ácido úrico)
+
+- L-asparaginase (pode aumentar neurotoxicidade)
+
+- bleomicina (Fauldvincri® pode facilitar a ação da bleomicina)
+
+- remédios que alteram o sangue/coagulação, remédios que diminuem a medula óssea e radioterapia (pode aumentar a queda das células do sangue)
+
+- remédios neurotóxicos (ex.: dissulfiram) e irradiação da medula (pode causar neurotoxicidade auditiva) Não é aconselhável usar junto com doxorrubicina e prednisona, porque aumenta a depressão da medula óssea.
+
+Vacinas com vírus vivos: podem causar infecção. Aguarde pelo menos 3 meses entre parar o tratamento e vacinar. Só vacine com autorização do oncologista.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Guarde em geladeira, entre 2 ºC e 8 ºC. Proteja da luz. O produto não tem conservante. A equipe deve iniciar a infusão logo após preparar e descartar sobras.
+
+Aspecto: solução límpida, incolor a levemente amarelada, sem partículas.
+
+Mantenha fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Fauldvincri® é aplicado em hospital, na veia, geralmente em intervalos semanais. O médico decide o esquema e a dose.
+
+Somente profissionais experientes devem aplicar. Doses usuais:
+
+- Adultos: 0,4 a 1,4 mg/m²/semana ou 0,01 a 0,03 mg/kg, dose única a cada 7 dias. Se bilirrubina estiver acima de 3 mg/mL, reduzir a dose em 50%. Dose máxima por aplicação: 2 mg.
+
+- Crianças: 1,5 a 2 mg/m²/semana. Crianças com 10 kg ou menos: 0,05 mg/kg/semana. Se bilirrubina estiver acima de 3 mg/mL, reduzir a dose em 50%.
+
+- Insuficiência hepática (fígado): Dose inicial: 0,05 a 1 mg/m². Doses seguintes ajustadas conforme tolerância.
+
+- No uso com L-asparaginase: Aplicar Fauldvincri® 12 a 24 horas antes da L-asparaginase.
+
+É possível diluir em água destilada ou soro fisiológico em 0,01 a 1 mg/mL.
+
+Não misture Fauldvincri® no mesmo recipiente com outras medicações.
+
+Não use soluções que mudem o pH fora de 3,5 a 5,5.
+
+Siga horários, doses e duração indicados pelo médico. Não interrompa o tratamento sem orientação.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Se você tiver dúvidas, procure orientação do farmacêutico ou do médico.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Os efeitos colaterais costumam ser reversíveis e dependem da dose.
+
+O efeito mais frequente é queda de cabelo. Os mais incômodos costumam ser problemas em nervos e músculos.
+
+Com dose semanal única, alguns efeitos costumam durar menos de 7 dias, como:
+
+- leucopenia (glóbulos brancos baixos)
+
+- dor por inflamação do nervo (dor neurítica)
+
+- prisão de ventre (obstipação)
+
+- dificuldade para caminhar Outros efeitos podem durar mais tempo, como:
+
+- formigamento (parestesia)
+
+- falta de coordenação
+
+- diminuição da sensibilidade
+
+- diminuição de reflexos
+
+- fraqueza muscular Podem ocorrer também:
+
+- paralisia das cordas vocais (em crianças)
+
+- visão dupla, queda da pálpebra (ptose) e outros problemas oculares (raramente até cegueira noturna)
+
+- dores intensas (mandíbula, garganta, glândulas, ossos, costas, braços e pernas)
+
+- convulsões (às vezes com pressão alta), coma (em crianças)
+
+- perda auditiva (em idosos) Em geral, as reações melhoram até cerca da 6ª semana após parar o tratamento, mas algumas podem durar mais. O cabelo pode voltar a crescer durante a manutenção.
+
+Reações alérgicas (raras): anafilaxia, manchas na pele, inchaço.
+
+Gastrointestinais: prisão de ventre, cólicas, náuseas, vômitos, feridas na boca, diarreia, íleo paralítico (intestino “parado”), necrose/perfuração intestinal, perda de apetite e perda de peso.
+
+Urinárias: aumento de urina, dificuldade de urinar, retenção urinária por “bexiga fraca”. Se possível, o médico pode suspender temporariamente outros remédios que causam retenção urinária (principalmente em idosos) nos primeiros dias após a aplicação.
+
+Fígado: toxicidade do fígado e doença veno-oclusiva (obstrução das veias do fígado).
+
+Sangue: pode ocorrer anemia, leucopenia e trombocitopenia (plaquetas baixas).
+
+Coração e vasos: pressão alta ou baixa; dor no peito (angina). Em alguns casos (principalmente com radioterapia no mediastino), houve doença coronariana e infarto, mas a relação direta com vincristina não está confirmada.
+
+Hormônios: pode ocorrer síndrome de secreção inadequada do hormônio antidiurético, com sódio baixo no sangue (hiponatremia). Reduzir líquidos pode melhorar, conforme orientação médica.
+
+Respiração: falta de ar e broncoespasmo; raramente pode ser fatal.
+
+Reprodução masculina: pode ocorrer azoospermia (ausência ou grande redução de espermatozoides).
+
+Há relatos de leucemia após tratamento com vincristina.
+
+Avise o médico se notar qualquer reação.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+
+A superdose pode piorar muito os efeitos colaterais e pode ser fatal.
+
+Podem ocorrer:
+
+- delírio que pode evoluir para inconsciência, convulsões e morte
+
+- em até 24 horas: náusea, vômito e febre
+
+- supressão grave da medula óssea
+
+- hiponatremia (sódio baixo) e hipocalemia (potássio baixo)
+
+- síndrome de secreção inadequada do hormônio antidiurético
+
+- neuropatias, perda intensa de reflexos, alucinações, coma e convulsões na primeira semana Serviços especializados em oncologia sabem como tratar essas situações. Procure atendimento imediatamente se houver suspeita de superdose.
+</text>

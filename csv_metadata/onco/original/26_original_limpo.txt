@@ -1,0 +1,161 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> tamoxifeno Comp </id>
+
+    <doenca>cancer de mama</doenca>
+    <nome medicamento>tamoxifeno</nome medicamento>
+    <nome_comercial>NA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>comprimido</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO  É INDICADO?
+
+NOLVADEX-D  é indicado para o tratamento do câncer de mama.
+
+2. COMO ESTE MEDICAMENTO  FUNCIONA?
+
+O uso contínuo de NOLVADEX-D inibe o crescimento do câncer de mama. Esses benefícios parecem ser independentes da idade, da fase da menopausa e da dose do medicamento.
+
+3. QUANDO NÃO DEVO  USAR ESTE MEDICAMENTO?
+
+Você não deve utilizar NOLVADEX-D nas seguintes situações:
+
+- Alergia ao citrato de tamoxifeno ou a qualquer um dos componentes do medicamento.
+
+- Em caso de gravidez, se estiver tentando engravidar ou amamentando.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+NOLVADEX-D  deve ser utilizado com cuidado nas seguintes situações:
+
+-  Em pacientes no período pré menopausa, pois a menstruação pode ser interrompida.
+
+-  Em pacientes que usam métodos contraceptivos hormonais para evitar a gravidez, pois alguns podem afetar o efeito de NOLVADEX-D.
+
+-  Em pacientes com sangramento vaginal ou outros sintomas ginecológicos (como dor pélvica) que estejam tomando ou que já tenham tomado NOLVADEX-D. Podem ocorrer algumas alterações na parede do útero (endométrio), incluindo câncer.
+
+-  Em pacientes com angioedema (inchaço da pele) hereditário. NOLVADEX-D pode induzir ou exacerbar os sintomas de angioedema.
+
+-  Em pacientes com algum problema cardíaco, incluindo problemas de ritmo cardíaco (arritmia), NOLVADEX-D pode aumentar o risco de problemas de ritmo cardíaco.
+
+-  Em pacientes em período pré-menopausa utilizando NOLVADEX-D para o tratamento de câncer de mama, pode ocorrer a diminuição do conteúdo mineral dos ossos.
+
+NOLVADEX-D  pode aumentar o risco de complicações microvasculares do enxerto em cirurgias tardias de reconstrução de mama.
+
+Não se espera que NOLVADEX-D afete a capacidade de dirigir veículos e operar máquinas. Entretanto, foi relatada fadiga (cansaço) com o uso de NOLVADEX-D e deve-se ter cuidado ao dirigir veículos e operar máquinas, enquanto este sintoma persistir.
+
+NOLVADEX-D  deve ser utilizado com cuidado em pacientes que estejam tomando anticoagulantes (ex.
+
+varfarina), quimioterápicos, rifampicina e antidepressivos inibidores seletivos da recaptação de serotonina (ex.
+
+paroxetina).
+
+NOLVADEX-D  não deve ser utilizado ao mesmo tempo com inibidores da aromatase como anastrozol, letrozol e exemestano.
+
+Uso durante a gravidez e amamentação Você não deve engravidar ou amamentar durante o tratamento com NOLVADEX-D e por um período de 9 meses após a interrupção do tratamento. Consulte o seu médico para aconselhamento sobre contracepção.
+
+Categoria de risco na gravidez: D Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica. Informe imediatamente seu médico em caso de suspeita de gravidez.
+
+Uso criterioso no aleitamento ou na doação de leite humano. O uso deste medicamento no período da lactação depende da avaliação e acompanhamento do seu médico ou cirurgião-dentista.
+
+Este medicamento pode causar doping.
+
+Atenção: Contém lactose (tipo de açúcar) abaixo de 0,25g/comprimido. Este medicamento não deve ser usado por pessoas com síndrome de má-absorção de glicose-galactose.
+
+Atenção: Contém o corante dióxido de titânio.
+
+Este medicamento pode causar danos ao fígado. Por isso, seu uso requer acompanhamento médico estrito e exames laboratoriais periódicos para controle.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para a sua saúde.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR  ESTE MEDICAMENTO?
+
+NOLVADEX-D  deve ser mantido em temperatura ambiente (15ºC a 30ºC).
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+NOLVADEX-D  20 mg é apresentado na forma de comprimidos revestidos octogonais e de cor branca ou quase branca.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+Todo medicamento deve ser mantido fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+NOLVADEX-D  deve ser administrado por via oral, com água, de preferência no mesmo horário todos os dias.
+
+Este medicamento não pode ser partido ou mastigado.
+
+Posologia:
+
+Adultos (inclusive idosos):
+
+No início da doença, recomenda-se que o tratamento com NOLVADEX-D se estenda por não menos do que 5 anos. A duração ideal do tratamento com NOLVADEX-D ainda não foi estabelecida.
+
+A dose diária recomendada de NOLVADEX-D é de 20 mg. Não ocorrendo resposta satisfatória após 1 ou 2 meses, deve-se aumentar a dose para 20 mg 2 vezes ao dia.
+
+Crianças O uso de NOLVADEX-D em crianças não é recomendado, pois a segurança e a eficácia não foram estabelecidas.
+
+Siga a orientação de seu médico, respeitando sempre os horários, as doses e a duração do tratamento.
+
+Não interrompa o tratamento sem o conhecimento do seu médico.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER  DE USAR ESTE MEDICAMENTO?
+
+Caso você se esqueça de tomar o comprimido de NOLVADEX-D, você só pode tomar este comprimido que foi esquecido se estiver faltando mais de 12 horas para tomar a dose do dia seguinte.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico, ou cirurgião-dentista.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME  CAUSAR?
+
+Podem ocorrer as seguintes reações adversas com o uso de NOLVADEX-D:
+
+Reação muito comum (ocorre em 10% ou mais dos pacientes que utilizam este medicamento): náusea, retenção de líquidos (possivelmente vista como tornozelos inchados), sangramento vaginal, corrimento
+
+vaginal, erupções cutâneas (erupções na pele, coceira ou descamação da pele), fogachos (ondas de calor), fadiga (cansaço) e depressão.
+
+Reação comum (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento): anemia, catarata, retinopatia (lesão na retina), reações de hipersensibilidade (reações alérgicas), elevação dos níveis de triglicérides, cãibras, mialgia (dores musculares), miomas uterinos (que também podem ser vistos como desconforto pélvico ou sangramento vaginal), eventos cerebrovasculares isquêmicos (derrame cerebral), cefaleia (dores de cabeça), delírios, distúrbios sensoriais (incluindo parestesia [sensação de dormência/formigamento] e disgeusia [distorção ou diminuição do paladar]), prurido vulvar (coceira na vulva, parte específica da vagina), alterações endometriais (alterações da parede do útero, incluindo hiperplasia [espessamento] e pólipos), alopecia (perda de cabelo), vômito, diarreia, constipação, alterações nas enzimas do fígado, esteatose (gordura no fígado) e eventos tromboembólicos (incluindo trombose venosa profunda, trombose microvascular e embolia pulmonar).
+
+Reação incomum (ocorre entre 0,1% e 1% dos pacientes que utilizam este medicamento):
+
+trombocitopenia (diminuição das células de coagulação do sangue - plaquetas), leucopenia (diminuição dos glóbulos brancos do sangue), alterações da visão, pancreatite (inflamação do pâncreas), hipercalemia em pacientes com metástase óssea (concentração superior ao normal de íons de potássio no sangue), câncer endometrial (revestimento interno da parede do útero), pneumonite intersticial (inflamação dos pulmões, que podem apresentar sintomas como pneumonia, falta de ar e tosse) e cirrose do fígado.
+
+Reação rara (ocorre entre 0,01% e 0,1% dos pacientes que utilizam este medicamento): neutropenia (diminuição anormal do número de neutrófilos no sangue), agranolucitose (diminuição dos granulócitos no sangue), alterações na córnea, neuropatia óptica (doenças do nervo óptico), sarcoma uterino (principalmente tumores malignos mistos de Müller), endometriose, inchaço ovariano cístico, pólipos vaginais, tumor Flare, neurite óptica (inflamações do nervo óptico), hepatite, colestase (diminuição do fluxo da bile), insuficiência hepática, lesão hepatocelular (lesão das células hepáticas), necrose do fígado, angioedema (inchaço da pele, mucosas, vísceras e cérebro), síndrome de Stevens-Johnson (alterações graves na pele), necrólise epidérmica tóxica (alterações graves na pele), vasculite cutânea (inflamação dos vasos sanguíneos mais superficiais da pele), pênfigo bolhoso (aparecimento de bolhas na pele e mucosas como boca e vagina) e eritema multiforme (alterações graves na pele como vermelhidão, bolhas e descamação).
+
+Reação muito rara (ocorre em menos de 0,01% dos pacientes que utilizam este medicamento): lúpus eritematoso cutâneo, porfiria cutânea tardia e reação inflamatória de pele, semelhante à observada em pacientes submetidos à radioterapia.
+
+Reação com frequência desconhecida: Exacerbação de angioedema (inchaço da pele) hereditário.
+
+Você deve parar de tomar NOLVADEX-D e procurar o seu médico imediatamente nas seguintes situações:
+
+-  Se tiver dificuldade para respirar com a presença ou não de inchaço na face, lábios, língua e/ou garganta.
+
+-  Se tiver inchaço na face, lábios, língua e/ou garganta causando dificuldade para engolir.
+
+-  Se você tiver inchaço nas mãos, pés ou tornozelos.
+
+-  Se você tiver vermelhidão na pele.
+
+Informe ao seu médico, cirurgião-dentista ou farmacêutico o aparecimento de reações indesejáveis pelo uso do medicamento. Informe também a empresa através do seu serviço de atendimento.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE  MAIOR  DO QUE A INDICADA
+
+DESTE MEDICAMENTO?
+
+Não existe tratamento específico para o caso de superdosagem com NOLVADEX-D e, teoricamente, a superdosagem pode causar aumento das reações adversas mencionadas.
+</text>

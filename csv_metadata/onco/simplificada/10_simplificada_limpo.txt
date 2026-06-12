@@ -1,0 +1,231 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> docetaxel Sol inj </id>
+
+    <doenca>cancer de mama, cancer de pulmao de nao pequenas celulas, cancer de ovario, cancer de prostata, adenocarcinoma gastrico, cancer de cabeca e pescoco</doenca>
+    <nome medicamento>docetaxel</nome medicamento>
+    <nome_comercial>NA</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>solucao injetavel</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Este medicamento é usado para tratar:
+
+- Câncer de mama
+
+- Tratamento após cirurgia (tratamento adjuvante):
+
+Docetaxel com doxorrubicina e ciclofosfamida é indicado após cirurgia em pacientes com câncer de mama operável com linfonodos positivos (quando o câncer já atingiu os gânglios). A mesma combinação também é indicada após cirurgia em pacientes com linfonodos negativos (quando o câncer não atingiu os gânglios), mas que tenham alto risco, como: tumor maior que 2 cm, idade menor que 35 anos, receptor hormonal negativo ou tumor grau 2 ou 3.
+
+Doxorrubicina e ciclofosfamida seguidas de docetaxel com trastuzumabe (AC-TH) são indicadas após cirurgia em tumores que apresentam HER2 positivo (alta quantidade da proteína HER2).
+
+Docetaxel com trastuzumabe e carboplatina (TCH) também é indicado após cirurgia em tumores HER2 positivo.
+
+Câncer de mama metastático (espalhado para outras partes do corpo):
+
+- Docetaxel com doxorrubicina é indicado para câncer localmente avançado ou metastático em pacientes que não receberam quimioterapia para essa fase.
+
+- Docetaxel sozinho é indicado quando a quimioterapia anterior falhou, incluindo antraciclina ou agente alquilante.
+
+- Docetaxel com capecitabina é indicado após falha de quimioterapia com antraciclina.
+
+- Docetaxel com trastuzumabe é indicado para câncer metastático HER2 positivo, quando a paciente ainda não recebeu quimioterapia para essa fase.
+
+Câncer de pulmão de não-pequenas células:
+
+- Docetaxel é indicado para câncer avançado ou metastático, mesmo após falha de quimioterapia anterior.
+
+- Docetaxel com cisplatina é indicado para câncer não operável, avançado ou metastático, quando o paciente não recebeu quimioterapia antes.
+
+Câncer de ovário: Indicado para câncer de ovário metastático após falha da primeira quimioterapia ou de tratamentos seguintes.
+
+Câncer de próstata:
+
+- Docetaxel com prednisona ou prednisolona é indicado para câncer de próstata metastático resistente à castração.
+
+- Docetaxel com terapia de bloqueio hormonal (ADT), com ou sem prednisona ou prednisolona, é indicado para câncer de próstata metastático sensível a hormônio.
+
+Câncer de estômago: Docetaxel com cisplatina e fluoruracila é indicado para câncer avançado no estômago ou na junção entre estômago e esôfago, quando o paciente não recebeu quimioterapia para essa fase.
+
+Câncer de cabeça e pescoço: Docetaxel com cisplatina e fluoruracila é indicado como tratamento inicial para câncer avançado na boca, garganta ou laringe.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+Docetaxel age nas células do corpo e impede que elas completem a divisão celular. Assim, o medicamento reduz a multiplicação das células cancerosas.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Não use docetaxel nos seguintes casos:
+
+- Alergia grave ao docetaxel ou ao polissorbato 80.
+
+- Neutrófilos (um tipo de glóbulo branco) abaixo de 1.500 células/mm3.
+
+- Problema grave no fígado.
+
+- Gravidez.
+
+Crianças (uso pediátrico não é indicado).
+
+Se houver contraindicação para outros medicamentos usados junto com docetaxel, também não use a combinação.
+
+4.O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Docetaxel deve ser aplicado apenas por médico experiente em tratamento de câncer.
+
+Antes da aplicação, o médico pode prescrever dexametasona: 16 mg por dia (8 mg, 2 vezes ao dia) por 3 dias, começando no dia anterior.
+
+Para câncer de próstata: 8 mg por via oral, 12 horas, 3 horas e 1 hora antes da infusão.
+
+Docetaxel pode causar efeitos graves, inclusive morte. O risco é maior se:
+
+- O paciente tiver problema no fígado.
+
+- O paciente receber doses altas.
+
+- O paciente tiver câncer de pulmão e já tiver usado quimioterapia com platina.
+
+Docetaxel reduz as células do sangue. Isso aumenta o risco de infecção e sangramento. Para reduzir riscos:
+
+Evite contato com pessoas doentes. Lave as mãos com frequência. Evite esportes de contato. Escove os dentes com cuidado.
+
+Reações alérgicas podem ocorrer minutos após o início da infusão. Se houver falta de ar, queda de pressão, vermelhidão intensa ou coceira, a equipe médica interromperá o tratamento.
+
+Neutropenia (queda dos neutrófilos) é comum. O médico fará exames de sangue frequentes. O tratamento só deve continuar quando os neutrófilos estiverem ≥ 1.500 células/mm3.
+
+Docetaxel pode causar:
+
+- Problemas no coração.
+
+- Alterações na visão.
+
+- Inflamação grave do intestino.
+
+- Danos nos nervos (formigamento, dor, perda de sensibilidade).
+
+- Retenção de líquidos (inchaço e ganho de peso).
+
+- Problemas pulmonares.
+
+Se houver dor na lateral do corpo, diminuição da urina ou urina escura, informe imediatamente o médico.
+
+Gravidez e amamentação: Mulheres não devem engravidar durante o tratamento e por 2 meses após o fim. Homens não devem ter filhos durante o tratamento e por 4 meses após o fim.
+
+Não amamente durante o tratamento.
+
+Este medicamento contém 41,36% de álcool (etanol). O álcool pode:
+
+- Causar intoxicação, principalmente em crianças.
+
+- Piorar doenças do fígado.
+
+- Afetar a capacidade de dirigir ou operar máquinas.
+
+Interações medicamentosas: Alguns medicamentos podem alterar o efeito do docetaxel, como cetoconazol, itraconazol, claritromicina, ritonavir e outros que atuam na enzima CYP3A4. Informe o médico sobre todos os medicamentos que você usa.
+
+5. COMO DEVO GUARDAR ESTE MEDICAMENTO?
+
+Guardar abaixo de 25°C. Manter na embalagem original, protegido da luz.
+
+Validade: 24 meses após a fabricação. Após preparo para infusão:
+
+- Estável por 6 horas abaixo de 25°C.
+
+- Pode durar até 48 horas entre 2°C e 8°C, em bolsa sem PVC.
+
+Se aparecerem cristais na solução, descarte.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Somente profissionais de saúde devem preparar e administrar o medicamento.
+
+O medicamento é aplicado por via intravenosa (na veia). Siga exatamente as orientações do médico sobre dose, intervalo e duração do tratamento.
+
+Não interrompa o tratamento sem orientação médica.
+
+7. O QUE FAZER SE EU ESQUECER UMA DOSE?
+
+O médico controla o esquema de aplicação. Se você achar que perdeu uma dose, converse com o médico.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Reações muito comuns:
+
+- Queda de cabelo.
+
+- Diminuição das células do sangue (neutropenia, anemia).
+
+- Enjoo, vômito, diarreia.
+
+- Inflamação na boca.
+
+- Fraqueza.
+
+- Alteração do paladar.
+
+- Dor muscular e nas articulações.
+
+- Inchaço.
+
+- Alterações nas unhas.
+
+Reações comuns:
+
+- Infecção grave.
+
+- Neutropenia com febre.
+
+- Reação alérgica.
+
+- Falta de ar.
+
+- Dor no peito.
+
+- Alterações no fígado.
+
+- Neuropatia (formigamento, dor ou perda de sensibilidade).
+
+Reações raras ou graves:
+
+- Problemas cardíacos.
+
+- Inflamação grave do intestino.
+
+- Problemas pulmonares.
+
+- Câncer secundário (como leucemia).
+
+- Síndrome da lise tumoral (destruição rápida das células do tumor).
+
+- Falência dos rins.
+
+Algumas reações podem surgir meses ou anos após o tratamento.
+
+Informe ao médico qualquer efeito indesejado.
+
+9. O QUE FAZER EM CASO DE SUPERDOSE?
+
+Há poucos relatos de superdose. Não existe antídoto específico.
+
+A superdose pode causar:
+
+- Queda grave das células do sangue.
+
+- Danos aos nervos.
+
+- Inflamação das mucosas.
+
+O paciente deve ser internado e monitorado. O médico pode usar G-CSF para estimular a produção de células do sangue e tratar os sintomas.
+</text>

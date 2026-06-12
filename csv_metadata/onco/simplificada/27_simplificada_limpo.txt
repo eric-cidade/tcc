@@ -1,0 +1,245 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> oxicodona Comp lib prol </id>
+
+    <doenca>dor moderada a severa</doenca>
+    <nome medicamento>oxicodona</nome medicamento>
+    <nome_comercial>OXYCONTIN</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>comprimido de liberacao prolongada</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+OXYCONTIN® é indicado para tratar dor moderada a forte, quando a pessoa precisa usar um analgésico continuamente, 24 horas por dia, por um período prolongado.
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+OXYCONTIN® é um opioide (analgésico forte, parecido com a morfina). Quando a oxicodona entra no sangue, ela reduz os sinais de dor que vão para o cérebro.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Você não deve usar OXYCONTIN® se:
+
+- tiver alergia à oxicodona ou a qualquer componente da fórmula;
+
+- tiver situações em que opioides são proibidos, por exemplo: depressão respiratória (respiração fraca/lenta), insuficiência respiratória, asma grave;
+
+- tiver hipóxia (pouco oxigênio no sangue) ou hipercapnia (muito gás carbônico no sangue) aguda ou grave;
+
+- tiver ou houver suspeita de íleo paralítico (o intestino “para” e as fezes não passam);
+
+- tiver DPOC grave (doença pulmonar obstrutiva crônica grave);
+
+- tiver cor pulmonale (problema do lado direito do coração causado por doença do pulmão).
+
+Gravidez e amamentação: Este medicamento não deve ser usado por grávidas ou por quem está amamentando sem orientação médica.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+A segurança e a eficácia da oxicodona em menores de 18 anos não foram estabelecidas.
+
+Risco principal: respiração fraca O maior risco dos opioides é a depressão respiratória (respiração muito lenta ou fraca).
+
+Use com cuidado e avise o médico se você:
+
+- é idoso ou está debilitado;
+
+- tem problema grave no pulmão;
+
+- tem apneia do sono;
+
+- usa álcool ou remédios que “dão sono” (deprimem o sistema nervoso), ou usou inibidores da MAO (remédios para depressão/Parkinson) nas últimas 2 semanas;
+
+- tem histórico de dependência, abuso de substâncias ou alcoolismo;
+
+- tem lesão na cabeça, aumento da pressão dentro do crânio ou consciência reduzida sem causa clara;
+
+- tem pressão baixa;
+
+- tem pancreatite;
+
+- tem problema nos rins ou no fígado;
+
+- tem hipotireoidismo, doença de Addison (baixa produção de hormônios como cortisol) ou mixedema (inchaço, especialmente no rosto e pálpebras);
+
+- tem próstata aumentada;
+
+- tem psicose tóxica ou delirium tremens (abstinência com tremores e alucinações);
+
+- tem prisão de ventre ou qualquer condição que diminua o movimento do intestino.
+
+- Problemas respiratórios durante o sono
+
+Opioides podem causar ou piorar:
+
+- apneia central do sono (pausas respiratórias por comando do cérebro);
+
+- baixa oxigenação durante o sono.
+
+Se isso acontecer, o médico pode reduzir a dose.
+
+Misturar com remédios que dão sono pode ser perigoso: Usar oxicodona junto com “depressores do SNC” pode causar sonolência intensa, respiração fraca, coma e morte. Exemplos: álcool, outros opioides, pregabalina (e outros gabapentinoides), ansiolíticos, sedativos (incluindo benzodiazepínicos), remédios para dormir, antipsicóticos, antidepressivos e fenotiazinas. Se precisar usar junto, o médico deve definir dose e tempo.
+
+Fique atento a sinais de risco: falta de ar, respiração rápida ou fraca, cansaço extremo e sonolência.
+
+Com uso repetido, podem ocorrer:
+
+- tolerância (precisar de doses maiores para o mesmo efeito);
+
+- dependência (o corpo “acostuma”);
+
+- abstinência se parar de repente.
+
+Quando for parar, o médico pode orientar redução gradual da dose.
+
+O uso repetido pode levar ao Transtorno do Uso de Opioides (uso problemático/“vício”). O risco aumenta com doses altas e uso prolongado, e em pessoas com histórico pessoal ou familiar de abuso de álcool/drogas, fumantes ou com alguns transtornos mentais.
+
+Procure o médico se você notar comportamento de “busca” do remédio (por exemplo, pedir receita cedo demais).
+
+Engula o comprimido inteiro. Não quebre, não mastigue e não esmague.
+
+Isso pode liberar a oxicodona rápido demais e causar overdose.
+
+Sensibilidade exagerada à dor: Pode ocorrer hiperalgesia (dor mais forte do que o esperado). Aumentar a dose pode não ajudar. O médico pode reduzir a dose ou trocar o opioide.
+
+Convulsões: A oxicodona pode piorar convulsões em quem já tem esse problema.
+
+Dificuldade para engolir: Tome 1 comprimido por vez, com água suficiente. Não umedeça nem dilua o comprimido antes de colocar na boca. Pessoas com risco de obstrução intestinal (por exemplo, estreitamento do intestino por tumor) precisam de cuidado especial.
+
+Bile e pâncreas:A oxicodona pode causar espasmo do esfíncter de Oddi (músculo na saída da bile e do pâncreas para o intestino) e piorar problemas biliares/pancreáticos, incluindo pancreatite aguda.
+
+Antes e logo depois de cirurgia: Não é aconselhável usar para pré-operatório e para dor nas primeiras 12 a 24 horas após cirurgia, salvo orientação médica.
+
+Hormônios: Opioides podem alterar hormônios (por exemplo, aumentar prolactina e reduzir cortisol e testosterona). Isso pode causar sintomas no corpo.
+
+Gravidez e amamentação: A oxicodona pode atravessar a placenta e causar respiração fraca no bebê e/ou sintomas de abstinência. Também pode passar para o leite materno. Evite ao máximo o uso durante gravidez e amamentação.
+
+Dirigir e operar máquinas: Durante o tratamento, não dirija nem opere máquinas, pois a atenção e os reflexos podem ficar prejudicados.
+
+Este medicamento pode causar doping.
+
+Interações (misturas) importantes
+
+- Benzodiazepínicos e outros sedativos: aumentam risco de coma e morte.
+
+- Anticolinérgicos (ex.: alguns antidepressivos, anti-histamínicos, antipsicóticos): podem aumentar efeitos como boca seca, pupila dilatada, batimento acelerado.
+
+- Inibidores da MAO (ex.: tranilcipromina, moclobemida, selegilina): não usar junto e nem nas 2 semanas após parar.
+
+- Podem aumentar oxicodona no sangue: claritromicina, cetoconazol, ritonavir, suco de toranja, paroxetina, quinidina.
+
+- Podem diminuir oxicodona no sangue: rifampicina, carbamazepina, fenitoína, erva de São João.
+
+- Antidepressivos que aumentam serotonina (ISRS/IRSN): podem causar toxicidade serotoninérgica (agitação, alucinações, coma, batimento acelerado, pressão instável, febre, rigidez, náusea, vômito, diarreia). Se ocorrer, procure o médico imediatamente.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Conserve em temperatura ambiente (15°C a 30°C), protegido de luz e umidade. Apresentações:
+
+- 10 mg: comprimido redondo branco, “OP” de um lado e “10” do outro.
+
+- 20 mg: comprimido redondo rosa, “OP” e “20”.
+
+- 40 mg: comprimido redondo amarelo, “OP” e “40”.
+
+Mantenha fora do alcance de crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Não parta e não mastigue. OXYCONTIN® é de liberação prolongada e, em geral, é usado a cada 12 horas. Alguns pacientes podem usar dose diferente de manhã e à noite, se o médico orientar.
+
+Tome sempre de forma regular, de preferência mantendo o mesmo padrão em relação às refeições.
+
+Orientações importantes
+
+- Não mude a dose sem autorização do médico.
+
+- Você pode eliminar nas fezes a “casca/matriz” vazia do comprimido. Isso é esperado, porque a oxicodona já foi absorvida.
+
+- Se você usou por mais de algumas semanas, o médico pode orientar redução gradual para evitar abstinência.
+
+- Um plano de tratamento contendo objetivos e duração deve ser combinado com seu médico. Durante o tratamento, deve haver contato frequente com o médico.
+
+Rim ou fígado comprometidos: O médico pode iniciar com dose menor (em geral, reduzir a dose inicial do adulto em 50%) e ajustar depois.
+
+Idosos e diferenças por sexo: Em idosos, o nível do remédio no sangue pode ser cerca de 15% maior. Em mulheres, pode ser até 25% maior (ajustado por peso).
+
+O médico decide se precisa ajustar.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Se você esquecer uma dose, procure orientação do médico ou farmacêutico para saber como retomar com segurança.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Opioides como a oxicodona podem causar tolerância e dependência.
+
+Reações muito comuns (mais de 10%):
+
+- prisão de ventre, náusea, vômito.
+
+Reações comuns (1% a 10%):
+
+- tontura, dor de cabeça, sonolência
+
+- ansiedade, confusão, insônia, agitação, nervosismo, humor alterado, depressão
+
+- coceira, suor excessivo, manchas/erupção na pele
+
+- dor abdominal, diarreia, boca seca, indigestão, gases
+
+- fraqueza, cansaço, mal-estar
+
+- dificuldade para respirar.
+
+Reações incomuns (0,1% a 1%):
+
+- desidratação
+
+- tremor, convulsão, desmaio, alterações de fala, formigamento/dormência
+
+- pupila contraída e visão borrada
+
+- queda de pressão, inclusive ao levantar
+
+- depressão respiratória.
+
+Reações raras ou muito raras:
+
+- urticária, reação alérgica grave (anafilaxia)
+
+- íleo paralítico (intestino parado)
+
+- retenção urinária
+
+- problemas como apneia central do sono.
+
+Risco de dependência e abstinência: pode ocorrer, principalmente com uso prolongado e/ou doses altas.
+
+Procure o médico se surgirem reações importantes ou piora da respiração.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+
+Procure ajuda médica imediatamente. Se a pessoa estiver inconsciente, não dê nada pela boca.
+
+Sinais de superdose podem incluir:
+
+- respiração lenta/fraca, sonolência que piora, estupor ou coma
+
+- músculos flácidos, pele fria e pegajosa, pupilas contraídas
+
+- batimento lento, pressão baixa, e morte.
+
+No hospital, profissionais podem usar naloxona (antídoto para opioides) e fazer suporte da respiração.
+</text>

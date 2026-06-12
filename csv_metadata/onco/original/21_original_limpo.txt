@@ -1,0 +1,159 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> imiquimode Creme </id>
+
+    <doenca>condiloma acuminado, ceratose actinica, carcinoma basocelular superficial</doenca>
+    <nome medicamento>imiquimode</nome medicamento>
+    <nome_comercial>Ixium</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>creme dermatologico</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1-PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+Ixium® é um medicamento indicado no tratamento de:
+
+ condiloma acuminado (verrugas externas, genitais e anais), uma doença sexualmente transmissível causada pelo vírus HPV (Human Papilomavirus);
+
+ ceratose actínica em adultos com sistema imunológico normal. A ceratose actínica é causada por exposição excessiva ao sol;
+
+ carcinoma basocelular superficial em adultos com sistema imunológico normal, quando um método cirúrgico é menos apropriado. Este câncer de pele precisa ser diagnosticado pelo seu médico.
+
+2-COMO ESTE MEDICAMENTO FUNCIONA?
+
+Ixium® é um creme dermatológico, que possui em sua composição a substância imiquimode. Seu mecanismo de ação não é completamente conhecido. O imiquimode funciona como um imunomodulador, ou seja, modifica a resposta imunológica, favorecendo a remissão de lesões específicas da pele, quando aplicado de acordo com a indicação médica.
+
+3-QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Você não deve usar Ixium® caso apresente hipersensibilidade (alergia) ao imiquimode ou a qualquer outro componente da fórmula.
+
+4-O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+ADVERTÊNCIAS E PRECAUÇÕES  A segurança e a eficácia de Ixium® não foram estabelecidas em pacientes com verrugas genitais/anais externas com idade inferior a 12 anos.
+
+ A segurança e a eficácia de Ixium® não foram estabelecidas em pacientes com ceratose actínica ou com carcinoma basocelular superficial com idade inferior a 18 anos.
+
+ Antes de iniciar o tratamento, o diagnóstico de carcinoma basocelular superficial deve ser definido histologicamente, uma vez que a segurança e a eficácia de imiquimode não foram estabelecidas para outros tipos de carcinoma basocelular, incluindo o tipo nodular e o tipo escleroderma localizado (fibrosante ou esclerosante).
+
+ Não se recomenda a administração de Ixium® em ulceração do pênis, ulceração da vulva, queimaduras solares e situações em que a pele não esteja completamente recuperada e/ou íntegra.
+
+ Ixium® é um medicamento destinado apenas para uso externo, não deve ser usado na uretra, na vagina, no colo uterino ou na parte interna do ânus.
+
+ O contato sexual sem proteção deve ser evitado pelo paciente com condiloma acuminado, afim de não contaminar o parceiro. Também não se deve realizar relação sexual após a utilização do produto, antes de realizar a lavagem da área tratada.
+
+ Ixium® pode reduzir a eficácia dos preservativos e diafragmas, assim, não se recomenda a sua utilização concomitante.
+
+ Evitar o contato de Ixium® com a boca, os olhos e o nariz.
+
+ Evitar a exposição da pele à luz solar (inclusive ao bronzeamento artificial) durante o tratamento com Ixium®, em razão do aumento da sensibilidade da pele a queimaduras. Usar protetor solar e chapéu/boné para se proteger do sol quando o Ixium® estiver sendo utilizado na face.
+
+ A área tratada com Ixium® não deve ser coberta por gaze, bandagem ou ser ocluída de qualquer outra forma.
+
+Roupas íntimas de algodão podem ser usadas.
+
+ Homens não circuncisados que estiverem tratando verrugas localizadas sob o prepúcio devem retraí-lo e limpar a região diariamente.
+
+ A aplicação de Ixium® na infecção genital/anal por HPV não destrói o vírus, mas auxilia na eliminação da verruga. Portanto, novas verrugas podem aparecer durante o tratamento com Ixium®.
+
+ Ixium® deve ser utilizado com precaução em pacientes transplantados e o benefício do tratamento nestes pacientes deverá ser avaliado devido ao risco associado de possibilidade de rejeição de órgãos ou doença enxerto contra hospedeiro (DECH).
+
+ A inflamação provocada pelo Ixium® é o seu mecanismo de ação terapêutico, portanto será observada uma irritação e eritema no local do tratamento.
+
+Lactação (amamentação) Não se sabe se o imiquimode aplicado por via tópica é excretado no leite materno, portanto, Ixium® somente deve ser usado pela mãe durante a lactação se os benefícios justificarem o risco potencial para a criança que estiver sendo amamentada.
+
+Gravidez Não há estudos controlados avaliando o uso deste medicamento em mulheres grávidas, portanto, Ixium® somente deve ser usado durante a gravidez se os benefícios justificarem o risco potencial para o feto.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica ou do cirurgiãodentista.
+
+Este medicamento contém álcool benzílico, que pode ser tóxico, principalmente para recém-nascidos e crianças de até 3 anos.
+
+INTERAÇÕES MEDICAMENTOSAS As interações com outros medicamentos não foram estudadas. Portanto, não se recomenda a administração de Ixium® até que a pele esteja completamente recuperada dos efeitos de qualquer medicamento usado anteriormente.
+
+Informar ao médico caso esteja utilizando imunossupressores.
+
+Informe ao seu médico ou cirurgião-dentista se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento do seu médico. Pode ser perigoso para a sua saúde.
+
+5-ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Cuidados de conservação Ixium® deve ser conservado em temperatura ambiente (entre 15 e 30ºC), em sua embalagem original. Não congelar.
+
+Abra sempre um novo sachê a cada aplicação do produto. Após o uso, jogue-o fora. Nunca guarde a sobra do sachê para usá-la posteriormente.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+Características físicas e organolépticas:
+
+Creme homogêneo de coloração branca a amarelada. Livre de partículas estranhas. Odor característico.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utiliza-lo.
+
+Todo medicamento deve ser mantido fora do alcance das crianças.
+
+6-COMO DEVO USAR ESTE MEDICAMENTO?
+
+Modo de usar Antes de se deitar, lave as mãos e a área a ser tratada com água e sabonete neutro. Seque bem a área limpa. Abra um sachê novo de Ixium®. Esprema-o, a fim de liberar o creme na ponta de seu dedo indicador.
+
+Aplique uma camada fina de Ixium® sobre a região afetada e esfregue suavemente até o creme desaparecer.
+
+Após a aplicação, jogue fora o sachê e lave as mãos com água e sabão.
+
+Deixe o creme agir por 6 a 10 horas sobre as verrugas genitais externas ou por aproximadamente 8 horas sobre as lesões de ceratose actínica ou carcinoma basocelular superficial. Durante este período, deve ser evitado qualquer banho ou ducha.
+
+Após este período, lave a região tratada com água e sabonete suave.
+
+Abra sempre um novo sachê a cada aplicação do produto. Após o uso, jogue-o fora. Nunca guarde a sobra do sachê para usá-la posteriormente.
+
+Não use mais produto do que o recomendado pelo médico. Doses maiores que as recomendadas podem levar a um aumento de reações adversas no local de aplicação.
+
+Posologia  Para as verrugas externas genitais/anais, as aplicações devem ser realizadas em dias alternados (três vezes por semana), por exemplo, segundas, quartas e sextas ou terças, quintas e sábados. O tratamento com Ixium® deve ser mantido até o desaparecimento das verrugas ou por um período máximo de dezesseis semanas por cada episódio de verrugas.
+
+ No caso de lesões de ceratose actínica, as aplicações devem ser realizadas duas vezes por semana, por exemplo, segundas e quintas ou terças e sextas, durante dezesseis semanas.
+
+ No caso de carcinoma basocelular superficial, as aplicações devem ser realizadas cinco vezes por semana, por exemplo de segunda a sexta-feira, durante seis semanas.
+
+Siga a orientação de seu médico, respeitando sempre os horários, as doses e a duração do tratamento.
+
+Não interrompa o tratamento sem o conhecimento do seu médico.
+
+7-O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+Se você se esqueceu de aplicar uma dose do produto, aplique-a assim que se lembrar e continue o tratamento regularmente.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico, ou cirurgião-dentista.
+
+8-QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+As reações adversas podem variar, dependendo da condição da pele e de seu tipo (branca, morena etc.). Porém, a maioria das reações é geralmente de intensidade leve ou moderada.
+
+As reações adversas mais comuns ocorrem na área de aplicação do produto e incluem: vermelhidão, descamação, erosão da pele, escoriação e inchaço. Também podem ocorrer alterações na cor da pele (às vezes irreversíveis),
+
+coceira, ardência, queimação ou dor nas áreas tratadas com Ixium®. Essas reações podem ser causadas pela resposta do sistema imunológico ao medicamento.
+
+Menos frequentemente, podem ocorrer endurecimento debaixo da pele, pequenas feridas abertas e formação de pequenas bolhas.
+
+Mais raramente, podem ocorrer reações adversas em outras partes do corpo como, por exemplo, dor de cabeça, dor nas costas, dores musculares, cansaço, sintomas semelhantes aos gripais, diarreia e infecções por fungos.
+
+Se surgir alguma reação grave, interrompa o tratamento e consulte o médico imediatamente.
+
+Informe ao seu médico, cirurgião-dentista ou farmacêutico o aparecimento de reações indesejáveis pelo uso do medicamento. Informe também à empresa através do seu serviço de atendimento.
+
+9-O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE
+
+MEDICAMENTO?
+
+É pouco provável que ocorra superdose sistêmica de Ixium®, uma vez que a absorção deste medicamento através da pele é mínima. Entretanto, o uso de superdose tópica repetida de Ixium® pode resultar em reações cutâneas locais graves. Em caso de superdose, interrompa o uso do medicamento e procure assistência médica imediata.
+</text>

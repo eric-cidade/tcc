@@ -1,0 +1,405 @@
+<metadata>
+
+    <text_type>bula paciente</text_type>
+    <tipo_texto>original Anvisa</tipo_texto>
+    <id> ipilimumabe Sol inj </id>
+
+    <doenca>melanoma avancado ou metastatico, cancer de pulmao de celulas nao pequenas, carcinoma de celulas renais avancado, carcinoma de celulas escamosas do esofago, carcinoma hepatocelular, mesotelioma pleural maligno, cancer colorretal</doenca>
+    <nome medicamento>ipilimumabe</nome medicamento>
+    <nome_comercial>YERVOY</nome_comercial>
+    <Medgenerico>NA</Medgenerico>
+    <Medreferencia>NA</Medreferencia>
+    <fabricante>NA</fabricante>
+    <apresentacao>solucao injetavel</apresentacao>
+
+    <fonte_geracao texto>original- Bulario Anvisa</fonte_geracao texto>
+    <revisao>sem_revisao</revisao>
+    <conferido por-data> MJ 04-05-26 </conferido por-data>
+
+</metadata>
+
+<text>
+1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+
+•  Melanoma Avançado (Irresecável ou Metastático) YERVOY® em monoterapia (sozinho) ou em combinação com nivolumabe é indicado para o tratamento de melanoma (um tipo de câncer de pele) avançado (sem possibilidade de cirurgia) ou metastático (que se espalhou).
+
+•  Câncer de Pulmão de Células Não Pequenas (CPCNP) YERVOY® (ipilimumabe) em combinação com nivolumabe e 2 ciclos de quimioterapia à base de platina é indicado para o tratamento de primeira linha de câncer de pulmão de células não pequenas metastático (que se espalhou) em adultos cujos tumores não têm mutação EGFR sensibilizante ou translocação de ALK.
+
+•  Carcinoma de Células Renais Avançado (CCR)
+
+YERVOY® em combinação com nivolumabe é indicado para o tratamento em primeira linha de pacientes adultos com carcinoma de células renais avançado ou metastático (que se espalhou) que possuem risco intermediário ou alto (desfavorável).
+
+•  Carcinoma de Células Escamosas do Esôfago (CCEE) YERVOY® em combinação com nivolumabe é indicado para o tratamento em primeira linha de pacientes adultos com carcinoma de células escamosas do esôfago (CCEE) irressecável avançado, recorrente ou metastático, cujos tumores expressam PD-L1 ≥ 1%.
+
+•  Carcinoma Hepatocelular (CHC) YERVOY® em combinação com nivolumabe, é indicado para o tratamento em primeira linha de pacientes adultos com carcinoma hepatocelular (CHC) irressecável ou avançado.
+
+YERVOY® em combinação com nivolumabe é indicado para o tratamento de pacientes com carcinoma hepatocelular (CHC - um tipo de câncer de fígado) que foram tratados anteriormente com sorafenibe e que não são elegíveis ao tratamento com regorafenibe ou ramucirumabe.
+
+•  Mesotelioma Pleural Maligno (MPM) YERVOY® em combinação com nivolumabe é indicado para o tratamento em primeira linha de pacientes adultos com mesotelioma pleural maligno (MPM) irressecável (sem possibilidade de cirurgia).
+
+•  Câncer Colorretal (CRC) YERVOY® (ipilimumabe), em combinação com nivolumabe, é indicado para o tratamento de pacientes adultos e pediátricos (com 12 anos ou mais) com câncer colorretal (CRC) irressecável ou metastático com alta instabilidade de microssatélites (MSI-H) ou deficiência no reparo de DNA (dMMR).
+
+2. COMO ESTE MEDICAMENTO FUNCIONA?
+
+YERVOY® contém a substância ativa ipilimumabe, uma proteína que estimula o seu sistema imunológico a atacar e destruir células cancerosas.
+
+3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+
+Você não deve usar YERVOY®:
+
+•  Se você tem alergia (hipersensibilidade) ao ipilimumabe ou a qualquer outro componente de YERVOY® (listados na seção COMPOSIÇÃO). Converse com seu médico se você não tiver certeza a respeito da alergia ao ipilimumabe.
+
+4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+
+Tenha cuidado especial com YERVOY® em monoterapia (sozinho) ou em combinação com outros agentes (nivolumabe/ nivolumabe e quimioterapia):
+
+•  Se você tem, ou desenvolver, qualquer uma das condições abaixo:
+
+o  inflamação do intestino (colite) que pode evoluir para sangramentos ou perfuração intestinal. Sinais e sintomas da colite podem incluir muco (catarro), diarreia (fezes líquidas, soltas ou moles), aumento do número de evacuações além do habitual, sangue nas fezes ou fezes de cor escura, dor ou sensibilidade na área do abdômen, com ou sem febre.
+
+o  inflamação do fígado (hepatite) grave, que pode levar à insuficiência hepática podendo ser fatal. Sinais e sintomas de hepatite podem incluir olhos ou pele amarelados (icterícia), dor no lado direito da área do abdômen, cansaço.
+
+o  inflamação nos pulmões (pneumonite). Sinais e sintomas da pneumonite podem incluir alterações no raio-X de tórax e falta de ar.
+
+o  inflamação da pele que pode levar a reações cutâneas graves (sídrome de Setevens Johnson ou necrólise epidérmica tóxica, que podem ser fatais). Sinais e sintomas de reação cutânea grave podem incluir erupção cutânea (rash) com ou sem coceira, descamação da pele, pele seca. O medicamento deve ser usado com cautela caso você tenha tido anteriormente uma reação adversa grave de pele ou sofrido risco de vida em uma terapia anterior de estímulo imune de câncer. A frequência de erupção cutânea (rash) é maior quando YERVOY® é administrado em combinação com nivolumabe.
+
+o  inflamação nos rins (nefrite) - que pode evoluir para disfunção renal (mau funcionamento dos rins). Sinais e sintomas podem incluir diminuição do volume urinário, urina concentrada etc.
+
+o  inflamação dos nervos que podem levar à paralisia. Os sintomas de problemas neurológicos podem incluir fraqueza muscular, dormência ou formigamento nas mãos ou pés, perda de consciência ou dificuldade de acordar.
+
+o  inflamação das glândulas produtoras de hormônios (especialmente as glândulas hipófise, adrenal e tireoide) e diabetes (aumento do açúcar no sangue) que podem afetar a forma como essas glândulas trabalham. Sinais e sintomas de que a glândula não está funcionando corretamente podem incluir dores de cabeça, visão embaçada ou dupla, fadiga, alterações comportamentais, pressão arterial baixa.
+
+o  inflamação dos olhos. Sinais e sintomas podem incluir vermelhidão nos olhos, dor nos olhos, problemas de visão ou visão borrada.
+
+o  Reação grave à infusão (administração pela veia) do medicamento.
+
+Informe o seu médico imediatamente se tiver qualquer um destes sinais ou sintomas ou se eles se agravarem. Não tente tratar os seus sintomas com outros medicamentos. Seu médico poderá lhe dar outros medicamentos a fim de evitar complicações mais graves e reduzir seus sintomas, suspender a dose seguinte de YERVOY® em monoterapia ou em combinação com outros agentes (nivolumabe/ nivolumabe e quimioterapia), ou interromper o tratamento com YERVOY® em monoterapia ou em combinação com outros agentes (nivolumabe/ nivolumabe e quimioterapia).
+
+Às vezes esses sinais e sintomas aparecem tardiamente, podendo desenvolver-se semanas ou meses após a última dose. Antes do tratamento, seu médico irá verificar a sua saúde geral. Você também fará exames de sangue durante o tratamento.
+
+Verifique com seu médico ou enfermeiro antes de usar YERVOY® em monoterapia ou em combinação com outros agentes (nivolumabe/ nivolumabe e quimioterapia):
+
+• Se você tem uma doença autoimune (uma condição em que o sistema imunológico ataca as próprias células) ou se você está tomando quaisquer medicamentos que suprimem o sistema imunológico, tais como corticosteroides.
+
+• Se você tem ou já teve, infecção viral crônica do fígado, incluindo hepatite B (HBV) ou hepatite C (HCV).
+
+•  Se você tem o vírus da imunodeficiência humana (HIV) ou síndrome da imunodeficiência adquirida (AIDS).
+
+•  Se você tem um câncer nos olhos, câncer originário do sistema nervoso central (encéfalo) ou metástases cerebrais ativas (ou seja, focos de disseminação do câncer de outros órgãos para o cérebro, que estejam ativos).
+
+•  Se você tem doença pulmonar intersticial sintomática (acúmulo de células inflamatórias no pulmão com apresentação de sintomas como falta de ar e tosse).
+
+Crianças YERVOY® não deve ser utilizado em crianças abaixo de 18 anos de idade até que mais informações estejam disponíveis exceto em pacientes pediátricos de 12 anos de idade ou mais em combinação com nivolumabe no tratamento de câncer colorretal.
+
+Idosos acima de 75 anos Os dados disponíveis em pacientes idosos (≥ 75 anos) são limitados. Se você tem 75 anos ou mais, nivolumabe em associação com ipilimumabe e quimioterapia devem ser utilizados com precaução, depois de uma avaliação cuidadosa feita pelo seu médico do benefício/risco potencial do tratamento especificamente para você.
+
+Gravidez e Amamentação Informe o seu médico se você está grávida, se você está planejando engravidar, ou se você está amamentando.
+
+Você não deve usar YERVOY® se estiver grávida, a menos que seu médico especificamente recomende. Os efeitos de YERVOY® em mulheres grávidas não são conhecidos, mas é possível que a substância ativa, ipilimumabe, possa prejudicar o feto.
+
+•  Você deve usar contracepção eficaz enquanto estiver sendo tratada com YERVOY® se você é uma mulher que pode engravidar.
+
+•  Se engravidar enquanto estiver usando YERVOY®, avise o seu médico.
+
+Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica ou do cirurgião-dentista.
+
+Não se sabe se ipilimumabe é excretado pelo leite materno. Entretanto, não é esperada exposição significativa de ipilimumabe para o bebê através do leite materno e nenhum efeito sobre o bebê é esperado. Pergunte ao seu médico se você pode amamentar durante ou após o tratamento com
+
+YERVOY®.
+
+Uso criterioso durante aleitamento ou na doação de leite humano. O uso deste medicamento no período da lactação depende da avaliação e acompanhamento do seu médico ou cirurgião-dentista..
+
+Condução de veículos e operação de máquinas Não conduza ou utilize máquinas após ter usado YERVOY®, a menos que tenha certeza que você está se sentindo bem. Sentir-se cansado ou fraco é um efeito colateral muito comum de YERVOY®. Isso pode afetar sua capacidade de conduzir ou utilizar máquinas.
+
+Informações importantes sobre alguns componentes de YERVOY® Este medicamento contém 23,0 mg de sódio/frasco-ampola de 10mL. Se você faz dieta de restrição de sal (sódio) ou toma medicamento para controlar a pressão arterial, consulte o médico antes de usar este medicamento.
+
+Interações medicamentosas Antes de usar YERVOY®, informe o seu médico:
+
+•  se você está tomando quaisquer medicamentos que suprimem o sistema imunológico, tais como corticosteroides. Estes medicamentos podem interferir no efeito de YERVOY®. No entanto, uma vez que você estiver em tratamento com YERVOY®, seu médico poderá lhe
+
+dar corticosteroides para reduzir os efeitos colaterais que você pode ter com YERVOY®.
+
+•  se você está tomando quaisquer medicamentos que interfiram na coagulação do sangue (anticoagulantes). Estes medicamentos podem aumentar o risco de hemorragia no estômago ou no intestino, que é um efeito colateral de YERVOY®.
+
+Informe ao seu médico se você está fazendo uso de algum outro medicamento.
+
+Não use medicamento sem o conhecimento de seu médico. Pode ser perigoso para sua saúde.
+
+5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+
+Armazenar o produto em geladeira (2ºC a 8ºC). Não congele. Manter na embalagem original até o final do uso para proteger da luz.
+
+Número de lote e datas de fabricação e validade: vide embalagem.
+
+Não use medicamento com o prazo de validade vencido. Guarde-o em sua embalagem original.
+
+Após preparo, proteger da luz e armazenar em geladeira (2ºC a 8ºC) por não mais que 24 horas.
+
+Características físicas e organolépticas YERVOY® é um líquido límpido a ligeiramente opalescente, incolor a amarelo pálido. Poucas partículas podem estar presentes.
+
+Antes de usar, observe o aspecto do medicamento. Caso ele esteja no prazo de validade e você observe alguma mudança no aspecto, consulte o farmacêutico para saber se poderá utilizá-lo.
+
+Todo medicamento deve ser mantido fora do alcance das crianças.
+
+6. COMO DEVO USAR ESTE MEDICAMENTO?
+
+Como YERVOY® em monoterapia (sozinho) é administrado?
+
+YERVOY® será administrado a você em um hospital ou clínica, sob a supervisão de um médico experiente.
+
+Ele será administrado a você como uma infusão (gota a gota) em uma veia (via intravenosa) durante um período de 30 minutos.
+
+A quantidade de YERVOY® que será administrada a você será calculada com base em seu peso corporal. Dependendo da sua dose, um pouco ou todo o conteúdo do frasco de YERVOY® pode
+
+ser diluído com solução injetável de cloreto de sódio 9 mg/mL (0,9%) ou solução injetável de glicose 50 mg/mL (5%) antes de ser usado. Mais do que um frasco pode ser necessário para obter a dose necessária.
+
+Qual a dose administrada de YERVOY® em monoterapia (sozinho)?
+
+A dose recomendada é de 3 mg de ipilimumabe por quilo de seu peso corporal.
+
+Você poderá ser tratado com YERVOY® uma vez a cada três semanas, para um total de 4 doses.
+
+Você pode notar o aparecimento de novas lesões ou o crescimento das lesões existentes na sua pele, o que poderá ser esperado quando você está sendo tratado com YERVOY®. O seu médico poderá continuar a lhe dar YERVOY® para um total de 4 doses, dependendo da sua tolerância ao tratamento.
+
+Como YERVOY® em  combinação com nivolumabe é administrado no tratamento de melanoma, carcinoma de células renais, carcinoma hepatocelular e câncer colorretal?
+
+A administração de YERVOY® em combinação com nivolumabe no tratamento de melanoma, carcinoma hepatocelular, carcinoma de células renais e câncer colorretal é dividida em duas fases: fase de combinação e fase de agente único.
+
+Carcinoma de Células Renais Na fase de combinação, a dose recomendada de nivolumabe é de 3 mg/kg administrado como uma infusão (gota a gota) em uma veia (via intravenosa) durante 30 minutos a cada 3 semanas para as primeiras 4 doses em combinação com YERVOY® 1 mg/kg, também administrado por infusão (gota a gota) em uma veia (via intravenosa) durante 30 minutos. Em seguida inicia-se a fase de agente único.
+
+Melanoma e Carcinoma Hepatocelular Na fase de combinação, a dose recomendada de nivolumabe é de 1 mg/kg administrado como uma infusão (gota a gota) em uma veia (via intravenosa) durante 30 minutos a cada 3 semanas para as primeiras 4 doses em combinação com YERVOY® 3 mg/kg, também administrado por infusão (gota a gota) em uma veia (via intravenosa) durante 30 minutos. Em seguida inicia-se a fase de agente único.
+
+Na fase de agente único administra-se somente o nivolumabe. A dose recomendada de nivolumabe é 240mg a cada 2 semanas ou 480mg a cada 4 semanas, administrados como uma infusão (gota a gota) em uma veia (via intravenosa) durante 30 minutos. A primeira dose de nivolumabe em monoterapia (sozinho) deve ser administrada após três semanas da administração da última dose da combinação de YERVOY® com nivolumabe.
+
+Câncer colorretal (CRC) Tratamento pacientes adultos e pediátricos (com 12 anos ou mais e pesando 50kg ou mais):
+
+•  Na fase de combinação a dose recomendada de nivolumabe é de 240 mg em combinação com YERVOY® 1 mg/kg, administrado por infusão (gota a gota) em uma veia (via intravenosa) durante 30 minutos a cada 3 semanas para as primeiras 4 doses. Em seguida, inicia-se a fase de agente único com nivolumabe. Consulte a bula de nivolumabe para informações completas sobre a posologia e administração.
+
+Tratamento pacientes pediátricos (com 12 anos ou mais e pesando menos que 50kg):
+
+•  Na fase de combinação a dose recomendada de nivolumabe é de 3 mg/kg em combinação com YERVOY® 1 mg/kg, administrado por infusão (gota a gota) em uma veia (via intravenosa) durante 30 minutos a cada 3 semanas para as primeiras 4 doses. Em seguida, inicia-se a fase de agente único com nivolumabe.
+
+Consulte a bula de nivolumabe para informações completas sobre a posologia e administração.
+
+Como YERVOY® em  combinação com nivolumabe é administrado no tratamento de carcinoma de células escamosas do esôfago (CCEE) irressecável avançado recorrente ou metastático?
+
+A dose recomendada de YERVOY® é de 1 mg/kg a cada 6 semanas, administrada na forma de uma infusão (gota a gota) em uma veia (intravenosa) durante 30 minutos, em combinação com nivolumabe 3 mg/kg a cada 2 semanas ou com 360mg de nivolumabe a cada 3 semanas, administrado na forma de uma infusão intravenosa durante 30 minutos, até a progressão da doença, toxicidade inaceitável ou até 2 anos em pacientes sem progressão da doença.
+
+Como YERVOY® em  combinação com nivolumabe é administrado no tratamento do mesotelioma pleural maligno (MPM)?
+
+A dose recomendada de nivolumabe é de 360 mg administrado na forma de infusão (gota a gota) em uma veia (via intravenosa) durante 30 minutos a cada 3 semanas em combinação com YERVOY® 1 mg/kg, também administrado na forma de infusão intravenosa durante 30 minutos a cada 6 semanas.
+
+Quando administrado em combinação com nivolumabe, o nivolumabe deve ser fornecido primeiro, acompanhado por YERVOY® no mesmo dia.
+
+Como YERVOY® em combinação com nivolumabe e quimioterapia é administrado no tratamento do Câncer de pulmão de células não pequenas metastático (que se espalhou)?
+
+A dose recomendada de nivolumabe é de 360 mg administrado como uma infusão (gota a gota) em uma veia (via intravenosa) durante 30 minutos a cada 3 semanas em combinação com YERVOY® 1 mg/kg também administrado por infusão a cada 6 semanas e 2 ciclos de quimioterapia com platina administrada a cada 3 semanas.
+
+Quando administrado em associação com nivolumabe e quimioterapia, nivolumabe deve ser administrado primeiro, seguido por YERVOY® e depois pela quimioterapia, no mesmo dia. Devese utilizar sacos de perfusão e filtros em separado para cada perfusão.
+
+Para segurança e eficácia desta apresentação, YERVOY® não deve ser administrado por vias não recomendadas. A administração deve ser somente pela via intravenosa.
+
+Siga a orientação do seu médico, respeitando sempre os horários, as doses e a duração do tratamento. Não interrompa o tratamento sem o conhecimento do seu médico.
+
+7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+
+É importante que você compareça a todas as suas consultas com seu médico para receber YERVOY®. Se você perder uma consulta, pergunte ao seu médico se ou quando você deve marcar sua próxima dose.
+
+Interromper o tratamento pode interromper o efeito do medicamento. Não interrompa o tratamento com YERVOY® a menos que você tenha discutido este assunto com seu médico.
+
+Em caso de dúvidas, procure orientação do farmacêutico ou de seu médico.
+
+8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+
+Como todos os medicamentos, YERVOY® em monoterapia (sozinho) ou em combinação com outros agentes (nivolumabe/ nivolumabe e quimioterapia) pode causar efeitos colaterais, embora nem todas as pessoas os apresentem. Seu médico irá discutir isso com você e explicar os riscos e benefícios do seu tratamento.
+
+Esteja ciente de sintomas importantes de inflamação.
+
+YERVOY® em monoterapia (sozinho) ou em combinação com outros agentes (nivolumabe/ nivolumabe e quimioterapia) age em seu sistema imunológico e pode causar inflamação em partes do seu corpo.
+
+Inflamações podem causar sérios danos ao seu corpo e algumas condições inflamatórias podem ser fatais.
+
+As seguintes reações adversas têm sido relatados nos estudos clínicos.
+
+•  YERVOY® em monoterapia (sozinho) Reação muito comum (ocorre em mais de 10% dos pacientes que utilizam este medicamento):
+
+Redução de apetite, diarreia, vômito, náusea (enjôo), erupção cutânea (rash), prurido (coceira), fadiga (cansaço ou fraqueza), reação no local da injeção (dor ou sensibilidade na área do abdômen), pirexia (febre).
+
+Reação comum (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento):
+
+Dor tumoral, anemia, linfopenia (número reduzido de linfócitos), hipopituitarismo (função diminuída da glândula hipófise, incluindo hipofisite), hipotireoidismo (função diminuída da glândula tireoide, o que pode causar ganho de peso ou cansaço), desidratação, hipocalemia, confusão, neuropatia sensorial periférica (danos aos nervos que causam dor, fraqueza e cãibras), tontura, dor de cabeça, lentidão, visão borrada, dor nos olhos, pressão arterial baixa, rubor (vermelhidão temporária da face e pescoço), fogacho (sensação de calor intenso com sudorese e batimento cardíaco rápido), dispneia (falta de ar), tosse, hemorragia gastrointestinal (sangramento no estômago ou intestino), colite (inflamação dos intestinos), constipação (prisão de ventre), doença de refluxo gastroesofágico (azia), dor abdominal), função hepática anormal, dermatite (inflamação da pele), eritema (vermelhidão da pele), vitiligo (alteração da cor da pele em manchas), urticária (coceira, rash), alopecia (afinamento ou perda de cabelo), sudorese noturna (transpiração excessiva durante a noite), pele seca, artralgia (dor nas articulações), mialgia (dor nos músculos), dor musculoesquelética, espasmos musculares, calafrios, astenia (falta de energia), edema (inchaço), dor, doenças semelhantes à gripe (sintomas), alanina aminotransferase (ALT) elevada, aspartato aminotransferase (AST) elevado, bilirrubina sanguínea elevada, fosfatase alcalina sanguínea elevada, redução de peso.
+
+Reação incomum (ocorre entre 0,1% e 1% dos pacientes que utilizam este medicamento):
+
+Sepse (infecção bacteriana grave do sangue, choque séptico, infecção do trato urinário, infecção do trato respiratório, síndrome paraneoplásica (um conjunto de sintomas devido ao câncer no organismo, tais como os níveis sanguíneos elevados de cálcio e colesterol e baixos níveis sanguíneos de açúcar), anemia hemolítica, trombocitopenia (diminuição na quantidade de plaquetas no sangue), eosinofilia (aumento dos eosinófilos no sangue), neutropenia (diminuição na quantidade de neutrófilos no sangue), hipersensibilidade (reação alérgica), reações relacionadas à infusão, insuficiência adrenal (função diminuída das glândulas suprarrenais), hipertireoidismo (função aumentada da glândula tireóide, o que pode causar aumento da frequência cardíaca, sudorese e perda de peso), hipogonadismo (disfunções das glândulas que
+
+produzem hormônios sexuais), hiponatremia, alcalose, hipofosfatemia, síndrome de lise tumoral (um grupo de complicações metabólicas que ocorre após o tratamento do câncer caracterizado por elevados níveis sanguíneos de potássio e fósforo e baixos níveis sanguíneos de cálcio), alterações no estado mental, depressão, redução de libido (desejo sexual diminuído), síndrome de Guillain-Barré (inflamação grave e possivelmente fatal dos nervos causando dor, fraqueza ou paralisia nas extremidades), meningite asséptica (inflamação das meninges ao redor do cérebro ou medula espinhal), síncope (desmaio), neuropatia craniana (danos aos nervos cranianos), edema cerebral (acúmulo excessivo de líquido no cérebro), neuropatia periférica (danos aos nervos que causam dor, fraqueza e cãibras), ataxia (dificuldade na coordenação dos movimentos), tremor, mioclonia (contração muscular involuntária breve), disartria (dificuldade em falar), uveíte (inflamação do olho que provoca vermelhidão ou dor), hemorragia vítrea (sangramento nos olhos), irite (inflamação da íris, parte colorida do olho), acuidade visual reduzida,, sensação de corpo estranho nos olhos, conjuntivite (inflamação da conjuntiva, causando inchaço dos olhos e lacrimejamento), arritmia (batimento cardíaco irregular ou anormal), fibrilação atrial (alteração no ritmo do batimento cardíaco, rápido e irregular), vasculite (inflamação dos vasos sanguíneos), angiopatia (doença dos vasos sanguíneos), isquemia periférica (restrição no fornecimento de sangue para as extremidades), hipotensão ortostática (pressão arterial baixa ao levantar-se, extrema dificuldade em respirar), insuficiência respiratória, síndrome da angústia respiratória aguda (acúmulo de líquidos nos pulmões e redução do oxigênio no sangue a níveis excessivamente baixos), infiltração pulmonar, edema pulmonar (acúmulo de líquido nos pulmões), pneumonite (inflamação dos pulmões), rinite alérgica, perfuração gastrointestinal (rompimento da parede do intestino grosso ou delgado), perfuração no intestino grosso, perfuração intestinal, peritonite infeccioso (inflamação da membrana da parede do estômago), gastroenterite (inflamação do estômago e dos intestinos), diverticulite (inflamação do intestino grosso), pancreatite autoimune (inflamação crônica do pâncreas), enterocolite (inflamação do cólon e do intestino delgado, no trato digestivo), úlcera gástrica (lesão na mucosa que reveste o estômago), úlcera no intestino grosso, esofagite (inflamação no esôfago), inflamação na mucosa ileal, estomatite (inflamação na mucosa que reveste toda a boca), , insuficiência da função hepática, hepatite (inflamação do fígado), hepatomegalia (aumento do fígado), icterícia (amarelamento da pele ou olhos), necrólise epidérmica tóxica, incluindo síndrome de Stevens Johnson (descamação da pele grave e possivelmente fatal), vasculite leucocitoclástica (inflamação nos vasos sanguíneos que leva ao aparecimento de manchas vermelhas ou roxas na pele), esfoliação cutânea, eczema (inflamação crônica e pruriginosa nas camadas superficiais da pele), alterações da cor do cabelo, polimialgia reumática (inflamação da membrana que reveste as articulações, causando dor intensa e rigidez muscular no pescoço), artrite (inflamação nas articulações), insuficiência renal, glomerulonefrite (distúrbio de glomérulos, com aglomerados de vasos sanguíneos nos rins), acidose tubular renal (mau funcionamento dos túbulos renais, resultando em níveis elevados de ácido no sangue), amenorreia (ausência de períodos menstruais), insuficiência múltipla de órgãos,
+
+gama-glutamil transferase elevada, creatinina sanguínea elevada, hormônio estimulante da tireoide sanguíneo elevado, cortisol sanguíneo reduzido, corticotrofina sanguínea reduzida, lipase elevada, amilase sanguínea elevada, testosterona sanguínea reduzida.
+
+Reação rara (ocorre entre 0,01% e 0,1% dos pacientes que utilizam este medicamento):
+
+Síndrome da resposta inflamatória sistêmica e prolactina anormal no sangue.
+
+Reação muito rara (ocorre em menos de 0,01% dos pacientes que utilizam este medicamento):
+
+Reação anafilática (choque devido a grave reação alérgica) e síndrome de Vogt-Koyanagi-Harada.
+
+Reações adversas adicionais não relacionadas têm sido relatados em pacientes que receberam outras doses (< ou > 3 mg/kg) de YERVOY® em estudos clínicos de melanoma. Estas reações adicionais ocorreram em uma frequência < 1%:
+
+Tríade de sintomas: meningismo (rigidez do pescoço, intolerância à luz brilhante e dor de cabeça), miocardite (inflamação do músculo cardíaco), derrame no pericárdio (pericardite), cardiomiopatia (doença do músculo do coração), hepatite, tireoidismo e nefrite autoimune (anticorpos contra algumas das células do seu próprio corpo, causando danos ao fígado, à glândula tireóide e ao rim, respectivamente), eritema multiforme (inflamação e vermelhidão da pele), hiperpituitarismo (função aumentada da glândula hipófise), insuficiência adrenocortical secundária (diminuição da função das glândulas adrenais causada por diminuição da função do hipotálamo,parte do cérebro), hipoparatireoidismo (diminuição da função da glândula paratireóide), tireoidite (inflamação da glândula tireóide), episclerite (inflamação dos olhos), blefarite (inflamação das pálpebras), edema no olho (inchaço do olho), esclerite (inflamação grave, destrutiva e com risco à visão), arterite temporal (doença inflamatória dos vasos sanguíneos,que afeta as artérias da cabeça), fenômeno de Raynaud (má circulação do sangue que torna pés e dedos dormentes ou pálidos), proctite (inflamação do ânus e da parede do reto, marcado por sangue nas fezes e uma necessidade frequente para defecar), síndrome de eritrodisestesia palmo-plantar (dano aos tecidos das mãos e dos pés, resultando em inchaço, vermelhidão e bolhas), psoríase (doença da pele caracterizada por manchas vermelhas secas cobertas de escamas), hematúria (presença anormal de sangue na urina), proteinúria (presença anormal de proteína na urina), hormônio estimulante da tireoide reduzido no sangue, gonadotrofina sanguínea reduzida, tiroxina reduzida, leucopenia, policitemia, sintomas semelhantes a miastenia grave, síndrome de liberação de citocinas, sarcoidose (doença inflamatória que pode causar alterações nos pulmões e apresentar sintomas como falta de ar, tosse e dor no peito, entre outros), hipoacusia neurossensorial (diminuição da capacidade auditiva), neuropatia central autoimune (danos aos nervos que causam dor, fraqueza e cãibras), encefalite (inflamação do encéfalo), miosite (inflamação nos músculos e outras partes do corpo, incluindo polimiosite) e miosite ocular (inflamação dos músculos dos olhos).
+
+Experiência pós-comercialização durante o uso de YERVOY® (frequência desconhecida):
+
+Os seguintes eventos foram identificados durante o uso pós-comercialização de YERVOY®. Como os relatos são voluntários de uma população de tamanho desconhecido, uma estimativa de frequência não pode ser feita.
+
+Doenças do sangue e do sistema linfático: linfohistiocitose hemofagocítica (hiperativação do sistema imunológico).
+
+Doenças do sistema imune: Doença do enxerto contra hospedeiro e rejeição de transplante de órgão sólido.
+
+Reação medicamentosa com eosinofilia e sintomas sistêmicos (DRESS) têm sido raramente relatados com YERVOY® no uso pós-comercialização, Doenças gastrointestinais: insuficiência pancreática exócrina.
+
+• MELANOMA - YERVOY® em combinação com nivolumabe As seguintes reações adversas têm sido relatados nos estudos clínicos em melanoma avançado:
+
+Reação muito comum (ocorre em mais de 10% dos pacientes que utilizam este medicamento):
+
+Hipotireoidismo (função diminuída da glândula tireoide), diminuição do apetite, dor de cabeça, dispneia (falta de ar), colite (inflamação intestinal), diarreia, vômito, náusea, dor abdominal, erupção cutânea (rash), prurido (coceira), artralgia (dor articular), fadiga (cansaço ou fraqueza), pirexia (febre).
+
+Reação comum (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento):
+
+Pneumonia, infecção do trato respiratório superior, eosinofilia (aumento dos eosinófilos no sangue), reação relacionada à infusão, hipersensibilidade (alergia), insuficiência adrenal (função diminuída das glândulas suprarrenais), hipopituitarismo (disfunções das glândulas que produzem hormônios sexuais), hipofisite (inflamação da hipófise), hipertireoidismo (função aumentada da glândula tireoide), tireoidite (inflamação da tireoide), desidratação, hepatite (inflamação do fígado), neuropatia periférica (danos aos nervos que causam dor, fraqueza e cãibras), tontura, visão embaçada, uveíte (inflamação dos olhos), taquicardia (batimento cardíaco irregular anormal), hipertensão (pressão sanguínea alta), pneumonite (doença inflamatória que pode causar alterações nos pulmões), embolia pulmonar, tosse, estomatite (afta), pancreatite (inflamação no pâncreas), constipação (prisão de ventre), boca seca, vitiligo (alteração da cor da pele em manchas), pele seca, eritema (vermelhidão da pele), alopecia (redução parcial ou total dos cabelos e pelos em determinada área da pele), urticária, dor musculoesquelética, insuficiência renal (mau funcionamento dos rins, incluindo lesão renal aguda), edema (inchaço, incluindo edema periférico), dor, redução de peso.
+
+Reação incomum (ocorre entre 0,1% e 1% dos pacientes que utilizam este medicamento):
+
+Bronquite (inflamação dos brônquios), sarcoidose (doença autoimune), diabetes mellitus e cetoacidose diabética (açúcar no sangue e suas complicações), síndrome de Guillain-Barré (inflamação grave e possivelmente fatal dos nervos), polineuropatia (mau funcionamento dos nervos periféricos), neurite (inflamação de um nervo ou de suas ramificações), paralisia do nervo peroneal (nervo da perna), neuropatia autoimune (danos aos nervos que causam dor, fraqueza e cãibras - incluindo facial e paralisia do nervo abducente), encefalite (inflamação do encéfalo), arritmia (variação no ritmo do batimento cardíaco, incluindo arritmia ventricular), fibrilação atrial (alteração no ritmo do batimento cardíaco, rápido e irregular), miocardite (inflamação do miocárdio, a camada muscular grossa da parede do coração), derrame pleural (acúmulo de líquidos na pleura), perfuração intestinal, gastrite (inflamação da mucosa do estômago), duodenite (inflamação do duodeno), psoríase (lesões avermelhadas e descamativas na pele), espondiloartropatia (doença inflamatória da articulação da coluna vertebral), Síndrome de Sjögren (doença autoimune que afeta as glândulas produtoras de lágrimas e saliva, causando olho e boca seca), artrite, miopatia (mau funcionamento das fibras musculares), miosite (inflamação nos músculos e outras partes do corpo, incluindo polimiosite), rabdomiólise (quebra rápida de músculo esquelético (rabdomio) devido à lesão no tecido muscular), nefrite túbulo-intersticial (inflamação dos rins), dor torácica.
+
+Reação rara (ocorre entre 0,01% e 0,1% dos pacientes que utilizam este medicamento):
+
+Necrólise epidérmica tóxica (doença cutânea em que há descamação/descolamento da camada superficial da pele, descamação em lâminas), síndrome de Stevens-Johnson.
+
+•  CARCINOMA DE CÉLULAS RENAIS - YERVOY® em combinação com nivolumabe Reação muito comum (ocorre em mais de 10% dos pacientes que utilizam este medicamento):
+
+Hipotireoidismo (função diminuída da glândula tireoide), hipertireoidismo (função aumentada da glândula tireoide), diminuição do apetite, diarreia, vômito, náusea, erupção cutânea (rash), prurido, dor musculoesquelética, artralgia (dor articular), fadiga (cansa;o ou fraqueza), febre.
+
+Reação comum (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento):
+
+Pneumonia, infecção do trato respiratório superior, reação relacionada à infusão, hipersensibilidade (alergia), insuficiência adrenal (função diminuída das glândulas suprarenais), hipofisite (inflamação da hipósife), tireoidite (inflamação da tireoide), diabetes mellitus, desidratação, hepatite (inflamação do fígado), dor de cabeça, neuropatia periférica (danos aos nervos que causam dor, fraqueza e cãibras), tontura, visão embaçada, taquicardia (batimento
+
+cardíaco irregular anormal), hipertensão (pressão sanguínea alta), pneumonite (doença inflamatória que pode causar alterações nos pulmões), dispneia (falta de ar), derrame pleural, tosse, colite (inflamação intestinal), estomatite (afta), pancreatite (inflamação no pâncreas), dor abdominal, constipação (prisão de ventre), boca seca, pele seca, eritema (vermelhidão da pele), urticária, artrite (inflamação nas articulações), espasmos musculares, fraqueza muscular, insuficiência renal (mau funcionamento dos rins, incluindo lesão renal aguda), edema (inchaço, incluindo edema periférico), dor, dor torácica, calafrios, redução de peso.
+
+Reação incomum (ocorre entre 0,1% e 1% dos pacientes que utilizam este medicamento):
+
+Bronquite (inflamação dos brônquios), meningite asséptica (inflamação das camadas que revestem o cérebro, meninges, que não é causada por bactérias piogênicas), eosinofilia (aumento dos eosinófilos no sangue), cetoacidose diabética (açúcar no sangue e suas compliações), hipopituitarismo (disfunções das glândulas que produzem hormônios sexuais), acidose metabólica (excesso de acidez no sangue), polineuropatia (mal funcionamento dos nervos periféricos), neuropatia autoimune (danos aos nervos que causam dor, fraqueza e cãibras - incluindo facial e paralisia do nervo abducente), miastenia grave (fraqueza e fadiga muscular anormalmente rápida), uveíte (inflamação dos olhos), arritmia (variação no ritmo do batimento cardíaco, incluindo arritmia ventricular), miocardite (inflamação do miocárdio, a camada muscular grossa da parede do coração), gastrite (inflamação da mucosa do estômago), Síndrome de Stevens-Johnson (reação alérgica grave), vitiligo (alteração da cor da pele em manchas), eritema multiforme (vermelhidão da pele), alopecia (queda com redução total ou parcial dos cabelos e pelos em determinada área do corpo), psoríase, polimialgia reumática (doença inflamatória com endurecimento dos músculos), miosite, rabdomiólise (lesão no tecido muscular), nefrite túbulo-intersticial (inflamação dos rins).
+
+•  CARCINOMA HEPATOCELULAR IRRESSECÁVEL, PRIMEIRA LINHA – YERVOY® em combinação com nivolumabe As seguintes reações adversas têm sido relatadas nos estudos clínicos em carcinoma hepatocelular irressecável.
+
+Reação muito comum (ocorre em mais de 10% dos pacientes que utilizam este medicamento): hipertireoidismo (função aumentada da glândula tireoide), hipotireoidismo (função diminuída da glândula tireoide), diminuição de apetite, tosse, diarreia, dor abdominal, náusea, erupção cutânea, prurido (coceira), fadiga, pirexia (febre), edema (inchaço).
+
+Reação comum (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento):
+
+hiperglicemia (aumento do açúcar no sangue), insuficiência adrenal (função diminuída das glândulas suprarrenais), pneumonite (doença inflamatória que pode causar alterações nos pulmões), colite (inflamação intestinal), pancreatite (inflamação do pâncreas), dor
+
+musculoesquelética, artralgia (dor articular).
+
+CARCINOMA  HEPATOCELULAR  TRATADO  PREVIAMENTE  - YERVOY®  em combinação com nivolumabe Reação muito comum (ocorre em mais de 10% dos pacientes que utilizam este medicamento):
+
+Hipotireoidismo (função diminuída da glândula tireoide), insuficiência adrenal (função diminuída das glândulas suprarrenais), diminuição do apetite, diarreia, náusea, erupção cutânea, prurido (coceira), fadiga (cansaço ou fraqueza), mal-estar.
+
+Reação comum (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento):
+
+Eosinofilia (aumento de eosinófilos no sangue), reação relacionada à infusão, hipertireoidismo (função aumentada da glândula tireoide), hipopituitarismo (disfunções das glândulas que produzem hormônios sexuais), tireoidite (inflamação da tireoide), hepatite (inflamação do fígado), tontura, cefaleia (dor de cabeça), neuropatia autoimune (incluindo paralisia facial e do nervo abducente), hipertensão (aumento da pressão arterial), pneumonite (doença inflamatória que pode causar alterações no pulmão), tosse, dispneia (falta de ar), derrame pleural, boca seca, estomatite, colite, vômito, constipação, pele seca, urticária, eritema (vermelhidão da pele), dor musculoesquelética, artralgia (dor articular), miopatia (mau funcionamento da fibras musculares), doença semelhante à gripe, pirexia (febre), redução de peso.
+
+• MESOTELIOMA PLEURAL MALIGNO E CARCINOMA DE CÉLULAS ESCAMOSAS DO ESÔFAGO - YERVOY® em combinação com nivolumabe Reação muito comum (ocorre em mais de 10% dos pacientes que utilizam este medicamento):
+
+Pneumonia, hipotireoidismo (função diminuída da glândula tireoide), diminuição do apetite, diarreia, náusea, constipação, erupção cutânea (rash), prurido (coceira), dor musculoesquelética, fadiga (cansaço), pirexia (febre).
+
+Reação comum (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento):
+
+Infecção do trato respiratório superior, reação relacionada à infusão, hipersensibilidade (alergia), hipertireoidismo (função aumentada da glândula tireoide), insuficiência adrenal (função diminuída das glândulas suprarrenais), hipofisite (inflamação da hipófise), hipopituitarismo (disfunções das glândulas que produzem hormônios sexuais), diabetes mellitus, tireoidite (inflamação da tireoide), hepatite (inflamação do fígado), pneumonite (inflamação dos pulmões), colite (inflamação intestinal), pancreatite (inflamação do pâncreas), artrite (dor nas articulações), insuficiência renal
+
+(incluindo lesão renal aguda).
+
+Reação incomum (ocorre entre 0,1% e 1% dos pacientes que utilizam este medicamento):
+
+Encefalite (inflamação do encéfalo), uveíte (inflamação de uma das partes do olho), miocardite (inflamação do miocárdio, a camada muscular grossa da parede do coração), miosite (inflamação dos músculos).
+
+•  CÂNCER COLORRETAL  EM PRIMEIRA LINHA - YERVOY® em combinação com nivolumabe Reação muito comum (ocorre em mais de 10% dos pacientes que utilizam este medicamento): infecção do trato respiratório superior, hipotireoidismo (função diminuída da glândula tireoide), insuficiência adrenal (função diminuída das glândulas suprarenais), diminuição de apetite, hiperglicemia (aumento de açúcar no sangue), cefaleia, tosse, dispneia (falta de ar), diarreia, náusea, vômito, constipação (prisão de ventre), dor abdominal, prurido (coceira), erupção cutânea, artralgia (dor articular), dor musculoesquelética, fadiga (cansaço), pirexia (febre), edema (inchaço, incluindo edema periférico).
+
+Reação comum (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento):
+
+pneumonia, bronquite (inflamação dos brônquios), eosinofilia (aumento dos eosinófilos no sangue), reação relacionada à infusão, hipersensibilidade (alergia), hipertireoidismo (função aumentada da glândula tireoide), hipofisite (inflamação da hipófise), diabetes mellitus, tireoidite (inflamação da tireoide), hepatite (inflamação do fígado), tontura, neuropatia periférica (danos aos nervos que causam dor, fraqueza e cãibras), polineuropatia (mau funcionamento dos nervos periféricos), pneumonite (doença inflamatória que pode causar alterações nos pulmões), boca seca, estomatite (afta), colite (inflamação intestinal), dispepsia (má digestão), pele seca, eritema (vermelhidão na pele), alopecia (redução parcial ou total dos cabelos e pêlos em determinada área da pele), artrite (dor nas articulações), miosite (inflamação dos músculos), fraqueza muscular, insuficiência renal (mau funcionamento dos rins, incluindo lesão renal aguda), dor, dor torácica, calafrios, redução de peso.
+
+Reação incomum (ocorre entre 0,1% e 1% dos pacientes que utilizam este medicamento):
+
+hipopituitarismo (disfunções das glândulas que produzem hormônios sexuais), encefalite imunomediada (inflamação do encéfalo mediada pelo sistema imunológico), miastenia gravis (doença autoimune que causa fraqueza muscular progressiva), miocardite (inflamação do miocárdio, a camada muscular do coração), gastrite (inflamação da mucosa do estômago), pancreatite (inflamação do pâncreas), polimialgia reumática (doença inflamatória com endurecimento dos músculos), espasmos musculares.
+
+•  CÂNCER COLORRETAL APÓS QUIMIOTERAPIA COMBINADA PRÉVIA À BASE DE FLUOROPIRIMIDINA - YERVOY® em combinação com nivolumabe Reação muito comum (ocorre em mais de 10% dos pacientes que utilizam este medicamento): hipotireoidismo (função diminuída da glândula tireoide), hipertireoidismo (função aumentada da glândula tireoide), diarreia, náusea, erupção cutânea, prurido (coceira), fadiga (cansaço) e pirexia (febre).
+
+Reação comum (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento):
+
+sarcoidose (doença autoimune), insuficiência adrenal (função diminuída das glândulas suprarenais), tireoidite (inflamação da tireoide), hipofisite (inflamação da hipófise), distúrbio autoimune da tireoide, hipopituitarismo (disfunções das glândulas que produzem hormônios sexuais), diminuição de apetite, desidratação, hepatite (inflamação do fígado), cefaleia, neuropatia periférica (danos aos nervos que causam dor, fraqueza e cãibras), tontura, pneumonite (doença inflamatória que pode causar alterações nos pulmões), dispneia (falta de ar), dor abdominal, boca seca, dispepsia (má digestão), colite (inflamação intestinal), constipação (prisão de ventre), estomatite (afta), vômito, pele seca, alopecia (redução parcial ou total dos cabelos e pêlos em determinada área da pele), eritema (vermelhidão na pele), dor musculoesquelética, artralgia (dor articular), rigidez articular, lesão renal aguda, doença semelhante à gripe, calafrios, edema facial (inchaço na face), edema (inchaço), dor e redução de peso.
+
+Reação incomum (ocorre entre 0,1% e 1% dos pacientes que utilizam este medicamento):
+
+Infecção viral do trato respiratório superior, hipersensibilidade (alergia), insuficiência adrenocortical secundária, encefalite (inflamação do encéfalo), parestesia (formigamento), visão turva, hipertensão (aumento da pressão arterial), tosse, pancreatite (inflamação do pâncreas), psoríase (lesões avermelhadas e descamativas na pele), artrite (dor nas articulações), miosite necrosante (inflamação dos músculos com necrose) e dor torácica.
+
+•    CÂNCER DE PULMÃO DE CÉLULAS NÃO PEQUENAS METASTÁTICO - YERVOY® em combinação com nivolumabe e quimioterapia Reação muito comum (ocorre em mais de 10% dos pacientes que utilizam este medicamento):
+
+Hipotireoidismo (função diminuída da glândula tireoide), diminuição do apetite, náusea, diarreia, vômito, erupção cutânea (rash), prurido (coceira), fadiga (cansaço ou fraqueza).
+
+Reação comum (ocorre entre 1% e 10% dos pacientes que utilizam este medicamento):
+
+Conjuntivite, pneumonia (infecção nos pulmões), infecção do trato respiratório, neutropenia febril (diminuição na quantidade de neutrófilos no sangue com febre), reação relacionada à infusão, hipersensibilidade, hipertireoidismo (função aumentada da glândula tireoide), insuficiência adrenal
+
+(função diminuída das glândulas suprarrenais), hipofisite (inflamação da hipófise), tireoidite (inflamação na tireoide), desidratação, hipoalbunemia, hipofosfatemia, neuropatia periférica (danos aos nervos que causam dor, fraqueza e cãibras), tontura, olho seco, pneumonite (inflamação dos pulmões), dispneia (falta de ar), tosse, constipação, estomatite (afta), dor abdominal, colite (inflamação intestinal), boca seca, pancreatite (inflamação do pâncreas), hepatite (inflamação do fígado), alopecia (queda com redução total ou parcial dos cabelos e pelos em determinada área da pele), pele seca, eritema (vermelhidão da pele), urticária (irritação na pele), dor musculoesquelética, artralgia (dor articular), artrite (inflamação nas articulações), insuficiência renal (incluindo lesão renal aguda), pirexia (febre), edema (inchaço, incluindo edema periférico), aumento do hormônio tireoestimulante (TSH).
+
+Reação incomum (ocorre entre 0,1% e 1% dos pacientes que utilizam este medicamento):
+
+Eosinofilia (aumento dos eosinófilos no sangue), hipopituitarismo (disfunções das glândulas que produzem hormônios sexuais), hipoparatireoidismo, polineuropatia (mau funcionamento dos nervos periféricos), neuropatia autoimune (incluindo paresia facial e do nervo abducente), encefalite (inflamação do encéfalo), visão turva, episclerite (inflamação na parte branca do olho), taquicardia (batimento cardíaco irregular anormal), fibrilação atrial, bradicardia (batimento do coração lento), hipertensão (pressão alta), derrame pleural (líquido nos pulmões), psoríase (alergia na pele), síndrome de Stevens-Johnson, vitiligo (alteração da cor da pele em manchas), fraqueza muscular, espasmos musculares, polimialgia reumática (doença inflamatória com endurecimento dos músculos), nefrite (inflamação dos rins), calafrios, dor torácica, gamaglutamiltransferase (GGT) aumentada.
+
+Experiência pós-comercialização durante o uso de YERVOY® em combinação com nivolumabe (frequência desconhecida):
+
+Os seguintes eventos foram identificados durante o uso após aprovação de nivolumabe em combinação com ipilimumabe.
+
+Doenças oculares: Síndrome de Vogt-Koyanagi-Harada.
+
+Doenças do sistema imunológico: doença do enxerto contra hospedeiro e rejeição de transplante de órgão sólido.
+
+Doenças do sangue e do sistema linfático: linfohistiocitose hemofagocítica (hiperativação do sistema imunológico) e anemia hemolítica autoimune.
+
+Doenças cardíacas: pericardite (inflamação da membrana que recobre o coração).
+
+Doenças do sistema nervoso: mielite (inflamação da medula espinhal), incluindo mielite transversa.
+
+Doenças gastrointestinais: insuficiência pancreática exócrina (quando o pâncreas não produz uma quantidade adequada de enzimas digestivas).
+
+Doenças do metabolismo e nutrição: síndrome de lise tumoral (condição em que o corpo elimina
+
+células cancerígenas muito rapidamente após o início de um tratamento eficaz, liberando substâncias que podem causar danos ao organismo).
+
+Alterações nos resultados dos testes laboratoriais YERVOY® em monoterapia (sozinho) ou em combinação com nivolumabe pode causar alterações nos resultados dos testes efetuados pelo seu médico. Estes incluem:
+
+•  uma variação no número de glóbulos vermelhos (que transportam oxigênio), glóbulos brancos (que são importantes para combater infecções) e plaquetas (células que ajudam o sangue a coagular);
+
+•  uma variação anormal de hormônios e dos níveis das enzimas hepáticas no sangue;
+
+•  teste de função hepática (do fígado) anormal;
+
+•  níveis anormais de cálcio, sódio, fósforo, magnésio ou de potássio no sangue;
+
+•  presença de sangue ou proteínas na urina;
+
+•  uma elevação anormal da alcalinidade do sangue e de outros tecidos do corpo (pH alto);
+
+•  rins incapazes de eliminar os ácidos do sangue normalmente;
+
+•  níveis anormais de açúcar no sangue;
+
+•  aumento das concentrações de albumina.
+
+Atenção: este produto é um medicamento que possui nova indicação terapêutica no país e, embora as pesquisas tenham indicado eficácia e segurança aceitáveis, mesmo que indicado e utilizado corretamente, podem ocorrer eventos adversos imprevisíveis ou desconhecidos. Nesse caso, informe seu médico.
+
+9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA
+
+DESTE MEDICAMENTO?
+</text>
