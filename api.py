@@ -39,6 +39,7 @@ def _jsonificar(resultados: dict) -> dict:
     chroma = resultados["chroma"]
     return {
         "meili": resultados["meili"],
+        "sinonimos": list(resultados.get("sinonimos", [])),
         "chroma": {
             "ids": list(chroma["ids"]),
             "docs": list(chroma["docs"]),
@@ -48,6 +49,10 @@ def _jsonificar(resultados: dict) -> dict:
             # Os dois registros completos de cada medicamento (para comparação).
             "originais": list(chroma.get("originais", [])),
             "simplificadas": list(chroma.get("simplificadas", [])),
+            # Frase da versão simplificada validada que mais casou com a query.
+            "trechos_match": list(chroma.get("trechos_match", [])),
+            # Score do reranker (~[0,1]) quando rerank=True; vazio caso contrário.
+            "rerank_scores": [float(s) for s in chroma.get("rerank_scores", [])],
         },
     }
 
@@ -62,10 +67,19 @@ def buscar(
     q: str = Query(..., min_length=1, description="Termo de busca"),
     n: int = Query(5, ge=1, le=50, description="Número de resultados por motor"),
     min_score: float = Query(0.4, ge=0.0, le=1.0,
-                             description="Similaridade cosseno mínima (ChromaDB)"),
+                             description="Score mínimo (ChromaDB): cosseno sem rerank, "
+                                         "score do reranker com rerank"),
+    rerank: bool = Query(False, description="Reordena os resultados semânticos com o "
+                                            "cross-encoder bge-reranker-v2-m3 (2º estágio)"),
+    somente_simplificada: bool = Query(False, description="Restringe a busca semântica aos "
+                                       "chunks da bula simplificada (linguagem acessível)"),
+    min_score_rerank: float | None = Query(None, ge=0.0, le=1.0,
+                                           description="Limiar no modo rerank (escala do "
+                                           "reranker). Default baixo se omitido"),
 ):
     try:
-        resultados = search.pesquisar(q, n, min_score)
+        resultados = search.pesquisar(q, n, min_score, rerank, somente_simplificada,
+                                      min_score_rerank)
     except Exception as exc:  # Meilisearch fora do ar, índice ausente, etc.
         raise HTTPException(status_code=503, detail=f"Erro ao consultar os motores de busca: {exc}")
     return _jsonificar(resultados)

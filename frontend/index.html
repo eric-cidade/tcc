@@ -159,8 +159,12 @@
         gap: 8px;
       }
       .controls input[type="number"],
-      .controls input[type="range"] {
+      .controls input[type="range"],
+      .controls input[type="checkbox"] {
         accent-color: var(--teal);
+      }
+      .controls .rerank-toggle {
+        cursor: pointer;
       }
       .controls input[type="number"] {
         width: 64px;
@@ -210,6 +214,23 @@
         font-size: 1.2rem;
         color: var(--ink-soft);
         padding: 30px 0;
+      }
+      .syn-note {
+        font-family: "Inter", system-ui, sans-serif;
+        font-style: normal;
+        font-size: 0.85rem;
+        color: var(--ink-soft);
+        margin-left: 6px;
+      }
+      .syn-chip {
+        display: inline-block;
+        background: var(--paper-deep);
+        border: 1px solid var(--teal-bright);
+        color: var(--teal);
+        font-weight: 700;
+        padding: 0 8px;
+        border-radius: 2px;
+        font-size: 0.82rem;
       }
       .status.error {
         color: var(--coral);
@@ -324,6 +345,9 @@
         color: var(--teal);
         white-space: nowrap;
       }
+      .card .score.rerank {
+        color: var(--coral);
+      }
       .card .badge {
         display: inline-block;
         font-size: 0.68rem;
@@ -338,6 +362,38 @@
       .card .badge.simp {
         border-color: var(--teal-bright);
         color: var(--teal);
+      }
+      .card .match {
+        margin: 4px 0 10px;
+        padding: 8px 12px;
+        background: rgba(20, 137, 117, 0.08);
+        border-left: 3px solid var(--teal-bright);
+        font-size: 0.95rem;
+      }
+      .card .match-label {
+        display: block;
+        font-size: 0.66rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--teal);
+        margin-bottom: 4px;
+      }
+      .card .match-score {
+        color: var(--ink-soft);
+        letter-spacing: 0;
+      }
+      .card .match-text {
+        color: var(--ink);
+      }
+      .card .term-chip {
+        display: inline-block;
+        background: var(--paper-deep);
+        border: 1px solid var(--teal-bright);
+        color: var(--teal);
+        font-weight: 700;
+        padding: 1px 9px;
+        margin: 2px 4px 2px 0;
+        font-size: 0.9rem;
       }
       .card .preview {
         font-size: 1rem;
@@ -589,7 +645,7 @@
             >Resultados por motor
             <input type="number" id="n" value="5" min="1" max="20" />
           </label>
-          <label
+          <label id="min-label"
             >Similaridade mínima
             <input
               type="range"
@@ -600,6 +656,15 @@
               value="0.35"
             />
             <span id="minval">0.35</span>
+            <span id="min-hint" class="syn-note" hidden>reranker usa limiar próprio</span>
+          </label>
+          <label class="rerank-toggle" title="Reordena a busca semântica com o cross-encoder bge-reranker-v2-m3 (2º estágio, mais preciso e mais lento).">
+            <input type="checkbox" id="rerank" />
+            Reranker (bge-reranker-v2-m3)
+          </label>
+          <label class="rerank-toggle" title="Restringe a busca semântica aos chunks da bula simplificada (linguagem acessível).">
+            <input type="checkbox" id="somente-simp" />
+            Só na bula simplificada
           </label>
         </div>
         <div class="examples">
@@ -681,6 +746,8 @@
       const nInput = document.getElementById("n");
       const minInput = document.getElementById("min");
       const minVal = document.getElementById("minval");
+      const rerankInput = document.getElementById("rerank");
+      const somenteSimpInput = document.getElementById("somente-simp");
       const statusEl = document.getElementById("status");
       const resultsEl = document.getElementById("results");
       const goBtn = document.getElementById("go");
@@ -698,6 +765,20 @@
       minInput.addEventListener("input", () => {
         minVal.textContent = Number(minInput.value).toFixed(2);
       });
+
+      // No modo rerank o limiar é o do reranker (escala diferente), então o
+      // slider de similaridade (cosseno) não se aplica — desabilitamos e
+      // avisamos, para não dar a impressão de que ele controla os resultados.
+      const minLabel = document.getElementById("min-label");
+      const minHint = document.getElementById("min-hint");
+      function syncRerankUI() {
+        const on = rerankInput.checked;
+        minInput.disabled = on;
+        minLabel.style.opacity = on ? 0.45 : 1;
+        minHint.hidden = !on;
+      }
+      rerankInput.addEventListener("change", syncRerankUI);
+      syncRerankUI();
       document.querySelectorAll(".examples button").forEach((b) => {
         b.addEventListener("click", () => {
           qInput.value = b.dataset.q;
@@ -739,14 +820,20 @@
         }
         const n = Math.max(1, Math.min(20, parseInt(nInput.value) || 5));
         const min = Number(minInput.value);
+        const rerank = rerankInput.checked;
+        const somenteSimp = somenteSimpInput.checked;
 
         goBtn.disabled = true;
         statusEl.className = "status";
         statusEl.innerHTML =
-          '<span class="spinner"></span>Buscando "' + esc(q) + '"…';
+          '<span class="spinner"></span>Buscando "' +
+          esc(q) +
+          '"…' +
+          (rerank ? " (com reranker)" : "") +
+          (somenteSimp ? " (só simplificada)" : "");
         resultsEl.innerHTML = "";
 
-        const url = `${API_BASE}/buscar?q=${encodeURIComponent(q)}&n=${n}&min_score=${min}`;
+        const url = `${API_BASE}/buscar?q=${encodeURIComponent(q)}&n=${n}&min_score=${min}&rerank=${rerank}&somente_simplificada=${somenteSimp}`;
         try {
           const res = await fetch(url);
           if (!res.ok) {
@@ -778,10 +865,19 @@
         };
         const chromaIds = chroma.ids || [];
         const total = meili.length + chromaIds.length;
+        const sinonimos = data.sinonimos || [];
         statusEl.className = "status";
-        statusEl.textContent = total
-          ? `${total} resultado(s) para "${q}".`
-          : `Nada encontrado para "${q}". Tente outro termo ou abaixe a similaridade mínima.`;
+        const base = total
+          ? `${total} resultado(s) para "${esc(q)}".`
+          : `Nada encontrado para "${esc(q)}". Tente outro termo ou abaixe a similaridade mínima.`;
+        // Nota de sinônimos: explica que a busca também procurou os termos
+        // equivalentes (vale para as duas lanes).
+        const synNote = sinonimos.length
+          ? ` <span class="syn-note">+ sinônimos: ${sinonimos
+              .map((s) => `<span class="syn-chip">${esc(s)}</span>`)
+              .join(" ")}</span>`
+          : "";
+        statusEl.innerHTML = base + synNote;
 
         cardData = [];
 
@@ -798,6 +894,8 @@
                 isSimp: false,
                 original: hit.conteudo_original,
                 simplificada: hit.conteudo_simplificado,
+                termosMatch: hit.termos_match || [],
+                trechoMatch: null,
               }) - 1;
             lex += cardHtml(key, i * 50);
           });
@@ -818,15 +916,23 @@
               (chroma.originais || [])[i] ?? (isSimp ? null : doc);
             const simplificada =
               (chroma.simplificadas || [])[i] ?? (isSimp ? doc : null);
+            // Com reranker ligado, o score exibido é o do cross-encoder (a nova
+            // ordem); guardamos o cosseno para mostrar ao lado e dar comparação.
+            const cosScore = (chroma.scores || [])[i] ?? null;
+            const rerankScore = (chroma.rerank_scores || [])[i] ?? null;
             const key =
               cardData.push({
                 name: meta.nome,
                 id: meta.id || id,
-                score: (chroma.scores || [])[i] ?? null,
+                score: rerankScore ?? cosScore,
+                scoreKind: rerankScore != null ? "rerank" : "cosseno",
+                cosScore,
                 register: meta.registro,
                 isSimp,
                 original,
                 simplificada,
+                termosMatch: [],
+                trechoMatch: (chroma.trechos_match || [])[i] || null,
               }) - 1;
             sem += cardHtml(key, i * 50);
           });
@@ -851,15 +957,37 @@
 
       function cardHtml(key, delay) {
         const d = cardData[key];
+        // Com reranker, marcamos o score como "rerank" e mostramos o cosseno
+        // num tooltip, para comparar o que o 2º estágio promoveu/rebaixou.
+        const isRerank = d.scoreKind === "rerank";
+        const scoreTitle = isRerank
+          ? `score do reranker — cosseno: ${d.cosScore != null ? d.cosScore.toFixed(3) : "—"}`
+          : "similaridade de cosseno";
         const rightCol =
           d.score != null
-            ? `<span class="score">${d.score.toFixed(3)}</span>`
+            ? `<span class="score${isRerank ? " rerank" : ""}" title="${scoreTitle}">${
+                isRerank ? "⭑ " : ""
+              }${d.score.toFixed(3)}</span>`
             : `<span class="id-tag">id ${esc(d.id)}</span>`;
         const badge = d.register
           ? `<span class="badge ${d.isSimp ? "simp" : ""}">${esc(d.register)}</span>`
           : "";
         // Texto de prévia: prefere a versão simplificada quando existir.
         const previewSrc = d.simplificada || d.original || "";
+        // "O que casou": termos literais (léxico) ou frase acessível (semântico).
+        let matchHtml = "";
+        if (d.termosMatch && d.termosMatch.length) {
+          const chips = d.termosMatch
+            .map((t) => `<span class="term-chip">${esc(t.termo)}</span>`)
+            .join(" ");
+          matchHtml = `<div class="match"><span class="match-label">Termo que casou</span>${chips}</div>`;
+        } else if (d.trechoMatch && d.trechoMatch.texto) {
+          const sc =
+            d.trechoMatch.score != null
+              ? ` <span class="match-score">${Number(d.trechoMatch.score).toFixed(3)}</span>`
+              : "";
+          matchHtml = `<div class="match"><span class="match-label">Trecho acessível que casou${sc}</span><span class="match-text">${esc(d.trechoMatch.texto)}</span></div>`;
+        }
         return `
       <article class="card" tabindex="0" role="button" data-key="${key}"
                aria-label="Abrir comparação de ${esc(d.name || "medicamento")}" style="animation-delay:${delay}ms">
@@ -867,6 +995,7 @@
           <span class="name">${esc(d.name || "—")}${badge}</span>
           ${rightCol}
         </div>
+        ${matchHtml}
         <div class="preview">${preview(previewSrc).slice(0, 260)}…</div>
         <span class="open-hint">▤ comparar original × simplificada</span>
       </article>`;

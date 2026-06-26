@@ -1,9 +1,12 @@
 import os
+import re
 import pandas as pd
 import meilisearch
 import chromadb
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
+
+from sinonimos import sinonimos_meili
 
 # --- 1. Configurações Iniciais ---
 # Usando o modelo multilingue recomendado para português
@@ -31,6 +34,11 @@ STOP_WORDS_PT = [
     "com", "sem", "um", "uma", "uns", "umas", "ao", "aos",
 ]
 meili_index.update_stop_words(STOP_WORDS_PT)
+
+# Sinônimos: termos técnicos <-> leigos do domínio (ex.: cefaleia / dor de
+# cabeça). Assim a busca léxica por "cefaleia" casa com bulas que só escrevem
+# "dor de cabeça". Fonte única em sinonimos.py (reusada na expansão de query).
+meili_index.update_synonyms(sinonimos_meili())
 print("Conexões meili estabelecidas com sucesso!")
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
 chroma_coll = chroma_client.get_or_create_collection(
@@ -46,29 +54,104 @@ TIPOS = [
     {
         "tipo": "hipertensao",
         "map_csv": "./remedios_ht_map.csv",
-        "path_original": "./csv/ht/original",
-        "path_simplificada": "./csv/ht/simplificada",
+        "path_original": "./csv_metadata/ht/original",
+        "path_simplificada": "./csv_metadata/ht/simplificada",
         "suffix_orig": "_original_limpo.txt",
         "suffix_simp": "_validada_limpo.txt",
     },
     {
         "tipo": "oncologia",
         "map_csv": "./remedios_onco_map.csv",
-        "path_original": "./csv/onco/original",
-        "path_simplificada": "./csv/onco/simplificada",
+        "path_original": "./csv_metadata/onco/original",
+        "path_simplificada": "./csv_metadata/onco/simplificada",
         "suffix_orig": "_original_limpo.txt",
         "suffix_simp": "_simplificada_limpo.txt",
     },
 ]
 
 
+# Campos de metadados (do bloco <metadata> das bulas XML) que guardamos junto
+# de cada entrada no Chroma e no Meilisearch. Mantemos um conjunto curado e
+# útil para busca/exibição (princípio ativo, doença, fabricante, etc.).
+CAMPOS_METADADOS = [
+    "doenca", "nome_medicamento", "nome_comercial",
+    "medgenerico", "medreferencia", "fabricante", "apresentacao",
+]
+
+
+def _parse_bula(raw):
+    """Separa uma bula no novo formato em (metadados: dict, texto: str).
+
+    O arquivo tem um bloco <metadata>…</metadata> e um bloco <text>…</text>.
+    Não dá para usar um parser XML padrão porque alguns nomes de tag têm espaço
+    (ex.: <nome medicamento>) — o que é XML inválido —, então extraímos por
+    regex tolerante. Só o conteúdo de <text> é indexado/embeddado; os metadados
+    viram campos à parte. Se as tags não existirem, cai para o texto inteiro.
+    """
+    m = re.search(r"<text>(.*?)</text>", raw, re.DOTALL)
+    texto = (m.group(1) if m else raw).strip()
+
+    meta = {}
+    bloco = re.search(r"<metadata>(.*?)</metadata>", raw, re.DOTALL)
+    if bloco:
+        for tag, valor in re.findall(r"<([^/>][^>]*?)>(.*?)</\1>", bloco.group(1), re.DOTALL):
+            chave = re.sub(r"\s+", "_", tag.strip().lower())
+            meta[chave] = valor.strip()
+
+    # Só os campos curados, sempre como string não vazia (o Chroma rejeita None).
+    meta_curado = {c: (meta.get(c) or "NA") for c in CAMPOS_METADADOS}
+    return meta_curado, texto
+
+
+# Tamanho-alvo de cada chunk em caracteres. Cada bula é fatiada em vários
+# trechos curtos para indexação: assim uma menção pontual (ex.: "dor de cabeça"
+# numa lista de reações) vira um vetor próprio e focado, em vez de ser diluída
+# na média do documento inteiro — o que fazia a busca semântica não a encontrar.
+CHUNK_ALVO_CHARS = 600
+
+
+def _chunk(texto, alvo_chars=CHUNK_ALVO_CHARS):
+    """Quebra `texto` em trechos de ~alvo_chars, preservando quebras de linha.
+
+    Cada linha não vazia é uma unidade (mantém listas de sintomas/seções
+    intactas); linhas muito longas são subdivididas por sentença para não
+    recriar o problema do "vetor borrado". Unidades consecutivas são agrupadas
+    até o tamanho-alvo. A reconstrução (em search.py) junta os chunks de volta.
+    """
+    unidades = []
+    for linha in texto.split("\n"):
+        linha = linha.strip()
+        if not linha:
+            continue
+        if len(linha) > alvo_chars:
+            unidades.extend(s.strip() for s in re.split(r"(?<=[.!?;])\s+", linha) if s.strip())
+        else:
+            unidades.append(linha)
+
+    chunks, atual = [], ""
+    for u in unidades:
+        if atual and len(atual) + len(u) + 1 > alvo_chars:
+            chunks.append(atual)
+            atual = u
+        else:
+            atual = f"{atual}\n{u}".strip()
+    if atual:
+        chunks.append(atual)
+    return chunks or [texto.strip()]
+
+
+# Reconhece os ids de chunk gerados abaixo: "{base}_orig_{n}" / "{base}_simp_{n}".
+_RE_CHUNK_ID = re.compile(r"_(orig|simp)_\d+$")
+
+
 def _ids_existentes():
-    """IDs base (sem sufixo _orig/_simp) já presentes na coleção do Chroma."""
-    existentes = set(chroma_coll.get(include=[]).get("ids", []))
+    """IDs base (sem sufixo _orig/_simp_N) já presentes na coleção do Chroma."""
+    existentes = chroma_coll.get(include=[]).get("ids", [])
     bases = set()
     for cid in existentes:
-        if cid.endswith("_orig") or cid.endswith("_simp"):
-            bases.add(cid.rsplit("_", 1)[0])
+        m = _RE_CHUNK_ID.search(cid)
+        if m:
+            bases.add(cid[:m.start()])
     return bases
 
 
@@ -100,20 +183,34 @@ def realizar_indexacao():
 
             with open(path_o, "r", encoding="utf-8") as f_o, \
                  open(path_s, "r", encoding="utf-8") as f_s:
-                texto_orig = f_o.read().strip()
-                texto_simp = f_s.read().strip()
+                # As bulas vêm em XML (bloco <metadata> + <text>); separamos os
+                # metadados e indexamos só o corpo de <text>.
+                meta_bula, texto_orig = _parse_bula(f_o.read())
+                _, texto_simp = _parse_bula(f_s.read())
 
-            emb_orig, emb_simp = model.encode([texto_orig, texto_simp]).tolist()
+            # Em vez de 1 vetor por bula, geramos vários: cada registro é
+            # fatiado em chunks e cada chunk vira uma entrada própria no Chroma.
+            chunks_o = _chunk(texto_orig)
+            chunks_s = _chunk(texto_simp)
+            docs_chunks = chunks_o + chunks_s
+            embs_chunks = model.encode(docs_chunks).tolist()
 
-            #TODO : adicionar metadados de laboratorio/fabricante etc.
+            def _meta_chunk(registro, idx):
+                # Campos base + metadados curados da bula (fabricante, doença...).
+                return {"id": base_id, "nome": nome_remedio, "tipo": tipo,
+                        "registro": registro, "chunk_idx": idx, **meta_bula}
+
             chroma_coll.add(
-                embeddings=[emb_orig, emb_simp],
-                documents=[texto_orig, texto_simp],
-                metadatas=[
-                    {"id": base_id, "nome": nome_remedio, "tipo": tipo, "registro": "original"},
-                    {"id": base_id, "nome": nome_remedio, "tipo": tipo, "registro": "simplificada"},
-                ],
-                ids=[f"{base_id}_orig", f"{base_id}_simp"],
+                embeddings=embs_chunks,
+                documents=docs_chunks,
+                metadatas=(
+                    [_meta_chunk("original", i) for i in range(len(chunks_o))]
+                    + [_meta_chunk("simplificada", i) for i in range(len(chunks_s))]
+                ),
+                ids=(
+                    [f"{base_id}_orig_{i}" for i in range(len(chunks_o))]
+                    + [f"{base_id}_simp_{i}" for i in range(len(chunks_s))]
+                ),
             )
 
             meili_index.add_documents([{
@@ -122,10 +219,12 @@ def realizar_indexacao():
                 "tipo": tipo,
                 "conteudo_original": texto_orig,
                 "conteudo_simplificado": texto_simp,
+                **meta_bula,
             }])
 
             total_novos += 1
-            print(f" [OK] {base_id}: {nome_remedio} indexado.")
+            print(f" [OK] {base_id}: {nome_remedio} indexado "
+                  f"({len(chunks_o)} chunks orig + {len(chunks_s)} simp).")
 
     print(f"Indexação concluída. Novos: {total_novos}.")
 
