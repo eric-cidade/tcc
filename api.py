@@ -16,9 +16,11 @@ import search
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Carrega o modelo BAAI/bge-m3 e conecta nos motores uma única vez,
-    # antes de começar a atender requisições.
-    search.init()
+    # A API usa bge-m3 + chunking estrutural (coleção 'corpop_saude_bge_estr').
+    # Escolha estável: o gte-multilingual-base tem um bug de carregamento no
+    # sentence-transformers que corrompe os embeddings. Carrega o modelo e
+    # conecta nos motores uma única vez, antes de atender requisições.
+    search.init(embed_model="BAAI/bge-m3", chroma_collection="corpop_saude_bge_estr")
     yield
 
 
@@ -73,13 +75,15 @@ def buscar(
                                             "cross-encoder bge-reranker-v2-m3 (2º estágio)"),
     somente_simplificada: bool = Query(False, description="Restringe a busca semântica aos "
                                        "chunks da bula simplificada (linguagem acessível)"),
+    somente_original: bool = Query(False, description="Restringe a busca semântica aos "
+                                   "chunks da bula original (texto técnico)"),
     min_score_rerank: float | None = Query(None, ge=0.0, le=1.0,
                                            description="Limiar no modo rerank (escala do "
                                            "reranker). Default baixo se omitido"),
 ):
     try:
         resultados = search.pesquisar(q, n, min_score, rerank, somente_simplificada,
-                                      min_score_rerank)
+                                      min_score_rerank, somente_original)
     except Exception as exc:  # Meilisearch fora do ar, índice ausente, etc.
         raise HTTPException(status_code=503, detail=f"Erro ao consultar os motores de busca: {exc}")
     return _jsonificar(resultados)

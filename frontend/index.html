@@ -666,6 +666,10 @@
             <input type="checkbox" id="somente-simp" />
             Só na bula simplificada
           </label>
+          <label class="rerank-toggle" title="Restringe a busca semântica aos chunks da bula original (texto técnico).">
+            <input type="checkbox" id="somente-orig" />
+            Só na bula original
+          </label>
         </div>
         <div class="examples">
           Experimente:
@@ -748,6 +752,7 @@
       const minVal = document.getElementById("minval");
       const rerankInput = document.getElementById("rerank");
       const somenteSimpInput = document.getElementById("somente-simp");
+      const somenteOrigInput = document.getElementById("somente-orig");
       const statusEl = document.getElementById("status");
       const resultsEl = document.getElementById("results");
       const goBtn = document.getElementById("go");
@@ -779,6 +784,16 @@
       }
       rerankInput.addEventListener("change", syncRerankUI);
       syncRerankUI();
+
+      // "Só simplificada" e "só original" são mutuamente exclusivos: marcar um
+      // desmarca o outro (pedir os dois registros ao mesmo tempo daria zero
+      // resultados). Deixar ambos desmarcados busca nos dois registros.
+      somenteSimpInput.addEventListener("change", () => {
+        if (somenteSimpInput.checked) somenteOrigInput.checked = false;
+      });
+      somenteOrigInput.addEventListener("change", () => {
+        if (somenteOrigInput.checked) somenteSimpInput.checked = false;
+      });
       document.querySelectorAll(".examples button").forEach((b) => {
         b.addEventListener("click", () => {
           qInput.value = b.dataset.q;
@@ -822,6 +837,7 @@
         const min = Number(minInput.value);
         const rerank = rerankInput.checked;
         const somenteSimp = somenteSimpInput.checked;
+        const somenteOrig = somenteOrigInput.checked;
 
         goBtn.disabled = true;
         statusEl.className = "status";
@@ -830,10 +846,11 @@
           esc(q) +
           '"…' +
           (rerank ? " (com reranker)" : "") +
-          (somenteSimp ? " (só simplificada)" : "");
+          (somenteSimp ? " (só simplificada)" : "") +
+          (somenteOrig ? " (só original)" : "");
         resultsEl.innerHTML = "";
 
-        const url = `${API_BASE}/buscar?q=${encodeURIComponent(q)}&n=${n}&min_score=${min}&rerank=${rerank}&somente_simplificada=${somenteSimp}`;
+        const url = `${API_BASE}/buscar?q=${encodeURIComponent(q)}&n=${n}&min_score=${min}&rerank=${rerank}&somente_simplificada=${somenteSimp}&somente_original=${somenteOrig}`;
         try {
           const res = await fetch(url);
           if (!res.ok) {

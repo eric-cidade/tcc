@@ -6,9 +6,10 @@ import time
 import meilisearch
 import chromadb
 from dotenv import load_dotenv
-from sentence_transformers import SentenceTransformer, util, CrossEncoder
+from sentence_transformers import util, CrossEncoder
 
 from sinonimos import expandir_query, sinonimos_da_query
+from modelos import carregar_modelo
 
 # Globais preenchidas por init(). Permanecem None até a inicialização ser
 # chamada (pelo bloco __main__ da CLI ou pelo startup da API em api.py).
@@ -41,11 +42,16 @@ def _get_reranker():
     return reranker
 
 
-def init():
+def init(embed_model=None, chroma_collection=None):
     """Carrega o modelo de embedding e conecta nos motores de busca.
 
     Idempotente: chamadas repetidas não recarregam o modelo. Deve ser
     chamada uma única vez antes de pesquisar().
+
+    `embed_model` e `chroma_collection` (se passados) têm prioridade sobre as
+    variáveis de ambiente EMBED_MODEL/CHROMA_COLLECTION — a api.py usa isso para
+    fixar bge-m3 + coleção estrutural. O modelo e a coleção precisam CASAR com o
+    que foi usado na indexação.
     """
     global model, meili_client, meili_index, chroma_client, chroma_coll
     if model is not None:
@@ -59,22 +65,23 @@ def init():
         sys.exit(1)
 
     print("Conectando aos motores de busca...", file=sys.stderr)
-    model = SentenceTransformer('BAAI/bge-m3')
-    model.max_seq_length = 8192
+    embed_model = embed_model or os.getenv('EMBED_MODEL', 'Alibaba-NLP/gte-multilingual-base')
+    chroma_collection = chroma_collection or os.getenv('CHROMA_COLLECTION', 'corpop_saude_gte')
+    model = carregar_modelo(embed_model)
 
     meili_client = meilisearch.Client(meili_url, meili_key)
     meili_index = meili_client.index('corpop_saude')
 
     chroma_client = chromadb.PersistentClient(path="./chroma_db")
     chroma_coll = chroma_client.get_or_create_collection(
-        name="corpop_saude",
+        name=chroma_collection,
         metadata={"hnsw:space": "cosine"},
     )
 
 
 # --- Função de Pesquisa Híbrida ---
 def pesquisar(query, limite=1, min_score=0.45, rerank=False, somente_simplificada=False,
-              min_score_rerank=None):
+              min_score_rerank=None, somente_original=False):
     if model is None:
         init()
 
@@ -107,9 +114,15 @@ def pesquisar(query, limite=1, min_score=0.45, rerank=False, somente_simplificad
     # `limite` para que os melhores chunks cubram pelo menos `limite`
     # medicamentos distintos depois de agregar.
     n_consulta = min(max(limite * 20, 60), chroma_coll.count())
-    # Opcionalmente restringe a busca aos chunks do registro simplificado
-    # (linguagem acessível), ignorando os chunks da bula original.
-    where = {"registro": "simplificada"} if somente_simplificada else None
+    # Opcionalmente restringe a busca a um único registro: só a simplificada
+    # (linguagem acessível) ou só a original (texto técnico). Se ambos forem
+    # pedidos, a simplificada tem precedência (evita filtro contraditório).
+    if somente_simplificada:
+        where = {"registro": "simplificada"}
+    elif somente_original:
+        where = {"registro": "original"}
+    else:
+        where = None
     res_chroma = chroma_coll.query(
         query_embeddings=[query_vec],
         n_results=n_consulta,
@@ -258,9 +271,19 @@ def _anexar_match_lexico(hit):
 
 
 def _sentencas(texto):
-    """Quebra `texto` em sentenças (descartando fragmentos curtos)."""
-    return [s.strip() for s in re.split(r"(?<=[.!?;])\s+|\n+", texto)
-            if len(s.strip()) > 15]
+    """Quebra `texto` em sentenças (descartando fragmentos curtos).
+
+    Fallback: se NADA passar do filtro de tamanho — caso comum com o chunking
+    estrutural, em que o chunk que casa é um item curto (ex.: 'Dor de cabeça;')
+    —, devolve o próprio texto como uma sentença. Sem isso, o "trecho que casou"
+    sairia vazio justamente para os chunks item-a-item.
+    """
+    partes = [s.strip() for s in re.split(r"(?<=[.!?;])\s+|\n+", texto)
+              if len(s.strip()) > 15]
+    if partes:
+        return partes
+    limpo = texto.strip()
+    return [limpo] if limpo else []
 
 
 def _frase_mais_proxima(query_vec, texto):
@@ -338,6 +361,8 @@ if __name__ == "__main__":
                              f'{RERANKER_MODEL} (2º estágio, mais preciso e mais lento).')
     parser.add_argument('--somente-simplificada', action='store_true',
                         help='Busca semântica só nos chunks da bula simplificada.')
+    parser.add_argument('--somente-original', action='store_true',
+                        help='Busca semântica só nos chunks da bula original (texto técnico).')
     parser.add_argument('--min-score-rerank', type=float, default=None,
                         help='Limiar no modo --rerank (escala do reranker). '
                              f'Default: {RERANK_MIN_SCORE}.')
@@ -345,7 +370,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     init()
     resultados = pesquisar(args.query, args.n, args.min_score, args.rerank,
-                           args.somente_simplificada, args.min_score_rerank)
+                           args.somente_simplificada, args.min_score_rerank,
+                           args.somente_original)
 
     print("\n" + "═"*50)
     print(f"RESULTADOS PARA: '{args.query}'")
