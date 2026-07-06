@@ -16,6 +16,10 @@
     <revisao>sem_revisao</revisao>
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
+    <data-aprov-Anvisa>NA</data-aprov-Anvisa>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
+    <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>

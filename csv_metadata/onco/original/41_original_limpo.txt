@@ -16,6 +16,7 @@
     <revisao>sem_revisao</revisao>
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
+    <data-aprov-Anvisa>NA</data-aprov-Anvisa>
 </metadata>
 
 <text>
