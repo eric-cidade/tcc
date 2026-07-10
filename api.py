@@ -12,6 +12,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
 import search
+import simplicidade
 
 
 @asynccontextmanager
@@ -62,6 +63,22 @@ def _jsonificar(resultados: dict) -> dict:
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+
+@app.get("/simplicidade")
+def comparar_simplicidade(
+    a: str = Query(..., min_length=1, description="Primeiro termo (pode ser multipalavra)"),
+    b: str = Query(..., min_length=1, description="Segundo termo"),
+):
+    """Compara dois termos e aponta o mais simples, com base no corpus paralelo.
+
+    Não usa os motores de busca: a evidência é a frequência relativa de cada
+    termo nas bulas simplificadas × originais (ver simplicidade.py).
+    """
+    try:
+        return simplicidade.comparar(a, b)
+    except ValueError as exc:  # termo sem nenhuma letra (ex.: só pontuação)
+        raise HTTPException(status_code=422, detail=str(exc))
 
 
 @app.get("/buscar")

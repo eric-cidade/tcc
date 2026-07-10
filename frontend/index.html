@@ -578,6 +578,247 @@
         background: var(--line);
       }
 
+      /* ---- Comparador de simplicidade lexical ---- */
+      .simp-sec {
+        border-top: 2px solid var(--ink);
+        padding: 54px 0 90px;
+      }
+      .simp-sec .sec-kicker {
+        font-size: 0.72rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--coral);
+        margin-bottom: 10px;
+      }
+      .simp-sec h2 {
+        font-family: "Fraunces", serif;
+        font-weight: 900;
+        font-size: clamp(1.9rem, 4.5vw, 3.2rem);
+        line-height: 1.02;
+        letter-spacing: -0.015em;
+        max-width: 22ch;
+      }
+      .simp-sec h2 em {
+        font-style: italic;
+        font-weight: 500;
+        color: var(--teal);
+      }
+      .simp-sec p.lead-sm {
+        margin-top: 14px;
+        max-width: 62ch;
+        color: var(--ink-soft);
+      }
+      .compare-bar {
+        display: flex;
+        align-items: stretch;
+        flex-wrap: wrap;
+        border: 2px solid var(--ink);
+        background: #fffdf8;
+        box-shadow: var(--shadow);
+        margin-top: 26px;
+      }
+      .compare-bar input[type="text"] {
+        flex: 1 1 200px;
+        min-width: 0;
+        border: none;
+        outline: none;
+        background: transparent;
+        font-family: "Fraunces", serif;
+        font-size: 1.3rem;
+        padding: 16px 18px;
+        color: var(--ink);
+      }
+      .compare-bar input::placeholder {
+        color: var(--line);
+        font-style: italic;
+      }
+      .compare-bar .vs {
+        align-self: center;
+        font-family: "Fraunces", serif;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: var(--coral);
+        padding: 0 4px;
+        user-select: none;
+      }
+      .compare-bar button {
+        border: none;
+        cursor: pointer;
+        background: var(--ink);
+        color: var(--paper);
+        font-family: "Atkinson Hyperlegible", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        font-size: 0.85rem;
+        padding: 0 30px;
+        transition: background 0.18s ease;
+      }
+      .compare-bar button:hover {
+        background: var(--teal);
+      }
+      .compare-bar button:active {
+        background: var(--coral);
+      }
+      .examples a {
+        color: var(--teal);
+        text-decoration: underline wavy var(--teal-bright);
+        text-underline-offset: 3px;
+      }
+      .examples a:hover {
+        color: var(--coral);
+      }
+
+      .simp-result .verdict {
+        border: 2px solid var(--ink);
+        border-bottom: none;
+        background: var(--paper-deep);
+        padding: 20px 26px;
+        margin-top: 30px;
+      }
+      .simp-result .verdict .win {
+        font-family: "Fraunces", serif;
+        font-weight: 900;
+        font-size: clamp(1.4rem, 3vw, 2rem);
+        line-height: 1.1;
+      }
+      .simp-result .verdict .win em {
+        font-style: italic;
+        color: var(--teal);
+      }
+      .simp-result .verdict .crit {
+        margin-top: 8px;
+        font-size: 0.9rem;
+        color: var(--ink-soft);
+      }
+      .term-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 2px solid var(--ink);
+      }
+      .term-card {
+        padding: 24px 26px 28px;
+        animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.3, 1) backwards;
+      }
+      .term-card + .term-card {
+        border-left: 2px solid var(--ink);
+        animation-delay: 60ms;
+      }
+      @media (max-width: 760px) {
+        .term-grid {
+          grid-template-columns: 1fr;
+        }
+        .term-card + .term-card {
+          border-left: none;
+          border-top: 2px solid var(--ink);
+        }
+      }
+      .term-card.winner {
+        background: rgba(20, 137, 117, 0.07);
+      }
+      .term-card .t-name {
+        font-family: "Fraunces", serif;
+        font-weight: 600;
+        font-size: 1.45rem;
+      }
+      .term-card .win-badge {
+        display: inline-block;
+        font-family: "Atkinson Hyperlegible", sans-serif;
+        font-weight: 700;
+        font-size: 0.66rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        padding: 2px 8px;
+        margin-left: 10px;
+        border: 1.5px solid var(--teal-bright);
+        color: var(--teal);
+        vertical-align: middle;
+      }
+      .term-card .no-corpus {
+        margin-top: 8px;
+        font-size: 0.85rem;
+        font-style: italic;
+        color: var(--coral);
+      }
+      .freq-rows {
+        margin-top: 18px;
+      }
+      .freq-row {
+        display: grid;
+        grid-template-columns: 104px 1fr auto;
+        gap: 10px;
+        align-items: center;
+        margin-top: 8px;
+        font-size: 0.84rem;
+        color: var(--ink-soft);
+      }
+      .freq-row .bar {
+        height: 12px;
+        background: #fffdf8;
+        border: 1px solid var(--line);
+        overflow: hidden;
+      }
+      .freq-row .bar i {
+        display: block;
+        height: 100%;
+        transition: width 0.4s cubic-bezier(0.2, 0.7, 0.3, 1);
+      }
+      .freq-row.orig .bar i {
+        background: var(--coral);
+      }
+      .freq-row.simp .bar i {
+        background: var(--teal-bright);
+      }
+      .freq-row .num {
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+      }
+      .term-card .t-score {
+        margin-top: 16px;
+        font-size: 0.92rem;
+        color: var(--ink-soft);
+      }
+      .term-card .t-score b {
+        font-family: "Fraunces", serif;
+        font-weight: 900;
+        font-size: 1.3rem;
+        margin-left: 6px;
+      }
+      .term-card .t-score b.pos {
+        color: var(--teal);
+      }
+      .term-card .t-score b.neg {
+        color: var(--coral);
+      }
+      .term-card .t-stats {
+        margin-top: 4px;
+        font-size: 0.85rem;
+        color: var(--ink-soft);
+      }
+      .term-card .t-example {
+        margin-top: 16px;
+        padding: 8px 12px;
+        background: rgba(20, 137, 117, 0.08);
+        border-left: 3px solid var(--teal-bright);
+        font-size: 0.92rem;
+      }
+      .term-card .t-example .lbl {
+        display: block;
+        font-size: 0.64rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--teal);
+        margin-bottom: 4px;
+      }
+      .term-card .t-example mark {
+        background: rgba(214, 84, 59, 0.16);
+        color: var(--ink);
+        font-weight: 700;
+        padding: 0 2px;
+        box-shadow: inset 0 -2px 0 var(--coral);
+      }
+
       footer {
         border-top: 2px solid var(--ink);
         padding: 26px 0 50px;
@@ -682,6 +923,7 @@
           <button data-q="remédio para câncer de pele">
             remédio para câncer de pele
           </button>
+          · <a href="#simplicidade">⇣ qual palavra é mais simples?</a>
         </div>
         <div class="api-note">
           Chamando <code id="endpoint">http://localhost:8000/buscar</code> —
@@ -697,6 +939,52 @@
         </div>
         <div id="results"></div>
       </main>
+
+      <section class="simp-sec" id="simplicidade">
+        <div class="sec-kicker">Nova ferramenta · comparador lexical</div>
+        <h2>Qual das duas palavras é <em>mais simples?</em></h2>
+        <p class="lead-sm">
+          Compare dois termos e veja qual deles a linguagem acessível prefere. A
+          evidência vem do próprio corpus paralelo: um termo relativamente mais
+          frequente nas bulas <strong>simplificadas</strong> do que nas
+          <strong>originais</strong> é o que os simplificadores escolheram — com
+          familiaridade e sílabas como critérios de desempate.
+        </p>
+        <form class="compare-bar" id="cmp-form">
+          <input
+            type="text"
+            id="cmp-a"
+            placeholder="ex.: cefaleia"
+            autocomplete="off"
+          />
+          <span class="vs">×</span>
+          <input
+            type="text"
+            id="cmp-b"
+            placeholder="ex.: dor de cabeça"
+            autocomplete="off"
+          />
+          <button type="submit" id="cmp-go">Comparar</button>
+        </form>
+        <div class="examples" id="cmp-examples">
+          Experimente:
+          <button data-a="cefaleia" data-b="dor de cabeça">
+            cefaleia × dor de cabeça
+          </button>
+          ·
+          <button data-a="prurido" data-b="coceira">prurido × coceira</button> ·
+          <button data-a="êmese" data-b="vômito">êmese × vômito</button> ·
+          <button data-a="hipertensão" data-b="pressão alta">
+            hipertensão × pressão alta
+          </button>
+        </div>
+        <div class="api-note">
+          Chamando <code>GET /simplicidade?a=…&amp;b=…</code> — este endpoint só
+          lê o corpus, não precisa do Meilisearch nem do modelo de embedding.
+        </div>
+        <div class="status" id="cmp-status" hidden></div>
+        <div class="simp-result" id="cmp-result"></div>
+      </section>
 
       <footer>
         <span
@@ -794,7 +1082,9 @@
       somenteOrigInput.addEventListener("change", () => {
         if (somenteOrigInput.checked) somenteSimpInput.checked = false;
       });
-      document.querySelectorAll(".examples button").forEach((b) => {
+      // [data-q] evita capturar os botões de exemplo do comparador de
+      // simplicidade (que usam data-a/data-b e têm handler próprio).
+      document.querySelectorAll(".examples button[data-q]").forEach((b) => {
         b.addEventListener("click", () => {
           qInput.value = b.dataset.q;
           doSearch();
@@ -1082,6 +1372,155 @@
         if (e.key === "Escape" && overlay.classList.contains("show"))
           closeModal();
       });
+
+      // ---- Comparador de simplicidade (GET /simplicidade) ----
+      const cmpForm = document.getElementById("cmp-form");
+      const cmpA = document.getElementById("cmp-a");
+      const cmpB = document.getElementById("cmp-b");
+      const cmpGo = document.getElementById("cmp-go");
+      const cmpStatus = document.getElementById("cmp-status");
+      const cmpResult = document.getElementById("cmp-result");
+
+      // Explicação humana de cada critério da cascata de decisão da API.
+      const CRITERIOS = {
+        corpus:
+          "Decidido pelo corpus: o vencedor é relativamente mais frequente nas bulas simplificadas do que nas originais.",
+        familiaridade:
+          "Scores de corpus próximos (ou só um termo com evidência) — decidiu a familiaridade: o termo mais frequente no corpus como um todo.",
+        heuristica:
+          "Sem evidência suficiente no corpus — decidiram as heurísticas de superfície (menos sílabas; depois, menos caracteres).",
+        empate: "Nada distingue os dois termos.",
+      };
+
+      document.querySelectorAll("#cmp-examples button").forEach((b) => {
+        b.addEventListener("click", () => {
+          cmpA.value = b.dataset.a;
+          cmpB.value = b.dataset.b;
+          doCompare();
+        });
+      });
+      cmpForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        doCompare();
+      });
+
+      async function doCompare() {
+        const a = cmpA.value.trim();
+        const b = cmpB.value.trim();
+        if (!a || !b) {
+          cmpStatus.hidden = false;
+          cmpStatus.className = "status";
+          cmpStatus.textContent = "Preencha os dois termos para comparar.";
+          return;
+        }
+        cmpGo.disabled = true;
+        cmpStatus.hidden = false;
+        cmpStatus.className = "status";
+        cmpStatus.innerHTML = `<span class="spinner"></span>Comparando "${esc(a)}" × "${esc(b)}"…`;
+        cmpResult.innerHTML = "";
+
+        const url = `${API_BASE}/simplicidade?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`;
+        try {
+          const res = await fetch(url);
+          if (!res.ok) {
+            const body = await res.json().catch(() => ({}));
+            throw new Error(body.detail || `HTTP ${res.status}`);
+          }
+          const data = await res.json();
+          cmpStatus.hidden = true;
+          renderCompare(data);
+        } catch (err) {
+          cmpStatus.className = "status error";
+          cmpStatus.textContent =
+            "Não foi possível comparar: " +
+            err.message +
+            " — verifique se a API está rodando em " +
+            API_BASE +
+            ".";
+        } finally {
+          cmpGo.disabled = false;
+        }
+      }
+
+      function renderCompare(data) {
+        const win = data.mais_simples;
+        // Marca o vencedor por posição (a antes de b) para o caso-limite de os
+        // dois termos normalizarem para o mesmo texto.
+        const aWin = !!win && data.a.termo === win;
+        const bWin = !!win && !aWin && data.b.termo === win;
+        const verdict = win
+          ? `<div class="win">«<em>${esc(win)}</em>» é o termo mais simples</div>`
+          : `<div class="win">Empate técnico</div>`;
+        const crit = `${esc(CRITERIOS[data.criterio] || "")} <span class="syn-chip">critério: ${esc(data.criterio)}</span> <span class="syn-chip">Δscore ${Number(data.delta_score).toFixed(2)}</span>`;
+        // Barras de frequência na mesma escala para os dois termos (o maior
+        // freq/milhão entre os quatro valores vira 100%).
+        const maxFpm = Math.max(
+          data.a.original.freq_por_milhao,
+          data.a.simplificada.freq_por_milhao,
+          data.b.original.freq_por_milhao,
+          data.b.simplificada.freq_por_milhao,
+          1,
+        );
+        cmpResult.innerHTML = `
+      <div class="verdict">${verdict}<div class="crit">${crit}</div></div>
+      <div class="term-grid">
+        ${termCardHtml(data.a, aWin, maxFpm)}
+        ${termCardHtml(data.b, bWin, maxFpm)}
+      </div>`;
+      }
+
+      // Destaca o termo comparado dentro da frase de exemplo. Usa \p{L} em vez
+      // de \b porque o \b do JS é ASCII e falha em palavras acentuadas
+      // ("êmese"). Divide o texto CRU pelo regex (grupo capturado = matches nos
+      // índices ímpares) e escapa cada parte separadamente — assim o destaque
+      // nunca corrompe entidades HTML geradas pelo esc().
+      function highlightTerm(txt, termo) {
+        const pat = termo
+          .split(/\s+/)
+          .map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+          .join("\\s+");
+        const re = new RegExp(`(?<!\\p{L})(${pat})(?!\\p{L})`, "giu");
+        return String(txt)
+          .split(re)
+          .map((part, i) => (i % 2 ? `<mark>${esc(part)}</mark>` : esc(part)))
+          .join("");
+      }
+
+      function termCardHtml(t, isWin, maxFpm) {
+        const score = Number(t.score_simplicidade);
+        const scoreCls = score > 0 ? "pos" : score < 0 ? "neg" : "";
+        // Largura mínima de 2% quando há alguma ocorrência, para a barra não
+        // sumir em termos raros perto de termos muito frequentes.
+        const bar = (fpm) => (fpm > 0 ? Math.max(2, (fpm / maxFpm) * 100) : 0);
+        const freqRow = (cls, rotulo, lado) => `
+        <div class="freq-row ${cls}">
+          <span>${rotulo}</span>
+          <span class="bar"><i style="width:${bar(lado.freq_por_milhao)}%"></i></span>
+          <span class="num">${lado.ocorrencias}× em ${lado.documentos} bulas</span>
+        </div>`;
+        const exemplo = t.exemplo_simplificada
+          ? { lbl: "Exemplo na bula simplificada", txt: t.exemplo_simplificada }
+          : t.exemplo_original
+            ? { lbl: "Exemplo na bula original", txt: t.exemplo_original }
+            : null;
+        return `
+      <div class="term-card${isWin ? " winner" : ""}">
+        <div class="t-name">«${esc(t.termo)}»${isWin ? '<span class="win-badge">✓ mais simples</span>' : ""}</div>
+        ${t.no_corpus ? "" : '<div class="no-corpus">Termo não encontrado no corpus — sem evidência de frequência.</div>'}
+        <div class="freq-rows">
+          ${freqRow("orig", "Originais", t.original)}
+          ${freqRow("simp", "Simplificadas", t.simplificada)}
+        </div>
+        <div class="t-score"
+             title="log₂ da razão entre a frequência relativa nas bulas simplificadas e nas originais — positivo = característico da linguagem simples; 0 = ausente do corpus">
+          Score de simplicidade<b class="${scoreCls}">${score > 0 ? "+" : ""}${score.toFixed(2)}</b>
+        </div>
+        <div class="t-stats">
+          familiaridade ${t.freq_total_por_milhao}/milhão · ${t.silabas} sílaba(s) · ${t.caracteres} caractere(s)
+        </div>
+        ${exemplo ? `<div class="t-example"><span class="lbl">${esc(exemplo.lbl)}</span>${highlightTerm(exemplo.txt, t.termo)}</div>` : ""}
+      </div>`;
+      }
     </script>
   </body>
 </html>

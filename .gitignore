@@ -23,7 +23,7 @@ chroma_db/
 ._*
 Thumbs.db
 desktop.ini
-
+/graficos
 # Data (Opcional: descomente se não quiser subir seus .txt)
 # /csv/ht/original/
 # /csv/ht/simplificada/
