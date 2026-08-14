@@ -58,7 +58,11 @@ else
 fi
 
 log "Indexando (o progresso sai por medicamento)"
-sudo -u "$APP_USER" env HOME="$APP_DIR" UV_CACHE_DIR="$APP_DIR/.cache/uv" \
-    uv run --project "$APP_DIR" --no-dev python "$APP_DIR/embedding.py" $RECONSTRUIR
+# O `cd` e obrigatorio: o chromadb procura um `.env` no diretorio ATUAL, e se o
+# script for chamado de um diretorio que o usuario de servico nao pode ler (a
+# home de quem deu o sudo, por exemplo) o import falha com PermissionError.
+sudo -u "$APP_USER" bash -c "cd '$APP_DIR' && \
+    HOME='$APP_DIR' UV_CACHE_DIR='$APP_DIR/.cache/uv' \
+    uv run --no-dev python embedding.py $RECONSTRUIR"
 
 log "Indexacao concluida"

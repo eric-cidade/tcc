@@ -107,9 +107,13 @@ scp indice.tar.gz usuario@143.54.25.141:/tmp/
 sudo -u corpop mkdir -p /opt/corpop-saude/chroma_db
 sudo -u corpop tar xzf /tmp/indice.tar.gz -C /opt/corpop-saude/chroma_db
 
-sudo -u corpop env HOME=/opt/corpop-saude uv run --project /opt/corpop-saude --no-dev \
-    python /opt/corpop-saude/embedding.py --apenas-meili
+sudo -u corpop bash -c 'cd /opt/corpop-saude && HOME=/opt/corpop-saude \
+    uv run --no-dev python embedding.py --apenas-meili'
 ```
+
+> O `cd` não é decoração: o ChromaDB procura um `.env` no **diretório atual**, e
+> se o comando for disparado de um diretório que o usuário `corpop` não pode ler
+> — a sua home, por exemplo — o import falha com `PermissionError: '.env'`.
 
 O `--apenas-meili` roda em **~1 segundo** e **não carrega modelo** — a busca
 léxica é só texto. O ChromaDB não é tocado.
@@ -227,6 +231,9 @@ livre.
 
 ## Sem HTTPS
 
-O alvo é um IP sem domínio, e o Let's Encrypt não emite certificado para
-endereço IP. Se aparecer um nome DNS, o caminho é `certbot --nginx -d <dominio>`;
-aí ajuste também o `server_name` em `nginx-corpop-saude.conf`.
+A subida é em HTTP. Habilitar HTTPS depende de decisões que ainda não foram
+tomadas (qual nome usar e se o CPD da UFRGS tem processo próprio de emissão de
+certificados), então fica fora do escopo desta configuração.
+
+Quando for o caso, o frontend não precisará de alteração: ele usa caminho
+relativo (`API_BASE` vazio) e acompanha o esquema da página automaticamente.
