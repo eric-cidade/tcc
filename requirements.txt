@@ -1,9 +1,14 @@
+# Dependências de PRODUÇÃO (API + indexação), para ambientes sem uv.
+# A fonte da verdade é o pyproject.toml + uv.lock; este arquivo espelha o
+# conjunto `dependencies` de lá. As ferramentas de desenvolvimento (matplotlib,
+# usada só pelos gráficos de avaliar.py) estão no grupo `dev` do pyproject.
+#
+# Num servidor Linux sem GPU, instale o torch pelo índice CPU ANTES destes
+# pacotes — senão o wheel padrão arrasta a stack CUDA inteira:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
 meilisearch
 chromadb
 sentence-transformers
-einops
-matplotlib
-pandas
 python-dotenv
 fastapi
 uvicorn[standard]

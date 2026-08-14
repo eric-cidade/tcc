@@ -1,15 +1,40 @@
 [project]
 name = "tcc"
 version = "0.1.0"
-description = "Add your description here"
+description = "Busca híbrida (léxica + semântica) sobre bulas originais e simplificadas"
 readme = "README.md"
 requires-python = ">=3.12"
+# Só o que a API e a indexação precisam em produção. Nada de pandas/matplotlib:
+# o corpus é lido com o `csv` da stdlib e os gráficos são do grupo `dev`.
 dependencies = [
     "chromadb>=1.5.5",
     "meilisearch>=0.40.0",
-    "pandas>=3.0.2",
     "python-dotenv>=1.2.2",
     "sentence-transformers>=5.3.0",
+    # Declarado explicitamente por dois motivos: modelos.py o importa direto, e
+    # [tool.uv.sources] abaixo SÓ vale para dependências diretas — como
+    # transitivo (via sentence-transformers) o índice CPU seria ignorado e o
+    # servidor baixaria a stack CUDA.
+    "torch>=2.0",
     "fastapi>=0.115.0",
     "uvicorn[standard]>=0.30.0",
 ]
+
+# Instalado só na máquina de desenvolvimento (`uv sync`); o servidor usa
+# `uv sync --no-dev`. matplotlib/numpy existem apenas para os gráficos de
+# avaliar.py, que não roda em produção.
+[dependency-groups]
+dev = [
+    "matplotlib>=3.9",
+]
+
+# torch vem do índice CPU no Linux: o wheel padrão do PyPI arrasta a stack CUDA
+# inteira (vários GB baixados e em disco), inútil num servidor sem GPU. No
+# Windows/macOS o wheel padrão já é CPU, então o marker limita a troca ao Linux.
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
