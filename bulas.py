@@ -12,7 +12,10 @@ Estratégias de chunking:
 `preparar_chunks` unifica as duas: devolve, por chunk, o texto a ARMAZENAR e o
 texto a EMBEDDAR (no estrutural o cabeçalho entra só no embedding, não no doc).
 """
+import csv
 import re
+
+from caminhos import BASE_DIR, CORPUS_DIR
 
 
 # Campos de metadados (do bloco <metadata> das bulas XML) que guardamos junto
@@ -24,24 +27,36 @@ CAMPOS_METADADOS = [
 
 # Cada tipo de bula vive numa pasta própria, mas compartilham a mesma coleção.
 # O `tipo` entra como prefixo do id (evita colisão ht_1 vs onco_1) e como metadado.
+# Caminhos absolutos (via BASE_DIR): a indexação também roda a partir do systemd,
+# onde o cwd não é a pasta do projeto.
 TIPOS = [
     {
         "tipo": "hipertensao",
-        "map_csv": "./remedios_ht_map.csv",
-        "path_original": "./csv_metadata/ht/original",
-        "path_simplificada": "./csv_metadata/ht/simplificada",
+        "map_csv": str(BASE_DIR / "remedios_ht_map.csv"),
+        "path_original": str(CORPUS_DIR / "ht" / "original"),
+        "path_simplificada": str(CORPUS_DIR / "ht" / "simplificada"),
         "suffix_orig": "_original_limpo.txt",
         "suffix_simp": "_validada_limpo.txt",
     },
     {
         "tipo": "oncologia",
-        "map_csv": "./remedios_onco_map.csv",
-        "path_original": "./csv_metadata/onco/original",
-        "path_simplificada": "./csv_metadata/onco/simplificada",
+        "map_csv": str(BASE_DIR / "remedios_onco_map.csv"),
+        "path_original": str(CORPUS_DIR / "onco" / "original"),
+        "path_simplificada": str(CORPUS_DIR / "onco" / "simplificada"),
         "suffix_orig": "_original_limpo.txt",
         "suffix_simp": "_simplificada_limpo.txt",
     },
 ]
+
+
+def ler_mapa(caminho):
+    """Lê um CSV `id,nome` de medicamentos e devolve {id: nome}.
+
+    O id fica como string de propósito: ele entra na composição dos ids do Chroma
+    (ex.: 'hipertensao_7') e vira nome de arquivo, então não pode virar número.
+    """
+    with open(caminho, newline="", encoding="utf-8") as f:
+        return {linha["id"]: linha["nome"] for linha in csv.DictReader(f)}
 
 
 def parse_bula(raw):
