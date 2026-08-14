@@ -151,6 +151,12 @@ def _hms(seg):
 
 
 def realizar_indexacao(embed, chroma_coll, incremental=True):
+    """Indexa o corpus. `chroma_coll=None` popula APENAS o Meilisearch.
+
+    O modo só-Meili existe para quando o índice vetorial vem pronto de fora (ver
+    deploy/exportar_indice.py): a parte léxica é só texto, não precisa de modelo
+    nem de embedding, então roda em ~160MB e em segundos.
+    """
     total = 0
     t0 = time.perf_counter()
     for cfg in TIPOS:
@@ -188,28 +194,29 @@ def realizar_indexacao(embed, chroma_coll, incremental=True):
             # cru em `documents` — o cabeçalho fica em metadata. Assim o vetor ganha
             # contexto e a reconstrução do documento completo (search.py) fica limpa.
             t_med = time.perf_counter()
-            embs = embed([c["embed"] for _, _, c in entradas])
+            if chroma_coll is not None:
+                embs = embed([c["embed"] for _, _, c in entradas])
 
-            # No modo incremental, remove os chunks ANTERIORES deste medicamento
-            # antes de gravar os novos. Sem isso, uma bula revisada com menos
-            # chunks deixaria os excedentes órfãos no índice — o `add` só
-            # sobrescreveria os ids que se repetem.
-            if incremental:
-                chroma_coll.delete(where={"id": base_id})
+                # No modo incremental, remove os chunks ANTERIORES deste
+                # medicamento antes de gravar os novos. Sem isso, uma bula
+                # revisada com menos chunks deixaria os excedentes órfãos no
+                # índice — o `add` só sobrescreveria os ids que se repetem.
+                if incremental:
+                    chroma_coll.delete(where={"id": base_id})
 
-            chroma_coll.add(
-                embeddings=embs,
-                documents=[c["texto"] for _, _, c in entradas],
-                metadatas=[
-                    {"id": base_id, "nome": nome_remedio, "tipo": tipo,
-                     "registro": reg, "chunk_idx": idx,
-                     "secao": c["secao"], "subsecao": c["subsecao"], "header": c["header"],
-                     **meta_bula}
-                    for reg, idx, c in entradas
-                ],
-                ids=[f"{base_id}_{'orig' if reg == 'original' else 'simp'}_{idx}"
-                     for reg, idx, _ in entradas],
-            )
+                chroma_coll.add(
+                    embeddings=embs,
+                    documents=[c["texto"] for _, _, c in entradas],
+                    metadatas=[
+                        {"id": base_id, "nome": nome_remedio, "tipo": tipo,
+                         "registro": reg, "chunk_idx": idx,
+                         "secao": c["secao"], "subsecao": c["subsecao"], "header": c["header"],
+                         **meta_bula}
+                        for reg, idx, c in entradas
+                    ],
+                    ids=[f"{base_id}_{'orig' if reg == 'original' else 'simp'}_{idx}"
+                         for reg, idx, _ in entradas],
+                )
 
             meili_index.add_documents([{
                 "id": base_id,
@@ -238,15 +245,27 @@ def main():
                     help="apaga a coleção e refaz do zero. Só é necessário ao trocar "
                          "de modelo ou de esquema de chunking — e QUEBRA a API se ela "
                          "estiver no ar (precisa reiniciá-la depois).")
+    ap.add_argument("--apenas-meili", action="store_true",
+                    help="popula só a busca léxica, sem tocar no ChromaDB. Use quando "
+                         "o índice vetorial vier pronto (deploy/exportar_indice.py): "
+                         "não carrega modelo e roda em segundos.")
     args = ap.parse_args()
 
-    embed, descricao = montar_embeddador()
-    chroma_coll = abrir_colecao(args.reconstruir)
-    modo = "RECONSTRUÇÃO (do zero)" if args.reconstruir else "incremental"
-    print(f"Modo: {modo} | coleção: {CHROMA_COLLECTION} ({chroma_coll.count()} chunks) "
-          f"| embeddings: {descricao}")
+    if args.apenas_meili:
+        if args.reconstruir:
+            raise SystemExit("❌ --apenas-meili e --reconstruir são incompatíveis.")
+        embed, descricao, chroma_coll = None, "nenhum (só Meilisearch)", None
+        print("Modo: APENAS MEILISEARCH | ChromaDB intocado")
+    else:
+        embed, descricao = montar_embeddador()
+        chroma_coll = abrir_colecao(args.reconstruir)
+        modo = "RECONSTRUÇÃO (do zero)" if args.reconstruir else "incremental"
+        print(f"Modo: {modo} | coleção: {CHROMA_COLLECTION} ({chroma_coll.count()} chunks) "
+              f"| embeddings: {descricao}")
+
     realizar_indexacao(embed, chroma_coll, incremental=not args.reconstruir)
-    print(f"Coleção '{CHROMA_COLLECTION}' agora com {chroma_coll.count()} chunks.")
+    if chroma_coll is not None:
+        print(f"Coleção '{CHROMA_COLLECTION}' agora com {chroma_coll.count()} chunks.")
 
 
 if __name__ == "__main__":

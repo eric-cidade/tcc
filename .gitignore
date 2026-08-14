@@ -13,6 +13,11 @@ meili_data/
 chroma_db/
 *.local
 
+# Índice exportado para o servidor (deploy/exportar_indice.py) e o pacote de
+# envio. São artefatos gerados, de ~91MB e ~59MB — nunca vão para o histórico.
+chroma_db_export/
+*.tar.gz
+
 # Secrets and local configs
 .env
 .flaskenv
