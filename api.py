@@ -3,38 +3,51 @@
 Expõe a busca híbrida (léxica via Meilisearch + semântica via ChromaDB)
 para ser consumida por um site. Reaproveita search.pesquisar().
 
-Rodar:  uv run uvicorn api:app --reload --port 8000
+Rodar (dev):  uv run uvicorn api:app --reload --port 8000
+Rodar (prod): uvicorn api:app --host 127.0.0.1 --port 8000 --workers 1
 Pré-requisitos: Meilisearch rodando, .env configurado e embedding.py já executado.
 """
+import os
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException, Query
+from dotenv import load_dotenv
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel, Field
 
 import search
 import simplicidade
+from modelos import encode_docs
+
+load_dotenv()
+
+# Origens liberadas no CORS, separadas por vírgula. Vazio (default) = nenhum
+# middleware de CORS: é o caso de produção, em que o nginx serve o front e a API
+# na MESMA origem e requisição cross-origin nenhuma acontece. Em dev, sirva o
+# front por outra porta e ponha essa origem aqui (ex.: http://localhost:5500).
+CORS_ORIGINS = [o.strip() for o in os.getenv("CORS_ORIGINS", "").split(",") if o.strip()]
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # A API usa bge-m3 + chunking estrutural (coleção 'corpop_saude_bge_estr').
-    # Escolha estável: o gte-multilingual-base tem um bug de carregamento no
-    # sentence-transformers que corrompe os embeddings. Carrega o modelo e
-    # conecta nos motores uma única vez, antes de atender requisições.
-    search.init(embed_model="BAAI/bge-m3", chroma_collection="corpop_saude_bge_estr")
+    # Carrega o modelo e conecta nos motores uma única vez, antes de atender
+    # requisições — o carregamento leva de segundos a minutos na CPU. Modelo e
+    # coleção saem do .env (EMBED_MODEL/CHROMA_COLLECTION), com os defaults
+    # definidos em search.py: o servidor roda um modelo mais leve que a máquina
+    # de desenvolvimento, então isso é configuração, não constante de código.
+    search.init()
     yield
 
 
 app = FastAPI(title="Busca Híbrida CorPop-Saúde", lifespan=lifespan)
 
-# Em desenvolvimento liberamos qualquer origem; em produção restrinja
-# allow_origins para o domínio do site.
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["GET"],
-    allow_headers=["*"],
-)
+if CORS_ORIGINS:
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=CORS_ORIGINS,
+        allow_methods=["GET"],
+        allow_headers=["*"],
+    )
 
 
 def _jsonificar(resultados: dict) -> dict:
@@ -54,8 +67,6 @@ def _jsonificar(resultados: dict) -> dict:
             "simplificadas": list(chroma.get("simplificadas", [])),
             # Frase da versão simplificada validada que mais casou com a query.
             "trechos_match": list(chroma.get("trechos_match", [])),
-            # Score do reranker (~[0,1]) quando rerank=True; vazio caso contrário.
-            "rerank_scores": [float(s) for s in chroma.get("rerank_scores", [])],
         },
     }
 
@@ -63,6 +74,56 @@ def _jsonificar(resultados: dict) -> dict:
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+
+class LoteTextos(BaseModel):
+    """Lote de textos a embeddar. O teto de 256 limita o tamanho da resposta
+    JSON (256 × 768 floats ≈ 4MB) e o pico de RAM do encode."""
+    textos: list[str] = Field(..., min_length=1, max_length=256)
+
+
+def _exigir_loopback(request: Request):
+    """Recusa a chamada se ela não veio da própria máquina.
+
+    /embed existe para a indexação reaproveitar o modelo já carregado aqui, em
+    vez de carregar uma segunda cópia (o que não caberia nos 4GB do servidor).
+    Não é rota pública: o nginx não a encaminha, e este guarda é a segunda
+    barreira. A presença de X-Forwarded-* indica que a chamada passou por um
+    proxy — nesse caso o IP de origem seria o do proxy, não o do cliente real.
+    """
+    origem = request.client.host if request.client else ""
+    via_proxy = any(h.lower().startswith("x-forwarded-") for h in request.headers)
+    if origem not in ("127.0.0.1", "::1") or via_proxy:
+        raise HTTPException(status_code=403, detail="Endpoint restrito a chamadas locais.")
+
+
+@app.post("/embed")
+def embed(lote: LoteTextos, request: Request):
+    """Embeda um lote de textos com o modelo já carregado (lado DOCUMENTO).
+
+    Devolve também o nome do modelo: quem indexa PRECISA conferir que é o mesmo
+    que a coleção-alvo espera — vetores de modelos diferentes no mesmo índice
+    produzem resultados silenciosamente errados.
+    """
+    _exigir_loopback(request)
+    if search.model is None:
+        raise HTTPException(status_code=503, detail="Modelo ainda não carregado.")
+    vetores = encode_docs(search.model, lote.textos).tolist()
+    return {"modelo": search.model_atual, "vetores": vetores}
+
+
+@app.get("/config")
+def config():
+    """Configuração efetiva da busca, para o frontend não hardcodar nada.
+
+    O limiar de corte depende do modelo (cada um espalha os cossenos numa faixa
+    própria), então o slider da página precisa perguntar em vez de assumir.
+    """
+    return {
+        "modelo": search.model_atual,
+        "colecao": search.colecao_atual,
+        "min_score_padrao": search.min_score_atual,
+    }
 
 
 @app.get("/simplicidade")
@@ -85,22 +146,18 @@ def comparar_simplicidade(
 def buscar(
     q: str = Query(..., min_length=1, description="Termo de busca"),
     n: int = Query(5, ge=1, le=50, description="Número de resultados por motor"),
-    min_score: float = Query(0.4, ge=0.0, le=1.0,
-                             description="Score mínimo (ChromaDB): cosseno sem rerank, "
-                                         "score do reranker com rerank"),
-    rerank: bool = Query(False, description="Reordena os resultados semânticos com o "
-                                            "cross-encoder bge-reranker-v2-m3 (2º estágio)"),
+    min_score: float | None = Query(None, ge=0.0, le=1.0,
+                                    description="Score mínimo (similaridade cosseno no "
+                                                "ChromaDB). Omitido: usa o limiar do "
+                                                "modelo em uso (ver /config)"),
     somente_simplificada: bool = Query(False, description="Restringe a busca semântica aos "
                                        "chunks da bula simplificada (linguagem acessível)"),
     somente_original: bool = Query(False, description="Restringe a busca semântica aos "
                                    "chunks da bula original (texto técnico)"),
-    min_score_rerank: float | None = Query(None, ge=0.0, le=1.0,
-                                           description="Limiar no modo rerank (escala do "
-                                           "reranker). Default baixo se omitido"),
 ):
     try:
-        resultados = search.pesquisar(q, n, min_score, rerank, somente_simplificada,
-                                      min_score_rerank, somente_original)
+        resultados = search.pesquisar(q, n, min_score, somente_simplificada,
+                                      somente_original)
     except Exception as exc:  # Meilisearch fora do ar, índice ausente, etc.
         raise HTTPException(status_code=503, detail=f"Erro ao consultar os motores de busca: {exc}")
     return _jsonificar(resultados)

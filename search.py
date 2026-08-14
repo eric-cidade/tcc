@@ -6,10 +6,12 @@ import time
 import meilisearch
 import chromadb
 from dotenv import load_dotenv
-from sentence_transformers import util, CrossEncoder
+from sentence_transformers import util
 
+from caminhos import CHROMA_PATH
 from sinonimos import expandir_query, sinonimos_da_query
-from modelos import carregar_modelo
+from modelos import (carregar_modelo, encode_query, encode_docs, min_score_padrao,
+                     EMBED_MODEL_PADRAO, CHROMA_COLLECTION_PADRAO)
 
 # Globais preenchidas por init(). Permanecem None até a inicialização ser
 # chamada (pelo bloco __main__ da CLI ou pelo startup da API em api.py).
@@ -18,28 +20,13 @@ meili_client = None
 meili_index = None
 chroma_client = None
 chroma_coll = None
+# Configuração efetiva, preenchida por init(). Exposta para a API informar o
+# frontend (endpoint /config) — o limiar depende do modelo, então a página não
+# tem como saber sozinha.
+model_atual = None
+colecao_atual = None
+min_score_atual = None
 
-# Reranker (cross-encoder) carregado sob demanda — só quando uma busca pede
-# rerank=True. Modelo companheiro do bge-m3, multilíngue. Configurável por env:
-# RERANKER_MODEL (ex.: 'BAAI/bge-reranker-base' é ~2× mais rápido na CPU) e
-# RERANK_POOL_MAX (teto de medicamentos que passam pelo cross-encoder).
-reranker = None
-RERANKER_MODEL = os.getenv('RERANKER_MODEL', 'BAAI/bge-reranker-v2-m3')
-RERANK_POOL_MAX = int(os.getenv('RERANK_POOL_MAX', '30'))
-# Limiar do modo rerank. A escala do cross-encoder é diferente do cosseno (bem
-# mais separada: relevantes ~0.5+, ruído ~0.01), então o `min_score` do cosseno
-# (~0.35) é alto demais aqui e cortaria quase tudo. Usamos um default baixo.
-RERANK_MIN_SCORE = float(os.getenv('RERANK_MIN_SCORE', '0.1'))
-
-
-def _get_reranker():
-    """Carrega o cross-encoder de reordenação na primeira vez que for pedido."""
-    global reranker
-    if reranker is None:
-        print(f"Carregando reranker {RERANKER_MODEL} (1ª vez baixa o modelo)...",
-              file=sys.stderr)
-        reranker = CrossEncoder(RERANKER_MODEL, max_length=512)
-    return reranker
 
 
 def init(embed_model=None, chroma_collection=None):
@@ -54,36 +41,59 @@ def init(embed_model=None, chroma_collection=None):
     que foi usado na indexação.
     """
     global model, meili_client, meili_index, chroma_client, chroma_coll
+    global model_atual, colecao_atual, min_score_atual
     if model is not None:
         return
 
     load_dotenv()
     meili_key = os.getenv('MEILI_MASTER_KEY')
-    meili_url = os.getenv('MEILI_URL', 'http://localhost:7700')
+    # 127.0.0.1 e NÃO 'localhost': o Meilisearch escuta só em IPv4, e com
+    # 'localhost' o cliente tenta ::1 primeiro e espera o timeout — medido em
+    # 2,03s por consulta contra 0,009s aqui, 226x mais lento, sem nada aparecer
+    # nos logs porque o próprio Meili reporta processingTimeMs=0.
+    meili_url = os.getenv('MEILI_URL', 'http://127.0.0.1:7700')
     if not meili_key:
         print("❌ Erro: MEILI_MASTER_KEY não encontrada no arquivo .env", file=sys.stderr)
         sys.exit(1)
 
     print("Conectando aos motores de busca...", file=sys.stderr)
-    embed_model = embed_model or os.getenv('EMBED_MODEL', 'Alibaba-NLP/gte-multilingual-base')
-    chroma_collection = chroma_collection or os.getenv('CHROMA_COLLECTION', 'corpop_saude_gte')
+    embed_model = embed_model or os.getenv('EMBED_MODEL') or EMBED_MODEL_PADRAO
+    chroma_collection = (chroma_collection or os.getenv('CHROMA_COLLECTION')
+                         or CHROMA_COLLECTION_PADRAO)
     model = carregar_modelo(embed_model)
+    # Cada modelo tem sua faixa de cosseno: o limiar acompanha o modelo, senão
+    # trocar de modelo silenciosamente passa a filtrar demais ou de menos.
+    model_atual = embed_model
+    colecao_atual = chroma_collection
+    min_score_atual = min_score_padrao(embed_model)
 
     meili_client = meilisearch.Client(meili_url, meili_key)
     meili_index = meili_client.index('corpop_saude')
 
-    chroma_client = chromadb.PersistentClient(path="./chroma_db")
+    chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
     chroma_coll = chroma_client.get_or_create_collection(
         name=chroma_collection,
         metadata={"hnsw:space": "cosine"},
     )
+    # get_or_create devolve uma coleção VAZIA quando o nome não existe, e o erro
+    # só apareceria lá na frente como um TypeError obscuro do Chroma. Falhar aqui,
+    # dizendo o que fazer, é o que separa "índice não construído" de "bug".
+    if chroma_coll.count() == 0:
+        print(f"❌ Erro: a coleção '{chroma_collection}' está vazia (modelo "
+              f"'{embed_model}').\n   Rode a indexação antes de buscar:\n"
+              f"   EMBED_MODEL={embed_model} CHROMA_COLLECTION={chroma_collection} "
+              f"uv run python embedding.py", file=sys.stderr)
+        sys.exit(1)
 
 
 # --- Função de Pesquisa Híbrida ---
-def pesquisar(query, limite=1, min_score=0.45, rerank=False, somente_simplificada=False,
-              min_score_rerank=None, somente_original=False):
+def pesquisar(query, limite=1, min_score=None, somente_simplificada=False,
+              somente_original=False):
+    """Busca híbrida. `min_score=None` usa o limiar próprio do modelo carregado."""
     if model is None:
         init()
+    if min_score is None:
+        min_score = min_score_atual
 
     # A. Busca Léxica (Meilisearch)
     # matchingStrategy="all": exige que TODAS as palavras do termo estejam no
@@ -105,11 +115,10 @@ def pesquisar(query, limite=1, min_score=0.45, rerank=False, somente_simplificad
 
     # B. Busca Semântica (ChromaDB)
     # Expande a query com sinônimos conhecidos antes do embedding (ex.:
-    # "cefaleia" -> "cefaleia dor de cabeça"), melhorando o recall do bge-m3,
-    # que sozinho é fraco em sinônimo curto. O reranker segue usando a query
-    # original (ele já entende o sinônimo).
+    # "cefaleia" -> "cefaleia dor de cabeça"), melhorando o recall do modelo,
+    # que sozinho é fraco em sinônimo curto.
     query_sem = expandir_query(query)
-    query_vec = model.encode(query_sem).tolist()
+    query_vec = encode_query(model, query_sem).tolist()
     # Cada bula está indexada em vários chunks, então pedimos bem mais que
     # `limite` para que os melhores chunks cubram pelo menos `limite`
     # medicamentos distintos depois de agregar.
@@ -135,58 +144,22 @@ def pesquisar(query, limite=1, min_score=0.45, rerank=False, somente_simplificad
     metas = res_chroma['metadatas'][0] if res_chroma['metadatas'] else []
     dists = res_chroma['distances'][0] if res_chroma['distances'] else []
 
-    if rerank:
-        # 2º estágio (retrieve→rerank) NO NÍVEL DE CHUNK. O bge-m3 é fraco em
-        # sinônimo curto (ex.: "cefaleia" fica mais perto de "febre"/"náusea" do
-        # que de "dor de cabeça"), então a chunk certa costuma ter cosseno baixo.
-        # Por isso NÃO pré-agregamos por medicamento pelo cosseno — isso
-        # descartaria a chunk que o reranker promoveria. Reranqueamos os top-K
-        # chunks do cosseno (recall já cobre o termo) e só então agregamos por
-        # medicamento, ficando com o melhor chunk de cada pelo score do reranker.
-        pool = min(RERANK_POOL_MAX, len(docs))
-        ce = _get_reranker()
-        _t = time.perf_counter()
-        scores = [float(s) for s in ce.predict([(query, d) for d in docs[:pool]])]
-        print(f"[tempo] reranker: {pool} chunks em "
-              f"{time.perf_counter() - _t:.2f}s", file=sys.stderr)
+    # Agrega os chunks por medicamento: guarda só o melhor chunk (menor
+    # distância) de cada um. Os resultados já vêm ordenados por distância,
+    # então o primeiro chunk visto de cada medicamento é o melhor.
+    melhor_por_id = {}
+    for i, d, m, dist in zip(ids, docs, metas, dists):
+        base = str(m.get("id"))
+        if base not in melhor_por_id:
+            melhor_por_id[base] = (i, d, m, dist)
 
-        melhor_por_id = {}
-        for i in range(pool):
-            base = str(metas[i].get("id"))
-            rs = scores[i]
-            if base not in melhor_por_id or rs > melhor_por_id[base][1]:
-                melhor_por_id[base] = ((ids[i], docs[i], metas[i], dists[i]), rs)
-
-        # Limiar próprio do reranker (escala diferente do cosseno). Usa o default
-        # baixo RERANK_MIN_SCORE, a menos que a chamada sobrescreva via
-        # `min_score_rerank` — assim o `min_score` (cosseno) do slider não corta
-        # quase tudo no modo rerank.
-        limiar = min_score_rerank if min_score_rerank is not None else RERANK_MIN_SCORE
-        selecionados = [
-            (tup, rs)
-            for tup, rs in sorted(melhor_por_id.values(), key=lambda x: -x[1])
-            if rs >= limiar
-        ][:limite]
-        filtered = [tup for tup, _ in selecionados]
-        rerank_scores = [rs for _, rs in selecionados]
-    else:
-        # Agrega os chunks por medicamento: guarda só o melhor chunk (menor
-        # distância) de cada um. Os resultados já vêm ordenados por distância,
-        # então o primeiro chunk visto de cada medicamento é o melhor.
-        melhor_por_id = {}
-        for i, d, m, dist in zip(ids, docs, metas, dists):
-            base = str(m.get("id"))
-            if base not in melhor_por_id:
-                melhor_por_id[base] = (i, d, m, dist)
-
-        # Com espaço cosseno, score = 1 - distância ∈ [-1, 1]. Filtra abaixo do
-        # limiar e mantém os `limite` melhores medicamentos.
-        filtered = [
-            (i, d, m, dist)
-            for (i, d, m, dist) in sorted(melhor_por_id.values(), key=lambda t: t[3])
-            if (1 - dist) >= min_score
-        ][:limite]
-        rerank_scores = []
+    # Com espaço cosseno, score = 1 - distância ∈ [-1, 1]. Filtra abaixo do
+    # limiar e mantém os `limite` melhores medicamentos.
+    filtered = [
+        (i, d, m, dist)
+        for (i, d, m, dist) in sorted(melhor_por_id.values(), key=lambda t: t[3])
+        if (1 - dist) >= min_score
+    ][:limite]
 
     # Cada medicamento foi indexado em dois registros (..._orig e ..._simp).
     # A query devolve só o que casou; aqui buscamos os dois textos de cada
@@ -200,15 +173,9 @@ def pesquisar(query, limite=1, min_score=0.45, rerank=False, somente_simplificad
 
     # O "trecho que casou" é a sentença mais próxima da query DENTRO do chunk
     # que casou (e não da bula inteira — re-encodar todo o texto de cada
-    # resultado era o maior custo de CPU). Com rerank, escolhemos a sentença com
-    # o cross-encoder (o bge-m3 erraria, pegando "náusea" em vez de "dor de
-    # cabeça"); sem rerank, usamos o cosseno do bge-m3.
+    # resultado era o maior custo de CPU), pelo cosseno do modelo de embedding.
     _t = time.perf_counter()
-    if rerank:
-        ce = _get_reranker()
-        trechos_match = [_frase_mais_proxima_ce(query, doc, ce) for (_, doc, _, _) in filtered]
-    else:
-        trechos_match = [_frase_mais_proxima(query_vec, doc) for (_, doc, _, _) in filtered]
+    trechos_match = [_frase_mais_proxima(query_vec, doc) for (_, doc, _, _) in filtered]
     print(f"[tempo] trechos: {len(filtered)} resultados em "
           f"{time.perf_counter() - _t:.2f}s", file=sys.stderr)
 
@@ -226,9 +193,6 @@ def pesquisar(query, limite=1, min_score=0.45, rerank=False, somente_simplificad
             "originais": [_txt(t[2], "original") for t in filtered],
             "simplificadas": simplificadas,
             "trechos_match": trechos_match,
-            # Score do reranker (~[0,1]) quando rerank=True; lista vazia quando
-            # a busca usou só o cosseno. Paralelo a `ids`.
-            "rerank_scores": rerank_scores,
         }
     }
 
@@ -287,31 +251,20 @@ def _sentencas(texto):
 
 
 def _frase_mais_proxima(query_vec, texto):
-    """Sentença de `texto` mais próxima da query (bge-m3) → {'texto', 'score'} | None."""
-    if not texto:
-        return None
-    sentencas = _sentencas(texto)
-    if not sentencas:
-        return None
-    sims = util.cos_sim(model.encode(sentencas), [query_vec])[:, 0]   # (n,)
-    melhor = int(sims.argmax())
-    return {"texto": sentencas[melhor], "score": float(sims[melhor])}
+    """Sentença de `texto` mais próxima da query → {'texto', 'score'} | None.
 
-
-def _frase_mais_proxima_ce(query, texto, ce):
-    """Como _frase_mais_proxima, mas pontua as sentenças com o cross-encoder.
-
-    O bge-m3 erra em sinônimo curto (escolheria "náusea" para "cefaleia"); o
-    reranker acerta "dor de cabeça". Usado quando a busca está com rerank=True.
+    As sentenças são o lado DOCUMENTO da comparação (o `query_vec` é o lado
+    consulta), então vão por encode_docs — em modelos com prefixo, misturar os
+    lados aqui deslocaria os vetores e escolheria a sentença errada.
     """
     if not texto:
         return None
     sentencas = _sentencas(texto)
     if not sentencas:
         return None
-    scores = [float(s) for s in ce.predict([(query, s) for s in sentencas])]
-    melhor = max(range(len(sentencas)), key=lambda i: scores[i])
-    return {"texto": sentencas[melhor], "score": scores[melhor]}
+    sims = util.cos_sim(encode_docs(model, sentencas), [query_vec])[:, 0]   # (n,)
+    melhor = int(sims.argmax())
+    return {"texto": sentencas[melhor], "score": float(sims[melhor])}
 
 
 def _buscar_ambos_registros(base_ids):
@@ -353,25 +306,19 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Busca Híbrida CorPop-Saúde (UFRGS)')
     parser.add_argument('query', type=str, help='Termo de busca')
     parser.add_argument('--n', type=int, default=1, help='Número de resultados')
-    parser.add_argument('--min-score', type=float, default=0.4,
-                        help='Score mínimo para retornar um resultado do ChromaDB (0.0–1.0). '
-                             'Sem --rerank, é a similaridade cosseno; com --rerank, é o score do reranker.')
-    parser.add_argument('--rerank', action='store_true',
-                        help='Reordena os resultados semânticos com o cross-encoder '
-                             f'{RERANKER_MODEL} (2º estágio, mais preciso e mais lento).')
+    parser.add_argument('--min-score', type=float, default=None,
+                        help='Score mínimo (similaridade cosseno) para retornar um '
+                             'resultado do ChromaDB (0.0–1.0). Default: o limiar '
+                             'do modelo em uso (ver MODELOS em modelos.py).')
     parser.add_argument('--somente-simplificada', action='store_true',
                         help='Busca semântica só nos chunks da bula simplificada.')
     parser.add_argument('--somente-original', action='store_true',
                         help='Busca semântica só nos chunks da bula original (texto técnico).')
-    parser.add_argument('--min-score-rerank', type=float, default=None,
-                        help='Limiar no modo --rerank (escala do reranker). '
-                             f'Default: {RERANK_MIN_SCORE}.')
 
     args = parser.parse_args()
     init()
-    resultados = pesquisar(args.query, args.n, args.min_score, args.rerank,
-                           args.somente_simplificada, args.min_score_rerank,
-                           args.somente_original)
+    resultados = pesquisar(args.query, args.n, args.min_score,
+                           args.somente_simplificada, args.somente_original)
 
     print("\n" + "═"*50)
     print(f"RESULTADOS PARA: '{args.query}'")
@@ -396,9 +343,7 @@ if __name__ == "__main__":
         print("Nenhum match exato encontrado.")
 
     # --- Exibição ChromaDB ---
-    rerank_scores = resultados['chroma'].get('rerank_scores') or []
-    titulo_sem = "Busca Semântica + Reranker" if rerank_scores else "Busca Semântica"
-    print(f"\n[CHROMADB - {titulo_sem}]")
+    print("\n[CHROMADB - Busca Semântica]")
     if resultados['chroma']['ids']:
         # Iteramos usando o índice para combinar ID, Metadata e Documento
         for i in range(len(resultados['chroma']['ids'])):
@@ -410,13 +355,7 @@ if __name__ == "__main__":
             c_score = 1 - c_dist
 
             print(f"ID: {c_id} | Nome (Metadata): {c_meta.get('nome', 'N/A')}")
-            if rerank_scores:
-                # Com rerank a ordem é a do reranker; mostramos o cosseno ao lado
-                # para dar pra comparar o que o 2º estágio promoveu/rebaixou.
-                print(f"Rerank: {rerank_scores[i]:.4f} | cosseno: {c_score:.4f} "
-                      f"(distância: {c_dist:.4f})")
-            else:
-                print(f"Score: {c_score:.4f} (distância: {c_dist:.4f})")
+            print(f"Score: {c_score:.4f} (distância: {c_dist:.4f})")
             trecho = resultados['chroma']['trechos_match'][i]
             if trecho:
                 print(f"Trecho acessível que casou (sim. {trecho['score']:.4f}): "

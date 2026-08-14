@@ -163,7 +163,7 @@
       .controls input[type="checkbox"] {
         accent-color: var(--teal);
       }
-      .controls .rerank-toggle {
+      .controls .filtro-toggle {
         cursor: pointer;
       }
       .controls input[type="number"] {
@@ -344,9 +344,6 @@
         font-size: 1.1rem;
         color: var(--teal);
         white-space: nowrap;
-      }
-      .card .score.rerank {
-        color: var(--coral);
       }
       .card .badge {
         display: inline-block;
@@ -897,17 +894,12 @@
               value="0.35"
             />
             <span id="minval">0.35</span>
-            <span id="min-hint" class="syn-note" hidden>reranker usa limiar próprio</span>
           </label>
-          <label class="rerank-toggle" title="Reordena a busca semântica com o cross-encoder bge-reranker-v2-m3 (2º estágio, mais preciso e mais lento).">
-            <input type="checkbox" id="rerank" />
-            Reranker (bge-reranker-v2-m3)
-          </label>
-          <label class="rerank-toggle" title="Restringe a busca semântica aos chunks da bula simplificada (linguagem acessível).">
+          <label class="filtro-toggle" title="Restringe a busca semântica aos chunks da bula simplificada (linguagem acessível).">
             <input type="checkbox" id="somente-simp" />
             Só na bula simplificada
           </label>
-          <label class="rerank-toggle" title="Restringe a busca semântica aos chunks da bula original (texto técnico).">
+          <label class="filtro-toggle" title="Restringe a busca semântica aos chunks da bula original (texto técnico).">
             <input type="checkbox" id="somente-orig" />
             Só na bula original
           </label>
@@ -1029,16 +1021,20 @@
     </div>
 
     <script>
-      // Ajuste aqui se a API estiver em outro host/porta.
-      const API_BASE = "http://localhost:8000";
-      document.getElementById("endpoint").textContent = API_BASE + "/buscar";
+      // Vazio = mesma origem: em produção o nginx serve esta página e faz proxy
+      // de /buscar para a API, então não há cross-origin nenhum. Para apontar
+      // para outra API (ex.: abrir o arquivo direto, com a API em outra porta),
+      // acrescente ?api=http://localhost:8000 na URL — sem precisar editar aqui.
+      const API_BASE =
+        new URLSearchParams(location.search).get("api") ?? "";
+      document.getElementById("endpoint").textContent =
+        (API_BASE || location.origin) + "/buscar";
 
       const form = document.getElementById("form");
       const qInput = document.getElementById("q");
       const nInput = document.getElementById("n");
       const minInput = document.getElementById("min");
       const minVal = document.getElementById("minval");
-      const rerankInput = document.getElementById("rerank");
       const somenteSimpInput = document.getElementById("somente-simp");
       const somenteOrigInput = document.getElementById("somente-orig");
       const statusEl = document.getElementById("status");
@@ -1059,19 +1055,23 @@
         minVal.textContent = Number(minInput.value).toFixed(2);
       });
 
-      // No modo rerank o limiar é o do reranker (escala diferente), então o
-      // slider de similaridade (cosseno) não se aplica — desabilitamos e
-      // avisamos, para não dar a impressão de que ele controla os resultados.
-      const minLabel = document.getElementById("min-label");
-      const minHint = document.getElementById("min-hint");
-      function syncRerankUI() {
-        const on = rerankInput.checked;
-        minInput.disabled = on;
-        minLabel.style.opacity = on ? 0.45 : 1;
-        minHint.hidden = !on;
-      }
-      rerankInput.addEventListener("change", syncRerankUI);
-      syncRerankUI();
+      // O limiar útil depende do modelo de embedding em uso: cada um espalha os
+      // cossenos numa faixa própria (o bge-m3 marca ~0.45 onde um e5 marca ~0.85).
+      // Perguntamos à API em vez de fixar um número que envelhece na troca de
+      // modelo. Se /config não responder, o valor do HTML fica valendo.
+      (async () => {
+        try {
+          const res = await fetch(`${API_BASE}/config`);
+          if (!res.ok) return;
+          const cfg = await res.json();
+          if (typeof cfg.min_score_padrao === "number") {
+            minInput.value = cfg.min_score_padrao;
+            minVal.textContent = cfg.min_score_padrao.toFixed(2);
+          }
+        } catch {
+          /* API fora do ar: a busca já avisa o usuário. */
+        }
+      })();
 
       // "Só simplificada" e "só original" são mutuamente exclusivos: marcar um
       // desmarca o outro (pedir os dois registros ao mesmo tempo daria zero
@@ -1125,7 +1125,6 @@
         }
         const n = Math.max(1, Math.min(20, parseInt(nInput.value) || 5));
         const min = Number(minInput.value);
-        const rerank = rerankInput.checked;
         const somenteSimp = somenteSimpInput.checked;
         const somenteOrig = somenteOrigInput.checked;
 
@@ -1135,12 +1134,11 @@
           '<span class="spinner"></span>Buscando "' +
           esc(q) +
           '"…' +
-          (rerank ? " (com reranker)" : "") +
           (somenteSimp ? " (só simplificada)" : "") +
           (somenteOrig ? " (só original)" : "");
         resultsEl.innerHTML = "";
 
-        const url = `${API_BASE}/buscar?q=${encodeURIComponent(q)}&n=${n}&min_score=${min}&rerank=${rerank}&somente_simplificada=${somenteSimp}&somente_original=${somenteOrig}`;
+        const url = `${API_BASE}/buscar?q=${encodeURIComponent(q)}&n=${n}&min_score=${min}&somente_simplificada=${somenteSimp}&somente_original=${somenteOrig}`;
         try {
           const res = await fetch(url);
           if (!res.ok) {
@@ -1223,17 +1221,12 @@
               (chroma.originais || [])[i] ?? (isSimp ? null : doc);
             const simplificada =
               (chroma.simplificadas || [])[i] ?? (isSimp ? doc : null);
-            // Com reranker ligado, o score exibido é o do cross-encoder (a nova
-            // ordem); guardamos o cosseno para mostrar ao lado e dar comparação.
             const cosScore = (chroma.scores || [])[i] ?? null;
-            const rerankScore = (chroma.rerank_scores || [])[i] ?? null;
             const key =
               cardData.push({
                 name: meta.nome,
                 id: meta.id || id,
-                score: rerankScore ?? cosScore,
-                scoreKind: rerankScore != null ? "rerank" : "cosseno",
-                cosScore,
+                score: cosScore,
                 register: meta.registro,
                 isSimp,
                 original,
@@ -1264,17 +1257,9 @@
 
       function cardHtml(key, delay) {
         const d = cardData[key];
-        // Com reranker, marcamos o score como "rerank" e mostramos o cosseno
-        // num tooltip, para comparar o que o 2º estágio promoveu/rebaixou.
-        const isRerank = d.scoreKind === "rerank";
-        const scoreTitle = isRerank
-          ? `score do reranker — cosseno: ${d.cosScore != null ? d.cosScore.toFixed(3) : "—"}`
-          : "similaridade de cosseno";
         const rightCol =
           d.score != null
-            ? `<span class="score${isRerank ? " rerank" : ""}" title="${scoreTitle}">${
-                isRerank ? "⭑ " : ""
-              }${d.score.toFixed(3)}</span>`
+            ? `<span class="score" title="similaridade de cosseno">${d.score.toFixed(3)}</span>`
             : `<span class="id-tag">id ${esc(d.id)}</span>`;
         const badge = d.register
           ? `<span class="badge ${d.isSimp ? "simp" : ""}">${esc(d.register)}</span>`
