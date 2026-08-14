@@ -18,6 +18,10 @@ chroma_db/
 chroma_db_export/
 *.tar.gz
 
+# Caches do servidor: a unit do systemd aponta HF_HOME para cá, então os pesos
+# do modelo (~2,3GB) e o cache do uv ficam dentro do diretório do projeto.
+.cache/
+
 # Secrets and local configs
 .env
 .flaskenv
