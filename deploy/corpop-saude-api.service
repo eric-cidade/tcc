@@ -1,0 +1,49 @@
+[Unit]
+Description=API da Busca Hibrida CorPop-Saude (FastAPI/uvicorn)
+Documentation=https://github.com/eric-cidade/tcc
+# A busca lexica depende do Meilisearch; o Wants/After ordena o boot, mas a API
+# sobe mesmo se ele estiver fora (as consultas e que respondem 503).
+Wants=meilisearch.service
+After=network-online.target meilisearch.service
+
+[Service]
+Type=exec
+User=corpop
+Group=corpop
+WorkingDirectory=/opt/corpop-saude
+EnvironmentFile=/opt/corpop-saude/.env
+
+# Cache dos modelos dentro de /opt/corpop-saude: o usuario de servico nao tem $HOME
+# gravavel, e sem isso o download do HuggingFace falha no primeiro boot.
+# HF_TOKEN vem do EnvironmentFile e e obrigatorio se EMBED_MODEL for um repo
+# gated (embeddinggemma): sem ele o primeiro start falha no download.
+Environment=HF_HOME=/opt/corpop-saude/.cache/huggingface
+# 4 vCPU. Sem isso o torch abre uma thread por core logico e briga consigo mesmo.
+Environment=OMP_NUM_THREADS=4
+Environment=TOKENIZERS_PARALLELISM=false
+
+# UM worker apenas: cada worker carrega a SUA copia dos pesos do modelo. Num
+# servidor de 4GB, dois workers = OOM na certa.
+ExecStart=/opt/corpop-saude/.venv/bin/uvicorn api:app --host 127.0.0.1 --port 8000 --workers 1
+
+# O lifespan carrega o modelo antes de aceitar requisicoes; no primeiro boot isso
+# inclui baixar os pesos do HuggingFace. 15 min cobre um download lento.
+TimeoutStartSec=900
+Restart=always
+RestartSec=5
+
+# Teto de memoria: faz o kernel apertar ESTE servico antes de o OOM killer
+# escolher a vitima sozinho (que poderia ser o Meilisearch). MemoryHigh pressiona
+# (nao mata); MemoryMax e o limite duro, acima do qual o cgroup e morto.
+MemoryHigh=2900M
+MemoryMax=3400M
+
+# Endurecimento basico: o servico so precisa ler o proprio diretorio.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/corpop-saude
+
+[Install]
+WantedBy=multi-user.target

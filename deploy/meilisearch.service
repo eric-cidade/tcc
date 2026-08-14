@@ -1,0 +1,35 @@
+[Unit]
+Description=Meilisearch (busca lexica do CorPop-Saude)
+Documentation=https://www.meilisearch.com/docs
+After=network-online.target
+
+[Service]
+Type=exec
+User=meilisearch
+Group=meilisearch
+WorkingDirectory=/var/lib/meilisearch
+# Le MEILI_MASTER_KEY do mesmo .env da aplicacao: chave divergente entre os dois
+# e o erro de deploy mais facil de cometer e mais chato de diagnosticar (a
+# indexacao falha com 403 sem dizer o porque).
+EnvironmentFile=/opt/corpop-saude/.env
+
+# Bind em loopback: quem fala com o mundo e o nginx. O Meilisearch NAO deve ficar
+# exposto — com a master key ele permite apagar todos os indices.
+ExecStart=/usr/bin/meilisearch \
+    --http-addr 127.0.0.1:7700 \
+    --db-path /var/lib/meilisearch/data.ms \
+    --dump-dir /var/lib/meilisearch/dumps \
+    --snapshot-dir /var/lib/meilisearch/snapshots \
+    --env production
+
+Restart=always
+RestartSec=5
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/meilisearch
+
+[Install]
+WantedBy=multi-user.target
