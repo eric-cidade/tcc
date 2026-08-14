@@ -1,35 +1,107 @@
+"""Indexação do corpus no ChromaDB (semântica) e no Meilisearch (léxica).
+
+Rodar:
+  uv run python embedding.py                 # incremental: acrescenta/atualiza
+  uv run python embedding.py --reconstruir   # apaga a coleção e refaz do zero
+
+INCREMENTAL é o default. Para cada medicamento, remove os chunks antigos DELE
+(pelo metadado `id`) e grava os novos — idempotente, e correto tanto para bula
+nova quanto para bula revisada, inclusive quando o número de chunks diminui.
+Não há motivo para reconstruir tudo ao acrescentar documentos.
+
+--reconstruir só é necessário quando muda algo que invalida os vetores já
+gravados: o modelo de embedding (dimensão diferente) ou o esquema de chunking.
+
+Sobre a memória: por padrão o script NÃO carrega o modelo. Ele pede os vetores
+à API (endpoint /embed), que já tem o modelo residente. Isso é o que permite
+indexar com a API no ar num servidor de 4GB — duas cópias do modelo não caberiam.
+Se a API não responder, carrega o modelo localmente (necessário na 1ª indexação,
+antes de a API existir).
+"""
+import argparse
+import json
 import os
-import pandas as pd
+import time
+import urllib.error
+import urllib.request
+
 import meilisearch
 import chromadb
 from dotenv import load_dotenv
 
+from caminhos import CHROMA_PATH
 from sinonimos import sinonimos_meili
-from bulas import TIPOS, parse_bula, preparar_chunks
-from modelos import carregar_modelo
+from bulas import TIPOS, ler_mapa, parse_bula, preparar_chunks
+from modelos import EMBED_MODEL_PADRAO, CHROMA_COLLECTION_PADRAO
 
 # --- 1. Configurações Iniciais ---
 load_dotenv()
 
-# Modelo multilíngue de retrieval. Default gte-multilingual-base: ~305M params,
-# 768 dim, contexto 8192. Mais leve que o bge-m3 (568M/1024) e sem prefixo
-# obrigatório de query/passage. Exige trust_remote_code (arquitetura custom;
-# precisa de einops) — inofensivo para modelos sem código remoto (ex.: bge-m3).
-# Configurável por env p/ comparar modelos (ver CHROMA_COLLECTION abaixo).
-EMBED_MODEL = os.getenv('EMBED_MODEL', 'Alibaba-NLP/gte-multilingual-base')
-# Coleção do Chroma. O default novo ('corpop_saude_gte') deixa o índice antigo
-# do bge-m3 ('corpop_saude') INTACTO para comparação A/B. Cada (modelo, coleção)
-# precisa casar: para reindexar/buscar com o bge, rode com
-# EMBED_MODEL=BAAI/bge-m3 e CHROMA_COLLECTION=corpop_saude.
-CHROMA_COLLECTION = os.getenv('CHROMA_COLLECTION', 'corpop_saude_gte')
+# Modelo de embedding e coleção-alvo. Os dois PRECISAM casar entre si e com o que
+# a busca usa: cada modelo tem dimensão e escala de score próprias, e por isso a
+# sua própria coleção. Os defaults vêm de search.py (fonte única) e são
+# configuráveis por env para comparar modelos.
+EMBED_MODEL = os.getenv('EMBED_MODEL') or EMBED_MODEL_PADRAO
+CHROMA_COLLECTION = os.getenv('CHROMA_COLLECTION') or CHROMA_COLLECTION_PADRAO
+# Lote do encode. É o principal controle de pico de RAM na indexação: no servidor
+# (4GB, sem GPU) o default 32 do sentence-transformers pode dar pico feio.
+EMBED_BATCH = int(os.getenv('EMBED_BATCH', '0')) or 32
+# API a quem pedir os embeddings. Vazio desliga e força o modelo local.
+EMBED_API = os.getenv('EMBED_API', 'http://127.0.0.1:8000')
 
-print(f"Carregando modelo de embedding ({EMBED_MODEL})...")
-model = carregar_modelo(EMBED_MODEL)
-print("Modelo carregado com sucesso!")
+
+def _embeddar_via_api(textos):
+    """Pede os vetores ao endpoint /embed da API. None se ela não puder servir."""
+    req = urllib.request.Request(
+        f"{EMBED_API.rstrip('/')}/embed",
+        data=json.dumps({"textos": textos}).encode(),
+        headers={"Content-Type": "application/json"},
+    )
+    with urllib.request.urlopen(req, timeout=300) as r:
+        return json.load(r)
+
+
+def montar_embeddador():
+    """Devolve (funcao_de_embed, descricao).
+
+    Prefere a API — assim não há segunda cópia do modelo na memória. Só cai para
+    o modelo local se a API estiver fora, e ABORTA se ela estiver no ar com um
+    modelo diferente do alvo: misturar vetores de modelos distintos na mesma
+    coleção corrompe a busca em silêncio, sem erro nenhum.
+    """
+    if EMBED_API:
+        try:
+            resp = _embeddar_via_api(["teste"])
+        except (urllib.error.URLError, OSError, TimeoutError):
+            resp = None
+        if resp is not None:
+            if resp.get("modelo") != EMBED_MODEL:
+                raise SystemExit(
+                    f"❌ A API em {EMBED_API} está com o modelo {resp.get('modelo')!r}, "
+                    f"mas a indexação é para {EMBED_MODEL!r}.\n"
+                    f"   Alinhe EMBED_MODEL no .env e reinicie a API, ou rode com "
+                    f"EMBED_API= (vazio) para carregar o modelo localmente."
+                )
+            def embed(textos):
+                saida = []
+                for i in range(0, len(textos), EMBED_BATCH):
+                    saida += _embeddar_via_api(textos[i:i + EMBED_BATCH])["vetores"]
+                return saida
+            return embed, f"API {EMBED_API} (sem carregar o modelo aqui)"
+
+    from modelos import carregar_modelo, encode_docs
+    print(f"API indisponível — carregando o modelo localmente ({EMBED_MODEL})...")
+    modelo = carregar_modelo(EMBED_MODEL)
+    return (lambda textos: encode_docs(modelo, textos, batch_size=EMBED_BATCH).tolist(),
+            f"modelo local {EMBED_MODEL}")
+
+
 # Inicialização dos Clientes
 print("Conectando ao Meilisearch e ChromaDB...")
 MEILI_KEY = os.getenv('MEILI_MASTER_KEY')
-MEILI_URL = os.getenv('MEILI_URL', 'http://localhost:7700')
+# 127.0.0.1 e não 'localhost' — ver a nota em search.py: com 'localhost' cada
+# chamada custa ~2s de timeout de IPv6, e a indexação faz uma por medicamento.
+MEILI_URL = os.getenv('MEILI_URL', 'http://127.0.0.1:7700')
 if not MEILI_KEY:
     print("❌ Erro: MEILI_MASTER_KEY não encontrada no arquivo .env")
     exit(1)
@@ -51,31 +123,43 @@ meili_index.update_stop_words(STOP_WORDS_PT)
 # "dor de cabeça". Fonte única em sinonimos.py (reusada na expansão de query).
 meili_index.update_synonyms(sinonimos_meili())
 print("Conexões meili estabelecidas com sucesso!")
-chroma_client = chromadb.PersistentClient(path="./chroma_db")
-# A indexação reconstrói do zero APENAS a coleção-alvo (CHROMA_COLLECTION). O
-# esquema de chunks (estrutural, item-a-item) e a dimensão do embedding mudaram,
-# então não dá para misturar com vetores antigos da mesma coleção. Outras
-# coleções (ex.: o índice antigo do bge-m3) ficam intactas para comparação.
-try:
-    chroma_client.delete_collection(CHROMA_COLLECTION)
-except Exception:
-    pass
-chroma_coll = chroma_client.create_collection(
-    name=CHROMA_COLLECTION,
-    metadata={"hnsw:space": "cosine"},
-)
-print(f"Conexões chroma estabelecidas com sucesso! (coleção: {CHROMA_COLLECTION})")
+chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
 
-def realizar_indexacao():
+
+def abrir_colecao(reconstruir):
+    """Abre a coleção-alvo. Com `reconstruir`, apaga e recria antes.
+
+    ATENÇÃO: reconstruir com a API no ar a QUEBRA. Ela guarda um handle pelo UUID
+    da coleção; apagada, o UUID some e todas as consultas passam a devolver
+    NotFoundError até a API ser reiniciada — mesmo depois de o índice novo ficar
+    pronto. O modo incremental não tem esse problema: preserva a coleção.
+    """
+    if reconstruir:
+        try:
+            chroma_client.delete_collection(CHROMA_COLLECTION)
+        except Exception:
+            pass
+        return chroma_client.create_collection(
+            name=CHROMA_COLLECTION, metadata={"hnsw:space": "cosine"})
+    return chroma_client.get_or_create_collection(
+        name=CHROMA_COLLECTION, metadata={"hnsw:space": "cosine"})
+
+
+def _hms(seg):
+    """Formata segundos como '1m23s' ou '45.2s' para os logs de progresso."""
+    return f"{int(seg // 60)}m{int(seg % 60):02d}s" if seg >= 60 else f"{seg:.1f}s"
+
+
+def realizar_indexacao(embed, chroma_coll, incremental=True):
     total = 0
+    t0 = time.perf_counter()
     for cfg in TIPOS:
         tipo = cfg["tipo"]
         if not os.path.exists(cfg["map_csv"]):
             print(f" [SKIP] Mapa não encontrado: {cfg['map_csv']}")
             continue
 
-        df_map = pd.read_csv(cfg["map_csv"], dtype={"id": str})
-        mapa = dict(zip(df_map["id"], df_map["nome"]))
+        mapa = ler_mapa(cfg["map_csv"])
         print(f"[{tipo}] {len(mapa)} medicamentos no mapa.")
 
         for n_id, nome_remedio in mapa.items():
@@ -103,7 +187,15 @@ def realizar_indexacao():
             # Embeddamos `c["embed"]` (header + texto) mas ARMAZENAMOS só `c["texto"]`
             # cru em `documents` — o cabeçalho fica em metadata. Assim o vetor ganha
             # contexto e a reconstrução do documento completo (search.py) fica limpa.
-            embs = model.encode([c["embed"] for _, _, c in entradas]).tolist()
+            t_med = time.perf_counter()
+            embs = embed([c["embed"] for _, _, c in entradas])
+
+            # No modo incremental, remove os chunks ANTERIORES deste medicamento
+            # antes de gravar os novos. Sem isso, uma bula revisada com menos
+            # chunks deixaria os excedentes órfãos no índice — o `add` só
+            # sobrescreveria os ids que se repetem.
+            if incremental:
+                chroma_coll.delete(where={"id": base_id})
 
             chroma_coll.add(
                 embeddings=embs,
@@ -129,11 +221,33 @@ def realizar_indexacao():
             }])
 
             total += 1
+            # Tempo por medicamento e acumulado: a indexação no servidor (CPU,
+            # 4 vCPU) é longa e sem isso não dá para saber se travou ou só demora.
             print(f" [OK] {base_id}: {nome_remedio} indexado "
-                  f"({len(chunks_o)} chunks orig + {len(chunks_s)} simp).")
+                  f"({len(chunks_o)} chunks orig + {len(chunks_s)} simp) "
+                  f"[{_hms(time.perf_counter() - t_med)} | "
+                  f"total {_hms(time.perf_counter() - t0)}]", flush=True)
 
-    print(f"Indexação concluída. Medicamentos indexados: {total}.")
+    print(f"Indexação concluída. Medicamentos indexados: {total} "
+          f"em {_hms(time.perf_counter() - t0)}.")
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Indexa o corpus no ChromaDB e no Meilisearch")
+    ap.add_argument("--reconstruir", action="store_true",
+                    help="apaga a coleção e refaz do zero. Só é necessário ao trocar "
+                         "de modelo ou de esquema de chunking — e QUEBRA a API se ela "
+                         "estiver no ar (precisa reiniciá-la depois).")
+    args = ap.parse_args()
+
+    embed, descricao = montar_embeddador()
+    chroma_coll = abrir_colecao(args.reconstruir)
+    modo = "RECONSTRUÇÃO (do zero)" if args.reconstruir else "incremental"
+    print(f"Modo: {modo} | coleção: {CHROMA_COLLECTION} ({chroma_coll.count()} chunks) "
+          f"| embeddings: {descricao}")
+    realizar_indexacao(embed, chroma_coll, incremental=not args.reconstruir)
+    print(f"Coleção '{CHROMA_COLLECTION}' agora com {chroma_coll.count()} chunks.")
 
 
 if __name__ == "__main__":
-    realizar_indexacao()
+    main()
