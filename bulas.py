@@ -25,13 +25,59 @@ CAMPOS_METADADOS = [
     "medgenerico", "medreferencia", "fabricante", "apresentacao",
 ]
 
+# --- Taxonomia de escopos do corpus ---
+#
+# Os documentos se organizam numa ÁRVORE de gêneros e subgrupos. Hoje só há
+# bulas de medicamento divididas por área ("bula/hipertensao",
+# "bula/oncologia"), mas a estrutura já prevê outros gêneros de documento —
+# "consentimento/exames-de-imagem", por exemplo.
+#
+# O identificador de um escopo é o caminho na árvore separado por "/", e todo
+# filtro é por PREFIXO (`escopo_casa`). Consequência prática: acrescentar um
+# nível não pede mudança de código nenhuma — basta que a entrada de TIPOS
+# declare um `escopo` mais fundo e que os rótulos dos nós novos entrem em
+# ROTULOS_ESCOPO. As chaves de ROTULOS_ESCOPO são o caminho INTEIRO, não o
+# último segmento, para que dois gêneros possam ter subgrupos homônimos.
+ROTULOS_ESCOPO = {
+    "bula": "Bulas de medicamento",
+    "bula/hipertensao": "Hipertensão",
+    "bula/oncologia": "Oncologia",
+}
+
+# Como o lado SIMPLIFICADO de cada subcorpus foi produzido. É o SEGUNDO EIXO de
+# filtragem, cruzável com o eixo temático dos escopos: "só o que foi validado
+# por humanos" é uma pergunta independente de "só bulas de oncologia". Hoje os
+# dois eixos coincidem (todo o subcorpus humano é de hipertensão), mas deixam de
+# coincidir assim que a oncologia for revisada ou outro gênero entrar — e é por
+# isso que procedência não virou mais um nível do caminho do escopo.
+#
+# Não é detalhe de
+# catálogo: o comparador de simplicidade (simplicidade.py) toma o lado
+# simplificado como referência do que é linguagem acessível, então um subcorpus
+# gerado por IA sem revisão ensina ao score o vocabulário que a IA deixou
+# passar. Medido: "posologia" some por completo nas bulas validadas por
+# linguistas (24 ocorrências no original, 0 na simplificada) e sobrevive em 12
+# das 49 simplificadas por IA, onde acaba pontuando como palavra SIMPLES.
+# Por isso a procedência acompanha todo escopo, até a interface.
+# `curto` é para caber em rótulo de filtro; `rotulo` é a forma completa.
+PROVENIENCIAS = {
+    "humana": {"rotulo": "Simplificação validada por linguistas",
+               "curto": "validada por linguistas"},
+    "ia": {"rotulo": "Simplificação gerada por IA, sem revisão profissional",
+           "curto": "IA sem revisão"},
+}
+
 # Cada tipo de bula vive numa pasta própria, mas compartilham a mesma coleção.
-# O `tipo` entra como prefixo do id (evita colisão ht_1 vs onco_1) e como metadado.
+# O `tipo` entra como prefixo do id (evita colisão ht_1 vs onco_1) e como metadado;
+# o `escopo` é o caminho do documento na árvore acima (usado pelo comparador de
+# simplicidade para restringir o corpus).
 # Caminhos absolutos (via BASE_DIR): a indexação também roda a partir do systemd,
 # onde o cwd não é a pasta do projeto.
 TIPOS = [
     {
         "tipo": "hipertensao",
+        "escopo": "bula/hipertensao",
+        "proveniencia": "humana",
         "map_csv": str(BASE_DIR / "remedios_ht_map.csv"),
         "path_original": str(CORPUS_DIR / "ht" / "original"),
         "path_simplificada": str(CORPUS_DIR / "ht" / "simplificada"),
@@ -40,6 +86,8 @@ TIPOS = [
     },
     {
         "tipo": "oncologia",
+        "escopo": "bula/oncologia",
+        "proveniencia": "ia",
         "map_csv": str(BASE_DIR / "remedios_onco_map.csv"),
         "path_original": str(CORPUS_DIR / "onco" / "original"),
         "path_simplificada": str(CORPUS_DIR / "onco" / "simplificada"),
@@ -47,6 +95,114 @@ TIPOS = [
         "suffix_simp": "_simplificada_limpo.txt",
     },
 ]
+
+
+def escopo_casa(escopo_doc, escopo):
+    """O documento em `escopo_doc` está dentro de `escopo`?
+
+    `escopo` None (ou vazio) = corpus inteiro. Casamento por prefixo de
+    caminho, comparando segmento a segmento: "bula" casa "bula/hipertensao",
+    mas "bula/hiper" NÃO casa "bula/hipertensao".
+    """
+    if not escopo:
+        return True
+    return escopo_doc == escopo or escopo_doc.startswith(escopo + "/")
+
+
+def escopos_conhecidos():
+    """Todos os nós da árvore de escopos (folhas e ancestrais), ordenados."""
+    nos = set()
+    for cfg in TIPOS:
+        partes = cfg["escopo"].split("/")
+        for i in range(1, len(partes) + 1):
+            nos.add("/".join(partes[:i]))
+    return sorted(nos)
+
+
+def proveniencia_casa(proveniencia_doc, proveniencia):
+    """O documento com essa procedência passa pelo filtro? (None = qualquer)."""
+    return not proveniencia or proveniencia_doc == proveniencia
+
+
+def documento_casa(escopo_doc, proveniencia_doc, escopo=None, proveniencia=None):
+    """Cruzamento dos dois eixos: tema (escopo) E procedência."""
+    return (escopo_casa(escopo_doc, escopo)
+            and proveniencia_casa(proveniencia_doc, proveniencia))
+
+
+def normalizar_proveniencia(proveniencia):
+    """Valida uma procedência vinda de fora; devolve None para 'qualquer'."""
+    proveniencia = (proveniencia or "").strip()
+    if not proveniencia:
+        return None
+    if proveniencia not in PROVENIENCIAS:
+        raise ValueError(
+            f"Procedência desconhecida: {proveniencia!r}. "
+            f"Conhecidas: {', '.join(PROVENIENCIAS)}")
+    return proveniencia
+
+
+def proveniencias_de(escopo=None, proveniencia=None):
+    """Procedências do lado simplificado no recorte (tema × procedência).
+
+    Lista de {id, rotulo, curto}. Mais de uma = o recorte MISTURA evidência
+    validada por humanos com evidência gerada por IA, e o score sai de um
+    vocabulário de referência híbrido — o que precisa estar à vista de quem lê o
+    resultado. Filtrar pelo eixo de procedência é justamente o que faz essa
+    lista voltar com um item só.
+    """
+    ids = sorted({c["proveniencia"] for c in TIPOS
+                  if documento_casa(c["escopo"], c["proveniencia"], escopo, proveniencia)})
+    return [{"id": i, **PROVENIENCIAS.get(i, {"rotulo": i, "curto": i})} for i in ids]
+
+
+def proveniencias_disponiveis():
+    """Todas as procedências do eixo, para o cliente montar o segundo filtro."""
+    return [{"id": i, **d} for i, d in PROVENIENCIAS.items()]
+
+
+def rotulo_escopo(escopo):
+    """Rótulo legível de um escopo (cai no próprio id se não houver rótulo)."""
+    return ROTULOS_ESCOPO.get(escopo, escopo)
+
+
+def normalizar_escopo(escopo):
+    """Valida um escopo vindo de fora e devolve None para 'corpus inteiro'.
+
+    Levanta ValueError com a lista do que existe — é o que a API transforma em
+    422, para o cliente não ficar adivinhando nomes de gênero.
+    """
+    escopo = (escopo or "").strip().strip("/")
+    if not escopo:
+        return None
+    if escopo not in escopos_conhecidos():
+        raise ValueError(
+            f"Escopo desconhecido: {escopo!r}. "
+            f"Conhecidos: {', '.join(escopos_conhecidos())}")
+    return escopo
+
+
+def arvore_escopos():
+    """A árvore de escopos como lista aninhada, para o cliente montar o filtro.
+
+    Cada nó tem `id`, `rotulo`, `nivel`, `filhos` e `tipos` (os valores de
+    `cfg['tipo']` sob aquele nó). Genérica na profundidade: um gênero com três
+    níveis sai aninhado do mesmo jeito.
+    """
+    def no(escopo, nivel):
+        filhos = [e for e in escopos_conhecidos()
+                  if e.startswith(escopo + "/") and e.count("/") == escopo.count("/") + 1]
+        return {
+            "id": escopo,
+            "rotulo": rotulo_escopo(escopo),
+            "nivel": nivel,
+            "tipos": [c["tipo"] for c in TIPOS if escopo_casa(c["escopo"], escopo)],
+            "proveniencias": proveniencias_de(escopo),
+            "filhos": [no(f, nivel + 1) for f in filhos],
+        }
+
+    raizes = [e for e in escopos_conhecidos() if "/" not in e]
+    return [no(r, 0) for r in raizes]
 
 
 def ler_mapa(caminho):

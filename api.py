@@ -5,9 +5,15 @@ para ser consumida por um site. Reaproveita search.pesquisar().
 
 Rodar (dev):  uv run uvicorn api:app --reload --port 8000
 Rodar (prod): uvicorn api:app --host 127.0.0.1 --port 8000 --workers 1
-Pré-requisitos: Meilisearch rodando, .env configurado e embedding.py já executado.
+
+Pré-requisitos da BUSCA (/buscar): Meilisearch rodando, .env configurado e
+embedding.py já executado. Faltando qualquer um deles a API sobe assim mesmo,
+porque /simplicidade e /escopos só leem os .txt do corpus — é /buscar (e
+/embed) que passa a responder 503, com o motivo. /health e /config dizem se a
+busca está disponível.
 """
 import os
+import sys
 from contextlib import asynccontextmanager
 
 from dotenv import load_dotenv
@@ -35,7 +41,18 @@ async def lifespan(app: FastAPI):
     # coleção saem do .env (EMBED_MODEL/CHROMA_COLLECTION), com os defaults
     # definidos em search.py: o servidor roda um modelo mais leve que a máquina
     # de desenvolvimento, então isso é configuração, não constante de código.
-    search.init()
+    #
+    # Falhar aqui NÃO impede a API de subir: metade das rotas (/simplicidade,
+    # /escopos) só lê os .txt do corpus e não depende de motor nenhum, então
+    # derrubar o processo por falta de Meilisearch ou de índice tiraria do ar
+    # também o que funcionaria. O motivo fica em search.indisponivel e vira 503
+    # nas rotas que precisam de busca.
+    try:
+        search.init()
+    except search.BuscaIndisponivel as exc:
+        print(f"⚠️  Busca indisponível: {exc}\n"
+              f"   A API vai subir mesmo assim; /simplicidade e /escopos "
+              f"funcionam normalmente.", file=sys.stderr)
     yield
 
 
@@ -73,7 +90,17 @@ def _jsonificar(resultados: dict) -> dict:
 
 @app.get("/health")
 def health():
-    return {"status": "ok"}
+    """Status do processo e, à parte, o da busca.
+
+    `status` é do serviço HTTP (se responde, está ok). `busca` diz se os
+    motores subiram — é o que distingue "API no ar sem índice" de "API fora do
+    ar", que da parte do cliente pareceriam a mesma coisa.
+    """
+    return {
+        "status": "ok",
+        "busca": "indisponivel" if search.indisponivel else "ok",
+        "motivo": search.indisponivel,
+    }
 
 
 class LoteTextos(BaseModel):
@@ -107,7 +134,9 @@ def embed(lote: LoteTextos, request: Request):
     """
     _exigir_loopback(request)
     if search.model is None:
-        raise HTTPException(status_code=503, detail="Modelo ainda não carregado.")
+        raise HTTPException(
+            status_code=503,
+            detail=f"Modelo não carregado. {search.indisponivel or ''}".strip())
     vetores = encode_docs(search.model, lote.textos).tolist()
     return {"modelo": search.model_atual, "vetores": vetores}
 
@@ -123,22 +152,60 @@ def config():
         "modelo": search.model_atual,
         "colecao": search.colecao_atual,
         "min_score_padrao": search.min_score_atual,
+        # Mesmo com a busca fora, estes três vêm preenchidos (search.init() os
+        # define antes de carregar qualquer coisa), então o slider da página
+        # continua certo e ela ainda consegue avisar que a busca está fora.
+        "busca_disponivel": search.indisponivel is None,
+        "motivo_indisponivel": search.indisponivel,
     }
+
+
+@app.get("/escopos")
+def escopos():
+    """Os dois eixos de recorte aceitos em /simplicidade.
+
+    Existe para o frontend montar os filtros sem hardcodar nada: hoje são bulas
+    de hipertensão e oncologia, e quando entrarem outros gêneros de documento
+    (termos de consentimento, por exemplo) eles aparecem aqui sozinhos, sem
+    mudança no cliente.
+
+      - `escopos`: a árvore temática. Cada nó tem id ("bula/oncologia"),
+        rótulo, nível, filhos, contagem de documentos e
+        `documentos_por_proveniencia` — que é o que permite ao cliente
+        desabilitar cruzamentos vazios. O id vazio significa "todo o corpus".
+      - `proveniencias`: o eixo de como o lado simplificado foi produzido
+        (validado por linguistas × gerado por IA sem revisão). Vazio =
+        qualquer, o que MISTURA as duas referências.
+    """
+    return {"escopos": simplicidade.escopos(),
+            "proveniencias": simplicidade.proveniencias(),
+            "corpus": simplicidade.resumo_corpus(None)}
 
 
 @app.get("/simplicidade")
 def comparar_simplicidade(
     a: str = Query(..., min_length=1, description="Primeiro termo (pode ser multipalavra)"),
     b: str = Query(..., min_length=1, description="Segundo termo"),
+    escopo: str | None = Query(None, description="Recorte temático (ver /escopos): "
+                                                 "ex. 'bula', 'bula/oncologia'. "
+                                                 "Omitido: todo o corpus"),
+    proveniencia: str | None = Query(None, description="Procedência do lado simplificado "
+                                                       "(ver /escopos): 'humana' ou 'ia'. "
+                                                       "Omitido: qualquer"),
 ):
     """Compara dois termos e aponta o mais simples, com base no corpus paralelo.
 
     Não usa os motores de busca: a evidência é a frequência relativa de cada
-    termo nas bulas simplificadas × originais (ver simplicidade.py).
+    termo nas bulas simplificadas × originais (ver simplicidade.py). `escopo`
+    (tema) e `proveniencia` restringem a evidência, e se cruzam: o mesmo par de
+    termos pode trocar de lugar entre um recorte e outro. O recorte usado, seu
+    tamanho e a procedência da evidência voltam no campo `corpus` da resposta —
+    incluindo `proveniencia_mista`, que avisa quando o score sai de uma
+    referência híbrida (parte validada por humanos, parte gerada por IA).
     """
     try:
-        return simplicidade.comparar(a, b)
-    except ValueError as exc:  # termo sem nenhuma letra (ex.: só pontuação)
+        return simplicidade.comparar(a, b, escopo, proveniencia)
+    except ValueError as exc:  # termo sem letras, recorte inexistente ou vazio
         raise HTTPException(status_code=422, detail=str(exc))
 
 
@@ -158,6 +225,10 @@ def buscar(
     try:
         resultados = search.pesquisar(q, n, min_score, somente_simplificada,
                                       somente_original)
-    except Exception as exc:  # Meilisearch fora do ar, índice ausente, etc.
+    except search.BuscaIndisponivel as exc:
+        # Falta de infraestrutura (sem .env, sem índice), não erro de consulta:
+        # a mensagem já diz o que fazer, então vai inteira para o cliente.
+        raise HTTPException(status_code=503, detail=str(exc))
+    except Exception as exc:  # Meilisearch fora do ar no meio da consulta, etc.
         raise HTTPException(status_code=503, detail=f"Erro ao consultar os motores de busca: {exc}")
     return _jsonificar(resultados)

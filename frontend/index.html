@@ -655,6 +655,54 @@
       .compare-bar button:hover {
         background: var(--teal);
       }
+      /* Seletor de recorte do corpus: fica FORA da compare-bar porque não é
+         um termo, é o universo em que os dois termos são comparados. */
+      .scope-bar {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 12px;
+        font-family: "Atkinson Hyperlegible", sans-serif;
+        font-size: 0.85rem;
+        color: var(--ink-soft);
+      }
+      .scope-bar label {
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        font-weight: 700;
+        font-size: 0.72rem;
+      }
+      .scope-bar select {
+        font-family: inherit;
+        font-size: 0.9rem;
+        color: var(--ink);
+        background: #fffdf8;
+        border: 2px solid var(--ink);
+        padding: 7px 12px;
+        cursor: pointer;
+        max-width: 100%;
+      }
+      .scope-bar .hint {
+        font-style: italic;
+      }
+      .simp-result .verdict .escopo {
+        margin-top: 6px;
+        font-size: 0.82rem;
+        color: var(--ink-soft);
+        font-family: "Atkinson Hyperlegible", sans-serif;
+      }
+      /* O lado simplificado é a referência do que o score chama de "simples".
+         Quando ele não foi validado por humanos, isso precisa estar na cara. */
+      .simp-result .verdict .proveniencia {
+        margin-top: 8px;
+        padding: 8px 12px;
+        border-left: 3px solid var(--coral);
+        background: rgba(214, 90, 62, 0.07);
+        font-size: 0.82rem;
+        font-family: "Atkinson Hyperlegible", sans-serif;
+        color: var(--ink);
+      }
       .compare-bar button:active {
         background: var(--coral);
       }
@@ -770,6 +818,18 @@
       .freq-row .num {
         white-space: nowrap;
         font-variant-numeric: tabular-nums;
+      }
+      /* Ocorrências entre parênteses: mostradas como nota, porque NÃO entram
+         no score (ver o texto de apoio da seção). */
+      .freq-row .num i {
+        font-style: normal;
+        opacity: 0.6;
+      }
+      .term-card .t-score .parcelas {
+        display: block;
+        margin-top: 2px;
+        font-size: 0.8rem;
+        opacity: 0.75;
       }
       .term-card .t-score {
         margin-top: 16px;
@@ -939,8 +999,19 @@
           Compare dois termos e veja qual deles a linguagem acessível prefere. A
           evidência vem do próprio corpus paralelo: um termo relativamente mais
           frequente nas bulas <strong>simplificadas</strong> do que nas
-          <strong>originais</strong> é o que os simplificadores escolheram — com
-          familiaridade e sílabas como critérios de desempate.
+          <strong>originais</strong> é o que os simplificadores escolheram, e
+          só de <strong>estar presente</strong> na versão validada o termo já
+          ganha pontos. Ocorrências <strong>entre parênteses</strong> não
+          contam: ali costuma estar o termo técnico que a bula simplificada é
+          obrigada a exibir — «pressão alta (hipertensão)». Familiaridade e
+          comprimento entram como critérios de desempate. A comparação pode ser
+          restrita a um <strong>recorte do corpus</strong> — todas as bulas, só
+          as de hipertensão, só as de oncologia —, porque o que é simples num
+          domínio não é necessariamente simples no outro. Repare na
+          <strong>procedência</strong> de cada recorte: as bulas de hipertensão
+          foram simplificadas e validadas por linguistas, e as de oncologia
+          foram simplificadas por IA sem revisão profissional — o que muda o
+          estatuto da evidência.
         </p>
         <form class="compare-bar" id="cmp-form">
           <input
@@ -958,6 +1029,19 @@
           />
           <button type="submit" id="cmp-go">Comparar</button>
         </form>
+        <div class="scope-bar">
+          <label for="cmp-escopo">Tema</label>
+          <select id="cmp-escopo">
+            <option value="">Todo o corpus</option>
+          </select>
+          <label for="cmp-proveniencia">Procedência</label>
+          <select id="cmp-proveniencia">
+            <option value="">Qualquer (mistura as duas)</option>
+          </select>
+          <span class="hint"
+            >o mesmo par pode trocar de lugar de um recorte para outro</span
+          >
+        </div>
         <div class="examples" id="cmp-examples">
           Experimente:
           <button data-a="cefaleia" data-b="dor de cabeça">
@@ -971,7 +1055,8 @@
           </button>
         </div>
         <div class="api-note">
-          Chamando <code>GET /simplicidade?a=…&amp;b=…</code> — este endpoint só
+          Chamando <code>GET /simplicidade?a=…&amp;b=…&amp;escopo=…</code> (os
+          recortes vêm de <code>GET /escopos</code>) — este endpoint só
           lê o corpus, não precisa do Meilisearch nem do modelo de embedding.
         </div>
         <div class="status" id="cmp-status" hidden></div>
@@ -1067,6 +1152,16 @@
           if (typeof cfg.min_score_padrao === "number") {
             minInput.value = cfg.min_score_padrao;
             minVal.textContent = cfg.min_score_padrao.toFixed(2);
+          }
+          // A API sobe mesmo sem Meilisearch/índice — nesse caso a busca
+          // responde 503, mas o comparador de simplicidade funciona. Avisar
+          // aqui evita que o usuário descubra isso só depois de buscar.
+          if (cfg.busca_disponivel === false) {
+            statusEl.className = "status error";
+            statusEl.innerHTML =
+              "Busca indisponível: " +
+              esc(String(cfg.motivo_indisponivel || "").replace(/\s+/g, " ")) +
+              " — o comparador de simplicidade, mais abaixo, continua funcionando.";
           }
         } catch {
           /* API fora do ar: a busca já avisa o usuário. */
@@ -1369,13 +1464,79 @@
       // Explicação humana de cada critério da cascata de decisão da API.
       const CRITERIOS = {
         corpus:
-          "Decidido pelo corpus: o vencedor é relativamente mais frequente nas bulas simplificadas do que nas originais.",
+          "Decidido pelo corpus: o vencedor é relativamente mais frequente nas bulas simplificadas (fora de parênteses) do que nas originais, e/ou está atestado em mais bulas simplificadas.",
         familiaridade:
           "Scores de corpus próximos (ou só um termo com evidência) — decidiu a familiaridade: o termo mais frequente no corpus como um todo.",
         heuristica:
-          "Sem evidência suficiente no corpus — decidiram as heurísticas de superfície (menos sílabas; depois, menos caracteres).",
+          "Sem evidência suficiente no corpus — decidiu o comprimento (menos caracteres). É o critério mais fraco: comprimento não é simplicidade.",
         empate: "Nada distingue os dois termos.",
       };
+
+      const cmpEscopo = document.getElementById("cmp-escopo");
+      const cmpProveniencia = document.getElementById("cmp-proveniencia");
+
+      // Quantos documentos cada tema tem de cada procedência, para desabilitar
+      // cruzamentos vazios dos dois eixos (ex.: hipertensão × IA não existe).
+      let docsPorEscopoProv = { "": {} };
+
+      // Monta os dois filtros a partir de GET /escopos: a árvore temática e o
+      // eixo de procedência vêm do servidor, então acrescentar "Termos de
+      // consentimento → exames de imagem" — ou uma terceira procedência — não
+      // pede mudança aqui. A árvore é percorrida em recursão porque pode ter
+      // mais de dois níveis.
+      async function carregarEscopos() {
+        let dados;
+        try {
+          const res = await fetch(`${API_BASE}/escopos`);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          dados = await res.json();
+        } catch {
+          return; // API fora do ar: ficam só as opções neutras
+        }
+        const opcoes = [];
+        const visitar = (nos) => {
+          for (const no of nos) {
+            const docs = no.documentos ? no.documentos.simplificada : null;
+            docsPorEscopoProv[no.id] = no.documentos_por_proveniencia || {};
+            opcoes.push(
+              `<option value="${esc(no.id)}">${"\u00a0\u00a0\u00a0".repeat(no.nivel)}${esc(
+                no.rotulo,
+              )}${docs ? ` · ${docs} documentos` : ""}</option>`,
+            );
+            visitar(no.filhos || []);
+          }
+        };
+        visitar(dados.escopos);
+        cmpEscopo.insertAdjacentHTML("beforeend", opcoes.join(""));
+
+        // Raiz virtual "todo o corpus": soma o que cada raiz tem.
+        for (const no of dados.escopos)
+          for (const [pid, qtd] of Object.entries(no.documentos_por_proveniencia || {}))
+            docsPorEscopoProv[""][pid] = (docsPorEscopoProv[""][pid] || 0) + qtd;
+
+        cmpProveniencia.insertAdjacentHTML(
+          "beforeend",
+          (dados.proveniencias || [])
+            .map((p) => `<option value="${esc(p.id)}">${esc(p.rotulo)}</option>`)
+            .join(""),
+        );
+        cmpEscopo.addEventListener("change", ajustarProveniencias);
+        ajustarProveniencias();
+      }
+
+      // Desabilita as procedências que não existem no tema escolhido — e, se a
+      // selecionada virou impossível, volta para "qualquer" em vez de deixar o
+      // usuário mandar uma combinação que a API vai recusar.
+      function ajustarProveniencias() {
+        const disp = docsPorEscopoProv[cmpEscopo.value] || {};
+        for (const opt of cmpProveniencia.options) {
+          if (!opt.value) continue;
+          opt.disabled = !disp[opt.value];
+        }
+        const atual = cmpProveniencia.selectedOptions[0];
+        if (atual && atual.disabled) cmpProveniencia.value = "";
+      }
+      carregarEscopos();
 
       document.querySelectorAll("#cmp-examples button").forEach((b) => {
         b.addEventListener("click", () => {
@@ -1404,7 +1565,12 @@
         cmpStatus.innerHTML = `<span class="spinner"></span>Comparando "${esc(a)}" × "${esc(b)}"…`;
         cmpResult.innerHTML = "";
 
-        const url = `${API_BASE}/simplicidade?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`;
+        const escopo = cmpEscopo.value;
+        const proveniencia = cmpProveniencia.value;
+        const url =
+          `${API_BASE}/simplicidade?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}` +
+          (escopo ? `&escopo=${encodeURIComponent(escopo)}` : "") +
+          (proveniencia ? `&proveniencia=${encodeURIComponent(proveniencia)}` : "");
         try {
           const res = await fetch(url);
           if (!res.ok) {
@@ -1446,8 +1612,35 @@
           data.b.simplificada.freq_por_milhao,
           1,
         );
+        // O recorte volta na resposta (não é lido do <select>): assim o que
+        // aparece na tela é o corpus que o servidor realmente usou.
+        const c = data.corpus;
+        const escopoLinha = c
+          ? `<div class="escopo">Tema: <strong>${esc(c.rotulo)}</strong> — ${
+              c.documentos.original
+            } documentos originais × ${c.documentos.simplificada} simplificados (${
+              c.tokens.simplificada
+            } tokens fora de parênteses no lado simplificado)</div>`
+          : "";
+        // Procedência do lado simplificado: é ele que define o que o score
+        // chama de "simples", então quando não é validado por humanos (ou
+        // mistura as duas origens) o aviso vem junto do veredito.
+        const procs = (c && c.proveniencias) || [];
+        const soHumana = procs.length === 1 && procs[0].id === "humana";
+        const filtrado = c && c.proveniencia ? " (filtro aplicado)" : "";
+        const proveniencia = procs.length
+          ? `<div class="${soHumana ? "escopo" : "proveniencia"}">Procedência${filtrado}: ${procs
+              .map((p) => esc(p.rotulo))
+              .join(" + ")}${
+              c.proveniencia_mista
+                ? " — este recorte <strong>mistura</strong> evidência validada por humanos com evidência gerada por IA; o score sai de uma referência híbrida."
+                : soHumana
+                  ? ""
+                  : " — o score reflete o vocabulário que a IA deixou passar, não uma escolha editorial revisada."
+            }</div>`
+          : "";
         cmpResult.innerHTML = `
-      <div class="verdict">${verdict}<div class="crit">${crit}</div></div>
+      <div class="verdict">${verdict}<div class="crit">${crit}</div>${escopoLinha}${proveniencia}</div>
       <div class="term-grid">
         ${termCardHtml(data.a, aWin, maxFpm)}
         ${termCardHtml(data.b, bWin, maxFpm)}
@@ -1471,6 +1664,8 @@
           .join("");
       }
 
+      const sinal = (v) => (Number(v) > 0 ? "+" : "") + Number(v).toFixed(2);
+
       function termCardHtml(t, isWin, maxFpm) {
         const score = Number(t.score_simplicidade);
         const scoreCls = score > 0 ? "pos" : score < 0 ? "neg" : "";
@@ -1481,7 +1676,11 @@
         <div class="freq-row ${cls}">
           <span>${rotulo}</span>
           <span class="bar"><i style="width:${bar(lado.freq_por_milhao)}%"></i></span>
-          <span class="num">${lado.ocorrencias}× em ${lado.documentos} bulas</span>
+          <span class="num">${lado.ocorrencias}× em ${lado.documentos} documentos${
+            lado.ocorrencias_parenteses
+              ? ` <i title="Ocorrências dentro de parênteses — geralmente o termo técnico reexibido depois da paráfrase leiga. Não entram no score.">+${lado.ocorrencias_parenteses} em ( )</i>`
+              : ""
+          }</span>
         </div>`;
         const exemplo = t.exemplo_simplificada
           ? { lbl: "Exemplo na bula simplificada", txt: t.exemplo_simplificada }
@@ -1491,17 +1690,24 @@
         return `
       <div class="term-card${isWin ? " winner" : ""}">
         <div class="t-name">«${esc(t.termo)}»${isWin ? '<span class="win-badge">✓ mais simples</span>' : ""}</div>
-        ${t.no_corpus ? "" : '<div class="no-corpus">Termo não encontrado no corpus — sem evidência de frequência.</div>'}
+        ${
+          t.no_corpus
+            ? ""
+            : t.somente_em_parenteses
+              ? '<div class="no-corpus">Termo só aparece <strong>entre parênteses</strong> neste recorte — sem evidência de uso corrido.</div>'
+              : '<div class="no-corpus">Termo não encontrado neste recorte do corpus — sem evidência de frequência.</div>'
+        }
         <div class="freq-rows">
           ${freqRow("orig", "Originais", t.original)}
           ${freqRow("simp", "Simplificadas", t.simplificada)}
         </div>
         <div class="t-score"
-             title="log₂ da razão entre a frequência relativa nas bulas simplificadas e nas originais — positivo = característico da linguagem simples; 0 = ausente do corpus">
+             title="log₂ da razão entre a frequência relativa nas bulas simplificadas e nas originais (ignorando ocorrências entre parênteses), mais um bônus por estar atestado em bulas simplificadas distintas — positivo = característico da linguagem simples; 0 = sem evidência no corpus">
           Score de simplicidade<b class="${scoreCls}">${score > 0 ? "+" : ""}${score.toFixed(2)}</b>
+          <span class="parcelas">razão de frequências ${sinal(t.razao_frequencias)} · atestação nas simplificadas ${sinal(t.bonus_atestacao)}</span>
         </div>
         <div class="t-stats">
-          familiaridade ${t.freq_total_por_milhao}/milhão · ${t.silabas} sílaba(s) · ${t.caracteres} caractere(s)
+          familiaridade ${t.freq_total_por_milhao}/milhão · ${t.caracteres} caractere(s)
         </div>
         ${exemplo ? `<div class="t-example"><span class="lbl">${esc(exemplo.lbl)}</span>${highlightTerm(exemplo.txt, t.termo)}</div>` : ""}
       </div>`;

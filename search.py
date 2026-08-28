@@ -13,6 +13,16 @@ from sinonimos import expandir_query, sinonimos_da_query
 from modelos import (carregar_modelo, encode_query, encode_docs, min_score_padrao,
                      EMBED_MODEL_PADRAO, CHROMA_COLLECTION_PADRAO)
 
+class BuscaIndisponivel(RuntimeError):
+    """Os motores de busca, ou o índice, não estão prontos.
+
+    init() e pesquisar() levantam isto em vez de derrubar o processo: a API
+    precisa subir mesmo sem Meilisearch/ChromaDB, porque /simplicidade e
+    /escopos só leem os .txt do corpus e não dependem de motor nenhum. Quem
+    chama pela CLI trata como erro fatal (ver o bloco __main__).
+    """
+
+
 # Globais preenchidas por init(). Permanecem None até a inicialização ser
 # chamada (pelo bloco __main__ da CLI ou pelo startup da API em api.py).
 model = None
@@ -26,6 +36,9 @@ chroma_coll = None
 model_atual = None
 colecao_atual = None
 min_score_atual = None
+# Motivo de a busca estar indisponível (str), ou None quando ela está pronta.
+# Preenchido por init() e reportado em /health, /config e no 503 de /buscar.
+indisponivel = None
 
 
 
@@ -35,63 +48,112 @@ def init(embed_model=None, chroma_collection=None):
     Idempotente: chamadas repetidas não recarregam o modelo. Deve ser
     chamada uma única vez antes de pesquisar().
 
+    NÃO derruba o processo quando algo falta: levanta `BuscaIndisponivel` e
+    deixa o motivo em `indisponivel`. Quem chama decide — a CLI trata como erro
+    fatal, a API sobe assim mesmo e responde 503 só nas rotas de busca.
+
     `embed_model` e `chroma_collection` (se passados) têm prioridade sobre as
     variáveis de ambiente EMBED_MODEL/CHROMA_COLLECTION — a api.py usa isso para
     fixar bge-m3 + coleção estrutural. O modelo e a coleção precisam CASAR com o
     que foi usado na indexação.
     """
     global model, meili_client, meili_index, chroma_client, chroma_coll
-    global model_atual, colecao_atual, min_score_atual
+    global model_atual, colecao_atual, min_score_atual, indisponivel
     if model is not None:
+        # Já inicializado. Se a busca ficou indisponível por índice vazio, vale
+        # outra olhada: a indexação pode ter rodado DEPOIS do startup — é
+        # justamente o que o endpoint /embed permite —, e aí a busca volta
+        # sozinha, sem reiniciar o serviço.
+        if indisponivel and chroma_coll is not None and chroma_coll.count() > 0:
+            indisponivel = None
         return
 
     load_dotenv()
-    meili_key = os.getenv('MEILI_MASTER_KEY')
-    # 127.0.0.1 e NÃO 'localhost': o Meilisearch escuta só em IPv4, e com
-    # 'localhost' o cliente tenta ::1 primeiro e espera o timeout — medido em
-    # 2,03s por consulta contra 0,009s aqui, 226x mais lento, sem nada aparecer
-    # nos logs porque o próprio Meili reporta processingTimeMs=0.
-    meili_url = os.getenv('MEILI_URL', 'http://127.0.0.1:7700')
-    if not meili_key:
-        print("❌ Erro: MEILI_MASTER_KEY não encontrada no arquivo .env", file=sys.stderr)
-        sys.exit(1)
-
-    print("Conectando aos motores de busca...", file=sys.stderr)
     embed_model = embed_model or os.getenv('EMBED_MODEL') or EMBED_MODEL_PADRAO
     chroma_collection = (chroma_collection or os.getenv('CHROMA_COLLECTION')
                          or CHROMA_COLLECTION_PADRAO)
-    model = carregar_modelo(embed_model)
     # Cada modelo tem sua faixa de cosseno: o limiar acompanha o modelo, senão
     # trocar de modelo silenciosamente passa a filtrar demais ou de menos.
+    # Preenchidos ANTES de carregar qualquer coisa, de propósito: mesmo que a
+    # inicialização falhe, /config sabe dizer que modelo e coleção o serviço
+    # esperava, e o slider da página continua com o limiar certo.
     model_atual = embed_model
     colecao_atual = chroma_collection
     min_score_atual = min_score_padrao(embed_model)
 
-    meili_client = meilisearch.Client(meili_url, meili_key)
-    meili_index = meili_client.index('corpop_saude')
+    try:
+        meili_key = os.getenv('MEILI_MASTER_KEY')
+        # 127.0.0.1 e NÃO 'localhost': o Meilisearch escuta só em IPv4, e com
+        # 'localhost' o cliente tenta ::1 primeiro e espera o timeout — medido em
+        # 2,03s por consulta contra 0,009s aqui, 226x mais lento, sem nada aparecer
+        # nos logs porque o próprio Meili reporta processingTimeMs=0.
+        meili_url = os.getenv('MEILI_URL', 'http://127.0.0.1:7700')
+        if not meili_key:
+            raise BuscaIndisponivel(
+                "MEILI_MASTER_KEY não encontrada no arquivo .env — copie o "
+                ".env.example para .env e defina a chave.")
 
-    chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
-    chroma_coll = chroma_client.get_or_create_collection(
-        name=chroma_collection,
-        metadata={"hnsw:space": "cosine"},
-    )
+        print("Conectando aos motores de busca...", file=sys.stderr)
+        modelo = carregar_modelo(embed_model)
+
+        cliente_meili = meilisearch.Client(meili_url, meili_key)
+        indice_meili = cliente_meili.index('corpop_saude')
+
+        cliente_chroma = chromadb.PersistentClient(path=CHROMA_PATH)
+        colecao = cliente_chroma.get_or_create_collection(
+            name=chroma_collection,
+            metadata={"hnsw:space": "cosine"},
+        )
+    except BuscaIndisponivel as exc:
+        indisponivel = str(exc)
+        raise
+    except Exception as exc:
+        # Qualquer outra falha (modelo que não baixa, disco do Chroma ilegível,
+        # dependência quebrada) vira o mesmo estado observável, para quem chama
+        # ter só um erro a tratar.
+        indisponivel = f"falha ao inicializar a busca — {type(exc).__name__}: {exc}"
+        raise BuscaIndisponivel(indisponivel) from exc
+
+    # As globais só são publicadas depois de tudo carregar: uma falha acima
+    # deixa `model is None`, o que mantém init() repetível e faz pesquisar()
+    # recusar a chamada em vez de estourar em algum atributo None.
+    model = modelo
+    meili_client, meili_index = cliente_meili, indice_meili
+    chroma_client, chroma_coll = cliente_chroma, colecao
+    indisponivel = None
+
     # get_or_create devolve uma coleção VAZIA quando o nome não existe, e o erro
     # só apareceria lá na frente como um TypeError obscuro do Chroma. Falhar aqui,
     # dizendo o que fazer, é o que separa "índice não construído" de "bug".
+    #
+    # Repare que isto vem DEPOIS de publicar o modelo, de propósito: com o índice
+    # vazio a busca não funciona, mas /embed sim — e é dele que a indexação
+    # depende para não carregar uma segunda cópia do modelo. Fosse o contrário,
+    # a primeira indexação de um servidor novo ficaria presa numa dependência
+    # circular (não indexa porque a API não subiu, a API não sobe porque não há
+    # índice).
     if chroma_coll.count() == 0:
-        print(f"❌ Erro: a coleção '{chroma_collection}' está vazia (modelo "
-              f"'{embed_model}').\n   Rode a indexação antes de buscar:\n"
-              f"   EMBED_MODEL={embed_model} CHROMA_COLLECTION={chroma_collection} "
-              f"uv run python embedding.py", file=sys.stderr)
-        sys.exit(1)
+        indisponivel = (
+            f"a coleção '{chroma_collection}' está vazia (modelo "
+            f"'{embed_model}').\n   Rode a indexação antes de buscar:\n"
+            f"   EMBED_MODEL={embed_model} CHROMA_COLLECTION={chroma_collection} "
+            f"uv run python embedding.py")
+        raise BuscaIndisponivel(indisponivel)
 
 
 # --- Função de Pesquisa Híbrida ---
 def pesquisar(query, limite=1, min_score=None, somente_simplificada=False,
               somente_original=False):
-    """Busca híbrida. `min_score=None` usa o limiar próprio do modelo carregado."""
+    """Busca híbrida. `min_score=None` usa o limiar próprio do modelo carregado.
+
+    Levanta `BuscaIndisponivel` se os motores não estiverem prontos (sem .env,
+    sem índice construído): a inicialização preguiçosa acontece aqui, e falhar
+    dizendo o quê é melhor do que estourar num atributo None lá dentro.
+    """
     if model is None:
         init()
+    if indisponivel:
+        raise BuscaIndisponivel(indisponivel)
     if min_score is None:
         min_score = min_score_atual
 
@@ -316,7 +378,13 @@ if __name__ == "__main__":
                         help='Busca semântica só nos chunks da bula original (texto técnico).')
 
     args = parser.parse_args()
-    init()
+    # Na CLI, motor fora do ar continua sendo erro fatal — o que mudou é que
+    # quem decide isso é aqui, não o init().
+    try:
+        init()
+    except BuscaIndisponivel as exc:
+        print(f"❌ Erro: {exc}", file=sys.stderr)
+        sys.exit(1)
     resultados = pesquisar(args.query, args.n, args.min_score,
                            args.somente_simplificada, args.somente_original)
 
