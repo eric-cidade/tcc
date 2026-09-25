@@ -201,6 +201,16 @@ sudo systemctl restart corpop-saude-api
 Se a atualização mexeu em chunking, modelo ou metadados, rode também o
 `reindexar.sh` — o índice em disco não se atualiza sozinho.
 
+Se mexeu em `deploy/nginx-corpop-saude.conf` (por exemplo, uma rota nova na
+API), reinstale o site. O `setup.sh` **copia** o arquivo para `/etc/nginx`, então
+o `git pull` sozinho não o atualiza:
+
+```bash
+sudo install -m 644 /opt/corpop-saude/deploy/nginx-corpop-saude.conf \
+    /etc/nginx/sites-available/corpop-saude
+sudo nginx -t && sudo systemctl reload nginx
+```
+
 ## Operação
 
 | Ação | Comando |
