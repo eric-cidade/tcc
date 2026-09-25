@@ -853,6 +853,45 @@
         font-size: 0.85rem;
         color: var(--ink-soft);
       }
+      /* Métrica ADICIONAL (TF-IDF): não decide nada, então fica embaixo do
+         score principal, separada por um filete e em corpo menor — visível
+         para quem for atrás dela, sem disputar a leitura com o score. */
+      .term-card .t-tfidf {
+        margin-top: 12px;
+        padding-top: 8px;
+        border-top: 1px dashed var(--line);
+        font-size: 0.8rem;
+        color: var(--ink-soft);
+      }
+      .term-card .t-tfidf .lbl {
+        display: block;
+        font-size: 0.62rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        opacity: 0.7;
+        margin-bottom: 2px;
+      }
+      .term-card .t-tfidf b {
+        font-weight: 700;
+      }
+      .term-card .t-tfidf b.pos {
+        color: var(--teal);
+      }
+      .term-card .t-tfidf b.neg {
+        color: var(--coral);
+      }
+      .term-card .t-tfidf .idf {
+        display: block;
+        margin-top: 2px;
+        opacity: 0.7;
+      }
+      .simp-result .verdict .tfidf-nota {
+        margin-top: 6px;
+        font-size: 0.8rem;
+        color: var(--ink-soft);
+        opacity: 0.85;
+        font-family: "Atkinson Hyperlegible", sans-serif;
+      }
       .term-card .t-example {
         margin-top: 16px;
         padding: 8px 12px;
@@ -1011,7 +1050,10 @@
           <strong>procedência</strong> de cada recorte: as bulas de hipertensão
           foram simplificadas e validadas por linguistas, e as de oncologia
           foram simplificadas por IA sem revisão profissional — o que muda o
-          estatuto da evidência.
+          estatuto da evidência. Abaixo do score de cada termo aparece ainda uma
+          <strong>métrica adicional</strong>, o TF-IDF clássico do termo em cada
+          lado do corpus: é uma segunda leitura da mesma evidência, informativa,
+          que <strong>não</strong> entra no veredito.
         </p>
         <form class="compare-bar" id="cmp-form">
           <input
@@ -1639,8 +1681,25 @@
                   : " — o score reflete o vocabulário que a IA deixou passar, não uma escolha editorial revisada."
             }</div>`
           : "";
+        // Métrica adicional: o que o TF-IDF diria se decidisse sozinho. Vem
+        // depois do critério, em tom secundário, porque o veredito acima não
+        // depende dela — só é útil saber quando as duas leituras divergem.
+        const tf = data.tfidf;
+        const tfidfNota = !tf
+          ? ""
+          : `<div class="tfidf-nota">Métrica adicional (TF-IDF, não entra no veredito): ${
+              tf.mais_simples
+                ? `apontaria «<em>${esc(tf.mais_simples)}</em>» — ${
+                    tf.concorda === true
+                      ? "concorda com o critério acima"
+                      : tf.concorda === false
+                        ? "<strong>diverge</strong> do critério acima"
+                        : "não há veredito principal para comparar"
+                  }`
+                : "não distingue os dois termos"
+            } <span class="syn-chip">ΔTF-IDF ${sinal3(tf.delta)}</span></div>`;
         cmpResult.innerHTML = `
-      <div class="verdict">${verdict}<div class="crit">${crit}</div>${escopoLinha}${proveniencia}</div>
+      <div class="verdict">${verdict}<div class="crit">${crit}</div>${escopoLinha}${proveniencia}${tfidfNota}</div>
       <div class="term-grid">
         ${termCardHtml(data.a, aWin, maxFpm)}
         ${termCardHtml(data.b, bWin, maxFpm)}
@@ -1665,6 +1724,29 @@
       }
 
       const sinal = (v) => (Number(v) > 0 ? "+" : "") + Number(v).toFixed(2);
+
+      // Métrica ADICIONAL, embaixo do score: TF-IDF do termo em cada lado do
+      // corpus. Não entra no veredito — é uma segunda leitura da mesma
+      // evidência, no vocabulário padrão de recuperação de informação.
+      function tfidfHtml(t) {
+        const tf = t.tfidf;
+        if (!tf) return "";
+        const d = Number(tf.delta);
+        const cls = d > 0 ? "pos" : d < 0 ? "neg" : "";
+        const lado = d > 0 ? "simplificadas" : d < 0 ? "originais" : "nenhum lado";
+        return `
+        <div class="t-tfidf"
+             title="Métrica adicional, fora do score: TF-IDF médio do termo em cada lado (TF = ocorrências por mil tokens do documento, fora de parênteses; IDF suavizado sobre os ${tf.n_documentos} documentos do recorte). Δ positivo = o termo pesa mais nas bulas simplificadas.">
+          <span class="lbl">Métrica adicional · TF-IDF</span>
+          originais <b>${Number(tf.original).toFixed(3)}</b> · simplificadas
+          <b>${Number(tf.simplificada).toFixed(3)}</b> · Δ
+          <b class="${cls}">${sinal3(d)}</b>
+          ${d ? `(pesa mais nas ${lado})` : ""}
+          <span class="idf">idf ${Number(tf.idf).toFixed(2)} — termo em ${tf.documentos} de ${tf.n_documentos} documentos do recorte</span>
+        </div>`;
+      }
+
+      const sinal3 = (v) => (Number(v) > 0 ? "+" : "") + Number(v).toFixed(3);
 
       function termCardHtml(t, isWin, maxFpm) {
         const score = Number(t.score_simplicidade);
@@ -1709,6 +1791,7 @@
         <div class="t-stats">
           familiaridade ${t.freq_total_por_milhao}/milhão · ${t.caracteres} caractere(s)
         </div>
+        ${tfidfHtml(t)}
         ${exemplo ? `<div class="t-example"><span class="lbl">${esc(exemplo.lbl)}</span>${highlightTerm(exemplo.txt, t.termo)}</div>` : ""}
       </div>`;
       }

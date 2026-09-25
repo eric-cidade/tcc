@@ -21,6 +21,12 @@ com duas correções calibradas neste corpus (ver SIMPLICIDADE.md):
 O comprimento do termo entra só como desempate, quando o corpus não tem
 evidência nenhuma.
 
+Junto com esse score vai uma métrica ADICIONAL, o TF-IDF clássico do termo em
+cada lado do corpus (ver `_tfidf_medio`). Ela é informativa, não decide nada: o
+veredito continua saindo da cascata de `comparar`. Serve como segunda opinião —
+um ponto de vista padrão de recuperação de informação sobre a mesma evidência —
+e o quanto ela concorda com o score principal vai na resposta.
+
 A comparação pode ser restrita por DOIS eixos cruzáveis (ver bulas.py):
 
   - ESCOPO (tema/gênero): "bula" compara dentro de todas as bulas,
@@ -74,6 +80,18 @@ MARGEM_SCORE = 0.5
 # ele quase se cancela quando ambos são atestados e pesa justamente no caso que
 # motiva a regra: um termo atestado na versão validada contra outro que não é.
 PESO_ATESTACAO = 1.5
+
+# Diferença mínima entre os Δ TF-IDF dos dois termos para a métrica adicional
+# apontar um vencedor. Está na casa da precisão com que os valores são
+# reportados (3 decimais): abaixo dela, dizer que um termo "ganhou" seria ler
+# ruído de arredondamento.
+MARGEM_TFIDF = 0.001
+
+# Fator de escala do TF no TF-IDF adicional: em vez da fração crua de tokens do
+# documento (da ordem de 1e-4, ilegível numa tela), o TF é contado POR MIL
+# TOKENS do documento. É só uma troca de unidade — multiplica os dois lados pela
+# mesma constante e não muda ordem nenhuma.
+ESCALA_TF = 1000
 
 # Documentos do corpus, lidos e tokenizados uma única vez (_carregar_docs).
 _DOCS = None
@@ -149,6 +167,11 @@ def _carregar_docs():
                 with open(os.path.join(path, arq), "r", encoding="utf-8") as f:
                     _, texto = parse_bula(f.read())
                 tokens, dentro = _tokenizar_marcado(texto)
+                # Contagens de unigrama DO DOCUMENTO, separadas por dentro/fora
+                # de parênteses: com elas a contagem de um unigrama num escopo
+                # sai sem varrer a lista de tokens, e o TF-IDF (que precisa do
+                # número por documento, não do total do lado) também.
+                cnt = Counter(t for t, p in zip(tokens, dentro) if not p)
                 docs[lado].append({
                     "escopo": cfg["escopo"],
                     "proveniencia": cfg["proveniencia"],
@@ -156,9 +179,10 @@ def _carregar_docs():
                     "texto": texto,
                     "tokens": tokens,
                     "par": dentro,
-                    # Tokens do doc FORA de parênteses, para a frequência
-                    # documental de unigrama sair sem varrer a lista inteira.
-                    "fora": {t for t, p in zip(tokens, dentro) if not p},
+                    "cnt": cnt,
+                    # Tamanho do documento em tokens fora de parênteses — o
+                    # denominador do TF.
+                    "n_fora": sum(cnt.values()),
                 })
 
     _DOCS = docs
@@ -213,28 +237,32 @@ def _indice(escopo=None, proveniencia=None):
 
 
 def _contar_no_lado(termo_tokens, lado):
-    """(ocorrências, ocorrências entre parênteses, nº de docs) num lado.
+    """(ocorrências, ocorrências entre parênteses, nº de docs, por documento).
 
-    As duas contagens são disjuntas: a primeira só conta ocorrências em texto
-    corrido — é ela que alimenta o score —, e a segunda registra as que caem
-    dentro de parênteses, devolvidas à parte como evidência (na bula
+    As duas primeiras contagens são disjuntas: a primeira só conta ocorrências
+    em texto corrido — é ela que alimenta o score —, e a segunda registra as que
+    caem dentro de parênteses, devolvidas à parte como evidência (na bula
     simplificada elas são, quase sempre, o termo técnico obrigatório entre
     parênteses depois da paráfrase leiga). Uma ocorrência multipalavra que
     encoste em parêntese conta como parentética: não é uso corrido limpo.
 
-    Unigramas saem direto dos Counters; termos multipalavra são contados como
-    subsequência exata de tokens dentro de cada documento (o que ignora
-    pontuação/caixa entre as palavras, de propósito).
+    O último item é a lista das ocorrências em texto corrido documento a
+    documento, alinhada com `lado["docs"]`: é o que o TF-IDF precisa, e sai de
+    graça da mesma varredura.
+
+    Unigramas saem direto dos Counters por documento; termos multipalavra são
+    contados como subsequência exata de tokens dentro de cada documento (o que
+    ignora pontuação/caixa entre as palavras, de propósito).
     """
     k = len(termo_tokens)
     if k == 1:
         alvo = termo_tokens[0]
-        occ = lado["unigramas"][alvo]
-        occ_par = lado["unigramas_par"][alvo]
-        docs = sum(1 for d in lado["docs"] if alvo in d["fora"]) if occ else 0
-        return occ, occ_par, docs
+        por_doc = [d["cnt"][alvo] for d in lado["docs"]]
+        return (lado["unigramas"][alvo], lado["unigramas_par"][alvo],
+                sum(1 for n in por_doc if n), por_doc)
 
     occ = occ_par = doc_freq = 0
+    por_doc = []
     for d in lado["docs"]:
         tokens, par = d["tokens"], d["par"]
         n = n_par = 0
@@ -247,7 +275,8 @@ def _contar_no_lado(termo_tokens, lado):
         occ += n
         occ_par += n_par
         doc_freq += 1 if n else 0
-    return occ, occ_par, doc_freq
+        por_doc.append(n)
+    return occ, occ_par, doc_freq, por_doc
 
 
 def _sentenca_em(texto, pos):
@@ -296,6 +325,44 @@ def _bonus_atestacao(docs_s, n_docs_s):
     if docs_s <= 0 or n_docs_s <= 0:
         return 0.0
     return PESO_ATESTACAO * math.log2(1 + docs_s) / math.log2(1 + n_docs_s)
+
+
+def _idf(doc_freq, n_docs):
+    """IDF suavizado do termo no recorte: ln((1+N)/(1+df)) + 1.
+
+    É o IDF clássico na variante suavizada (a mesma do TfidfVectorizer): o "+1"
+    no numerador e no denominador evita divisão por zero em termo ausente, e o
+    "+1" final impede que um termo presente em TODOS os documentos zere o peso
+    e desapareça da métrica.
+
+    Os documentos contados são os do recorte inteiro — originais E
+    simplificados —, e não os de um lado só: o IDF é uma propriedade do termo na
+    coleção, e calculá-lo por lado faria os dois TF-IDFs saírem de escalas
+    diferentes, justamente o que a comparação entre lados não pode ter.
+    """
+    if n_docs <= 0:
+        return 0.0
+    return math.log((1 + n_docs) / (1 + doc_freq)) + 1
+
+
+def _tfidf_medio(por_doc, lado, idf):
+    """TF-IDF médio do termo entre os documentos de um lado.
+
+    Por documento, TF-IDF = (ocorrências / tokens do documento) × ESCALA_TF ×
+    IDF; o valor do lado é a média sobre TODOS os seus documentos, contando como
+    zero os que não usam o termo. Média sobre todos (e não só sobre os que
+    contêm o termo) porque o que interessa aqui é o quanto o termo caracteriza
+    aquele lado do corpus: um termo em 30 das 40 bulas simplificadas deve pesar
+    mais do que o mesmo termo em uma só.
+
+    Como no score principal, só ocorrências FORA de parênteses entram — tanto no
+    numerador quanto no tamanho do documento.
+    """
+    if not lado["docs"]:
+        return 0.0
+    soma = sum(n / d["n_fora"] for n, d in zip(por_doc, lado["docs"])
+               if n and d["n_fora"])
+    return soma * ESCALA_TF * idf / len(lado["docs"])
 
 
 def escopos():
@@ -400,8 +467,8 @@ def estatisticas(termo, escopo=None, proveniencia=None):
     if not tokens:
         raise ValueError(f"Termo vazio ou sem letras: {termo!r}")
 
-    occ_o, par_o, docs_o = _contar_no_lado(tokens, corpus["original"])
-    occ_s, par_s, docs_s = _contar_no_lado(tokens, corpus["simplificada"])
+    occ_o, par_o, docs_o, por_doc_o = _contar_no_lado(tokens, corpus["original"])
+    occ_s, par_s, docs_s, por_doc_s = _contar_no_lado(tokens, corpus["simplificada"])
     n_o = corpus["original"]["total"]
     n_s = corpus["simplificada"]["total"]
 
@@ -414,6 +481,12 @@ def estatisticas(termo, escopo=None, proveniencia=None):
     else:
         razao = math.log2(((occ_s + 0.5) / (n_s + 1)) / ((occ_o + 0.5) / (n_o + 1)))
     bonus = _bonus_atestacao(docs_s, corpus["simplificada"]["n_docs"])
+
+    # Métrica adicional (não entra no score): TF-IDF do termo em cada lado.
+    n_docs_total = corpus["original"]["n_docs"] + corpus["simplificada"]["n_docs"]
+    idf = _idf(docs_o + docs_s, n_docs_total)
+    tfidf_o = _tfidf_medio(por_doc_o, corpus["original"], idf)
+    tfidf_s = _tfidf_medio(por_doc_s, corpus["simplificada"], idf)
 
     return {
         "termo": termo_norm,
@@ -435,6 +508,18 @@ def estatisticas(termo, escopo=None, proveniencia=None):
         "razao_frequencias": round(razao, 3),
         "bonus_atestacao": round(bonus, 3),
         "atestado_simplificada": occ_s > 0,
+        # MÉTRICA ADICIONAL, à parte do score: TF-IDF clássico do termo em cada
+        # lado, com IDF calculado sobre os documentos do recorte inteiro. O
+        # `delta` (simplificadas − originais) é a leitura direta: positivo = o
+        # termo pesa mais nas bulas simplificadas. Não influencia o veredito.
+        "tfidf": {
+            "original": round(tfidf_o, 3),
+            "simplificada": round(tfidf_s, 3),
+            "delta": round(tfidf_s - tfidf_o, 3),
+            "idf": round(idf, 3),
+            "documentos": docs_o + docs_s,
+            "n_documentos": n_docs_total,
+        },
         # Familiaridade: quão comum o termo é no corpus como um todo (palavras
         # frequentes tendem a ser mais conhecidas do leitor leigo).
         "freq_total_por_milhao": round((occ_o + occ_s) / (n_o + n_s) * 1e6, 2),
@@ -464,6 +549,10 @@ def comparar(termo_a, termo_b, escopo=None, proveniencia=None):
                            mais curto (nº de caracteres). É o último recurso, e
                            o mais fraco: comprimento não é simplicidade.
       4. 'empate'        — nada distingue os termos.
+
+    O campo `tfidf` traz a métrica adicional: o que o TF-IDF diria sozinho e se
+    isso concorda com o veredito. É informação, não critério — nenhum ramo da
+    cascata acima olha para ele.
     """
     escopo = normalizar_escopo(escopo)
     proveniencia = normalizar_proveniencia(proveniencia)
@@ -486,12 +575,30 @@ def comparar(termo_a, termo_b, escopo=None, proveniencia=None):
         mais_simples = a if a["caracteres"] < b["caracteres"] else b
         criterio = "heuristica"
 
+    # Segunda opinião, à parte da cascata: qual termo o TF-IDF apontaria se
+    # decidisse sozinho — vence o de maior Δ TF-IDF (peso nas simplificadas
+    # menos peso nas originais). Nada aqui muda `mais_simples` nem `criterio`;
+    # `concorda` existe para a tela poder dizer se as duas leituras batem.
+    delta_tfidf = a["tfidf"]["delta"] - b["tfidf"]["delta"]
+    tfidf_venc = None
+    if abs(delta_tfidf) >= MARGEM_TFIDF:
+        tfidf_venc = a if delta_tfidf > 0 else b
+
     return {
         "a": a,
         "b": b,
         "mais_simples": mais_simples["termo"] if mais_simples else None,
         "criterio": criterio,
         "delta_score": round(delta, 3),
+        "tfidf": {
+            "mais_simples": tfidf_venc["termo"] if tfidf_venc else None,
+            "delta": round(delta_tfidf, 3),
+            # None = uma das duas leituras não apontou ninguém, então não há o
+            # que concordar. Comparação por identidade (e não pelo texto) para
+            # o caso-limite de os dois termos normalizarem para o mesmo string.
+            "concorda": (None if tfidf_venc is None or mais_simples is None
+                         else tfidf_venc is mais_simples),
+        },
         "corpus": resumo_corpus(escopo, proveniencia),
     }
 
@@ -517,6 +624,10 @@ def _imprimir_termo(rotulo, est):
           f"(razão {est['razao_frequencias']:+.3f} + atestação {est['bonus_atestacao']:+.3f})")
     print(f"  Familiaridade: {est['freq_total_por_milhao']}/milhão  "
           f"| caracteres: {est['caracteres']}")
+    tf = est["tfidf"]
+    print(f"  [adicional] TF-IDF: originais {tf['original']:.3f} · "
+          f"simplificadas {tf['simplificada']:.3f} · Δ {tf['delta']:+.3f} "
+          f"(idf {tf['idf']:.2f}, em {tf['documentos']}/{tf['n_documentos']} documentos)")
     if est["exemplo_simplificada"]:
         print(f"  Ex. (simplificada): {est['exemplo_simplificada'][:120]}")
     elif est["exemplo_original"]:
@@ -592,3 +703,14 @@ if __name__ == "__main__":
               f"(critério: {res['criterio']}, Δscore = {res['delta_score']:+.3f})")
     else:
         print(f"Empate — nada distingue os termos (Δscore = {res['delta_score']:+.3f}).")
+
+    adicional = res["tfidf"]
+    if adicional["mais_simples"]:
+        acordo = ("concorda" if adicional["concorda"] else
+                  "DIVERGE do veredito" if adicional["concorda"] is False else
+                  "sem veredito principal para comparar")
+        print(f"[métrica adicional] TF-IDF apontaria «{adicional['mais_simples']}» "
+              f"(ΔTF-IDF = {adicional['delta']:+.3f}) — {acordo}.")
+    else:
+        print(f"[métrica adicional] TF-IDF não distingue os termos "
+              f"(ΔTF-IDF = {adicional['delta']:+.3f}).")

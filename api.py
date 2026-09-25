@@ -202,6 +202,11 @@ def comparar_simplicidade(
     tamanho e a procedência da evidência voltam no campo `corpus` da resposta —
     incluindo `proveniencia_mista`, que avisa quando o score sai de uma
     referência híbrida (parte validada por humanos, parte gerada por IA).
+
+    Como MÉTRICA ADICIONAL — informativa, sem peso no veredito — cada termo traz
+    também `tfidf` (TF-IDF médio do termo em cada lado do recorte, mais o IDF e
+    a frequência documental usados), e a resposta traz um `tfidf` de topo com o
+    que essa métrica apontaria sozinha e se isso concorda com o `criterio`.
     """
     try:
         return simplicidade.comparar(a, b, escopo, proveniencia)
