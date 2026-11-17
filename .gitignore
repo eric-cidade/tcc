@@ -36,3 +36,9 @@ desktop.ini
 # Data (Opcional: descomente se não quiser subir seus .txt)
 # /csv/ht/original/
 # /csv/ht/simplificada/
+
+/avaliacao
+/experimentos
+experimentos.py
+testes.txt
+/teste
