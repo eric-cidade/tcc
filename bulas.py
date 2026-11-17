@@ -211,8 +211,10 @@ def ler_mapa(caminho):
     O id fica como string de propósito: ele entra na composição dos ids do Chroma
     (ex.: 'hipertensao_7') e vira nome de arquivo, então não pode virar número.
     """
+    # O nome é normalizado: o CSV tem entradas com espaço sobrando ('furosemida '),
+    # que viravam dois remédios diferentes em qualquer agrupamento por nome.
     with open(caminho, newline="", encoding="utf-8") as f:
-        return {linha["id"]: linha["nome"] for linha in csv.DictReader(f)}
+        return {linha["id"]: " ".join(linha["nome"].split()) for linha in csv.DictReader(f)}
 
 
 def parse_bula(raw):
@@ -278,15 +280,49 @@ def chunk_simples(texto, alvo_chars=CHUNK_ALVO_CHARS):
 # Tamanho-alvo (em caracteres) dos chunks de PROSA. Seções em lista (reações,
 # contraindicações, interações) NÃO usam isso: cada item vira um chunk próprio.
 PROSE_ALVO_CHARS = 450
+# Cabeçalho de seção mais longo que isto é conteúdo que começa com número
+# ("5. Gravidez, amamentação e fertilidade Gravidez: Tafinlar® pode causar...").
+SECAO_MAX_CHARS = 130
+# Subtítulo em CAIXA ALTA mais longo que isto é conteúdo (aviso em maiúsculas).
+SUB_CAIXA_ALTA_MAX_CHARS = 80
 
 # Cabeçalho de seção numerada padrão ANVISA: "1. PARA QUE...", "8. Quais os...".
-_RE_SECAO = re.compile(r"^\d+\.\s+\S")
+_RE_SECAO = re.compile(r"^(\d+)\.\s+\S")
 # Faixas de frequência das reações adversas (introduzem listas de sintomas).
+# Aceita singular e feminino ("Comum:", "Raras", "Desconhecida"): as bulas usam
+# as duas formas, e a forma não reconhecida deixava o trecho com o rótulo da
+# faixa ANTERIOR no cabeçalho.
 _RE_FREQ = re.compile(
-    r"^-?\s*(muito comuns|comuns|incomuns|raros?|muito raros?|"
-    r"desconhecidos?|frequência desconhecida)\b", re.IGNORECASE)
+    r"^-?\s*(muito comuns?|pouco comuns?|comuns?|incomuns?|muito rar[oa]s?|rar[oa]s?|"
+    r"desconhecid[oa]s?|frequência desconhecida)\b", re.IGNORECASE)
+# O que vem depois do ":" de uma faixa de frequência e ainda é DEFINIÇÃO da
+# faixa ("pode afetar até 1 em 10 pessoas", "não pode ser estimada..."), e não
+# sintoma.
+_RE_DEF_FREQ = re.compile(
+    r"^\(?\s*(podem?\b|ocorre|afeta|mais de|menos de|at[ée]\b|entre\b|em at[ée]|"
+    r"n[ãa]o (pode|é possível)|frequ[êe]ncia|[<>≥≤]|\d)", re.IGNORECASE)
 # Marcadores de item de lista.
 _RE_ITEM = re.compile(r"^[-–•]\s+")
+
+
+def _separar_freq(linha):
+    """Separa o rótulo de uma faixa de frequência do conteúdo na mesma linha.
+
+    'Desconhecido: vertigem (tontura), cefaleia.' -> ('Desconhecido:', 'vertigem
+    (tontura), cefaleia.'). Sem isso a linha inteira virava subtítulo: os
+    sintomas sumiam como conteúdo e entravam no cabeçalho de TODOS os trechos
+    seguintes da seção — um trecho sobre hemoconcentração passava a "falar" de
+    cefaleia. Quando o resto só define a faixa ('Comuns: pode afetar até 1 em 10
+    pessoas'), a linha continua inteira como rótulo.
+    """
+    nucleo = linha.lstrip("-–• ").strip()
+    if ":" not in nucleo:
+        return nucleo, ""
+    rotulo, resto = nucleo.split(":", 1)
+    resto = resto.strip()
+    if not resto or _RE_DEF_FREQ.match(resto):
+        return nucleo, ""
+    return rotulo.strip() + ":", resto
 
 
 def _eh_subsecao(linha):
@@ -295,8 +331,14 @@ def _eh_subsecao(linha):
     Três formas vistas nas bulas: faixa de frequência ("Comuns (1 a cada 10
     pessoas):"), pergunta-título curta ("O que é pressão alta?", com ou sem "-"
     na frente) e linha em CAIXA ALTA que não é frase ("INFORMAÇÕES AO PACIENTE
-    COM PRESSÃO ALTA"). Avisos em maiúsculas que terminam em pontuação (ex.:
-    "...FORA DO ALCANCE DAS CRIANÇAS.") NÃO contam — são conteúdo.
+    COM PRESSÃO ALTA"). NÃO contam como subtítulo, por serem conteúdo:
+      - avisos em maiúsculas que terminam em pontuação ("...FORA DO ALCANCE DAS
+        CRIANÇAS.");
+      - linhas em maiúsculas longas, com número ou com frase interna — instruções
+        quebradas no meio pela extração do PDF ("ARMAZENAR EM TEMPERATURA
+        AMBIENTE (DE 15ºC A 30ºC). PROTEGER DO").
+    Faixas de frequência com sintomas na mesma linha são tratadas à parte, em
+    `_separar_freq`.
     """
     if _RE_FREQ.match(linha):
         return True
@@ -306,9 +348,77 @@ def _eh_subsecao(linha):
     if nucleo.endswith("?") and len(nucleo) < 120:
         return True
     letras = [c for c in nucleo if c.isalpha()]
-    if len(letras) >= 8 and nucleo == nucleo.upper() and nucleo[-1] not in ".!;:":
+    ultima = nucleo.split()[-1].casefold()
+    if (len(letras) >= 8 and nucleo == nucleo.upper() and nucleo[-1] not in ".!;:"
+            and len(nucleo) <= SUB_CAIXA_ALTA_MAX_CHARS
+            and not re.search(r"\d", nucleo) and ". " not in nucleo
+            and ultima not in _CONECTIVOS_FINAIS):
         return True
     return False
+
+
+# Linha que termina numa destas palavras foi cortada no meio pela extração do
+# PDF ("...MULHERES GRÁVIDAS SEM" / "ORIENTAÇÃO MÉDICA."): é conteúdo, não título.
+_CONECTIVOS_FINAIS = {
+    "a", "o", "as", "os", "e", "ou", "de", "da", "do", "das", "dos", "em", "no",
+    "na", "nos", "nas", "por", "para", "com", "sem", "que", "ao", "aos", "um",
+    "uma", "se", "este", "esta", "deste", "desta", "pois", "como",
+}
+
+
+def _quebrar(texto, alvo=PROSE_ALVO_CHARS):
+    """Divide um texto longo em pedaços de até ~`alvo` caracteres.
+
+    Primeiro por sentença; o que ainda passar de 1,5 × alvo (tabelas extraídas
+    do PDF como uma linha só, sem pontuação) é cortado por palavras. Sem isso,
+    uma tabela de reações adversas virava um trecho de até 3.500 caracteres que
+    lista dezenas de sintomas e casa com qualquer consulta sobre sintoma.
+    """
+    if len(texto) <= alvo:
+        return [texto]
+    out = []
+    for parte in (p.strip() for p in re.split(r"(?<=[.!?;])\s+", texto)):
+        if not parte:
+            continue
+        if len(parte) <= alvo * 1.5:
+            out.append(parte)
+            continue
+        atual = ""
+        for palavra in parte.split():
+            if atual and len(atual) + 1 + len(palavra) > alvo:
+                out.append(atual)
+                atual = palavra
+            else:
+                atual = f"{atual} {palavra}".strip()
+        if atual:
+            out.append(atual)
+    return out
+
+
+def _linhas_normalizadas(texto):
+    """Linhas não vazias, com marcadores '•' no meio da linha virando itens.
+
+    'Comuns: pode afetar até 1 em 10 pessoas • Dor no peito, falta de ar' vira
+    duas linhas: o rótulo e '- Dor no peito, falta de ar'.
+    """
+    linhas = []
+    for bruta in texto.split("\n"):
+        linha = bruta.strip()
+        if not linha:
+            continue
+        if "•" in linha:
+            partes = [p.strip() for p in linha.split("•")]
+            if partes[0]:
+                linhas.append(partes[0])
+            linhas.extend(f"- {p}" for p in partes[1:] if p)
+        else:
+            linhas.append(linha)
+    return linhas
+
+
+def _tem_conteudo(texto):
+    """Descarta lixo de extração ('E', '1)', '-'): pelo menos 2 letras."""
+    return sum(c.isalpha() for c in texto) >= 2
 
 
 def chunk_estrutural(texto):
@@ -324,28 +434,61 @@ def chunk_estrutural(texto):
     Itens de lista viram um chunk cada (vetor limpo por sintoma, em vez da média
     borrada da lista inteira); prosa contígua é agrupada até ~PROSE_ALVO_CHARS.
     Um chunk nunca atravessa fronteira de seção/subseção.
+
+    Uma linha numerada só abre seção nova se parecer cabeçalho: número igual ou
+    maior que o da seção atual e no máximo SECAO_MAX_CHARS. Assim listas
+    numeradas DENTRO de uma seção ("1. Adicione a dose... 2. Complete o copo")
+    e referências cruzadas ("(veja item 4. O que devo saber...)") continuam
+    sendo conteúdo, em vez de reiniciar a seção e sumir no cabeçalho.
+    Cabeçalhos da ANVISA quebrados em duas linhas pela extração ("5. ONDE, COMO
+    ... GUARDAR ESTE" / "MEDICAMENTO?") são reunidos.
     """
     chunks = []
     secao = subsecao = ""
+    num_secao = 0
     buffer = []  # prosa acumulada na (sub)seção atual
 
     def _header():
         return " — ".join(p for p in (secao, subsecao) if p)
 
+    def _emitir(trecho):
+        for pedaco in _quebrar(trecho):
+            if _tem_conteudo(pedaco):
+                chunks.append({"texto": pedaco, "header": _header(),
+                               "secao": secao, "subsecao": subsecao})
+
     def _flush():
         if buffer:
-            chunks.append({"texto": "\n".join(buffer), "header": _header(),
-                           "secao": secao, "subsecao": subsecao})
+            junto = "\n".join(buffer)
+            if _tem_conteudo(junto):
+                chunks.append({"texto": junto, "header": _header(),
+                               "secao": secao, "subsecao": subsecao})
             buffer.clear()
 
-    for linha in texto.split("\n"):
-        linha = linha.strip()
-        if not linha:
+    linhas = _linhas_normalizadas(texto)
+    i = 0
+    while i < len(linhas):
+        linha = linhas[i]
+        i += 1
+
+        m = _RE_SECAO.match(linha)
+        if m and int(m.group(1)) >= num_secao and len(linha) <= SECAO_MAX_CHARS:
+            # Cabeçalho quebrado em duas linhas: junta a continuação curta.
+            if (not linha.endswith(("?", ":")) and i < len(linhas)
+                    and len(linhas[i]) <= 80 and linhas[i].endswith("?")
+                    and not _RE_SECAO.match(linhas[i])):
+                linha = f"{linha} {linhas[i]}"
+                i += 1
+            _flush()
+            secao, subsecao = " ".join(linha.split()), ""
+            num_secao = int(m.group(1))
             continue
 
-        if _RE_SECAO.match(linha):          # nova seção numerada
+        if _RE_FREQ.match(linha):           # faixa de frequência (talvez com sintomas)
             _flush()
-            secao, subsecao = linha, ""
+            subsecao, resto = _separar_freq(linha)
+            if resto:
+                _emitir(resto)
             continue
 
         if _eh_subsecao(linha):             # subcabeçalho dentro da seção
@@ -355,15 +498,11 @@ def chunk_estrutural(texto):
 
         if _RE_ITEM.match(linha):           # item de lista → chunk próprio
             _flush()
-            item = _RE_ITEM.sub("", linha).strip()
-            chunks.append({"texto": item, "header": _header(),
-                           "secao": secao, "subsecao": subsecao})
+            _emitir(_RE_ITEM.sub("", linha).strip())
             continue
 
-        # Prosa: acumula até o alvo, quebrando linhas longas por sentença.
-        sentencas = ([linha] if len(linha) <= PROSE_ALVO_CHARS
-                     else [s.strip() for s in re.split(r"(?<=[.!?;])\s+", linha) if s.strip()])
-        for s in sentencas:
+        # Prosa: acumula até o alvo, quebrando linhas longas.
+        for s in _quebrar(linha):
             atual = sum(len(x) + 1 for x in buffer)
             if buffer and atual + len(s) > PROSE_ALVO_CHARS:
                 _flush()
