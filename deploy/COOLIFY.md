@@ -46,11 +46,11 @@ RAM disponível, com 4 vCPU. Cabe com folga.
    subdomínio apontando para o servidor do Coolify. Se não houver, use o domínio
    `sslip.io` que o próprio Coolify sugere. Faça o primeiro deploy fora do horário
    de pico, porque o build consome CPU por alguns minutos.
-2. **Push** da branch `deploy` com estes arquivos para o GitHub.
+2. **Push** da branch `coolify` com estes arquivos para o GitHub.
 3. **Criar o recurso:** Projects → (projeto) → *+ New* → *Resource*
    - repo público: *Public Repository* → `https://github.com/eric-cidade/tcc`
    - repo privado: *Private Repository (with GitHub App)*
-   - Branch: `deploy` · Build Pack: **Docker Compose** · Docker Compose Location: `/docker-compose.yml`
+   - Branch: `coolify` · Build Pack: **Docker Compose** · Docker Compose Location: `/docker-compose.yml`
 4. **Variável de ambiente:** na aba *Environment Variables*, crie `MEILI_MASTER_KEY`
    com um valor aleatório longo (gere com `openssl rand -base64 32`). As outras
    variáveis já estão no compose.
@@ -63,7 +63,7 @@ RAM disponível, com 4 vCPU. Cabe com folga.
    - `Subindo a API`, e o container passa a *healthy*.
 7. **Persistent Storage:** confira que os volumes `chroma` e `meili` aparecem. São
    eles que evitam reindexar a cada deploy.
-8. **Auto-deploy (opcional):** ative o webhook para redeployar a cada push na `deploy`.
+8. **Auto-deploy (opcional):** ative o webhook para redeployar a cada push na `coolify`.
 
 ## Verificação
 
