@@ -1,0 +1,23 @@
+# Só entra na imagem o que a API e a indexação usam em produção.
+.git
+.venv
+.vscode
+.claude
+.cache
+__pycache__
+*.pyc
+.env
+
+# Índices locais: no servidor o índice é construído no 1º boot e vive em volume.
+chroma_db
+chroma_db_*
+indice.tar.gz
+
+# Material de pesquisa e de escrita, que não roda em produção.
+monografia
+avaliacao
+experimentos
+graficos
+csv
+testes.txt
+metadados_*.txt

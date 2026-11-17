@@ -1,0 +1,42 @@
+# Deploy em container (Coolify) — ver deploy/COOLIFY.md.
+#
+# Só o e5-small sobe aqui. Ele já é o padrão de modelos.py; modelo e coleção vão
+# explícitos mesmo assim, para o deploy não mudar se o padrão mudar.
+#
+# Os limites de memória são obrigatórios: o servidor é compartilhado e os outros
+# containers não têm limite, então é daqui que vem a garantia de que o TCC não
+# pressiona os demais serviços.
+services:
+  api:
+    build: .
+    environment:
+      EMBED_MODEL: intfloat/multilingual-e5-small
+      CHROMA_COLLECTION: corpop_saude_e5_small_estr
+      MEILI_URL: http://meilisearch:7700
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY}
+      EMBED_BATCH: "8"
+    volumes:
+      - chroma:/data/chroma
+    expose:
+      - "8000"
+    depends_on:
+      - meilisearch
+    mem_limit: 1536m
+    restart: unless-stopped
+
+  meilisearch:
+    image: getmeili/meilisearch:v1.22.3
+    environment:
+      MEILI_ENV: production
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY}
+      MEILI_NO_ANALYTICS: "true"
+      # Mantém a indexação dentro do mem_limit abaixo.
+      MEILI_MAX_INDEXING_MEMORY: 256Mb
+    volumes:
+      - meili:/meili_data
+    mem_limit: 512m
+    restart: unless-stopped
+
+volumes:
+  chroma:
+  meili:

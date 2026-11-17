@@ -19,10 +19,12 @@ from contextlib import asynccontextmanager
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 import search
 import simplicidade
+from caminhos import BASE_DIR
 from modelos import encode_docs
 
 load_dotenv()
@@ -237,3 +239,12 @@ def buscar(
     except Exception as exc:  # Meilisearch fora do ar no meio da consulta, etc.
         raise HTTPException(status_code=503, detail=f"Erro ao consultar os motores de busca: {exc}")
     return _jsonificar(resultados)
+
+
+# Frontend na mesma origem da API. No deploy em container (Coolify) não há nginx,
+# então é a própria API que serve o index.html. PRECISA ficar depois de todas as
+# rotas: montado em "/", só atende o que nenhuma rota acima reconheceu. No servidor
+# com nginx nada muda, porque o nginx serve "/" antes de a requisição chegar aqui.
+_FRONTEND = BASE_DIR / "frontend"
+if _FRONTEND.is_dir():
+    app.mount("/", StaticFiles(directory=_FRONTEND, html=True), name="frontend")
