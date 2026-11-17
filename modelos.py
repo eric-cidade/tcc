@@ -87,7 +87,11 @@ MODELOS = {
     "Alibaba-NLP/gte-multilingual-base": {"max_seq": 8192, "min_score": 0.55},
     "intfloat/multilingual-e5-base":     {"max_seq": 512, "min_score": 0.80,
                                           "query": "query: ", "document": "passage: "},
-    "intfloat/multilingual-e5-small":    {"max_seq": 512, "min_score": 0.80,
+    # e5-small: 0.85 (era 0.80, que não rejeitava nenhuma consulta fora do domínio).
+    # Medido em 05/11/2026 (avaliacao/limiar.py, 35 consultas do domínio × 40 fora,
+    # com sinônimos): 0.85 mantém 35/35 e rejeita 33/40; o ótimo fica em ~0.87, mas
+    # o controle da interface anda em passos de 0.05.
+    "intfloat/multilingual-e5-small":    {"max_seq": 512, "min_score": 0.85,
                                           "query": "query: ", "document": "passage: "},
     # Sem prefixo (usa texto cru) e sem prompt no config. Contexto real de 32k,
     # capado aqui em 8192: nossos chunks têm mediana de 50 tokens e p95 de 138,
@@ -118,35 +122,28 @@ def min_score_padrao(nome):
 # por que depender do módulo de busca. Os dois PRECISAM casar: cada modelo tem
 # dimensão própria, então cada um tem a sua coleção.
 #
-# bge-m3 é o default. Escolhido sobre os candidatos mais leves por três motivos,
-# nesta ordem:
+# e5-small (intfloat/multilingual-e5-small) é o default, na segmentação
+# estrutural. Escolhido pela avaliação de 11/2026 (avaliacao/RESULTADOS.md, seção 3):
 #
-# 1. QUALIDADE NA TAREFA QUE É O PROPÓSITO DO PROJETO. É o melhor em consultas
-#    por sintoma em linguagem leiga (Context Relevance@5 = 1.000 com sinônimos e
-#    0.750 sem; o embeddinggemma faz 0.867 / 0.706). Perde em busca por princípio
-#    ativo (Context Precision 0.912 contra 0.938), mas ali a lane léxica já é
-#    excelente sozinha — é tarefa quase lexical.
-# 2. LICENÇA MIT. O embeddinggemma exige aceitar os Gemma Terms of Use, cujas
-#    obrigações recaem sobre o site publicado (servir a busca na web é
-#    "Distribution" via Hosted Service), além de um HF_TOKEN a administrar. Num
-#    site institucional mantido por terceiros, isso é custo recorrente.
-# 3. Continuidade com o que o TCC mediu, e a coleção já está indexada.
+# 1. QUALIDADE. Nas consultas leigas tem o maior P@5 (0,920; bge-m3: 0,880),
+#    hit@1 e MRR de 1,000, e o maior hit@1 nas consultas por princípio ativo
+#    (0,933). Pelo Wilcoxon nenhuma diferença entre os modelos é significativa;
+#    o único IC de bootstrap que exclui zero é o de nDCG@5 nas leigas, a favor
+#    do e5-small contra o bge-m3.
+# 2. CUSTO. É o mais leve dos candidatos: ~0,9GB de RAM no processo (bge-m3:
+#    ~2,1GB), ~17ms por consulta e ~3min para indexar o corpus na máquina de
+#    desenvolvimento. Cabe com folga em servidor pequeno ou compartilhado.
+# 3. LICENÇA MIT, sem repositório gated nem HF_TOKEN.
 #
-# O custo é latência: ~145ms por encode contra ~79ms do embeddinggemma. O que NÃO
-# é mais custo é a indexação: com o indexador magro (embedding.py pede os vetores
-# ao /embed da API) não há segunda cópia do modelo na memória, e o site fica no ar
-# durante a reindexação mesmo com 4GB de RAM.
-#
-# O e5-small é o mais leve e rápido, mas foi descartado: é FRACO EM PORTUGUÊS
-# (~40º de 93 no MTEB-BR) e seus scores são anisotrópicos demais para qualquer
-# limiar (folga 0.007). A avaliação por princípio ativo não revela isso — aquela
-# tarefa satura, todos os modelos acertam.
+# Ponto fraco conhecido: os scores ficam comprimidos (0,78 a 0,94), então o
+# limiar é sensível. Com 0,85 (ver MODELOS acima) mantém 35/35 consultas do
+# domínio e rejeita 33/40 fora dele; o ótimo fica em ~0,87.
 #
 # Para trocar, ponha o par no .env (os dois PRECISAM casar):
-#   EMBED_MODEL=google/embeddinggemma-300m
-#   CHROMA_COLLECTION=corpop_saude_gemma_estr
-EMBED_MODEL_PADRAO = "BAAI/bge-m3"
-CHROMA_COLLECTION_PADRAO = "corpop_saude_bge_estr"
+#   EMBED_MODEL=BAAI/bge-m3
+#   CHROMA_COLLECTION=corpop_saude_bge_estr
+EMBED_MODEL_PADRAO = "intfloat/multilingual-e5-small"
+CHROMA_COLLECTION_PADRAO = "corpop_saude_e5_small_estr"
 
 
 def carregar_modelo(nome, max_seq_length=None):

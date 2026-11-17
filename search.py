@@ -53,8 +53,8 @@ def init(embed_model=None, chroma_collection=None):
     fatal, a API sobe assim mesmo e responde 503 só nas rotas de busca.
 
     `embed_model` e `chroma_collection` (se passados) têm prioridade sobre as
-    variáveis de ambiente EMBED_MODEL/CHROMA_COLLECTION — a api.py usa isso para
-    fixar bge-m3 + coleção estrutural. O modelo e a coleção precisam CASAR com o
+    variáveis de ambiente EMBED_MODEL/CHROMA_COLLECTION, que por sua vez têm
+    prioridade sobre o padrão de modelos.py (e5-small + coleção estrutural). O modelo e a coleção precisam CASAR com o
     que foi usado na indexação.
     """
     global model, meili_client, meili_index, chroma_client, chroma_coll

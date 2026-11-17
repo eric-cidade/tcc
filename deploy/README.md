@@ -8,44 +8,29 @@ uvicorn apenas, sem reranker, e o modelo de embedding escolhido pelo custo.
 
 ## O modelo
 
-O escolhido é o **`BAAI/bge-m3`**, o mesmo do TCC. Quatro candidatos mais leves
-foram avaliados no corpus completo (79 bulas, 12.520 chunks):
+O modelo é o **`intfloat/multilingual-e5-small`**, com a coleção
+`corpop_saude_e5_small_estr` (segmentação estrutural). É o padrão de `modelos.py`,
+então o `.env` pode deixar `EMBED_MODEL` e `CHROMA_COLLECTION` vazios.
 
-| Modelo | RAM (processo) | Indexação | Query | Sintoma¹ | Fármaco² | PT-BR³ |
+| Modelo | RAM (processo) | Indexação | Query | Leiga P@5 | Leiga hit@1 | Princípio hit@1 |
 |---|---|---|---|---|---|---|
-| **bge-m3** | **2.076 MB** | 30,5min | 145ms | **1,000** | 0,912 | 32º/93 |
-| embeddinggemma-300m | 1.193 MB | 14,7min | 79ms | 0,867 | **0,938** | **13º/93** |
-| e5-small | 899 MB | 3,1min | 17ms | 0,800 | 0,935 | ~40º/93 |
+| **e5-small** | **899 MB** | **3,1min** | **17ms** | **0,920** | **1,000** | **0,933** |
+| embeddinggemma-300m | 1.193 MB | 14,7min | 79ms | 0,900 | 0,950 | 0,933 |
+| bge-m3 | 2.076 MB | 30,5min | 145ms | 0,880 | 0,850 | 0,867 |
 
-¹ Context Relevance@5 nas consultas por sintoma — **a tarefa que é o propósito do
-projeto**. ² Context Precision (MAP) nas consultas por princípio ativo.
-³ posição no [MTEB-BR](https://arxiv.org/abs/2607.04581), 22 tarefas nativas
-em PT-BR. Tempos na máquina de desenvolvimento; no servidor, ~2-3x mais.
-
-O bge-m3 vence onde mais importa — busca por sintoma em linguagem leiga, que é o
-público-alvo. Perde em busca por princípio ativo, mas ali a lane léxica já
-resolve sozinha (é tarefa quase lexical). Some-se a **licença MIT**, sem
-obrigações sobre o site publicado nem token a administrar.
-
-Os 2GB de RAM deixam ~1,3GB livres no servidor, e **não impedem reindexar com o
-site no ar** — ver a seção sobre adicionar bulas.
-
-Descartados: `multilingual-e5-small` (fraco em português e scores anisotrópicos
-demais para qualquer limiar); `gte-multilingual-base` e
-`granite-embedding-311m-r2` (arquiteturas sem caminho otimizado em CPU, mais
-lentas que modelos duas vezes maiores).
-
-**Alternativa:** o `embeddinggemma-300m` é metade da RAM e 2x mais rápido, e vale
-considerar se a latência incomodar. Custa aceitar os
-[Gemma Terms of Use](https://ai.google.dev/gemma/terms) — servir a busca na web
-conta como *Distribution* via *Hosted Service*, exigindo repassar as restrições
-de uso nos termos do site — e gerenciar um `HF_TOKEN`.
+Qualidade medida em `avaliacao/RESULTADOS.md` (seção 3); tempos na máquina de
+desenvolvimento (no servidor, ~2-3x mais). Pelo Wilcoxon nenhuma diferença de
+qualidade é significativa, mas o e5-small é igual ou melhor nas métricas e
+custa menos da metade da RAM do bge-m3. Licença MIT, sem token a administrar.
 
 **Sobre o limiar de score:** cada modelo espalha os cossenos numa faixa própria,
 então `min_score` acompanha o modelo (ver `MODELOS` em `modelos.py`; a API informa
-o valor efetivo em `GET /config`). Com o bge-m3 em 0,48, as 6 consultas fora de
-domínio testadas são rejeitadas e as 10 legítimas passam. O valor anterior (0,40)
-ficava **abaixo** do teto de ruído medido (0,440) e não filtrava nada.
+o valor efetivo em `GET /config`). O e5-small comprime os scores entre 0,78 e
+0,94: com 0,85 ele mantém 35/35 consultas do domínio e rejeita 33/40 fora dele.
+O limiar é sensível — um passo de 0,05 para cima já corta um terço do domínio.
+
+Para voltar ao bge-m3, defina no `.env` `EMBED_MODEL=BAAI/bge-m3` e
+`CHROMA_COLLECTION=corpop_saude_bge_estr`, e reindexe.
 
 ## Arquitetura
 
@@ -86,8 +71,8 @@ própria e por isso sua própria coleção. Os modelos suportados estão em
 
 ### 3. Levar o índice pronto
 
-Gerar os embeddings do corpus inteiro no servidor levaria de 30 a 90 minutos de
-CPU. Como os vetores já existem na máquina de desenvolvimento, é mais rápido
+Gerar os embeddings do corpus inteiro no servidor leva de 5 a 10 minutos de CPU
+com o e5-small (com o bge-m3 eram de 30 a 90). Como os vetores já existem na máquina de desenvolvimento, é mais rápido
 copiá-los — e não se perde nada, porque bulas novas entram pelo modo incremental,
 sem reconstruir o resto.
 
@@ -121,7 +106,7 @@ léxica é só texto. O ChromaDB não é tocado.
 > **Alternativa: construir tudo no servidor.** Se preferir não copiar nada, rode
 > `embedding.py` sem argumentos. Ele constrói as duas buscas do zero, carregando
 > o modelo localmente (a API ainda não existe para servir o `/embed`). Reserve
-> de 30 a 90 minutos.
+> de 5 a 10 minutos com o e5-small.
 
 ### 4. Subir a API
 
