@@ -21,9 +21,17 @@ navegador ──────► Traefik (Coolify) ──► api:8000 ──┬�
 | `deploy/entrypoint.sh` | indexa no 1º boot e depois sobe o uvicorn |
 | `.dockerignore` | deixa de fora índices locais, monografia e avaliações |
 
-O índice **não** vai pelo git. No primeiro boot o entrypoint constrói o índice a
-partir de `csv_metadata/` e o grava no volume `chroma`. Nos boots seguintes ele já
-está lá, e só o Meilisearch é ressincronizado (cerca de 1 s).
+O índice **não** vai pelo git. Ele vive no volume `chroma` e chega lá de um de
+dois jeitos:
+- **Índice pronto (recomendado):** copiado da máquina de desenvolvimento, em
+  segundos. Ver a seção "Índice pronto" abaixo.
+- **Indexação no 1º boot:** se o volume não tem índice completo, o entrypoint indexa
+  a partir de `csv_metadata/`. Numa máquina com CPU livre leva minutos; na EC2
+  compartilhada, com a CPU saturada, levaria horas.
+
+O entrypoint reconhece o índice completo pelo arquivo
+`.indice-completo-<coleção>` no volume, gravado só ao fim de uma indexação bem
+sucedida. Com ele presente, o boot só ressincroniza o Meilisearch (~1 s).
 
 ## Recursos
 
@@ -59,11 +67,49 @@ RAM disponível, com 4 vCPU. Cabe com folga.
    do container e não aparece na URL pública. Deixe o `meilisearch` **sem domínio**.
 6. **Deploy.** No log, espere:
    - build da imagem: 5–10 min (torch e modelo);
-   - `Índice vetorial vazio — indexando o corpus...`, com o progresso por medicamento: 3–10 min;
+   - sem índice no volume: `Índice vetorial ausente ou incompleto — indexando...`.
+     Se a CPU estiver disputada, pare o recurso e siga a seção "Índice pronto";
+   - com índice: `Índice vetorial completo — sincronizando só o Meilisearch`;
    - `Subindo a API`, e o container passa a *healthy*.
 7. **Persistent Storage:** confira que os volumes `chroma` e `meili` aparecem. São
    eles que evitam reindexar a cada deploy.
 8. **Auto-deploy (opcional):** ative o webhook para redeployar a cada push na `coolify`.
+
+## Índice pronto
+
+Leva a coleção do e5-small já indexada na máquina de desenvolvimento para o volume
+`chroma`. Use no primeiro deploy ou sempre que o índice precisar ser refeito.
+
+**Na máquina de desenvolvimento** (a coleção local precisa estar indexada com o
+`bulas.py` atual):
+
+```bash
+uv run python deploy/exportar_indice.py --colecao corpop_saude_e5_small_estr --saida chroma_db_export_e5
+touch chroma_db_export_e5/.indice-completo-corpop_saude_e5_small_estr
+tar czf indice_e5.tar.gz -C chroma_db_export_e5 .
+scp -i <chave.pem> indice_e5.tar.gz ubuntu@<ip-da-ec2>:/tmp/
+```
+
+**No Coolify:** pare o recurso (menu ao lado de *Redeploy* → *Stop*).
+
+**Na EC2:** o volume tem o UUID do recurso no nome. É o mesmo que aparece no nome
+do container da API (`api-<uuid>-...`).
+
+```bash
+docker volume ls | grep <uuid>          # anote o volume que termina em _chroma
+VOL=<uuid>_chroma
+docker run --rm -v "$VOL":/data -v /tmp:/in alpine sh -c '
+  dono=$(stat -c %u:%g /data)
+  rm -rf /data/* /data/.indice-completo-*
+  tar xzf /in/indice_e5.tar.gz -C /data
+  chown -R "$dono" /data
+  ls -la /data'
+```
+
+A listagem final deve mostrar `chroma.sqlite3`, um diretório com UUID e o arquivo
+`.indice-completo-corpop_saude_e5_small_estr`.
+
+**No Coolify:** *Deploy* (ou *Start*). O log deve dizer `Índice vetorial completo`.
 
 ## Verificação
 
@@ -104,5 +150,8 @@ Num redeploy sem mudança de chunking nem de modelo, o log deve mostrar
   para que os dois containers reiniciem com o valor novo.
 - **Container reiniciando em loop no 1º boot:** a indexação estourou o limite de
   1,5 GB. Diminua `EMBED_BATCH` de 8 para 4 no compose.
+- **Indexação lenta demais (minutos por medicamento):** CPU disputada. Confira o
+  `st` (steal) no `top`: valor alto indica instância `t3` sem créditos de CPU.
+  Pare o recurso e use o índice pronto.
 - **Container `unhealthy` durante o 1º boot:** é esperado enquanto indexa. O
   healthcheck tem 20 min de tolerância.

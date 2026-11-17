@@ -15,7 +15,7 @@ chroma_db/
 
 # Índice exportado para o servidor (deploy/exportar_indice.py) e o pacote de
 # envio. São artefatos gerados, de ~91MB e ~59MB — nunca vão para o histórico.
-chroma_db_export/
+chroma_db_export*/
 *.tar.gz
 
 # Caches do servidor: a unit do systemd aponta HF_HOME para cá, então os pesos

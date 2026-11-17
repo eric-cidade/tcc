@@ -27,27 +27,23 @@ for i in $(seq 1 60); do
     sleep 2
 done
 
-colecao_populada() {
-    python - <<'PY'
-import os, sys
-import chromadb
-cliente = chromadb.PersistentClient(path=os.environ["CHROMA_PATH"])
-try:
-    n = cliente.get_collection(os.environ["CHROMA_COLLECTION"]).count()
-except Exception:
-    n = 0
-print(f"    coleção {os.environ['CHROMA_COLLECTION']}: {n} chunks")
-sys.exit(0 if n > 0 else 1)
-PY
-}
+# Marcador gravado no volume SÓ quando a indexação termina com sucesso. Contar os
+# chunks não basta: se o container reiniciar no meio da indexação, a coleção fica
+# parcial mas não vazia, e seria tratada como pronta — a busca perderia bulas sem
+# erro nenhum. Um índice levado pronto para o volume (deploy/COOLIFY.md, "Índice
+# pronto") deve vir com este arquivo.
+MARCADOR="$CHROMA_PATH/.indice-completo-$CHROMA_COLLECTION"
 
-if colecao_populada; then
-    echo "==> Índice vetorial presente — sincronizando só o Meilisearch"
+if [[ -f "$MARCADOR" ]]; then
+    echo "==> Índice vetorial completo — sincronizando só o Meilisearch"
     python embedding.py --apenas-meili
 else
-    echo "==> Índice vetorial vazio — indexando o corpus com $EMBED_MODEL (alguns minutos)"
-    # EMBED_API vazio: a API ainda não existe, então o modelo é carregado aqui.
+    echo "==> Índice vetorial ausente ou incompleto — indexando o corpus com $EMBED_MODEL"
+    # Incremental: medicamentos já gravados por uma tentativa anterior são
+    # refeitos, não duplicados. EMBED_API vazio: a API ainda não existe, então o
+    # modelo é carregado aqui.
     EMBED_API= python embedding.py
+    touch "$MARCADOR"
 fi
 
 echo "==> Subindo a API"
