@@ -17,153 +17,154 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Ixium® é indicado para tratar:
+Ixium® é um remédio que trata:
 
-- condiloma acuminado: verrugas externas genitais e anais, causada pelo HPV (vírus do papiloma humano);
+- uma infecção causada pelo vírus HPV que causa verrugas na parte de fora dos órgãos sexuais e do ânus (condiloma acuminado);
 
-- ceratose actínica em adultos com imunidade normal: lesões na pele causadas por excesso de sol;
+- lesões na pele causadas por sol demais (ceratose actínica) em adultos com imunidade normal;
 
-- carcinoma basocelular superficial em adultos com imunidade normal, quando cirurgia não é a melhor opção. O médico precisa confirmar esse câncer de pele.
+- um tipo de câncer de pele causado pela luz do sol (carcinoma basocelular superficial - CBS) em adultos com imunidade normal, quando cirurgia não é a melhor opção. O médico precisa confirmar o câncer de pele que você tem.
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-Ixium® é um creme para a pele que contém imiquimode. O modo exato de ação não é totalmente conhecido. O imiquimode modifica a resposta de defesa do corpo (imunomodulador), ajudando a reduzir e eliminar algumas lesões da pele quando você usa o produto do jeito indicado pelo médico.
+O Ixium® é um creme para a pele feito com o imiquimode, a substância principal do remédio. O modo exato de ação não é totalmente conhecido. O imiquimode muda a resposta de defesa do corpo, é um “imunomodulador”. Isso ajuda a diminuir e eliminar algumas feridas da pele quando você usa o remédio do jeito indicado pelo médico.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não use Ixium® se você tiver alergia ao imiquimode ou a qualquer componente da fórmula.
+Não use o Ixium® se você tiver alergia ao imiquimode ou a algum ingrediente do remédio.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Advertências e precauções:
+CUIDADOS
 
-- Para verrugas genitais/anais externas, a segurança e a eficácia não foram confirmadas em menores de 12 anos.
+- Para verrugas que ficam na parte de fora dos órgãos sexuais e do ânus, a segurança e o resultado não foram confirmados em crianças com menos de 12 anos.
 
-- Para ceratose actínica e carcinoma basocelular superficial, a segurança e a eficácia não foram confirmadas em menores de 18 anos.
+- Para lesões e um câncer de pele causados pela luz solar (ceratose actínica e carcinoma basocelular superficial), a segurança e o efeito não foram confirmados em pessoas com menos de 18 anos.
 
-- Antes de tratar carcinoma basocelular superficial, o médico deve confirmar o diagnóstico por exame do tecido (biópsia / exame histológico). O imiquimode não tem comprovação para outros tipos de carcinoma basocelular (como nodular ou fibrosante/esclerodermiforme).
+- Antes de tratar esse tipo de câncer de pele, o médico deve confirmar o diagnóstico por exame do tecido com tumor (biópsia/exame histológico). O imiquimode não tem efeito comprovado em outros tipos de câncer de pele (como do tipo nodular ou fibrosante/esclerodermiforme).
 
-Não use Ixium® em:
+Não use o Ixium® em:
 
-- feridas/úlceras no pênis ou na vulva,
+- feridas/úlceras no pênis ou na parte externa do órgão sexual da mulher (vulva);
 
-- queimadura de sol,
+- queimadura de sol;
 
 - pele machucada ou que ainda não cicatrizou.
 
-Use apenas na parte externa da pele. Não use na uretra, vagina, colo do útero ou parte interna do ânus.
+Use apenas na parte de fora da pele. Não use nas partes de dentro do corpo (uretra, vagina, colo do útero ou parte de dentro do ânus).
 
-Se você tem condiloma (verrugas por HPV), evite sexo sem preservativo para não transmitir ao parceiro.
+Se você tem verrugas causadas pelo vírus HPV (condiloma), não faça sexo sem preservativo para não passar para a outra pessoa.
 
-Não faça relação sexual logo após aplicar o creme. Primeiro, lave a área tratada.
+Não faça sexo logo após aplicar o creme. Lave a área tratada antes do sexo.
 
-O produto pode diminuir a eficácia de preservativos e diafragmas. Por isso, não é recomendado usar ao mesmo tempo.
+O Ixium® pode diminuir o efeito da camisinha e do diafragma. Por isso, não é recomendado usar junto com esses métodos.
 
-Evite contato do creme com boca, olhos e nariz. Evite sol e bronzeamento artificial durante o tratamento, porque a pele pode ficar mais sensível e queimar com mais facilidade. Se usar no rosto, use protetor solar e chapéu/boné.
+Evite o contato do creme com boca, olhos e nariz. Evite sol e bronzeamento artificial durante o tratamento, porque a pele pode ficar mais sensível e queimar com mais facilidade. Se usar o remédio no rosto, use protetor solar e chapéu/boné.
 
-Não cubra a área tratada com gaze, curativo ou bandagem. Você pode usar roupa íntima de algodão.
+Não cubra a pele tratada com gazes, curativos ou faixas/ataduras. Você pode usar roupas de baixo feitas de algodão (como calcinha, cueca ou sutiã).
 
-Homens não circuncidados com verrugas sob o prepúcio devem retraí-lo e limpar a região todos os dias.
+Homens que têm a pele que cobre a cabeça do pênis (chamada de “prepúcio”) e verrugas embaixo dessa pele devem puxar a pele para trás e limpar a região todos os dias.
 
-O creme não elimina o HPV. Ele ajuda a eliminar a verruga. Por isso, podem surgir novas verrugas durante o tratamento.
+O creme não mata o vírus HPV. Ele ajuda a eliminar a verruga. Por isso, podem surgir novas verrugas durante o tratamento.
 
-Pacientes transplantados devem usar com cautela. O médico deve avaliar o risco de rejeição do órgão ou doença enxerto contra hospedeiro (DECH).
+Se você fez transplantes, use o remédio com cuidado. O médico deve avaliar o risco de rejeição do órgão ou de problemas pela presença do órgão do doador no seu corpo (doença, enxerto contra o hospedeiro - DECH).
 
-É comum aparecer vermelhidão e irritação no local, porque a inflamação faz parte do efeito do medicamento.
+É comum o local da ferida ficar vermelho e irritado, porque a inflamação faz parte do efeito do remédio.
 
-Amamentação: Não se sabe se o imiquimode aplicado na pele passa para o leite materno. Use durante a amamentação somente se o médico achar que o benefício compensa o risco para a criança.
+Amamentação: não se sabe se o imiquimode aplicado na pele passa para o leite materno. Use durante a amamentação somente se o médico achar que o benefício é maior do que o risco para a criança.
 
-Gravidez: Não há estudos controlados em grávidas. Use na gravidez somente se o médico achar que o benefício compensa o risco para o bebê. Este medicamento não deve ser usado por mulheres grávidas sem orientação médica ou do cirurgião-dentista.
+Gravidez: este remédio não foi testado em pessoas grávidas. Use na gravidez somente se o médico achar que o benefício é maior do que o risco para o feto. Não use este remédio se estiver grávida sem a orientação de um profissional de saúde.
 
-Atenção: Este medicamento contém álcool benzílico, que pode ser tóxico, principalmente para recém-nascidos e crianças até 3 anos.
+ATENÇÃO
+Este remédio contém álcool benzílico, que pode ser tóxico, principalmente para recém-nascidos e crianças até 3 anos.
 
-Interações com outros medicamentos não foram estudadas. Em geral, não use Ixium® antes de a pele se recuperar totalmente dos efeitos de outro tratamento usado antes.
+Combinações com outros remédios não foram estudadas. Em geral, não use Ixium® antes que a pele se cure totalmente dos efeitos de outros tratamentos.
 
-Avise o médico se você usa imunossupressores (remédios que baixam a imunidade).
+Avise o médico se você usa remédios que diminuem as defesas do corpo (imunossupressores).
 
-Informe ao seu médico ou cirurgião-dentista se você está usando outro medicamento.
+Avise o profissional de saúde se você está usando outros remédios.
 
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Guardar em temperatura ambiente (15 a 30 ºC), na embalagem original. Não congelar. Use 1 sachê novo a cada aplicação.
+Guarde em temperatura ambiente (de 15 a 30 °C), na embalagem original. Não congele. Use 1 sachê novo a cada aplicação.
 
-Depois de usar, jogue o sachê fora. Não guarde sobra para usar depois. Não use com prazo de validade vencido. Mantenha fora do alcance das crianças.
+Depois de usar, jogue o sachê fora. Não guarde sobras para usar depois. Não use com prazo de validade vencido. Mantenha fora do alcance de crianças.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-Antes de dormir, lave as mãos e a área a tratar com água e sabonete neutro. Seque bem. Abra um sachê novo. Coloque um pouco do creme na ponta do dedo. Aplique uma camada fina na área afetada e esfregue de leve até o creme “sumir”. Jogue o sachê fora e lave as mãos com água e sabão.
+Antes de dormir, lave as mãos e a parte onde vai passar o remédio com água e sabonete neutro. Seque bem. Abra um sachê novo. Coloque um pouco do creme na ponta do dedo. Passe uma camada fina na parte afetada e esfregue de leve até o creme “sumir”. Jogue o sachê fora e lave as mãos com água e sabão.
 
 Deixe agir:
 
-- 6 a 10 horas nas verrugas genitais externas, ou
+- de 6 a 10 horas nas verrugas na parte de fora dos órgãos sexuais e do ânus; ou
 
-- cerca de 8 horas em ceratose actínica ou carcinoma basocelular superficial.
+- mais ou menos 8 horas para câncer de pele (ceratose actínica ou carcinoma basocelular superficial).
 
-Durante esse tempo, não tome banho/ducha.
+Durante esse tempo, não tome banhos/duchas.
 
 Depois, lave a área com água e sabonete suave.
 
-Não use mais do que o médico recomendou. Doses maiores aumentam o risco de reações no local.
+Não use mais do que o médico recomendou. Doses maiores aumentam o risco de reações indesejadas no local.
 
-Posologia:
+Quantidade e frequência de doses para cada doença (posologia)
 
-- Verrugas genitais/anais externas: aplicar em dias alternados (3 vezes por semana), por exemplo: segundas, quartas e sextas, ou terças, quintas e sábados. Usar até sumirem as verrugas ou por no máximo 16 semanas em cada episódio.
+- Verrugas na parte de fora dos órgãos sexuais e do ânus: aplicar dia sim, dia não (3 vezes por semana), por exemplo: segundas, quartas e sextas, ou terças, quintas e sábados. Use até as verrugas sumirem ou por no máximo 16 semanas cada vez que uma verruga nova aparecer.
 
-- Ceratose actínica: aplicar 2 vezes por semana, por exemplo: segundas e quintas, ou terças e sextas, por 16 semanas.
+- Lesões na pele causadas por sol demais (ceratose actínica): aplicar 2 vezes por semana, por exemplo: segundas e quintas, ou terças e sextas, por 16 semanas.
 
-- Carcinoma basocelular superficial: aplicar 5 vezes por semana, por exemplo: de segunda a sexta, por 6 semanas.
+- Câncer de pele causado por sol demais (carcinoma basocelular superficial): aplicar 5 vezes por semana, por exemplo, de segunda a sexta, por 6 semanas.
 
-Siga a orientação médica (horários, doses e duração). Não interrompa sem orientação.
+Siga a orientação do médico (horários, doses e duração). NUNCA pare o tratamento sem orientação médica.
 
-7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-Se você esquecer uma aplicação, aplique assim que lembrar e continue o tratamento normalmente. Em caso de dúvidas, procure o farmacêutico ou o médico.
+Se você esquecer uma aplicação, aplique assim que lembrar e continue o tratamento normalmente. Em caso de dúvidas, procure o profissional de saúde.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-As reações variam conforme a pele e a condição tratada. Em geral, são leves ou moderadas.
+As reações indesejadas são diferentes para cada pele e doença tratada. Em geral, são leves ou moderadas.
 
-Mais comuns (no local de aplicação)
+Mais comuns (no local de aplicação):
 
 - vermelhidão, descamação, feridinhas, arranhões, inchaço;
 
-- mudança na cor da pele (às vezes pode não voltar ao normal);
+- mudança na cor da pele (às vezes, pode não voltar ao normal);
 
 - coceira, ardência, queimação ou dor.
 
-Essas reações podem acontecer porque o medicamento ativa a defesa do corpo na pele.
+Essas reações podem acontecer porque o remédio ativa a defesa do corpo na pele.
 
-Menos comuns
+Menos comuns:
 
-- endurecimento sob a pele,
+- endurecimento embaixo da pele;
 
-- pequenas feridas abertas,
+- pequenas feridas abertas;
 
 - pequenas bolhas.
 
-Raras (em outras partes do corpo)
+Raras (em outras partes do corpo):
 
-- dor de cabeça, dor nas costas, dores musculares, cansaço,
+- dor de cabeça, dor nas costas, dores nos músculos, cansaço;
 
-- sintomas parecidos com gripe,
+- sintomas parecidos com gripe;
 
-- diarreia,
+- diarreia;
 
 - infecções por fungos.
 
-Se aparecer reação grave, pare o uso e procure o médico imediatamente.
+Se aparecer alguma reação grave, pare o uso e procure o médico IMEDIATAMENTE.
 
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-É pouco provável uma superdose no corpo todo, porque o medicamento quase não é absorvido pela pele. Mesmo assim, usar muito creme repetidas vezes pode causar reações locais graves na pele.
+É pouco provável que o corpo todo receba uma dose maior que a indicada, porque o remédio quase não é absorvido pela pele. Mesmo assim, usar muito creme várias vezes pode causar reações indesejadas graves na parte do corpo onde o remédio foi usado.
 
-Se isso acontecer, pare de usar e procure atendimento médico imediatamente.
+Se isso acontecer, pare de usar e procure atendimento médico IMEDIATAMENTE.
 </text>

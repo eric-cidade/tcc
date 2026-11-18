@@ -1,50 +1,51 @@
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-MabThera® é indicado para tratar Linfoma não Hodgkin (LNH) Em adultos, para tratar:
+O Mabthera é uma injeção/infusão que serve para tratar um tipo de câncer do sistema de defesa/linfático (linfoma não Hodgkin - LNH). Ele também conhecido como rituximabe ou rituxano.
+Em adultos, o Mabthera trata vários tipos de câncer:
 
-- LNH de células B (baixo grau ou folicular), CD20 positivo, que voltou (recidivado) ou não respondeu à quimioterapia (resistente);
+- linfoma não Hodgkin (LNH) de células B, do tipo de baixo grau ou folicular, com a proteína CD20 nas células de defesa chamadas linfócitos, que voltou (câncer “recidivado”) ou não respondeu à quimioterapia (câncer “resistente”);
 
-- LNH difuso de grandes células B, CD20 positivo, junto com a quimioterapia CHOP;
+- linfoma não Hodgkin (LNH) difuso de grandes células B, com a proteína CD20 nas células de defesa chamadas linfócitos, junto com a quimioterapia CHOP;
 
-- LNH folicular, CD20 positivo, que ainda não foi tratado, junto com quimioterapia;
+- linfoma não Hodgkin (LNH) folicular, com a proteína CD20 nas células de defesa chamadas linfócitos, que ainda não foi tratado, junto com quimioterapia;
 
-- Linfoma folicular como manutenção, depois que a pessoa responde ao tratamento inicial.
+- linfoma folicular como tratamento de manutenção, depois que a pessoa responde ao tratamento inicial.
 
-Em crianças e adolescentes (≥ 6 meses a < 18 anos), junto com quimioterapia, para tratar doenças CD20 positivas em estágio avançado e ainda não tratadas:
+Em crianças e adolescentes de 6 meses a 18 anos, o Mabthera é usado para tratar doença das juntas/articulações (artrite reumatoide ativa). Com quimioterapia, é usado também para tratar alguns tipos de câncer do sangue em estágio avançado, ainda não tratados e com a proteína CD20 nas células de defesa (CD20 positivas):
 
 - linfoma difuso de grandes células B (LDGCB);
 
-- linfoma de Burkitt (BL) / leucemia de Burkitt (leucemia aguda de células B maduras) (B-AL);
+- linfoma de Burkitt (BL) ou leucemia de Burkitt (B-AL), que são tipos de câncer nas células de defesa do sangue;
 
-- linfoma semelhante ao Burkitt (BLL).
+- linfoma semelhante ao Burkitt (BLL), outro tipo de câncer nas células de defesa do sangue.
 
-- Artrite reumatoide Em adultos, junto com metotrexato, para artrite reumatoide ativa quando a pessoa teve pouco efeito ou não tolerou 1 ou mais tratamentos que bloqueiam TNF (fator de necrose tumoral).
+Em adultos com doença das juntas/articulações (artrite reumatoide ativa), o MabThera pode ser usado com metotrexato quando os tratamentos que bloqueiam proteínas que causam inflamação e danos no corpo não funcionaram bem ou causaram muitos efeitos indesejados. Essas proteínas são chamadas fator de necrose tumoral (TNF).
 
-Em adultos, junto com quimioterapia, para:
+Em adultos, o MabThera pode ser usado junto com quimioterapia para tratar alguns tipos de câncer no sangue:
 
-- Leucemia linfoide crônica (LLC) ainda não tratada, ou
+- leucemia linfoide crônica (LLC) ainda não tratada; ou
 
-- Leucemia linfoide crônica (LLC) que voltou ou não respondeu ao tratamento.
+- leucemia linfoide crônica (LLC) que voltou ou não respondeu ao tratamento.
 
-Em adultos, junto com glicocorticoides (tipo de corticoide), para tratar vasculites ativas graves (inflamação dos vasos sanguíneos):
+Em adultos, o MabThera pode ser usado junto com anti-inflamatórios fortes (corticoides) para tratar inflamações dos vasos de sangue (vasculites graves):
 
-- Granulomatose com poliangiite (GPA, também chamada de Granulomatose de Wegener);
+- inflamação nos vasos de sangue que afeta o nariz, os pulmões e os rins (granulomatose com poliangeíte, também chamada de granulomatose de Wegener - GPA);
 
-- poliangiite microscópica (PAM).
+- poliangeíte microscópica (PAM).
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-MabThera® tem rituximabe, um anticorpo feito em laboratório que se liga aos linfócitos B (um tipo de célula de defesa) e ajuda a destruir essas células. O crescimento anormal de linfócitos B pode causar:
+O MabThera® tem um anticorpo (o rituximabe) feito em laboratório. Ele se liga a um tipo de célula de defesa (os linfócitos B) e ajuda a destruir essas células quando elas estão crescendo sem controle no corpo. O crescimento anormal de linfócitos B pode causar:
 
-- doenças como linfoma (tumor do tecido linfático) e leucemia; ou
+- alguns tipos de câncer no sangue, como linfoma e leucemia;
 
-- doenças autoimunes, como artrite reumatoide e algumas vasculites.
+- doenças em que o sistema de defesa ataca o próprio corpo, como artrite reumatoide e algumas inflamações dos vasos sanguíneos (vasculites).
 
-O tempo para perceber se o tratamento está funcionando varia conforme a doença, o esquema prescrito e as características do organismo.
+O tempo para perceber se o tratamento está funcionando varia conforme a doença, o tipo de tratamento e as características do corpo da pessoa.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não use MabThera® se você teve alergia grave ao rituximabe, a algum componente da fórmula ou a proteínas de origem de roedor.
+Não use o MabThera® se você teve alergia grave ao rituximabe, a algum ingrediente da fórmula ou a proteínas vindas de camundongos de laboratório.
 
 Sinais comuns de alergia grave podem incluir:
 
@@ -54,21 +55,27 @@ Sinais comuns de alergia grave podem incluir:
 
 Além disso:
 
-- Em linfoma não Hodgkin e LLC, não use se você tem infecção ativa grave ou imunidade muito baixa.
+- no caso de alguns cânceres do sistema de defesa/linfático (linfoma não Hodgkin e leucemia linfoide crônica), não use o MabThera:
+- se você tem uma infecção ativa grave;
+- se as defesas do seu corpo (imunidade) estiverem muito baixas;
 
-- Em artrite reumatoide, GPA, PAM (e outras indicações citadas na bula), não use se você tem infecção ativa grave, imunidade muito baixa, insuficiência cardíaca grave ou doença cardíaca grave não controlada.
+- em casos de artrite reumatoide e doenças em que o sistema de defesa ataca o próprio corpo (doenças autoimunes como granulomatose com poliangeíte - GPA, poliangeíte microscópica – PAM, e outras citadas na bula), não use:
+- se você tiver infecção ativa grave;
+- se as defesas do seu corpo estiverem muito baixas (imunidade);
+- se você tiver problemas de coração (coração fraco ou doença grave não controlada).
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Não comece MabThera® se você estiver com infecção grave ativa. Avise seu médico se você tiver febre, calafrios, mal-estar forte, ou tosse que não passa.
+Não use o MabThera® se você estiver com infecção ativa grave.
+Avise o médico se você tiver febre, calafrios, mal-estar forte ou tosse que não passa.
 
-Informe também se você tem infecções frequentes ou infecção crônica.
+Avise também se você tem infecções frequentes ou infecção crônica.
 
-Infecção rara e grave no cérebro (LEMP): MabThera® raramente pode causar LEMP (leucoencefalopatia multifocal progressiva), uma infecção grave no cérebro que pode ser fatal.
+O MabThera® raramente pode causar uma infecção grave no cérebro que pode matar (chamada leucoencefalopatia multifocal progressiva - LEMP).
 
-Procure o médico imediatamente se aparecer:
+Procure o médico IMEDIATAMENTE se aparecer:
 
-- confusão, perda de memória;
+- confusão de ideias, perda de memória;
 
 - dificuldade para pensar;
 
@@ -78,134 +85,148 @@ Procure o médico imediatamente se aparecer:
 
 - fraqueza de um lado do corpo;
 
-- visão turva ou perda de visão.
+- visão nublada ou perda da visão.
 
-Avise familiares/cuidadores que você usa MabThera®, porque eles podem notar esses sinais antes.
+Avise familiares e cuidadores que você usa o MabThera®, porque eles podem notar esses sinais antes de você.
 
-Meningoencefalite (infecção/inflamação do cérebro e das meninges): Foram relatados casos graves (inclusive fatais), após uso de rituximabe. Procure o médico imediatamente se houver:
+Algumas pessoas que usaram o MabThera® tiveram infecção ou inflamação grave no cérebro e nas membranas do cérebro (meningoencefalite), e algumas até morreram.
+Procure o médico IMEDIATAMENTE se ocorrerem:
 
 - febre, dor de cabeça, rigidez na nuca;
 
 - falta de coordenação;
 
-- mudança de personalidade, alucinações;
+- mudança de personalidade, falta de contato com a realidade/alucinações;
 
-- confusão, convulsões ou coma.
+- confusão de ideias, convulsões ou coma.
 
-Informe seu médico se você tem doença do coração (ex.: angina, arritmia, insuficiência cardíaca, infarto prévio). Se você toma remédios para pressão alta, avise seu médico. MabThera® pode baixar a pressão durante a infusão. O médico pode pedir para suspender esses remédios por pelo menos 12 horas antes da infusão.
+Diga ao médico se você tem doença do coração (como dor no peito/angina), batimentos irregulares do coração (arritmia), coração fraco (insuficiência cardíaca), se já teve ataque do coração.
 
-Se você tem doença pulmonar, você pode ter mais risco de problemas respiratórios durante a infusão.
+Se você toma remédios para pressão alta, avise o médico. O MabThera® pode baixar a pressão durante a aplicação/infusão. O médico pode pedir para parar esses remédios por pelo menos 12 horas antes da aplicação/infusão de MabThera.
 
-Durante o tratamento, algumas vacinas não podem ser tomadas e outras podem funcionar menos. Avise seu médico sobre vacinas que você precisa tomar e seu histórico de vacinação.
+Se você tem doença no pulmão, você pode ter mais risco de problemas para respirar ao receber a aplicação/infusão.
 
-Exames de sangue e síndrome de lise tumoral. O médico pode pedir:
+Durante o tratamento, você NÃO pode tomar algumas vacinas e outras podem funcionar menos. Avise o médico sobre vacinas que você precisa tomar e as vacinas que já tomou.
 
-- prevenção da síndrome de lise tumoral (alterações no corpo quando muitas células do tumor se quebram);
+Exames de sangue e alterações no corpo quando muitas células do tumor são destruídas (síndrome de lise tumoral - SLT).
+O médico pode pedir:
 
-- exames de sangue para acompanhar glóbulos vermelhos, glóbulos brancos e plaquetas (coagulação). Essas alterações costumam ser temporárias, mas precisam de controle.
+- prevenção de alterações no corpo quando muitas células do tumor são destruídas (síndrome de lise tumoral, SLT);
 
-- Hepatite B Informe se você tem ou já teve hepatite B. Não inicie MabThera® se a hepatite B estiver ativa.
+- exames de sangue para acompanhar as células do sangue (células vermelhas, células brancas) e as células que ajudam a parar sangramentos (plaquetas). Esses problemas em geral melhoram com o tempo, mas precisam de controle.
 
-Avise o médico se surgirem reações graves na pele.
+- Hepatite B. Diga ao médico se você tem ou já teve hepatite B. Não use o MabThera® se a hepatite B estiver ativa.
 
-Em alguns pacientes com LNH, MabThera® pode causar problema grave nos rins, especialmente em casos de síndrome de lise tumoral. O médico deve acompanhar sinais de falência renal. Se houver aumento de creatinina no sangue ou pouca urina (oligúria), o médico pode parar o tratamento.
+Avise o médico se você tiver reações graves na pele.
 
-Crianças e adolescentes:
+Em pessoas com câncer do sistema de defesa/linfático (linfoma não Hodgkin), o MabThera® pode causar problemas graves nos rins. Isso acontece mais quando muitas células do tumor são destruídas ao mesmo tempo (síndrome de lise tumoral - SLT). O médico deve acompanhar sinais de mau funcionamento dos rins (falência renal). Se acontecer um aumento de creatinina no sangue ou a urina diminuir (oligúria), o médico pode parar o tratamento.
 
-- Para LNH, MabThera® pode ser usado em ≥ 6 meses a < 18 anos em situações específicas.
+Crianças e adolescentes
 
-- Para GPA/PAM, não use em menores de 2 anos.
+- Com o tipo de câncer do sistema de defesa/linfático (linfoma não Hodgkin), o MabThera® pode ser usado em bebês com mais de 6 meses e crianças e adolescentes com menos de 18 anos SOMENTE em situações específicas.
 
-Em outras doenças, a segurança/eficácia em crianças pode não estar bem definida. Em alguns casos, crianças podem ter queda de imunoglobulinas (anticorpos) e precisar de reposição por longo tempo.
+- Não use o MabThera em criança com menos de 2 anos no caso de doenças autoimunes (ex.: granulomatose com poliangeíte - GPA; poliangeíte microscópica - PAM).
 
-Dirigir e operar máquinas: Em geral, MabThera® não atrapalha, mas pode causar tontura. Remédios usados antes da infusão para evitar reações podem causar sonolência (antialérgicos).
+Em outras doenças, não se sabe ainda se o MabThera® é seguro e não se conhecem os efeitos do remédio em crianças. Em alguns casos, crianças podem ter queda de células de defesa no sangue (as imunoglobulinas ou anticorpos) e precisar de reposição dessas células por um longo tempo.
 
-Não use na gravidez sem orientação médica. Se ocorrer gravidez durante o tratamento ou até 12 meses após o fim, avise o médico.
+Dirigir e usar máquinas: em geral, o MabThera® não atrapalha, mas pode dar tontura. Os remédios usados antes da aplicação/infusão para evitar reações indesejadas podem dar muito sono (como os antialérgicos).
 
-Use método contraceptivo eficaz antes, durante e por 12 meses após terminar MabThera®.
+NUNCA use na gravidez sem orientação médica. Se você engravidar durante o tratamento ou no período de 12 meses após o fim do tratamento, avise o médico.
 
-Não é recomendado amamentar durante o tratamento e por 6 meses após o fim. Uso contraindicado no aleitamento ou na doação de leite humano, pois o medicamento pode passar para o leite e causar reações no bebê.
+Use métodos para evitar a gravidez antes, durante e por 12 meses após terminar de usar MabThera®.
 
-Interações e sódio: Avise o médico sobre todos os medicamentos que você usa (mesmo sem receita).
+Não amamente durante o tratamento e por 6 meses após o fim. Não use o remédio se estiver amamentando ou doando leite do peito, pois o remédio pode passar para o leite e causar problemas ao bebê.
 
-MabThera® não interage com alimentos.
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-Este medicamento contém 5,3 mg de sódio/mL. Se você faz dieta com pouco sal ou usa remédio para pressão, converse com o médico.
+Avise o médico sobre todos os remédios que você usa (mesmo os sem receita).
 
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+O MabThera® não causa reações indesejadas com alimentos.
 
-Guardar sob refrigeração (2 a 8 °C). Manter o frasco dentro da caixa para proteger da luz. Depois de aberto, o profissional de saúde orientará como armazenar.
+Este remédio contém 5,3 mg de sódio/mL. Se você faz dieta com pouco sal ou usa remédios para pressão, converse com o médico.
 
-Não use com prazo de validade vencido. Guarde na embalagem original.
+5. COMO GUARDAR ESTE REMÉDIO?
 
-O líquido é claro e incolor. Um profissional de saúde deve diluir antes de aplicar. Descarte: evite jogar no esgoto ou no lixo comum quando houver coleta apropriada na sua região.
+Guardar na geladeira (em temperatura entre 2 °C e 8 °C).
+Manter o frasco dentro da caixa para proteger da luz.
+Depois de aberto, o farmacêutico orientará como guardar.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+Não use com prazo de validade vencido.
 
-Um profissional de saúde prepara e aplica. Antes de cada infusão, você deve receber remédios para reduzir reações, como:
+Guardar na embalagem original.
 
-- analgésico/antitérmico (ex.: paracetamol),
+O líquido é claro e sem cor.
 
-- antialérgico (ex.: difenidramina),
+Um profissional de saúde deve misturar o líquido antes de aplicar.
+
+Como jogar fora: não jogue no esgoto ou no lixo comum quando houver coleta de lixo apropriada na sua região.
+
+6. COMO DEVO USAR ESTE REMÉDIO?
+
+Um profissional de saúde deve preparar e aplicar o remédio. Antes de cada aplicação/infusão, você deve receber remédios para diminuir reações indesejadas, como:
+
+- analgésico/antitérmico (ex.: paracetamol);
+
+- antialérgico (ex.: difenidramina);
 
 - corticoide (glicocorticoide).
 
-Via de uso: intravenosa (na veia), com a solução diluída em soro e aplicada lentamente.
+Modo de uso: aplicação/infusão na veia (intravenosa), com a solução de MabThera misturada em soro e aplicada lentamente. Esse tipo de aplicação se chama “aplicação intravenosa” e só um profissional de saúde treinado deve fazer. O médico receitará a dose e a forma de tratamento mais adequadas para você.
 
-A dose e o esquema dependem da doença:
+Quantidade de doses e frequência para cada doença
 
-- Em linfoma, LLC, GPA e PAM, a dose costuma ser calculada por peso e altura (superfície corpórea).
+- Para cânceres (linfoma, leucemia linfoide crônica - LLC) e doenças autoimunes (granulomatose com poliangeíte - GPA; poliangeíte microscópica - PAM), a dose costuma ser calculada de acordo com o seu peso e altura (superfície do corpo).
 
-- Em artrite reumatoide (e outras indicações citadas na bula), pode ser 1.000 mg no Dia 1 e 1.000 mg no Dia 15 (intervalo de 14 dias).
+- Para doença das juntas/articulações (artrite reumatoide) e uma doença autoimune chamada pênfigo vulgar, a dose pode ser de 1.000 mg no dia 1 e 1.000 mg no dia 15 (com 14 dias entre uma dose e outra). Para o pênfigo vulgar, se o médico achar melhor, você pode tomar doses fixas de 500 mg a cada 6 meses para manutenção ou uma dose de 1.000 mg caso a doença volte.
 
-- Em GPA/PAM, se houver boa resposta, pode haver manutenção com 500 mg 2 infusões de 500 mg com 2 semanas de intervalo, e depois 500 mg a cada 6 meses.
+- Para doenças autoimunes (granulomatose com poliangeíte - GPA; poliangeíte microscópica - PAM), se o seu corpo responder bem, você pode tomar 2 doses de manutenção de 500 mg com 2 semanas entre uma dose e outra, e depois 500 mg a cada 6 meses.
 
-A manutenção começa no mínimo 16 semanas após a última infusão do tratamento de indução com MabThera®, ou dentro de 4 semanas após a remissão quando a indução foi feita com outros imunossupressores.
+A manutenção começa no mínimo 16 semanas após o tratamento para diminuição ou eliminação da doença (de "remissão") com o MabThera® ou após 4 semanas quando o tratamento foi feito com outros remédios (imunossupressores).
 
-O tratamento de manutenção pode durar pelo menos 24 meses após remissão e, em pessoas com maior risco de recaída, pode chegar a até 5 anos, conforme decisão médica.
+O tratamento de manutenção pode durar pelo menos 24 meses após a diminuição/controle do câncer (remissão). Em pessoas com maior risco de que o câncer volte, pode chegar a 5 anos, conforme decisão médica. A duração do tratamento com o MabThera será decidida pelo médico, dependendo da doença, do seu corpo e da sua resposta ao tratamento.
 
-Se você faltar a uma aplicação, avise seu médico.
+Se você faltar a uma aplicação, avise o médico.
 
-Não use MabThera® por via oral ou intramuscular.
+Não use o MabThera® pela boca (não engula) ou pelo músculo (por aplicação/infusão intramuscular).
 
-Restrições pediátricas citadas:
+Limitações sérias do remédio para crianças (restrições pediátricas):
 
-- não usar em nascimento até < 6 meses para LNH difuso de grandes células B CD20+;
+- não usar em bebês de 0 a 6 meses nos casos de câncer (linfoma não Hodgkin difuso de grandes células B CD20+);
 
-- não usar em < 2 anos para GPA/PAM ativas.
+- não usar em bebês e crianças menores de 2 anos nos casos de doenças autoimunes (granulomatose com poliangeíte - GPA; poliangeíte microscópica - PAM).
 
-7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-O médico definirá quando aplicar a próxima dose. Em caso de dúvida, procure o médico ou farmacêutico.
+O médico vai decidir quando aplicar a próxima dose. Em caso de dúvida, procure um profissional de saúde.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-Avise o médico imediatamente se você se sentir mal durante a infusão.
+Avise o médico IMEDIATAMENTE se você se sentir mal durante a aplicação/infusão.
 
-As reações adversas variam conforme a doença e o tratamento associado, mas as mais importantes incluem:
+As reações indesejadas mudam de acordo com a doença e o tratamento feito, mas as mais sérias são as abaixo.
 
-- Reações relacionadas à infusão (podem ocorrer durante ou após a aplicação): febre, calafrios, mal-estar, coceira, erupção na pele, falta de ar, chiado no peito, queda ou aumento da pressão, inchaço (inclusive de garganta), e, raramente, anafilaxia (alergia grave).
+- Reações relacionadas à aplicação/infusão (podem acontecer durante ou após a aplicação): febre, calafrios, mal-estar, coceira, problemas na pele, falta de ar, chiado no peito, queda ou aumento da pressão, inchaço (inclusive de garganta) e, raramente, alergia grave (anafilaxia).
 
-- Infecções: desde infecções comuns (respiratórias, urinárias) até infecções graves. Há relatos raros de LEMP e meningoencefalite enteroviral.
+- Infecções: desde infecções comuns (da respiração, urinárias) até infecções graves. Já aconteceram alguns casos raros de uma infecção grave no cérebro chamada leucoencefalopatia multifocal progressiva (LEMP). Também aconteceram casos raros de uma inflamação grave no cérebro e nas membranas que cobrem o cérebro (meningoencefalite enteroviral), causada por vírus da família Enterovirus.
 
-- Alterações no sangue: queda de glóbulos brancos (neutropenia), febre com neutropenia, anemia, queda de plaquetas.
+- Problemas no sangue: diminuição das células de defesa (neutropenia), febre junto com queda das células de defesa (febre com neutropenia), diminuição de células vermelhas do sangue (anemia), queda de células que ajudam a parar sangramentos (plaquetas).
 
-- Coração e circulação: arritmias, dor no peito, pressão baixa/alta, e eventos mais graves em pessoas com doença cardíaca.
+- Coração e circulação: batimentos irregulares do coração (arritmia), dor no peito, pressão baixa/alta, e eventos mais graves em pessoas com doença no coração.
 
-- Pulmões: falta de ar, broncoespasmo, e problemas pulmonares mais graves (raros).
+- Pulmões: falta de ar, chiado no peito (broncoespasmo) e problemas mais graves no pulmão (raros).
 
-- Gastrointestinais: náusea, diarreia, dor abdominal, dificuldade para engolir.
+- Problemas no estômago e nos intestinos: enjoo, diarreia, dor na barriga, dificuldade para engolir.
 
-- Pele: coceira, erupções, queda de cabelo; raramente reações graves como síndrome de Stevens-Johnson e necrólise epidérmica tóxica.
+- Pele: coceira, pele irritada (erupções), queda de cabelo; raramente, reações graves como problema alérgico raro (síndrome de Stevens-Johnson) e alergia grave na pele causada por remédios (necrólise epidérmica tóxica).
 
-- Músculos e articulações: dor muscular, dor nas articulações, espasmos.
+- Músculos e juntas/articulações: dor e fisgadas nos músculos (espasmos).
 
-- Rins: raramente insuficiência renal, especialmente em situações de risco (ex.: síndrome de lise tumoral).
+- Rins: mau funcionamento dos rins (raramente), em situações de risco, como quando a morte de células do câncer em grande quantidade atinge os rins (síndrome de lise tumoral).
 
-Em crianças, foram observadas com frequência infecções, reações infusionais e náusea, além de alterações importantes em exames (por exemplo, neutropenia febril).
+Crianças costumam ter infecções, reações à aplicação/infusão e enjoo, além de alterações sérias em exames, como diminuição das células de defesa (neutropenia febril).
 
 Se aparecerem reações inesperadas ou graves, procure atendimento médico.
 
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-Existe pouca experiência com superdose. Como MabThera® é aplicado com supervisão médica, é pouco provável receber dose maior que a prescrita. Se houver suspeita, o médico fará o acompanhamento e o tratamento necessário.
+Existe pouca experiência com doses maiores que as indicadas (superdoses). Como o MabThera® é aplicado com supervisão médica, é pouco provável que alguém receba uma dose maior que a prescrita. Se houver suspeita, o médico fará o acompanhamento e o tratamento necessários.

@@ -17,161 +17,170 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Esta solução é indicada para lavar (irrigar) a bexiga durante e após cirurgias urológicas, como a ressecção transuretral.
+O Sorbitol + Manitol é um líquido que lava a área operada durante e após cirurgias nos órgãos e canais que o corpo usa para fazer xixi (como rins, bexiga, próstata e uretra). Este remédio é muito usado na cirurgia de “raspagem de próstata” (ressecção transuretral de próstata).
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-Sorbitol e manitol são tipos de álcool sem sais (não eletrolíticos). Por isso, esta solução é adequada para irrigação urológica em procedimentos com eletrocirurgia. A solução tem cerca de 3% de sorbitol + manitol, o que ajuda a diminuir o risco de hemólise intravascular (quebra de glóbulos vermelhos dentro dos vasos), que pode ocorrer quando o corpo absorve muita água durante a ressecção transuretral.
+O Sorbitol e o Manitol são usados para lavar a área operada em cirurgias que usam bisturi elétrico porque não dão choque na pessoa operada. O Sorbitol + Manitol também evita que morram as células vermelhas, que formam a maior parte do sangue e levam oxigênio para todo o corpo.
 
-Durante a cirurgia, parte do líquido de irrigação pode entrar no sangue em quantidade variável. Isso depende principalmente do tamanho e do tempo da cirurgia. O corpo elimina esse líquido pelos rins, pela urina.
+Durante a cirurgia, parte do Sorbitol + Manitol pode entrar no sangue da pessoa. Nas cirurgias maiores e mais demoradas, costuma entrar mais líquido no sangue.
 
-Quando sorbitol e manitol entram no sangue, eles agem como diuréticos osmóticos (fazem o corpo eliminar mais urina).
+Quando o Sorbitol + Manitol entra no sangue, faz com que aumente a produção de xixi, e a pessoa elimina o resto do remédio quando vai ao banheiro.
 
-O sorbitol pode aumentar o lactato no sangue após a cirurgia, mas esse aumento geralmente não causa acidose metabólica (acidez do sangue por alteração do metabolismo).
+O Sorbitol pode causar algumas alterações no sangue após a cirurgia, mas em geral elas não são graves.
 
-O manitol quase não é transformado pelo corpo e sai rapidamente pelos rins.
+Já o Manitol quase não é absorvido pelo corpo e em pouco tempo sai pelo xixi.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não use esta solução:
+Você NÃO pode usar Sorbitol + Manitol se:
 
-- se você tiver alergia a qualquer componente da fórmula;
+- tiver alergia a algum ingrediente deste remédio;
 
-- se você tiver anúria (pouca ou nenhuma produção de urina).
+- fizer pouco ou nada de xixi (anúria).
 
-GRAVIDEZ: CATEGORIA DE RISCO C. Este medicamento não deve ser usado por mulheres grávidas sem orientação médica (ou do cirurgião-dentista).
+GRAVIDEZ: NÃO se sabe se ele é seguro e NÃO pode ser usado em pessoas grávidas sem orientação do médico.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Não use sorbitol + manitol como “veículo” para misturar outros medicamentos.
+O líquido do Sorbitol + Manitol NÃO pode ser usado para misturar outros remédios.
 
-Use com cuidado em pacientes com problemas graves nos rins ou no coração e pulmões.
+Em pessoas com problemas graves nos rins ou no coração e pulmões, o Sorbitol + Manitol deve ser usado com cuidado.
 
-Em cirurgias transuretrais, o líquido de irrigação pode entrar na circulação em grande volume. Se isso acontecer, sorbitol + manitol pode afetar o funcionamento dos rins e do coração/pulmões.
+Em cirurgias de próstata que são feitas entrando pelo canal do xixi (ou seja, sem fazer cortes na pele), uma quantidade grande de Sorbitol + Manitol pode ir para o sangue. Nesses casos, o líquido pode tornar mais difícil o trabalho dos rins, do coração e dos pulmões.
 
-Como o corpo transforma parte do sorbitol, pode ocorrer hiperglicemia (aumento de açúcar no sangue) em pessoas com diabetes.
+PESSOAS COM DIABETES: o açúcar no sangue pode aumentar pelo uso de Sorbitol + Manitol (hiperglicemia).
 
-Em pessoas com metabolismo mais frágil, o aumento de lactato pode causar acidez do sangue por lactato (acidemia lática).
+Em pessoas com metabolismo mais frágil, o Sorbitol + Manitol pode aumentar a acidez do sangue (acidemia lática).
 
-Após abrir o recipiente, use imediatamente, para reduzir risco de contaminação. Descarte o que sobrar, pois a solução não tem conservantes.
+Depois de aberto, o Sorbitol + Manitol deve ser usado na hora para não se contaminar. Todo o líquido que sobrar deve ser jogado fora porque não dura muito tempo em bom estado.
 
-Não aqueça acima de 66°C.
+O Sorbitol + Manitol não pode ser aquecido a mais de 66 °C.
 
-Precauções:
+CUIDADOS
 
-- O médico deve observar com atenção o coração, principalmente em quem já tem doença cardíaca, porque a absorção de líquido pode causar aumento de volume de líquidos no corpo e até insuficiência cardíaca. A absorção da solução pode reduzir o sódio no sangue e piorar hiponatremia (sódio baixo) que já existia.
+PESSOAS COM DOENÇA NO CORAÇÃO (DOENÇA CARDÍACA): o médico deve acompanhar o funcionamento do coração antes e durante a raspagem de próstata (ressecção transuretral da próstata). Nesse tipo de cirurgia, entra muito líquido de Sorbitol + Manitol no sangue e o coração pode começar a falhar de repente. Isso pode MATAR (insuficiência cardíaca congestiva fulminante). A absorção de Sorbitol + Manitol pode diminuir a quantidade de sódio no sangue e piorar os casos de sódio baixo (hiponatremia).
 
-- Perda de água e sais pode causar desequilíbrios importantes. Com irrigação contínua, pode ocorrer hipernatremia (sódio alto), dependendo do tipo de perda e reposição.
+A perda de água e de minerais importantes (como sódio, potássio, magnésio e cálcio) pode fazer com que o corpo da pessoa tenha mais dificuldade para trabalhar. Lavar demais a área operada com Sorbitol + Manitol pode aumentar o sódio no sangue (hipernatremia).
 
-- O aumento de urina durante a irrigação pode “esconder” desidratação ou hipovolemia (volume de sangue baixo).
+O aumento da produção de xixi causado pela lavagem com Sorbitol + Manitol pode piorar a desidratação da pessoa, e a desidratação pode diminuir o volume de líquidos no sangue (hipovolemia).
 
-Populações especiais:
+Casos especiais
 
-- Crianças: segurança e eficácia não foram comprovadas.
+CRIANÇAS: não se sabe se o uso de Sorbitol + Manitol é seguro ou se funciona em pessoas com menos de 18 anos.
 
-- Idosos: usar com precaução.
+PESSOAS IDOSAS: usar com muito cuidado.
 
-- Gravidez e amamentação: não há estudos suficientes. Use apenas se for realmente necessário. GRAVIDEZ: CATEGORIA DE RISCO C. Este medicamento não deve ser usado por mulheres grávidas sem orientação médica (ou do cirurgião-dentista).
+GRAVIDEZ E AMAMENTAÇÃO: não há estudos suficientes e NÃO se sabe se ele é seguro. Por isso, o Sorbitol + Manitol NÃO pode ser usado sem orientação de um médico ou dentista por pessoas grávidas ou que estejam amamentando.
 
-Interações com outros medicamentos:
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-- Pode aumentar o risco de toxicidade da digoxina e de outros digitálicos.
+Sorbitol + Manitol pode:
 
-- Pode aumentar o efeito de outros diuréticos e de medicamentos que reduzem a pressão dentro do olho.
+- aumentar o risco de que remédios para o coração, como a digoxina, tenham efeitos tóxicos;
 
-Informe ao médico se você usa outros medicamentos. Não use sem orientação.
+- tornar mais forte o efeito de remédios que ajudam a fazer xixi (diuréticos), inclusive o efeito de diminuir a pressão dentro do olho.
 
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+Diga ao médico se você usa outros remédios.
 
-Guarde em temperatura ambiente (15°C a 30°C), protegido de luz e umidade. Não use com prazo de validade vencido. Guarde na embalagem original.
+NUNCA use remédios sem orientação médica.
 
-Após abrir, use imediatamente, pelo risco de contaminação.
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Características: líquido transparente, incolor e sem cheiro, sem partículas.
+Guarde em temperatura ambiente (de 15 °C a 30 °C).
+Proteja da luz e da umidade.
+Não use com prazo de validade vencido.
+Guarde na embalagem original.
+
+Depois de aberto, o Sorbitol + Manitol deve ser usado na hora para não se contaminar.
+
+ASPECTO/APARÊNCIA: o Sorbitol + Manitol é um líquido transparente sem cor nem cheiro. NÃO PODE ter pó no fundo da bolsa. Se o líquido tiver pó, toda a bolsa de remédio deve ser jogada fora.
 
 Mantenha fora do alcance de crianças.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-Posologia e modo de usar:
+O Sorbitol + Manitol só pode ser usado por profissionais da saúde para lavar a área operada.
 
-- A equipe deve usar técnica asséptica (técnica de higiene para manter esterilidade).
+- A equipe de saúde vai fazer uma limpeza profunda da área operada para matar todos os germes que podem causar doenças (técnica asséptica).
 
-- Descarte qualquer sobra e use um recipiente limpo para cada novo ciclo/procedimento.
+- Se sobrar líquido, deve ser jogado fora.
 
-- Não use se a solução não estiver clara, se o lacre estiver violado ou se a embalagem estiver danificada.
+- O líquido SÓ PODE ser usado se for transparente e se a bolsa estiver inteira e bem fechada. NÃO USAR o líquido se tiver pó acumulado no fundo da bolsa.
 
-Não é recomendado adicionar outros medicamentos à solução. O volume total usado na irrigação é definido pelo médico. Use somente por instilação transuretral, com instrumentos urológicos adequados e materiais descartáveis.
+Este remédio NÃO pode ser usado para misturar outros remédios. O médico deve decidir a quantidade de Sorbitol + Manitol usada para lavar a área operada. O líquido de Sorbitol + Manitol SÓ PODE ser aplicado pelo canal do xixi até chegar à bexiga (instilação transuretral).
 
-Usar sorbitol + manitol somente para irrigação urológica para garantir eficácia. Não usar para infusão na veia (não usar por via parenteral).
+Para fazer isso com segurança, o profissional de saúde deve usar os instrumentos certos e materiais descartáveis.
 
-Atenção sobre a embalagem: A solução vem em bolsa para irrigação em sistema fechado.
+ATENÇÃO: o Sorbitol + Manitol NÃO pode ser injetado na veia.
 
-Não perfure a embalagem, porque isso pode quebrar a esterilidade e causar contaminação.
+ATENÇÃO SOBRE A EMBALAGEM: o líquido de Sorbitol + Manitol vem em uma bolsa bem fechada para que não se contamine.
 
-Como abrir e preparar (passo a passo):
+Não furar a bolsa de Sorbitol + Manitol porque isso pode contaminar o líquido.
 
-- Aperte a embalagem para ver se há vazamento. Se vazar, descarte.
+COMO O PROFISSIONAL DE SAÚDE DEVE PREPARAR E USAR ESTE REMÉDIO
 
-- Faça limpeza da embalagem com álcool 70%.
+- Aperte a bolsa de Sorbitol + Manitol para conferir se não está vazando líquido. Se vazar, jogue fora a bolsa porque o líquido pode estar contaminado.
+
+- Limpe a bolsa com álcool 70%.
 
 - Pendure a bolsa pela alça.
 
-- Conecte o equipo estéril no ponto de entrada (siga as instruções do equipo).
+- Conecte o tubo de aplicação (equipo) à bolsa seguindo as instruções que vêm na embalagem do tubo.
 
-- Faça a irrigação conforme prescrição médica.
+- Lave a área com Sorbitol + Manitol seguindo as indicações do médico.
 
-Siga a orientação do médico. Não interrompa sem avisar.
+NÃO PARE de lavar sem avisar o médico.
 
-7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-Este medicamento é de uso restrito a hospitais. Em caso de dúvidas, procure orientação do farmacêutico ou do médico (ou cirurgião-dentista).
+Este remédio é usado somente em hospitais ou em clínicas. Você NUNCA vai aplicar o remédio sozinho.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+Se você tiver dúvidas, pergunte a um profissional de saúde.
 
-Os efeitos indesejáveis podem acontecer se o corpo absorver a solução para dentro da corrente sanguínea.
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-Podem ocorrer:
+O Sorbitol + Manitol pode causar alguns problemas se o líquido entrar no sangue.
 
-- Alterações de sais e líquidos no corpo, como:
+Podem acontecer mudanças nos minerais e nos líquidos no corpo, como:
 
-- acidose (sangue mais ácido),
+- sangue mais ácido (acidose);
 
-- perda de sais,
+- perda de sais minerais;
 
-- aumento de urina,
+- aumento da produção de xixi (diurese);
 
-- retenção urinária,
+- dificuldade para fazer xixi (retenção urinária);
 
-- inchaço,
+- inchaço;
 
-- boca seca, desidratação e sede.
+- boca seca, falta de água no corpo (desidratação) e sede.
 
-- Problemas no coração e circulação, como:
+Problemas no coração, na circulação do sangue e nos pulmões, como:
 
-- pressão baixa,
+- pressão do sangue baixa;
 
-- batimentos acelerados,
+- batimentos acelerados do coração;
 
-- dor no peito tipo angina.
+- dor forte no peito (angina);
 
-- Problemas pulmonares, como congestão pulmonar.
+- líquido no pulmão (congestão pulmonar).
 
-Também podem ocorrer: visão turva, convulsão, náusea, vômito, diarreia, rinite, calafrios, tontura, dor nas costas e urticária (coceira).
+Também podem acontecer: visão nublada, convulsão, enjoo, vômito, diarreia, rinite, calafrio, tontura, dor nas costas e coceira (urticária).
 
-Também já relataram reações alérgicas ao sorbitol e ao manitol.
+Algumas pessoas também tiveram alergia ao Sorbitol + Manitol.
 
-Informe ao médico ou farmacêutico se surgirem reações indesejáveis.
+Se você tiver algum problema, fale com um profissional de saúde.
 
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-Pare o uso se houver sinais de desidratação ou excesso de solutos/líquidos. A equipe deve avaliar o paciente e iniciar medidas para corrigir o problema.
+Se a equipe de saúde perceber que você tem sinais de desidratação ou problemas no sangue, você deve PARAR DE USAR Sorbitol + Manitol. Na sequência, a equipe de saúde deve avaliar como corrigir o problema.
 </text>

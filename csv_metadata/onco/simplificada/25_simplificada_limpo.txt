@@ -17,141 +17,150 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Nexavar® é indicado para tratar:
+O Nexavar® (também conhecido como sorafenibe) é um remédio que serve para tratar:
 
-- Um tipo de câncer nos rins que não respondeu ao tratamento anterior com alfainterferona ou interleucina-2, ou quando a pessoa não pode receber esse tipo de tratamento.
+- um tipo de câncer nos rins que não respondeu ao tratamento anterior com os remédios alfainterferona ou interleucina-2, ou quando a pessoa não pode tomar esses remédios;
 
-- Câncer no fígado que não pode ser retirado por cirurgia.
+- câncer no fígado que não pode ser tirado por cirurgia;
 
-- Um tipo de câncer de tireoide (diferenciado: papilífero, folicular, célula de Hürthle) localmente avançado ou com metástase, progressivo, que não responde ao iodo radioativo.
+- um tipo de câncer de tireoide (papilífero, folicular, célula de Hürthle) em estado avançado, localizado ou espalhado pelo corpo (metástase), progressivo, que não responde ao tratamento com iodo radioativo.
 
-Um oncologista (ou profissional treinado para tratar câncer) deve prescrever e acompanhar Nexavar®.
+Um médico especialista em câncer (oncologista) deve receitar e acompanhar o seu tratamento com o Nexavar®.
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-Nexavar® contém sorafenibe, que age de duas formas principais:
+O Nexavar® contém uma substância química chamada sorafenibe, que age de duas formas principais:
 
 - diminui o crescimento das células do câncer;
 
-- reduz a formação/uso de vasos sanguíneos que alimentam o tumor.
+- diminui a formação e o uso de vasos de sangue que alimentam o câncer.
 
-Em geral, o organismo atinge uma quantidade estável do sorafenibe no sangue em 7 dias.
+Em geral, o sangue fica com uma quantidade estável de sorafenibe em 7 dias.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não use Nexavar® se você teve alergia grave ao sorafenibe ou a qualquer componente do medicamento.
+Não use o Nexavar® se você teve alergia grave ao sorafenibe ou a algum ingrediente do remédio.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Avise seu médico se alguma situação abaixo se aplica a você. O médico pode tratar os sintomas, ajustar a dose, pausar ou parar Nexavar®.
+Avise o médico se alguma das situações abaixo acontecer com você. O médico pode tratar os sintomas, ajustar a dose, pausar ou parar o Nexavar®.
 
-Pele: Nexavar® pode causar reações na pele, principalmente nas mãos e nos pés (vermelhidão, dor, inchaço, bolhas) e manchas/vermelhidão na pele (rash). Essas reações costumam aparecer nas primeiras 6 semanas. O médico pode indicar pomadas, ajustar dose ou suspender o remédio.
+Pele: o Nexavar® pode causar reações indesejadas na pele, principalmente nas mãos e nos pés (vermelhidão, dor, inchaço, bolhas) e manchas/vermelhidão na pele (rash). Essas reações costumam aparecer nas primeiras 6 semanas. O médico pode indicar pomadas, ajustar a dose ou parar o remédio.
 
-Pressão alta: Nexavar® pode aumentar a pressão arterial, geralmente no começo do tratamento. O médico deve medir a pressão com frequência e tratar se necessário. Se a pressão ficar muito alta, persistente, ou houver crise hipertensiva, o médico pode parar Nexavar®.
+Pressão alta: o Nexavar® pode aumentar a pressão do sangue, geralmente no começo do tratamento. O médico deve medir a sua pressão com frequência e tratar se necessário. Se a sua pressão ficar muito alta e não baixar ou se a pressão subir muito de uma hora para outra (uma crise), o médico pode parar o seu tratamento com Nexavar®.
 
-Sangramentos e anticoagulantes: Nexavar® pode aumentar o risco de hemorragia (sangramento). Avise se você tem sangramentos ou usa varfarina (anticoagulante). Em câncer de tireoide, se o tumor invadir traqueia, brônquios ou esôfago, pode ser necessário tratamento local antes de Nexavar®, por risco de sangramento.
+Sangramento (hemorragia) e entupimento de vasos de sangue (trombose): o Nexavar® pode aumentar o risco de sangramento (hemorragia). Avise o médico se você tem sangramentos ou entupimentos de vasos de sangue (trombose) e usa varfarina (anticoagulante). Em câncer de tireoide, se o tumor estiver na traqueia, nos brônquios ou no canal que leva a comida ao estômago (esôfago), pode ser necessário tratamento local antes de usar o Nexavar®, por risco de sangramento.
 
-Atenção: este medicamento pode aumentar o risco de sangramento em caso de dengue ou quando combinado com outros remédios que aumentam sangramento.
+ATENÇÃO: este remédio pode aumentar o risco de sangramento em caso de dengue ou quando combinado com outros remédios que aumentam sangramentos.
 
-Vasos sanguíneos: Nexavar® pode aumentar o risco de aneurisma (dilatação e enfraquecimento da parede do vaso) e dissecção de artéria (rasgo na parede do vaso).
+Vasos de sangue: o Nexavar® pode aumentar o risco de dilatação e enfraquecimento da parede dos vasos de sangue (aneurisma) e rompimento na parede dos vasos (dissecção de artéria).
 
-Coração: Se você tiver dor no peito, isquemia (pouco sangue no coração) ou infarto durante o tratamento, o médico pode suspender Nexavar®. Nexavar® pode alterar o ritmo do coração em algumas pessoas.
+Coração: se você tiver dor no peito, diminuição da circulação de sangue no coração (isquemia) ou ataque do coração durante o tratamento (infarto), o médico pode parar o Nexavar®. O remédio pode alterar o ritmo do coração em algumas pessoas.
 
-Intervalo QT prolongado (alteração no eletrocardiograma): Nexavar® pode prolongar o intervalo QT (alteração no ritmo do coração). Não tome Nexavar® se você tem síndrome do QT longo (QT prolongado congênito) ou se você já teve certos ritmos cardíacos anormais, porque pode ser perigoso e pode causar arritmias graves, inclusive com risco de morte. Avise se você tem bradicardia (batimento lento), insuficiência cardíaca, outras doenças do coração, ou potássio/magnésio baixos no sangue. Avise também se você usa remédios que podem prolongar o QT, remédios para arritmia, ou diuréticos.
+Alteração no eletrocardiograma (ECG): o Nexavar® pode alterar o ritmo do coração (prolongar o intervalo QT no exame). Não tome Nexavar® se você tem batimentos irregulares do coração (arritmia cardíaca grave) ou se você já teve certos ritmos cardíacos fora do normal. Isso pode ser perigoso e pode causar problemas graves, inclusive com risco de morte. Avise o médico se você tem batimentos lentos (bradicardia), coração fraco (insuficiência cardíaca, outras doenças do coração) ou potássio/magnésio baixos no sangue. Avise também se você usa remédios que podem prolongar o QT, remédios para batimentos irregulares do coração ou diuréticos.
 
-Cirurgia: Nexavar® pode atrapalhar a cicatrização. Se você fez ou vai fazer cirurgia, avise o médico. Ele pode pedir para parar por um tempo.
+Cirurgia: o Nexavar® pode atrapalhar a cicatrização. Se você fez ou vai fazer cirurgia, avise o médico. Ele pode pedir para parar o remédio por um tempo.
 
-Outros remédios para câncer: Nexavar® pode aumentar efeitos (e efeitos colaterais) de docetaxel e de remédios como irinotecano. Avise seu médico sobre todos os medicamentos.
+Outros remédios para câncer: o Nexavar® pode aumentar os efeitos e as reações indesejadas do docetaxel e de remédios como o irinotecano. Avise o médico sobre todos os remédios que você usa.
 
-Neomicina (antibiótico) pode diminuir o efeito de Nexavar®.
+O antibiótico neomicina pode diminuir o efeito do Nexavar®.
 
-Fígado: Se você já tem problema grave no fígado, os efeitos colaterais podem ser mais fortes. Nexavar® pode lesar o fígado e aumentar enzimas (transaminases). Isso pode causar problema grave e até morte. O médico deve monitorar exames do fígado. Se as enzimas subirem muito sem causa clara, o médico deve parar Nexavar®.
+Problemas no fígado: se você já tem um problema grave no fígado, as reações indesejadas podem ser mais fortes. O Nexavar® pode prejudicar o fígado e aumentar enzimas transaminases. Isso pode causar problemas graves e até MATAR. O médico deve monitorar exames do fígado. Se as enzimas subirem muito, sem um motivo claro, o médico deve parar o Nexavar®.
 
-Perfuração intestinal: Raramente, pode ocorrer perfuração do intestino. Se isso acontecer, o médico deve interromper Nexavar®.
+Abertura (perfuração do intestino): é raro, mas pode ocorrer um furo (perfuração) no intestino. Se isso acontecer, o médico deve parar o uso de Nexavar®.
 
-Câncer de tireoide: O médico pode monitorar cálcio e hormônios da tireoide no sangue.
+Câncer de tireoide: o médico pode monitorar cálcio e hormônios da tireoide no sangue.
 
-Síndrome de lise tumoral: Procure seu médico imediatamente se tiver: náusea, falta de ar, batimentos irregulares, cãibras musculares, convulsões, urina turva, cansaço intenso. Isso pode ser síndrome de lise tumoral (complicação do tratamento do câncer) e pode causar problema grave nos rins.
+Destruição muito rápida de células do câncer (síndrome de lise tumoral - SLT): procure o médico IMEDIATAMENTE se tiver: enjoo, falta de ar, batimentos irregulares do coração, cãibras nos músculos, convulsões, urina turva, muito cansaço. Isso pode ser síndrome de lise tumoral (complicação do tratamento do câncer) e pode causar problemas graves nos rins.
 
-Açúcar muito baixo no sangue: Algumas pessoas podem ter hipoglicemia (açúcar muito baixo), com risco de desmaio e hospitalização. Se ocorrer, o médico pode suspender temporariamente Nexavar®. Pessoas com diabetes devem medir a glicose com frequência para ajustar remédios.
+Açúcar muito baixo no sangue: algumas pessoas podem estar com açúcar muito baixo (hipoglicemia), com risco de desmaiar e precisar ficar no hospital. Se isso acontecer, o médico pode parar o Nexavar® por algum tempo. Pessoas com diabetes devem medir a glicose com frequência para ajustar os remédios.
 
-Rins: Já foram relatados problemas nos rins, principalmente em idosos. O médico deve acompanhar a função dos rins.
+Rins: já foram relatados problemas nos rins, principalmente em pessoas idosas. O médico deve acompanhar o funcionamento dos seus rins.
 
-Gravidez e amamentação: Evite engravidar durante o tratamento. Use um método eficaz para prevenir gravidez durante o tratamento e por pelo menos 2 semanas após o fim. Nexavar® pode causar danos ao bebê, como malformações graves, atraso no desenvolvimento e morte do feto. Não use na gravidez, a não ser que o médico avalie que o benefício supera o risco. Amamentação e doação de leite: Nexavar® é contraindicado. Pare de amamentar durante o tratamento. O médico deve orientar alternativas.
+Gravidez e amamentação: evite engravidar durante o tratamento. Use um método eficaz para não engravidar durante o tratamento e por pelo menos 2 semanas após o fim. O Nexavar® pode causar malformações graves, atraso no desenvolvimento e morte do feto. Não use na gravidez, a não ser que o médico avalie que o benefício para você é maior que o risco.
 
-Estudos em animais indicam que o sorafenibe pode prejudicar a fertilidade de homens e mulheres.
+Amamentação e doação de leite do peito: o Nexavar® não é recomendado. Pare de amamentar durante o tratamento. Converse com o médico sobre outras formas de tratamento e de alimentar o bebê.
 
-Dirigir e operar máquinas: Não há estudos específicos sobre isso.
+Estudos feitos com animais indicam que o sorafenibe pode prejudicar a capacidade de homens e mulheres ter filhos (a fertilidade).
 
-Interações medicamentosas: Informe o médico se você usa (ou usou recentemente):
+Dirigir e usar máquinas: não foram feitos estudos específicos sobre isso.
+
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
+
+Diga ao médico se você usa (ou usou recentemente):
 
 - rifampicina ou neomicina (antibióticos);
 
-- Erva de São João (fitoterápico para depressão);
+- erva-de-são-joão (uma planta usada para tratar depressão);
 
-- fenitoína, carbamazepina, fenobarbital (epilepsia);
+- remédios para epilepsia e convulsão (fenitoína, carbamazepina, fenobarbital);
 
-- dexametasona (corticoide);
+- o corticoide dexametasona;
 
-- varfarina (anticoagulante);
+- o anticoagulante varfarina;
 
 - outros remédios para câncer: doxorrubicina, capecitabina, docetaxel, paclitaxel, carboplatina, irinotecano;
 
-- digoxina (problemas do coração).
+- remédio para problemas de coração (digoxina).
 
-Interação com alimentos:
+Combinação com alimentos:
 
-- Tome Nexavar® entre as refeições ou com refeição com pouca ou moderada gordura.
+- tome o Nexavar® entre as refeições ou com uma refeição com pouca gordura ou gordura moderada;
 
-- Não tome junto com refeição rica em gordura, porque o remédio pode funcionar menos.
+- não tome junto com refeições com muita gordura, porque o remédio pode funcionar menos;
 
-- Se você for fazer uma refeição rica em gordura, tome Nexavar® 1 hora antes ou 2 horas depois da refeição.
+- se você for fazer uma refeição que tenha muita gordura, tome o Nexavar® 1 hora antes ou 2 horas depois da refeição.
 
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Guarde na embalagem original, protegido da umidade, em temperatura ambiente (15°C a 30°C). Não use após a validade.
+Guarde na embalagem original, protegido da umidade, em temperatura ambiente (de 15 °C a 30 °C).
+Não use com prazo de validade vencido.
 
-Como é o comprimido: comprimido revestido vermelho, redondo, com “200” em um lado e a cruz da Bayer no outro.
+Como é o comprimido: comprimido revestido, vermelho, redondo, com “200” em um lado e a cruz da Bayer no outro.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-Uso oral (pela boca). A dose recomendada é 2 comprimidos, 2 vezes ao dia (total de 800 mg por dia). Engula o comprimido inteiro, com um pouco de água.
+O remédio deve ser tomado pela boca (por via oral).
+A dose recomendada é de 2 comprimidos, 2 vezes ao dia (total de 800 mg por dia).
+Engula o comprimido inteiro, com um pouco de água.
 
-Tome, de preferência, no mesmo horário todos os dias.
+O melhor é tomar no mesmo horário todos os dias.
 
-Refeições: Pode tomar entre as refeições ou com refeição de pouca/moderada gordura. Evite tomar com refeição rica em gordura (tome 1 hora antes ou 2 horas depois).
+Refeições: tomar entre as refeições ou com refeição com pouca gordura/gordura moderada. Evite tomar com refeições com muita gordura (nesse caso, tome 1 hora antes ou 2 horas depois).
 
-Duração e ajuste da dose Você usa o medicamento enquanto ele for benéfico. O médico pode pausar ou ajustar a dose conforme os efeitos colaterais.
+Duração e ajuste da dose: você vai usar o remédio enquanto ele for bom para a sua saúde. O médico pode pausar o tratamento ou ajustar a dose conforme as reações indesejadas.
 
-Populações especiais (resumo)
+Casos especiais (resumo)
 
-- Idosos (> 65 anos): não precisa ajustar dose só por idade.
+- Pessoas idosas (acima de 65 anos): não precisam ajustar a dose só por causa da idade.
 
-- Crianças: segurança e eficácia não foram estabelecidas.
+- Crianças: não se sabe se é seguro ou se funciona em pessoas com menos de 18 anos.
 
-- Fígado: não precisa ajustar em Child-Pugh A ou B; não foi estudado em Child-Pugh C.
+- Problemas no fígado: não precisa ajustar a dose para problemas leves e moderados (níveis A ou B da escala Child-Pugh); o Nexavar® não foi estudado em pessoas com problemas graves (nível Child-Pugh C).
 
-- Rins: não precisa ajustar em insuficiência renal leve, moderada ou grave sem diálise; não foi estudado em pacientes em diálise.
+- Problemas nos rins: não precisa ajustar a dose em caso de mau funcionamento dos rins (insuficiência renal leve, moderada ou grave) sem diálise; não foi estudado em pessoas em diálise (tratamento para filtrar o sangue).
 
-O médico deve acompanhar água e sais do corpo (equilíbrio hidroeletrolítico) em quem tem risco de problema renal.
+O médico deve acompanhar água e sais minerais do corpo (equilíbrio hidroeletrolítico) em quem tem risco de problema nos rins.
 
-Não parta, não abra e não mastigue este medicamento.
+NÃO parta, NÃO abra e NÃO mastigue este remédio.
 
-7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-Tome a dose esquecida assim que lembrar. Se estiver perto do horário da próxima dose, pule a dose esquecida. Não tome duas doses para compensar.
+Tome a dose esquecida assim que lembrar.
+Se estiver perto do horário da próxima dose, pule a dose esquecida.
+NÃO tome duas doses juntas para compensar a dose esquecida.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-Nexavar® pode causar efeitos colaterais. Os mais comuns incluem:
+O Nexavar® pode causar reações indesejadas. As mais comuns são:
 
 - diarreia;
 
@@ -161,33 +170,36 @@ Nexavar® pode causar efeitos colaterais. Os mais comuns incluem:
 
 - infecções;
 
-- reação mão-pé (vermelhidão, dor, inchaço e bolhas nas palmas ou solas);
+- problemas nas mãos e nos pés (vermelhidão, dor, inchaço e bolhas nas palmas ou solas);
 
 - vermelhidão/descamação da pele (rash).
 
-Outros efeitos relatados com frequência incluem:
+Outras reações frequentes são:
 
-- perda de peso, falta de apetite, náusea, dor abdominal, pressão alta, sangramento, coceira, pele seca, vômitos, prisão de ventre.
+- perda de peso, falta de apetite/fome, enjoo, dor na barriga, pressão alta, sangramento, coceira, pele seca, vômitos, prisão de ventre.
 
-- Sinais de alerta (procure atendimento rápido)
+SINAIS DE ALERTA - procure atendimento RÁPIDO em casos de:
 
-- Sangramento importante;
+- muito sangramento;
 
 - dor no peito, falta de ar forte;
 
-- sintomas de problema grave no fígado: pele/olhos amarelos, urina escura, dor forte, vômitos persistentes;
+- sintomas de problema grave no fígado: pele/olhos amarelos, urina escura, dor forte, vômitos que não passam;
 
-- sinais de perfuração intestinal: dor abdominal forte e súbita, abdômen muito duro, febre;
+- sinais de furo no intestino (perfuração intestinal): dor forte na barriga e que surge de repente, barriga muito dura, febre;
 
-- sinais de problema no ritmo do coração: desmaio, palpitações fortes;
+- sinais de problemas no ritmo do coração: desmaio, batimentos lentos ou acelerados do coração (palpitações fortes);
 
-- sinais possíveis de síndrome de lise tumoral: náusea, falta de ar, batimento irregular, cãibras, convulsões, urina turva, cansaço intenso.
+- sinais possíveis de destruição muito rápida de células do câncer (síndrome de lise tumoral - SLT): enjoo, falta de ar, batimento irregular do coração, cãibras, convulsões, urina turva, cansaço intenso.
 
-Nexavar® também pode alterar exames laboratoriais. Informe ao laboratório e ao médico que você usa Nexavar®.
+O Nexavar® também pode alterar exames de sangue.
+Diga ao laboratório e ao médico que você usa Nexavar®.
 
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-Não há tratamento específico para superdose. A maior dose estudada foi 4 comprimidos (800 mg) duas vezes ao dia. Tomar mais do que o indicado pode aumentar e piorar efeitos colaterais, principalmente diarreia e reações na pele.
+Não há tratamento específico para uso de doses maiores que a indicada (superdose).
+A maior dose estudada foi de 4 comprimidos (800 mg) duas vezes ao dia.
+Tomar mais do que o indicado pode aumentar as reações indesejadas, principalmente diarreia e problemas na pele.
 
-Se houver suspeita de superdose, pare o uso e procure um médico imediatamente.
+Pare de tomar o remédio e procure atendimento médico IMEDIATAMENTE se você achar que tomou uma dose maior que a indicada (superdose).
 </text>

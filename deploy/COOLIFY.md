@@ -139,6 +139,23 @@ Num redeploy sem mudança de chunking nem de modelo, o log deve mostrar
   `remedios_*_map.csv`, faça push e redeploy. Depois, no *Terminal* do container
   `api` no Coolify, rode `python embedding.py`. É incremental e pede os embeddings
   ao `/embed` da própria API, então não há segunda cópia do modelo na memória.
+- **Bulas revisadas de um subcorpus** (ex.: as 49 de oncologia):
+  1. Coloque o texto em `csv/<grupo>/simplificada/` e rode
+     `uv run python append_text_to_metadata.py`. O script troca só o `<text>`
+     dentro de `csv_metadata/` e mantém o `<metadata>`.
+  2. Construa o índice na máquina de desenvolvimento, que é mais rápida que a EC2
+     compartilhada. Com o e5-small, o corpus inteiro leva ~5 min em 12 núcleos.
+     Se a coleção local já existir, `python embedding.py --tipo oncologia` refaz
+     só esse subcorpus e deixa o resto como está. Depois siga a seção "Índice
+     pronto" acima: exportar, marcador, tar, scp e trocar o volume.
+  3. Com o recurso parado e o volume trocado, faça push da branch e *Deploy*. O
+     entrypoint vê o marcador e ressincroniza o Meilisearch a partir do
+     `csv_metadata/` novo da imagem. Faça o push **depois** de trocar o volume:
+     com o auto-deploy ligado, um push antes subiria o Meili novo sobre o Chroma
+     antigo.
+  - Alternativa sem parar a API, mais lenta na EC2: depois do redeploy, no
+    *Terminal* do container `api`, rode `python embedding.py --tipo oncologia`.
+    Os embeddings vêm do `/embed` da própria API.
 - **Reconstruir do zero** (troca de modelo ou de chunking): pare o recurso, apague o
   volume `chroma` em *Persistent Storage* e faça deploy de novo.
 - **Logs:** aba *Logs* de cada serviço no Coolify.

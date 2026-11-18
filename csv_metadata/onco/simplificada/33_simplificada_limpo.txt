@@ -17,225 +17,319 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Sutent® (sunitinibe) é usado para tratar alguns tipos de câncer:
+O Sutent® é um remédio tomado pela boca que trata:
 
-- GIST (tumor estromal gastrintestinal: câncer do estômago/intestino) após falha do imatinibe, por resistência ou intolerância.
+- câncer do estômago/intestino (tumor estromal gastrintestinal, GIST). É indicado quando o tratamento com imatinibe não funcionou ou causou muitos problemas (como resistência ou intolerância);
 
-- Câncer de rim avançado com metástase (carcinoma metastático de células renais – CCRm).
+- câncer de rim grave que se espalhou pelo corpo (“carcinoma metastático de células renais”);
 
-- Tumores neuroendócrinos do pâncreas que não podem ser operados (não ressecáveis).
+- tumores no pâncreas (tumores neuroendócrinos) que não podem ser tirados por cirurgia (“tumores não ressecáveis”).
 
-- Tratamento adjuvante (após cirurgia) em adultos com alto risco de o câncer de rim voltar (CCR) após retirada do rim (nefrectomia).
+O Sutent® também é usado para tratar adultos que fizeram cirurgia para tirar o rim (nefrectomia) quando o risco de que o câncer volte (“carcinoma de células renais”) é muito alto.
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-Sutent® é um medicamento para câncer. Ele pode:
+O Sutent® é um remédio para tratar o câncer. Ele pode:
 
-- diminuir o tumor,
+- diminuir o tumor;
 
-- frear o crescimento do tumor,
+- frear o crescimento do tumor;
 
-- atrasar a piora do câncer que se espalha para outras partes do corpo (metástase).
+- fazer com que a doença demore mais tempo para se espalhar para outras partes do corpo (diminuir as metástases).
 
-Sutent® bloqueia “pontos de ligação” nas células do tumor e nos vasos sanguíneos do tumor (receptores). Assim, ele:
+O Sutent® bloqueia “pontos de ligação” nas células do tumor e nos vasos de sangue do tumor. Assim, ele:
 
-- atrapalha o crescimento de algumas células tumorais;
+- atrapalha o crescimento de algumas células do tumor;
 
-- reduz a angiogênese (formação de novos vasos ao redor do tumor).
+- diminui a formação de novos vasos de sangue em volta do tumor.
 
-Após tomar por via oral, a maior quantidade do medicamento no sangue costuma aparecer entre 6 e 12 horas.
+Depois de tomar pela boca, o sangue fica com a maior quantidade do remédio entre 6 e 12 horas depois.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não use Sutent®:
+NÃO use Sutent®:
 
-- se você tiver alergia ao malato de sunitinibe ou a qualquer componente da fórmula;
+- se você tiver alergia ao malato de sunitinibe ou a algum ingrediente da fórmula;
 
-- durante o aleitamento (amamentação) ou doação de leite humano. Sutent® passa para o leite e pode causar reações indesejáveis no bebê. O médico (ou cirurgião-dentista) deve indicar alternativas para seu tratamento ou para a alimentação do bebê.
+- não use se estiver amamentando nem se estiver doando leite do peito. O Sutent® passa para o leite do peito e pode fazer mal ao bebê. Converse com o médico ou com o dentista sobre outras formas de tratamento e de alimentar o bebê.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Pele e cabelos. Pode ocorrer:
+Problemas na pele e nos cabelos
 
-- mudança da cor da pele (às vezes por causa da cor amarela do medicamento);
+Podem ocorrer:
 
-- perda de cor do cabelo ou alteração de cor;
+- mudanças da cor da pele (às vezes por causa da cor amarela do remédio);
+
+- cabelos sem cor ou mudança da cor do cabelo;
 
 - pele seca, grossa ou rachada;
 
-- bolhas ou erupção (manchas) nas mãos e nos pés.
+- bolhas ou feridas (como manchas) nas mãos e nos pés.
 
-Esses efeitos geralmente melhoram e muitas vezes não exigem parar o tratamento.
+Esses efeitos em geral melhoram com o tempo e o tratamento não precisa parar.
 
-Reações graves de pele podem acontecer, incluindo:
+Você pode ter as seguintes reações graves na pele:
 
-- eritema multiforme (manchas vermelhas, às vezes com bolhas),
+- manchas vermelhas, às vezes com bolhas (eritema multiforme);
 
-- síndrome de Stevens-Johnson (reação alérgica grave com bolhas na pele e nas mucosas).
+- reação alérgica grave, com bolhas na pele e nas partes úmidas do corpo (síndrome de Stevens-Johnson).
 
-Se surgirem manchas que pioram, bolhas ou feridas na boca/olhos/genitais, pare Sutent® e procure o médico imediatamente. Se o médico confirmar Stevens-Johnson, não reinicie Sutent®.
+Se aparecerem manchas que pioram, bolhas ou feridas na boca/olhos/genitais, pare de tomar o Sutent® e procure o médico IMEDIATAMENTE.
+Se o médico confirmar que você tem síndrome de Stevens-Johnson, NÃO tome o Sutent® de novo.
 
-Sangramentos.
+Sangramentos
 
-Podem ocorrer sangramentos, alguns graves e raramente fatais, por exemplo no:
+Você pode ter sangramentos. Alguns podem ser graves, mas raramente matam. Eles podem ser:
 
-- estômago/intestino,
+- no estômago/intestino;
 
-- pulmão e vias respiratórias,
+- no pulmão e nos canais da respiração;
 
-- urina,
+- na urina;
 
-- cérebro,
+- no cérebro;
 
 - ou no próprio tumor.
 
-O médico pode pedir exame de sangue (hemograma completo) e avaliação clínica para acompanhar.
+O médico pode pedir um exame de sangue e fazer consultas de tempos em tempos para monitorar/acompanhar a sua saúde.
 
-Estômago e intestino: Podem ocorrer problemas graves, raramente fatais, como perfuração (abertura/furo) no estômago ou intestino, principalmente em tumores dentro do abdômen.
+Problemas no estômago e no intestino
 
-Efeitos digestivos comuns: enjoo (náusea), diarreia, inflamação na boca (estomatite/mucosite), má digestão, vômitos. O médico pode indicar remédios para enjoo e diarreia.
+Você pode ter problemas graves que, em casos muito raros, podem matar. Um exemplo é o aparecimento de um furo (perfuração) no estômago ou intestino. Isso acontece mais com pessoas com tumores dentro da barriga.
 
-Pâncreas: Pode ocorrer pancreatite (inflamação do pâncreas). Exames podem mostrar aumento de enzimas (lipase e amilase). Se aparecerem sintomas de pancreatite, o médico deve interromper Sutent® e orientar tratamento de suporte.
+Problemas comuns na digestão: enjoos, diarreia, feridas na boca e na garganta (estomatite/mucosite), má digestão, vômitos. O médico pode receitar remédios para enjoo e diarreia.
 
-Fígado: Sutent® pode causar lesão no fígado, inclusive casos raros graves e fatais. O médico deve pedir exames do fígado antes e durante o tratamento. Se ocorrerem alterações graves (Grau 3 ou 4), o médico deve interromper Sutent® e pode suspender de vez se não melhorar. Procure o médico se tiver sinais como dor abdominal, enjoo, vômitos, pele/olhos amarelados, urina escura. Este medicamento pode causar danos ao fígado e exige acompanhamento médico e exames periódicos.
+Problemas no pâncreas
 
-Alterações no sangue. Pode diminuir:
+Você pode ter inflamação do pâncreas (pancreatite). Os exames de sangue podem mostrar aumento de algumas enzimas (lipase e amilase). Se aparecerem sintomas de pancreatite, o médico vai parar o Sutent® e dar outras opções de tratamento.
 
-- neutrófilos (defesas),
+Problemas no fígado
 
-- plaquetas (coagulação).
+O Sutent® pode causar problemas no fígado, que podem ser graves e até matar em alguns casos raros. O médico vai pedir exames do fígado antes e durante o tratamento. Se os problemas forem graves (ou seja, de grau 3 ou 4), o médico vai parar o Sutent® e poderá até parar de vez o tratamento se você não melhorar.
+Procure o médico se você tiver sinais como dor de barriga, enjoo, vômitos, pele/olhos amarelados, urina escura.
+Este remédio pode dar problemas no fígado. Você vai precisar fazer acompanhamento com o médico e exames com frequência.
 
-Geralmente melhora com o tempo, mas já ocorreram sangramentos graves associados à queda de plaquetas. O médico deve fazer hemograma completo no início de cada ciclo.
+Problemas no sangue
 
-Coração e circulação: Podem ocorrer problemas cardíacos graves, raramente fatais, como:
+O tratamento pode diminuir:
 
-- insuficiência cardíaca,
+- as células de defesa do sangue (neutrófilos);
 
-- doença do músculo do coração (cardiomiopatia),
+- as células que ajudam a parar sangramentos (plaquetas).
 
-- falta de sangue no coração (isquemia),
+Isso geralmente melhora com o tempo, mas algumas pessoas tiveram sangramentos graves por causa da diminuição de células que ajudam a parar sangramentos (plaquetas). O médico vai pedir exames de sangue no início de cada ciclo de tratamento.
 
-- infarto.
+Coração e circulação
 
-O médico pode acompanhar a fração de ejeção (força de bombeamento do coração).
+Você poderá ter problemas graves no coração, mas que raramente matam, como:
 
-Alteração no eletrocardiograma (QT longo): Sutent® pode prolongar o intervalo QT, aumentando o risco de arritmia grave (batimento irregular perigoso), inclusive com risco de morte súbita. Não tome este medicamento se você tiver síndrome congênita do QT longo ou histórico de arritmia importante, sem orientação médica rigorosa.
+- coração fraco (insuficiência cardíaca);
 
-Avise o médico se você tiver:
+- doença do músculo do coração (cardiomiopatia);
 
-- batimento lento (bradicardia),
+- falta de sangue no coração (isquemia);
 
-- insuficiência cardíaca ou outra doença do coração,
+- ataque cardíaco (infarto).
 
-- potássio ou magnésio baixos no sangue,
+O médico pode acompanhar a “fração de ejeção” para saber se o coração tem força suficiente para bombear o sangue para o corpo.
 
-- uso de remédios que alteram o QT, remédios para arritmia ou diuréticos.
+Mudança no ritmo do coração (eletrocardiograma - QT longo)
 
-Pressão alta (hipertensão): Pressão alta é muito comum com Sutent®. Pode ser grave. O médico deve medir e controlar sua pressão. Se a pressão alta grave não melhorar com remédios, o médico pode suspender temporariamente Sutent® e reiniciar quando estiver controlada.
+O Sutent® pode causar uma mudança no ritmo normal dos batimentos do coração (prolongamento do intervalo QT). Essa mudança aumenta o risco de arritmias graves, que é quando o coração bate fora do ritmo normal e de forma perigosa. Isso pode até causar morte de uma hora para outra.
 
-Aneurisma e dissecção de artéria: Medicamentos da mesma classe podem aumentar o risco de aneurisma e dissecção arterial (rasgo na artéria), com ou sem pressão alta. O médico deve avaliar o risco antes de iniciar, principalmente se você já tiver hipertensão ou histórico de aneurisma.
+NÃO tome este remédio se você nasceu com problemas no ritmo do coração (síndrome congênita do QT longo) ou já teve arritmia grave. Só use com acompanhamento médico constante.
 
-Tireoide: Sutent® pode causar alterações na tireoide, principalmente hipotireoidismo (tireoide lenta) e, mais raramente, hipertireoidismo. O médico deve pedir exames da tireoide antes e durante o tratamento e tratar se necessário.
+Avise o médico se você:
 
-Convulsões e problema neurológico raro: Pode ocorrer convulsão, principalmente se houver metástase no cérebro. Raramente pode ocorrer a SLPR (síndrome de leucoencefalopatia posterior reversível), com sinais como:
+- tiver batimentos lentos do coração (bradicardia);
 
-- dor de cabeça,
+- tiver coração fraco (insuficiência cardíaca) ou outra doença do coração;
 
-- confusão/sonolência,
+- tiver potássio ou magnésio baixos no sangue;
 
-- convulsões,
+- usar remédios que mudam o ritmo do coração (o “QT”), remédios para batimentos fora do ritmo normal (arritmias) ou para urinar (diuréticos).
 
-- alteração visual ou perda de visão,
+Pressão alta (hipertensão)
 
-- pressão alta.
+O Sutent® costuma causar pressão alta em muitas pessoas. O aumento da pressão do sangue pode ser GRAVE. O médico deve medir e controlar a sua pressão. Se a sua pressão subir muito e não melhorar com outros remédios, o médico pode parar o Sutent® por um tempo. Você só vai voltar a tomar quando a pressão estiver controlada.
 
-O médico pode suspender Sutent® temporariamente e tratar os sintomas.
+Problemas nos vasos de sangue/artérias (aneurismas e dissecção de artérias)
 
-Cirurgias e cicatrização: Sutent® pode atrapalhar a cicatrização. O médico pode parar temporariamente antes/depois de grandes cirurgias e decidir quando reiniciar.
+O Sutent® pode aumentar o risco de bolhas (aneurismas) e rasgos nos vasos de sangue/artérias (dissecção de artérias), mesmo que você não tenha pressão alta. O médico vai avaliar os riscos antes de começar o tratamento, ainda mais se você tem ou já teve pressão alta ou bolhas nos vasos de sangue/artérias (aneurisma).
 
-Mandíbula (osteonecrose):Pode ocorrer osteonecrose da mandíbula (osso da mandíbula não cicatriza e fica exposto), principalmente em quem usa ou usou bisfosfonatos na veia. Antes do tratamento, pode ser indicado fazer avaliação odontológica. Durante o tratamento, evite procedimentos dentários invasivos, se possível.
+Problemas na tireoide
 
-Outros riscos importantes (raros):
+O Sutent® pode causar problemas na tireoide, principalmente tireoide lenta (hipotireoidismo) e, mais raramente, tireoide acelerada (hipertireoidismo). O médico vai pedir exames da tireoide antes e durante o tratamento e tratar se necessário.
 
-- Síndrome de lise tumoral (complicações após destruição rápida de células tumorais), mais comum em quem tem grande quantidade de tumor.
+Problemas no cérebro
 
-- Fascite necrosante (infecção grave da pele e tecidos), rara e grave: deve parar Sutent® e tratar imediatamente.
+Você pode ter convulsões, principalmente se o câncer já tiver se espalhado para o cérebro (metástases). Raramente, pode acontecer um problema grave em que o cérebro incha (síndrome de leucoencefalopatia posterior reversível - SLPR).
 
-- Microangiopatia trombótica (problema grave de coagulação em vasos pequenos), com risco para rins e vida: deve parar Sutent®.
+Os sinais dessa síndrome são:
 
-- Proteína na urina (proteinúria) e síndrome nefrótica (doença dos rins): o médico deve monitorar urina; se houver síndrome nefrótica, deve parar Sutent®.
+- dor de cabeça;
 
-- Hipoglicemia (açúcar baixo no sangue), inclusive com sintomas: diabéticos devem checar a glicose com frequência e ajustar remédios se necessário.
+- confusão de ideias/sono;
 
-Gravidez, fertilidade e amamentação: Não use Sutent® na gravidez, a menos que o médico considere indispensável. Use método para evitar gravidez durante o tratamento. Informe imediatamente se houver suspeita de gravidez. Sutent® pode afetar a fertilidade. Não amamente durante o tratamento.
+- convulsões;
 
-Dirigir e operar máquinas: Você pode ter tontura. Tenha cuidado ao dirigir ou operar máquinas.
-
-Interações medicamentosas (importante). Alguns remédios podem aumentar Sutent® no sangue: cetoconazol, ritonavir, itraconazol, eritromicina, claritromicina, suco de toranja (grapefruit) e outros inibidores do CYP3A4. Outros podem diminuir Sutent® no sangue: rifampicina, dexametasona, fenitoína, carbamazepina, fenobarbital, erva-de-São-João (Hypericum perforatum) e outros indutores do CYP3A4.
-
-Informe ao médico todos os medicamentos e fitoterápicos que você usa.
-
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
-
-Guarde Sutent® em temperatura ambiente (15°C a 30°C) e protegido da umidade. Não use com validade vencida e mantenha na embalagem original.
-
-Mantenha fora do alcance das crianças.
-
-6. COMO DEVO USAR ESTE MEDICAMENTO?
-
-Doses recomendadas:
-
-- GIST ou CCRm: 50 mg por via oral, 1 vez ao dia, por 4 semanas, depois 2 semanas de descanso (esquema 4/2). Cada ciclo tem 6 semanas.
-
-- Tratamento adjuvante do CCR: 50 mg por via oral, 1 vez ao dia, no esquema 4/2, por 9 ciclos de 6 semanas (aproximadamente 1 ano).
-
-- Tumores neuroendócrinos pancreáticos: 37,5 mg por via oral, 1 vez ao dia, sem período de descanso programado.
-
-Tome com ou sem alimentos.
-
-O médico pode aumentar ou reduzir a dose em passos de 12,5 mg, conforme segurança e tolerância. Em geral, as doses não devem ser maiores que 75 mg nem menores que 25 mg por dia.
-
-No adjuvante do CCR, o médico pode reduzir em 12,5 mg até 37,5 mg. O médico pode suspender temporariamente a dose, se necessário.
-
-Não parta, não abra e não mastigue a cápsula.
-
-7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
-
-Se você esquecer uma dose, não tome dose extra. Tome a dose normal no dia seguinte, como de costume. O esquecimento pode reduzir o efeito do tratamento. Em caso de dúvidas, procure o médico ou farmacêutico.
-
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
-
-Sutent® pode causar efeitos leves a graves. Os mais importantes e graves incluem:
-
-- coágulo no pulmão (embolia pulmonar),
-
-- queda de plaquetas,
-
-- sangramento no tumor,
-
-- febre com queda de neutrófilos (neutropenia febril),
+- problemas para enxergar (alteração visual) ou perda da visão;
 
 - pressão alta.
 
-Também são muito comuns (≥10%): infecções, alterações no sangue (neutrófilos, glóbulos brancos, plaquetas, anemia), hipotireoidismo, perda de apetite, insônia, dor de cabeça, alteração do paladar, pressão alta, falta de ar, sangramento nasal, dor abdominal, diarreia, vômito, enjoo, má digestão, inflamação na boca, prisão de ventre, erupção na pele, reação nas mãos e pés (vermelhidão/dor/descamação), mudança de cor da pele e do cabelo, pele seca, dor nas mãos/pés, dor nas articulações, cansaço, inchaço e febre.
+O médico pode parar o Sutent® por um tempo e tratar os sintomas.
 
-Reações menos comuns e raras, algumas com risco de morte, incluem: sangramentos graves, infarto, insuficiência cardíaca, arritmias graves (QT longo/Torsade de Pointes), perfuração intestinal, pancreatite, insuficiência hepática, síndrome de Stevens-Johnson, síndrome de lise tumoral, microangiopatia trombótica, fascite necrosante, rabdomiólise e síndrome nefrótica.
+Problemas em cirurgias e para cicatrizar feridas
 
-Procure atendimento médico imediatamente se você tiver: falta de ar intensa, dor no peito, desmaio, batimento muito irregular, sangramento importante, pele/olhos amarelados, dor abdominal forte, fezes pretas, convulsão, bolhas na pele ou feridas na boca/olhos.
+O Sutent® pode atrapalhar a cicatrização. Por isso, o médico pode parar o tratamento por um tempo antes ou depois de grandes cirurgias e decidir quando você deve voltar a tomar.
 
-Informe ao médico ou farmacêutico qualquer reação indesejável.
+Morte do osso do queixo/mandíbula (osteonecrose): pode acontecer um problema nos ossos do queixo, em que as feridas na boca não cicatrizam e o osso fica aparecendo. Isso acontece mais em quem usa ou já usou remédios para fortalecer os ossos (bisfosfonatos) na veia. Antes de começar o tratamento, é melhor consultar um dentista. Durante o tratamento, é melhor não fazer cirurgias nem tratamentos nos dentes que cortem a gengiva (procedimentos dentários invasivos).
 
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+Outros riscos sérios (raros)
 
-Não existe antídoto específico. O tratamento é de suporte (medidas gerais). O médico pode tentar remover o medicamento ainda não absorvido por vômito induzido ou lavagem gástrica, se for indicado.
+- Complicações causadas pelas células mortas do câncer no sangue (síndrome de lise tumoral): o câncer morre muito rápido e deixa "restos" no sangue. É mais comum em quem tem grande quantidade de tumor.
 
-Em caso de grande quantidade, procure socorro médico imediatamente e leve a embalagem/bula. Ligue 0800 722 6001 para mais orientações.
+- Infecção grave na pele (fasciíte necrosante): é um problema raro e muito perigoso. Se você notar algo estranho na pele, PARE o Sutent® e procure o médico IMEDIATAMENTE.
+
+- Entupimento grave de pequenos vasos de sangue (microangiopatia trombótica), pode atingir os rins e MATAR. Se isso acontecer, você deve parar o tratamento.
+
+- Proteína na urina (proteinúria) e doença grave nos rins (síndrome nefrótica): o médico vai pedir exames de urina. Se os rins ficarem muito doentes, você deve parar de tomar o Sutent®.
+
+- Açúcar baixo no sangue (hipoglicemia), inclusive com sintomas: pessoas com diabetes devem medir o açúcar no sangue com frequência e ajustar a dose de outros remédios se necessário.
+
+Gravidez, possibilidade de ter filhos e amamentação: NÃO use o Sutent® na gravidez, a não ser que o médico considere realmente necessário. Use um método para não engravidar durante o tratamento.
+Avise o médico IMEDIATAMENTE se achar que pode estar grávida.
+O Sutent® pode diminuir a capacidade de ter filhos (fertilidade).
+Não amamente durante o tratamento.
+
+Dirigir e usar máquinas: você pode ter tontura. Tenha cuidado ao dirigir ou usar máquinas.
+
+Uso com outros remédios e substâncias (importante)
+
+Alguns remédios podem aumentar o efeito do Sutent® no sangue: cetoconazol, ritonavir, itraconazol, eritromicina, claritromicina, suco de toranja e outros remédios que afetam uma enzima do fígado que limpa o sangue (a enzima CYP3A4).
+
+Outros podem diminuir o efeito do Sutent® no sangue: rifampicina, dexametasona, fenitoína, carbamazepina, fenobarbital, erva-de-são-joão (Hypericum perforatum) e outros remédios que afetam a enzima do fígado que limpa o sangue (a CYP3A4).
+
+Diga ao médico todos os remédios que você usa, incluindo os feitos de plantas (fitoterápicos).
+
+5. COMO GUARDAR ESTE REMÉDIO?
+
+Guarde o Sutent® em temperatura ambiente (de 15 °C a 30 °C) e proteja da umidade.
+
+NÃO use se o prazo de validade já passou e mantenha na caixa original (embalagem).
+
+Mantenha fora do alcance de crianças.
+
+6. COMO DEVO USAR ESTE REMÉDIO?
+
+Doses recomendadas
+
+- Câncer no estômago ou intestino (GIST) e no rim (CCRm): tome 50 mg pela boca, 1 vez por dia, por 4 semanas, depois fique 2 semanas sem tomar (descanso). Cada ciclo tem 6 semanas.
+
+- Tratamento para evitar que o câncer de rim volte (adjuvante): tome 50 mg por dia, seguindo o esquema de 4 semanas de uso e 2 semanas de descanso. Repita isso 9 vezes (9 ciclos), o que dá mais ou menos 1 ano de tratamento.
+
+- Câncer no pâncreas (tumores neuroendócrinos do pâncreas): tome 37,5 mg pela boca, 1 vez por dia, sem parar (sem períodos de descanso).
+
+Você pode tomar o Sutent® com estômago cheio ou vazio.
+
+O médico pode aumentar ou diminuir a dose em 12,5 mg de cada vez, conforme os riscos para a sua saúde e como seu corpo reage ao tratamento. Em geral, as doses não devem ser maiores que 75 mg nem menores que 25 mg por dia.
+
+No tratamento para evitar que o câncer de rim (carcinoma de células renais - CCR) volte (adjuvante), o médico pode diminuir a dose em 12,5 mg de cada vez até chegar a 37,5 mg. Se for preciso, ele também poderá parar o remédio por um tempo.
+
+NÃO PARTA, NÃO ABRA E NÃO MASTIGUE A CÁPSULA.
+
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
+
+Se você esquecer uma dose, NÃO tome uma dose a mais para compensar.
+Tome a dose normal no dia seguinte, como sempre.
+Esquecer de tomar doses pode fazer com que o remédio não funcione como deveria.
+Se tiver dúvidas, procure um profissional de saúde.
+
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
+
+O Sutent® pode causar desde problemas leves até reações muito graves.
+
+Os mais sérios e graves são:
+
+- entupimento de uma artéria do pulmão por um coágulo (embolia pulmonar);
+
+- diminuição das células que ajudam a parar sangramentos (plaquetas);
+
+- sangramento no tumor;
+
+- febre com diminuição de células de defesa (neutrófilos - neutropenia febril);
+
+- pressão alta.
+
+Também são muito comuns (em mais de 1 em cada 10 pessoas):
+- infecções;
+- problemas no sangue (células de defesa/neutrófilos, células brancas, plaquetas, anemia);
+- tireoide lenta (hipotireoidismo);
+- perda de apetite/ficar sem comer;
+- problemas para dormir (insônia);
+- dor de cabeça;
+- mudança no gosto da comida (alteração do paladar);
+- pressão alta;
+- falta de ar;
+- sangramento do nariz;
+- dor de barriga;
+- diarreia;
+- vômito;
+- enjoo;
+- má digestão;
+- inflamação na boca;
+- prisão de ventre;
+- feridas na pele (erupção);
+- reação nas mãos e nos pés (pele irritada/com dor/descascando);
+- mudança da cor da pele e do cabelo;
+- pele seca;
+- dor nas mãos/pés;
+- dor nas juntas/articulações;
+- cansaço;
+- inchaço;
+- febre.
+
+Reações menos comuns e raras, algumas com risco de morte, incluem:
+- sangramentos graves;
+- ataque do coração (infarto);
+- coração fraco (insuficiência cardíaca);
+- batimentos do coração fora do ritmo normal (arritmias graves - QT longo/torsade de pointes);
+- furo no estômago ou intestino (perfuração intestinal);
+- infecção no pâncreas (pancreatite);
+- fígado fraco (insuficiência hepática);
+- reação alérgica grave, com bolhas na pele e nas partes úmidas do corpo (síndrome de Stevens-Johnson);
+- complicações por células mortas do câncer (síndrome de lise tumoral);
+- entupimento de pequenos vasos de sangue (microangiopatia trombótica);
+- infecção grave da pele (fasciíte necrosante);
+- destruição dos músculos (rabdomiólise);
+- doença grave nos rins (síndrome nefrótica).
+
+Procure atendimento médico IMEDIATAMENTE se você tiver:
+- falta de ar muito forte;
+- dor no peito;
+- desmaio;
+- batimentos do coração muito fora do ritmo;
+- sangramento sério;
+- pele/olhos amarelados;
+- dor de barriga forte;
+- cocô preto;
+- convulsão;
+- bolhas na pele ou feridas na boca ou nos olhos.
+
+Diga ao profissional de saúde todas as reações indesejadas que você tiver.
+
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
+
+Não existe remédio nem tratamento específico para cortar o efeito de uma dose muito grande. O tratamento é para cuidar dos sintomas. O médico pode tentar fazer você vomitar ou “lavar” o seu estômago para tirar o remédio do seu corpo, se isso for indicado.
+
+Se você ou alguém tomar uma quantidade muito grande deste remédio, procure atendimento médico IMEDIATAMENTE. Leve a caixa (embalagem) ou a bula. Ligue para 0800 722 6001 para pedir mais orientações.
 </text>

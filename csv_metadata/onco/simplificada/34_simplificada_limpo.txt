@@ -17,341 +17,377 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Tafinlar® (sozinho ou junto com dimetilsulfóxido de trametinibe) é indicado para:
+O Tafinlar® é um remédio tomado pela boca sozinho ou junto com dimetilsulfóxido de trametinibe.
 
-- Melanoma (câncer de pele) em adultos, quando o câncer se espalhou pelo corpo e não pode ser retirado por cirurgia, e o tumor tem a mutação BRAF V600.
+Ele trata:
 
-- Prevenir que o melanoma volte após a retirada por cirurgia (uso adjuvante) quando usado junto com dimetilsulfóxido de trametinibe.
+- câncer de pele (melanoma) em adultos, quando o câncer se espalhou pelo corpo e não pode ser tirado por cirurgia e o tumor tem um defeito no gene BRAF V600;
 
-- Câncer de pulmão de células não pequenas (CPCNP) em adultos, com mutação BRAF V600E, junto com dimetilsulfóxido de trametinibe.
+- câncer de pele do tipo melanoma tirado por cirurgia, para evitar que o câncer volte (uso “adjuvante”), quando usado junto com o remédio dimetilsulfóxido de trametinibe;
 
-- Câncer anaplásico de tireoide (CAT) em adultos, com mutação BRAF V600E, quando o câncer se espalhou ou não pode ser retirado por cirurgia (uso junto com dimetilsulfóxido de trametinibe).
+- um tipo de câncer de pulmão (de “células não pequenas” - CPCNP) em adultos, com defeito no gene BRAF V600E, junto com dimetilsulfóxido de trametinibe;
 
-- Tumor sólido em adultos e crianças com 6 anos ou mais, quando o tumor não respondeu a outros tratamentos e não existem outras opções (incluindo cirurgia), e o tumor tem mutação no gene BRAF (uso junto com dimetilsulfóxido de trametinibe).
+- um tipo agressivo de câncer na tireoide (câncer anaplásico da tireoide - CAT) em adultos, com defeito no gene BRAF V600E, quando o câncer se espalhou ou não pode ser tirado por cirurgia. É usado junto com dimetilsulfóxido de trametinibe;
 
-✅ Importante: Tafinlar® só funciona em cânceres com mutação no gene BRAF. Por isso, o médico precisa coletar amostra do tumor para testar se o medicamento é adequado para você.
+- tumores em órgãos (tumores sólidos) em adultos e crianças com 6 anos ou mais, quando outros tratamentos não fizeram efeito e não existem outras opções (incluindo cirurgia). O tumor deve ter defeito no gene BRAF. O Tafinlar® é usado junto com dimetilsulfóxido de trametinibe.
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+ATENÇÃO
 
-O dabrafenibe (substância de Tafinlar®) bloqueia algumas enzimas chamadas BRAF. Em alguns cânceres, a mutação BRAF V600 (ou V600E) “liga” o crescimento das células tumorais.
+O Tafinlar® só funciona em cânceres com defeito no gene BRAF. Por isso, o médico precisa testar uma amostra do tumor para saber se este remédio é indicado para você.
 
-Tafinlar® atua nas proteínas formadas por esse gene alterado e pode diminuir ou parar o crescimento do câncer.
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+O ingrediente ativo do Tafinlar® é o dabrafenibe. Ele bloqueia algumas proteínas chamadas BRAF. Em alguns tipos de câncer, um defeito no gene BRAF V600 (ou V600E) faz as células do tumor crescerem.
 
-Não use Tafinlar® se você tiver alergia a qualquer componente da fórmula.
+O Tafinlar® age nas proteínas formadas por esse gene com defeito e pode diminuir ou parar o crescimento do câncer.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Siga exatamente as orientações do médico. Se você usar Tafinlar® junto com dimetilsulfóxido de trametinibe, leia também a bula do trametinibe.
+Não use o Tafinlar® se você tiver alergia a algum ingrediente da fórmula.
 
-Converse com o médico antes de iniciar se você:
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
+
+Siga as orientações exatamente como o médico prescreveu. Se você usar o Tafinlar® junto com o dimetilsulfóxido de trametinibe, leia também a bula do trametinibe.
+
+Converse com o médico ANTES de começar a tomar o Tafinlar® se você:
 
 - tem problema no fígado (o médico pode pedir exames de sangue durante o tratamento);
 
-- tem ou já teve problema nos rins.
+- tem ou já teve problemas nos rins.
 
-Procure o médico imediatamente se aparecerem estes problemas:
+Procure o médico IMEDIATAMENTE se você tiver os seguintes problemas listados abaixo.
 
-Febre: Algumas pessoas têm febre com Tafinlar®. Em alguns casos, a febre vem com:
+Febre: algumas pessoas têm febre com Tafinlar®. Em alguns casos, a febre vem com:
 
-- rigidez muscular grave,
+- músculos muito duros ou difíceis de movimentar (rigidez muscular grave);
 
-- desidratação,
+- perda de água e líquidos do corpo (desidratação);
 
-- pressão baixa,
+- pressão do sangue baixa;
 
-- insuficiência renal aguda (piora rápida dos rins).
+- problema grave nos rins (piora rápida do funcionamento dos rins).
 
-O médico pode pedir exames, interromper o tratamento, reduzir a dose e investigar infecção.
+O médico pode pedir exames, parar o tratamento por um tempo, diminuir a dose e fazer testes para saber se você está com alguma infecção.
 
-Avise o médico imediatamente se tiver febre (≥ 38,5°C) ou sensação de que vai ter febre.
+Avise o médico IMEDIATAMENTE se você tiver febre de 38,5 °C ou mais alta ou se sentir que vai ter febre.
 
-Tumores na pele (carcinoma de células escamosas cutâneo):
+Tumores na pele (carcinoma de células escamosas cutâneo)
 
-Pode surgir um tumor de pele em que a área fica crostosa e descamativa. Em geral:
+Pode aparecer um tumor de pele em que a área fica grossa e descascando. Em geral:
 
-- fica localizado,
+- o tumor fica em um lugar só;
 
-- pode ser removido com cirurgia,
+- pode ser tirado por cirurgia;
 
-- e você pode continuar o tratamento.
+- você pode continuar o tratamento.
 
-O médico deve fazer exame de pele:
+O médico vai examinar a sua pele:
 
-- antes de começar,
+- antes de você começar o tratamento;
 
-- a cada 2 meses durante o tratamento,
+- a cada 2 meses durante o tratamento;
 
-- e a cada 2–3 meses por até 6 meses depois de parar.
+- e a cada 2 a 3 meses por até 6 meses depois do fim do tratamento.
 
-Avise o médico se surgirem novas lesões na pele.
+Avise o médico se surgirem novas feridas ou pintas na pele.
 
-Novo melanoma primário: Podem aparecer novas pintas ou pintas antigas podem mudar de cor ou tamanho. O acompanhamento é o mesmo do exame de pele acima.
+Novo câncer de pele (melanoma primário)
 
-Outros cânceres (fora da pele): Pode existir risco maior de outros tipos de câncer. O médico vai acompanhar sinais e sintomas e pode manter esse acompanhamento por até 6 meses após parar o tratamento.
+Podem aparecer novas pintas ou as pintas antigas podem mudar de cor ou de tamanho. Os exames de pele para monitorar/acompanhar são feitos com a mesma frequência explicada acima.
 
-Pancreatite (inflamação no pâncreas): É rara, mas pode acontecer. Se você tiver dor abdominal forte ou sem explicação, procure o médico.
+Outros tipos de câncer (fora da pele)
 
-Problemas nos olhos: Podem ocorrer inflamações nos olhos como uveíte e irite. Avise o médico se tiver:
+O risco de você ter outros tipos de câncer pode ser maior. O médico vai monitorar/acompanhar sinais e sintomas de problemas e pode continuar fazendo isso por até 6 meses depois que o tratamento terminar.
 
-- mudança na visão,
+Inflamação no pâncreas (pancreatite)
 
-- sensibilidade à luz,
+É rara, mas pode acontecer. Se você tiver dor de barriga muito forte ou sem explicação, procure o médico.
+
+Problemas nos olhos
+
+Você pode ter inflamações nos olhos, como uveíte e irite. Avise o médico se tiver:
+
+- problemas para enxergar (mudanças na visão);
+
+- sensibilidade à luz;
 
 - irritação ou dor nos olhos.
 
-Coágulos no sangue (TEV): Quando Tafinlar® é usado junto com dimetilsulfóxido de trametinibe, pode ocorrer:
+Entupimento de veias (coágulos no sangue, tromboembolismo venoso - TEV)
 
-- trombose (coágulo na perna – TVP),
+Quando o Tafinlar® é usado junto com dimetilsulfóxido de trametinibe, podem ocorrer:
 
-- embolia pulmonar (coágulo no pulmão – EP).
+- entupimento de veias das pernas (coágulos na perna, trombose venosa profunda - TVP);
 
-Procure atendimento imediato se tiver:
+- entupimento no pulmão por coágulo (embolia pulmonar - EP).
 
-- dor no peito,
+Procure atendimento médico IMEDIATAMENTE se você tiver:
 
-- falta de ar súbita,
+- dor no peito;
 
-- dor/inchaço na perna,
+- falta de ar de uma hora para outra;
 
-- inchaço nos braços/pernas,
+- dor na perna ou perna inchada;
 
-- braço ou perna fria e pálida.
+- braços/pernas inchados;
 
-Reações graves na pele: Podem ocorrer reações graves, como:
+- braço ou perna frios e sem cor.
 
-- síndrome de Stevens-Johnson (bolhas e feridas na pele e nas mucosas),
+Reações graves na pele
 
-- reação grave com febre e sintomas no corpo (reação medicamentosa com eosinofilia e sintomas sistêmicos).
+Podem acontecer reações graves, como:
 
-Sinais de alerta:
+- reação alérgica grave, com bolhas e feridas na pele e nas partes úmidas do corpo (síndrome de Stevens-Johnson);
 
-- manchas/erupções,
+- reação grave com febre e sintomas por todo o corpo (reação ao remédio com eosinofilia e sintomas sistêmicos).
 
-- pele vermelha,
+Fique atento aos seguintes sinais:
 
-- bolhas nos lábios/olhos/boca,
+- manchas/feridas (erupção) na pele;
 
-- descamação da pele, com ou sem febre,
+- pele vermelha;
 
-- febre com ínguas (gânglios inchados).
+- bolhas nos lábios/olhos/boca;
 
-Também avise o médico imediatamente se houver:
+- pele descascando, com ou sem febre;
 
-- vários sintomas juntos como febre + glândulas inchadas + hematomas + erupção (pode indicar LHH),
+- febre com caroços inchados no pescoço, embaixo dos braços ou entre as coxas (gânglios inchados ou ínguas).
 
-- batimento irregular + pouca urina + confusão + vômitos intensos + falta de ar + cãibras/espasmos (pode indicar SLT).
+Avise o médico IMEDIATAMENTE se você tiver:
 
-Problemas no coração: Tafinlar® pode causar problemas no coração ou piorar problemas já existentes.
+- vários sintomas ao mesmo tempo, como febre, caroços inchados, manchas roxas e feridas na pele (isso pode indicar linfo-histiocitose hemofagocítica - LHH, em que o sistema de defesa do corpo fica ativo demais);
 
-5. Gravidez, amamentação e fertilidade Gravidez: Tafinlar® pode causar dano ao feto. Use método contraceptivo confiável durante o tratamento e por pelo menos 2 semanas após parar Tafinlar®. Se você usar a combinação Tafinlar® + dimetilsulfóxido de trametinibe, use contracepção por pelo menos 16 semanas após parar a combinação. Tafinlar® pode reduzir o efeito de anticoncepcionais hormonais (pílula, injeção, adesivo). Use um método alternativo eficaz e converse com o médico.
+- batimentos do coração fora do ritmo normal, pouca urina, confusão de ideias, vômitos muito fortes, falta de ar, cãibras/fisgadas nos músculos (espasmos) (isso pode indicar síndrome de lise tumoral - SLT).
 
-Avise o médico imediatamente se engravidar.
+Problemas no coração
 
-Amamentação: Não amamente durante o tratamento. Uso contraindicado no aleitamento ou doação de leite humano, pois pode passar para o leite e causar reações no bebê.
+O Tafinlar® pode causar problemas no coração ou piorar problemas que você já tem.
 
-Fertilidade: Pode reduzir a fertilidade feminina. Em homens, pode reduzir a contagem de espermatozoides e essa contagem pode não voltar ao normal após parar. Em homens, Mesmo com vasectomia, se a parceira estiver grávida ou puder engravidar:
+Gravidez, amamentação e possibilidade de ter filhos
 
-- use preservativo durante o tratamento e por pelo menos 2 semanas após parar Tafinlar®;
+Gravidez
 
-- se usar a combinação com trametinibe, use preservativo por pelo menos 16 semanas após parar a combinação.
+O Tafinlar® pode fazer mal ao feto durante a gravidez. Use um método confiável para evitar a gravidez durante o tratamento e por pelo menos 2 semanas depois de parar o tratamento com Tafinlar®. Se você tomar o Tafinlar® com o dimetilsulfóxido de trametinibe, use um método para evitar a gravidez por pelo menos 16 semanas depois de parar o tratamento. O Tafinlar® pode diminuir o efeito de métodos para evitar a gravidez feitos com hormônios (pílulas, injeções, adesivos). Use um outro método além desses feitos com hormônios e converse sobre isso com o médico.
 
-Evite dirigir ou operar máquinas se estiver com problemas na sua visão ou estiver se sentindo cansado ou fraco.
+Avise o médico IMEDIATAMENTE se você engravidar.
 
-Interações com medicamentos e alimentos Alguns remédios podem interferir com Tafinlar®. Informe tudo que você usa, inclusive sem receita e fitoterápicos. Exemplos citados:
+Amamentação
 
-- Para infecções: claritromicina, rifampicina, cetoconazol
+Não amamente durante o tratamento. NÃO use durante amamentação nem se estiver doando leite do peito, pois o remédio pode passar para o leite do peito e fazer mal ao bebê.
 
-- Para AIDS: ritonavir
+Possibilidade de ter filhos (fertilidade)
 
-- Anticoncepcionais hormonais (pode reduzir o efeito)
+Este remédio pode diminuir a possibilidade de engravidar. Em homens, o Tafinlar® pode diminuir a quantidade de espermatozoides. Esse problema pode não voltar ao normal mesmo depois do fim do tratamento.
 
-- Para acidez do estômago: rabeprazol, bloqueadores H2 e antiácidos
+Recomendações para homens, mesmo com vasectomia, se a parceira estiver grávida ou puder engravidar:
 
-- Para gorduras no sangue: genfibrozila
+- usar camisinha (preservativo) durante o tratamento e por pelo menos 2 semanas após parar o Tafinlar®;
 
-- Antidepressivo: nefazodona
+- se estiver tomando trametinibe também, usar camisinha (preservativo) por pelo menos 16 semanas depois de parar o tratamento.
 
-- Para convulsões: fenitoína, fenobarbital, carbamazepina
+Evite dirigir ou usar máquinas se estiver com problemas para enxergar bem ou estiver se sentindo cansado ou fraco.
 
-- Corticoide: dexametasona
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-- Para dormir: midazolam
+Alguns remédios podem mudar o efeito do Tafinlar® no corpo. Diga ao médico tudo que você usa, até mesmo os remédios que você compra sem receita e feitos de plantas (fitoterápicos).
 
-- Anticoagulante: varfarina
+Exemplos:
 
-- Colesterol: rosuvastatina
+- para infecções: claritromicina, rifampicina, cetoconazol;
 
-- Fitoterápico: Erva de São João Informe ao seu médico ou dentista se você está usando outro medicamento.
+- para AIDS: ritonavir;
 
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+- métodos para evitar a gravidez feitos de hormônios (pode diminuir o efeito);
 
-Guarde na embalagem original, em temperatura ambiente (15°C a 30°C). Não retire o dessecante (sachê que controla umidade).
+- para acidez do estômago: rabeprazol, bloqueadores H2 e antiácidos;
+
+- para gorduras no sangue: genfibrozila;
+
+- para tristeza/depressão (antidepressivo): nefazodona;
+
+- para convulsões: fenitoína, fenobarbital, carbamazepina;
+
+- para inflamações: dexametasona (corticoide);
+
+- para dormir: midazolam;
+
+- para entupimento de veias (anticoagulante): varfarina;
+
+- para colesterol alto no sangue: rosuvastatina;
+
+- remédio feito de plantas: erva-de-são-joão.
+
+Avise o médico ou o dentista se você está usando algum outro remédio.
+
+5. COMO GUARDAR ESTE REMÉDIO?
+
+Guarde na embalagem original, em temperatura ambiente (de 15 °C a 30 °C). Não tire o sachê que controla umidade (dessecante).
 
 Não use com prazo de validade vencido.
 
-Mantenha fora do alcance das crianças.
+Mantenha fora do alcance de crianças.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+6. COMO DEVO USAR ESTE REMÉDIO?
 
 Regras gerais:
 
-- Uso por via oral.
+- use SOMENTE pela boca;
 
-- Tome exatamente como o médico prescrever.
+- tome exatamente como o médico receitou;
 
-- Tome 2 vezes ao dia, com estômago vazio: pelo menos 1 hora antes das refeições ou 2 horas após as refeições.
+- tome 2 vezes por dia, com estômago vazio: pelo menos 1 hora antes de comer ou 2 horas depois;
 
-- Mantenha intervalo de cerca de 12 horas entre as doses.
+- tome as doses de 12 em 12 horas;
 
-- Engula as cápsulas inteiras, com água.
+- tome as cápsulas inteiras pela boca, com um copo de água;
 
-- Não partir, não abrir e não mastigar.
+- NÃO PARTA, NÃO ABRA E NÃO MASTIGUE AS CÁPSULAS.
 
-Em combinação com dimetilsulfóxido de trametinibe
+Tafinlar® junto com dimetilsulfóxido de trametinibe
 
-- Tome Tafinlar® de manhã e à noite (12 horas de intervalo).
+- Tome Tafinlar® de manhã e de noite (de 12 em 12 horas).
 
-- Tome a dose diária única de trametinibe no mesmo horário, junto com a dose da manhã ou da noite de Tafinlar®.
+- Tome a dose de trametinibe (tomada uma vez por dia) sempre no mesmo horário, junto com a dose da manhã ou da noite de Tafinlar®.
 
-- Não tome mais de uma dose de trametinibe por dia.
+- NÃO tome mais do que 1 dose de trametinibe por dia.
 
-- Não tome as doses da manhã e da noite de Tafinlar® juntas.
+- NÃO tome as doses da manhã e da noite de Tafinlar® ao mesmo tempo.
 
-Doses:
+Doses
 
-- Adultos: 150 mg 2 vezes ao dia (de 12 em 12 horas) = 300 mg por dia.
+- Adultos: 150 mg 2 vezes por dia (de 12 em 12 horas) = 300 mg por dia.
 
-- Crianças com 6 anos ou mais: a dose depende do peso e o médico define.
+- Crianças com 6 anos ou mais: o médico vai decidir a dose de acordo com o peso da criança.
 
-O médico decide por quanto tempo você vai usar, conforme resposta e efeitos colaterais. Pode ser tratamento longo, por meses ou anos.
+O médico vai decidir por quanto tempo você vai tomar o remédio. Isso vai depender da sua melhora e dos efeitos colaterais. O tratamento pode ser longo, por meses ou anos.
 
-Ajuste de dose. Se surgirem problemas (por exemplo, febre ≥ 38,5°C ou uveíte), o médico pode:
+Ajuste de dose
 
-- pausar o tratamento,
+Se surgirem problemas (por exemplo, febre de 38,5 °C ou mais alta ou uveíte), o médico pode:
 
-- reduzir a dose,
+- parar o tratamento por um tempo;
 
-- ou parar definitivamente.
+- diminuir a dose;
 
-Populações especiais:
+- parar o tratamento de vez.
 
-- Menores de 6 anos: não recomendado.
+Casos especiais
 
-- Idosos (≥ 65 anos): geralmente sem ajuste.
+- Crianças com menos de 6 anos: o remédio não é recomendado.
 
-- Rins: sem ajuste em insuficiência leve a moderada; usar com cuidado se insuficiência grave.
+- Pessoas idosas (com 65 anos ou mais): geralmente não precisam mudar a dose.
 
-- Fígado: sem ajuste em insuficiência leve; usar com cuidado se moderada a grave.
+- Problemas nos rins: a dose é a mesma se o problema for leve ou moderado; se for grave, use o remédio com cuidado.
 
-7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+- Problemas no fígado: a dose é a mesma se o problema for leve; se for moderado ou grave, use o remédio com cuidado.
 
-Se você lembrar com até 6 horas de atraso: tome a dose assim que lembrar. Se você lembrar com mais de 6 horas de atraso: não tome dose dobrada. Tome a próxima dose no horário normal.
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+Se você lembrar com até 6 horas de atraso: tome a dose assim que lembrar. Se você lembrar com mais de 6 horas de atraso: NÃO tome a dose em dobro. Tome a próxima dose no horário de sempre.
 
-Reações muito comuns (>10%)
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-- verrugas na pele (papiloma),
+São reações muito comuns (acontecem em mais de 1 pessoa em cada 10):
 
-- diminuição do apetite,
+- verrugas na pele (papiloma);
 
-- dor de cabeça,
+- ter menos fome (diminuição do apetite);
 
-- tosse,
+- dor de cabeça;
 
-- enjoo, vômitos, diarreia,
+- tosse;
 
-- erupções na pele e espessamento da pele,
+- enjoo, vômitos, diarreia;
 
-- queda de cabelo,
+- pele irritada e mais grossa (erupções na pele e espessamento da pele);
 
-- mãos/pés doloridos, inchados, vermelhos ou com dormência,
+- queda de cabelo;
 
-- dor nas articulações e músculos,
+- mãos/pés doloridos, inchados, vermelhos ou com perda de sensibilidade/dormência;
 
-- dor nas extremidades,
+- dor nas juntas/articulações e nos músculos;
 
-- cansaço/fraqueza, calafrios,
+- dor nas pontas dos dedos, mãos ou pés (dor nas extremidades);
+
+- cansaço/fraqueza, calafrios;
 
 - febre.
 
-Reações comuns (1% a 10%)
+São reações comuns (acontecem em 1 a 10 pessoas a cada 100 - entre 1% e 10%):
 
-- inflamação no nariz e garganta,
+- inflamação no nariz e na garganta;
 
-- “pelinhas” na pele (acrocórdon),
+- “verruguinhas” na pele (acrocórdon);
 
-- carcinoma de células escamosas cutâneo,
+- um tipo de tumor na pele que descasca (carcinoma de células escamosas cutâneo);
 
-- manchas/lesões na pele (incluindo pele seca, vermelhidão, coceira, sensibilidade à luz),
+- manchas/feridas na pele (incluindo pele seca, irritação, coceira e sensibilidade à luz);
 
-- hiperglicemia (açúcar alto),
+- açúcar alto no sangue (hiperglicemia);
 
-- prisão de ventre,
+- prisão de ventre;
 
-- inflamações nos olhos (uveíte),
+- inflamações nos olhos (uveíte);
 
-- neuropatia periférica (dor, formigamento, dormência, fraqueza).
+- dor, formigamento, perda de sensibilidade/dormência, fraqueza (neuropatia periférica).
 
-Reações incomuns (0,1% a 1%)
+São reações incomuns (acontecem em 1 a 10 pessoas a cada 1.000 - entre 0,1% e 1%):
 
-- novo melanoma,
+- um novo câncer de pele (melanoma);
 
-- alergia,
+- alergia;
 
-- pancreatite,
+- infecção no pâncreas (pancreatite);
 
-- inflamação na gordura sob a pele (paniculite),
+- inflamação na gordura sob a pele (paniculite);
 
-- problemas nos rins (inclusive insuficiência renal aguda e inflamação nos rins),
+- problemas nos rins (como piora rápida no funcionamento dos rins/insuficiência renal e inflamação nos rins);
 
-- prolongamento do intervalo QT.
+- batimentos do coração fora do ritmo normal (prolongamento do intervalo QT).
 
-Quando usado com dimetilsulfóxido de trametinibe, podem ocorrer efeitos graves, como:
+Quando usado junto com dimetilsulfóxido de trametinibe, podem acontecer problemas graves, como:
 
-- sinais de infecção com baixa de células de defesa,
+- sinais de infecção com diminuição das células de defesa do corpo;
 
-- sangramentos importantes (inclusive fezes pretas, vômito com sangue),
+- sangramentos graves (como fezes pretas, vômito com sangue);
 
-- inchaço generalizado,
+- inchaço no corpo todo;
 
-- confusão, convulsões (hiponatremia),
+- confusão de ideias, convulsões (quantidade baixa de sódio no sangue/hiponatremia);
 
-- coágulos (TVP/EP),
+- entupimento de veias (coágulos, trombose venosa profunda - TVP/embolia pulmonar - EP);
 
-- perda de visão, descolamento de retina,
+- não conseguir enxergar (perda de visão) e outros problemas graves nos olhos (como descolamento da retina);
 
-- batimento lento, arritmias,
+- batimento lento do coração, batimentos do coração fora do ritmo normal (arritmias);
 
-- pancreatite aguda,
+- infecção no pâncreas (pancreatite aguda);
 
-- insuficiência renal,
+- problema grave nos rins (insuficiência renal);
 
-- rabdomiólise,
+- dor e fraqueza grave nos músculos, com urina escura (rabdomiólise);
 
-- problemas pulmonares (pneumonite/doença intersticial),
+- problemas no pulmão (pneumonite/doença intersticial);
 
-- perfuração no intestino, colite,
+- furo no intestino (perfuração) ou inflamação no intestino (colite);
 
-- sinais raros como LHH e SLT.
+- reações raras que causam vários problemas de saúde ao mesmo tempo, como linfo-histiocitose hemofagocítica (LHH) e síndrome de lise tumoral (SLT).
 
-Se você tiver um efeito adverso sério, pare o medicamento e procure o médico imediatamente.
+Se você tiver algum efeito colateral grave, pare de tomar o remédio e procure o médico IMEDIATAMENTE.
 
-Alguns sintomas podem continuar mesmo depois de parar.
+Alguns sintomas podem continuar mesmo depois que você parar de tomar o remédio.
 
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-Não existe antídoto específico. Em caso de superdose, suspenda o uso e procure atendimento médico.
+Não existe remédio nem tratamento específico para cortar o efeito de uma dose muito grande. Se você ou alguém tomar uma quantidade maior do que a receitada, procure atendimento médico IMEDIATAMENTE.
 
-O médico vai orientar as medidas necessárias. Se alguém tomar seu medicamento por engano, vá ao pronto-socorro.
+O médico vai decidir o que fazer. Se alguém tomar o seu remédio por engano, leve a pessoa ao pronto-socorro.
 </text>

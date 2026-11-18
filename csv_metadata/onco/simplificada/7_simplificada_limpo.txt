@@ -17,189 +17,205 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Cisplatina é indicada para tratar câncer de:
+A Cisplatina é aplicada na veia e trata câncer de:
 
-- Testículo
+- testículo;
 
-- Ovário
+- ovário;
 
-- Bexiga
+- bexiga;
 
-- Cabeça e pescoço
+- cabeça e pescoço.
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-Cisplatina é um medicamento contra o câncer (antineoplásico). Ela atrapalha a formação do DNA das células e também reduz a produção de proteínas e RNA. Com isso, ela ajuda a impedir o crescimento das células do câncer.
+A Cisplatina é um remédio contra o câncer (chamado “antineoplásico”). Ela atrapalha a formação do DNA das células e também diminui a produção de proteínas e de RNA. Assim, o remédio ajuda a parar o crescimento das células do câncer.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Você não deve usar cisplatina nas situações abaixo, a menos que o médico avalie que o benefício é maior que o risco:
+Você não deve usar a Cisplatina nas situações abaixo, a não ser que o médico avalie que os benefícios são maiores do que os riscos:
 
-- Problema nos rins já existente (insuficiência renal prévia).
+- problemas nos rins antes do início do tratamento (insuficiência renal);
 
-- Problema de audição já existente.
+- problemas para ouvir/escutar antes de começar o tratamento.
 
-Cisplatina não deve ser usada se você:
+Você também NÃO deve usar a Cisplatina se:
 
-- Tiver mielodepressão (medula óssea “fraca”, com baixa produção de células do sangue).
+- tiver medula óssea fraca, com baixa produção de células do sangue (mielodepressão);
 
-- Tiver alergia à cisplatina, a outros medicamentos com platina, ou a qualquer componente da fórmula.
+- tiver alergia à Cisplatina, a outros remédios feitos de platina ou a algum ingrediente da fórmula;
 
-- Estiver grávida.
+- estiver grávida.
 
-Este medicamento não deve ser usado por mulheres grávidas sem orientação médica. Avise o médico imediatamente se houver suspeita de gravidez.
+Este remédio não deve ser usado por pessoas grávidas sem orientação médica.
+Avise o médico IMEDIATAMENTE se achar que pode estar grávida.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Risco de infecções e sangramentos: Cisplatina pode diminuir as defesas do corpo e aumentar o risco de sangramentos. Para se proteger:
+Risco de infecções e de sangramentos: a Cisplatina pode diminuir as defesas do corpo e aumentar o risco de sangramentos.
+Para se proteger:
 
-Evite contato com pessoas doentes.
+- evite contato com pessoas doentes ou gripadas;
 
-Lave as mãos com frequência.
+- lave as mãos com frequência;
 
-Evite situações com risco de machucados (esportes de contato, objetos cortantes).
+- evite situações em que você possa se machucar (como praticar esportes de contato e usar objetos afiados);
 
-Escove os dentes e use fio dental com cuidado.
+- escove os dentes e passe o fio dental com bastante cuidado.
 
-O médico pedirá exames com frequência durante o tratamento, como:
+O médico vai pedir exames com frequência durante o tratamento, como:
 
-- Exames de sangue e urina
+- exames de sangue e de urina;
 
-- Testes de audição
+- testes para saber se você escuta/ouve bem.
 
-- Náuseas e vômitos Mesmo com remédios para evitar enjoo, você pode continuar com náuseas e vômitos. Avise o médico para ajustar o controle desses sintomas.
+Náuseas e vômitos (enjoos): mesmo usando remédios para evitar enjoos, você ainda pode ter náuseas e vômitos.
+Avise o médico para ajustar os remédios para controlar esses sintomas.
 
-Somente profissionais treinados devem preparar e aplicar cisplatina.
+SOMENTE profissionais de saúde treinados devem preparar e aplicar a Cisplatina.
 
-Interações com medicamentos, álcool, vacinas e outros: Avise o médico sobre todos os medicamentos que você usa.
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-Cisplatina pode reduzir o efeito de anticonvulsivantes.
+Diga ao médico TODOS os remédios que você toma.
 
-O uso junto com piridoxina e altretamina pode piorar a resposta do tratamento em câncer avançado de ovário.
+A Cisplatina pode diminuir o efeito de remédios contra convulsões (anticonvulsivantes).
 
-Evite álcool e ácido acetilsalicílico (ex.: Aspirina), porque aumentam o risco de sangramento no estômago e intestino.
+Usar a Cisplatina junto com piridoxina e altretamina pode fazer o tratamento funcionar menos no câncer de ovário avançado.
 
-Não use vacinas de vírus vivos durante o tratamento.
+Evite bebidas alcoólicas e ácido acetilsalicílico (como a Aspirina), pois eles aumentam o risco de sangramentos no estômago e no intestino.
 
-Cisplatina pode causar dano acumulado nos rins. O risco aumenta se você usar antibióticos aminoglicosídeos.
+NÃO tome vacinas feitas com vírus vivos durante o tratamento.
 
-Cisplatina deve ser aplicada somente por via intravenosa (na veia).
+A Cisplatina pode causar problemas nos rins que pioram ao longo do tempo. Esse risco aumenta se você tomar antibióticos para infecções graves (chamados de aminoglicosídeos).
 
-Gravidez e amamentação: Cisplatina pode causar dano ao bebê durante a gravidez. Não é recomendado amamentar durante o tratamento.
+A Cisplatina deve ser aplicada SOMENTE direto na veia (por via intravenosa).
 
-Crianças: O risco de dano no ouvido pode ser maior em crianças, com zumbido, perda de audição e, às vezes, surdez.
+Gravidez e amamentação: a Cisplatina pode causar danos graves ao feto durante a gravidez. NÃO amamente durante o tratamento.
 
-Idosos: Idosos têm maior risco de:
+Crianças: o risco de problemas no ouvido pode ser maior em crianças. O tratamento pode causar zumbido, perda da audição e surdez em alguns casos.
 
-- Queda das células do sangue (medula óssea)
+Pessoas idosas: pessoas com mais idade têm maior risco de:
 
-- Problemas nos rins
+- queda na quantidade de células do sangue produzidas na medula óssea;
 
-- Problemas no sistema nervoso
+- problemas no funcionamento dos rins;
 
-O médico deve acompanhar de perto rins e fígado.
+- problemas no sistema nervoso.
 
-Problema nos rins: Cisplatina se concentra nos rins e pode causar dano que aumenta com o tempo (efeito cumulativo).
+O médico deve acompanhar com atenção o funcionamento dos rins e do fígado.
 
-Problema no fígado: O médico deve usar a dose usual com cautela.
+Problemas nos rins: a Cisplatina se acumula nos rins e pode causar danos que aumentam com o tempo (tem efeito cumulativo).
 
-Não use medicamento sem orientação médica. Pode ser perigoso para a sua saúde.
+Problemas no fígado: o médico deve indicar a dose de costume com bastante cuidado.
 
-5. COMO GUARDAR ESTE MEDICAMENTO?
+NUNCA use remédios sem a orientação de um profissional de saúde. Isso pode ser perigoso para a sua saúde.
 
-Conservar em temperatura ambiente entre 15°C e 30°C. Proteger da luz. Guardar na embalagem original.
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Não usar após o prazo de validade.
+Guarde a Cisplatina em temperatura ambiente (entre 15 °C e 30 °C). Mantenha o remédio protegido da luz.
+Mantenha na embalagem original.
 
-Características do produto: Solução injetável transparente, de incolor a amarelo pálido, em frasco de vidro âmbar, sem partículas visíveis.
+NÃO use com o prazo de validade vencido.
 
-Mantenha fora do alcance das crianças.
+Aparência/aspecto: a Cisplatina é um líquido transparente para injeção, sem cor ou com tom amarelo-claro. Ela vem em um frasco de vidro escuro (âmbar), sem pedacinhos ou partículas visíveis.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+Mantenha fora do alcance de crianças.
 
-Cisplatina é aplicada por infusão intravenosa (na veia), por um profissional de saúde.
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-O médico define:
+A Cisplatina é aplicada por injeção/infusão direto na veia por um profissional de saúde qualificado no hospital ou na clínica.
 
-- A dose
+O médico vai definir:
 
-- A frequência
+- a dose certa para o seu caso;
 
-- A duração do tratamento Isso depende do estágio da doença e do protocolo usado.
+- quantas vezes você vai receber o remédio;
 
-Avise imediatamente se:
+- a duração do tratamento.
 
-- O medicamento cair na sua pele ou espirrar nos seus olhos.
+Essas decisões dependem do estágio da doença e do plano de tratamento escolhido.
 
-- Você sentir dor quando a agulha estiver na veia.
+Avise o médico ou a equipe de saúde IMEDIATAMENTE se:
 
-Não interrompa o tratamento sem falar com o médico.
+- o remédio espirrar nos seus olhos ou cair sobre a sua pele;
 
-7. O QUE DEVO FAZER SE EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+- você sentir dor, queimação ou inchaço no local da agulha na veia.
 
-O tratamento segue um esquema regular. Se você perder uma dose, avise o médico ou a equipe responsável para receber orientação.
+NUNCA pare o tratamento sem falar com o médico.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-Efeitos comuns com cisplatina incluem:
+O tratamento com Cisplatina segue horários e dias programados. Se você perder uma aplicação, avise o médico ou a equipe responsável o mais rápido possível para receber orientações.
 
-- Problemas nos rins (nefrotoxicidade).
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-- Problemas de audição (ototoxicidade): zumbido, perda de audição (principalmente sons agudos) e, às vezes, surdez.
+Os problemas mais comuns causados pela Cisplatina são:
 
-- Reação alérgica grave (anafilaxia).
+- problemas no funcionamento dos rins (nefrotoxicidade);
 
-- Queda das células do sangue (mielossupressão), aumentando risco de infecções e sangramentos.
+- problemas para ouvir/escutar (ototoxicidade), como zumbidos no ouvido, dificuldade para escutar sons agudos e, em alguns casos, surdez;
 
-- Alteração de sais no sangue (eletrólitos), que pode causar cãibras, tremores e espasmos.
+- reação alérgica grave (anafilaxia/choque);
 
-- Problemas no sistema nervoso: formigamento, dormência, perda de reflexos e, em altas doses, alterações que podem ser permanentes.
+- queda na quantidade de células do sangue (mielossupressão); isso aumenta o risco de infecções e sangramentos;
 
-- Problemas nos olhos: visão turva e alteração na percepção de cores.
+- alteração na quantidade de sais minerais no sangue (eletrólitos), o que pode causar cãibras, tremores e contrações musculares (espasmos);
 
-- Náuseas e vômitos
+- problemas no sistema nervoso, como formigamento, perda de sensibilidade/dormência nas mãos e nos pés e perda de reflexos, que podem durar para sempre em doses altas;
 
-- Diarreia
+- problemas para enxergar, como visão nublada (visão turva) e dificuldade para distinguir cores;
 
-- Falta de apetite
+- enjoos (náuseas) e vômitos;
 
-- Soluços
+- diarreia;
 
-- Erupção na pele
+- perder o apetite/perder a fome;
 
-- Queda de cabelo
+- soluços;
 
-- Mal-estar
+- manchas vermelhas ou bolinhas na pele (erupções);
 
-- Alterações no fígado (aumento temporário de enzimas e bilirrubina) Raramente, podem ocorrer:
+- queda de cabelo;
 
-- Problemas no coração e nos vasos, incluindo infarto e derrame.
+- mal-estar;
 
-- Sinais de reação alérgica parecida com anafilaxia podem incluir:
+- alterações no fígado que passam depois (aumento de enzimas e bilirrubina).
 
-- Inchaço no rosto
+Problemas raros que também podem acontecer:
 
-- Falta de ar (fechamento dos brônquios)
+- problemas no coração e na circulação, incluindo ataque do coração (infarto) e derrame (acidente vascular cerebral - AVC).
 
-- Batimentos acelerados
+Os sinais de uma reação alérgica grave podem incluir:
 
-- Queda da pressão Avise o médico sobre qualquer efeito que você achar que pode ter relação com o medicamento.
+- inchaço no rosto e na garganta;
 
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+- falta de ar e chiado no peito (fechamento dos brônquios);
 
-Uma superdose de cisplatina pode causar:
+- coração acelerado (batimentos rápidos);
 
-- Dano grave nos rins, fígado, ouvidos, olhos e medula óssea
+- queda na pressão do sangue.
 
-- Náuseas e vômitos muito intensos e difíceis de controlar
+Avise o médico sobre qualquer problema ou reação desagradável que você notar durante o tratamento.
 
-- Risco de morte Não existe antídoto comprovado para superdose de cisplatina. Procure atendimento médico imediato.
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
+
+Receber uma quantidade muito grande de Cisplatina (superdose) pode causar:
+
+- danos graves nos rins, no fígado, nos ouvidos, nos olhos e na produção de células do sangue dentro dos ossos (medula óssea);
+
+- enjoos (náuseas) e vômitos muito intensos e difíceis de controlar;
+
+- risco de morte.
+
+Não existe um remédio nem tratamento específico para cortar o efeito de uma dose muito grande de Cisplatina.
+
+Procure socorro médico IMEDIATAMENTE.
 </text>

@@ -1,253 +1,269 @@
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Avastin® é usado no tratamento de vários tipos de câncer. Ele sempre é administrado junto com outros medicamentos (quimioterapia ou terapia-alvo).
+O Avastin® (bevacizumabe) trata vários tipos de câncer. Ele sempre é aplicado junto com outros remédios contra o câncer (junto com quimioterapia ou terapia-alvo).
 
-Câncer colorretal metastático: Usado junto com quimioterapia à base de fluoropirimidina para tratar câncer de cólon ou reto que se espalhou para outras partes do corpo.
+Câncer no intestino grosso que se espalhou para o corpo (câncer colorretal metastático): usado junto com quimioterapia para tratar tumores no cólon ou no reto que se espalharam para outras partes do corpo.
 
-Câncer de pulmão de não pequenas células (não escamoso): Usado como tratamento inicial (primeira linha):
+Câncer de pulmão (câncer do tipo “de células não pequenas” e não escamoso): usado como primeira opção de tratamento (primeira linha):
 
-- Com quimioterapia à base de platina, em casos avançados, metastáticos ou recorrentes.
+- com quimioterapia com platina, quando o câncer está avançado, se espalhou para o corpo (metastático) ou voltou após o tratamento (recorrente);
 
-- Com erlotinibe, quando o tumor tem mutação ativadora do EGFR.
+- com erlotinibe, quando o tumor tem um defeito específico no gene EGFR (uma mutação que ativa o EGFR).
 
-Câncer de mama metastático ou recorrente: Usado como tratamento inicial:
+Câncer de mama que se espalhou para o corpo (metastático) ou que voltou (recorrente): usado como primeira opção de tratamento:
 
-- Com paclitaxel.
+- com o remédio paclitaxel;
 
-- Com capecitabina, quando outras quimioterapias não são adequadas. Pacientes que foram tratados com adjuvantes contendo taxanos e antraciclinas nos últimos 12 meses não podem ser tratados com Avastin junto com capecitabina.
+- com o remédio capecitabina, quando outras opções de quimioterapia não forem indicadas. Pessoas que já fizeram tratamentos com certos remédios de quimioterapia (taxanos ou antraciclinas) nos últimos 12 meses não devem receber o Avastin® junto com a capecitabina.
 
-Câncer de células renais avançado ou metastático: Usado com alfainterferona 2a como tratamento inicial.
+Câncer nos rins avançado ou que se espalhou para o corpo (metastático): é usado junto com alfainterferona 2a como primeira opção de tratamento.
 
-Câncer de ovário, tuba uterina e peritônio primário:
+Câncer de ovário, nas trompas (tuba uterina) e na membrana dentro da barriga (peritônio):
 
-- Com carboplatina e paclitaxel como primeira linha nos casos avançados.
+- com carboplatina e paclitaxel como primeira opção de tratamento em casos avançados;
 
-- Com carboplatina e gencitabina no caso com primeira recorrência e sensível à platina, em pacientes sem terapia anterior com inibidores de VEGF ou agentes direcionados a receptores de VEGF.
+- com carboplatina e gencitabina quando o tumor voltou pela primeira vez e ainda responde a remédios com platina, em pessoas que nunca usaram remédios que bloqueiam os vasos do tumor (com ação anti-VEGF);
 
-- com carboplatina e paclitaxel na doença recorrente sensível à platina.
+- com carboplatina e paclitaxel quando o câncer voltou e ainda responde a remédios com platina;
 
-- com paclitaxel, topotecana ou doxorrubicina lipossomal na doença recorrente e resistente à platina, em pacientes com no máximo dois regimes anteriores de quimioterapia e sem terapia anterior com inibidores de VEGF ou agentes direcionados a receptores de VEGF.
+- com paclitaxel, topotecana ou doxorrubicina lipossomal quando o câncer voltou e não responde mais a remédios com platina, em pessoas que fizeram no máximo 2 tratamentos de quimioterapia antes e que nunca usaram remédios que bloqueiam os vasos do tumor (ou seja, com ação anti-VEGF).
 
-Câncer de colo do útero: Usado com:
+Câncer no colo do útero
+É usado junto com:
 
-- Paclitaxel e cisplatina, ou
+- paclitaxel e cisplatina;
 
-- Paclitaxel e topotecana (quando não for possível usar platina).
+- ou paclitaxel e topotecana (quando a pessoa não pode tomar platina).
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-Avastin® contém bevacizumabe, um anticorpo monoclonal.
+O Avastin® contém bevacizumabe, um tipo especial de proteína de defesa feita em laboratório (chamada de anticorpo monoclonal).
 
-O medicamento reduz a formação de novos vasos sanguíneos que alimentam o tumor. Sem esses vasos, o tumor recebe menos oxigênio e nutrientes. Isso diminui o crescimento do câncer e de suas metástases.
+O remédio impede a criação de novos vasos de sangue que alimentam o tumor. Sem esses vasos, o tumor recebe menos oxigênio e fontes de nutrição. Isso diminui o crescimento do tumor e evita que o câncer se espalhe para o corpo (as metástases).
 
-O medicamento começa a agir logo após a administração.
+O remédio começa a fazer efeito no corpo logo depois da aplicação na veia.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não use Avastin® se você:
+Você NÃO deve tomar o Avastin® se:
 
-- Tiver alergia ao bevacizumabe ou a qualquer componente da fórmula.
+- tiver alergia ao bevacizumabe ou a qualquer outro ingrediente do remédio;
 
-- Tiver alergia a produtos semelhantes.
+- tiver alergia a outros remédios parecidos com este.
 
-Não use durante a gravidez sem orientação médica. O medicamento pode causar danos ao feto. Mulheres com possibilidade de engravidar devem usar método contraceptivo durante o tratamento e por pelo menos 6 meses após a última dose.
+Gravidez: NÃO tome este remédio durante a gravidez sem orientação médica. O remédio pode prejudicar o feto. Pessoas com chance de engravidar devem usar métodos para evitar a gravidez (anticoncepcionais) durante todo o tratamento e por pelo menos 6 meses depois da última dose.
 
-Não amamente durante o tratamento e por pelo menos 6 meses após a última dose, pois o medicamento pode passar para o leite e prejudicar o bebê.
+Amamentação: NÃO amamente durante o tratamento e por pelo menos 6 meses depois da última dose, pois o remédio passa para o leite do peito e pode prejudicar a saúde do bebê.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Avastin® pode causar efeitos graves. Informe seu médico se você tiver qualquer das condições abaixo.
+O Avastin® pode causar reações graves. Avise o médico antes de começar o tratamento se você tiver qualquer um dos problemas abaixo.
 
-Perfuração intestinal e fístulas: Pode ocorrer perfuração (abertura) no intestino ou formação de fístula (comunicação anormal entre órgãos).
+Furos no estômago ou intestino (perfuração e fístulas): o remédio pode abrir um furo na parede do intestino (perfuração) ou fazer uma ligação entre o intestino e a pele ou outras partes do corpo (fístulas).
 
-O risco é maior em pacientes que fizeram radioterapia prévia.
+Esse risco é maior em pessoas que já fizeram tratamento com radioterapia na barriga ou na bacia/quadril.
 
-Avastin® pode aumentar o risco de sangramento, incluindo:
+Risco de sangramentos: o Avastin® pode aumentar o risco de sangramentos no corpo, como:
 
-- Sangramento pulmonar (tosse com sangue).
+- tosse com sangue (sangramento pulmonar);
 
-- Sangramento gastrointestinal.
+- sangramento no estômago e no intestino (sangramento gastrointestinal);
 
-- Sangramento no cérebro.
+- sangramento no cérebro;
 
-- Sangramento nasal.
+- sangramento pelo nariz;
 
-- Sangramento vaginal.
+- sangramento pela vagina.
 
-O risco pode ser maior em casos de dengue ou quando usado com medicamentos que aumentam sangramento. Se ocorrer sangramento grave, o médico pode interromper o tratamento.
+O risco de sangrar pode ser ainda maior em pessoas com dengue ou que tomam remédios que afinam o sangue. Se você tiver um sangramento grave, o médico pode parar o tratamento por um tempo ou de vez.
 
-O medicamento pode causar hipertensão. O médico deve controlar a pressão antes e durante o tratamento. Em casos graves, o tratamento deve ser interrompido.
+Pressão alta (hipertensão): este remédio pode aumentar a pressão do sangue. O médico vai medir e controlar a sua pressão antes e durante todo o tratamento. Em casos de pressão muito alta e sem controle, você precisa parar o tratamento.
 
-Síndrome da encefalopatia posterior reversível. Raramente pode ocorrer alteração neurológica com:
+Problema em que o cérebro incha (síndrome da encefalopatia posterior reversível - PRES): é raro, mas pode acontecer um problema no cérebro com sintomas como:
 
-- Convulsões
+- crises de convulsões;
 
-- Dor de cabeça
+- dor de cabeça;
 
-- Alteração da visão
+- problemas para enxergar;
 
-- Confusão
+- confusão de ideias;
 
-- Coágulos sanguíneos Pode aumentar o risco de:
+- formação de coágulos de sangue.
 
-- Tromboembolismo arterial (ex.: infarto ou derrame).
+Este remédio pode aumentar o risco de:
 
-- Tromboembolismo venoso (ex.: trombose ou embolia pulmonar).
+- entupimento de artérias por coágulos (tromboembolismo arterial), o que pode causar infarto no coração ou sangramento no cérebro (AVC);
 
-O risco é maior em pacientes com mais de 65 anos.
+- entupimento de veias por coágulos (tromboembolismo venoso), o que pode causar coágulos de sangue no pulmão (trombose ou embolia pulmonar).
 
-Insuficiência cardíaca: Pode ocorrer principalmente em pacientes que já receberam antraciclinas ou radioterapia no tórax.
+O risco de coágulos de sangue é maior em pessoas com mais de 65 anos.
 
-Neutropenia: Pode ocorrer redução dos glóbulos brancos, aumentando o risco de infecções.
+Coração fraco (insuficiência cardíaca): pode acontecer principalmente em pessoas que já tomaram remédios do tipo das antraciclinas ou que fizeram radioterapia na região do peito.
 
-Avastin® pode prejudicar a cicatrização.
+Diminuição de células brancas no sangue (neutropenia): o remédio pode diminuir as células brancas de defesa do corpo, aumentando o risco de pegar infecções graves.
 
-Não inicie o tratamento se você fez cirurgia grande nos últimos 28 dias ou se a ferida ainda não cicatrizou totalmente.
+O Avastin® pode atrapalhar a cicatrização de cortes e feridas.
 
-Pode ocorrer aumento de proteína na urina (proteinúria). O médico deve monitorar exames de urina.
+NÃO comece o tratamento se você tiver feito uma cirurgia grande nos últimos 28 dias ou se os seus pontos e feridas ainda não tiverem cicatrizado.
 
-Reações alérgicas e à infusão. Podem ocorrer reações durante a aplicação, incluindo:
+O Avastin® pode afetar o funcionamento dos rins e fazer você perder proteínas pela urina (proteinúria). O médico vai pedir exames de urina para monitorar/acompanhar.
 
-- Falta de ar
+Reações alérgicas e durante a aplicação: podem acontecer reações alérgicas no momento da aplicação/infusão do remédio na veia, como:
 
-- Queda de pressão
+- falta de ar;
 
-- Choque anafilático O paciente deve ser monitorado durante a infusão.
+- queda rápida da pressão arterial;
 
-Pode causar insuficiência ovariana (interrupção da menstruação por 3 meses ou mais). Pode prejudicar a fertilidade feminina.
+- reação alérgica muito grave (choque anafilático). A equipe médica vai monitorar você com atenção durante toda a aplicação na veia.
 
-Pacientes com mais de 65 anos têm maior risco de:
+Problemas no funcionamento dos ovários: o remédio pode fazer a menstruação parar por 3 meses ou mais e diminuir as chances de engravidar.
 
-- Infarto
+Pessoas com mais de 65 anos: pessoas idosas têm maior risco de ter:
 
-- Derrame
+- infarto no coração;
 
-- Pressão alta
+- sangramento no cérebro (AVC);
 
-- Alterações no sangue Não é aprovado para pacientes com menos de 18 anos.
+- pressão alta;
 
-Interações medicamentosas: Informe ao médico todos os medicamentos que você usa.
+- problemas no sangue (alterações no sangue).
 
-A combinação com maleato de sunitinibe pode causar anemia grave e alterações na pressão e rins.
+O Avastin® NÃO é indicado para crianças e jovens com menos de 18 anos.
 
-A segurança com radioterapia não está estabelecida.
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-5. COMO GUARDAR ESTE MEDICAMENTO?
+Diga ao médico todos os remédios que você usa.
 
-Conservar em geladeira entre 2°C e 8°C. Proteger da luz. Não congelar. Não agitar.
+Tomar Avastin® junto com o remédio maleato de sunitinibe pode causar anemia grave e problemas muito sérios na pressão do sangue e nos rins.
 
-O frasco contém líquido estéril incolor ou levemente castanho claro.
+Ainda não se sabe se é seguro usar este remédio junto com radioterapia.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Uso exclusivamente hospitalar. Aplicação por infusão intravenosa.
+Guarde os frascos na geladeira, em temperatura entre 2 °C e 8 °C.
+Proteja da luz.
+NÃO congele o remédio.
+NÃO agite o frasco.
 
-As doses variam conforme o tipo de câncer.
+O frasco de Avastin® contém um líquido transparente ou levemente castanho-claro.
 
-Exemplos de doses:
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-- 5 mg/kg a cada 2 semanas
+O Avastin® é usado SOMENTE em hospitais ou clínicas com estrutura. Ele é aplicado na veia por infusão intravenosa por uma equipe de saúde especializada.
 
-- 7,5 mg/kg a cada 3 semanas
+A dose necessária é calculada pelo médico de acordo com o seu peso e o tipo de câncer que você tem.
 
-- 10 mg/kg a cada 2 semanas
+As doses mais comuns costumam ser:
 
-- 15 mg/kg a cada 3 semanas O tratamento continua até:
+- 5 mg por quilo de peso a cada 2 semanas;
 
-- Progressão da doença, ou
+- 7,5 mg por quilo de peso a cada 3 semanas;
 
-- Toxicidade inaceitável.
+- 10 mg por quilo de peso a cada 2 semanas;
 
-Seu médico define o esquema exato.
+- 15 mg por quilo de peso a cada 3 semanas.
 
-Não interrompa o tratamento sem orientação médica.
+O tratamento continua até:
 
-7. O QUE FAZER SE ESQUECER UMA DOSE?
+- o tumor voltar a crescer (quando a doença piora);
 
-O tratamento é hospitalar. Seu médico organizará a próxima aplicação.
+- surgirem reações indesejadas muito fortes que impeçam a continuação do tratamento.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+O médico vai definir a quantidade de remédio e o calendário exato das aplicações.
 
-Reações mais graves:
+NUNCA pare o tratamento sem orientação médica.
 
-- Perfuração intestinal
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-- Hemorragia
+Como este remédio é aplicado apenas em hospitais ou clínicas por profissionais de saúde, é muito difícil você esquecer uma dose.
+O médico vai organizar as próximas aplicações.
 
-- Coágulos arteriais
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-- Insuficiência cardíaca
+Reações graves que precisam de atendimento médico IMEDIATAMENTE:
 
-- Pressão alta grave
+- furo no intestino (perfuração intestinal);
 
-Reações muito comuns (≥ 10%)
+- sangramentos graves (hemorragias);
 
-- Pressão alta
+- entupimento de artérias por coágulos de sangue;
 
-- Cansaço
+- coração fraco (insuficiência cardíaca);
 
-- Fraqueza
+- pressão do sangue muito alta.
 
-- Diarreia
+Reações muito comuns (acontecem em 10 ou mais a cada 100 pessoas - mais de 10%):
 
-- Dor abdominal
+- pressão alta;
 
-- Náusea e vômito
+- cansaço;
 
-- Dor de cabeça
+- fraqueza;
 
-- Falta de apetite
+- diarreia;
 
-- Alteração do paladar
+- dor na barriga;
 
-- Proteína na urina
+- enjoo e vômito;
 
-Reações comuns (1% a 10%)
+- dor de cabeça;
 
-- Anemia
+- perder o apetite/perder a fome;
 
-- Redução de glóbulos brancos
+- gosto ruim na boca (alteração do paladar);
 
-- Infecção
+- proteína na urina (proteinúria).
 
-- Trombose
+Reações comuns (acontecem em 1 a 10 a cada 100 pessoas - entre 1% e 10%):
 
-- Embolia pulmonar
+- diminuição das células vermelhas no sangue (anemia);
 
-- Perfuração intestinal
+- diminuição das células de defesa do sangue;
 
-- Fístula
+- infecções;
 
-- Insuficiência cardíaca
+- coágulos de sangue (trombose);
 
-- Dor muscular ou nas articulações
+- coágulos de sangue no pulmão (embolia pulmonar);
 
-- Desidratação
+- furo no intestino (perfuração intestinal);
 
-- Alterações nos exames laboratoriais
+- ferida entre o intestino e a pele ou outras partes do corpo (fístula);
 
-Outras reações importantes
+- coração fraco (insuficiência cardíaca);
 
-- Osteonecrose da mandíbula (destruição do osso da mandíbula)
+- dor nos músculos ou nas juntas/articulações;
 
-- Alterações neurológicas
+- falta de água no corpo (desidratação);
 
-- Inflamações oculares graves quando usado de forma intraocular não aprovada
+- alterações nos exames de sangue.
 
-Alterações laboratoriais podem incluir:
+Outros problemas sérios que podem acontecer:
 
-- Aumento da glicose
+- morte do osso do queixo/mandíbula (osteonecrose da mandíbula);
 
-- Redução do potássio
+- problemas no funcionamento do cérebro (alterações neurológicas);
 
-- Redução do sódio
+- inflamações graves dentro do olho quando o remédio é aplicado nos olhos; usar este remédio nos olhos não é aprovado por lei.
 
-- Aumento da creatinina Informe qualquer sintoma ao médico imediatamente.
+As seguintes alterações em exames de laboratório podem acontecer:
 
-9. O QUE FAZER EM CASO DE DOSE MAIOR QUE A INDICADA?
+- aumento do açúcar no sangue (glicose alta);
 
-É improvável que ocorra superdose, pois o medicamento é administrado em hospital. A dose mais alta testada (20 mg/kg a cada 2 semanas) causou enxaqueca intensa em alguns pacientes.
+- diminuição do potássio no sangue;
 
-Se houver suspeita de dose excessiva, o médico tratará os sintomas conforme necessário.
+- diminuição do sódio no sangue;
 
-Atenção: Este medicamento possui indicação terapêutica recente no país. Mesmo quando usado corretamente, podem ocorrer reações imprevisíveis. Informe qualquer efeito inesperado ao seu médico.
+- aumento da creatinina no sangue.
+
+Avise o médico IMEDIATAMENTE sobre qualquer reação que você sentir.
+
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
+
+É muito difícil alguém tomar uma dose maior do que a indicada, pois este remédio é preparado e aplicado somente no hospital.
+Em testes com doses muito altas, algumas pessoas tiveram dor de cabeça muito forte.
+
+Se você receber uma quantidade maior do que a indicada do remédio por engano, a equipe médica vai cuidar de você e tratar o que você sentir.
+
+ATENÇÃO: este é um tratamento novo no Brasil. Mesmo quando o remédio é aplicado do jeito certo, podem acontecer reações que ninguém esperava. Converse com o médico se você sentir qualquer reação diferente.

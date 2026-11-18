@@ -3,6 +3,7 @@
 Rodar:
   uv run python embedding.py                 # incremental: acrescenta/atualiza
   uv run python embedding.py --reconstruir   # apaga a coleção e refaz do zero
+  uv run python embedding.py --tipo oncologia  # só um subcorpus, o resto intocado
 
 INCREMENTAL é o default. Para cada medicamento, remove os chunks antigos DELE
 (pelo metadado `id`) e grava os novos — idempotente, e correto tanto para bula
@@ -150,8 +151,12 @@ def _hms(seg):
     return f"{int(seg // 60)}m{int(seg % 60):02d}s" if seg >= 60 else f"{seg:.1f}s"
 
 
-def realizar_indexacao(embed, chroma_coll, incremental=True):
+def realizar_indexacao(embed, chroma_coll, incremental=True, tipos=None):
     """Indexa o corpus. `chroma_coll=None` popula APENAS o Meilisearch.
+
+    `tipos` restringe a indexação a esses subcorpora (ex.: {"oncologia"}) e deixa
+    os outros intocados nos dois motores. Serve para reindexar só as bulas de um
+    subcorpus que foram revisadas.
 
     O modo só-Meili existe para quando o índice vetorial vem pronto de fora (ver
     deploy/exportar_indice.py): a parte léxica é só texto, não precisa de modelo
@@ -161,6 +166,8 @@ def realizar_indexacao(embed, chroma_coll, incremental=True):
     t0 = time.perf_counter()
     for cfg in TIPOS:
         tipo = cfg["tipo"]
+        if tipos and tipo not in tipos:
+            continue
         if not os.path.exists(cfg["map_csv"]):
             print(f" [SKIP] Mapa não encontrado: {cfg['map_csv']}")
             continue
@@ -249,7 +256,17 @@ def main():
                     help="popula só a busca léxica, sem tocar no ChromaDB. Use quando "
                          "o índice vetorial vier pronto (deploy/exportar_indice.py): "
                          "não carrega modelo e roda em segundos.")
+    ap.add_argument("--tipo", action="append", choices=[c["tipo"] for c in TIPOS],
+                    help="indexa só este subcorpus (pode repetir). Os outros ficam "
+                         "como estão. Use para reindexar bulas revisadas de um "
+                         "subcorpus sem reprocessar o resto.")
     args = ap.parse_args()
+
+    if args.tipo and args.reconstruir:
+        raise SystemExit("❌ --tipo e --reconstruir são incompatíveis: reconstruir apaga "
+                         "a coleção inteira, e só o subcorpus pedido voltaria.")
+    if args.tipo:
+        print(f"Subcorpora: {', '.join(args.tipo)} (os demais ficam intocados)")
 
     if args.apenas_meili:
         if args.reconstruir:
@@ -263,7 +280,8 @@ def main():
         print(f"Modo: {modo} | coleção: {CHROMA_COLLECTION} ({chroma_coll.count()} chunks) "
               f"| embeddings: {descricao}")
 
-    realizar_indexacao(embed, chroma_coll, incremental=not args.reconstruir)
+    realizar_indexacao(embed, chroma_coll, incremental=not args.reconstruir,
+                       tipos=set(args.tipo or ()))
     if chroma_coll is not None:
         print(f"Coleção '{CHROMA_COLLECTION}' agora com {chroma_coll.count()} chunks.")
 

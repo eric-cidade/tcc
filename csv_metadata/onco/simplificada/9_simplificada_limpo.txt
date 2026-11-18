@@ -17,279 +17,294 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Dimorf® LC (morfina de liberação prolongada) é indicado para aliviar dor intensa e crônica (dor forte que dura por muito tempo).
+O Dimorf® LC (sulfato de morfina) alivia dores muito fortes que duram bastante tempo.
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-A morfina age principalmente no sistema nervoso central e reduz a sensação de dor. O efeito começa rápido. Como é de liberação prolongada, o alívio pode durar até 12 horas. O corpo elimina a morfina principalmente pelos rins.
+A morfina age no cérebro (no sistema nervoso central) e diminui os sinais de dor. O alívio começa rápido e dura mais ou menos 12 horas, porque o remédio é liberado devagar no corpo (do tipo liberação prolongada). Os rins filtram o remédio e ele sai do corpo principalmente pela urina.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Avise o médico antes de usar. Dimorf® LC pode ser contraindicado se você tiver:
+Avise o médico antes de começar o tratamento. Você NÃO deve tomar o Dimorf® LC se tiver:
 
-- Alergia à morfina ou a qualquer componente da fórmula.
+- alergia à morfina ou a qualquer outro ingrediente da fórmula;
 
-- Respiração fraca/lenta (insuficiência ou depressão respiratória).
+- respiração fraca ou lenta demais (depressão respiratória);
 
-- Depressão do sistema nervoso central (muita sonolência/queda importante do alerta).
+- sono muito pesado ou dificuldade para ficar acordado e reagir (depressão do sistema nervoso);
 
-- Insuficiência cardíaca secundária.
+- problemas graves no funcionamento do coração (insuficiência cardíaca secundária);
 
-- Crise de asma.
+- crises de asma;
 
-- Arritmia cardíaca.
+- batimentos irregulares no coração (arritmia cardíaca);
 
-- DPOC (doença pulmonar obstrutiva crônica).
+- doença no pulmão com falta de ar o tempo todo (doença pulmonar obstrutiva crônica - DPOC);
 
-- Hipercapnia (muito gás carbônico no sangue).
+- quantidade muito grande de gás carbônico no sangue (hipercapnia);
 
-- Pressão intracraniana aumentada ou aumento do líquido cérebro-espinhal (líquor).
+- pressão alta dentro da cabeça ou quantidade muito grande de líquido ao redor do cérebro (líquor);
 
-- Lesão cerebral ou tumor cerebral.
+- machucado grave na cabeça ou tumor no cérebro;
 
-- Alcoolismo crônico.
+- problemas com bebidas alcoólicas há muito tempo (alcoolismo crônico);
 
-- Tremores importantes.
+- tremores fortes no corpo;
 
-- Doenças que causam convulsões.
+- doenças que causam convulsões (como a epilepsia);
 
-- Situação logo após cirurgia de vesícula biliar ou abdômen, ou após certas cirurgias com “costura” interna (anastomose), conforme avaliação médica.
+- feito cirurgia há pouco tempo na vesícula biliar, na barriga ou cirurgia com costura interna no intestino (anastomose);
 
-- Usar junto com inibidores da MAO (tipo de antidepressivo) ou uso desses remédios nos últimos 14 dias.
+- usado alguns remédios para depressão (inibidores da monoamina oxidase - MAO) ou se você tomou esses remédios há menos de 14 dias.
 
-Não use Dimorf® LC se você tiver obstrução do estômago/intestino (obstrução gastrointestinal) e Íleo paralítico (intestino “parado”) Pós-operatório: Dimorf® LC só é indicado após cirurgia se você já usava morfina antes da cirurgia, ou a dor após a cirurgia for moderada a intensa, durar bastante tempo e o médico já tiver ajustado (“titrado”) a dose correta.
+Você também NÃO deve tomar o Dimorf® LC se tiver o intestino preso ou travado (obstrução gastrointestinal ou íleo paralítico).
 
-Idade: este medicamento é contraindicado para menores de 18 anos.
+Após cirurgias: só use o Dimorf® LC se você já tomava morfina antes da operação ou se tiver dor moderada a forte por bastante tempo, com a dose já ajustada pelo médico.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+Idade: crianças e jovens com menos de 18 anos não devem tomar este remédio.
 
-Risco grave com álcool e remédios que “apagam” o cérebro. Se você usa morfina junto com:
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-- benzodiazepínicos (ex.: diazepam, clonazepam, alprazolam, etc.),
+CUIDADO: risco grave com bebidas alcoólicas e remédios calmantes.
 
-- outros remédios que deixam o cérebro mais lento (depressores do SNC),
+Se você tomar morfina junto com:
 
-- ou álcool, procure atendimento médico imediatamente se aparecer:
+- calmantes ou remédios para dormir (chamados de benzodiazepínicos, como diazepam, clonazepam e alprazolam);
 
-- tontura forte ou mal-estar,
+- outros remédios que deixam o sistema nervoso mais lento (depressores do sistema nervoso central - SNC);
 
-- sonolência extrema,
+- ou bebidas alcoólicas, procure atendimento médico IMEDIATAMENTE se você notar:
 
-- respiração lenta ou difícil,
+- tontura forte ou sensação de mal-estar;
 
-- ou se a pessoa não responde (não acorda ou não reage normalmente).
+- muito sono;
 
-Não beba álcool e não use produtos com álcool durante o tratamento.
+- respiração lenta ou dificuldade para respirar;
 
-Dependência e abstinência: A morfina pode causar dependência física e/ou psicológica. Se você parar de repente, podem surgir sintomas de abstinência, como: inquietação, nariz escorrendo, lacrimejamento, bocejos, suor, tremores, arrepios, dores musculares, pupila dilatada, irritação, ansiedade, dor nas costas, dor nas articulações, fraqueza, cólicas abdominais, insônia, náuseas, falta de apetite, vômitos, diarreia, pressão alta, aumento da respiração e dos batimentos.
+- ou se a pessoa não consegue acordar ou demora para responder.
 
-Não pare de usar de forma abrupta. O médico deve reduzir a dose aos poucos.
+NÃO beba bebidas alcoólicas nem tome remédios com álcool durante o tratamento.
 
-Evite usar certos analgésicos opioides “mistos” (ex.: pentazocina, nalbufina, butorfanol) ou opioide “parcial” (buprenorfina) se você já usa opioide, pois eles podem piorar a dor ou causar abstinência.
+Risco de o corpo se acostumar e sentir falta do remédio (dependência e abstinência): a morfina pode fazer o corpo ou a mente se acostumarem com o remédio.
+Se você parar de tomar de repente, alguns sintomas podem aparecer, como: agitação, nariz escorrendo, olhos cheios de lágrimas, bocejos, muito suor, tremores, arrepios, dores nos músculos e nas costas, pupilas maiores que o normal, ansiedade, fraqueza, dores na barriga, dificuldade para dormir, enjoos, perda de fome, vômitos, diarreia, pressão alta e aumento da respiração e coração acelerado.
 
-Atenção: pode causar dependência física ou psíquica.
+NUNCA pare de tomar este remédio de repente. O médico deve diminuir a dose aos poucos.
 
-Dimorf® LC é apenas para uso oral. Esmagar, mastigar, abrir, inalar ou injetar aumenta muito o risco de superdose e morte, porque existe uma quantidade grande de morfina na cápsula de liberação prolongada.
+Evite tomar outros remédios fortes para a dor (como pentazocina, nalbufina, butorfanol ou buprenorfina) junto com a morfina. Eles podem diminuir o efeito do tratamento ou causar sintomas de falta do remédio (abstinência).
 
-O risco aumenta ainda mais com álcool, drogas ilícitas e outros remédios que deprimem o SNC.
+ATENÇÃO: este remédio pode viciar (causar dependência física ou psicológica).
 
-Dirigir e operar máquinas:  A morfina pode reduzir reflexos e atenção. Não dirija e não opere máquinas até saber como seu corpo reage.
+O Dimorf® LC deve ser tomado SOMENTE pela boca (uso oral).
+Esmagar, mastigar, abrir a cápsula ou injetar o remédio na veia é extremamente perigoso e pode MATAR. Isso acontece porque a cápsula tem uma quantidade grande de morfina feita para ser liberada aos poucos no corpo, e não de uma vez só.
 
-Este medicamento pode causar tontura, desmaio ou perda de consciência, aumentando risco de quedas e acidentes.
+Esse risco aumenta ainda mais com álcool, drogas e outros remédios que diminuem o ritmo do sistema nervoso (SNC).
 
-Gravidez: a morfina pode atravessar a placenta e pode causar problemas no bebê. Use apenas se o médico achar que o benefício é maior que o risco. Este medicamento não deve ser usado por grávidas sem orientação médica ou do cirurgião-dentista.
+Dirigir e usar máquinas: a morfina pode diminuir os reflexos e a atenção. NÃO dirija e NÃO use máquinas até saber exatamente como o seu corpo reage ao remédio.
 
-Parto: não é recomendado usar morfina durante ou imediatamente antes do parto, pois pode causar respiração fraca no recém-nascido.
+Este remédio pode causar tonturas ou desmaios (perda da consciência), o que aumenta o risco de quedas e acidentes.
 
-Amamentação: a morfina passa para o leite. Pode causar no bebê sonolência intensa, respiração lenta e até sintomas de abstinência quando o remédio é interrompido. O uso durante a amamentação exige avaliação e acompanhamento do médico.
+A morfina pode causar problemas graves no feto. Só tome este remédio se o médico avaliar que os benefícios são maiores do que os riscos. Este remédio não deve ser usado por pessoas grávidas sem orientação de um profissional de saúde.
 
-Síndrome de abstinência no recém-nascido: se a mãe usa morfina por muito tempo, o bebê pode nascer com abstinência (irritabilidade, choro forte, tremores, vômitos, diarreia, perda de peso e dificuldade de ganhar peso).
+Parto: não é indicado tomar morfina durante ou pouco antes do parto, pois o remédio pode deixar a respiração do bebê fraca e lenta.
 
-A segurança e eficácia em crianças menores de 18 anos ainda não foi comprovada.
+O remédio pode passar para o leite do peito. O remédio pode causar muito sono e respiração lenta no bebê. Além disso, se você parar o tratamento, o bebê pode sofrer com a falta da morfina (sintomas de abstinência). O uso durante a amamentação precisa ser feito com acompanhamento do médico.
 
-Grupos que exigem cuidado extra: O médico costuma iniciar com doses menores e acompanhar mais de perto se você for:
+Sintomas de falta do remédio (abstinência) no bebê recém-nascido: se a mãe tomar morfina por bastante tempo na gravidez, o bebê pode nascer com sintomas de falta da morfina (a abstinência: irritação, choro sem parar, tremores, vômitos, diarreia e dificuldade para ganhar peso).
 
-- idoso (≥ 65 anos),
+Não se sabe se o Dimorf® LC é seguro ou se funciona em crianças e jovens com menos de 18 anos.
 
-- pessoa debilitada,
+Pessoas que precisam de cuidados redobrados: o médico costuma indicar doses menores e acompanhar com atenção pessoas que:
 
-- pessoa com problema grave no fígado ou rins,
+- têm 65 anos ou mais (pessoas idosas);
 
-- pessoa com hipotireoidismo, doença de Addison,
+- estão muito fracas ou debilitadas;
 
-- homem com próstata aumentada ou estreitamento urinário,
+- têm problemas graves no fígado ou nos rins;
 
-- pessoa com dificuldade para engolir,
+- têm problemas na tireoide (hipotireoidismo) ou na glândula adrenal (doença de Addison);
 
-- pessoa com depressão do SNC, psicose tóxica, alcoolismo agudo e delirium tremens,
+- têm a próstata aumentada ou canal da urina estreito;
 
-- pessoa com doenças respiratórias (DPOC, asma aguda, baixa reserva respiratória, falta de oxigênio),
+- têm dificuldade para engolir cápsulas;
 
-- pessoa com tendência a convulsões.
+- têm o sistema nervoso muito lento, confusão de ideias causada por remédios ou drogas ou crises com tremores e falta de contato com a realidade por ficar sem beber álcool (delirium tremens);
 
-Ingestão acidental por criança é emergência. Mantenha fora do alcance das crianças.
+- têm doenças no pulmão (como asma ou doença pulmonar obstrutiva crônica - DPOC) ou falta de oxigênio no sangue;
 
-Pressão dentro da cabeça (intracraniana) e trauma: Se você tem pressão intracraniana aumentada, enxaqueca forte ou trauma craniano, a morfina pode piorar o quadro. O médico deve avaliar com muito cuidado.
+- têm tendência a ter convulsões.
 
-Problemas no fígado ou rins: Se você tem cirrose ou falência renal, o médico deve começar com dose menor, ajustar devagar e monitorar efeitos colaterais.
+Se uma criança tomar este remédio por acidente, isso é uma EMERGÊNCIA médica grave.
+Procure atendimento médico IMEDIATAMENTE.
+Mantenha fora do alcance de crianças.
 
-Vesícula biliar, vias biliares e pâncreas: Em pessoas com doença da vesícula/vias biliares ou pancreatite, a morfina pode piorar dor e espasmos. Use com cautela e com acompanhamento.
+Pressão na cabeça e machucados no crânio: se você tiver pressão alta dentro da cabeça, dor de cabeça muito forte (enxaqueca) ou sofrer uma pancada na cabeça, a morfina pode piorar a situação. O médico deve avaliar o caso com muito cuidado.
 
-Urina presa (retenção urinária): A morfina pode causar dificuldade para urinar. Avise o médico rapidamente se isso acontecer.
+Problemas no fígado ou nos rins: se você tiver cirrose ou seus rins pararem de funcionar bem, o médico vai iniciar o tratamento com doses menores, fazer ajustes aos poucos e acompanhar possíveis efeitos indesejados.
 
-Queda de pressão: A morfina pode causar pressão baixa, principalmente ao levantar (hipotensão ortostática), e pode causar desmaio. Avise o médico se ocorrer tontura ao levantar.
+Vesícula e pâncreas: em pessoas com problemas na vesícula ou inflamação no pâncreas (pancreatite), a morfina pode piorar as cólicas e as dores na barriga. Tome o remédio com cuidado e com acompanhamento médico.
 
-Insuficiência adrenal: Opioides podem causar insuficiência adrenal (quando o corpo produz pouco cortisol). Se o médico diagnosticar, ele tratará e pode suspender o opioide.
+Dificuldade para urinar (retenção urinária): a morfina pode fazer a urina ficar presa. Avise o médico IMEDIATAMENTE se você não conseguir urinar.
 
-Interações medicamentosas. A morfina pode ter efeito mais forte com:
+Queda da pressão: a morfina pode causar pressão baixa, principalmente na hora de se levantar (hipotensão ortostática). Isso pode causar desmaios. Avise o médico se sentir tonturas ao ficar de pé.
 
-- sedativos, hipnóticos, anestésicos, antieméticos, tranquilizantes, antipsicóticos (fenotiazinas), relaxantes musculares,
+Diminuição dos hormônios do corpo (insuficiência adrenal): remédios como a morfina podem fazer o corpo produzir menos hormônios naturais. Se isso acontecer, o médico passará o tratamento certo e poderá parar a morfina.
 
-- benzodiazepínicos,
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-- antidepressivos como amitriptilina e clomipramina,
+O efeito da morfina pode ficar forte e perigoso demais se ela for tomada junto com:
 
-- álcool e drogas ilícitas,
+- remédios calmantes, remédios que dão sono (hipnóticos), anestésicos, remédios para enjoo e relaxantes musculares;
 
-- alguns remédios que mexem com o intestino (ex.: metoclopramida, cisaprida),
+- calmantes como os benzodiazepínicos;
 
-- remédios como quinidina e outros que afetam a glicoproteína P.
+- remédios para depressão (como amitriptilina e clomipramina);
 
-Não usar com inibidores da MAO.
+- bebidas alcoólicas e drogas proibidas por lei;
 
-Outras interações possíveis:
+- remédios que aceleram o movimento do estômago e do intestino (como a metoclopramida);
 
-- alguns analgésicos opioides “mistos” ou rifampicina podem reduzir o efeito analgésico da morfina;
+- remédios para o coração, como a quinidina.
 
-- a morfina pode reduzir o efeito de diuréticos;
+NÃO tome este remédio junto com remédios para depressão (antidepressivos inibidores da monoamina oxidase - MAO).
 
-- opioides com remédios serotoninérgicos podem causar síndrome serotoninérgica (quadro grave).
+Outras combinações importantes:
 
-Outros medicamentos com atividade anticolinérgica, quando usados concomitantemente com analgésicos opiáceos podem aumentar o risco de retenção urinária e / ou constipação grave.
+- remédios como a rifampicina podem diminuir o alívio da dor da morfina;
 
-Avise o médico sobre todos os remédios que você usa.
+- a morfina pode diminuir o efeito de remédios usados para urinar mais (diuréticos);
 
-Outras informações:
+- misturar morfina com certos remédios para depressão pode causar uma reação grave no corpo chamada de síndrome serotoninérgica;
 
-- “Pode causar doping”.
+- tomar morfina com remédios para cólica ou alergia (chamados anticolinérgicos) pode prender a urina ou causar prisão de ventre muito forte.
 
-- Açúcares: contém lactose e sacarose (abaixo de 0,25 g por cápsula).
+Avise o médico sobre TODOS os remédios que você toma.
 
-- Use com cautela se você tem diabetes.
+Outras informações importantes:
 
-- Não usar se você tem síndrome de má-absorção de glicose-galactose ou insuficiência de sacarose-isomaltase (conforme orientação da bula).
+- este remédio pode ser detectado em exames de doping nos esportes;
 
-A presença de corantes varia conforme a dose (30 mg ou 60 mg).
+- contém açúcar (lactose e sacarose em quantidade menor que 0,25 gramas por cápsula);
 
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR?
+- pessoas com diabetes devem tomar este remédio com bastante cuidado;
 
-Guardar em temperatura ambiente (15°C a 30°C). Proteger da luz e da umidade. Manter na embalagem original.
+- não tome este remédio se você tiver problemas de absorção de açúcares no intestino.
 
-Aspecto: cápsulas com grânulos de cor branca a creme.
+A cor da cápsula varia conforme a dose do remédio (30 mg ou 60 mg).
+
+5. COMO GUARDAR ESTE REMÉDIO?
+
+Guarde em temperatura ambiente (de 15 °C até 30 °C). Proteja da luz e da umidade. Guarde na embalagem original.
+
+Aspecto/aparência: o Dimorf® LC vem em cápsulas. Elas têm pequenos grãos de cor branca a creme.
 
 Mantenha fora do alcance das crianças.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-Como tomar: Uso oral, com bastante líquido.
+Como tomar: engula a cápsula inteira pela boca (uso oral), com bastante água.
 
-A cápsula foi feita para liberar a morfina aos poucos por 12 horas. Não partir, não abrir, não mastigar.
+A cápsula foi feita para liberar a morfina devagar durante 12 horas. NÃO quebre, NÃO abra e NÃO mastigue a cápsula.
 
-Dose (adultos): 1 cápsula de 30 mg, 60 mg ou 100 mg a cada 12 horas, ou conforme orientação médica.
+Dose para adultos: tome 1 cápsula a cada 12 horas, na dose indicada pelo médico (30 mg, 60 mg ou 100 mg).
 
-A dose máxima diária depende do seu estado clínico e tolerância.
+A quantidade máxima por dia depende da sua resposta ao tratamento e de como o seu corpo se adapta ao remédio.
 
-Para muitos pacientes, fica em torno de 200 mg/dia, mas só o médico pode definir e ajustar.
+Para a maioria das pessoas, a dose fica por volta de 200 mg por dia, mas SOMENTE o médico pode definir e alterar a sua dose.
 
-Use sempre a menor dose eficaz.
+Tome sempre a menor quantidade de remédio que for suficiente para controlar a dor.
 
-Ajustes e acompanhamento O médico ajusta a dose conforme:
+Ajustes da dose: o médico vai avaliar e ajustar a quantidade de remédio de acordo com:
 
-- melhora da dor,
+- o alívio das suas dores;
 
-- tolerância aos efeitos colaterais,
+- como o seu corpo reage aos efeitos indesejados;
 
-- necessidade de manter controle da dor com segurança.
+- a necessidade de controlar a dor com segurança.
 
-Redução e parada do tratamento: O médico deve reduzir a dose gradualmente para evitar abstinência. Não pare de repente.
+Como parar o tratamento: o médico vai diminuir a dose que você toma aos poucos para evitar sintomas de falta da morfina (a abstinência).
+NUNCA pare de tomar o remédio de repente.
 
-Não aumente a dose sem falar com o médico.
+NUNCA aumente a dose por conta própria sem falar com o médico.
 
-Idosos e pessoas debilitadas costumam começar com a dose mínima.
+Pessoas idosas ou muito fracas costumam iniciar o tratamento com a menor dose possível.
 
-7. O QUE FAZER SE EU ESQUECER DE TOMAR?
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-Tome a dose esquecida assim que possível. Se estiver perto da próxima dose, não tome a esquecida. Volte ao horário normal.
+Tome a dose esquecida assim que lembrar.
+Se estiver PERTO da próxima dose, NÃO tome dose em dobro (as duas doses).
+Apenas tome a dose do próximo horário normalmente.
 
-Não tome doses seguidas e não dobre a dose.
+NUNCA tome duas doses ao mesmo tempo para compensar a que esqueceu.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-Os maiores riscos da morfina (e de outros opioides) são:
+Os maiores riscos da morfina e de outros remédios parecidos são:
 
-- respiração lenta/perigosa (depressão respiratória),
+- respiração lenta e perigosa (depressão respiratória);
 
-- queda da circulação,
+- queda grave na circulação do sangue;
 
-- parada respiratória,
+- parada da respiração;
 
-- choque,
+- queda muito grave da pressão (choque);
 
-- parada cardíaca.
+- parada do coração.
 
-Reações comuns incluem:
+Problemas comuns causados pelo remédio incluem:
 
-- tontura, vertigem, sedação (sonolência),
+- tonturas, sensação de estar tudo girando (vertigem) e sono pesado (sedação);
 
-- náusea, vômito, suor,
+- enjoos (náuseas), vômitos e muito suor;
 
-- prisão de ventre e cólicas abdominais.
+- prisão de ventre e cólicas na barriga.
 
-Outros possíveis efeitos:
+Outros problemas que também podem acontecer:
 
-- Sistema nervoso: euforia, desconforto, fraqueza, dor de cabeça, insônia, sonolência, agitação, desorientação, alterações visuais.
+- no cérebro e no sistema nervoso: sensação de fraqueza, dor de cabeça, dificuldade para dormir, sono durante o dia, agitação, confusão mental e problemas na visão;
 
-- Gastrointestinal: boca seca, pouco apetite, náusea, vômito, constipação, cólica.
+- no estômago e no intestino: boca seca, perder a fome/perder o apetite, enjoos, vômitos e dores na barriga;
 
-- Coração e circulação: vermelhidão no rosto, batimento mais lento, palpitações, desmaio.
+- no coração e na circulação: vermelhidão no rosto, batimentos do coração lentos ou acelerados (palpitações) e desmaios;
 
-- Urina e sexual: dificuldade para urinar, redução da libido e/ou impotência.
+- na urina e na vida sexual: dificuldade para urinar, diminuição do desejo sexual ou dificuldade de ereção;
 
-- Alergias/pele: coceira, inchaço, placas vermelhas e outras alterações na pele.
+- na pele e alergias: coceira no corpo, inchaço e manchas vermelhas na pele.
 
-Avise o médico, cirurgião-dentista ou farmacêutico se aparecerem efeitos indesejáveis.
+Avise o profissional de saúde sobre qualquer problema ou reação desagradável que você notar durante o tratamento.
 
-9. O QUE FAZER SE ALGUÉM TOMAR MAIS DO QUE O INDICADO?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-Sinais de superdose:
+Os sinais de que você tomou uma quantidade muito grande do remédio (superdose) são:
 
-- respiração difícil ou muito lenta,
+- respiração muito fraca, lenta ou com dificuldade;
 
-- sonolência intensa indo para estupor (entorpecimento) ou coma,
+- sono extremamente pesado, perda da consciência ou coma;
 
-- pupilas muito contraídas,
+- pupilas muito pequenas (contraídas);
 
-- fraqueza muscular,
+- fraqueza nos músculos;
 
-- pele fria/úmida,
+- pele fria e úmida;
 
-- batimento lento, pressão baixa,
+- batimentos do coração lentos e pressão do sangue muito baixa;
 
-- em alguns casos, edema pulmonar (líquido no pulmão),
+- líquido nos pulmões (edema pulmonar);
 
-- parada cardíaca e morte.
+- parada do coração e risco de morte.
 
-Procure socorro médico imediatamente. Se possível, leve a embalagem ou a bula. O tratamento no hospital prioriza manter a respiração e a circulação.
+Procure socorro médico IMEDIATAMENTE.
+Leve a embalagem ou a bula do remédio se puder.
+No hospital, os médicos vão cuidar primeiro da sua respiração e do seu coração.
 
-Naloxona é o antídoto específico para reverter a depressão respiratória por opioides (incluindo morfina), quando clinicamente necessário.
+Existe um remédio específico chamado naloxona (um antídoto) que trata os efeitos graves da morfina na respiração.
 
-Telefone: 0800 722 6001 para mais orientações.
+Ligue para 0800 722 6001 se precisar de orientações sobre o que fazer.
 </text>

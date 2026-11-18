@@ -1,251 +1,262 @@
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Câncer de mama metastático (quando o câncer já se espalhou). Herceptin® SC é indicado para pacientes com câncer de mama HER2-positivo (HER2 é uma proteína presente em maior quantidade em alguns tumores de mama).
+O Herceptin® SC trata o câncer de mama que se espalhou para o corpo (câncer metastático). Ele é aplicado embaixo da pele, SEMPRE em um hospital ou clínica. É indicado para pessoas com câncer do tipo “HER2-positivo”, ou seja, com grande quantidade da proteína HER2 no tumor.
 
 Pode ser usado:
 
-- Sozinho (sem quimioterapia) em pacientes que já fizeram um ou mais tratamentos quimioterápicos para a doença metastática.
+- sozinho (sem quimioterapia) em pessoas que já fizeram um ou mais tratamentos para doença que se espalhou;
 
-- Com paclitaxel ou docetaxel em pacientes que ainda não receberam quimioterapia para a doença metastática.
+- com paclitaxel ou docetaxel em pessoas que ainda não fizeram tratamento para doença que se espalhou.
 
-Câncer de mama inicial. Herceptin® SC é indicado para pacientes com câncer de mama inicial HER2-positivo:
+O Herceptin® SC também trata o câncer de mama descoberto no início. É indicado para pessoas com câncer de mama HER2-positivo:
 
-- Após cirurgia, quimioterapia (antes ou depois da cirurgia) e radioterapia (quando indicada).
+- depois de cirurgia, quimioterapia (antes ou depois de cirurgia) e radioterapia (quando indicada);
 
-- Após quimioterapia com doxorrubicina e ciclofosfamida, em combinação com paclitaxel ou docetaxel.
+- depois de quimioterapia com doxorrubicina e ciclofosfamida, junto com paclitaxel ou docetaxel;
 
-- Em combinação com docetaxel e carboplatina.
+- junto com docetaxel e carboplatina;
 
-- Em combinação com quimioterapia antes da cirurgia (neoadjuvante), seguida de Herceptin® SC após a cirurgia (adjuvante), em tumores localmente avançados (inclusive inflamatórios) ou maiores que 2 cm.
+- junto com quimioterapia antes da cirurgia (para diminuir o tumor, como “tratamento neoadjuvante”) e depois da cirurgia (para completar o tratamento, como “adjuvante”), em tumores avançados que já atingiram a área em volta da mama (inclusive tumores inflamados) ou tumores maiores que 2 centímetros.
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-Herceptin® SC contém trastuzumabe, um anticorpo produzido por biotecnologia. Ele age de forma direcionada contra a proteína HER2, presente em excesso em alguns tumores de mama. Ao se ligar a essa proteína, o medicamento ajuda a impedir o crescimento das células cancerosas.
+O Herceptin® SC contém a substância trastuzumabe. Ele funciona como uma defesa do corpo feita em laboratório (por biotecnologia). Ele encontra a proteína "HER2" no câncer e impede que as células doentes aumentem ou se espalhem. Assim, o remédio ajuda a parar o crescimento das células do câncer.
 
-O tempo para perceber o efeito depende:
+O tempo para perceber os efeitos do tratamento depende:
 
-- do tipo de tratamento,
+- do tipo de tratamento;
 
-- das características do seu organismo,
+- de como o corpo reage;
 
-- e da evolução da doença.
+- e de como a doença avança.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não use Herceptin® SC se você tiver alergia ao trastuzumabe ou a qualquer componente da fórmula.
+NÃO use Herceptin® SC se você tiver alergia ao trastuzumabe ou a algum ingrediente da fórmula.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Herceptin® SC deve ser iniciado sob supervisão de um médico experiente em câncer.
+O tratamento com Herceptin® SC deve começar com a orientação de um médico especialista em câncer.
 
-Avise seu médico se você tiver:
+Avise o médico se você tem:
 
-- Insuficiência cardíaca (coração fraco),
+- coração fraco (insuficiência cardíaca);
 
-- Angina (dor no peito),
+- dor no peito (angina);
 
-- Pressão alta não controlada,
+- pressão alta não controlada;
 
-- Falta de ar em repouso.
+- falta de ar mesmo quando estiver descansando.
 
-O médico avaliará os riscos e tomará as medidas necessárias.
+O médico vai avaliar a sua saúde e decidir o que é melhor para a sua saúde.
 
-Gravidez: Não use durante a gravidez sem orientação médica. Herceptin® SC deve ser evitado na gravidez, a menos que o benefício para a mãe seja maior que o risco para o bebê.
+Gravidez: NÃO USE durante a gravidez sem orientação médica. O médico só indica o Herceptin® SC durante a gravidez quando o benefício para a saúde da mãe é maior que o risco para o feto.
 
-Casos relatados mostraram risco de:
+As pesquisas mostraram que usar o remédio na gravidez pode causar:
 
-- baixo líquido amniótico,
+- pouco líquido na bolsa onde o feto fica (baixo líquido amniótico);
 
-- problemas nos rins do feto,
+- problemas nos rins do feto, incluindo parada total de funcionamento dos rins;
 
-- pulmões pouco desenvolvidos,
+- problemas na formação dos pulmões do feto;
 
-- risco de morte fetal.
+- risco de morte do feto.
 
-Mulheres que podem engravidar devem usar método contraceptivo eficaz durante o tratamento e por 7 meses após a última dose. Se engravidar durante o tratamento ou até 7 meses após a última dose, informe o médico imediatamente.
+Pessoas que podem engravidar devem usar um método para evitar a gravidez (um método contraceptivo) durante o tratamento e por mais 7 meses depois da última dose. Se você engravidar durante o tratamento ou até 7 meses depois da última dose, avise o médico IMEDIATAMENTE.
 
-Amamentação: Não amamente durante o tratamento e por 7 meses após a última dose. O medicamento pode passar para o leite e causar efeitos no bebê.
+Amamentação: NÃO amamente durante o tratamento e por 7 meses depois da última dose. O remédio pode passar para o leite e fazer mal ao bebê.
 
-Uso contraindicado durante o aleitamento ou doação de leite humano.
+Não use durante amamentação nem se estiver doando leite do peito.
 
-Idosos: Pacientes acima de 65 anos receberam as mesmas doses usadas em adultos mais jovens.
+Pessoas idosas: pessoas com mais de 65 anos tomam as mesmas doses que pessoas mais jovens.
 
-Crianças: A segurança e eficácia não foram estabelecidas em menores de 18 anos.
+Crianças: não se sabe se este remédio é seguro ou se funciona em pessoas com menos de 18 anos.
 
-Problemas renais: estudos indicam que não alteram a ação do medicamento.
+Problemas nos rins: os estudos mostram que ter problemas nos rins não muda a ação do remédio.
 
-Problemas no fígado: não há estudos específicos.
+Problemas no fígado: não foram feitos estudos sobre o fígado.
 
-Dirigir e operar máquinas: Herceptin® SC pode causar tontura ou sonolência.
+Dirigir e usar máquinas: o Herceptin® SC pode causar tontura ou dar sono. Se isso acontecer, não dirija nem use máquinas até melhorar.
 
-Se isso ocorrer, não dirija nem opere máquinas até melhorar.
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-Interações com outros medicamentos: Não foram observadas interações importantes nos estudos clínicos. Mesmo assim, informe seu médico se estiver usando qualquer outro medicamento.
+Nos estudos, o Herceptin® SC não teve problemas com outros remédios. Mesmo assim, AVISE o médico se estiver usando qualquer outro remédio.
 
-Não use medicamento sem orientação médica.
+NUNCA use remédios sem orientação médica.
 
-5. COMO GUARDAR ESTE MEDICAMENTO?
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Manter sob refrigeração (2 ºC a 8 ºC). Guardar na embalagem original, protegido da luz.
-
+Manter na geladeira (de 2 °C a 8 °C).
+Guardar na embalagem original, protegido da luz.
 Não congelar.
 
-O frasco pode ficar fora da geladeira por no máximo 6 horas, em temperatura até 30 ºC.
+O frasco pode ficar fora da geladeira por no máximo 6 horas, em temperaturas de até 30 °C.
 
-Após transferir para a seringa:
+Após o profissional de saúde colocar o remédio na seringa:
 
-- Usar imediatamente.
+- usar IMEDIATAMENTE;
 
-- Pode ficar até 48 horas entre 2 ºC e 8 ºC.
+- pode ficar na geladeira por até 48 horas entre 2 °C e 8 °C;
 
-- Pode permanecer até 6 horas em temperatura ambiente (até 30 ºC).
+- pode ficar por até 6 horas em temperatura ambiente (até 30 °C).
 
-Não somar tempos diferentes fora da refrigeração.
+Não somar os tempos fora da geladeira, mesmo se o remédio for guardado e tirado de novo da geladeira.
 
-Aspecto: líquido incolor a amarelado, claro ou levemente opalescente.
+Aspecto/aparência: líquido sem cor nenhuma a amarelado, claro ou levemente leitoso.
 
-Não use se estiver vencido ou com aspecto alterado. Manter fora do alcance das crianças.
+Não use se o prazo de validade estiver vencido ou se estiver com aparência diferente do normal.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+Mantenha fora do alcance de crianças.
 
-Herceptin® SC é de uso hospitalar. É aplicado como injeção subcutânea (embaixo da pele).
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-Não deve ser aplicado na veia. É de uso único. Não precisa diluir.
+O Herceptin® SC é usado apenas em hospitais ou clínicas especializadas. É aplicado como uma injeção embaixo da pele (por via subcutânea).
 
-Somente profissionais treinados devem aplicar.
+NÃO deve ser aplicado na veia. Já vem pronto para usar e não precisa ser misturado com outros líquidos (diluir).
 
-Posologia Não é necessária dose inicial maior (dose de ataque).
+SOMENTE profissionais treinados devem aplicar o remédio.
+
+Quantidade de doses
+
+Não é necessário começar o tratamento com uma dose maior.
 
 Dose fixa: 600 mg a cada 3 semanas, independente do peso.
 
-Aplicação dura aproximadamente 2 a 5 minutos.
+A aplicação da injeção dura aproximadamente 2 a 5 minutos.
 
-Local da aplicação Alternar entre coxa esquerda e direita.
+Local da aplicação:
 
-Aplicar em pele saudável.
+- trocar entre a coxa esquerda e a direita a cada aplicação;
 
-Manter pelo menos 2,5 cm de distância da aplicação anterior.
+- aplicar apenas em pele saudável;
 
-Não aplicar em áreas vermelhas, machucadas, doloridas ou endurecidas.
+- manter pelo menos 2,5 cm de distância de onde foi a última injeção;
 
-Observação após aplicação Após a primeira injeção: observar por 30 minutos.
+- não aplicar em áreas vermelhas, machucadas, doloridas ou duras.
 
-Após as demais: observar por 15 minutos.
+Observação após a aplicação da injeção
 
-Duração do tratamento
+Depois da primeira injeção: esperar 30 minutos em observação no hospital.
 
-- Câncer metastático: usar até a doença piorar.
+Depois das outras injeções: esperar 15 minutos em observação no hospital.
 
-- Câncer inicial: usar por 1 ano ou até a doença voltar (o que acontecer primeiro).
+Quanto tempo dura o tratamento
 
-Não é recomendado usar por mais de 1 ano em câncer inicial.
+- Para câncer que se espalhou (metastático): use o remédio até que a doença piore.
 
-7. O QUE FAZER SE EU ESQUECER UMA DOSE?
+- Para câncer descoberto no início (em estágio inicial): use por 1 ano ou até a doença voltar (o que acontecer primeiro).
 
-O médico definirá a nova data de aplicação.
+Não é recomendado usar por mais de 1 ano se você tiver câncer em estágio inicial.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-As reações mais importantes incluem:
+O médico vai decidir a nova data de aplicação da injeção.
 
-- Problemas no coração
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-- Pode causar:
+As reações indesejadas mais sérias são as seguintes:
 
-- insuficiência cardíaca,
+- problemas no coração.
 
-- redução da força de bombeamento do coração,
+O Herceptin® SC pode causar:
 
-- falta de ar,
+- coração fraco (insuficiência cardíaca);
 
-- inchaço,
+- coração sem força para bater e bombear o sangue;
 
-- tosse piorando.
+- falta de ar;
 
-Em geral, os casos melhoram com tratamento adequado.
+- inchaço;
 
-Reações durante ou após a aplicação. Podem ocorrer:
+- tosse que não melhora.
 
-- febre,
+Em geral, esses problemas passam com o tratamento certo.
 
-- calafrios,
+Reações indesejadas durante ou depois da aplicação da injeção.
+Podem acontecer:
 
-- falta de ar,
+- febre;
 
-- pressão baixa,
+- tremores (calafrios);
 
-- chiado no peito,
+- falta de ar;
 
-- batimento acelerado,
+- pressão baixa;
 
-- queda de oxigênio,
+- chiado no peito;
 
-- dificuldade respiratória.
+- batimento acelerado do coração;
 
-- Reações graves são raras.
+- queda de oxigênio no sangue;
 
-Reações muito comuns
+- dificuldade para respirar.
 
-- Infecções leves (como resfriado),
+Reações graves são raras.
 
-- Anemia,
+Reações muito comuns:
 
-- Redução das células de defesa,
+- infecções leves (como resfriado);
 
-- Dor de cabeça,
+- anemia;
 
-- Tontura,
+- diminuição das células de defesa;
 
-- Alteração do paladar,
+- dor de cabeça;
 
-- Insônia,
+- tontura;
 
-- Náusea, vômito, diarreia,
+- mudança no gosto da comida (alteração do paladar);
 
-- Dor abdominal,
+- dificuldade para dormir (insônia);
 
-- Dor nas articulações e músculos,
+- enjoo/náusea, vômito, diarreia;
 
-- Queda de cabelo,
+- dor na barriga;
 
-- Erupção na pele,
+- dor nas juntas/articulações e nos músculos;
 
-- Inchaço,
+- queda de cabelo;
 
-- Cansaço,
+- feridas na pele;
 
-- Febre.
+- inchaço;
 
-Reações comuns
+- cansaço;
 
-- Depressão, ansiedade,
+- febre.
 
-- Pressão alta ou baixa,
+Reações comuns:
 
-- Tosse, falta de ar,
+- depressão, ansiedade;
 
-- Boca seca,
+- pressão alta ou baixa;
 
-- Alterações no fígado,
+- tosse, falta de ar;
 
-- Pele seca, coceira,
+- boca seca;
 
-- Dor nas costas,
+- problemas no fígado;
 
-- Dor no local da injeção.
+- pele seca, coceira;
 
-Reações raras, mas graves
+- dor nas costas;
 
-- Reação alérgica grave (anafilaxia),
+- dor no local onde a injeção foi aplicada.
 
-- Problemas pulmonares graves,
+Reações raras, mas graves:
 
-- Problemas renais,
+- reação alérgica grave (anafilaxia/choque);
 
-- Problemas graves na gravidez (pulmão ou rim pouco desenvolvido no bebê).
+- problemas graves no pulmão;
 
-Se qualquer reação for intensa ou diferente do esperado, informe imediatamente o médico.
+- problemas nos rins;
 
-9. O QUE FAZER EM CASO DE SUPERDOSE?
+- problemas graves na gravidez (problemas no desenvolvimento dos pulmões ou rins do feto).
 
-É muito improvável receber dose excessiva, pois a aplicação é hospitalar. Doses únicas de até 960 mg já foram administradas sem relatos de efeitos indesejáveis. Se ocorrer superdose, o médico saberá reconhecer e tratar os sintomas.
+Avise o médico IMEDIATAMENTE se tiver alguma reação forte ou que não pareça normal.
+
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
+
+É muito difícil receber uma dose muito grande porque o remédio é aplicado apenas no hospital.
+Doses bem altas, de até 960 mg, já foram testadas e não causaram efeitos indesejados.
+Se você receber uma dose muito grande de Herceptin® SC, o médico vai reconhecer e tratar os sintomas.

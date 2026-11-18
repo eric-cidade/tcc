@@ -21,3 +21,7 @@ graficos
 csv
 testes.txt
 metadados_*.txt
+
+# Material bruto recebido para o corpus (a versão usada vai para csv/ e csv_metadata/).
+novas-bulas-onco/
+*.zip

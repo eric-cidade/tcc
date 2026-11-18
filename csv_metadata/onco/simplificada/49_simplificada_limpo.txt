@@ -17,129 +17,139 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. Para que este medicamento é indicado?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Tamarine® cápsula dura é indicado para:
+Tamarine é usado para:
 
-- aliviar intestino preso (constipação), tanto primária (sem causa definida) quanto secundária (causada por outra condição);
+- aliviar o intestino preso (constipação), causado ou não por outro problema de saúde;
 
-- ajudar na preparação para exames radiológicos e endoscópicos.
+- ajudar na preparação para exames de imagem (radiológicos) e endoscopia.
 
-2. Como este medicamento funciona?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-Tamarine® cápsula dura combina duas plantas medicinais (Senna alexandrina e Cassia fistula) com efeito laxativo. Esse laxativo estimula o intestino e aumenta as secreções naturais do aparelho digestivo, ajudando a evacuar. O efeito costuma aparecer em 8 a 10 horas.
+O Tamarine junta duas plantas medicinais (Senna alexandrina e Cassia fistula) que ajudam a fazer cocô (laxantes). O Tamarine faz o intestino produzir mais líquidos, o que ajuda a fazer cocô. O efeito do Tamarine aparece entre 8 e 10 horas depois de tomar o remédio.
 
-3. Quando não devo usar este medicamento?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não use Tamarine® cápsula dura se você:
+Não use Tamarine se você:
 
-- tem retocolite (inflamação aguda do intestino) ou doença de Crohn (inflamação crônica do intestino);
+- tem inflamação no intestino (retocolite);
 
-- tem dor abdominal sem causa conhecida;
+- tem inflamação crônica no intestino (doença de Crohn);
 
-- tem alergia a qualquer componente da fórmula;
+- tem dores na barriga sem causa conhecida;
+
+- tem alergia grave a qualquer ingrediente do remédio;
 
 - tem menos de 12 anos;
 
 - está com desidratação grave, com perda importante de água e sais do corpo (eletrólitos).
 
-4. O que devo saber antes de usar este medicamento?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Menores de 12 anos: não podem usar. A partir de 12 anos: use somente com indicação médica.
+Pessoas menores de 12 anos: não podem tomar Tamarine. Pessoas com mais de 12 anos: podem tomar Tamarine se o médico indicar.
 
-Idosos: devem começar com metade da dose de adulto.
+Pessoas idosas: devem começar tomando metade da dose de adultos.
 
-Gravidez: pode usar somente com prescrição do médico ou cirurgião-dentista.
+Pessoas grávidas: podem tomar Tamarine se o médico indicar.
 
-Amamentação / doação de leite humano: o uso é considerado compatível e não interfere na amamentação.
+Pessoas amamentando/doando o próprio leite: podem tomar Tamarine.
 
-Interações com outros medicamentos (use com cautela):
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-Tenha cuidado se você usa remédios como:
+Tenha cuidado se você usa:
 
-- antiarrítmicos (para arritmia do coração), como quinidina e amiodarona;
+- remédios que podem mudar o ritmo do coração (para arritmia), como quinidina e amiodarona;
 
 - vincamina;
 
-- digitálicos (ex.: digoxina);
+- digitálicos (exemplo: digoxina);
 
-- anfotericina B;
+- anfotericina B (remédio para fungos);
 
-- diuréticos que diminuem potássio (ex.: furosemida, hidroclorotiazida).
+- diuréticos que diminuem o potássio (exemplo: furosemida, hidroclorotiazida).
 
-Não há relatos de interação com alimentos. Informe ao médico/dentista todos os medicamentos que você usa.
+Alimentos não interferem no efeito do Tamarine. Diga ao profissional de saúde todos os remédios que você usa.
 
-5. Onde, como e por quanto tempo posso guardar este medicamento?
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Guarde em temperatura ambiente (15°C a 30°C). Proteja da luz e da umidade. Não use se estiver vencido. Guarde na embalagem original. Antes de usar, observe o aspecto. Se houver mudança, fale com o farmacêutico.
+Guarde em temperatura ambiente (de 15 °C a 30 °C).
+Proteja da luz e da umidade.
+Não use se o estiver vencido.
+Guarde na embalagem original.
 
-Mantenha fora do alcance das crianças.
+Antes de usar, observe a aparência da cápsula.
+A cápsula do Tamarine é uma cápsula longa na cor verde clara, um pouco transparente, com um pó dentro.
+O pó é fino e verde escuro.
+Se você notar alguma diferença, fale com um farmacêutico para saber se pode usar.
 
-6. Como devo usar este medicamento?
+Mantenha fora do alcance de crianças.
 
-Uso oral (pela boca).
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-Adultos e crianças acima de 12 anos: 1 a 2 cápsulas por dia, após a última refeição, ou conforme orientação médica.
+Tome Tamarine pela boca (uso oral).
 
-Limite máximo diário: 2 cápsulas (ou conforme orientação médica).
+Adultos e crianças acima de 12 anos: 1 a 2 cápsulas depois da última refeição do dia, ou conforme o que o médico indicar.
 
-Use laxantes estimulantes como este por pouco tempo, apenas até aliviar os sintomas.
+Limite máximo por dia: 2 cápsulas.
 
-Não use por mais de 7 dias consecutivos.
+Use remédios para fazer cocô como o Tamarine (laxantes estimulantes) por pouco tempo, apenas até aliviar os sintomas.
 
-Use por mais de 7 dias somente com orientação médica.
+Não use por mais de 7 dias seguidos, a não ser se o médico orientar.
 
-Não parta, não abra e não mastigue a cápsula.
+VOCÊ NÃO DEVE PARTIR, MORDER NEM MASTIGAR A CÁPSULA.
 
-7. O que devo fazer quando eu me esquecer de usar este medicamento?
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-Se você esquecer uma dose, não dobre a dose. Apenas volte a tomar a dose habitual para aliviar a constipação. Se tiver dúvidas, procure o farmacêutico ou o médico/dentista.
+Se você esquecer uma dose do Tamarine, NÃO TOME DUAS DOSES DE UMA VEZ. Você deve tomar a próxima dose no horário de costume. Se tiver dúvidas, procure um profissional de saúde.
 
-8. Quais os males que este medicamento pode me causar?
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-Por ser um laxante que estimula o intestino, é muito comum aparecer cólicas e gases. Também podem ocorrer:
+Por ser um laxante que estimula o intestino, é muito comum aparecerem cólicas e gases. Também podem acontecer:
 
-- diarreia
+- diarreia;
 
-- dor no estômago
+- dor no estômago;
 
-- refluxo
+- refluxo;
 
-- vômitos
+- vômito;
 
-- irritação no estômago/intestino Procure um médico se aparecerem sinais como:
+- irritação no estômago/intestino.
 
-- sangue nas fezes
+Procure um médico se aparecerem sinais como:
 
-- cólicas muito fortes
+- sangue no cocô;
 
-- fraqueza
+- cólicas muito fortes;
 
-- sangramento pelo reto
+- fraqueza;
 
-9. O que fazer se alguém usar uma quantidade maior do que a indicada?
+- sangramento pelo ânus.
+
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
 Doses altas podem causar:
 
-- diarreia
+- diarreia;
 
-- espasmos e cólicas abdominais
+- contrações involuntárias (espasmos) e dores na barriga (cólicas);
 
-- perda importante de potássio Se a pessoa tomar bem mais do que a dose recomendada, procure socorro médico.
+- perda de potássio no sangue. Se você tomar bem mais do que a dose recomendada, procure socorro médico.
 
-O médico pode indicar medidas como:
+O médico pode usar os seguintes tratamentos:
 
 - lavagem do estômago (em alguns casos);
 
 - reposição de líquidos e sais (eletrólitos);
 
-- antiespasmódicos para cólicas.
+- remédios que aliviam contrações involuntárias e dores na barriga (antiespasmódicos).
 
 Em caso de uso de grande quantidade, procure atendimento médico rapidamente e leve a embalagem ou a bula.
 

@@ -17,263 +17,284 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-A digoxina é indicada para tratar:
+A Digoxina trata:
 
-- insuficiência cardíaca congestiva (quando o coração não consegue bombear sangue bem e o corpo pode receber menos oxigênio e nutrientes);
+- coração fraco, quando o coração não consegue bombear sangue suficiente e o corpo pode receber menos oxigênio e nutrientes (insuficiência cardíaca congestiva);
 
-- algumas arritmias (batimentos do coração fora do ritmo normal).
+- batimentos do coração fora do ritmo normal (algumas arritmias).
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-A digoxina faz parte dos glicosídeos cardíacos. Esses medicamentos:
+A Digoxina faz parte de um grupo de remédios chamados de “glicosídeos cardíacos”.
 
-- aumentam a força de contração do coração,
+Esses remédios:
 
-- ajudam no tratamento da insuficiência cardíaca e de alterações no ritmo dos batimentos.
+- aumentam a força dos batimentos do coração;
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+- ajudam no tratamento do coração fraco e de problemas no ritmo dos batimentos.
 
-Você não deve usar digoxina se tiver:
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-- alergia à digoxina, a outros glicosídeos cardíacos ou a algum componente do medicamento (ver “Composição”).
+Você não deve usar Digoxina se tiver:
 
-- alguns problemas graves de condução elétrica do coração, como bloqueio atrioventricular (AV) completo ou intermitente; bloqueio AV de segundo grau (principalmente se houver histórico de síndrome de Stokes-Adams, que pode causar desmaios); taquicardia ventricular (batimento muito acelerado vindo dos ventrículos); fibrilação ventricular (ritmo desorganizado e perigoso).
+- alergia à Digoxina, a outros remédios parecidos (glicosídeos cardíacos) ou a algum ingrediente do remédio;
 
-- cardiomiopatia obstrutiva hipertrófica (doença em que o músculo do coração fica espesso e pode “atrapalhar” a saída de sangue), a menos que também exista fibrilação atrial e insuficiência cardíaca. Mesmo assim, o uso exige muito cuidado.
+- algumas falhas ou interrupções na passagem do sinal elétrico no coração (bloqueio atrioventricular completo ou intermitente);
 
-O médico vai avaliar seu histórico antes de prescrever digoxina. Se você tiver dúvidas, converse com o médico.
+- outros problemas graves na passagem do sinal elétrico no coração, como falhas no ritmo (bloqueio atrioventricular de segundo grau) principalmente se você já teve desmaios no passado (síndrome de Stokes-Adams);
 
-Gravidez (Categoria C): O médico só deve indicar digoxina na gravidez quando o benefício para a mãe for maior do que o risco possível para o bebê. Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica ou do cirurgião-dentista.
+- batimentos do coração muito rápidos, perigosos e fora do ritmo (taquicardia ventricular ou fibrilação ventricular);
 
-Não há contraindicações específicas por faixa etária.
+- coração com músculo muito grosso, que dificulta a saída de sangue (cardiomiopatia obstrutiva hipertrófica). Mas o médico pode indicar a Digoxina para tratar outros problemas, como batimentos do coração muito rápidos, fora do ritmo e perigosos (fibrilação atrial) ou coração fraco (insuficiência cardíaca).
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+Mesmo assim, SEMPRE use com muito cuidado.
 
-Avise o médico antes de usar digoxina se você tem ou já teve:
+O médico vai conferir as outras doenças que você já teve antes de receitar a Digoxina. Se você tiver dúvidas, converse com o médico.
 
-- problema nos rins;
+NÃO se sabe se a Digoxina é segura na gravidez. O médico só indica a Digoxina durante a gravidez quando o benefício para a saúde da mãe é maior que o risco para o feto. NÃO use este remédio se estiver grávida sem a orientação de um médico ou de um dentista.
 
-- idade avançada;
+Pessoas de todas as idades podem usar a Digoxina.
 
-- uso de diurético ou inibidor da ECA;
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-- cálcio alto no sangue;
+Avise o médico antes de usar Digoxina se você:
 
-- doença da tireoide;
+- tem ou já teve problemas nos rins;
 
-- magnésio baixo no sangue;
+- é uma pessoa idosa;
 
-- doença no pulmão ou falta de ar;
+- usa remédios para urinar (diuréticos) ou para problemas do coração (inibidores da ECA);
 
-- problemas no estômago ou intestino;
+- tem cálcio alto no sangue;
 
-- gravidez, amamentação ou intenção de engravidar;
+- tem problemas na tireoide;
 
-- uso recente (nas últimas 2 semanas) de outro glicosídeo cardíaco;
+- tem magnésio baixo no sangue;
 
-- infarto recente;
+- tem doença no pulmão ou falta de ar;
 
-- cardioversão elétrica (choque para “regular” o ritmo do coração);
+- tem problemas no estômago e no intestino;
 
-- doenças como amiloidose cardíaca, miocardite, doença cardíaca por beribéri ou pericardite crônica.
+- está grávida, amamentando ou quer engravidar;
 
-Em idosos, é mais comum ter:
+- usou (nas últimas 2 semanas) outro remédio que aumenta a força dos batimentos do coração (um glicosídeo cardíaco);
 
-- pior função dos rins,
+- teve um ataque cardíaco (infarto) há pouco tempo;
 
-- menor massa corporal.
+- fez tratamento com choque para regular o ritmo do coração (cardioversão elétrica);
 
-Isso pode fazer a digoxina subir no sangue mais rápido e causar intoxicação. Por isso, o médico pode usar doses menores e pedir acompanhamento com exames, como:
+- tem uma quantidade muito grande de proteínas que endurecem o coração (amiloidose cardíaca), inflamação do músculo do coração (miocardite), doença do coração por falta de vitamina B1 (beribéri) ou inflamação da membrana que fica em volta do coração (pericardite crônica).
 
-- eletrólitos (sais no sangue, como potássio e magnésio),
+Pessoas idosas costumam ter:
 
-- creatinina (exame para avaliar rins),
+- rins que não funcionam tão bem;
 
-- e, quando necessário, nível de digoxina no sangue.
+- peso mais baixo.
 
-Dirigir e operar máquinas: Quem usa digoxina deve ter cuidado ao dirigir, operar máquinas ou fazer atividades perigosas.
+Isso pode fazer a quantidade de Digoxina subir mais rápido no sangue e a pessoa pode passar mal.
 
-Amamentação: A digoxina passa para o leite, mas em quantidades muito pequenas. Por isso, em geral, não é contraindicada durante a amamentação.
+Por isso, o médico pode receitar doses menores e pedir alguns exames, como:
 
-Interações com alimentos: Você pode tomar digoxina com a maioria dos alimentos. Mas evite tomar junto com alimentos muito ricos em fibras, porque as fibras podem diminuir a absorção da digoxina.
+- sais minerais/eletrólitos no sangue (como potássio e magnésio);
 
-Interações com exames: A digoxina pode alterar o eletrocardiograma (ECG) e gerar resultados enganosos. Avise a equipe do exame que você usa digoxina.
+- um exame para saber como os rins estão funcionando (creatinina);
 
-Interações com medicamentos: A digoxina pode interagir com muitos medicamentos (inclusive sem receita). Não use outros remédios junto com digoxina sem orientação médica.
+- quantidade de Digoxina no sangue, quando necessário.
 
-Avise o médico se você usa medicamentos para:
+Dirigir e usar máquinas: quem usa Digoxina precisa ter cuidado ao dirigir, usar máquinas ou fazer outras atividades perigosas.
 
-- câncer, pressão alta, epilepsia ou arritmia;
+Amamentação: a Digoxina passa para o leite do peito em quantidade muito pequena. Por isso, em geral, pode ser tomada durante a amamentação.
 
-- estômago/intestino (incluindo laxantes e remédios para diarreia, indigestão ou vômito);
+Digoxina e alimentos: você pode tomar a Digoxina com a maioria dos alimentos. Mas EVITE tomar junto com alimentos com muitas fibras. As fibras podem diminuir o efeito do remédio.
 
-- betabloqueadores ou bloqueadores de canal de cálcio;
+Digoxina e exames: a Digoxina pode mudar o ritmo do coração e confundir os resultados do exame de eletrocardiograma (ECG). Avise a equipe médica do exame que você usa Digoxina.
 
-- remédios que podem baixar o potássio (ex.: alguns diuréticos, sais de lítio, corticosteroides, carbenoxolona);
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
+
+A Digoxina pode reagir com muitos remédios (inclusive os que você compra sem receita). NUNCA use nenhum outro remédio junto com a Digoxina sem orientação médica.
+
+AVISE o médico se você toma remédios para:
+
+- câncer, pressão alta, convulsões (epilepsia) ou batimentos do coração fora do ritmo normal (arritmia);
+
+- estômago ou intestino (incluindo para fazer cocô/laxantes e remédios para diarreia, má digestão ou vômito);
+
+- problemas do coração (betabloqueadores ou bloqueadores de canal de cálcio);
+
+- remédios que podem baixar a quantidade de potássio no sangue (por exemplo: alguns remédios para urinar, sais de lítio, corticosteroides, carbenoxolona);
 
 - cálcio (atenção especial se for pela veia);
 
-- e outros citados na bula (por exemplo: amiodarona, quinidina, verapamil, diltiazem, antibióticos macrolídeos, entre vários outros).
+- e outros citados na bula (ex.: amiodarona, quinidina, verapamil, diltiazem, antibióticos macrolídeos, entre vários outros).
 
-Também informe se usa erva de São João.
+Também avise se você toma um remédio natural para depressão feito da planta erva-de-são-joão.
 
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Guarde na embalagem original. Armazene em temperatura ambiente (15°C a 30°C).
-
+Guarde na embalagem original.
+Guarde em temperatura ambiente (de 15 °C até 30 °C).
 Proteja da luz e da umidade.
 
-Validade: 24 meses a partir da fabricação (ver embalagem).
+Validade: 24 meses a partir da fabricação (veja na embalagem).
 
-Aparência: comprimido circular branco.
+Aparência/aspecto do comprimido: redondo e branco.
 
-Se notar mudança no aspecto dentro da validade, procure médico ou farmacêutico.
+Se notar mudança na aparência do comprimido ainda dentro da validade, fale com um profissional de saúde.
 
-Mantenha fora do alcance das crianças.
+Mantenha fora do alcance de crianças.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-Uso somente oral (pela boca). Tome todos os dias no mesmo horário.
+Tome o comprimido de Digoxina somente pela boca (uso oral). Tome a Digoxina todos os dias no mesmo horário.
 
-Dose: Somente o médico define a dose. O médico ajusta a digoxina de forma individual, levando em conta:
+Dose: somente o médico define a dose. O médico ajusta a Digoxina para cada pessoa, levando em conta:
 
-- idade,
+- a idade;
 
-- peso,
+- o peso;
 
-- função dos rins.
+- e como os rins estão funcionando.
 
-Tomar dose maior do que a prescrita pode ser perigoso.
+Tomar uma dose maior do que a receitada é perigoso.
 
-Controle por exame de sangue (quando o médico pedir). Muitos pacientes têm bons resultados e menor risco de intoxicação quando o nível de digoxina no sangue fica entre 0,8 ng/mL (1,02 nmol/L) e 2,0 ng/mL (2,56 nmol/L). Acima disso, aumenta o risco de intoxicação. A intoxicação é muito provável quando o nível passa de 3,0 ng/mL (3,84 nmol/L).
+Exame de sangue para medir a quantidade de Digoxina no corpo (quando o médico pedir): muitas pessoas têm bons resultados e menor risco de passar mal quando a quantidade de Digoxina no sangue fica entre 0,8 ng/mL e 2,0 ng/mL. Níveis acima de 2,0 aumentam o risco de você passar mal (isto é, de ter uma intoxicação). Acima de 3,0 ng/mL, é muito provável que você passe mal (isto é, de que você tenha uma intoxicação).
 
-Adultos e crianças com mais de 10 anos:
+Adultos e crianças com mais de 10 anos
 
-- Dose de ataque (rápida): 750 a 1500 µg (0,75 a 1,5 mg) em dose única.
+- Para iniciar o tratamento rapidamente (“dose de ataque” rápida): tomar 750 a 1.500 microgramas (μg) (o mesmo que 0,75 a 1,5 mg) de uma vez só.
 
-- Dose de ataque (lenta): 250 a 750 µg (0,25 a 0,75 mg) por dia, por 1 semana, e depois uma dose de manutenção. Em geral, o efeito clínico aparece em até 1 semana.
+- Para iniciar o tratamento aos poucos (“dose de ataque” lenta): tomar 250 a 750 microgramas (μg) (o mesmo que 0,25 a 0,75 mg) por dia durante 1 semana. Depois disso, tomar a dose normal. Em geral, os efeitos do remédio começam em 1 semana.
 
-- Dose de manutenção: geralmente entre 125 e 150 µg (0,125 a 0,75 mg) por dia.
+Dose normal (dose “de manutenção”): doses entre 125 e 150 microgramas (μg) (o mesmo que 0,125 a 0,75 mg) por dia.
 
-Algumas pessoas precisam de menos, por exemplo 62,5 µg (0,0625 mg) por dia ou menos, se forem mais sensíveis aos efeitos da digoxina.
+Algumas pessoas precisam de menos, por exemplo, 62,5 microgramas (μg) por dia ou menos, se forem mais sensíveis aos efeitos da Digoxina.
 
-Neonatos e crianças menores de 10 anos: Se a criança recebeu outro glicosídeo cardíaco nas últimas 2 semanas, a dose inicial pode precisar ser menor.
+Bebês recém-nascidos e crianças com menos de 10 anos: se a criança usou outro remédio que aumenta a força dos batimentos do coração (um glicosídeo cardíaco) nas últimas 2 semanas, a dose para iniciar talvez precise ser menor.
 
-Recém-nascidos (principalmente prematuros) eliminam digoxina mais lentamente pelos rins, então o médico pode reduzir a dose. Apesar disso, logo após o nascimento, alguns bebês podem precisar de doses proporcionalmente mais altas do que as de adultos, conforme tabela. Dose de ataque oral (em 24 horas):
+Bebês recém-nascidos (principalmente os que nasceram antes do tempo/prematuros) eliminam Digoxina mais devagar pelos rins, então o médico poderá diminuir a dose. Mesmo assim, logo depois de nascer, alguns bebês podem precisar de doses mais altas do que as de adultos para o seu tamanho.
+Os detalhes estão na tabela abaixo.
 
-- Neonatos prematuros < 1,5 kg: 25 µg/kg;
+Dose inicial pela boca (em 24 horas)
 
-- Neonatos prematuros 1,5 kg a 2,5 kg: 30 µg/kg;
+- Bebês nascidos antes do tempo (prematuros) com menos de 1,5 kg: 25 µg/kg;
 
-- Neonatos a termo até 2 anos: 45 µg/kg
+- Bebês nascidos antes do tempo (prematuros) com 1,5 kg a 2,5 kg: 30 µg/kg;
 
-- 2 a 5 anos: 35 µg/kg
+- Bebês até 2 anos: 45 µg/kg;
 
-- 5 a 10 anos: 25 µg/kg
+- Crianças de 2 a 5 anos: 35 µg/kg;
 
-Como dar a dose de ataque:
+- Crianças de 5 a 10 anos: 25 µg/kg.
 
-- dividir em várias tomadas: dar metade na primeira dose e o restante em doses menores a cada 4 a 8 horas.
+Como dar a dose inicial (“dose de ataque”)
 
-- avaliar a resposta clínica antes de cada dose adicional.
+- Dividir em várias tomadas: dar metade na primeira dose e o resto em doses menores a cada 4 a 8 horas.
 
-Dose de manutenção:
+- Avaliar se a criança está reagindo bem antes de dar cada uma dessas doses.
 
-- Neonatos prematuros: dose diária = 20% da dose de ataque de 24 horas.
+Dose normal (dose “de manutenção”)
 
-- Neonatos a termo e crianças até 10 anos: dose diária = 25% da dose de ataque de 24 horas.
+- Bebês nascidos antes do tempo (prematuros): a dose diária deve ser 20% da dose dada nas primeiras 24 horas.
 
-Essas doses são guias. O médico ajusta conforme exames e resposta clínica.
+- Bebês nascidos no tempo certo e crianças até 10 anos: a dose diária deve ser 25% da dose dada nas primeiras 24 horas.
 
-Idosos podem intoxicar mais rápido. Por isso, o médico pode usar doses menores e checar níveis de digoxina e potássio regularmente (a bula cita que idosos podem desenvolver aumento do potássio durante o uso).
+Essas quantidades de remédio servem apenas como uma orientação. O médico vai receitar a dose certa de acordo com os resultados dos exames de sangue e a melhora da pessoa.
 
-Não parta, não abra e não mastigue o comprimido.
+Pessoas idosas podem passar mal com mais facilidade. Por isso, o médico poderá receitar doses menores e pedir exames com mais frequência para saber a quantidade de remédio e de sais minerais (potássio) no sangue, que podem subir demais.
 
-7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+NÃO divida, NÃO quebre e NÃO mastigue o comprimido.
 
-Tome a dose assim que lembrar e continue como antes. Não tome dose dupla para compensar. Se esquecer mais de uma dose, procure orientação do médico ou farmacêutico.
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+Tome a dose assim que lembrar. Continue a tomar as doses como antes. NUNCA tome duas doses ao mesmo tempo para compensar uma dose esquecida. Se você esquecer de tomar mais de uma dose, fale com o profissional de saúde.
 
-A digoxina pode causar efeitos indesejáveis, principalmente quando a dose fica alta demais. O médico pode precisar ajustar a dose.
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-Reações comuns (1% a 10%)
+A Digoxina pode causar efeitos indesejados, principalmente quando a dose é alta demais. Por isso, o médico poderá ter que ajustar a dose.
 
-- desorientação, tontura, problemas de visão (visão turva ou amarelada);
+São reações comuns (acontecem em 1 a 10 em cada 100 pessoas):
 
-- batimentos mais lentos ou irregulares;
+- desorientação, tontura e problemas para enxergar (visão nublada/borrada ou amarelada);
 
-- enjoo, diarreia;
+- batimentos do coração mais lentos ou fora do ritmo normal;
 
-- alergia na pele (vermelhidão, coceira).
+- enjoo (náusea) e diarreia;
 
-Reação incomum (0,1% a 1%)
+- alergia na pele (pele irritada, coceira).
 
-- depressão.
+É uma reação incomum (acontece em 1 a 10 em cada 1.000 pessoas):
 
-Reações muito raras (< 0,01%)
+- tristeza/depressão.
 
-- baixa de plaquetas (pode causar manchas roxas/hematomas);
+São reações muito raras (acontecem em menos de 1 em cada 10.000 pessoas):
 
-- alucinações, perda de contato com a realidade, instabilidade emocional;
+- sangue com plaquetas baixas (pode causar hematomas/manchas escuras na pele);
 
-- dor forte no estômago, perda de apetite, dor de cabeça, cansaço e fraqueza;
+- alucinações, falta de contato com a realidade, emoções instáveis que mudam muito;
 
-- mal-estar geral;
+- dor forte na barriga/estômago, perder o apetite/perder a fome, dor de cabeça, cansaço e fraqueza;
 
-- alterações graves no músculo do coração;
+- sensação de mal-estar;
 
-- ginecomastia (aumento das mamas) em homens após uso prolongado.
+- mudanças graves no músculo do coração;
 
-Se os sintomas piorarem ou se surgir algo não descrito, avise o médico.
+- aumento das mamas em homens (ginecomastia) após usar o remédio por muito tempo.
 
-Em bebês e crianças, o sinal mais comum de superdose é arritmia (batimento fora do normal). Procure atendimento imediatamente.
+Se você tiver efeitos indesejados ou eles ficarem mais graves, AVISE O MÉDICO.
 
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+Em bebês e crianças, o sinal mais comum de uma dose muito grande são batimentos fora do ritmo normal (arritmia).
+Procure atendimento médico IMEDIATAMENTE.
 
-A superdose de digoxina pode ser fatal. Se houver suspeita, procure socorro médico imediatamente.
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-Sinais comuns de superdose:
+Tomar uma dose muito grande de Digoxina PODE MATAR.
+Se você suspeitar que tomou uma dose muito grande, procure socorro médico IMEDIATAMENTE.
 
-- arritmias (principal sinal em adultos e crianças);
+São sinais muito comuns de uma dose muito alta:
 
-- sintomas no estômago/intestino: perda de apetite, náuseas, vômitos (vômitos são menos comuns em bebês/crianças pequenas);
+- batimentos do coração fora do normal/arritmias (principal sinal);
 
-- sintomas neurológicos: tontura, cansaço, mal-estar;
+- sintomas no estômago/intestino: perder o apetite/perder a fome, enjoo/náuseas, vômitos (vômitos são menos comuns em bebês/crianças pequenas);
 
-- alterações visuais (ex.: visão com tom verde-amarelado);
+- sintomas nos nervos: tontura, cansaço, mal-estar;
 
-- em alguns casos: dor abdominal, sonolência e mudanças de comportamento.
+- problemas para enxergar (por exemplo: visão com tom verde-amarelado);
 
-Doses perigosas Adultos (sem doença cardíaca aparente):
+- em alguns casos: dor de barriga, sono e mudanças de comportamento.
 
-- ingestão de 10 a 15 mg: pode levar à morte em cerca de metade dos casos.
+Doses perigosas
 
-- ingestão > 25 mg: leva à morte.
+Adultos (sem doença do coração aparente):
 
-Crianças de 1 a 3 anos (sem doença cardíaca aparente):
+- doses de 10 a 15 mg: podem matar metade das pessoas (1 em cada 2 pessoas);
 
-- 6 a 10 mg: pode levar à morte em metade dos casos.
+- doses de mais de 25 mg: essas doses MATAM.
 
-- > 10 mg: risco de morte muito alto sem tratamento específico.
+Crianças de 1 a 3 anos (sem doença do coração aparente):
 
-Tratamento hospitalar (resumo). O hospital pode usar medidas como:
+- doses de 6 a 10 mg: podem matar metade das crianças (1 em cada 2 crianças);
 
-- carvão ativado (para reduzir absorção),
+- doses de mais de 10 mg: risco de morte muito alto sem tratamento específico.
 
-- correção de potássio (com cuidado, porque pode haver potássio alto na superdose),
+O TRATAMENTO PARA DOSES MUITO ALTAS DESTE REMÉDIO É FEITO SOMENTE EM UM HOSPITAL.
 
-- medicamentos para bradicardia (ex.: atropina) e, se necessário, marcapasso temporário,
+O médico pode usar os seguintes tratamentos:
 
-- medicamentos para algumas arritmias (ex.: lidocaína, fenitoína),
+- carvão ativado (para evitar que o corpo absorva a Digoxina);
 
-- anticorpos específicos para digoxina (fração Fab), como Digibind®, que é um tratamento específico e eficaz em casos graves.
+- ajustar a quantidade de potássio no sangue (com cuidado porque o potássio pode estar alto na dose muito grande);
+
+- remédios para batimentos lentos do coração (ex.: atropina) e, se necessário, um aparelho para ajudar o coração a bater no ritmo certo (marca-passo temporário);
+
+- remédios para controlar o ritmo do coração (ex.: lidocaína, fenitoína);
+
+- um remédio especial (anticorpo) contra os efeitos da Digoxina (chamado Digibind®), para casos graves.
 </text>

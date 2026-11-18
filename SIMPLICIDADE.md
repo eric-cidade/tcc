@@ -32,11 +32,11 @@ reescrever — logo, é o termo mais acessível. É a abordagem clássica de
 simplificação lexical por estatística de corpus: razão de frequências entre um
 corpus complexo e um corpus simples.
 
-> ⚠️ **O lado simplificado não é homogêneo.** As 30 bulas de hipertensão foram
-> simplificadas e **validadas por linguistas**; as 49 de oncologia foram
-> **simplificadas por IA, sem revisão profissional**. Como é esse lado que
-> define o que o score chama de "simples", a procedência muda o estatuto da
-> evidência — e, medido, muda o resultado. Ver §6.5.
+> ℹ️ **Procedência do lado simplificado.** Desde 18/11/2026 as 79 bulas
+> simplificadas — 30 de hipertensão e 49 de oncologia — são versões **revisadas
+> por linguistas**. Até essa data, as 49 de oncologia eram a saída bruta de IA,
+> sem revisão, e isso mudava o resultado do score de forma medida. A §6.5 traz
+> as duas medições.
 
 A isso somam-se duas correções que vêm da natureza do corpus (não da
 literatura), motivadas pela leitura das bulas validadas:
@@ -408,15 +408,25 @@ comparação, na CLI e na interface:
 | recorte | pares | lado simplificado | `simp/orig` (tokens) |
 | --- | ---: | --- | ---: |
 | `bula/hipertensao` | 30 | simplificação **validada por linguistas** | 67 % |
-| `bula/oncologia` | 49 | simplificação **gerada por IA, sem revisão profissional** | 35 % |
+| `bula/oncologia` | 49 | simplificação por IA **revisada por linguistas** (desde 18/11/2026) | 47 % |
+
+> **Troca da oncologia em 18/11/2026.** Até essa data, o lado simplificado da
+> oncologia era a saída **bruta de IA, sem revisão** (coluna `simple_doc` do
+> parquet de revisão, com `simp/orig` de 35 %). Ele foi substituído pela versão
+> com revisão linguística (coluna `rev1`). A revisão farmacêutica final (`rev2`)
+> ainda não foi registrada. O texto abaixo, até "Depois da troca", descreve a
+> medição feita com a versão de IA. Ela fica como registro, porque mostra o
+> efeito da procedência no score.
+
+#### Antes da troca: oncologia gerada por IA
 
 Duas consequências, uma óbvia e uma medida.
 
 **A óbvia:** no recorte padrão (todo o corpus), 49 dos 79 documentos — 55 % dos
-tokens do lado simplificado — não passaram por revisão humana. O score "do
-corpus inteiro" é, em maioria, uma medida do vocabulário que a IA deixou passar.
+tokens do lado simplificado — não tinham passado por revisão humana. O score "do
+corpus inteiro" era, em maioria, uma medida do vocabulário que a IA deixou passar.
 
-**A medida:** os dois subcorpora concordam menos do que se esperaria. Tomando as
+**A medida:** os dois subcorpora concordavam menos do que se esperaria. Tomando as
 966 palavras com ao menos 10 ocorrências em ambos e calculando o score em cada
 um separadamente:
 
@@ -462,7 +472,7 @@ omitir o filtro mistura as duas — caso em que toda resposta vem com a flag
 `proveniencia_mista` e a interface destaca o aviso. O default segue sendo o
 corpus inteiro, para não fingir que 30 pares são o corpus todo.
 
-Duas saídas continuam abertas, para discutir com a equipe:
+Ficavam em aberto duas saídas, para discutir com a equipe (ver "Depois da troca"):
 
 1. **Mudar o default** para `proveniencia=humana`, tratando o restante como
    corpus de cobertura. Score mais confiável, base bem menor (30 pares) — e,
@@ -473,11 +483,42 @@ Duas saídas continuam abertas, para discutir com a equipe:
    recortes. É o caminho mais invasivo e o que mais exige justificativa
    metodológica na escrita.
 
-Uma ressalva sobre a comparação acima: HT e ONCO diferem em procedência **e** em
-área temática, então nenhuma das duas coisas pode ser isolada com todo o rigor.
+Uma ressalva sobre a comparação acima: HT e ONCO diferiam em procedência **e** em
+área temática, então nenhuma das duas coisas podia ser isolada com todo o rigor.
 O controle usado — exigir que a palavra apareça nas originais dos dois lados —
 reduz o efeito de tema, mas não o elimina. Um teste limpo exigiria o mesmo
 conjunto de bulas simplificado das duas maneiras.
+
+#### Depois da troca: os dois subcorpora revisados por linguistas
+
+Repetindo a mesma medição (mesmo critério de vocabulário e mesmo score por
+subcorpus), agora com as 49 bulas de oncologia revisadas:
+
+| palavra | HT orig → simp | ONCO orig → simp, IA bruta | ONCO orig → simp, revisada | score ONCO, revisada |
+| --- | ---: | ---: | ---: | ---: |
+| `posologia` | 24 → 0 | 27 → 12 | 27 → **0** | −4,68 |
+| `medicamentosas` | 23 → 0 | 39 → 13 | 39 → **0** | −5,21 |
+| `situações` | 18 → 0 | 23 → 10 | 23 → 10 | +0,73 |
+| `induzida` | 15 → 0 | 10 → 5 | 10 → **0** | −3,29 |
+| `diabéticos` | 12 → 0 | 7 → 4 | 7 → **0** | −2,81 |
+| `interações` | 23 → 7 | 62 → 51 | 62 → **0** | −5,87 |
+
+O vocabulário de registro formal que a IA preservava foi **zerado** pela revisão
+linguística, como já acontecia na hipertensão, e o score de oncologia passou a
+apontar esses termos como técnicos. `náusea` × `enjoo` agora dá `enjoo` nos três
+recortes: corpus inteiro, hipertensão e oncologia.
+
+A concordância **global** entre os subcorpora, por outro lado, não subiu: 967
+palavras, **r = 0,69** (Spearman ρ = 0,72) e **213 trocas de sinal (22 %)**, contra
+r = 0,73 e 18 % antes. Isso mostra que a maior parte daquela divergência nunca foi
+procedência: era tema (e o tamanho diferente dos recortes). O efeito de
+procedência aparece concentrado no grupo de palavras de registro formal acima, e
+é nele que a troca fez diferença.
+
+Com isso perdem o objeto as duas saídas que estavam em aberto (mudar o default
+para `humana` e ponderar a evidência pela procedência): hoje os dois valores do
+filtro dão o mesmo recorte, porque não há subcorpus `ia`. O eixo continua
+existindo para o próximo gênero que entrar sem revisão.
 
 ### O preço: menos evidência
 
@@ -602,11 +643,12 @@ Repetindo o mesmo teste por recorte:
   nas simplificadas, `pressão alta` 184 de 198. Um refinamento possível é
   classificar o conteúdo do parêntese (glosa técnica × glosa leiga × valor
   numérico) em vez de descartar em bloco.
-- **Procedência mista do lado simplificado** (§6.5): 49 dos 79 pares foram
-  simplificados por IA sem revisão profissional, e é esse lado que define a
-  referência de "simples". O recorte padrão continua híbrido — o eixo de
-  procedência permite isolar, e a flag `proveniencia_mista` avisa, mas quem não
-  filtrar recebe um score de referência mista.
+- **Revisão do lado simplificado** (§6.5): as 49 bulas de oncologia têm revisão
+  linguística, mas a revisão farmacêutica final (`rev2`) ainda não foi feita.
+  Além disso, 8 correções listadas nos relatórios `CORRECOES_*.docx` não estão no
+  texto indexado. Uma delas é de dose (paclitaxel, bula 30: falta "a cada 3
+  semanas"). As outras 7 são de vocabulário e pontuação (bulas 10, 20, 26, 33, 34,
+  37 e 49).
 - **Recorte pequeno amplifica o ruído.** A margem de 0,5 bit é a mesma em
   qualquer escopo, mas 30 pares de bulas dão muito menos evidência que 79 (§6).
   Se a árvore ganhar subgrupos pequenos, o caminho é tornar a margem função do

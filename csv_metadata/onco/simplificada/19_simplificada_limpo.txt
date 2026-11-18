@@ -17,223 +17,266 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-O ibandronato de sódio 150 mg é indicado para tratar osteoporose após a menopausa (enfraquecimento dos ossos), com o objetivo de reduzir o risco de fraturas na coluna (vértebras).
+O Ibandronato de sódio trata o enfraquecimento dos ossos (osteoporose) após a fase em que a pessoa para de menstruar. O tratamento diminui o risco de quebras/fraturas nos ossos das vértebras da coluna. Este remédio é um comprimido que se toma pela boca 1 vez por mês.
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-O ibandronato de sódio trata a osteoporose em mulheres após a menopausa.  O princípio ativo age principalmente nos ossos e diminui a atividade das células que “gastam” o osso. Com isso, o medicamento reduz a perda de massa óssea e ajuda a diminuir a fragilidade dos ossos. Quando você toma o comprimido em jejum, o medicamento entra no sangue rapidamente:
+O Ibandronato de sódio trata os ossos fracos (osteoporose) em pessoas que pararam de menstruar. O remédio diminui a ação das células que "gastam" os ossos e evita que eles fiquem mais finos e fáceis de quebrar. Assim, o Ibandronato de sódio ajuda a fortalecer os ossos.
+Quando você toma o comprimido de Ibandronato de sódio com o estômago vazio (em jejum), o remédio vai para o sangue muito rápido:
 
-- a quantidade máxima no sangue acontece entre 30 minutos e 2 horas (em média, 1 hora);
+- depois de 30 minutos a 2 horas que você tomou o comprimido, é quando seu sangue leva mais remédio para todo o corpo;
 
-- cerca de 40% a 50% do que o corpo absorve vai para os ossos;
+- quase metade de todo o remédio que seu sangue carrega pelo corpo é usado para tratar os ossos fracos;
 
-- sinais de redução da “perda óssea” em exames podem aparecer em até 7 dias após começar o tratamento.
+- em até 1 semana depois de tomar o primeiro comprimido, o Ibandronato de sódio já começa a diminuir o enfraquecimento dos ossos.
 
-O medicamento pode reduzir a perda óssea e aumentar a massa dos ossos, mesmo que você não perceba. Assim, ele reduz a chance de fraturas por osteoporose pós-menopausa.
+Com isso, o Ibandronato de sódio diminui o enfraquecimento dos ossos, mesmo que você não perceba mudanças. Assim, ele diminui o risco de quebras/fraturas nos ossos em pessoas que pararam de menstruar e têm ossos finos e frágeis.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não tome ibandronato de sódio se:
+Não tome Ibandronato de sódio se você:
 
-- você tem alergia ao ibandronato de sódio ou a qualquer componente da fórmula;
+- tem alergia ao Ibandronato de sódio ou a algum ingrediente do comprimido;
 
-- você tem hipocalcemia (cálcio baixo no sangue) não corrigida;
+- tem baixo cálcio no sangue (hipocalcemia), mas ainda não está tratando esse problema;
 
-- você tem problemas no esôfago (tubo que liga a boca ao estômago), como:
+- você tem problemas no tubo que liga a boca ao estômago (esôfago), como:
 
-- demora para o esôfago esvaziar,
+- esôfago que demora para esvaziar;
 
-- estenose (estreitamento),
+- esôfago mais fino do que o normal (estenose);
 
-- acalasia (o esôfago não relaxa como deveria);
+- esôfago que não consegue engolir direito (acalasia);
 
-- você não consegue ficar sentado(a) ou em pé por pelo menos 60 minutos.
+- não consegue ficar sentado ou em pé durante 60 minutos pelo menos.
 
-Gravidez: este medicamento não deve ser usado por grávidas sem orientação médica ou do cirurgião-dentista. O ibandronato de sódio é categoria B de risco na gravidez.
+PESSOAS GRÁVIDAS: pessoas grávidas só podem usar Ibandronato de sódio se um médico ou um dentista indicar.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Advertências: Antes de iniciar o tratamento, o médico deve corrigir falta de cálcio e outros problemas do metabolismo ósseo/mineral. Você precisa de ingestão adequada de cálcio e vitamina D. Se a alimentação não for suficiente, o médico pode indicar suplementos.
+CUIDADOS
 
-Medicamentos desse tipo podem irritar o esôfago e o estômago. Podem causar:
+Cálcio e vitamina D: antes de começar o tratamento, o médico deve tratar falta de cálcio, de vitamina D e outros problemas que afetem os ossos ou os níveis de minerais do corpo. Coma alimentos com cálcio e vitamina D. Se o médico notar que você precisa de mais vitaminas e minerais, pode indicar que você use suplementos.
+Os suplementos são produtos que as pessoas tomam quando faltam nutrientes para o corpo.
 
-- dificuldade para engolir,
+ATENÇÃO: o Ibandronato de sódio pode irritar o tubo que liga a boca ao estômago (o esôfago) e o próprio estômago.
+Esses problemas podem causar:
 
-- queimação,
+- dificuldade para engolir;
 
-- feridas (úlceras) no esôfago ou no estômago.
+- queimação;
+
+- feridas no esôfago ou estômago (úlceras).
 
 Por isso, siga as instruções de uso com atenção.
 
-Se você tiver sinais de irritação no esôfago/estômago (como dor para engolir, dor no peito ou queimação), pare de usar e procure atendimento médico.
+Se você sentir dor ou queimação na garganta ou no peito, PARE DE USAR o Ibandronato de sódio e fale com o médico.
 
-Se você fizer procedimento dentário, avise o dentista que usa ibandronato de sódio. Foram relatados casos de osteonecrose da mandíbula (morte do osso da mandíbula) com medicamentos dessa classe, principalmente após procedimentos dentários. Isso ocorreu mais em pessoas com câncer, mas também pode ocorrer em pacientes com osteoporose.
+Antes de fazer algum tratamento nos dentes, avise o dentista que usa Ibandronato de sódio. Este remédio pode causar a morte do osso do queixo/mandíbula (osteonecrose da mandíbula), em especial após tratamento nos dentes. O risco é maior em pessoas com câncer, mas também pode acontecer em pessoas com ossos fracos (osteoporose).
 
-Fatores que aumentam o risco incluem: câncer, quimioterapia, radioterapia, uso de corticoides, anemia, problemas de coagulação, infecção e problemas dentários já existentes.
+Além do câncer, outros fatores também aumentam o risco de morte do osso da mandíbula:
 
-Também foram relatados casos raros de osteonecrose em outras áreas da boca e face, incluindo o canal do ouvido. Se você tiver sintomas no ouvido, como infecções crônicas, avise o médico.
+- tratamentos contra o câncer (quimioterapia ou radioterapia);
 
-Se a pessoa desenvolver osteonecrose da mandíbula durante o tratamento, cirurgias dentárias podem piorar o quadro. O médico deve decidir o que fazer caso a caso, avaliando risco e benefício.
+- uso de remédios para tratar inflamações (corticoides);
 
-Foram descritos casos de inflamação nos olhos, como uveíte e esclerite. Em alguns casos, isso só melhorou depois que a pessoa parou o bisfosfonato.
+- sangue fraco, que deixa a pessoa cansada e sem energia (anemia);
 
-Precauções: Use com cuidado se você toma anti-inflamatórios não esteroidais, pois pode aumentar a irritação do estômago/intestino.
+- problemas para fazer parar de sangrar (problemas de coagulação);
 
-Regras importantes para tomar corretamente. Você deve:
+- infecções;
 
-- tomar o comprimido em jejum;
+- problemas nos dentes anteriores ao tratamento.
 
-- tomar com 1 copo cheio de água filtrada (180 a 240 mL);
+Em casos raros, o Ibandronato de sódio causou a morte de outros ossos da boca, do rosto e do ouvido. Avise o médico se você tiver infecções repetidas no ouvido.
 
-- não tomar com água mineral, leite, sucos ou refrigerantes;
+NÃO FAÇA cirurgia se o osso do queixo/mandíbula morrer durante o tratamento com Ibandronato de sódio porque o problema pode piorar. O médico vai avaliar os riscos e os benefícios para decidir o que fazer.
 
-- esperar pelo menos 1 hora (60 minutos) para fazer a primeira refeição do dia;
+O Ibandronato de sódio causou inflamação nos olhos (como uveíte e esclerite) em algumas pessoas. Em alguns casos, a inflamação passou depois que a pessoa parou de usar o remédio.
 
-- esperar também para tomar outros medicamentos, principalmente os que têm cálcio, ferro, magnésio ou alumínio (como vitaminas e antiácidos);
+ATENÇÃO: use o Ibandronato de sódio com cuidado se você está tomando remédios como ibuprofeno, diclofenaco, naproxeno ou aspirina (anti-inflamatórios não esteroidais). Eles irritam ainda mais o estômago e o intestino quando se misturam com o Ibandronato de sódio.
 
-- ficar em posição ereta (sentado(a), em pé ou andando) por no mínimo 1 hora após tomar o comprimido.
+REGRAS PARA TOMAR O IBANDRONATO DE SÓDIO
 
-Gravidez e amamentação: Não há experiência suficiente em gestantes e não se sabe se o medicamento passa para o leite humano. Não use ibandronato de sódio se estiver grávida ou amamentando.
+Você precisa seguir alguns passos para tomar o Ibandronato de sódio:
 
-Crianças: Este medicamento é apenas para adultos. Não há experiência em menores de 18 anos.
+- tome o comprimido com o estômago vazio (em jejum);
 
-Idosos: A idade, por si só, não exige ajuste de dose. O principal ponto é a função dos rins, que pode diminuir com a idade.
+- engula o comprimido com 1 copo cheio de água filtrada (de 180 mL a 240 mL);
 
-Pessoas com problemas nos rins: Em insuficiência renal leve a moderada (depuração de creatinina ≥ 30 mL/min), em geral não precisa ajustar a dose. Em insuficiência renal grave (depuração de creatinina < 30 mL/min), o médico deve avaliar risco e benefício antes de usar.
+- NÃO tome o comprimido com água mineral, água com gás, café, chá, leite ou suco;
 
-Pessoas com problemas no fígado: Em geral, não precisa ajustar dose, porque o medicamento não é metabolizado pelo fígado. O corpo elimina principalmente pelos rins e pela fixação nos ossos.
+- espere, pelo menos, 60 minutos antes de comer qualquer coisa e de tomar outros remédios (em especial vitaminas e antiácidos, porque têm substâncias que diminuem a quantidade de remédio que entra nos ossos);
 
-Não há estudos específicos sobre dirigir e operar máquinas.
+- fique sentado, em pé ou andando durante, pelo menos, 60 minutos após tomar o comprimido. NÃO SE DEITE.
 
-Até o momento, não há informação de que o medicamento cause doping.
+GRAVIDEZ E AMAMENTAÇÃO: não se sabe qual é o efeito do Ibandronato de sódio na gravidez e no leite do peito. NÃO USE Ibandronato de sódio se estiver grávida ou amamentando.
 
-Interações
+CRIANÇAS: o Ibandronato de sódio só pode ser usado por pessoas adultas. Este remédio NÃO foi testado em pessoas com menos de 18 anos.
 
--  Com medicamentos: Suplementos de cálcio, antiácidos e medicamentos com alumínio, magnésio ou ferro podem reduzir a absorção. → Espere 60 minutos após tomar ibandronato de sódio para tomar esses produtos.
+PESSOAS IDOSAS: não precisam ajustar a dose de Ibandronato de sódio só por causa da idade. Mas o médico precisa avaliar o funcionamento dos rins porque pode piorar com a idade.
 
-- Com alimentos: Alimentos e produtos com cálcio, alumínio, magnésio ou ferro (incluindo leite) atrapalham a absorção. → Espere 60 minutos após tomar o medicamento para comer.
+PESSOAS COM PROBLEMAS NOS RINS
 
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+- Pessoas com problemas menos graves nos rins (insuficiência renal leve a moderada) não precisam ajustar a dose.
 
-Guardar em temperatura ambiente (15 a 30 ºC). Proteger da luz. Guardar na embalagem original.
+- Em casos de problema grave (insuficiência renal grave), o médico deve avaliar o risco e o benefício do tratamento.
 
-Como é o comprimido: branco, oblongo, biconvexo, com “IB-150” em um lado e o logo da empresa no outro.
+PESSOAS COM PROBLEMAS NO FÍGADO: em geral, não precisam ajustar a dose porque o Ibandronato de sódio não passa pelo fígado. De todo o Ibandronato de sódio que a pessoa toma no comprimido, quase a metade fica nos ossos e o resto passa pelos rins e sai pelo xixi.
 
-Mantenha fora do alcance das crianças.
+DIRIGIR E USAR MÁQUINAS: não há estudos que mostrem que o uso de Ibandronato de sódio cause problemas para dirigir e usar máquinas.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+DOPING: até o momento, o Ibandronato de sódio não é proibido em competições esportivas.
 
-Tome em jejum, 60 minutos antes do primeiro alimento ou bebida do dia (exceto água) e antes de qualquer outro medicamento ou suplemento, inclusive cálcio.
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-Tome por via oral, com água filtrada (180 a 240 mL).
+As substâncias que diminuem a quantidade de Ibandronato de sódio que entra nos ossos são:
 
-Fique sentado(a) ou em pé (ou andando). Não deite por 60 minutos após tomar.
+- suplementos de cálcio, remédios para queimação no estômago/azia (antiácidos) e remédios com alumínio, magnésio ou ferro.
+Tome o Ibandronato de sódio primeiro, espere 1 hora e só depois tome outros remédios ou suplementos.
 
-Tome somente com água filtrada. Não use água mineral, água com gás, café, chá, leite ou suco.
+Os alimentos que diminuem a quantidade de Ibandronato de sódio que entra nos ossos são:
+- alimentos e produtos com cálcio, alumínio, magnésio ou ferro (incluindo leite).
+Por isso, tome o comprimido 1 hora antes de comer.
 
-Não mastigue e não chupe o comprimido (pode machucar a garganta).
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Dose e duração:
+Guarde em temperatura ambiente (de 15 °C a 30 °C).
+Proteja da luz.
+Mantenha na embalagem original.
 
-- Dose recomendada: 1 comprimido de 150 mg, 1 vez por mês.
+Aspecto/aparência: comprimidos brancos, arredondados dos dois lados, com formato que lembra um ovo. Em um dos lados diz "IB-150" para mostrar que a dose é de 150 mg.
 
-- Tome sempre na mesma data do mês.
+Mantenha fora do alcance de crianças.
 
-- Dose máxima: 150 mg por mês.
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-O uso é contínuo. Continue pelo tempo que o médico indicar. O medicamento pode não funcionar bem se você parar.
+- Tome 1 comprimido de Ibandronato de sódio com o estômago vazio (em jejum). Espere, pelo menos, 60 minutos para comer, beber ou tomar qualquer remédio ou suplemento.
 
-7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+- Para engolir o comprimido, beba um copo de água FILTRADA (de 180 a 240 mL).
 
-Tente tomar sempre na mesma data. Se esquecer a dose mensal de 150 mg, tome na manhã seguinte ao dia em que lembrar, a menos que faltem menos de 7 dias para a próxima dose. Se faltarem menos de 7 dias, não tome o comprimido esquecido. Espere a data programada e retome o esquema mensal. Não tome 2 comprimidos de 150 mg na mesma semana (com menos de 7 dias de intervalo).
+- Após tomar o comprimido, fique sentado, em pé ou andando durante, pelo menos, 60 minutos. NÃO SE DEITE.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+- NÃO tome este remédio com água mineral, água com gás, café, chá, leite ou suco.
 
-Reações comuns (1% a 10%)
+ATENÇÃO: não mastigue nem chupe o comprimido de Ibandronato de sódio porque pode machucar a boca e a garganta.
 
-- Problemas no estômago/esôfago: refluxo/azia, diarreia, dor abdominal, indigestão, náusea, gases, gastrite, esofagite
+DOSE E DURAÇÃO DO TRATAMENTO
 
-- Dor de cabeça
+Dose recomendada: 1 comprimido de 150 mg, 1 vez por mês.
 
-- Sintomas parecidos com gripe
+Tome o comprimido sempre no mesmo dia do mês.
 
-- Cansaço
+Dose máxima: 150 mg por mês (1 comprimido por mês).
 
-- Dor nas articulações e músculos, cãibras, rigidez muscular
+Você deve fazer o tratamento com Ibandronato de sódio pelo tempo que o médico indicar. Se você parar o tratamento sem falar com o médico, pode ser que o remédio não funcione.
 
-- Erupção na pele com vermelhidão
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-Reações incomuns (0,1% a 1%)
+Tente tomar o comprimido sempre no mesmo dia do mês.
+Se você lembrar que NÃO TOMOU a dose mensal e faltarem MAIS DE 7 DIAS para a próxima dose:
 
-- Gastrite e esofagite, incluindo feridas no esôfago ou estreitamento do esôfago
+- tome o comprimido na manhã seguinte ao dia em que se lembrar.
 
-- Vômitos e dificuldade para engolir
+Se faltarem menos de 7 dias para a próxima dose:
 
-- Úlcera no estômago
+- não tome o comprimido esquecido;
 
-- Melena (fezes com sangue)
+- espere a data da próxima dose e continue o tratamento.
 
-- Tontura
+NUNCA tome 2 comprimidos de 150 mg em menos de 7 dias (1 semana).
 
-- Dor nas costas
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-Reações raras (0,01% a 0,1%)
+Reações comuns (acontecem em 1 a 10 pessoas a cada 100 - entre 1% e 10%):
 
-- Inflamação do duodeno
+- problemas no estômago e no tubo que liga a boca ao estômago (esôfago): sensação de queimação (refluxo ou azia), diarreia, dor na região do estômago, enjoo, estômago pesado, gases e inflamação no estômago e no esôfago (gastrite e esofagite);
 
-- Reações alérgicas
+- dor de cabeça;
 
-- Angioedema (inchaço abaixo da pele), inchaço no rosto e urticária
+- sintomas de gripe;
 
-Frequência desconhecida
+- cansaço;
 
-- Problemas dentários
+- dor nas juntas/articulações e nos músculos, músculos duros ou difíceis de movimentar (rigidez muscular);
 
-- Astenia (fraqueza/desânimo)
+- irritação na pele (vermelhidão).
 
-- Infecção respiratória alta e bronquite
+Reações incomuns (acontecem em 1 a 10 pessoas a cada 1.000 - entre 0,1% e 1%):
 
-- Infecção urinária
+- inflamação no estômago e no esôfago (gastrite e esofagite), incluindo feridas no esôfago ou esôfago ficando mais fino do que o normal;
 
-- Prisão de ventre Após o medicamento estar no mercado, foram relatados (muito raramente) casos de:
+- vômitos e dificuldade para engolir;
 
-- osteonecrose da mandíbula e de outras regiões da boca/face, incluindo canal do ouvido;
+- feridas no estômago (úlcera);
 
-- inflamação ocular;
+- cocô escuro e pastoso que parece piche (melena);
 
-- reação alérgica grave (inclusive com casos fatais);
+- tontura;
+
+- dor nas costas.
+
+Reações raras (acontecem em 1 a 10 pessoas a cada 10.000 - entre 0,01% e 0,1%):
+
+- inflamação no começo do intestino (duodeno);
+
+- reações alérgicas;
+
+- inchaço por baixo da pele (angioedema).
+
+Reações de frequência desconhecida:
+
+- problemas nos dentes;
+
+- sensação de fraqueza e de desânimo (astenia);
+
+- infecções que afetam a garganta e o nariz, bronquite;
+
+- infecção urinária;
+
+- prisão de ventre.
+
+Depois que o Ibandronato de sódio começou a ser vendido, algumas pessoas tiveram outras reações.
+Elas são muito raras, mas aconteceram:
+
+- morte do osso do queixo/mandíbula ou de ossos de outras regiões da boca, do rosto e do ouvido (osteonecrose);
+
+- inflamação nos olhos (uveíte, episclerite e esclerite);
+
+- reação alérgica grave que pode matar;
 
 - reações graves na pele;
 
-- fraturas atípicas do fêmur (sem confirmação de causa direta).
+- quebras/fraturas do fêmur sem motivo (atípicas).
 
-Se aparecerem reações indesejáveis, avise seu médico, dentista ou farmacêutico.
+Diga ao médico, dentista ou ao farmacêutico se você tiver reações indesejadas.
 
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-Não há um tratamento específico definido para superdose. A superdose pode causar problemas no estômago e esôfago, como:
+Não existe um tratamento específico caso a pessoa use uma quantidade de Ibandronato de sódio maior do que a recomendada (superdose).
+Usar uma quantidade maior de Ibandronato de sódio pode causar problemas no estômago e no tubo que liga a boca ao estômago (esôfago), como:
 
-- mal-estar no estômago,
+- desconforto no estômago;
 
-- queimação,
+- queimação;
 
-- esofagite, gastrite ou úlcera.
+- inflamação no estômago e no esôfago (gastrite e esofagite).
 
-Em caso de superdose:
+Caso você tenha usado uma quantidade de Ibandronato de sódio maior do que a recomendada:
 
-- use leite ou antiácidos;
+- tome leite ou antiácidos;
 
-- não provoque vômito (risco de irritar o esôfago);
+- não tente vomitar porque pode machucar mais o esôfago;
 
-- a pessoa deve ficar sentada ou em pé, sem deitar.
+- fique sentado ou em pé. NÃO SE DEITE.
 
-Procure um médico ou um centro de intoxicações em caso de ingestão de dose excessiva.
+Procure atendimento médico ou entre em contato com um centro de informações de intoxicações.
 </text>

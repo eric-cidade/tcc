@@ -1,269 +1,278 @@
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-VECTIBIX contém panitumumabe. Ele trata câncer colorretal metastático (câncer do intestino que se espalhou para outras partes do corpo) em adultos.
+O Vectibix contém panitumumabe. Ele trata as seguintes situações de saúde:
 
-a) Câncer colorretal metastático do tipo RAS selvagem (sem mutação) RAS é uma família de genes (inclui KRAS e NRAS) que ajudam a controlar o crescimento das células. Quando o gene RAS está mutado (alterado), o tumor pode crescer e se espalhar mais.
+- o Vectibix trata pessoas adultas com câncer no intestino ou na parte final dele (câncer colorretal) que já saiu do lugar onde começou e se espalhou para outras partes do corpo (metastático);
 
-✅ Vectibix (sozinho ou com quimioterapia) deve ser usado apenas quando o câncer colorretal não tem mutação RAS (ou seja, é RAS selvagem).
+- o Vectibix pode ser usado sozinho ou junto com o tratamento de injeções para combater o câncer (quimioterapia) quando o tumor é do tipo sem alterações (do tipo “RAS selvagem”);
 
-b) Câncer colorretal metastático com mutação KRAS G12C Vectibix pode ser usado junto com sotorasibe para tratar adultos quando:
+- os genes (como o RAS) funcionam como pequenos manuais com as instruções de fábrica do corpo que controlam como as células crescem;
 
-- o tumor tem a mutação KRAS G12C, e
+- quando esse manual vem com um defeito ou sofre uma mudança (uma mutação), o câncer pode crescer e se espalhar mais rápido;
 
-- a pessoa já recebeu quimioterapia e ela não funcionou ou parou de funcionar.
+- o Vectibix também trata pessoas adultas quando o tumor tem um tipo muito específico de mudança no manual da célula (a mutação KRAS G12C);
 
-✅ O profissional de saúde precisa testar o tumor para confirmar a mutação KRAS G12C e verificar se a combinação Vectibix + sotorasibe é adequada.
+- para tratar essa mudança específica, o Vectibix deve ser usado junto com o remédio sotorasibe;
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+- a combinação do Vectibix com o remédio sotorasibe só deve ser usada se a pessoa já fez o tratamento com as injeções contra o câncer (quimioterapia) e esse tratamento não deu certo ou parou de fazer efeito;
 
-O panitumumabe é um anticorpo monoclonal (uma proteína feita para se ligar a um alvo específico no corpo). Ele se liga a uma proteína chamada EGFR (receptor do fator de crescimento epidérmico), que fica na superfície de algumas células do câncer.
+- o profissional de saúde precisa fazer exames no tumor para ter certeza de que o câncer tem essa mudança exata (a mutação KRAS G12C) antes de a pessoa começar a usar o Vectibix.
 
-Quando substâncias do corpo se ligam ao EGFR, elas “mandam sinal” para a célula cancerosa crescer e se dividir.
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-✅ Vectibix bloqueia o EGFR e ajuda a impedir que as células do câncer recebam esses sinais de crescimento.
+- A substância que faz o Vectibix funcionar (panitumumabe) é um anticorpo monoclonal, ou seja, ela é uma substância de defesa criada em laboratório para ir direto até um ponto bem específico do corpo.
 
-Em estudos, Vectibix + sotorasibe funcionou melhor para câncer colorretal com mutação KRAS G12C do que usar apenas um dos dois.
+- O Vectibix se prende em uma “marca” chamada receptor do fator de crescimento epidérmico (EGFR), que fica do lado de fora de algumas células do câncer.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+- Quando outras substâncias do corpo se prendem nessa marca (EGFR), elas mandam um aviso para a célula do câncer crescer e se espalhar.
 
-Não use VECTIBIX:
+- O Vectibix bloqueia essa marca (EGFR) e ajuda a impedir que as células do câncer recebam esses avisos de crescimento.
 
-- se você tem alergia ao panitumumabe ou a qualquer componente da fórmula;
+- Em testes feitos por cientistas, usar o Vectibix junto com o remédio sotorasibe funcionou muito melhor para combater o câncer com aquela mudança específica (a mutação KRAS G12C) do que usar apenas o Vectibix ou apenas o sotorasibe sozinho.
 
-- se você já teve ou tem sinais de pneumonite intersticial (inflamação nos pulmões que causa tosse e falta de ar) ou fibrose pulmonar (cicatriz/espessamento do pulmão com falta de ar);
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-- se o seu tumor for RAS mutado ou se o resultado do teste RAS for desconhecido (quando Vectibix for usado sozinho ou com quimioterapia).
+Não use o VECTIBIX:
 
-- Se você não souber o resultado do teste RAS, converse com o profissional de saúde.
+- se você tem alergia ao panitumumabe ou a qualquer ingrediente do Vectibix;
 
-❌ Este medicamento é contraindicado para menores de 18 anos, porque não há dados suficientes de segurança e eficácia.
+- se você já teve ou tem sinais de uma inflamação nos pulmões que causa tosse e falta de ar (pneumonite intersticial) ou tem cicatrizes e endurecimento no pulmão com falta de ar (fibrose pulmonar);
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+- se o seu tumor tiver uma mudança no gene (a mutação RAS) ou se você não souber o resultado do exame RAS, nos casos em que o Vectibix for usado sozinho ou junto com as injeções para tratar o câncer (quimioterapia);
 
-Converse com o profissional de saúde antes de receber Vectibix. Ele pode pedir exames e pode reduzir a dose ou parar o tratamento se necessário.
+- se você não souber o resultado do exame RAS, converse com o profissional de saúde.
 
-Reações na pele: Vectibix pode causar erupção na pele (rash), geralmente no rosto, parte superior do peito e costas, mas pode aparecer em qualquer área. Pode ter:
+Este remédio não é recomendado para menores de 18 anos porque não se sabe se ele é seguro ou se funciona nessas pessoas.
 
-- vermelhidão, coceira e descamação;
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
+
+Converse com o profissional de saúde antes de receber o Vectibix. Se precisar, ele pode pedir exames e pode diminuir a dose ou parar o tratamento.
+
+As reações na pele que o Vectibix pode causar são:
+
+- bolinhas, manchas e feridas na pele (erupção na pele), que costumam aparecer no rosto, na parte de cima do peito e nas costas, mas podem surgir em qualquer lugar do corpo;
+
+- vermelhidão, coceira e pele soltando pedacinhos (descamação);
 
 - inchaço e feridas;
 
-- infecção na pele, inclusive feridas infectadas que podem exigir tratamento médico e/ou cirurgia;
+- infecção na pele, incluindo feridas com secreção ou pus que podem precisar de tratamento com remédios ou até de cirurgia;
 
-- pele seca e rachaduras (principalmente nos dedos);
+- pele seca e rachaduras, principalmente na ponta dos dedos;
 
-- inflamação ou infecção ao redor das unhas (paroníquia).
+- inflamação ou infecção na pele ao redor das unhas (paroníquia).
 
-Cuidados: use protetor solar, chapéu e evite sol forte, porque o sol pode piorar a reação na pele. Se a reação piorar ou ficar difícil de aguentar, avise o profissional de saúde imediatamente.
+CUIDADOS: use protetor solar, chapéu e evite sol forte, porque o sol pode piorar a reação na pele. Se a reação piorar ou ficar difícil de aguentar, avise o profissional de saúde IMEDIATAMENTE.
 
-Problemas nos olhos: Avise o profissional de saúde se você usa lentes de contato ou se já teve problema nos olhos (olhos muito secos, inflamação da córnea, feridas na córnea). Procure ajuda imediatamente se tiver:
+Cuidados com os olhos que você deve ter
 
-- dor forte e vermelhidão nos olhos,
+- Avise o profissional de saúde se você usa lentes de contato ou se já teve problemas nos olhos, como olhos muito secos, inflamação ou feridas na parte transparente do olho (córnea).
 
-- aumento do lacrimejamento,
+PROCURE AJUDA MÉDICA NA MESMA HORA SE VOCÊ TIVER DOR FORTE E VERMELHIDÃO NOS OLHOS, MUITAS LÁGRIMAS, VISÃO NUBLADA OU SE A LUZ INCOMODAR OS SEUS OLHOS (SENSIBILIDADE À LUZ).
 
-- visão embaçada,
+As reações que podem acontecer enquanto o remédio entra na veia (aplicação/infusão) ou logo depois são:
 
-- sensibilidade à luz.
+- dor de cabeça, coceira, placas vermelhas na pele que coçam muito (urticária) e vermelhidão na pele;
 
-- Reações durante a infusão (pela veia) Durante ou após a aplicação, você pode ter reação, com sintomas como:
+- inchaço no rosto, nos lábios, na boca, ao redor dos olhos ou na garganta;
 
-- dor de cabeça, coceira, urticária, vermelhidão na pele,
+- batimentos do coração rápidos ou desregulados;
 
-- inchaço no rosto, lábios, boca, ao redor dos olhos ou garganta,
+- suor, enjoo (náusea) e vômitos;
 
-- batimentos rápidos ou irregulares,
+- tontura;
 
-- suor, náusea, vômitos,
-
-- tontura,
-
-- dificuldade para respirar ou engolir,
+- dificuldade para respirar ou para engolir;
 
 - queda de pressão.
 
-Essas reações podem ser graves e, muito raramente, fatais. Avise imediatamente se aparecer qualquer sintoma.
+Essas reações podem ser graves e, em casos muito raros, podem MATAR. Avise a equipe de saúde IMEDIATAMENTE se notar qualquer um desses sinais.
 
-Reação alérgica tardia (muito rara): Em casos raros, uma alergia grave pode acontecer mais de 24 horas depois da infusão e pode ser fatal. Procure atendimento urgente se tiver:
+Algumas reações de alergia podem demorar para aparecer.
+Em casos raros, uma alergia grave pode acontecer mais de 24 horas depois da aplicação/infusão do Vectibix e pode levar à morte.
 
-- falta de ar,
+PROCURE ATENDIMENTO DE EMERGÊNCIA SE VOCÊ SENTIR FALTA DE AR, APERTO NO PEITO, SENSAÇÃO DE SUFOCAMENTO, TONTURA OU DESMAIO.
 
-- aperto no peito,
+Os cuidados com os pulmões que você deve ter
 
-- sensação de sufocamento,
+PROCURE AJUDA MÉDICA IMEDIATAMENTE SE VOCÊ TIVER FALTA DE AR, TOSSE OU FEBRE, OU SE JÁ TINHA ESSES SINTOMAS E ELES PIORAREM.
 
-- tontura ou desmaio.
+As alterações nos sais minerais do sangue (eletrólitos) que podem acontecer são:
 
-Problemas pulmonares: Procure ajuda imediatamente se tiver falta de ar, tosse ou febre novos ou piorando.
+- algumas pessoas ficam com a quantidade de magnésio, cálcio e potássio muito baixa no sangue.
 
-Alterações de sais no sangue (eletrólitos): Algumas pessoas têm níveis baixos de magnésio, cálcio e potássio.
+O profissional de saúde vai pedir exames de sangue antes e durante o tratamento para controlar isso. O profissional de saúde pode continuar pedindo exames para acompanhar o magnésio e o cálcio por até 8 semanas (mais ou menos 2 meses) depois que o tratamento terminar.
+Se os níveis estiverem baixos, ele pode passar remédios para repor esses sais (suplementos).
 
-O profissional de saúde vai pedir exames antes e durante o tratamento. Ele pode continuar acompanhando magnésio e cálcio por até 8 semanas após o fim do tratamento. Se estiverem baixos, ele pode indicar suplementos.
+Um problema grave e rápido nos rins (insuficiência renal aguda) pode acontecer se:
 
-Risco de insuficiência renal aguda (piora súbita dos rins): Isso pode acontecer principalmente quando há diarreia grave e desidratação. Se você tiver diarreia frequente (fezes líquidas), avise imediatamente.
+- você tiver diarreia grave e o corpo ficar sem água (desidratação).
 
-Outros medicamentos: Informe tudo o que você usa (inclusive sem receita, vitaminas e fitoterápicos).
+Avise a equipe de saúde IMEDIATAMENTE se você tiver diarreia frequente com fezes líquidas.
 
-Não use Vectibix:
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-- junto com bevacizumabe;
+Diga ao médico tudo o que você usa, até mesmo os remédios que você compra sem receita e feitos de plantas (fitoterápicos).
 
-- junto com a quimioterapia chamada IFL.
+VOCÊ NÃO DEVE USAR O VECTIBIX JUNTO COM O REMÉDIO BEVACIZUMABE.
 
-Gravidez e amamentação: Não se sabe o efeito de Vectibix na gravidez. Avise se você está grávida, suspeita de gravidez ou quer engravidar. Mulheres em idade fértil devem usar método contraceptivo eficaz durante o tratamento e por 2 meses após a última dose. Não é recomendado amamentar durante o tratamento e por até 2 meses após a última dose. Gravidez: Categoria C. Este medicamento não deve ser usado por mulheres grávidas sem orientação médica.
+VOCÊ NÃO DEVE USAR O VECTIBIX JUNTO COM O TIPO DE QUIMIOTERAPIA IFL.
 
-Aleitamento/doação de leite: o uso durante a lactação depende da avaliação do médico.
+Gravidez e amamentação
 
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+Não se sabe qual é o efeito do Vectibix na gravidez. Por isso, avise se estiver grávida, se suspeita de gravidez ou se quer engravidar.
+As pessoas que podem engravidar devem usar um método para evitar a gravidez (anticoncepcional) que funcione muito bem enquanto estiverem usando o Vectibix e por mais 2 meses após a última dose.
 
-Guardar em geladeira (2°C a 8°C). Não congelar. Manter na embalagem original para proteger da luz.
+Não é recomendado amamentar enquanto estiver usando o Vectibix e por até 2 meses após a última dose.
 
-Validade: 36 meses.
+GRAVIDEZ: O VECTIBIX NÃO DEVE SER USADO POR GRÁVIDAS SEM A ORIENTAÇÃO DO MÉDICO.
 
-O líquido é incolor e pode ter partículas translúcidas a brancas.
+Amamentação/doação de leite do peito: depende da orientação médica.
 
-Não use com prazo vencido. Mantenha fora do alcance das crianças.
+5. COMO GUARDAR ESTE REMÉDIO?
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+Guarde na geladeira, em uma temperatura entre 2 °C e 8 °C. Não congele. Mantenha o Vectibix dentro da caixa original para proteger o remédio da luz.
 
-Vectibix é aplicado em serviço de saúde, por profissional com experiência em tratamento de câncer.
+O Vectibix vale por 36 meses.
 
-Via: intravenosa (na veia), com bomba de infusão (para entrar devagar).
+O líquido do Vectibix não tem cor nenhuma (incolor), mas pode ter pedacinhos bem pequenos transparentes ou brancos espalhados por ele.
 
-RAS selvagem: 6 mg/kg 1 vez a cada 2 semanas. A infusão geralmente dura cerca de 60 minutos.
+Não use com prazo de validade vencido.
 
-KRAS G12C (com sotorasibe): 6 mg/kg a cada 2 semanas por infusão IV, junto com sotorasibe.
+Mantenha fora do alcance de crianças.
 
-A primeira dose de sotorasibe deve ser tomada antes da primeira infusão de Vectibix.
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-Se você parar sotorasibe, você também deve parar Vectibix.
+O Vectibix é aplicado SOMENTE em um serviço de saúde, por um profissional que tenha experiência no tratamento de câncer.
 
-Preparação/uso (feita por profissional):
+A aplicação é feita direto na veia (intravenosa), com um aparelho que controla a entrada do líquido (bomba de infusão) para o remédio entrar bem devagar no corpo.
 
-- uso único (frasco para uma utilização);
+Para quem tem o tumor sem alterações (RAS selvagem), a dose recomendada é de 6 mg por quilo, 1 vez a cada 2 semanas.
+A aplicação/infusão na veia costuma durar cerca de 60 minutos (1 hora).
 
-- diluição em cloreto de sódio 0,9% com técnica asséptica;
+Para quem tem o tumor com a mudança específica (a mutação KRAS G12C) e vai usar junto com o remédio sotorasibe, a dose também é de 6 mg por quilo, a cada 2 semanas, na veia (por via intravenosa - IV).
 
-- não sacudir o frasco;
+Você deve tomar a primeira dose do remédio sotorasibe antes de receber a primeira aplicação na veia do Vectibix.
 
-- usar filtro apropriado;
+Se você parar o tratamento com o sotorasibe, deve parar também o tratamento com o Vectibix.
 
-- não aplicar se a aparência estiver fora do esperado.
+As regras de preparo que devem ser seguidas pelo profissional de saúde são:
 
-7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+- cada frasco do Vectibix é usado uma única vez;
 
-Se você perder uma dose, fale com seu médico para remarcar.
+- a mistura do remédio deve ser feita em soro (cloreto de sódio 0,9%) com técnicas totalmente limpas e sem micróbios (técnica asséptica);
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+- o profissional de saúde NÃO deve sacudir o frasco do Vectibix;
 
-Vectibix pode causar efeitos colaterais. Nem todos terão.
+- o profissional de saúde fará a aplicação com filtro de linha adequado;
 
-Muito comuns (mais de 1 em 10)
+- o profissional de saúde NÃO DEVE aplicar o Vectibix se a cor ou a aparência do líquido estiverem diferentes do esperado.
 
-- potássio baixo (hipocalemia), magnésio baixo (hipomagnesemia);
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
+
+Se você perder ou esquecer o dia de uma dose, entre em contato com o profissional de saúde o mais rápido possível para remarcar.
+
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
+
+O Vectibix pode causar efeitos indesejados (efeitos colaterais). Nem todas as pessoas têm esses efeitos.
+
+Reações muito comuns (acontecem em mais de 10% das pessoas - mais de 1 pessoa a cada 10):
+
+- potássio baixo (hipocalemia), magnésio baixo (hipomagnesemia) no sangue;
 
 - inflamação nos olhos (conjuntivite);
 
-- infecção ao redor das unhas (paroníquia);
+- infecção e dor na pele ao redor das unhas (paroníquia);
 
-- formigamento (parestesia);
+- formigamento no corpo (parestesia);
 
-- erupção na pele, coceira, vermelhidão, pele escamosa;
+- bolinhas, manchas, coceira, vermelhidão ou pele soltando pedacinhos (pele escamosa);
 
 - queda de cabelo;
 
-- feridas/bolhas na boca (estomatite, inflamação da mucosa);
+- feridas ou bolhas na boca e na garganta (estomatite ou inflamação da mucosa);
 
-- diarreia, enjoo, vômito, dor abdominal, prisão de ventre;
+- diarreia, enjoo, vômito, dor na barriga e intestino preso/prisão de ventre;
 
-- perda de apetite, perda de peso;
+- perder o apetite/perder a fome, perda de peso;
 
-- cansaço extremo (fadiga), febre, fraqueza (astenia), inchaço nas pernas/braços (edema);
+- cansaço muito forte (fadiga), febre, fraqueza no corpo (astenia) e inchaço nas pernas ou nos braços (edema);
 
 - dor nas costas;
 
-- insônia;
+- dificuldade para dormir (insônia);
 
 - tosse e falta de ar.
 
-Comuns (até 1 em 10)
+Reações comuns (acontecem em até 1 a cada 10 pessoas):
 
-- glóbulos brancos baixos (leucopenia);
+- células brancas baixas (leucopenia);
 
-- cálcio baixo (hipocalcemia), fosfato baixo (hipofosfatemia), açúcar alto (hiperglicemia);
+- quantidade baixa de cálcio (hipocalcemia), quantidade baixa de fosfato (hipofosfatemia) ou açúcar alto no sangue (hiperglicemia);
 
-- olhos secos, coceira/irritação nos olhos, inflamação das pálpebras;
+- olhos secos, coceira ou irritação nos olhos e inflamação nas pálpebras;
 
-- celulite (infecção na pele), foliculite, infecções, infecção urinária;
+- infecção nas camadas mais fundas da pele (celulite), infecção nos locais onde nascem os pelos (foliculite) e infecção na urina;
 
-- problemas nas unhas (quebras/rachaduras);
+- unhas fracas que quebram ou racham fácil;
 
-- desidratação;
+- falta de água no corpo (desidratação);
 
-- boca seca, má digestão, sangramento retal, lábios inflamados, refluxo/azia;
+- boca seca, sensação de estômago cheio ou má digestão, sangramento na parte final do intestino, lábios inchados ou rachados e azia ou refluxo;
 
-- coágulo no pulmão (embolia pulmonar) ou coágulo em veia profunda (trombose venosa profunda);
+- entupimento do pulmão (embolia pulmonar) ou entupimento de uma veia profunda das pernas (trombose venosa profunda);
 
-- sangramento nasal;
+- sangramento no nariz;
 
-vdor de cabeça, tontura, ansiedade.
+- dor de cabeça, tontura e ansiedade.
 
-Incomuns (até 1 em 100)
+Reações incomuns (acontecem em até 1 a cada 100 pessoas):
 
-- morte de parte da pele (necrose);
+- morte de pedaços da pele (necrose);
 
-- reações graves na pele: síndrome de Stevens-Johnson e necrólise epidérmica tóxica;
+- reações com feridas graves espalhadas pela pele e pela boca que podem colocar a vida em risco (síndrome de Stevens-Johnson e necrólise epidérmica tóxica);
 
-- inflamação/ferida grave na córnea (ceratite / ceratite ulcerativa) com necessidade de atendimento urgente;
+- inflamação ou ferida grave na parte transparente do olho (ceratite ou ceratite ulcerativa) com necessidade de ir ao médico na mesma hora;
 
-- inflamação nos pulmões (doença intersticial pulmonar);
+- inflamação nos pulmões que causa falta de ar e tosse seca (doença intersticial pulmonar);
 
-- inchaço alérgico (angioedema);
+- inchaço rápido em partes do corpo por causa de alergia (angioedema);
 
-- reações no local da infusão (vermelhidão, dor, inchaço, coceira, infecção).
+- problemas no lugar onde a agulha entrou na veia, como vermelhidão, dor, inchaço, coceira ou infecção.
 
-Quando usado com sotorasibe Muito comuns:
+Reações muito comuns quando o Vectibix é usado junto com o remédio sotorasibe:
 
-- erupção tipo acne, pele seca, coceira;
+- bolinhas parecidas com espinhas (erupção tipo acne), pele muito seca e coceira;
 
 - problemas nas unhas e rachaduras na pele;
 
-- reação mão-pé (vermelhidão/dor/bolhas nas palmas e solas);
+- vermelhidão, dor e bolhas nas palmas das mãos e nas solas dos pés (reação mão-pé);
 
-- diarreia, enjoo, vômitos, dor no estômago;
+- diarreia, enjoo, vômitos e dor no estômago;
 
 - feridas na boca;
 
 - cansaço, dor de cabeça;
 
-- pouco apetite;
+- falta de vontade de comer;
 
-- magnésio baixo e potássio baixo.
+- magnésio baixo e potássio baixo no sangue.
 
-Comuns:
+Reações comuns quando o Vectibix é usado junto com o remédio sotorasibe:
 
-- aumento de enzimas do fígado;
+- aumento de substâncias do fígado nos exames de sangue (aumento de enzimas do fígado);
 
-- cálcio baixo;
+- cálcio baixo no sangue (hipocalcemia);
 
-- conjuntivite;
+- inflamação nos olhos (conjuntivite);
 
-- ceratite/ceratite ulcerativa.
+- inflamação ou ferida grave na parte transparente do olho (ceratite ou ceratite ulcerativa).
 
-Se você tiver efeitos colaterais, avise o profissional de saúde.
+Avise o profissional de saúde se você tiver efeitos indesejados.
 
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-Em estudos, foram testadas doses até 9 mg/kg. Houve relatos de superdose até cerca de 12 mg/kg (aprox. 2 vezes a dose usual).
+Em testes feitos por cientistas, foram aplicadas doses maiores do que o normal e algumas pessoas receberam por engano cerca de 2 vezes a dose recomendada de Vectibix.
+Os principais problemas que aconteceram por doses muito altas do remédio foram reações na pele, diarreia, falta de água no corpo (desidratação) e cansaço intenso.
 
-Os principais problemas foram:
-
-- reações na pele,
-
-- diarreia,
-
-- desidratação,
-
-- cansaço intenso.
-
-Em caso de suspeita de superdose, procure atendimento médico.
+VOCÊ DEVE PROCURAR ATENDIMENTO MÉDICO IMEDIATAMENTE SE SUSPEITAR QUE RECEBEU UMA QUANTIDADE MAIOR DO QUE A RECOMENDADA DE VECTIBIX.

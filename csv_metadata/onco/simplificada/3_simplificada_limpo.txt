@@ -17,199 +17,209 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. Para que este medicamento é indicado?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-O ácido zoledrônico é usado para:
+O Ácido zoledrônico, aplicado na veia:
 
-- Tratar metástase óssea (quando o câncer atinge os ossos).
+- trata o câncer que se espalha para os ossos (metástases ósseas);
 
-- Reduzir o excesso de cálcio no sangue causado pelo tumor (hipercalcemia induzida por tumor – HIT).
+- diminui a quantidade muito alta de cálcio no sangue causado pelo tumor (hipercalcemia induzida por tumor – HIT).
 
-Também ajuda a prevenir problemas nos ossos em pessoas com câncer que se espalhou para os ossos, como:
+O Ácido zoledrônico também ajuda a prevenir problemas nos ossos em pessoas com câncer que se espalhou para os ossos, como:
 
-- Fraturas (quebras dos ossos).
+- quebras dos ossos (fraturas);
 
-- Compressão da medula espinhal.
+- pressão da parte do sistema nervoso que fica dentro da coluna, a medula espinhal;
 
-- Necessidade de radioterapia.
+- necessidade de radioterapia;
 
-- Necessidade de cirurgia ortopédica.
+- necessidade de cirurgia nos ossos;
 
-- Hipercalcemia causada pelo tumor.
+- quantidade muito alta de cálcio no sangue (hipercalcemia) causada pelo tumor.
 
-2. Como este medicamento funciona?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-O ácido zoledrônico pertence ao grupo dos bisfosfonatos, medicamentos que agem diretamente nos ossos. Ele diminui a destruição óssea (perda de massa óssea) ao reduzir a atividade das células que “quebram” o osso (osteoclastos).
+O Ácido zoledrônico é um remédio do grupo dos bisfosfonatos, que agem direto nos ossos. Ele diminui a perda de osso (de massa óssea) fazendo com que as células que “quebram” o osso (osteoclastos) trabalhem menos.
 
-Esse medicamento também pode ter efeito contra o tumor, ajudando no controle da doença nos ossos.
+Este remédio também pode ter efeito contra o tumor e ajudar a controlar a doença nos ossos.
 
-3. Quando não devo usar este medicamento?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não use ácido zoledrônico se:
+Não use o Ácido zoledrônico se:
 
-- Você for alérgico ao ácido zoledrônico, a outros bisfosfonatos ou a qualquer componente da fórmula.
+- você for alérgico ao Ácido zoledrônico, a outros bisfosfonatos ou a algum ingrediente do remédio;
 
-- Você estiver grávida.
+- você estiver grávida;
 
-- Você estiver amamentando.
+- você estiver amamentando;
 
-- O paciente for criança.
+- a pessoa que vai receber o remédio for uma criança.
 
-4. O que devo saber antes de usar este medicamento?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Gravidez: Não use este medicamento durante a gravidez. Avise o médico se estiver grávida ou suspeitar de gravidez.
+Gravidez: NÃO USE este remédio durante a gravidez. Avise o médico se estiver grávida ou suspeitar que está grávida.
 
-Amamentação: Não use durante a amamentação. Não se sabe se o medicamento passa para o leite materno.
+Amamentação: NÃO USE durante a amamentação. Não se sabe se o remédio passa para o leite do peito.
 
-Idosos: Idosos podem usar o medicamento. Não são necessárias precauções extras apenas por causa da idade.
+Pessoas idosas: pessoas idosas podem usar o remédio. Elas não precisam de cuidados a mais apenas por causa da idade.
 
-Dirigir ou operar máquinas: Não há estudos específicos. Tenha cuidado ao dirigir ou operar máquinas.
+Dirigir ou usar máquinas: não foram feitos estudos sobre isso. Tenha cuidado ao dirigir ou usar máquinas.
 
-Precauções importantes: Antes de iniciar o tratamento, informe ao médico se você:
+ATENÇÃO
+Antes de começar o tratamento, diga ao médico se você:
 
-- Usa outro medicamento com ácido zoledrônico.
+- usa outro remédio junto com o Ácido zoledrônico;
 
-- Usa qualquer outro medicamento.
+- usa qualquer outro remédio;
 
-- Tem ou já teve problemas nos rins.
+- tem ou já teve problemas nos rins;
 
-- Tem ou já teve problemas no fígado.
+- tem ou já teve problemas no fígado;
 
-- Tem ou já teve problemas no coração.
+- tem ou já teve problemas no coração.
 
-Mantenha boa higiene bucal e faça acompanhamento com dentista regularmente. Informe ao dentista que você usa ácido zoledrônico. Evite procedimentos dentários invasivos (como extrações), se possível.
+Mantenha a boca sempre limpa e vá ao dentista com frequência. Diga ao dentista que você usa o Ácido zoledrônico. Durante o tratamento, é melhor não fazer cirurgias nem tratamentos nos dentes que machuquem a gengiva (procedimentos dentários invasivos).
 
-Beba líquidos suficientes antes da aplicação para evitar desidratação.
+Beba líquidos antes da aplicação do Ácido zoledrônico para evitar desidratação.
 
-Interações medicamentosas: Informe ao médico todos os medicamentos que você usa. Avise especialmente se você usa:
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
+Diga ao médico todos os remédios que você usa.
+É muito importante avisar se você usa:
 
-- Aminoglicosídeos (antibióticos para infecções graves), pois podem reduzir muito o cálcio no sangue.
+- antibióticos para infecções graves como os aminoglicosídeos, pois podem diminuir muito o cálcio no sangue;
 
-- Medicamentos antiangiogênicos (usados no tratamento do câncer), pois podem aumentar o risco de dano ósseo na mandíbula (osteonecrose).
+- remédios usados no tratamento do câncer (como os antiangiogênicos), pois podem aumentar o risco de problemas nos ossos do queixo/mandíbula, como a osteonecrose.
 
-Não use medicamento sem orientação médica.
+NUNCA use remédios sem orientação médica.
 
-5. Como guardar este medicamento?
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Guarde em temperatura ambiente (entre 15°C e 30°C). Proteja da luz. Mantenha na embalagem original. Validade: 24 meses após a fabricação.
+Guarde em temperatura ambiente, entre 15 °C e 30 °C. Proteja da luz. Mantenha na embalagem original.
+Validade: 24 meses (2 anos) após a data de fabricação.
 
-Após o preparo:
+Depois de preparar o remédio, o profissional de saúde deve:
 
-- Manter refrigerado entre 2°C e 8°C por no máximo 24 horas.
+- guardar na geladeira (entre 2 °C e 8 °C) por no máximo 24 horas (1 dia);
 
-- Antes da aplicação, deixar atingir temperatura ambiente.
+- antes de aplicar, deixar o remédio voltar à temperatura normal do ambiente;
 
-- Descartar qualquer sobra.
+- jogar fora tudo que sobrar do remédio.
 
-Aspecto esperado:
+Aparência do remédio:
 
-- Antes do preparo: pó branco.
+- antes de preparar: pó branco;
 
-- Após preparo e diluição: solução transparente e sem partículas visíveis.
+- depois de preparar e misturar: líquido transparente e sem nada do pó visível.
 
-Não use se estiver vencido ou com aparência alterada. Mantenha fora do alcance das crianças.
+Não use se o prazo de validade estiver vencido ou se estiver com aparência diferente do normal.
+Mantenha fora do alcance de crianças.
 
-6. Como devo usar este medicamento?
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-Apenas profissionais de saúde podem preparar e aplicar o medicamento, em hospital ou clínica adequada.  A aplicação é feita por infusão intravenosa (na veia) e dura pelo menos 15 minutos.
+Apenas profissionais de saúde podem preparar e aplicar o remédio, em hospitais ou clínicas com a estrutura necessária. A aplicação é feita na veia (por injeção/infusão intravenosa) e dura pelo menos 15 minutos.
 
-Preparo: Reconstituir com 5 mL de água para injeção. Depois diluir em 100 mL de soro fisiológico 0,9% ou glicose 5%.
+Preparo:
+- misturar o pó com 5 mL de água para injeção;
+- depois, misturar esse líquido em 100 mL de soro comum (soro fisiológico 0,9%) ou soro com açúcar (com 5% de glicose);
 
-Não misturar com soluções que contenham cálcio.
+- NÃO misturar com líquidos que tenham cálcio.
 
-Dose recomendada Para prevenção de complicações ósseas em câncer com metástase óssea:
+Para prevenir problemas nos ossos em pessoas com câncer que se espalhou pelo corpo (metástase óssea):
 
-- 4 mg por infusão. Repetir a cada 3 a 4 semanas. Recomenda-se uso diário de Cálcio 500 mg e Vitamina D 400 UI.
+- 4 mg por aplicação na veia (por infusão). Repetir a cada 3 a 4 semanas. O ideal é tomar cálcio (500 mg) e vitamina D (400 UI) todos os dias.
 
-Para hipercalcemia induzida por tumor (HIT):
+Para cálcio alto no sangue (hipercalcemia) causado pelo tumor (HIT):
 
-- 4 mg por infusão.
+- 4 mg por aplicação na veia (por infusão).
 
-O médico define a frequência das aplicações. Não interrompa o tratamento sem falar com o médico.
+O médico vai definir a frequência das aplicações.
+NUNCA pare o tratamento sem falar com o médico.
 
-7. O que fazer se esquecer uma dose?
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-O uso é hospitalar. Em caso de dúvida, fale com o médico ou farmacêutico.
+Este remédio é usado apenas em hospitais e clínicas especializadas.
+Se tiver dúvidas, fale com o médico ou farmacêutico.
 
-8. Quais os males que este medicamento pode causar?
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-Avise o médico imediatamente se notar:
+Avise o médico IMEDIATAMENTE se você tiver:
 
-- Febre.
+- febre;
 
-- Sintomas parecidos com gripe (cansaço, dor no corpo, calafrios).
+- sintomas parecidos com gripe (cansaço, dor no corpo, calafrios);
 
-- Dor forte nos ossos, músculos ou articulações.
+- dor forte nos ossos, nos músculos ou nas juntas (articulações).
 
 Esses sintomas costumam melhorar em poucas horas ou dias.
 
-Reações importantes:
+Reações sérias:
 
-- Osteonecrose da mandíbula (lesão no osso da mandíbula): dor na boca, feridas, inchaço, dormência ou dente mole.
+- morte do osso do queixo/mandíbula (osteonecrose): dor na boca, feridas, inchaço, perda de sensibilidade (dormência) ou dente mole;
 
-- Problemas nos rins.
+- problemas nos rins;
 
-- Níveis muito baixos de cálcio no sangue.
+- quantidade muito baixa de cálcio no sangue;
 
-- Reações alérgicas.
+- reações alérgicas graves;
 
-- Ritmo cardíaco irregular (fibrilação atrial).
+- batimentos do coração muito rápidos, fora do ritmo e perigosos (fibrilação atrial);
 
-- Fratura incomum do fêmur (principalmente em uso prolongado).
+- quebra rara no osso da coxa (fêmur), mais comum se o remédio for usado por muito tempo.
 
 Reações mais comuns:
 
-- Anemia.
+- anemia;
 
-- Dor de cabeça.
+- dor de cabeça;
 
-- Náusea e vômito.
+- enjoo e vômito;
 
-- Perda de apetite.
+- perder o apetite/perder a fome;
 
-- Dor óssea, muscular ou nas articulações.
+- dor nos ossos, nos músculos ou nas juntas (articulações);
 
-- Febre.
+- febre;
 
-- Aumento da creatinina (alteração nos rins).
+- aumento da quantidade de creatinina no sangue (problema nos rins);
 
-- Baixo nível de cálcio ou fósforo no sangue.
+- quantidade baixa de cálcio ou fósforo no sangue.
 
 Outras reações podem incluir:
 
-- Tontura.
+- tontura;
 
-- Diarreia ou constipação.
+- diarreia ou prisão de ventre;
 
-- Falta de ar.
+- falta de ar;
 
-- Pressão alta ou baixa.
+- pressão alta ou baixa;
 
-- Erupções na pele.
+- feridas na pele;
 
-- Alterações nos exames de sangue.
+- mudanças nos resultados dos exames de sangue;
 
-- Problemas renais.
+- problemas nos rins.
 
-O médico fará exames para acompanhar os níveis de cálcio, fósforo, magnésio e potássio. Informe qualquer reação indesejada ao médico.
+O médico vai pedir exames para ver a quantidade de cálcio, fósforo, magnésio e potássio no seu sangue.
+Avise o médico se você tiver qualquer reação indesejada.
 
-9. O que fazer em caso de dose maior que a indicada?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-Se você receber dose maior que a recomendada:
+Se você receber uma dose maior que a receitada:
 
-- O médico deverá monitorar você.
+- o médico vai monitorar você;
 
-- Pode ocorrer problema nos rins.
+- você pode ter problemas nos rins;
 
-- Pode haver alteração nos níveis de cálcio, fósforo e magnésio.
+- você pode ter mudanças na quantidade de cálcio, fósforo e magnésio no sangue;
 
-- Pode ser necessário aplicar cálcio pela veia.
+- você pode ter que tomar cálcio pela veia.
 
-Se tiver dúvidas, procure seu médico, farmacêutico ou dentista.
+Se tiver dúvidas, procure um profissional de saúde.
 </text>

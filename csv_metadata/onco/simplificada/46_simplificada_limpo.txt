@@ -17,195 +17,272 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-A temozolomida é indicada para tratar:
+A Temozolomida é tomada em cápsulas, pela boca. Ela trata:
 
-- Glioblastoma multiforme (um tipo de tumor cerebral) recém-diagnosticado, junto com radioterapia, e depois com temozolomida sozinha (monoterapia).
+- um tipo de tumor no cérebro chamado “glioblastoma multiforme” que tenha sido descoberto há pouco tempo. O tratamento é feito primeiro com radioterapia e depois apenas com a Temozolomida;
 
-- Tumores cerebrais como glioma maligno, glioblastoma multiforme ou astrocitoma anaplásico, quando o tumor volta (recidiva) ou piora (progressão) após o tratamento padrão.
+- tumores no cérebro que se espalham rápido (como “gliomas”, “glioblastomas” ou “astrocitomas”) e que voltaram ou pioraram após o primeiro tratamento;
 
-- Melanoma maligno metastático (câncer de pele que se espalhou para outras partes do corpo).
+- um tipo de câncer de pele chamado “melanoma maligno metastático” que já se espalhou para outras partes do corpo.
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-A temozolomida é um medicamento contra tumores. Ela começa a agir logo após as primeiras doses.
+A Temozolomida é um remédio contra tumores. Ela começa a fazer efeito logo depois das primeiras doses.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não use temozolomida se:
+NÃO use Temozolomida se:
 
-- você já teve alergia a qualquer componente da fórmula;
+- você tem ou já teve alergia a algum ingrediente da cápsula;
 
-- você já teve alergia à dacarbazina.
+- você tem ou já teve alergia ao remédio chamado “dacarbazina”.
 
-Não use temozolomida se você estiver:
+NÃO use Temozolomida se você estiver:
 
 - grávida;
 
 - amamentando.
 
-Este medicamento não deve ser usado por mulheres grávidas sem orientação médica.
+Este remédio NÃO deve ser usado por pessoas grávidas sem orientação médica.
 
-Avise o médico imediatamente se houver suspeita de gravidez.
+Avise o médico IMEDIATAMENTE se achar que pode estar grávida.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Advertências e precauções: Se você usar temozolomida por 42 dias junto com radioterapia, o médico deve prescrever um medicamento para prevenir pneumonia por Pneumocystis carinii (PCP) (um tipo de pneumonia). O risco pode ser maior em tratamentos prolongados. Mesmo assim, o médico deve acompanhar todos os pacientes, especialmente quem usa corticosteroides (remédios “corticoides”). O médico deve acompanhar você de perto se você tiver:
+CUIDADOS
 
-- anemia,
+Se você tomar Temozolomida por 42 dias e também fizer radioterapia, o médico vai receitar um remédio para prevenir um tipo de infecção grave no pulmão chamado “pneumonia por Pneumocystis carinii” (PCP).
 
-- poucas células brancas (defesa do sangue),
+O risco de ter essa pneumonia é maior quando o tratamento é longo.
 
-- poucas plaquetas (ajudam na coagulação),
+Mesmo assim, o médico vai monitorar todas as pessoas, especialmente quem usa remédios para inflamação ou alergia (os remédios do tipo “corticoides”).
 
-- problemas de coagulação,
+O médico vai acompanhar a sua saúde com mais atenção se você tiver, antes ou durante o tratamento:
 
-- antes ou durante o tratamento.
+- diminuição na quantidade de células vermelhas no sangue (anemia);
 
-Você fará exames de sangue frequentes. Se necessário, o médico pode reduzir a dose, interromper ou suspender a temozolomida e indicar outro tratamento.
+- poucas células brancas no sangue (defesa do sangue);
 
-Alguns pacientes podem ter mielossupressão (queda da produção de células do sangue), incluindo pancitopenia prolongada (queda de vários tipos de células do sangue). Isso pode causar anemia aplástica (anemia muito grave) e, em alguns casos, pode ser fatal.
+- poucas células que ajudam a parar sangramentos (plaquetas);
 
-Informe ao médico todos os medicamentos que você usa, porque eles podem dificultar a avaliação desse problema.
+- sangue “fino” e que não cicatriza bem (problemas de coagulação).
 
-Enjoos e vômitos são comuns. Se você usar temozolomida com radioterapia, o médico costuma prescrever remédio contra vômitos antes da primeira dose. Na fase de temozolomida sozinha, o médico também pode prescrever remédio contra vômitos. Se você usar apenas temozolomida e tiver vômitos graves, o médico pode prescrever remédio para controlar. Se você vomitar com frequência, pergunte ao médico como controlar e qual o melhor horário para tomar temozolomida. Se você vomitar depois de tomar a dose do dia, não tome uma segunda dose no mesmo dia.
+Você vai fazer exames de sangue muitas vezes. Se precisar, o médico vai diminuir a dose que você toma, pausar o tratamento ou até mesmo parar o tratamento.
 
-Se você tiver febre ou sinais de infecção, fale com o médico imediatamente.
+Algumas pessoas que tomam Temozolomida podem ter uma diminuição forte e demorada de vários tipos de células do sangue (mielossupressão e pancitopenia). Isso pode causar um tipo de anemia muito grave (anemia aplástica) e, em alguns casos, pode MATAR.
 
-Não abra as cápsulas. Se uma cápsula quebrar:
+Diga ao médico todos os remédios que você usa, porque eles podem esconder os sinais desse problema.
 
-- evite contato do pó com pele, olhos ou nariz;
+É comum sentir enjoos e vomitar.
+Se você faz tratamento com Temozolomida e radioterapia ao mesmo tempo, o médico vai receitar remédios contra vômitos antes da primeira dose de Temozolomida.
+Se você tomar só Temozolomida, o médico também poderá receitar remédios contra vômitos.
+Se você tomar apenas Temozolomida e tiver vômitos muito fortes, o médico vai prescrever remédios para controlar esse problema.
+Se você vomita com frequência, pergunte ao médico qual é a melhor forma de controlar os vômitos e o melhor horário para tomar a dose.
+Se você vomitar depois de tomar a dose de Temozolomida, NÃO tome outra no mesmo dia.
+
+Se você tiver febre ou sinais de infecção, avise o médico IMEDIATAMENTE.
+
+NÃO abra as cápsulas.
+
+Se uma cápsula se abrir:
+
+- não deixe o pó encostar na pele, nos olhos ou no nariz;
 
 - não respire o pó;
 
-- se o pó atingir olhos ou nariz, lave a área com água.
+- se o pó cair nos olhos ou no nariz, lave com bastante água.
 
-Não há experiência com temozolomida em crianças com menos de 3 anos.
+A Temozolomida não foi testada com crianças com menos de 3 anos.
 
-Idosos: se você tem mais de 70 anos, você pode ter maior risco de alterações no sangue, com mais chance de infecções, manchas roxas e sangramentos.
+Pessoas idosas: se você tem mais de 70 anos, você pode ter maior risco de ter problemas no sangue, infecções, manchas roxas e sangramentos pelo corpo.
 
-Problemas no fígado ou nos rins: se você tem problemas no fígado ou nos rins, o médico pode precisar ajustar a dose e acompanhar com exames.
+Problemas no fígado ou nos rins: se você tem problemas no fígado ou nos rins, o médico talvez precise ajustar a dose e pedir que você faça mais exames.
 
-Gravidez e amamentação: Não use temozolomida se estiver grávida. Não use temozolomida se estiver amamentando ou doando leite humano. A temozolomida passa para o leite e pode causar reações indesejáveis no bebê. O médico deve orientar alternativas para o tratamento ou para a alimentação do bebê.
+Gravidez e amamentação: NÃO use Temozolomida se você estiver grávida. NÃO use Temozolomida se estiver amamentando ou doando leite do peito. A Temozolomida passa para o leite do peito e pode fazer mal ao bebê. Converse com o médico sobre outras formas de tratamento e de alimentar o bebê.
 
-Anticoncepção e fertilidade: Homens e mulheres em uso de temozolomida devem usar métodos contraceptivos eficientes. Mulheres que podem engravidar devem usar contracepção durante o tratamento e por pelo menos 6 meses após a dose final. Homens: recomenda-se não tentar ter filhos por até 3 meses após parar o tratamento. Homens não devem doar sêmen durante o tratamento e por pelo menos 3 meses após a dose final. Como pode haver risco de infertilidade, homens que desejam ter filhos devem considerar armazenar esperma antes de iniciar o tratamento.
+Gravidez e possibilidade de ter filhos
 
-Dirigir veículos e operar máquinas: A temozolomida pode causar cansaço e sonolência. Se isso acontecer, não dirija e não opere máquinas.
+Homens e mulheres devem usar métodos para não engravidar (métodos anticoncepcionais).
+Pessoas que podem engravidar devem evitar a gravidez durante o tratamento e por no mínimo 6 meses após a última dose.
+Homens NÃO devem tentar ter filhos por até 3 meses depois que pararem de tomar Temozolomida.
+Homens NÃO devem doar esperma (sêmen) durante o tratamento e por pelo menos 3 meses após a última dose.
+Como a Temozolomida pode causar problemas para ter filhos (infertilidade) depois do tratamento, homens que querem ter filhos devem guardar esperma ANTES de começar o tratamento.
 
-Lactose e intolerâncias: Cada cápsula contém uma pequena quantidade de lactose. Se você tem intolerância, fale com o médico. Este medicamento não deve ser usado por pessoas com síndrome de má-absorção de glicose-galactose.
+Dirigir veículos e usar máquinas: a Temozolomida pode dar cansaço e sono. Se isso acontecer, NÃO dirija e NÃO use máquinas.
 
-Atenção: contém lactose abaixo de 0,25 g/cápsula dura (para as apresentações citadas).
+Lactose e intolerâncias: ATENÇÃO: cada cápsula tem uma pequena quantidade de lactose, que é um açúcar natural do leite. Se você tem intolerância à lactose, fale com o médico. Pessoas com problemas para absorver açúcares (má-absorção de glicose-galactose) não devem usar este remédio.
 
-Algumas apresentações contêm corantes (ex.: dióxido de titânio, azul brilhante, amarelo de tartrazina, eritrosina, vermelho allura). O amarelo de tartrazina pode causar reações alérgicas, como asma, especialmente em pessoas alérgicas ao ácido acetilsalicílico (AAS).
+ATENÇÃO: a quantidade de lactose em cada cápsula é menor que 0,25 g (em todos os tipos de cápsulas).
 
-Interações e alimentos:
+Algumas versões deste remédio contêm corantes. O corante amarelo de tartrazina pode causar reações alérgicas, como asma, especialmente em pessoas alérgicas ao ácido acetilsalicílico (AAS).
 
-A temozolomida deve ser tomada em jejum. Tomar 1 hora antes da refeição pode reduzir enjoos.
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-Informe ao médico ou cirurgião-dentista se você usa outros medicamentos. Não use medicamento sem orientação médica. A temozolomida pode causar danos ao fígado. Por isso, você precisa de acompanhamento médico rigoroso e exames laboratoriais periódicos.
+Tome a Temozolomida com o estômago vazio.
+Tomar 1 hora antes de comer ajuda a diminuir os enjoos.
 
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+Diga ao médico ou ao dentista os outros remédios que você usa. NUNCA use remédios sem orientação médica.
 
-Guarde em temperatura ambiente (15°C a 30°C). Proteja da umidade.
+A Temozolomida pode causar problemas no fígado. Por isso, você vai precisar fazer consultas e exames de tempos em tempos para o médico acompanhar a sua saúde.
 
-Verifique lote, fabricação e validade na embalagem. Não use medicamento vencido. Guarde na embalagem original.
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Antes de usar, observe o aspecto. Se houver mudança, fale com o farmacêutico. Mantenha fora do alcance das crianças.
+Guarde em temperatura ambiente (de 15 °C a 30 °C).
+Proteja da umidade.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+Veja as informações de fabricação e a data de validade na embalagem.
+Não use com o prazo de validade vencido.
+Guarde na embalagem original.
 
-Tome as cápsulas inteiras, com um copo de água. Não abra e não mastigue. Tome com o estômago vazio, de preferência 1 hora antes do café da manhã. Tome temozolomida 1 vez ao dia.
+Olhe bem as cápsulas ANTES de tomar.
+Se as cápsulas estiverem com aparência diferente do normal, fale com o farmacêutico.
 
-Dose e fases do tratamento (quando usada com radioterapia). Tratamento em 2 fases:
+Mantenha fora do alcance de crianças.
 
-1) Fase concomitante (junto com radioterapia):
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-Dose inicial: 75 mg/m², 1 vez ao dia.
+Tome as cápsulas inteiras pela boca, com um copo de água.
+NÃO abra e NÃO mastigue as cápsulas.
+Tome com o estômago vazio, de preferência 1 hora antes do café da manhã. Tome a Temozolomida 1 vez por dia.
 
-Duração: 42 dias (até 49 dias) junto com radioterapia.
+Dose e fases do tratamento (quando usada com radioterapia)
 
-O médico pode adiar ou parar a temozolomida conforme exames de sangue e tolerância.
+Tratamento em 2 fases:
+
+1) Fase de tratamento junto com a radioterapia:
+
+Dose inicial: a dose no começo é de 75 mg/m², 1 vez por dia.
+A dose diária vai depender do seu peso e da sua altura.
+Duração: você vai tomar essa dose por 42 dias (em até 49 dias) enquanto fizer a radioterapia.
+
+O médico pode diminuir a dose que você toma, pausar o tratamento ou até mesmo parar de vez a Temozolomida, dependendo dos seus exames de sangue e de como seu corpo reagir.
 
 Depois da radioterapia, você faz uma pausa de 4 semanas.
 
-2) Fase de monoterapia (temozolomida sozinha):
+2) Fase de tratamento apenas com a Temozolomida
 
-Pode haver até 6 ciclos. Cada ciclo dura 28 dias.
+O tratamento pode ter até 6 ciclos, e cada um dura 28 dias.
+A dose inicial é de 150 mg/m², 1 vez por dia, por 5 dias.
+Depois desses 5 dias, você fica 23 dias sem tomar a Temozolomida.
 
-Dose inicial: 150 mg/m², 1 vez ao dia, por 5 dias (“dias de dose”), seguida por 23 dias sem temozolomida. Antes de cada novo ciclo, você fará exame de sangue para decidir se precisa ajustar a dose.
+Antes de começar cada novo ciclo de tratamento, você vai fazer exames de sangue para saber se precisa ajustar a dose.
 
-Se você estiver usando temozolomida sozinha (tumor recorrente/em progressão):
+Tratamento apenas com Temozolomida se o seu câncer tiver voltado ou piorado
 
-- Se você não fez quimioterapia antes: primeira dose pode ser 200 mg/m², 1 vez ao dia, por 5 dias, seguida por 23 dias sem temozolomida.
+- Se você nunca fez quimioterapia antes: você pode começar com a dose de 200 mg/m², 1 vez por dia, por 5 dias.
+Depois desses 5 dias, você fica 23 dias sem tomar a Temozolomida.
 
-- Se você já fez quimioterapia: primeira dose pode ser 150 mg/m², 1 vez ao dia, por 5 dias, seguida por 23 dias sem temozolomida. A partir do 2º ciclo, a dose pode aumentar para 200 mg/m², dependendo dos exames.
+- Se você já fez quimioterapia antes: você pode começar com a dose de 150 mg/m², 1 vez por dia, por 5 dias.
+Depois desses 5 dias, você fica 23 dias sem tomar a Temozolomida.
+A partir do 2º ciclo, a dose pode subir para 200 mg/m², dependendo dos exames.
 
-Atenção para não errar. A temozolomida existe em cápsulas de várias dosagens. Você pode precisar tomar mais de um tipo de cápsula em cada “dia de dose”.
+PRESTE ATENÇÃO para não errar a dose.
 
-Confirme quais cápsulas e quantas cápsulas tomar (peça para o médico/farmacêutico escrever). Confirme quais são os “dias de dose”. Confira a dose a cada ciclo, porque pode mudar.
+A Temozolomida vem em cápsulas de cores e tamanhos diferentes (com várias quantidades diferentes do remédio em miligramas).
 
-Se você tiver dúvida, peça orientação antes de iniciar o ciclo. Erros podem trazer consequências graves.
+Talvez você precise tomar mais de um tipo de cápsula em cada dia de tratamento.
 
-Siga a orientação do médico. Não interrompa o tratamento por conta própria.
+Você precisa saber exatamente a quantidade e a cor das cápsulas que você vai tomar (peça para o médico/farmacêutico escrever).
 
-Este medicamento não deve ser partido, aberto ou mastigado.
+Confirme quais são os dias de tratamento (os 5 dias em que você toma a Temozolomida).
+Confira a dose que você vai tomar em cada novo ciclo, porque a dose pode mudar.
 
-7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+Se você tiver dúvida, peça orientação ANTES de começar o ciclo.
 
-Tome as cápsulas assim que lembrar. Se passou um dia inteiro, fale com o médico. Não tome dose em dobro no mesmo dia, a menos que o médico tenha orientado.
+Erros no uso da Temozolomida podem ter consequências GRAVES.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+Siga as orientações do médico.
 
-A temozolomida pode causar efeitos indesejáveis. Nem todas as pessoas apresentam.
+NUNCA pare o tratamento por conta própria.
 
-Procure o médico imediatamente se você tiver:
+NÃO parta, NÃO abra e NÃO mastigue as cápsulas.
 
-- alergia intensa (urticária, chiado no peito/asma, dificuldade para respirar),
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-- sangramento que não para,
+Se você esquecer uma cápsula, tome assim que lembrar.
+Se já passou um dia inteiro, fale com o médico.
+Não tome uma dose em dobro no mesmo dia, a não ser que o médico oriente.
 
-- convulsões,
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-- febre,
+A Temozolomida pode causar efeitos indesejados.
 
-- dor de cabeça intensa e persistente.
+Nem todas as pessoas sentem esses efeitos.
 
-- Queda das células do sangue (efeito importante) A temozolomida pode reduzir células do sangue e causar:
+Procure o médico IMEDIATAMENTE se você tiver:
 
-- manchas roxas, sangramentos,
+- alergia forte (urticária, chiado no peito/asma, dificuldade para respirar);
 
-- anemia,
+- sangramento que não para;
 
-- febre,
+- convulsões;
+
+- febre;
+
+- dor de cabeça forte e que não passa.
+
+A Temozolomida pode diminuir a quantidade de células do sangue.
+
+Isso pode causar:
+
+- manchas roxas e sangramentos;
+
+- diminuição na quantidade de células vermelhas no sangue (anemia);
+
+- febre;
 
 - infecções com mais facilidade.
 
-Em alguns casos, a queda pode durar mais e levar a anemia aplástica (anemia muito grave) e pode ser fatal. Por isso, o médico acompanha com exames de sangue regulares e pode reduzir ou suspender a dose.
+Às vezes, a diminuição das células do sangue pode durar bastante tempo e causar uma anemia muito grave, que pode até MATAR.
 
-Exemplos de reações (podem variar conforme o esquema). Podem ocorrer: perda de apetite, dor de cabeça, constipação, enjoos, vômitos, vermelhidão na pele, queda de cabelo, cansaço, alterações do sangue (leucócitos/neutrófilos/linfócitos/plaquetas), diarreia, dor abdominal, queimação no estômago, boca seca, coceira, dores musculares e nas articulações, alterações de humor/sonolência/tontura, inchaços, coágulos, e alterações em exames do fígado.
+Por isso, o médico vai monitorar/acompanhar você com exames e poderá diminuir ou parar a Temozolomida.
 
-Podem ocorrer também efeitos raros como:
+Podem acontecer:
+- perda de apetite/ ficar sem fome;
+- dor de cabeça;
+- prisão de ventre (constipação);
+- enjoos;
+- vômitos;
+- irritação na pele;
+- queda de cabelo;
+- cansaço;
+- problemas no sangue (leucócitos/neutrófilos/linfócitos/plaquetas);
+- diarreia;
+- dor de barriga;
+- queimação no estômago;
+- boca seca;
+- coceira;
+- dores nos músculos e nas juntas/articulações;
+- mudanças de humor/sono/tontura;
+- inchaços;
+- veias entupidas (coágulos);
+- exames do fígado fora do normal.
 
-- reações graves na pele com bolhas (inclusive na boca),
+Podem acontecer também:
 
-- infecções graves,
+- reações graves na pele com bolhas, até dentro da boca;
 
-- pequeno risco de outras alterações no sangue, incluindo leucemia (muito raro),
+- infecções graves;
+
+- chance muito pequena de ter outro tipo de câncer no sangue, incluindo leucemia (muito raro);
 
 - problemas no fígado (enzimas elevadas, bilirrubina elevada, colestase e hepatite).
 
-Se qualquer efeito piorar ou surgir algo diferente, fale com o médico.
+Se alguma reação indesejada piorar ou aparecer um sintoma não descrito aqui, avise o médico.
 
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-Se alguém tomar muitas cápsulas de uma vez, ou usar por mais tempo do que o médico recomendou, os efeitos indesejáveis podem ficar mais graves, principalmente as alterações do sangue. Isso pode ser sério e até fatal.
+Se alguém tomar muitas cápsulas ao mesmo tempo ou por mais tempo do que o médico receitou, os efeitos indesejados podem ser muito fortes e perigosos, principalmente no sangue.
 
-Procure um médico imediatamente.
+Isso pode ser grave e até MATAR.
+
+Procure um médico IMEDIATAMENTE.
 </text>

@@ -17,247 +17,276 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Zelboraf® é indicado para tratar melanoma (um tipo de câncer de pele) que:
+O Zelboraf® trata um tipo de câncer de pele chamado melanoma que:
 
-- não pode ser retirado por cirurgia, ou
+- não pode ser tirado por cirurgia; ou
 
-- já se espalhou para outras partes do corpo (metástases).
+- que já se espalhou para outras partes do corpo (câncer “metastático”).
 
-Zelboraf® só deve ser usado quando o tumor tem a mutação BRAF V600E, confirmada por um teste aprovado pela ANVISA.
+O Zelboraf® só deve ser usado quando o tumor tem um defeito no gene BRAF V600E. Isso precisa ser confirmado por um teste aprovado pela Anvisa.
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-Zelboraf® bloqueia a ação de algumas enzimas no tumor. Com isso, ele reduz a multiplicação e a sobrevivência das células do câncer. Nos estudos, o tempo mediano para começar a responder ao tratamento foi de 1,45 mês (variação de 1,0 a 5,5 meses).
+O Zelboraf® bloqueia a ação de algumas proteínas (chamadas de enzimas) no tumor. Com isso, ele faz com que as células do câncer se espalhem menos e morram mais rápido. Nas pesquisas, o tempo para este remédio começar a fazer efeito foi de mais ou menos 1 mês e meio, mas pode levar de 1 a 5 meses e meio.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não use Zelboraf® se você tem alergia ao vemurafenibe ou a qualquer substância do comprimido.
+NÃO use o Zelboraf® se você tiver alergia ao vemurafenibe ou a qualquer ingrediente do comprimido.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Use somente com mutação confirmada. Você só deve tomar Zelboraf® se o tumor tiver mutação BRAF V600E confirmada.
+Use SOMENTE se tiver o defeito genético confirmado. Você só deve tomar o Zelboraf® se o tumor tiver o defeito no gene BRAF V600E confirmado.
 
-Risco de novos cânceres de pele: Algumas pessoas que usam Zelboraf® desenvolvem um câncer de pele chamado carcinoma espinocelular cutâneo. Isso ocorre mais no começo do tratamento e é mais comum em pessoas:
+Risco de novos cânceres de pele: o Zelboraf® pode causar um câncer de pele chamado carcinoma espinocelular em algumas pessoas. Isso ocorre mais no começo do tratamento e é mais comum em pessoas:
 
-- com 65 anos ou mais,
+- com 65 anos ou mais;
 
-- com histórico de câncer de pele,
+- que já tiveram câncer de pele;
 
-- com exposição frequente ao sol por muitos anos.
+- que pegaram muito sol na pele por muitos anos.
 
-Geralmente o médico consegue tratar retirando a lesão, e você pode continuar Zelboraf®. O que fazer:
+Geralmente, o médico trata esse problema tirando o câncer da pele. Depois disso, você pode continuar usando o Zelboraf®.
 
-- Faça exame de pele antes de começar.
+O que fazer:
 
-- Faça exames periódicos durante o tratamento e por até 6 meses após terminar.
+- faça um exame de pele antes de começar;
 
-- Avise o médico se aparecer qualquer nova lesão na pele.
+- faça exames na pele com frequência durante o tratamento e por até 6 meses depois de terminar;
 
-Também houve relatos de carcinoma espinocelular fora da pele. Por isso, o acompanhamento pode incluir:
+- avise o médico se aparecer alguma nova mancha ou ferida na pele (lesões).
 
-- exame de cabeça e pescoço antes do tratamento e a cada 3 meses durante o uso,
+O carcinoma espinocelular também pode aparecer em outras partes do corpo (não só na pele). Por isso, você pode precisar fazer os seguintes exames:
 
-- tomografia de tórax antes do tratamento e a cada 6 meses depois,
+- exame de cabeça e pescoço antes de começar e de 3 em 3 meses durante o tratamento;
 
-- para mulheres: exame pélvico,
+- tomografia do peito (do tórax) antes de começar o tratamento e a cada 6 meses depois de começar;
 
-- exame anal, antes e no final do tratamento (ou conforme o médico orientar).
+- para mulheres: exame da região da bacia (exame pélvico/ginecológico);
 
-Possibilidade de aparecer novo melanoma: Algumas pessoas tiveram novo melanoma durante o tratamento. Em geral, o médico tratou a lesão e manteve Zelboraf® sem mudar a dose. Você deve seguir o mesmo acompanhamento de pele descrito acima.
+- exame do ânus, antes de começar e no final do tratamento (ou conforme o médico pedir).
 
-Atenção se houver mutação RAS. Zelboraf® pode piorar alguns cânceres ligados à mutação RAS. O médico deve ter cautela se você:
+Possibilidade de aparecer novo câncer de pele (melanoma)
 
-- já teve câncer ligado à mutação RAS, ou
+Algumas pessoas tiveram novo câncer de pele durante o tratamento. Em geral, o médico tratou esse novo câncer e manteve o tratamento com Zelboraf® sem mudar a dose. Você deve seguir os mesmos cuidados com a pele explicados acima.
 
-- desenvolver esse tipo de alteração durante o tratamento.
+ATENÇÃO se você tiver um defeito no gene RAS (mutação RAS). O Zelboraf® pode piorar alguns tipos de câncer ligados a esse defeito no gene RAS. O médico vai ter mais cuidado se você:
 
-Reações alérgicas graves: Foram relatadas reações alérgicas graves, incluindo anafilaxia (reação forte com queda de pressão e dificuldade para respirar).
+- já teve câncer ligado a esse defeito no gene RAS; ou
 
-Se isso acontecer, você não deve usar Zelboraf® novamente.
+- tiver esse defeito durante o tratamento.
 
-Reações graves na pele. Algumas pessoas tiveram reações graves, como:
+Reações alérgicas graves
 
-- síndrome de Stevens-Johnson (bolhas e feridas na pele e mucosas),
+Algumas pessoas tiveram reações alérgicas graves, incluindo uma reação muito forte (anafilaxia), com queda de pressão do sangue e problemas para respirar.
 
-- necrólise epidérmica tóxica (a pele se solta em “lâminas”),
+Se isso acontecer, NÃO use o Zelboraf® novamente.
 
-- síndrome DRESS (reação ao medicamento com alterações no sangue e sintomas pelo corpo).
+Reações graves na pele
 
-Se isso acontecer, você não deve usar Zelboraf® novamente.
+Algumas pessoas tiveram reações graves, como:
 
-Cuidado com radioterapia: Pode ocorrer reação forte à radiação (radioterapia) antes, durante ou após Zelboraf®. A reação pode ser na pele e, em casos raros, em órgãos internos e pode ser grave. O médico deve ter cautela se você fez ou fará radioterapia.
+- reação alérgica grave, com bolhas e feridas na pele e nas partes úmidas do corpo (síndrome de Stevens-Johnson);
 
-Risco de alteração grave do coração (intervalo QT): Zelboraf® pode aumentar o intervalo QT no eletrocardiograma. Isso pode causar arritmias (batimentos irregulares) e pode ser grave. Não use Zelboraf® se você:
+- pele se soltando em pedaços grandes, como em uma queimadura (necrólise epidérmica tóxica);
 
-- tem síndrome do QT longo (congênita), ou
+- reação ao remédio com problemas no sangue e sintomas espalhados pelo corpo (síndrome DRESS).
 
-- já teve episódios de batimento cardíaco anormal importante, ou
+Se isso acontecer, NÃO use o Zelboraf® novamente.
 
-- tem alterações de eletrólitos (sódio, potássio, cálcio, magnésio) que não conseguem corrigir, ou
+Cuidados quando o Zelboraf® é usado com radioterapia: pode acontecer uma reação forte na área do tratamento com radioterapia antes, durante ou depois de usar o Zelboraf®. A reação pode ser na pele e, em casos raros, em órgãos dentro do corpo, e pode ser grave. O médico vai ter muito cuidado se você já fez ou vai fazer radioterapia.
 
-- usa remédios que aumentam o intervalo QT.
+Risco de problemas graves nos batimentos do coração (intervalo QT mais longo): o Zelboraf® pode mudar o ritmo dos batimentos no exame do coração (eletrocardiograma). Isso é conhecido como “aumento do intervalo QT”. Os batimentos do coração podem ficar fora do ritmo normal (arritmia), o que pode ser grave. NÃO use Zelboraf® se você:
 
-Avise o médico se você tem:
+- nasceu com esse problema no ritmo do coração (síndrome do QT longo congênita);
 
-- bradicardia (batimento lento),
+- já teve batimentos do coração muito desregulados; ou
 
-- insuficiência cardíaca,
+- tem problemas de sais minerais (eletrólitos, como sódio, potássio, cálcio, magnésio) que não estão controlados; ou
 
-- outras doenças do coração,
+- usa remédios que aumentam o tempo entre as batidas do coração (aumentam o intervalo QT).
 
-- potássio ou magnésio baixos,
+Avise o médico se você:
 
-- uso de diuréticos, remédios para arritmia ou outros que aumentem QT.
+- tem batimentos lentos do coração (bradicardia);
 
-O médico deve acompanhar com eletrocardiograma e exames de sangue (eletrólitos), inclusive quando mudar a dose. Pode ser necessário reduzir a dose ou parar Zelboraf®.
+- tem coração fraco (insuficiência cardíaca);
 
-Risco de lesão no fígado: Zelboraf® pode causar lesão no fígado, inclusive grave. O que fazer:
+- tem outras doenças do coração;
 
-- Fazer exames do fígado antes de iniciar.
+- tem potássio ou magnésio baixos no sangue;
 
-- Repetir mensalmente durante o tratamento (ou conforme o médico orientar).
+- usa remédios para urinar (diuréticos), para batimentos fora do ritmo (arritmia) ou outros remédios que aumentem o tempo entre as batidas do coração (o intervalo QT).
 
-- Se alterar, o médico pode reduzir a dose ou suspender o medicamento.
+O médico vai monitorar/acompanhar sua saúde com exames do coração (eletrocardiogramas) e exames de sangue (eletrólitos), inclusive se ele mudar a dose do remédio. O médico pode diminuir a dose ou pedir para você parar de usar o Zelboraf®.
 
-Sensibilidade ao sol (fotossensibilidade): Zelboraf® pode causar reação na pele ao sol, leve ou grave. Evite sol durante o tratamento e por pelo menos 5 dias após parar, usando:
+Risco de problemas no fígado (lesões no fígado): o Zelboraf® pode causar problemas no fígado (lesões no fígado), inclusive graves.
 
-- roupas que protejam do sol,
+O que fazer:
 
-- filtro solar UVA/UVB,
+- faça exames do fígado antes de começar o tratamento;
 
-- protetor labial,
+- repita os exames todos os meses durante o tratamento (ou conforme o médico orientar);
 
-- FPS maior que 30.
+- se os exames mostrarem algum problema, o médico poderá diminuir a dose ou parar o remédio.
 
-Mãos e pés (contratura / nódulos). Foram relatados:
+Sensibilidade ao sol (fotossensibilidade): o Zelboraf® pode causar reações da pele ao sol, que podem ser leves ou graves.
+Evite ficar no sol durante o tratamento e por pelo menos 5 dias depois de parar, usando:
 
-- contratura de Dupuytren (mão “travando” em flexão),
+- roupas que protejam do sol;
 
-- fibromatose plantar (nódulo endurecido na sola do pé).
+- protetor solar (filtro solar) contra raios UVA e UVB;
 
-- Se aparecer, avise o médico. Pode ser necessário ajustar o tratamento.
+- protetor para os lábios (protetor labial);
 
-Problemas nos olhos: Foram relatadas reações graves nos olhos, incluindo uveíte (inflamação no olho). O médico deve monitorar seus sintomas.
+- fator de proteção solar (FPS) maior que 30.
 
-Rins (creatinina): Zelboraf® pode alterar a creatinina (exame que avalia os rins). O médico deve medir antes do início e acompanhar durante o tratamento.
+Dificuldade para esticar os dedos das mãos e dos pés (contraturas/nódulos). Os seguintes problemas podem acontecer:
 
-Dirigir e usar máquinas: Zelboraf® pode causar cansaço, tontura e problemas nos olhos. Evite dirigir ou operar máquinas se tiver esses sintomas.
+- mão “travando” com os dedos dobrados (contratura de Dupuytren);
 
-Gravidez, amamentação e contracepção: Zelboraf® pode prejudicar o feto. Não use na gravidez sem orientação médica. Mulheres que podem engravidar e homens devem usar contracepção durante o tratamento e por pelo menos 6 meses após terminar.  Não se sabe se passa para o leite materno. O médico vai decidir se é melhor parar a amamentação ou parar o medicamento.
+- caroço duro na sola do pé (fibromatose plantar).
 
-A segurança e a eficácia em menores de 18 anos não foram estabelecidas.
+Se você notar algum desses problemas, avise o médico. Ele pode precisar mudar o seu tratamento.
 
-Interações com outros medicamentos: Zelboraf® pode aumentar ou diminuir o efeito de outros remédios. Ele pode aumentar a quantidade no sangue de:
+Problemas nos olhos: algumas pessoas tiveram reações graves nos olhos, incluindo inflamação no olho (uveíte). O médico vai ficar atento aos sintomas que você tiver.
 
-- cafeína,
+Rins (creatinina): o Zelboraf® pode mudar a quantidade de creatinina no exame de sangue, que indica como os rins estão funcionando. O médico vai pedir exames antes de você começar o tratamento e vai acompanhar os resultados ao longo do tempo.
 
-- varfarina (afina o sangue),
+Dirigir e usar máquinas: o Zelboraf® pode causar cansaço, tontura e problemas nos olhos. Evite dirigir ou usar máquinas se tiver esses problemas.
 
-- tizanidina (relaxante muscular),
+Gravidez, amamentação e possibilidade de ter filhos (fertilidade): o Zelboraf® pode fazer mal ao feto. NUNCA use na gravidez sem orientação médica. Pessoas que podem engravidar devem evitar a gravidez durante o tratamento e por no mínimo 6 meses após a última dose.
+Não se sabe se o Zelboraf® passa para o leite do peito. O médico vai decidir se é melhor parar a amamentação ou parar o remédio.
 
-- dextrometorfano (para tosse),
+Não se sabe se este remédio é seguro ou se funciona em pessoas com menos de 18 anos.
 
-- e alguns remédios como digoxina e clopidogrel.
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
+
+O Zelboraf® pode aumentar ou diminuir o efeito de outros remédios. Ele pode aumentar a quantidade no sangue de:
+
+- cafeína;
+
+- um remédio para afinar o sangue chamado varfarina;
+
+- um relaxante muscular chamado tizanidina;
+
+- um remédio para tosse chamado dextrometorfano;
+
+- alguns remédios para o coração (como a digoxina) e para evitar o entupimento de veias/coágulos (clopidogrel).
 
 Ele pode diminuir a quantidade no sangue de:
 
-- midazolam (para dormir).
+- um remédio calmante chamado midazolam.
 
-Alguns remédios podem alterar a quantidade de Zelboraf® no corpo (por exemplo, cetoconazol, claritromicina, rifampicina, carbamazepina, fenitoína, fenobarbital e outros). Informe sempre ao médico todos os remédios que você usa.
+Alguns remédios podem mudar a quantidade de Zelboraf® no corpo, como remédios contra fungos (cetoconazol), antibióticos (claritromicina e rifampicina) e remédios para convulsão (carbamazepina, fenitoína e fenobarbital).
 
-5. COMO GUARDAR ESTE MEDICAMENTO?
+SEMPRE diga ao médico todos os remédios que você usa.
 
-Guardar em temperatura ambiente entre 15°C e 30°C. Manter na embalagem original, protegido da umidade. Não usar após o prazo de validade.
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Manter fora do alcance das crianças.
+Guarde o Zelboraf® em temperatura ambiente, entre 15 °C e 30 °C.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+Mantenha na caixa (embalagem) original, protegido da umidade.
 
-Zelboraf® só deve ser usado por quem tem tumor com mutação BRAF V600E confirmada.
+Não use com prazo de validade vencido.
 
-Dose recomendada: 960 mg (4 comprimidos de 240 mg), 2 vezes ao dia. Total: 8 comprimidos por dia.
+Mantenha fora do alcance de crianças.
+
+6. COMO DEVO USAR ESTE REMÉDIO?
+
+O Zelboraf® deve ser usado SOMENTE por quem tem tumor com defeito no gene BRAF V600E confirmado.
+
+Dose recomendada: tomar 4 comprimidos de 240 mg (960 mg), 2 vezes por dia, pela boca.
+
+Total: 8 comprimidos por dia, sendo 4 comprimidos de manhã e 4 comprimidos à noite.
 
 Horário e forma de tomar
 
-- 1ª dose: de manhã.
+- 1ª dose de 4 comprimidos: de manhã.
 
-- 2ª dose: à noite, com intervalo de aproximadamente 12 horas.
+- 2ª dose de 4 comprimidos: à noite, com intervalo de mais ou menos 12 horas.
 
-Pode tomar com ou sem alimentos. Engolir os comprimidos com um copo de água. Não esmagar, não mastigar e não partir.
+Você pode tomar o Zelboraf® com estômago cheio ou vazio.
 
-Duração do tratamento: Continue até:
+Tome os comprimidos pela boca, com um copo de água.
 
-- que apareça progressão da doença, ou
+NÃO esmague, NÃO mastigue e NÃO divida os comprimidos.
 
-- ocorrer efeito colateral que você não consiga tolerar.
+Quanto tempo dura o tratamento
 
-Se tiver efeito colateral importante ou aumento do QT no eletrocardiograma, o médico pode reduzir a dose ou parar o tratamento.
+Continue o tratamento até:
 
-Não se recomenda reduzir para menos de 480 mg 2 vezes ao dia.
+- que a doença piore; ou
 
-Se vomitar após tomar Zelboraf®:
+- você tenha algum efeito colateral que não consiga aguentar.
 
-- não tome outra dose para repor.
+Se você tiver algum efeito colateral grave ou mudança no ritmo dos batimentos nos exames do coração (aumento do QT no eletrocardiograma), o médico poderá diminuir a dose ou parar o tratamento.
+
+Não se recomenda diminuir a dose para menos de 480 mg, 2 vezes por dia.
+
+Se você vomitar depois de tomar os comprimidos de Zelboraf®:
+
+- não tome outra dose para compensar;
 
 - continue o tratamento normalmente.
 
-7. O QUE FAZER SE EU ME ESQUECER DE TOMAR?
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-Se esquecer uma dose, você pode tomar até 4 horas antes da próxima dose. Se faltar menos de 4 horas para a próxima dose:
+Se esquecer de tomar uma dose, você pode tomar a dose até 4 horas antes da próxima.
+Se faltar menos de 4 horas para a próxima dose:
 
-- não tome a dose esquecida.
+- não tome a dose que você esqueceu;
 
-- não dobre a próxima dose.
+- não tome duas doses ao mesmo tempo.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-Os efeitos mais frequentes incluem:
+Os efeitos indesejados mais frequentes incluem:
 
-- dor nas articulações,
+- dor nas juntas/articulações;
 
-- cansaço,
+- cansaço;
 
-- reações na pele (erupção, coceira, pele grossa),
+- reações na pele (erupção, coceira, pele grossa);
 
-- sensibilidade ao sol,
+- sensibilidade ao sol;
 
-- queda de cabelo,
+- queda de cabelo;
 
-- enjoo, vômitos,
+- enjoo, vômitos;
 
-- diarreia,
+- diarreia;
 
 - dor de cabeça.
 
-Efeitos importantes que podem ocorrer:
+Efeitos indesejados graves que podem acontecer:
 
-- câncer de pele (carcinoma espinocelular),
+- câncer de pele (carcinoma espinocelular);
 
-- alterações no coração (prolongamento do QT),
+- mudanças no ritmo normal dos batimentos do coração (prolongamento do QT);
 
-- inflamação nos olhos (uveíte),
+- inflamação nos olhos (uveíte);
 
-- alterações no fígado,
+- problemas no fígado;
 
-- alterações nos rins,
+- problemas nos rins;
 
-- reações alérgicas graves,
+- reações alérgicas graves;
 
-- reações graves na pele (Stevens-Johnson, necrólise epidérmica tóxica, DRESS).
+- reações graves na pele (Stevens-Johnson, necrólise epidérmica tóxica, DRESS, PEGA).
 
-Procure o médico se surgirem sintomas novos ou se os sintomas piorarem.
+Procure o médico se você tiver sintomas novos ou se os sintomas piorarem.
 
-9. O QUE FAZER SE ALGUÉM USAR MAIS DO QUE O INDICADO?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-Não existe antídoto específico para Zelboraf®. Se alguém tomar quantidade maior do que a indicada, ou se você tiver reações fortes, procure atendimento médico imediatamente.
+Não existe remédio nem tratamento específico para cortar o efeito de uma dose muito alta de Zelboraf®. Se alguém tomar quantidade maior do que a receitada, ou se você tiver reações fortes, procure atendimento médico IMEDIATAMENTE.
 
-Se aparecer reação grave na pele com muita coceira e cansaço pare Zelboraf® imediatamente e fale com o médico.
+Se aparecer uma reação grave na pele com muita coceira e você sentir muito cansaço, pare de tomar o Zelboraf® IMEDIATAMENTE e fale com o médico.
 </text>

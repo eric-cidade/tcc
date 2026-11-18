@@ -46,18 +46,22 @@ ROTULOS_ESCOPO = {
 
 # Como o lado SIMPLIFICADO de cada subcorpus foi produzido. É o SEGUNDO EIXO de
 # filtragem, cruzável com o eixo temático dos escopos: "só o que foi validado
-# por humanos" é uma pergunta independente de "só bulas de oncologia". Hoje os
-# dois eixos coincidem (todo o subcorpus humano é de hipertensão), mas deixam de
-# coincidir assim que a oncologia for revisada ou outro gênero entrar — e é por
+# por humanos" é uma pergunta independente de "só bulas de oncologia" — e é por
 # isso que procedência não virou mais um nível do caminho do escopo.
+#
+# Hoje todo o corpus é "humana": em 18/11/2026 as 49 bulas de oncologia, que
+# eram a saída bruta de IA, foram trocadas pela versão revisada por linguistas
+# (coluna `rev1` do parquet de revisão; a revisão farmacêutica final, `rev2`,
+# ainda não existe). O valor "ia" continua no eixo para o próximo gênero que
+# chegar sem revisão.
 #
 # Não é detalhe de
 # catálogo: o comparador de simplicidade (simplicidade.py) toma o lado
 # simplificado como referência do que é linguagem acessível, então um subcorpus
 # gerado por IA sem revisão ensina ao score o vocabulário que a IA deixou
-# passar. Medido: "posologia" some por completo nas bulas validadas por
-# linguistas (24 ocorrências no original, 0 na simplificada) e sobrevive em 12
-# das 49 simplificadas por IA, onde acaba pontuando como palavra SIMPLES.
+# passar. Medido na versão de IA da oncologia: "posologia" some por completo nas
+# bulas validadas por linguistas (24 ocorrências no original, 0 na simplificada)
+# e sobrevivia em 12 das 49 simplificadas por IA, onde pontuava como SIMPLES.
 # Por isso a procedência acompanha todo escopo, até a interface.
 # `curto` é para caber em rótulo de filtro; `rotulo` é a forma completa.
 PROVENIENCIAS = {
@@ -87,7 +91,7 @@ TIPOS = [
     {
         "tipo": "oncologia",
         "escopo": "bula/oncologia",
-        "proveniencia": "ia",
+        "proveniencia": "humana",
         "map_csv": str(BASE_DIR / "remedios_onco_map.csv"),
         "path_original": str(CORPUS_DIR / "onco" / "original"),
         "path_simplificada": str(CORPUS_DIR / "onco" / "simplificada"),

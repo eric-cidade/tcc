@@ -1,215 +1,254 @@
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Paclitaxel é um quimioterápico indicado para:
+O Paclitaxel é um remédio tomado na veia que trata:
 
-- Câncer de ovário (carcinoma maligno). Tratamento de 1ª e 2ª linha do câncer de ovário avançado. Na 1ª linha, geralmente é usado junto com um medicamento à base de platina.
+Câncer de ovário (carcinoma maligno)
+- Como primeiro tratamento da doença avançada ou depois de outros tratamentos (tratamento de 1ª e 2ª linha).
+- Como primeiro tratamento (1ª linha), geralmente é usado junto com um remédio feito de platina.
 
-- Câncer de mama. Tratamento adjuvante (usado após o tratamento principal). 1ª linha: quando a doença volta dentro de 6 meses após a terapia adjuvante. 2ª linha: quando a quimioterapia combinada falhou na doença metastática (quando o câncer se espalha para outros órgãos). Pode ser 1ª linha no câncer de mama avançado/metastático junto com trastuzumabe em pessoas com HER-2 alto (2+ ou 3+).
+Câncer de mama
+- Usado depois do tratamento principal (tratamento adjuvante).
+- Como primeiro tratamento (1ª linha): quando a doença volta dentro de 6 meses após a terapia adjuvante.
+- Depois de outros tratamentos (2ª linha): quando a quimioterapia combinada falha e o câncer se espalha para outros órgãos (na doença metastática). Pode ser primeiro tratamento (1ª linha) no câncer de mama avançado/metastático junto com trastuzumabe em pessoas com HER-2 alto.
 
-- Câncer de pulmão de não-pequenas células. Para pacientes que não podem fazer cirurgia e/ou radioterapia com chance de cura. Pode ser 1ª linha com um medicamento à base de platina ou usado sozinho.
+- Câncer de pulmão do tipo "de células não pequenas": o Paclitaxel pode ser usado no tratamento de um tipo de câncer de pulmão em pessoas que não podem fazer cirurgia ou radioterapia para se curar. Ele pode ser usado como primeiro tratamento (1ª linha) sozinho ou junto com remédios feitos de platina.
 
-- Sarcoma de Kaposi relacionado à AIDS. 2ª linha de tratamento.
+- Um tipo de câncer raro causado pelo herpesvírus humano tipo 8 (sarcoma de Kaposi causado por AIDS): quando outros tratamentos não funcionaram (2ª linha de tratamento).
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-O paclitaxel tem ação antitumoral (contra tumor). Ele atrapalha o processo que as células usam para se dividir e formar novas células, fazendo a célula formar estruturas anormais durante a divisão. Isso ajuda a reduzir o crescimento do câncer.
+O Paclitaxel age contra o tumor. Ele atrapalha o processo que as células usam para se dividir e formar novas células, fazendo a célula formar estruturas anormais durante a divisão. Isso ajuda a diminuir o crescimento do câncer.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Você não deve usar paclitaxel se já teve reação alérgica grave ao paclitaxel ou ao óleo de rícino polioxietilado (um componente da fórmula).
+Você não deve usar Paclitaxel se já teve reação alérgica grave ao Paclitaxel ou ao óleo de rícino polioxietilado (um ingrediente da fórmula).
 
-O paclitaxel não deve ser aplicado se os exames mostrarem:
+O Paclitaxel não deve ser aplicado se os exames mostrarem:
 
-- para tumores sólidos: neutrófilos (um tipo de glóbulo branco) < 1.500 células/mm³ antes do tratamento;
+- tumores malignos sólidos: quantidade de neutrófilos (um tipo de célula branca) abaixo de 1.500 células/mm³ antes do tratamento;
 
-- para sarcoma de Kaposi relacionado à AIDS: neutrófilos < 1.000 células/mm³ (antes ou durante o tratamento).
+- um tipo de câncer raro causado pelo herpesvírus humano tipo 8 (sarcoma de Kaposi causado por AIDS): quantidade de neutrófilos abaixo de 1.000 células/mm³ (antes ou durante o tratamento).
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Paclitaxel deve ser aplicado com supervisão de médico experiente em quimioterapia.
+O Paclitaxel deve ser aplicado com acompanhamento de um médico com experiência em quimioterapia.
 
-Reações alérgicas graves (anafilaxia): Você pode ter reações alérgicas graves, com sinais como:
+Reações alérgicas graves (anafilaxia). Você pode ter reações alérgicas graves (anafilaxia), com problemas como:
 
-- falta de ar,
+- falta de ar;
 
-- queda de pressão,
+- queda de pressão do sangue;
 
-- inchaço (angioedema),
+- inchaço (angioedema);
 
-- urticária no corpo todo.
+- coceira e manchas vermelhas na pele (urticária) no corpo todo.
 
-Mesmo com remédios antes da infusão, raramente já ocorreram reações fatais. Antes da aplicação, o médico pode dar remédios para reduzir esse risco (por exemplo, difenidramina, corticoide e remédios do tipo antagonistas H2).
+Mesmo com remédios antes da aplicação/infusão, aconteceram reações que mataram, mas são raras. Antes da aplicação, o médico pode dar remédios para alergia (como difenidramina), inflamação (corticoides) e para proteger o estômago (do tipo antagonistas H2) para diminuir os riscos.
 
-Se ocorrer reação grave, o médico deve parar a infusão imediatamente e você não deve usar paclitaxel novamente.
+Se acontecer uma reação grave, o médico vai parar a aplicação/infusão IMEDIATAMENTE e você não vai receber Paclitaxel de novo.
 
-Queda das células do sangue (mielodepressão): O principal problema do paclitaxel é a redução da atividade da medula óssea (onde o sangue é produzido), principalmente neutropenia (queda de glóbulos brancos). O médico deve pedir hemograma com frequência durante o tratamento.
+Queda na produção de células do sangue (mielodepressão): o principal problema do Paclitaxel é a diminuição da atividade da medula óssea (onde o sangue é feito), principalmente a diminuição das células de defesa (neutropenia). O médico pode pedir que você faça vários exames de sangue durante o tratamento.
 
-Efeitos no coração e na pressão: Durante a infusão, você pode ter pressão baixa, pressão alta, ou batimentos lentos. Geralmente isso não causa sintomas, mas em casos graves o médico pode interromper ou suspender infusões.
+Efeitos no coração e na pressão do sangue: durante a aplicação, você pode ter pressão baixa, pressão alta e/ou batimentos mais lentos do coração. Geralmente isso não causa sintomas, mas em casos graves o médico pode parar a aplicação ou até parar o tratamento.
 
-Efeitos no sistema nervoso: Pode ocorrer neuropatia periférica (alteração nos nervos, como formigamento/dormência), geralmente não grave.
+Efeitos no sistema nervoso: você pode ter problemas no sistema nervoso (neuropatia periférica, como formigamento/perda de sensibilidade/dormência), que em geral não são graves.
 
-O médico pode reduzir a dose nos próximos ciclos.
+O médico pode diminuir a dose nos próximos ciclos.
 
-Atenção: o paclitaxel contém álcool (etanol). O médico deve considerar isso, e crianças podem ser mais sensíveis ao álcool.
+ATENÇÃO: o Paclitaxel contém álcool (etanol). O médico deve considerar isso.
 
-Reação no local da aplicação: A equipe deve observar o local da veia para evitar infiltração/extravasamento (o remédio sair da veia para o tecido).
+Crianças podem ser mais sensíveis ao álcool. A equipe de saúde deve observar o local da veia, porque pode acontecer infiltração/extravasamento (quando o remédio escapa da veia).
 
-A segurança e a eficácia em crianças não foram estabelecidas. Em estudo com crianças, houve casos de toxicidade no sistema nervoso central.
+Não se sabe se o Paclitaxel é seguro ou funciona em crianças. Em um estudo com crianças, aconteceram casos de problemas no sistema nervoso central.
 
-Idosos podem ter com mais frequência:
+Uso em pessoas idosas
 
-- problemas cardíacos,
+Pessoas idosas podem ter com mais frequência:
 
-- neuropatia,
+- problemas no coração;
 
-- queda maior da função da medula óssea.
+- problemas nos nervos (neuropatia);
 
-- Problema no fígado Quem tem insuficiência hepática pode ter mais risco de toxicidade. O médico pode ajustar a dose e monitorar sinais de queda intensa da medula óssea.
+- maior diminuição da produção de células do sangue.
 
-Gravidez: Paclitaxel pode prejudicar o feto. Mulheres em idade fértil devem evitar gravidez durante o tratamento. Se engravidar durante o tratamento, avise o médico e você deve ser informada dos riscos.
+Problemas no fígado: quem tem problema grave no fígado (insuficiência hepática) pode ter maior risco de efeitos indesejados. O médico pode ajustar a dose e fazer mais exames da medula óssea.
 
-Amamentação: recomenda-se parar de amamentar durante o tratamento.
+Gravidez: o Paclitaxel pode fazer mal ao feto. Pessoas que podem engravidar devem evitar a gravidez durante o tratamento. Se engravidar durante o tratamento, avise o médico. O médico deve explicar os riscos para você.
 
-Contracepção e fertilidade: homens e mulheres devem usar métodos contraceptivos eficazes durante o tratamento e por até 6 meses após o fim. O paclitaxel pode reduzir a fertilidade masculina; o médico pode considerar preservar esperma antes do tratamento.
+O melhor é parar de amamentar durante o tratamento.
 
-Vacinas: Como o tratamento pode reduzir as defesas do corpo, vacinas de vírus vivos podem causar infecção grave. Evite vacinas vivas e converse com o médico.
+Contracepção e possibilidade de ter filhos (fertilidade): pessoas que podem engravidar devem usar métodos para não ter filhos durante o tratamento e por até 6 meses após o fim do tratamento. O Paclitaxel pode diminuir a fertilidade masculina. O médico pode sugerir aos homens que querem ter filhos que guardem esperma ANTES de começar o tratamento.
 
-Interações com outros medicamentos: Paclitaxel pode interagir com cisplatina, com remédios que aumentam/diminuem a atividade do fígado (indutores/inibidores hepáticos) e com doxorrubicina.
+Vacinas: como o tratamento pode diminuir as defesas do corpo, vacinas de vírus vivos podem causar infecções graves. Evite tomar vacinas de vírus vivos e converse com o médico.
 
-Informe ao médico todos os medicamentos que você usa.
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+O Paclitaxel pode causar reações indesejadas com alguns remédios: com a cisplatina, com remédios que aumentam/diminuem a atividade do fígado (indutores/inibidores hepáticos) e com a doxorrubicina.
 
-Guarde em temperatura ambiente (15°C a 30°C), protegido da luz. Frasco-ampola multidose: após a primeira utilização, fica estável por 28 dias se mantido entre 2°C e 25°C, no cartucho original (protege da luz).
+Diga ao médico todos os remédios que você usa.
 
-Se o frasco fechado for refrigerado, pode formar “depósito” (precipitado), mas isso costuma dissolver quando volta à temperatura ambiente.
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Se a solução continuar turva ou tiver precipitado que não dissolve, descarte o frasco.
+Guarde em temperatura ambiente (de 15 °C a 30 °C), protegido da luz.
 
-Solução diluída: estável por até 27 horas em temperatura ambiente (~25°C) e luz ambiente. Não refrigerar. Após preparo: manter até 25°C por 27 horas.
+Frasco-ampola com várias doses: após usar uma vez, pode ser usado por 28 dias se mantido entre 2 °C e 25 °C, na embalagem original (protegido da luz).
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+Se o frasco ficar fechado na geladeira, podem se formar pequenos grãos no fundo do frasco. Esses grãos costumam se dissolver quando o frasco volta à temperatura ambiente.
 
-Este medicamento é de uso hospitalar (ou ambulatório especializado) e deve ser preparado e aplicado por equipe treinada.
+Se o líquido continuar esbranquiçado ou se você enxergar coisas sólidas nele, NÃO use.
 
-A aplicação é somente intravenosa.
+Líquido misturado: pode ser usado por até 27 horas se ficar em temperatura ambiente (mais ou menos 25 °C) e em luz ambiente.
 
-Antes da infusão, você receberá pré-medicação para diminuir o risco de alergia grave.
+NÃO COLOCAR na geladeira depois de misturar o líquido.
 
-Posologia (doses) – conforme a indicação
+Depois de misturar: manter em temperatura de até 25 °C por até 27 horas.
 
-Câncer de ovário:
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-- Terapia combinada (sem tratamento anterior): a cada 3 semanas 175 mg/m² IV por 3 horas, depois medicamento à base de platina; ou 135 mg/m² IV por 24 horas, depois platina.
+Este remédio deve ser aplicado em hospitais ou clínicas especializadas e deve ser preparado e aplicado por uma equipe treinada.
 
-- Monoterapia (já tratada antes): 175 mg/m² IV por 3 horas, a cada 3 semanas.
+A aplicação é somente na veia (por via intravenosa).
 
-Câncer de mama:
+Antes da aplicação/infusão, você receberá uma medicação para diminuir o risco de ter alergia grave.
 
-- Adjuvante: 175 mg/m² IV por 3 horas, a cada 3 semanas, por 4 ciclos.
+Quantidade e frequência de doses para cada doença (posologia)
 
-- Monoterapia – 1ª linha após recidiva em até 6 meses: 175 mg/m² IV por 3 horas, a cada 3 semanas.
+Câncer de ovário
 
-- 1ª linha avançado/metastático com trastuzumabe: 175 mg/m² IV por 3 horas, ciclos a cada 3 semanas. A infusão de paclitaxel deve começar no dia seguinte da primeira dose de trastuzumabe ou logo após as doses seguintes, se a dose anterior foi bem tolerada.
+Terapia combinada (sem tratamento anterior):
 
-- Monoterapia – 2ª linha após falha da quimioterapia combinada: 175 mg/m² IV por 3 horas, a cada 3 semanas.
+- a cada 3 semanas, 175 mg/m² na veia (por via intravenosa – IV) por 3 horas, depois, remédio feito de platina; ou 135 mg/m² na veia (IV) por 24 horas, depois platina.
 
-Câncer de pulmão de não-pequenas células:
+Monoterapia (com tratamento anterior):
 
-- Terapia combinada (sem tratamento anterior): a cada 3 semanas 175 mg/m² IV por 3 horas, depois platina; ou 135 mg/m² IV por 24 horas, depois platina.
+- 175 mg/m² de Paclitaxel na veia (IV) por 3 horas, a cada 3 semanas.
 
-- Monoterapia: 175 a 225 mg/m² IV por 3 horas, a cada 3 semanas.
+Câncer de mama
 
-Sarcoma de Kaposi relacionado à AIDS (2ª linha): 135 mg/m² IV por 3 horas, a cada 3 semanas; ou 100 mg/m² IV por 3 horas, a cada 2 semanas. Também pode ser usado 80 mg/m² semanalmente em alguns casos (ovário, mama e Kaposi), com pré-medicação antes.
+Tratamento complementar depois do tratamento principal (adjuvante):
 
-Insuficiência do fígado: pode ser necessário ajustar a dose e monitorar de perto o hemograma.
+- 175 mg/m² na veia (IV) por 3 horas, a cada 3 semanas, por 4 ciclos.
 
-7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+Tratamento só com Paclitaxel (monoterapia):
 
-Como a aplicação é feita em serviço de saúde, procure orientação do seu médico.
+- primeiro tratamento (1ª linha) após a doença voltar (recidiva) em até 6 meses:
+- 175 mg/m² de Paclitaxel na veia (IV) por 3 horas, a cada 3 semanas.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+Primeiro tratamento (1ª linha) de câncer avançado e espalhado pelo corpo (com metástase), junto com o remédio trastuzumabe:
 
-Os efeitos adversos podem ser parecidos nos tratamentos de câncer de ovário, mama, pulmão e Kaposi.
+- 175 mg/m² de Paclitaxel na veia (IV) por 3 horas, a cada 3 semanas. A infusão de Paclitaxel deve começar no dia seguinte após a primeira dose de trastuzumabe ou logo após as doses seguintes, se a anterior não fez mal.
 
-Em sarcoma de Kaposi relacionado à AIDS, pode haver maior risco de:
+Tratamento só com Paclitaxel (monoterapia) depois de outros tratamentos (2ª linha) após falha da quimioterapia combinada:
 
-- problemas no sangue (toxicidade hematológica),
+- 175 mg/m² de Paclitaxel na veia (IV) por 3 horas, a cada 3 semanas.
 
-- infecções (inclusive oportunistas),
+Câncer de pulmão do tipo “de células não pequenas”
 
-- neutropenia febril (queda de neutrófilos com febre).
+Terapia combinada (sem tratamento anterior):
 
-Em estudos, pacientes apresentaram: reações alérgicas, alterações da pressão e do coração, neuropatia, náuseas/vômitos/diarreia/mucosite, dores musculares e articulares, queda de cabelo, alterações no fígado, reação no local da injeção e alterações do sangue (queda de glóbulos brancos, plaquetas e hemoglobina), infecções e sangramentos.
+- a cada 3 semanas, 175 mg/m² na veia (IV) por 3 horas, depois platina; ou 135 mg/m² na veia (IV) por 24 horas, depois platina.
 
-Abaixo seguem eventos que podem ocorrer de acordo com a frequência:
+Tratamento só com Paclitaxel (monoterapia):
 
-Muito comum (≥ 10%)
+- 175 a 225 mg/m² na veia (IV) por 3 horas, a cada 3 semanas.
 
-- infecção
+Um tipo de câncer raro causado pelo herpesvírus humano tipo 8 (sarcoma de Kaposi causado por AIDS) (depois de outros tratamentos/2ª linha):
 
-- mielossupressão (queda da medula), neutropenia, anemia, trombocitopenia, leucopenia, febre, sangramento
+- 135 mg/m² na veia (IV) por 3 horas, a cada 3 semanas; ou 100 mg/m² IV por 3 horas, a cada 2 semanas (45 a 50 mg/m²/semana).
 
-- reações alérgicas leves (vermelhidão e erupção na pele)
+Também pode ser usado na dose 80 mg/m² semanalmente em alguns casos (câncer de ovário, mama e Kaposi), com pré-medicação.
 
-- neuropatia periférica
+Problema grave no fígado (insuficiência hepática): pode ser necessário ajustar a dose e monitorar o hemograma com atenção.
 
-- pressão baixa
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-- alterações no eletrocardiograma (ECG)
+Como a aplicação é feita no hospital (ou clínica especializada), procure orientação do médico.
 
-- náusea, vômito, diarreia, mucosite
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-- dor muscular (mialgia) e dor nas articulações (artralgia)
+As reações indesejadas podem ser parecidas nos tratamentos de câncer de ovário, mama, pulmão e Kaposi.
 
-- queda de cabelo (alopecia)
+Em pessoas com sarcoma de Kaposi causado pela AIDS, podem ocorrer com mais frequência e gravidade:
 
-Comum (≥ 1% e < 10%)
+- problemas no sangue (toxicidade hematológica);
 
-- batimentos lentos (bradicardia)
+- infecções (inclusive as que acontecem quando as defesas do corpo estão baixas);
 
-- reações no local da injeção (dor, vermelhidão, inchaço, endurecimento)
+- diminuição da quantidade dos neutrófilos com febre (neutropenia febril).
 
-Incomum (≥ 0,1% e < 1%)
+Nos estudos com o remédio, os efeitos que podem acontecer foram os seguintes: reações alérgicas, problemas na pressão e no coração, sensação de formigamento ou perda de sensibilidade/dormência (neuropatia), enjoos/vômitos/diarreia/feridas na boca e na garganta (mucosite), dores nos músculos e nas juntas/articulações, queda de cabelo, alterações no fígado, reação no local da infusão e problemas no sangue (queda das células de defesa, de células que ajudam a parar sangramentos/plaquetas e hemoglobina), infecções e sangramentos.
 
-- reações alérgicas importantes que exigem tratamento (queda de pressão, falta de ar, urticária generalizada, inchaço, calafrios)
+Os problemas que podem ocorrer estão listados abaixo de acordo com a frequência.
 
-- pressão alta, trombose/tromboflebite
+Muito comuns (acontecem em pelo menos 1 pessoa em cada 10):
 
-- cardiomiopatia, alterações importantes do ritmo, desmaio, infarto
+- infecção;
 
-Raro (≥ 0,01% e < 0,1%)
+- queda na produção de sangue na medula (mielossupressão), diminuição das células de defesa (neutropenia), diminuição de células vermelhas do sangue (anemia), diminuição de células que param sangramentos (trombocitopenia), células brancas baixas (leucopenia), febre, sangramento;
 
-- neutropenia febril
+- reações alérgicas leves (vermelhidão e irritação na pele);
 
-- pneumonia, sepse
+- problemas nos nervos/sensação de formigamento ou perda de sensibilidade/dormência (neuropatia periférica);
 
-- falta de ar, embolia pulmonar, fibrose pulmonar, pneumonia intersticial
+- pressão baixa;
 
-- obstrução ou perfuração intestinal, colite isquêmica, pancreatite
+- exame de coração fora do normal (eletrocardiograma - ECG);
 
-- reações de pele mais importantes
+- enjoo, vômito, diarreia, feridas na boca e na garganta (mucosite);
 
-Muito raro (< 0,01%) / Não conhecido
+- dor nos músculos (mialgia) e dor nas juntas/articulações (artralgia);
 
-- choque anafilático, reações muito graves
+- queda de cabelo (alopecia).
 
-- síndrome de lise tumoral (não conhecido)
+Comuns (acontecem entre 1 e 10 pessoas em cada 100):
 
-- problemas graves no fígado, incluindo casos fatais (muito raro)
+- batimentos do coração mais lentos (bradicardia);
 
-- síndrome de Stevens-Johnson e necrólise epidérmica (reações graves na pele)
+- reações no local da aplicação/injeção (dor, vermelhidão, inchaço, endurecimento).
 
-- edema macular (não conhecido) Informe ao médico ou farmacêutico qualquer reação indesejada.
+Incomuns (acontecem entre 1 e 10 pessoas em cada 1.000):
 
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+- reações alérgicas graves que exigem tratamento (queda de pressão do sangue, falta de ar, coceira e manchas vermelhas na pele (urticária) no corpo todo, inchaço, calafrios);
 
-Não existe antídoto específico. As principais complicações são:
+- pressão do sangue alta, entupimento dos vasos (trombose/tromboflebite);
 
-- queda intensa da medula óssea,
+- coração com músculo muito grosso (cardiomiopatia), batimentos do coração em ritmo fora do normal, desmaio, ataque do coração (infarto).
 
-- toxicidade no sistema nervoso,
+Raros (acontecem entre 1 e 10 pessoas em cada 10.000):
 
-- inflamação da mucosa (mucosite).
+- diminuição das células de defesa (neutropenia febril);
 
-Em crianças, a superdose pode estar associada à toxicidade aguda do etanol (álcool) presente na formulação.
+- pneumonia, inflamação grave (sepse);
+
+- problemas no pulmão: falta de ar, entupimento no pulmão por coágulo (embolia pulmonar), cicatrizes e endurecimento no pulmão com falta de ar (fibrose pulmonar), inflamação nos pulmões que causa falta de ar e tosse seca (doença intersticial pulmonar);
+
+- intestino entupido (obstrução intestinal) ou furo no intestino (perfuração intestinal), inflamação no intestino (colite isquêmica), inflamação do pâncreas (pancreatite);
+
+- reações mais graves na pele.
+
+Muito raros (acontecem em menos de 1 pessoa em cada 10.000/frequência não conhecida):
+
+- reação alérgica grave (choque anafilático), reações alérgicas muito graves;
+
+- complicação pela morte de células do câncer em grande quantidade que se espalham pelo sangue (síndrome de lise tumoral) (frequência não conhecida);
+
+- problemas graves no fígado, incluindo morte (o que é muito raro);
+
+- reações graves na pele: problema alérgico raro (síndrome de Stevens-Johnson) e alergia grave na pele causada por remédios (necrólise epidérmica);
+
+- inchaço na parte de trás do olho (edema macular) (frequência não conhecida).
+
+Diga ao profissional de saúde todas as reações indesejadas que você tiver.
+
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
+
+Não existe remédio nem tratamento específico para cortar o efeito de uma dose muito alta.
+As principais complicações causadas por doses muito altas são:
+
+- diminuição das células do sangue produzidas pela medula óssea;
+
+- problemas nos nervos (toxicidade);
+
+- inflamação e feridas na boca, garganta e sistema digestivo (mucosas).
+
+Em crianças, a intoxicação pode ser causada pelo álcool no remédio.

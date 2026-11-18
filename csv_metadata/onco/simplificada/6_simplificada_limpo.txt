@@ -17,319 +17,356 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Braftovi® é um medicamento para tratar câncer. Ele contém a substância ativa encorafenibe, e é usado para tratar melanoma (câncer de pele) e câncer de pulmão de não pequenas células.
+O Braftovi® (encorafenibe) trata câncer de pele (melanoma) e um tipo de câncer de pulmão (o tipo "de células não pequenas"). Ele contém a substância ativa encorafenibe.
 
-Braftovi® é usado em adultos, junto com binimetinibe (Mektovi®), quando o tumor:
+O Braftovi® é usado em adultos, junto com o remédio binimetinibe (Mektovi®), quando o tumor:
 
-- Apresenta uma mutação (alteração genética) no gene BRAF; e
+- tem um defeito genético (uma mutação) no gene BRAF; e
 
-- Já se espalhou para outras partes do corpo ou não pode ser removido por cirurgia.
+- já se espalhou para outras partes do corpo (é do tipo câncer metastático) ou não pode ser tirado por cirurgia.
 
-Também é usado para tratar câncer de intestino grosso (câncer colorretal) em adultos junto com cetuximabe, ou cetuximabe + mFOLFOX6 (fluorouracil, leucovorina e oxaliplatina), quando o tumor:
+É usado para tratar câncer no intestino grosso (câncer colorretal) em adultos, junto com o remédio cetuximabe. É também usado junto com cetuximabe, fluoruracila, leucovorina e oxaliplatina (tratamento que se chama mFOLFOX6), quando o tumor:
 
-- Tem mutação no gene BRAF; e
+- tem um defeito (uma mutação) no gene BRAF; e
 
-- Já se espalhou para outras partes do corpo.
+- já se espalhou para outras partes do corpo (câncer metastático).
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-No melanoma e no câncer de pulmão, a mutação no gene BRAF faz com que o tumor cresça mais rápido. Braftovi® bloqueia a proteína produzida por esse gene alterado.
+No câncer de pele (melanoma) e no câncer de pulmão, o defeito no gene BRAF faz o tumor crescer mais rápido. O Braftovi® bloqueia a proteína produzida por esse gene com defeito.
 
-Quando usado com binimetinibe, que bloqueia outra proteína envolvida no crescimento do câncer, o tratamento pode retardar ou interromper o crescimento do tumor.
+Quando usado junto com o binimetinibe, o tratamento pode desacelerar ou parar o crescimento do tumor. Isso acontece porque o binimetinibe bloqueia uma outra proteína que faz o câncer crescer.
 
-No câncer de intestino grosso, A mutação no gene BRAF também estimula o crescimento do câncer colorretal. Quando Braftovi® é usado com cetuximabe, que age sobre o receptor EGFR (proteína presente na superfície das células tumorais), a combinação ajuda a reduzir ou interromper o crescimento do câncer.
+No câncer no intestino grosso, o defeito no gene BRAF também faz o tumor crescer. Quando o Braftovi® é usado com o cetuximabe, a combinação dos dois remédios ajuda a diminuir ou parar o crescimento do câncer. Isso acontece porque o cetuximabe age na proteína EGFR presente nas células do tumor.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não use Braftovi® se você for alérgico ao encorafenibe ou a qualquer componente da fórmula.
+Você NÃO deve tomar o Braftovi® se tiver alergia ao encorafenibe ou a qualquer outro ingrediente do remédio.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Antes de iniciar o tratamento, o médico fará um exame para confirmar a mutação BRAF.
+CUIDADOS
 
-Leia também as bulas de:
+Antes de começar o tratamento, o médico vai pedir para você fazer um teste para saber se o tumor tem o defeito no gene BRAF (a mutação BRAF).
 
-- Mektovi® (binimetinibe)
+Leia também com atenção as bulas dos seguintes remédios:
 
-- Cetuximabe
+- Mektovi® (binimetinibe);
 
-- Fluorouracil, leucovorina e oxaliplatina (quando indicados)
+- cetuximabe;
 
-Informe seu médico antes de iniciar o tratamento se você tiver:
+- fluoruracila, leucovorina e oxaliplatina (quando forem indicados).
 
-- Problemas cardíacos (especialmente prolongamento do intervalo QT, que é alteração elétrica do coração)
+Avise o médico antes de começar o tratamento se você:
 
-- tomando medicamentos para arritmia ou diuréticos ( eliminam água)
+- tiver problemas no coração (especialmente alteração no ritmo das batidas no eletrocardiograma, chamada de prolongamento do intervalo QT);
 
-- Batimento cardíaco lento (bradicardia)
+- usar remédios para normalizar o ritmo do coração (para arritmia) ou remédios para urinar mais (diuréticos);
 
-- Insuficiência cardíaca
+- tiver batimentos lentos do coração (bradicardia);
 
-- Níveis baixos de potássio ou magnésio
+- tiver coração fraco, que não bombeia bem o sangue (insuficiência cardíaca);
 
-- Problemas de sangramento
+- tiver níveis de sais minerais baixos no sangue (potássio ou magnésio);
 
-- Problemas nos olhos
+- tiver problemas de sangramento;
 
-- Problemas no fígado ou nos rins ( esse medicamento pode causar danos ao fígado)
+- tiver problemas nos olhos;
 
-- Histórico de outro tipo de câncer
+- tiver problemas no fígado ou nos rins (este remédio pode prejudicar o fígado);
 
-- Alterações na pele
+- tiver outros tipos de câncer;
 
-ATENÇÃO DURANTE O TRATAMENTO Procure seu médico imediatamente se sentir:
+- tiver problemas na pele.
 
-- Problemas cardíacos
+ATENÇÃO DURANTE O TRATAMENTO
 
-- Tontura
+Procure o médico IMEDIATAMENTE se você sentir:
 
-- Cansaço intenso
+- problemas no coração;
 
-- Falta de ar
+- tontura;
 
-- Batimentos rápidos, fortes ou irregulares
+- cansaço muito forte;
 
-- Inchaço nas pernas Não use este medicamento se você tiver síndrome do QT longo congênita.
+- falta de ar;
 
-Sangramentos. Avise o médico imediatamente se tiver:
+- batimentos do coração acelerados, muito fortes ou fora do ritmo normal;
 
-- Tosse com sangue
+- inchaço nas pernas ou nos pés. Não use este remédio se você tiver um problema no ritmo do coração chamado "síndrome congênita do QT longo".
 
-- Vômito com sangue ou escuro como “borra de café”
+Sangramentos
 
-- Fezes pretas ou vermelhas
+Avise o médico IMEDIATAMENTE se você tiver:
 
-- Sangue na urina
+- tosse com sangue;
 
-- Dor abdominal
+- vômito com sangue ou vômito escuro (parecido com borra de café);
 
-- Sangramento vaginal incomum Se sentir dor de cabeça com fraqueza ou tontura, també informe o médico.
+- cocô escuro ou com sangue vermelho vivo;
 
-Problemas nos olhos podem surgir, especialmente quando usado com Mektovi®.
+- urina com sangue;
 
-Informe se tiver:
+- dor na barriga;
 
-- Visão turva
+- sangramento estranho pela vagina.
 
-- Perda de visão
+Se sentir dor de cabeça com tontura ou fraqueza, avise o médico IMEDIATAMENTE.
 
-- Pontos coloridos na visão
+Tomar o Braftovi® junto com o Mektovi® pode causar problemas graves nos olhos.
 
-- Halo (contorno borrado ao redor dos objetos)
+Avise o médico se você tiver:
 
-- Dor ou vermelhidão nos olhos
+- visão nublada ou turva;
 
-Braftovi® pode causar alterações na pele, como:
+- perda de parte ou de toda a visão;
 
-- Carcinoma de células escamosas
+- pontos coloridos na visão;
 
-- Novo melanoma
+- círculos ou contornos borrados ao redor dos objetos (halos);
 
-O médico examinará sua pele:
+- dor nos olhos ou olhos vermelhos.
 
-- Antes do tratamento
+O Braftovi® pode causar outros tipos de câncer de pele, como:
 
-- A cada 2 meses durante o tratamento
+- feridas que sangram ou não cicatrizam (carcinoma de células escamosas da pele);
 
-- Por até 6 meses após o término Informe qualquer:
+- novo câncer de pele (novo melanoma).
 
-- Nova verruga
+O médico vai examinar a sua pele com atenção:
 
-- Ferida que não cicatriza
+- antes de começar o tratamento;
 
-- Mancha que muda de tamanho ou cor
+- a cada 2 meses durante todo o tratamento;
 
-Esse medicamento pode alterar exames de sangue relacionados ao fígado. É preciso fazer exames regularmente.
+- por até 6 meses depois de parar o tratamento.
 
-Esse medicamento pode causar alterações nos rins ou desidratação. Beba bastante líquido.
+Avise IMEDIATAMENTE o médico se você notar qualquer:
 
-Síndrome de lise tumoral Pode ocorrer quando muitas células tumorais morrem ao mesmo tempo.
+- verruga nova ou caroço na pele;
 
-Sintomas:
+- ferida na pele que não cicatriza ou que não para de sangrar;
 
-- Náusea
+- mancha ou sinal que muda de cor, formato ou tamanho.
 
-- Falta de ar
+Este remédio pode alterar os exames de sangue do fígado. O médico vai pedir exames de sangue com frequência para acompanhar/monitorar o fígado.
 
-- Batimento irregular
+Este remédio pode prejudicar o funcionamento dos rins e causar falta de água no corpo (desidratação). Beba bastante líquidos durante todo o tratamento.
 
-- Cãibras
+Complicação pela morte de células do câncer em grande quantidade que se espalham pelo sangue (síndrome de lise tumoral): pode acontecer quando muitas células do câncer morrem muito rápido de uma vez só e soltam substâncias perigosas no sangue.
 
-- Urina escura
+Os sintomas dessa complicação são:
 
-- Pouca urina
+- enjoo forte;
 
-- Convulsões Procure atendimento médico imediatamente.
+- falta de ar;
 
-Não é recomendado para menores de 18 anos.
+- batimentos do coração fora do ritmo normal;
 
-Informe o médico se você usa:
+- cãibras musculares;
 
-- Antifúngicos (itraconazol, fluconazol, posaconazol)
+- urina escura;
 
-- Antibióticos (rifampicina, claritromicina, eritromicina)
+- pouca urina;
 
-- Anticonvulsivantes (fenitoína, carbamazepina)
+- crises de tremores (convulsões).
 
-- Medicamentos para colesterol (rosuvastatina, atorvastatina)
+Procure atendimento médico IMEDIATAMENTE se sentir esses sinais.
 
-- Erva de São João
+Crianças e adolescentes: este remédio NÃO é recomendado para menores de 18 anos.
 
-- Medicamentos para HIV
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-- Anticoncepcionais hormonais
+Avise o médico se você estiver tomando ou tomou recentemente qualquer um destes remédios:
 
-- Medicamentos para pressão alta
+- remédios para tratar micoses e fungos (como itraconazol, fluconazol e posaconazol);
 
-- Amiodarona (para arritmia)
+- antibióticos para tratar infecções (como rifampicina, claritromicina, eritromicina e penicilina);
 
-- Suco de toranja (grapefruit) Não consuma durante o tratamento, pois podem aumentar os efeitos colaterais.
+- remédios para convulsões e epilepsia (como fenitoína e carbamazepina);
 
-Não use durante a gravidez. Pode causar defeitos no bebê. Mulheres devem usar método contraceptivo eficaz durante o tratamento e por 1 mês após a última dose. Anticoncepcionais hormonais podem não funcionar bem.
+- remédios para baixar o colesterol alto (como rosuvastatina e atorvastatina);
 
-Use método de barreira (ex.: preservativo).
+- produtos feitos de plantas medicinais, como a erva-de-são-joão;
 
-Não amamente durante o tratamento e consulte o médico.
+- remédios para o vírus do HIV (como ritonavir, dolutegravir e raltegravir);
 
-O medicamento pode reduzir a contagem de espermatozoides em homens.
+- remédios com hormônios para evitar a gravidez (anticoncepcionais hormonais);
 
-Dirigir e operar máquinas: Pode afetar a visão. Evite dirigir se tiver tontura ou alteração visual.
+- remédios para baixar a pressão alta (como diltiazem, bosentana e furosemida);
 
-Sensibilidade ao sol: Use roupas protetoras e filtro solar.
+- amiodarona (remédio para corrigir o ritmo dos batimentos do coração);
 
-5. COMO GUARDAR ESTE MEDICAMENTO?
+- toranja ou suco de toranja: não consuma toranja durante o tratamento, pois ela pode alterar a quantidade de remédio no sangue e aumentar as reações indesejadas.
 
-Guardar em temperatura ambiente (15°C a 30°C). Proteger da umidade. Não usar após a validade. Manter fora do alcance das crianças.
+Gravidez: NÃO tome este remédio durante a gravidez sem orientação médica, pois ele pode prejudicar o feto.
+Pessoas que podem engravidar devem usar métodos muito seguros para evitar a gravidez durante todo o tratamento e por pelo menos 1 mês depois da última dose.
+Como os métodos para evitar a gravidez feitos de hormônios podem perder o efeito com este remédio, é melhor usar outros métodos junto.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+Use camisinha (preservativo) durante todo o tratamento.
 
-Melanoma ou câncer de pulmão:
+Amamentação: NÃO amamente durante o tratamento. Converse com o médico, pois não se sabe se o remédio passa para o leite do peito e se pode prejudicar o bebê.
 
-- 6 cápsulas de 75 mg uma vez ao dia. Dose total diária: 450 mg. Usado junto com Mektovi®
+Fertilidade masculina: este remédio pode diminuir a quantidade de espermatozoides no homem, o que pode atrapalhar a capacidade de ter filhos.
 
-Câncer de intestino grosso:
+Dirigir e usar máquinas: este remédio pode causar tontura, cansaço ou visão nublada. Não dirija se você tiver esses sintomas.
 
-- 4 cápsulas de 75 mg uma vez ao dia. Dose total diária: 300 mg. Usado com cetuximabe ± mFOLFOX6
+Sensibilidade à luz do sol: a pele pode ficar mais sensível ao sol durante o tratamento. Use roupas para se proteger e passe protetor solar.
 
-Doses podem ser ajustadas, se necessário.
+5. COMO GUARDAR ESTE REMÉDIO?
 
-- Melanoma/pulmão: 300 mg (4 cápsulas) ou 225 mg (3 cápsulas)
+Guarde em temperatura ambiente (de 15 °C até 30 °C).
+Proteja da umidade.
+Não use após a data de validade.
+Mantenha fora do alcance de crianças.
 
-- Intestino grosso: 225 mg (3 cápsulas) ou 150 mg (2 cápsulas)
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-Para tomar, basta engolir as cápsulas inteiras com água. Pode tomar com ou sem comida. Não abrir, mastigar ou partir. Se vomitar, não tome dose extra.
+Câncer de pele (melanoma) ou câncer de pulmão:
 
-Tome a próxima no horário habitual.
+- tome 6 cápsulas de 75 mg uma vez ao dia (dose total de 450 mg por dia).
 
-7. O QUE FAZER SE ESQUECER UMA DOSE?
+Dose diária:
+- 450 mg;
+- usado junto com o Mektovi®.
 
-Se lembrar em até 12 horas, tome a dose. Se já passaram mais de 12 horas, pule a dose esquecida. Não tome dose dobrada.
+Câncer no intestino grosso (câncer colorretal):
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+- tome 4 cápsulas de 75 mg uma vez ao dia (dose total de 300 mg por dia).
 
-O Braftovi pode causar reações graves, como:
+Dose diária:
+- 300 mg;
+- usado com cetuximabe ± mFOLFOX6.
 
-- Problemas cardíacos
+O médico vai ajustar ou diminuir as doses se for necessário:
 
-- Problemas oculares
+- para câncer de pele ou pulmão: diminuir para 300 mg (4 cápsulas ao dia) ou 225 mg (3 cápsulas ao dia);
 
-- Sangramento
+- para intestino grosso: diminuir para 225 mg (3 cápsulas ao dia) ou 150 mg (2 cápsulas ao dia).
 
-- Lesão muscular grave (rabdomiólise)
+Como tomar: engula as cápsulas inteiras com um copo de água. Você pode tomar com ou sem comida, sempre no mesmo horário todos os dias.
+NÃO abra, NÃO mastigue e NÃO parta ao meio as cápsulas.
+Se você vomitar depois de tomar a dose, NÃO tome outras cápsulas para compensar a dose.
 
-- Novo câncer de pele
+Espere e tome apenas a próxima dose no horário de sempre no dia seguinte.
 
-Reações muito comuns (≥ 10%):
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-- Anemia
+Se você esquecer de tomar uma dose:
 
-- Dor de cabeça
+- se lembrar em até 12 horas, tome a dose;
+- se já se passaram mais de 12 horas: pule a dose que esqueceu e tome a próxima dose no horário de sempre.
+NUNCA tome duas doses ao mesmo tempo para compensar doses esquecidas.
 
-- Tontura
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-- Diarreia
+O Braftovi® pode causar reações graves, como:
 
-- Náusea e vômito
+- problemas no coração;
 
-- Constipação
+- problemas nos olhos;
 
-- Dor abdominal
+- sangramentos;
 
-- Fadiga
+- destruição grave dos músculos (rabdomiólise);
 
-- Febre
+- aparecimento de outros tipos de câncer de pele.
 
-- Queda de cabelo
+Reações muito comuns (acontecem em mais de 10% das pessoas - mais de 1 pessoa a cada 10):
 
-- Pele seca
+- diminuição das células vermelhas no sangue (anemia);
 
-- Coceira
+- dor de cabeça;
 
-- Dor muscular ou nas articulações
+- tontura;
 
-- Inchaço nas mãos e pés
+- diarreia;
 
-- Pressão alta
+- enjoo e vômito;
 
-- Alterações nos exames de fígado
+- prisão de ventre (constipação);
 
-- Alterações nos exames relacionados a creatinofosfoquinase
+- dor na barriga;
 
-Reações comuns  (até 10%)
+- cansaço muito forte;
 
-- Reação alérgica
+- febre;
 
-- Alteração no paladar
+- perda de cabelo;
 
-- Coágulos sanguíneos
+- pele seca;
 
-- Inflamação do pâncreas
+- coceira;
 
-- Insuficiência renal
+- dor nos músculos ou nas juntas/articulações;
 
-- Sensibilidade ao sol
+- inchaço nas mãos, pernas e pés;
 
-- Frequência desconhecida
+- pressão alta;
 
-- Síndrome de lise tumoral
+- alterações nos exames de sangue do fígado;
 
-Reações incomuns  (até 1%)
+- aumento de substâncias dos músculos no sangue (exame de creatinofosfoquinase).
 
-- fraqueza e paralisia dos músculos da face
+Reações comuns (acontecem em até 10% das pessoas):
 
-- pancreatite
+- reação alérgica;
 
-- câncer de pele
+- mudança no gosto da comida (alteração no paladar);
 
-- inflamação no olho
+- coágulos de sangue;
 
-- resultado anormal de teste sanguíneo para função do pâncreas
+- inflamação no pâncreas;
 
-- descamação da pele
+- problema grave nos rins (insuficiência renal);
 
-Reação de frequência desconhecida: Síndrome da Lise Tumoral
+- sensibilidade da pele ao sol.
 
-9. O QUE FAZER EM CASO DE DOSE MAIOR QUE A INDICADA?
+Frequência desconhecida:
 
-Se tomar mais cápsulas do que deveria, procure atendimento médico imediatamente. Leve a embalagem ou bula.
+- complicação pela morte de células do câncer em grande quantidade que se espalham pelo sangue (síndrome de lise tumoral).
 
-Sintomas podem incluir:
+Reações incomuns (acontecem em até 1% das pessoas):
 
-- Náusea
+- fraqueza e músculos do rosto paralisados (paralisia facial);
 
-- Vômito
+- inflamação no pâncreas (pancreatite);
 
-- Desidratação
+- câncer de pele;
 
-- Visão turva Em caso de emergência, ligue para 0800-722-6001. Este medicamento é novo. Mesmo usado corretamente, pode causar efeitos inesperados.
+- inflamação nos olhos;
 
-Informe qualquer sintoma ao seu médico.
+- problemas nos exames de sangue do pâncreas;
+
+- pele descascando, bolhas e feridas na pele.
+
+Reação de frequência desconhecida: complicação pela morte de células do câncer em grande quantidade que se espalham pelo sangue (síndrome de lise tumoral).
+
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
+
+Se você tomar uma quantidade maior de Braftovi® do que a indicada, procure atendimento médico IMEDIATAMENTE em um hospital.
+Leve a caixa do remédio ou esta bula com você.
+
+Os sintomas de uma dose maior que a indicada podem incluir:
+
+- enjoo forte;
+
+- vômito;
+
+- desidratação;
+
+- visão nublada ou turva.
+
+Em caso de emergência, você pode ligar para o telefone 0800 722 6001 para receber orientações.
+Este remédio é novo. Mesmo usado da forma certa, ele pode causar reações que não são conhecidas.
+
+Avise o médico se você tiver reações indesejadas.
 </text>

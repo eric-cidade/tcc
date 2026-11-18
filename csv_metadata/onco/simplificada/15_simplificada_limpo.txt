@@ -17,137 +17,133 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-Este medicamento é usado como auxiliar para:
+A Glicerina 12% (também chamada de Glicerol) é um líquido que se aplica diretamente no intestino para:
 
-- lavagem intestinal
+- aliviar a prisão de ventre (constipação crônica);
 
-- preparação antes de cirurgia (pré-operatório)
+- limpar o intestino antes de cirurgias;
 
-- preparação para exames radiológicos
+- limpar o intestino antes de exames de imagem (como raio-X, tomografia ou ressonância).
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-Quando você aplica a glicerina via retal, ela:
+A Glicerina 12% é aplicada através do ânus na última parte do intestino (reto) para ajudar o intestino a se movimentar. Após alguns minutos, o líquido de Glicerina amolece o cocô e a pessoa sente vontade de ir ao banheiro.
 
-- lubrifica e amolece as fezes presas;
+Para fazer uma lavagem mais profunda do intestino, a Glicerina 12% pode ser misturada com água.
 
-- ajuda o intestino a se movimentar (peristaltismo, que é o movimento natural do intestino);
+Esse procedimento se chama "enema" e serve para limpar a maior parte do intestino grosso (cólon). No enema, como a Glicerina é misturada com água, a limpeza é mais suave e causa menos dor e irritação no intestino do que remédios mais fortes, como laxantes e supositórios.
 
-- estimula os nervos da parede do intestino, o que provoca evacuação.
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Assim, a glicerina promove a limpeza completa do intestino.
+NÃO USE Glicerina se você:
 
-Quando você dilui a glicerina em água para injeção, forma-se uma solução usada como enema (lavagem intestinal).
+- tiver o intestino entupido (obstrução intestinal).
 
-O enema à base de glicerina ajuda a esvaziar o intestino grosso (cólon) e, em geral, causa menos cólicas e irritação do que alguns laxantes e supositórios.
+PESSOAS GRÁVIDAS: NÃO SE SABE se o uso é seguro na gravidez.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+Um médico ou dentista deve confirmar se a pessoa grávida pode usar Glicerina.
 
-Não use este medicamento se você tiver:
+AMAMENTAÇÃO: o médico ou o dentista vão avaliar se a pessoa que está amamentando pode usar Glicerina e monitorar/acompanhar o tratamento.
 
-- obstrução intestinal (intestino bloqueado)
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-- Gravidez: Categoria de risco C.
+NÃO USE Glicerina se você:
 
-Mulheres grávidas não devem usar este medicamento sem orientação médica ou do cirurgião-dentista.
+- sentir uma dor muito forte entre o umbigo e o lado direito da barriga (pode ser uma inflamação conhecida como “apendicite”);
 
-Amamentação: O uso durante a amamentação depende da avaliação e acompanhamento do médico ou do cirurgião-dentista.
+- enxergar sangue no cocô ou no papel higiênico e ainda não consultou um médico;
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+- tiver feridas no intestino.
 
-Não use este medicamento se você tiver:
+USE COM CUIDADO a Glicerina se você:
 
-- apendicite
+- tem risco de acumular líquido no sangue (hipervolemia);
 
-- sangramento retal sem diagnóstico
+- seu coração não consegue bombear sangue suficiente para o corpo (insuficiência cardíaca);
 
-- lesões intestinais
+- tem problemas nos rins;
 
-Use com cuidado se você tiver:
+- está desidratado (a Glicerina pode piorar a desidratação).
 
-- risco de hipervolemia (excesso de líquido no sangue)
+PESSOAS IDOSAS: só devem usar a Glicerina se o médico indicar. A idade causa mudanças no corpo e, por isso, os efeitos deste remédio também podem mudar.
 
-- insuficiência cardíaca
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-- problemas nos rins
+Que se saiba, a Glicerina não interfere na ação de outros remédios.
 
-- desidratação, pois o medicamento pode piorar essa condição Use enemas apenas quando houver indicação clara e não existir substituto adequado.
+Diga ao médico ou ao dentista os outros remédios que você usa.
 
-Idosos: Use com cautela e sempre com prescrição médica, pois alterações do corpo relacionadas à idade podem mudar o efeito do medicamento.
+NUNCA use remédios sem orientação médica. Isso pode ser perigoso para a sua saúde.
 
-Interações medicamentosas: Não há interações conhecidas.
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Informe ao médico ou cirurgião-dentista se você usa outros medicamentos.
+Guarde em temperatura ambiente (de 15 °C a 30 °C).
 
-Não use este medicamento sem orientação médica. Pode ser perigoso para sua saúde.
+Proteja da luz e da umidade.
 
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+Validade: 24 meses a partir da data de fabricação.
+Veja as informações de fabricação e a data de validade na embalagem.
 
-Guarde em temperatura ambiente (15 ºC a 30 ºC). Proteja da luz e da umidade.
+Não use a Glicerina se estiver vencida.
+Guarde na embalagem original.
 
-Validade: 24 meses a partir da data de fabricação. Veja lote e datas na embalagem.
+Depois de abrir a embalagem, a Glicerina deve ser usada na hora para que não se contamine.
+Se sobrar Glicerina, jogue fora junto com o tubinho de aplicação.
+NÃO GUARDE NADA.
 
-Não use após o vencimento. Guarde na embalagem original.
+ANTES DE USAR a Glicerina, confira:
 
-Depois de abrir, use imediatamente. O produto é estéril. Você não deve guardar nem reutilizar a solução já aberta. Descarte o restante.
+- se a embalagem está bem fechada (sem rachaduras) e o líquido está em bom estado;
 
-Antes de usar, verifique se a solução está:
+- se o líquido está transparente, sem cheiro e sem pó visível no fundo da bolsa.
 
-- límpida e incolor
+Mantenha fora do alcance de crianças.
 
-- sem partículas
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-- sem turvação
+A Glicerina 12% deve ser aplicada na última parte do intestino (reto) por um profissional de saúde e em um ambiente hospitalar.
 
-- com embalagem íntegra (sem rachaduras ou danos) Se houver qualquer alteração, não use.
+A Glicerina pode ser usada em pessoas adultas e em crianças.
 
-Mantenha fora do alcance das crianças.
+Em geral, o líquido aplicado deve estar na temperatura do corpo da pessoa para evitar desconforto.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+Doses (Glicerina 12%)
 
-Via de administração: retal.
+A quantidade mínima indicada de Glicerina 12% é de 250 mL por dia.
 
-Uso adulto e pediátrico.
+A quantidade máxima é de 1.000 mL por dia. Se a pessoa fizer cocô menos de 3 vezes por semana (constipação crônica) e tiver o intestino irritado, o médico pode indicar uma limpeza mais suave do intestino. Essa limpeza mais suave se chama “enema”.
 
-O volume da solução depende da avaliação médica e da necessidade do paciente. A solução geralmente é aplicada na temperatura do corpo.
+ATENÇÃO: siga as instruções do médico durante todo o tratamento com Glicerina.
+Ele vai indicar como deve ser feito o tratamento, incluindo: horários, quanto líquido aplicar e a duração do tratamento.
 
-Posologia (Solução a 12%)
+NUNCA pare o tratamento sem orientação médica.
 
-- Dose mínima recomendada: 250 mL/dia
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-- Dose máxima: 1.000 mL/dia Em casos de constipação crônica com irritação do intestino, pode ser melhor usar uma solução de menor concentração, de forma intermitente, até alcançar o efeito, pois isso irrita menos.
+A Glicerina 12% precisa ser aplicada na pessoa por um profissional de saúde em um ambiente hospitalar. A equipe de saúde deve decidir qual é a quantidade de Glicerina certa para cada caso. Se você tiver alguma dúvida, pergunte a um farmacêutico, médico ou dentista.
 
-A duração do tratamento depende da orientação médica.
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-Siga sempre as orientações do médico quanto a horários, doses e tempo de uso.
+A Glicerina age apenas no intestino e não costuma ser absorvida pelo corpo.
 
-Não interrompa o tratamento sem orientação.
+Por isso, pode causar os seguintes problemas:
 
-7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+- dor que vai e volta (cólicas);
 
-Este medicamento é administrado por um profissional de saúde, em ambiente hospitalar. Portanto, o controle da dose é responsabilidade da equipe de saúde. Se tiver dúvidas, procure o farmacêutico, o médico ou o cirurgião-dentista.
+- diarreia. Diga ao médico ou ao profissional de saúde todas as reações indesejadas que você tiver.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-A glicerina 12% age localmente e não costuma ser absorvida pelo organismo.
+A dose máxima é 1.000 mL por dia.
 
-Os efeitos esperados podem incluir:
-
-- cólicas intestinais
-
-- diarreia Informe ao médico se surgirem reações indesejáveis.
-
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
-
-A dose máxima é 1.000 mL/dia.
-
-Não foram observadas reações importantes relacionadas ao uso acima do indicado. Mesmo assim, em caso de dúvida ou sintomas inesperados, procure orientação médica.
+Não se conhecem problemas graves causados por usar muita Glicerina.
+Em caso de dúvidas ou de problemas inesperados, fale com o médico.
 </text>

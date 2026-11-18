@@ -17,43 +17,43 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. Para que este medicamento é indicado?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-O ácido zoledrônico é usado para:
+O Ácido zoledrônico é usado para:
 
-- tratar metástases ósseas (câncer que se espalhou para os ossos);
+- tratar câncer que se espalhou para os ossos (metástases ósseas);
 
-- reduzir o cálcio no sangue em pacientes com hipercalcemia induzida por tumor (HIT) (cálcio alto causado pelo tumor);
+- diminuir o cálcio no sangue em pessoas com cálcio alto causado pelo tumor (hipercalcemia induzida por tumor - HIT);
 
-- prevenir complicações nos ossos em pacientes com câncer avançado com metástases ósseas, como fraturas.
+- prevenir complicações nos ossos, como fraturas/quebras, em pessoas com câncer que se espalhou para os ossos.
 
-O ácido zoledrônico também é indicado para prevenir perda óssea causada por tratamento contra câncer com hormônios (tratamento antineoplásico hormonal) em pacientes com câncer de próstata ou câncer de mama.
+O Ácido zoledrônico também é indicado para prevenir perdas nos ossos causadas por tratamento contra câncer com hormônios (tratamento antineoplásico hormonal) em pessoas com câncer de próstata ou câncer de mama.
 
-2. Como este medicamento funciona?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-O princípio ativo é o ácido zoledrônico. Ele faz parte dos bisfosfonatos, medicamentos que agem principalmente nos ossos e são muito potentes.
+O princípio ativo deste remédio se chama Ácido zoledrônico. Esse ácido faz parte de uma categoria de remédios muito fortes chamada de bisfosfonatos, que agem principalmente nos ossos.
 
-O ácido zoledrônico diminui a “reabsorção óssea” (processo em que o corpo “desfaz” o osso), reduzindo a ação das células que desgastam o osso (osteoclastos). O mecanismo exato ainda não é totalmente conhecido.
+O Ácido zoledrônico diminui a ação das células que desgastam o osso (chamadas de osteoclastos). O mecanismo exato dessa diminuição ainda não é totalmente conhecido.
 
-Em estudos longos com animais, o ácido zoledrônico reduziu a perda de osso sem prejudicar a formação e a qualidade do osso.
+Em estudos longos com animais, o Ácido zoledrônico diminuiu a perda do osso sem prejudicar a formação e a qualidade do osso.
 
-Como ele é aplicado: o ácido zoledrônico vem como solução concentrada para infusão e é aplicado na veia, por infusão intravenosa.
+Como ele é aplicado: o Ácido zoledrônico vem em ampola-frasco e é um líquido concentrado, que é misturado com água para injeção, para ser aplicado na veia. Essa aplicação na veia se chama infusão intravenosa.
 
-Hipercalcemia induzida por tumor (HIT): alguns tumores aceleram a perda de osso e liberam mais cálcio do osso para o sangue. O ácido zoledrônico ajuda a reduzir esse cálcio alto.
+O Ácido zoledrônico ajuda a diminuir o cálcio alto no sangue (hipercalcemia induzida por tumor - HIT). Alguns tumores aceleram a perda de osso e levam o cálcio dos ossos para o sangue.
 
-3. Quando não devo usar este medicamento?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
-Não use ácido zoledrônico se você tem alergia ao ácido zoledrônico, a outro bisfosfonato ou a qualquer componente da fórmula.
+NÃO use Ácido zoledrônico se você tem alergia ao Ácido zoledrônico, alergia a outro remédio da categoria dos bisfosfonatos ou a algum ingrediente da fórmula.
 
-4. O que devo saber antes de usar este medicamento?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Siga as orientações do médico, mesmo que sejam diferentes da bula. Tenha cuidado e avise o médico antes do tratamento se você:
+Siga as orientações do médico, mesmo que sejam diferentes do que está escrito nesta bula. Tenha MUITO cuidado e avise o médico ANTES do tratamento se você:
 
 - tem problemas no fígado;
 
@@ -63,137 +63,137 @@ Siga as orientações do médico, mesmo que sejam diferentes da bula. Tenha cuid
 
 - tem asma e também é alérgico ao ácido acetilsalicílico (AAS/aspirina);
 
-- teve ou tem dor, inchaço, dormência na mandíbula, sensação de “mandíbula pesada”, perda de dente ou outros sintomas na boca;
+- teve ou tem dor, inchaço, perda de sensibilidade (dormência) na mandíbula/ossos do queixo, sensação de “queixo pesado”, perda de dente ou outros sintomas na boca;
 
-- está fazendo tratamento dentário ou vai fazer cirurgia odontológica (avise também o dentista);
+- está fazendo tratamento dentário ou vai fazer alguma cirurgia nos dentes (cirurgia odontológica); avise também o dentista;
 
-- tem rigidez, dor ou dificuldade de movimentar (principalmente quadril ou coxa) ou dor perto do canal auditivo externo. Isso pode ser sinal de osteonecrose (morte/dano do osso por falta de sangue).
+- tem rigidez, dor ou dificuldade de movimentar (principalmente o quadril ou as coxas) ou dor perto da entrada do ouvido (canal auditivo externo). CUIDADO: isso pode ser sinal de morte/dano do osso por falta de sangue (osteonecrose).
 
-Cuidados com dentes e boca: Faça uma avaliação com dentista antes do tratamento, se possível. Evite procedimentos odontológicos invasivos durante o tratamento, quando der. Mantenha boa higiene oral e consultas regulares.
+Cuidados com dentes e boca: faça uma avaliação com dentista ANTES do tratamento, se possível. Evite exames e terapias que machuquem a gengiva durante o tratamento. Mantenha boa higiene da boca e dos dentes e faça consultas regulares ao dentista.
 
-Avise imediatamente se aparecerem: dor, inchaço, feridas que não cicatrizam, secreção na boca ou dente mole/perda de dente.
+Avise IMEDIATAMENTE se aparecerem: dor, inchaço, feridas na boca que não cicatrizam, líquido saindo da boca ou dente mole/perda de dente.
 
-O médico vai acompanhar sua resposta e pode pedir exames de sangue antes e durante o tratamento.
+O médico vai acompanhar como você está respondendo ao tratamento e pode pedir exames de sangue antes e durante o uso do Ácido zoledrônico.
 
-Antes das infusões, beba líquidos suficientes, como o médico orientar, para evitar desidratação.
+Antes das aplicações/infusões na veia, beba líquidos suficientes, como o médico orientar, para evitar desidratação.
 
-Não use junto com medicamentos parecidos. Se você já usa outro medicamento com a mesma substância (ácido zoledrônico), ou outro bisfosfonato, você não deve usar os dois ao mesmo tempo. Avise o médico.
+Este remédio NÃO deve ser usado junto com outros remédios que sejam da mesma categoria. Se você já usa outro remédio com esta mesma substância (Ácido zoledrônico), ou outro bisfosfonato, você NÃO deve usar os 2 ao mesmo tempo. AVISE O MÉDICO.
 
-Cálcio baixo no sangue (hipocalcemia): O ácido zoledrônico pode causar hipocalcemia (cálcio baixo). Isso pode causar:
+Cálcio baixo no sangue (hipocalcemia): o Ácido zoledrônico pode causar diminuição do cálcio no sangue (hipocalcemia). Isso pode causar:
 
-- cãibras, espasmos musculares,
+- cãibras, fisgadas nos músculos, movimentos involuntários (espasmos musculares);
 
-- pele seca, sensação de queimação,
+- pele seca, sensação de queimação;
 
-- batimentos irregulares do coração, convulsões e tetania (contrações musculares fortes) em casos graves.
+- batimentos irregulares do coração, convulsões e contrações musculares muito fortes (tetania) em casos graves.
 
-- Em alguns casos, pode ser grave e até fatal.
+Em alguns casos, essa diminuição do cálcio no sangue pode ser grave e MATAR.
 
-Se você já tem hipocalcemia, o médico deve corrigir antes da primeira dose. Você pode precisar de suplementos de cálcio e vitamina D.
+Se você já tem cálcio baixo (hipocalcemia), o médico vai corrigir o nível de cálcio no sangue antes de você tomar a primeira dose. Talvez você precise de suplementos de cálcio e vitamina D.
 
-Idosos (65 anos ou mais): Pacientes idosos podem usar. Em geral, não precisam de cuidados extras apenas por causa da idade.
+Pessoas idosas (com 65 anos ou mais): pessoas idosas podem usar o Ácido zoledrônico. Em geral, não precisam de cuidados a mais apenas por causa da idade.
 
-Crianças e adolescentes: O uso não foi estudado. Não é recomendado.
+Crianças e adolescentes: o uso não foi estudado. NÃO é recomendado.
 
-Gravidez: não use. Avise o médico se estiver grávida ou suspeitar de gravidez.
+Gravidez: não use este remédio. Avise o médico se estiver grávida ou suspeitar que está grávida.
 
-Amamentação: não amamente durante o tratamento. Não se sabe se o ácido zoledrônico passa para o leite.
+Amamentação: NÃO amamente durante o tratamento. Não se sabe se o Ácido zoledrônico passa para o leite do peito.
 
-Dirigir e operar máquinas: Os efeitos sobre atenção não foram estudados. Tenha cautela ao dirigir e operar máquinas.
+Dirigir e usar máquinas: os efeitos deste remédio sobre a atenção não foram estudados. Tenha cuidado ao dirigir e usar máquinas.
 
-Interações medicamentosas: Avise o médico sobre todos os medicamentos, inclusive os sem receita. É especialmente importante avisar se você usa:
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS Diga ao médico todos os remédios que você toma, até os sem receita. É muito importante avisar se você usa:
 
-- aminoglicosídeos (antibióticos para infecções graves);
+- antibióticos para infecções graves (aminoglicosídeos);
 
-- calcitonina;
+- calcitonina, um remédio para os ossos;
 
-- diuréticos de alça (para pressão alta e inchaço);
+- diuréticos de alça (para tratar pressão alta e inchaço);
 
-- outros medicamentos que baixam o cálcio;
+- outros remédios que baixam o cálcio;
 
-- medicamentos que podem prejudicar os rins;
+- remédios que podem prejudicar os rins;
 
-- medicamentos antiangiogênicos (podem aumentar o risco de osteonecrose da mandíbula quando usados junto com bisfosfonatos).
+- remédios que impedem a formação de novos vasos de sangue (antiangiogênicos), pois podem aumentar o risco de perda dos ossos do queixo (osteonecrose da mandíbula).
 
-5. Onde, como e por quanto tempo posso guardar este medicamento?
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Guarde em temperatura ambiente (15°C a 30°C), na embalagem original. A solução preparada para infusão deve ser usada de preferência imediatamente. Se não usar na hora, o profissional de saúde deve guardar entre 2°C e 8°C.
+Guarde em temperatura ambiente (de 15 °C a 30 °C), na embalagem original. O líquido para aplicação/infusão deve ser usado logo depois de ser preparado. Se não usar na hora, o profissional de saúde deve guardar o líquido preparado entre 2 °C e 8 °C.
 
-Antes de aplicar, deixe a solução voltar à temperatura ambiente. O tempo total entre diluição + geladeira + fim da aplicação não pode passar de 24 horas.
+Antes de aplicar, o profissional de saúde deve deixar o líquido voltar à temperatura ambiente. O tempo total entre misturar o remédio, guardar na geladeira e terminar de aplicar na veia não pode passar de 24 horas (1 dia).
 
-O medicamento deve ser preparado e aplicado em hospital ou clínica com estrutura.
+O remédio deve ser preparado e aplicado SOMENTE em hospitais ou clínicas com estrutura.
 
-Características: solução injetável transparente, incolor a levemente amarelada, sem partículas visíveis. Mantenha fora do alcance das crianças.
+Características: líquido transparente para injeção, sem nenhuma cor a levemente amarelado, sem pedacinhos misturados visíveis. Manter fora do alcance de crianças.
 
-6. Como devo usar este medicamento?
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-Somente um profissional de saúde treinado pode preparar e aplicar o ácido zoledrônico na veia.
+Somente um profissional de saúde treinado pode preparar e aplicar o Ácido zoledrônico na veia.
 
-A aplicação do medicamento 4 mg/5 mL (solução concentrada para infusão) é via infusão intravenosa com duração de pelo menos 15 minutos, em dose única.
+A aplicação do remédio na dose de 4 mg/5 mL (líquido concentrado para infusão) é na veia, por infusão intravenosa. A aplicação é lenta e dura pelo menos 15 minutos, feita em dose única.
 
-Use um cateter separado de outros medicamentos.
+Deve ser usado um cateter/agulha separado de outros remédios.
 
-Suplementos (quando indicado pelo médico): Se você não tem hipercalcemia, o médico pode recomendar cálcio e vitamina D por via oral todos os dias.
+Suplementos (quando indicados pelo médico): se você não tem cálcio alto no sangue (hipercalcemia), o médico pode recomendar cálcio e vitamina D por via oral todos os dias.
 
-Dose normal em adultos: 4 mg por infusão.
+Dose normal para adultos: 4 mg por aplicação/infusão.
 
-Se você tem problema nos rins, o médico pode reduzir a dose.
+Se você tem problema nos rins, o médico pode diminuir a dose.
 
-Frequência das infusões (depende da indicação):
+Frequência das aplicações/infusões (depende do seu problema de saúde):
 
-- Para prevenir complicações nos ossos (metástases ósseas): 1 infusão a cada 3 a 4 semanas.
+- para prevenir complicações nos ossos (metástases ósseas): 1 aplicação/infusão a cada 3 ou 4 semanas;
 
-- Para HIT (cálcio alto por tumor): normalmente apenas 1 infusão.
+- para cálcio alto causado pelo tumor (HIT): normalmente apenas 1 aplicação/infusão;
 
-- Para prevenir perda óssea por tratamento hormonal do câncer de próstata: 1 infusão a cada 3 meses.
+- para prevenir a perda de osso causada pelo tratamento do câncer de próstata com hormônios: 1 aplicação/infusão a cada 3 meses;
 
-- Para prevenir perda óssea por tratamento hormonal do câncer de mama: 1 infusão a cada 6 meses.
+- para prevenir a perda de osso causada pelo tratamento do câncer de mama com hormônios: 1 aplicação/infusão a cada 6 meses.
 
-O médico decide a frequência e a duração do tratamento.
+O médico vai decidir a frequência e a duração do tratamento.
 
-7. O que devo fazer quando eu me esquecer de usar este medicamento?
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-O ácido zoledrônico é aplicado por profissional de saúde. Se você perder uma data de infusão, fale com o médico ou a equipe do serviço para remarcar.
+O Ácido zoledrônico é aplicado por profissionais de saúde. Se você perder uma data de aplicação/infusão, fale com o médico ou a equipe do serviço para remarcar.
 
-8. Quais os males que este medicamento pode me causar?
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-Algumas reações podem acontecer, mas nem todo mundo tem. Muitas são leves e passam em pouco tempo. Avise a equipe de saúde se os sintomas forem fortes ou persistentes.
+O Ácido zoledrônico pode causar algumas reações, mas nem todo mundo sente esses efeitos. Muitas reações são leves e melhoram em pouco tempo. Avise a equipe de saúde se os sintomas forem fortes ou demorarem a passar.
 
-Reações muito comuns (mais de 10%)
+Reações muito comuns (acontecem em mais de 10% das pessoas - mais de 1 pessoa a cada 10):
 
-- Fosfato baixo no sangue.
+- fosfato baixo no sangue.
 
-Reações comuns (1% a 10%)
+Reações comuns (acontecem em 1 a 10 pessoas a cada 100 - entre 1% e 10%):
 
 - formigamento/dormência nas mãos ou pés;
 
 - pressão alta;
 
-- inchaço em mãos, tornozelos ou pés;
+- inchaço nas mãos, nos tornozelos ou nos pés;
 
-- alteração do sono;
+- problemas para dormir;
 
-- dor de cabeça e sintomas tipo gripe: febre, cansaço, fraqueza, sonolência, calafrios, dores nos ossos, músculos e articulações;
+- dor de cabeça e sintomas tipo gripe: febre, cansaço, fraqueza, sono, calafrios, dores nos ossos, nos músculos e nas juntas/articulações;
 
-- náuseas, vômitos, constipação, perda de apetite;
+- enjoo, vômitos, prisão de ventre (constipação), perder o apetite/perder a fome;
 
-- anemia;
+- diminuição de células vermelhas no sangue (anemia);
 
 - cálcio baixo no sangue (hipocalcemia);
 
-- dores e rigidez em ossos, músculos e articulações;
+- dores e dificuldade para movimentar os ossos, os músculos e as juntas (articulações);
 
-- exames com creatinina alta (pode indicar alteração nos rins);
+- exames com creatinina alta (pode indicar problemas nos rins);
 
-- conjuntivite;
+- irritação nos olhos (conjuntivite);
 
-- suor excessivo.
+- suor em grande quantidade.
 
-Reações incomuns (0,1% a 1%)
+Reações incomuns (acontecem em 1 a 10 pessoas a cada 1.000 - entre 0,1% e 1%):
 
-- sinais de osteonecrose da mandíbula: dor na boca/dentes/mandíbula, feridas que não cicatrizam, secreção, inchaço, boca seca, dormência, sensação de “mandíbula pesada”, dente mole ou perda de dente;
+- sinais de perda de ossos do queixo (osteonecrose da mandíbula): dor na boca/dentes/mandíbula, feridas que não cicatrizam, secreção, inchaço, boca seca, dormência, sensação de “queixo pesado”, dente mole ou perda de dente;
 
-- alterações nos rins, incluindo insuficiência renal grave;
+- problemas nos rins, incluindo parada ou perda grave do funcionamento dos rins (insuficiência renal grave);
 
 - alergia;
 
@@ -201,7 +201,7 @@ Reações incomuns (0,1% a 1%)
 
 - dor no peito;
 
-- reação no local da injeção, vermelhidão, inchaço, rash (manchas na pele), coceira;
+- reação no local da injeção, pele irritada (vermelhidão), inchaço, manchas na pele (chamadas de rash), coceira;
 
 - falta de ar;
 
@@ -209,35 +209,35 @@ Reações incomuns (0,1% a 1%)
 
 - diarreia;
 
-- células brancas baixas e plaquetas baixas;
+- células brancas baixas e células que ajudam a parar sangramentos (plaquetas) baixas no exame sangue;
 
-- magnésio baixo e potássio baixo (o médico monitora);
+- magnésio baixo e potássio baixo (o médico deve monitorar);
 
-- alteração do paladar, tremor, ansiedade, visão turva;
+- mudança no gosto da comida (alteração do paladar), tremores, ansiedade, dificuldade para enxergar (visão turva/nublada);
 
-- dor abdominal, má digestão;
+- dor de barriga, má digestão;
 
 - ganho de peso.
 
-Reações raras (0,01% a 0,1%)
+Reações raras (acontecem em 1 a 10 pessoas a cada 10.000 - entre 0,01% e 0,1%):
 
-- inchaço na face e garganta;
+- inchaço no rosto e na garganta;
 
-- potássio alto;
+- potássio alto no sangue;
 
-- batimento lento;
+- batimentos lentos do coração;
 
-- confusão;
+- confusão de ideias;
 
-- sintomas tipo gripe com artrite e inchaço articular;
+- sintomas tipo gripe com artrite/inflamação nas juntas e inchados nas juntas/articulações;
 
-- doença pulmonar;
+- doença no pulmão;
 
-- uveíte (olhos vermelhos, doloridos e/ou inchados);
+- olhos inflamados, vermelhos, doloridos e/ou inchados (uveíte);
 
-- síndrome de Fanconi (problema raro nos rins).
+- síndrome rara nos rins, com muita sede, urina frequente, fraqueza nos músculos e desidratação (síndrome de Fanconi).
 
-Reações muito raras (menos de 0,01%)
+Reações muito raras (acontecem em menos de 1 a cada 10.000 pessoas - menos de 0,01%):
 
 - desmaio por pressão baixa;
 
@@ -245,27 +245,27 @@ Reações muito raras (menos de 0,01%)
 
 - batimento irregular do coração;
 
-- convulsões, tetania (contrações musculares) e dormência;
+- convulsões, contrações (tetania) e perda de sensibilidade nos músculos (dormência);
 
 - falta de ar com chiado ou tosse;
 
 - reação alérgica grave;
 
-- rash com coceira.
+- manchas na pele (chamadas de rash) com coceira.
 
-Atenção:
+ATENÇÃO
 
-- Pode ocorrer fibrilação atrial (batimento irregular). Avise o médico se sentir palpitações ou ritmo irregular.
+- Podem acontecer batimentos do coração muito rápidos, fora do ritmo e perigosos (fibrilação atrial). Avise o médico se sentir palpitações ou ritmo irregular do coração.
 
-- Pode ocorrer fratura incomum do fêmur (mais comum em uso prolongado para osteoporose). Procure o médico se sentir dor, fraqueza ou desconforto no quadril, coxa ou virilha.
+- Pode acontecer uma quebra/fratura muito rara do osso da coxa (fêmur), mais comum quando o remédio é usado por muito tempo para ossos fracos (osteoporose). Procure o médico se sentir dor, fraqueza ou desconforto no quadril, coxa ou virilha.
 
-9. O que fazer se alguém usar uma quantidade maior do que a indicada?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
 Uma dose maior pode causar:
 
-- alterações de sais do sangue (eletrólitos), como cálcio, fósforo e magnésio;
+- mudanças na quantidade de sais minerais do sangue (eletrólitos), como cálcio, fósforo e magnésio;
 
-- piora da função dos rins, incluindo insuficiência renal grave.
+- piora do funcionamento dos rins, incluindo parada ou perda grave do funcionamento dos rins (insuficiência renal grave).
 
-Se você recebeu uma dose maior, o médico deve monitorar de perto. Pode ser necessária infusão de cálcio.
+Se você receber uma quantidade maior do que a receitada, o médico vai acompanhar o seu caso com atenção. Talvez você precise receber cálcio na veia.
 </text>

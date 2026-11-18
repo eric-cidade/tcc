@@ -17,201 +17,215 @@
     <conferido por-data> MJ 04-05-26 </conferido por-data>
 
     <data-aprov-Anvisa>NA</data-aprov-Anvisa>
-    <versao-bruta-simplificada-IA>Sim</versao-bruta-simplificada-IA>
-    <versao-simplificada-IA-revisada-linguagem>Não</versao-simplificada-IA-revisada-linguagem>
+    <versao-bruta-simplificada-IA>Não</versao-bruta-simplificada-IA>
+    <versao-simplificada-IA-revisada-linguagem>Sim</versao-simplificada-IA-revisada-linguagem>
     <versao-simplificada-IA-revisada-farmacia>Não</versao-simplificada-IA-revisada-farmacia>
 </metadata>
 
 <text>
-1. PARA QUE ESTE MEDICAMENTO É INDICADO?
+1. ESTE REMÉDIO SERVE PARA O QUÊ?
 
-NOLVADEX-D é indicado para o tratamento do câncer de mama.
+O NOLVADEX-D trata o câncer de mama. Ele também é conhecido como citrato de tamoxifeno.
 
-2. COMO ESTE MEDICAMENTO FUNCIONA?
+2. COMO ESTE REMÉDIO FUNCIONA?
 
-O uso contínuo de NOLVADEX-D ajuda a impedir o crescimento do câncer de mama. Esse benefício parece não depender da idade, do período da menopausa ou da dose.
+Tomar o NOLVADEX-D todos os dias sem parar ajuda a impedir o crescimento do câncer de mama. Esse benefício parece não depender da idade, do período da menopausa (fase em que a mulher para de menstruar) ou da dose.
 
-3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO?
+3. QUANDO NÃO DEVO USAR ESTE REMÉDIO?
 
 Você não deve usar NOLVADEX-D se:
 
-- tiver alergia ao citrato de tamoxifeno ou a qualquer componente do medicamento;
+- tiver alergia à substância química principal (o citrato de tamoxifeno) ou a algum ingrediente do remédio;
 
 - estiver grávida, tentando engravidar ou amamentando.
 
-4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO?
+4. O QUE DEVO SABER ANTES DE TOMAR ESTE REMÉDIO?
 
-Use com cuidado e avise seu médico se:
+Use com cuidado e avise o médico:
 
-- Você está no período antes da menopausa: a menstruação pode parar.
+- se você ainda não chegou na fase em que a mulher para de menstruar (menopausa): a menstruação pode parar com o remédio;
 
-- Você usa anticoncepcional hormonal: alguns podem atrapalhar o efeito de NOLVADEX-D.
+- se você usa anticoncepcional hormonal: alguns podem atrapalhar o efeito do NOLVADEX-D;
 
-- Você tem sangramento vaginal, dor pélvica ou outros sintomas ginecológicos durante (ou após) o uso: podem ocorrer alterações no endométrio (parede interna do útero), incluindo câncer.
+- se você tiver sangramento vaginal, dor na parte de baixo da barriga (na pelve) ou outros sintomas ginecológicos durante (ou após) o uso. Podem ocorrer alterações no tecido de dentro do útero (endométrio), incluindo câncer;
 
-- Você tem angioedema hereditário (inchaço da pele): NOLVADEX-D pode desencadear ou piorar crises.
+- se você tiver inchaço da pele (angioedema hereditário): o NOLVADEX-D pode causar ou piorar crises;
 
-- Você tem doença do coração, incluindo arritmia (batimento fora do ritmo): NOLVADEX-D pode aumentar o risco de problemas no ritmo do coração.
+- se você tem doença do coração, incluindo batimentos irregulares (arritmia): o NOLVADEX-D pode aumentar o risco de problemas no ritmo do coração;
 
-- Você está antes da menopausa e usa NOLVADEX-D para câncer de mama: pode haver perda de minerais dos ossos.
+- se você ainda não está na fase em que a mulher para de menstruar (menopausa) e usa NOLVADEX-D para câncer de mama: você pode perder minerais dos ossos;
 
-- Você fará reconstrução de mama (cirurgia tardia): NOLVADEX-D pode aumentar o risco de complicações em vasos muito pequenos do enxerto.
+- se você vai fazer cirurgia de reconstrução dos seios/mamas (cirurgia tardia): o NOLVADEX-D pode aumentar o risco de problemas em vasos muito pequenos do enxerto.
 
-Dirigir e operar máquinas: Em geral, NOLVADEX-D não deve atrapalhar essas atividades. Porém, algumas pessoas sentem fadiga (cansaço). Se isso acontecer, tenha cuidado ao dirigir e operar máquinas.
+Dirigir e usar máquinas: em geral, NOLVADEX-D não deve atrapalhar essas atividades. Porém, algumas pessoas sentem cansaço (fadiga). Se isso acontecer, tenha cuidado ao dirigir e usar máquinas.
 
-Interações com outros medicamentos: Use com cuidado e avise o médico se você toma:
+COMBINAÇÃO COM OUTROS REMÉDIOS E SUBSTÂNCIAS
 
-- anticoagulantes (ex.: varfarina),
+Use com cuidado e avise o médico se você:
 
-- quimioterapia,
+- toma remédios para entupimento dos vasos (trombose), anticoagulantes como varfarina;
 
-- rifampicina,
+- faz quimioterapia;
 
-- antidepressivos ISRS (inibidores seletivos da recaptação de serotonina, ex.: paroxetina).
+- toma rifampicina;
 
-Não use NOLVADEX-D junto com inibidores da aromatase, como anastrozol, letrozol e exemestano.
+- toma antidepressivos inibidores seletivos da recaptação de serotonina - ISRS (ex.: paroxetina).
 
-Gravidez e amamentação: Você não deve engravidar nem amamentar durante o tratamento e por 9 meses após parar NOLVADEX-D. Converse com o médico sobre métodos para evitar gravidez. Categoria de risco na gravidez: D. Se houver suspeita de gravidez, avise o médico imediatamente.
+Não use NOLVADEX-D junto com tratamentos feitos de hormônios (inibidores da aromatase, como anastrozol, letrozol e exemestano).
 
-Outros avisos importantes:
+Gravidez e amamentação: você não deve engravidar nem amamentar durante o tratamento e por 9 meses após parar o NOLVADEX-D. Converse com o médico sobre métodos para evitar gravidez.
 
-- Este medicamento pode causar doping.
+Risco na gravidez: se você achar que está grávida, avise o médico IMEDIATAMENTE.
 
-- Contém lactose (abaixo de 0,25 g/comprimido). Não use se você tem síndrome de má-absorção de glicose-galactose.
+OUTROS AVISOS IMPORTANTES
+
+- Este remédio aparece em exames antidoping.
+
+- Contém lactose (menos de 0,25 g/comprimido). Não use se você tem problemas para absorver açúcares (síndrome de má absorção de glicose-galactose).
 
 - Contém o corante dióxido de titânio.
 
-- NOLVADEX-D pode causar danos ao fígado. Por isso, você precisa de acompanhamento médico e exames periódicos.
+- O NOLVADEX-D pode causar problemas no fígado. Por isso, você vai precisar fazer consultas e exames de tempos em tempos para o médico acompanhar a sua saúde.
 
-5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO?
+5. COMO GUARDAR ESTE REMÉDIO?
 
-Guarde em temperatura ambiente (15°C a 30°C). Não use o medicamento vencido. Como é o comprimido: 20 mg, comprimidos revestidos octogonais, brancos ou quase brancos. Mantenha fora do alcance de crianças.
+Guarde em temperatura ambiente (de 15 °C a 30 °C).
+Não use o remédio com prazo de validade vencido.
 
-6. COMO DEVO USAR ESTE MEDICAMENTO?
+Aspecto/aparência do comprimido: 20 mg, comprimido revestido, com 8 lados, branco ou quase branco.
 
-Use pela boca (via oral), com água, de preferência no mesmo horário todos os dias. Não parta e não mastigue.
+Mantenha fora do alcance de crianças.
 
-Doses indicadas
+6. COMO DEVO USAR ESTE REMÉDIO?
 
-- Adultos (inclusive idosos): Em geral, recomenda-se tratamento por pelo menos 5 anos (a duração ideal ainda não está definida). Dose diária recomendada: 20 mg por dia. Se não houver resposta satisfatória após 1 a 2 meses, o médico pode aumentar para 20 mg, 2 vezes ao dia.
+Tome o remédio pela boca (por via oral), com água, de preferência no mesmo horário todos os dias.
 
-- Crianças: não é recomendado (segurança e eficácia não estabelecidas).
+NÃO parta e NÃO mastigue o comprimido.
 
-7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO?
+Quantidades (doses) indicadas
 
-Se você esquecer um comprimido, só tome a dose esquecida se ainda faltarem mais de 12 horas para a dose do dia seguinte.
+- Adultos (inclusive pessoas idosas): em geral, o tratamento dura por pelo menos 5 anos (a duração ideal depende de cada pessoa).
+Dose diária recomendada: 20 mg por dia.
+Se o remédio não fizer o efeito esperado depois de 1 a 2 meses, o médico pode aumentar para 20 mg, 2 vezes por dia.
 
-8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR?
+- Crianças: não é recomendado porque não se sabe se ele é seguro ou se funciona em crianças.
 
-Muito comuns (≥ 10%)
+7. O QUE DEVO FAZER SE EU ESQUECER DE USAR ESTE REMÉDIO?
 
-- náusea
+Se você esquecer um comprimido, só tome a dose esquecida se ainda faltarem mais de 12 horas para a próxima dose (no dia seguinte).
 
-- retenção de líquidos (ex.: tornozelos inchados)
+8. QUAIS OS PROBLEMAS QUE ESTE REMÉDIO PODE ME CAUSAR?
 
-- sangramento vaginal
+Reações muito comuns (acontecem em mais de 10% das pessoas - mais de 1 pessoa a cada 10):
 
-- corrimento vaginal
+- enjoos;
 
-- erupções na pele (coceira/descamação)
+- retenção de líquidos (ex.: tornozelos inchados);
 
-- fogachos (ondas de calor)
+- sangramento vaginal;
 
-- fadiga (cansaço)
+- corrimento vaginal;
 
-- depressão
+- irritação na pele (coceira/descamação);
 
-Comuns (1% a 10%)
+- ondas de calor (fogachos);
 
-- anemia
+- cansaço (fadiga);
 
-- catarata
+- tristeza/depressão.
 
-- retinopatia (lesão na retina)
+Reações comuns (acontecem em 1 a 10 pessoas a cada 100 - entre 1% e 10%):
 
-- reações alérgicas
+- diminuição de células vermelhas do sangue (anemia);
 
-- triglicérides altos
+- visão nublada (catarata);
 
-- cãibras
+- ferida no fundo do olho (retinopatia);
 
-- dor muscular
+- reações alérgicas;
 
-- miomas uterinos (podem causar desconforto pélvico ou sangramento)
+- níveis altos de gordura no sangue (triglicerídeos altos);
 
-- derrame cerebral isquêmico
+- cãibras;
 
-- dor de cabeça
+- dor nos músculos;
 
-- delírios
+- caroços benignos no útero (miomas uterinos) que podem causar dor na parte de baixo da barriga ou sangramentos;
 
-- alterações de sensibilidade: formigamento/dormência (parestesia) e alteração do paladar (disgeusia)
+- sangramento no cérebro (derrame cerebral isquêmico);
 
-- coceira na vulva
+- dor de cabeça;
 
-- alterações no endométrio: espessamento (hiperplasia) e pólipos
+- confusão de pensamentos e ideias (delírios);
 
-- queda de cabelo
+- problemas de sensibilidade: formigamento/perda de sensibilidade no corpo (dormência) e gosto ruim na boca (disgeusia);
 
-- vômito, diarreia, prisão de ventre
+- coceira na vulva;
 
-- alterações nas enzimas do fígado
+- alterações na camada de dentro do útero (endométrio): o tecido fica mais grosso (hiperplasia) e surgem pequenos caroços (pólipos);
 
-- gordura no fígado (esteatose)
+- queda de cabelo;
 
-- trombose e embolia (ex.: trombose venosa profunda, trombose em vasos pequenos, embolia pulmonar)
+- vômito, diarreia, prisão de ventre;
 
-Incomuns (0,1% a 1%)
+- alterações nas enzimas do fígado;
 
-- plaquetas baixas (trombocitopenia)
+- gordura no fígado (esteatose);
 
-- glóbulos brancos baixos (leucopenia)
+- entupimento de vasos de sangue (ex.: trombose venosa profunda, trombose em vasos pequenos, embolia pulmonar).
 
-- alterações da visão
+Reações incomuns (acontecem em 1 a 10 pessoas a cada 1.000 - entre 0,1% e 1%):
 
-- pancreatite (inflamação do pâncreas)
+- nível baixo de células que ajudam a parar sangramentos (plaquetas) (trombocitopenia);
 
-- potássio alto em quem tem metástase óssea
+- células brancas baixas (leucopenia);
 
-- câncer do endométrio
+- problemas para enxergar;
 
-- pneumonite intersticial (inflamação dos pulmões: tosse/falta de ar)
+- inflamação do pâncreas (pancreatite);
 
-- cirrose
+- potássio alto em quem tem metástase óssea;
 
-Raras (0,01% a 0,1%)
+- câncer da camada interna do útero (endométrio);
 
-- Incluem problemas graves de sangue, olhos e fígado, e reações graves na pele, por exemplo:
+- inflamação dos pulmões: tosse/falta de ar (pneumonite intersticial);
 
-- hepatite, colestase (redução do fluxo da bile), insuficiência hepática, necrose do fígado
+- doença grave do fígado (cirrose).
 
-- angioedema (inchaço em pele e mucosas)
+Reações raras (acontecem em 1 a 10 pessoas a cada 10.000 - entre 0,01% e 0,1%):
 
-- reações graves na pele: síndrome de Stevens-Johnson, necrólise epidérmica tóxica, eritema multiforme, pênfigo bolhoso
+Incluem problemas graves no sangue, olhos e fígado e reações graves na pele, por exemplo:
 
-- vasculite cutânea (inflamação dos vasos na pele)
+- hepatite, diminuição da substância produzida pelo fígado chamada bile, mau funcionamento grave do fígado (insuficiência hepática), morte dos tecidos do fígado (necrose);
 
-Muito raras (< 0,01%)
+- inchaço na pele e em partes internas e úmidas do corpo (angioedema);
 
-- lúpus cutâneo
+- problemas graves na pele: problema alérgico raro (síndrome de Stevens-Johnson), alergia grave na pele causada por remédios (necrólise epidérmica tóxica), manchas vermelhas (eritema multiforme), feridas com bolhas grandes de líquido na pele (pênfigo bolhoso);
 
-- porfiria cutânea tardia
+- inflamação dos vasos na pele (vasculite cutânea).
 
-- reação inflamatória na pele parecida com a de radioterapia
+Muito raras (menos de 1 pessoa em cada 10.000):
 
-Frequência desconhecida
+- um problema do sistema de defesa do corpo (lúpus cutâneo);
 
-- piora do angioedema hereditário Pare de tomar e procure um médico imediatamente se você tiver:
+- sensibilidade grave ao sol com bolhas e feridas na pele (porfiria cutânea tardia);
 
-- dificuldade para respirar, com ou sem inchaço de rosto, lábios, língua e/ou garganta;
+- inflamação na pele parecida com a inflamação de radioterapia.
 
-- inchaço de rosto, lábios, língua e/ou garganta com dificuldade para engolir;
+Reações com frequência desconhecida:
+
+- piora de crises de inchaço que vêm de família (angioedema hereditário). Pare de tomar e procure um médico IMEDIATAMENTE se você tiver:
+
+- dificuldade para respirar, com ou sem inchaço no rosto, lábios, língua e/ou garganta;
+
+- inchaço no rosto, lábios, língua e/ou garganta com dificuldade para engolir;
 
 - inchaço nas mãos, pés ou tornozelos;
 
-- vermelhidão importante na pele.
+- vermelhidão grave na pele.
 
-9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA?
+9. O QUE DEVO FAZER SE EU USAR UMA QUANTIDADE DESTE REMÉDIO MAIOR DO QUE O MÉDICO INDICOU?
 
-Não há tratamento específico para superdose. Tomar mais do que o indicado pode aumentar ou piorar as reações adversas. Procure assistência médica.
+Não existe nenhum tratamento específico para doses maiores que as indicadas (superdoses). Tomar doses mais altas que as indicadas pode aumentar ou piorar as reações indesejadas.
+PROCURE ASSISTÊNCIA MÉDICA.
 </text>
