@@ -957,7 +957,8 @@
 
       <section class="hero">
         <h1>
-          Procure um remédio. Receba a bula <em>em português de gente.</em>
+          Procure um remédio. Receba a bula
+          <em>em português mais fácil de entender.</em>
         </h1>
         <p class="lead">
           Esta página é um exemplo de como o site final consumiria a API de
@@ -994,11 +995,17 @@
             />
             <span id="minval">0.35</span>
           </label>
-          <label class="filtro-toggle" title="Restringe a busca semântica aos chunks da bula simplificada (linguagem acessível).">
+          <label
+            class="filtro-toggle"
+            title="Restringe a busca semântica aos chunks da bula simplificada (linguagem acessível)."
+          >
             <input type="checkbox" id="somente-simp" />
             Só na bula simplificada
           </label>
-          <label class="filtro-toggle" title="Restringe a busca semântica aos chunks da bula original (texto técnico).">
+          <label
+            class="filtro-toggle"
+            title="Restringe a busca semântica aos chunks da bula original (texto técnico)."
+          >
             <input type="checkbox" id="somente-orig" />
             Só na bula original
           </label>
@@ -1038,19 +1045,20 @@
           Compare dois termos e veja qual deles a linguagem acessível prefere. A
           evidência vem do próprio corpus paralelo: um termo relativamente mais
           frequente nas bulas <strong>simplificadas</strong> do que nas
-          <strong>originais</strong> é o que os simplificadores escolheram, e
-          só de <strong>estar presente</strong> na versão validada o termo já
-          ganha pontos. Ocorrências <strong>entre parênteses</strong> não
-          contam: ali costuma estar o termo técnico que a bula simplificada é
-          obrigada a exibir — «pressão alta (hipertensão)». Familiaridade e
-          comprimento entram como critérios de desempate. A comparação pode ser
-          restrita a um <strong>recorte do corpus</strong> — todas as bulas, só
-          as de hipertensão, só as de oncologia —, porque o que é simples num
-          domínio não é necessariamente simples no outro. Repare na
+          <strong>originais</strong> é o que os simplificadores escolheram, e só
+          de <strong>estar presente</strong> na versão validada o termo já ganha
+          pontos. Ocorrências <strong>entre parênteses</strong> não contam: ali
+          costuma estar o termo técnico que a bula simplificada é obrigada a
+          exibir — «pressão alta (hipertensão)». Familiaridade e comprimento
+          entram como critérios de desempate. A comparação pode ser restrita a
+          um <strong>recorte do corpus</strong> — todas as bulas, só as de
+          hipertensão, só as de oncologia —, porque o que é simples num domínio
+          não é necessariamente simples no outro. Repare na
           <strong>procedência</strong> de cada recorte: hoje todas as bulas
           simplificadas, de hipertensão e de oncologia, foram revisadas por
           linguistas; um subcorpus simplificado por IA sem revisão teria outro
-          estatuto de evidência, e por isso a procedência fica à vista. Abaixo do score de cada termo aparece ainda uma
+          estatuto de evidência, e por isso a procedência fica à vista. Abaixo
+          do score de cada termo aparece ainda uma
           <strong>métrica adicional</strong>, o TF-IDF clássico do termo em cada
           lado do corpus: é uma segunda leitura da mesma evidência, informativa,
           que <strong>não</strong> entra no veredito.
@@ -1098,8 +1106,8 @@
         </div>
         <div class="api-note">
           Chamando <code>GET /simplicidade?a=…&amp;b=…&amp;escopo=…</code> (os
-          recortes vêm de <code>GET /escopos</code>) — este endpoint só
-          lê o corpus, não precisa do Meilisearch nem do modelo de embedding.
+          recortes vêm de <code>GET /escopos</code>) — este endpoint só lê o
+          corpus, não precisa do Meilisearch nem do modelo de embedding.
         </div>
         <div class="status" id="cmp-status" hidden></div>
         <div class="simp-result" id="cmp-result"></div>
@@ -1152,8 +1160,7 @@
       // de /buscar para a API, então não há cross-origin nenhum. Para apontar
       // para outra API (ex.: abrir o arquivo direto, com a API em outra porta),
       // acrescente ?api=http://localhost:8000 na URL — sem precisar editar aqui.
-      const API_BASE =
-        new URLSearchParams(location.search).get("api") ?? "";
+      const API_BASE = new URLSearchParams(location.search).get("api") ?? "";
       document.getElementById("endpoint").textContent =
         (API_BASE || location.origin) + "/buscar";
 
@@ -1553,13 +1560,18 @@
 
         // Raiz virtual "todo o corpus": soma o que cada raiz tem.
         for (const no of dados.escopos)
-          for (const [pid, qtd] of Object.entries(no.documentos_por_proveniencia || {}))
-            docsPorEscopoProv[""][pid] = (docsPorEscopoProv[""][pid] || 0) + qtd;
+          for (const [pid, qtd] of Object.entries(
+            no.documentos_por_proveniencia || {},
+          ))
+            docsPorEscopoProv[""][pid] =
+              (docsPorEscopoProv[""][pid] || 0) + qtd;
 
         cmpProveniencia.insertAdjacentHTML(
           "beforeend",
           (dados.proveniencias || [])
-            .map((p) => `<option value="${esc(p.id)}">${esc(p.rotulo)}</option>`)
+            .map(
+              (p) => `<option value="${esc(p.id)}">${esc(p.rotulo)}</option>`,
+            )
             .join(""),
         );
         cmpEscopo.addEventListener("change", ajustarProveniencias);
@@ -1612,7 +1624,9 @@
         const url =
           `${API_BASE}/simplicidade?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}` +
           (escopo ? `&escopo=${encodeURIComponent(escopo)}` : "") +
-          (proveniencia ? `&proveniencia=${encodeURIComponent(proveniencia)}` : "");
+          (proveniencia
+            ? `&proveniencia=${encodeURIComponent(proveniencia)}`
+            : "");
         try {
           const res = await fetch(url);
           if (!res.ok) {
@@ -1733,7 +1747,8 @@
         if (!tf) return "";
         const d = Number(tf.delta);
         const cls = d > 0 ? "pos" : d < 0 ? "neg" : "";
-        const lado = d > 0 ? "simplificadas" : d < 0 ? "originais" : "nenhum lado";
+        const lado =
+          d > 0 ? "simplificadas" : d < 0 ? "originais" : "nenhum lado";
         return `
         <div class="t-tfidf"
              title="Métrica adicional, fora do score: TF-IDF médio do termo em cada lado (TF = ocorrências por mil tokens do documento, fora de parênteses; IDF suavizado sobre os ${tf.n_documentos} documentos do recorte). Δ positivo = o termo pesa mais nas bulas simplificadas.">
